@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+        
+    <script type='application/javascript' src='/resources/datas/montpellier/ParamsDatas.js'></script>
+    
+    <script type='application/javascript' src='/lib/mieuxtrieranantes/comments.js'></script>
+    <script type='application/javascript' src='/lib/mieuxtrieranantes/common.js'></script>
+    <script type='application/javascript' src='/lib/mieuxtrieranantes/date.js'></script>
+    <script type='application/javascript' src='/lib/mieuxtrieranantes/plageshoraires.js'></script>
+    <script type='application/javascript' src='/lib/mieuxtrieranantes/search.js'></script>
+    <script type='application/javascript' src='/lib/mieuxtrieranantes/translation.js'></script>
+    
+    <!-- DATA -->
+    <script type="text/javascript">
+      // CRN
+      	// Au choix "montpellier" ou "nantes" ou "ernee"
+  		var adaptation = getParam("adaptation");
+    	function includeJS(jsFile) {
+    		var oHead = document.getElementsByTagName('HEAD').item(0);
+			var oScript= document.createElement("script");
+			oScript.type = "text/javascript";
+			oScript.src= "resources/datas/" + adaptation + "/" + jsFile;
+			oHead.appendChild(oScript);
+		}
+    includeJS("AdvicesDatas.js");
+		if (isPageActive("dechets")) {
+			includeJS("UsualCategoriesDatas.js");
+			includeJS("GarbagesDatas.js");
+			includeJS("CollectModsDatas.js");
+		}
+		if (isPageActive("fiches") ) {
+			includeJS("InfosDatas.js");
+		}
+		if (isPageActive("carte") || isPageActive("lieux")) {
+			includeJS("StructuresDatas.js");
+		}
+		if (isPageActive("carte")) {
+			includeJS("ContainersDatas.js");
+		}
+	</script>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script type='application/javascript' src='/lib/fastclick/fastclick.js'></script>
+    <script type="text/javascript">      
+        if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function() {
+                FastClick.attach(document.body);
+            }, false);
+        }
+    </script>
+    
+    <!-- LEAFLET -->  
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="lib/leaflet-markercluster/dist/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />   
+    <link rel="stylesheet" href="lib/leaflet-markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="lib/leaflet-markercluster/dist/MarkerCluster.Default.css" />
+    <script src="lib/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
+    
+    <!-- LIB -->
+    <script src="lib/transliteration/transliteration.min.js"></script>
+    
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/controller/carte.js"></script>
+    <script src="js/services.js"></script>
+
+    
+  </head>
+  <body ng-app="starter">
+    <!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>
