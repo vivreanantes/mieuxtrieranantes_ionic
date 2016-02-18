@@ -1,6 +1,6 @@
 
 /**
- * Renvoie la liste des objets correspondant à une recherche globale.
+ * Renvoie la liste des objets correspondant Ã  une recherche globale.
  * RM_REC_GLOB_01
  */
 function _getGlobalSearchResult(texteRecherche) {
@@ -14,7 +14,7 @@ function _getGlobalSearchResult(texteRecherche) {
 		ajouteDatasSelonHash(tempo, _hashGarbagesDatas, _garbagesDatas,
 				texte, locale, "garbages");
 		ajouteDatasSelonHash(tempo, _hashFichesDatas, _infosDatas,
-				texteNoAccents, locale, "fiches");
+				texte, locale, "fiches");
 		ajouteDatasSelonHash(tempo, _hashDocsDatas, _docsDatas, texte,
 				locale, "docs");
 		ajouteDatasSelonHash(tempo, _hashStructuresDatas,
@@ -28,12 +28,12 @@ function _getGlobalSearchResult(texteRecherche) {
 };
 
 /**
- * Cette fonctionne modifie un tableau fourni en paramètre, en ajoutant des
- * éléments du tableau _datas.<br/> On ajoute les éléments du tableau
- * _datas après avoir rechercher dans le tableau _hash tous les éléments
+ * Cette fonctionne modifie un tableau fourni en paramÃ¨tre, en ajoutant des
+ * Ã©lÃ©ments du tableau _datas.<br/> On ajoute les Ã©lÃ©ments du tableau
+ * _datas aprÃ¨s avoir rechercher dans le tableau _hash tous les Ã©lÃ©ments
  * dont les codes sont exacement la chaine texteNoAccents.<br/> On prend en
  * compte locale dans la recherche de _hash.<br/> page est le nom de la
- * page sur laquelle sera affichée la donnée, et qui est mise sur la donnée
+ * page sur laquelle sera affichÃ©e la donnÃ©e, et qui est mise sur la donnÃ©e
  */
 function ajouteDatasSelonHash(tableauARetourner, _hash, _datas, texteNoAccents,
 		locale, page) {
@@ -52,7 +52,7 @@ function ajouteDatasSelonHash(tableauARetourner, _hash, _datas, texteNoAccents,
 				if (typeof _datas[k] != "undefined"
 						&& _datas[k]["code"] == codeCle) {
 					if (page == "homecollectmods") {
-						_datas[k]["type"] = "Collecte à domicile";
+						_datas[k]["type"] = "Collecte Ã  domicile";
 						_datas[k]["type_en"] = "Home collect";
 						_datas[k]["image"] = "icon-go-home.png";
 						_datas[k]["nom"] = _datas[k]["dcv"];
@@ -73,7 +73,7 @@ function ajouteDatasSelonHash(tableauARetourner, _hash, _datas, texteNoAccents,
 					// + this.getRecordValue(_datas[k], "nom") + "</a>";
 					// }
 					_datas[k]["page"] = page;
-					// Permet de prendre le français quand on a pas la
+					// Permet de prendre le franÃ§ais quand on a pas la
 					// traduction
 					_datas[k]["nom_en"] = this.getRecordValue(_datas[k], "nom");
 					_datas[k]["type_en"] = this.getRecordValue(_datas[k],
@@ -92,24 +92,24 @@ function ajouteDatasSelonHash(tableauARetourner, _hash, _datas, texteNoAccents,
 };
 
 /**
- * Retire les accents d'une chaîne de caractère et met en minuscule
+ * Retire les accents d'une chaÃ®ne de caractÃ¨re et met en minuscule
  */
 function _utilRetireAccentEtMinuscule(result) {
-	result = result.replace(/[ÀàÁáÂâÃãÄäÅåÆæĀāĂăĄą]/g, "a");
-	result = result.replace(/[ÈèÉéÊêËëĒēĔĕĖėĘęĚě]/g, "e");
-	result = result.replace(/[Çç]/g, "c");
-	result = result.replace(/[Ð]/g, "d");
-	result = result.replace(/[ÌÍÎÏìíîï]/g, "i");
-	result = result.replace(/[ÙÚÛÜùúûü]/g, "u");
-	result = result.replace(/[Ññ]/g, "n");
-	result = result.replace(/[ÌÍÎÏìíîï]/g, "i");
-	result = result.replace(/[Šš]/g, "s");
-	result = result.replace(/[Ÿÿý]/g, "y");
-	result = result.replace(/[Žž]/g, "z");
+	result = result.replace(/[Ã€Ã Ã�Ã¡Ã‚Ã¢ÃƒÃ£Ã„Ã¤Ã…Ã¥Ã†Ã¦Ä€Ä�Ä‚ÄƒÄ„Ä…]/g, "a");
+	result = result.replace(/[ÃˆÃ¨Ã‰Ã©ÃŠÃªÃ‹Ã«Ä’Ä“Ä”Ä•Ä–Ä—Ä˜Ä™ÄšÄ›]/g, "e");
+	result = result.replace(/[Ã‡Ã§]/g, "c");
+	result = result.replace(/[Ã�]/g, "d");
+	result = result.replace(/[ÃŒÃ�ÃŽÃ�Ã¬Ã­Ã®Ã¯]/g, "i");
+	result = result.replace(/[Ã™ÃšÃ›ÃœÃ¹ÃºÃ»Ã¼]/g, "u");
+	result = result.replace(/[Ã‘Ã±]/g, "n");
+	result = result.replace(/[ÃŒÃ�ÃŽÃ�Ã¬Ã­Ã®Ã¯]/g, "i");
+	result = result.replace(/[Å Å¡]/g, "s");
+	result = result.replace(/[Å¸Ã¿Ã½]/g, "y");
+	result = result.replace(/[Å½Å¾]/g, "z");
 	result = result.toLowerCase();
 	// Retire les mots inutiles
 	result = _utilRetireMotsInutiles(result);
-	// trim : permet de retirer les blancs en début et fin de chaîne.
+	// trim : permet de retirer les blancs en dÃ©but et fin de chaÃ®ne.
 	result = result.trim();
 	// RM_RE_MODE_RECH_06, RM_RE_MOTS_CLES_02
 	// Remplace les " " et les "+" par des virgules
@@ -127,11 +127,11 @@ function _utilRetireMotsInutiles(result) {
 }
 
 /**
- * Met un nom au singulier : retire les s à la fin, ou les 'x' Exemple :
+ * Met un nom au singulier : retire les s Ã  la fin, ou les 'x' Exemple :
  * "emmaus,as,b" renvoie "emmau,emmaus,a,as,b," RM_RE_MODE_RECH_07
  */
 function _utilMettreNomAuSingulier(mots) {
-	// supprime le 's' en caractère final
+	// supprime le 's' en caractÃ¨re final
 	// result = result.replace(/([^]*)s,$/, '$1,');
 	var result = "";
 	var codesCles = mots.split(',');
@@ -150,20 +150,20 @@ function _utilMettreNomAuSingulier(mots) {
 }
 
 /**
- * Retire les accents d'une chaîne de caractère
+ * Retire les accents d'une chaÃ®ne de caractÃ¨re
  */
 function _utilRetireAccent(result) {
 	result = result.trim();
-	result = result.replace(/[ÀàÁáÂâÃãÄäÅåÆæĀāĂăĄą]/g, "a");
-	result = result.replace(/[ÈèÉéÊêËëĒēĔĕĖėĘęĚě]/g, "e");
-	result = result.replace(/[Çç]/g, "c");
-	result = result.replace(/[Ð]/g, "d");
-	result = result.replace(/[ÌÍÎÏìíîï]/g, "i");
-	result = result.replace(/[ÙÚÛÜùúûü]/g, "u");
-	result = result.replace(/[Ññ]/g, "n");
-	result = result.replace(/[ÌÍÎÏìíîï]/g, "i");
-	result = result.replace(/[Šš]/g, "s");
-	result = result.replace(/[Ÿÿý]/g, "y");
-	result = result.replace(/[Žž]/g, "z");
+	result = result.replace(/[Ã€Ã Ã�Ã¡Ã‚Ã¢ÃƒÃ£Ã„Ã¤Ã…Ã¥Ã†Ã¦Ä€Ä�Ä‚ÄƒÄ„Ä…]/g, "a");
+	result = result.replace(/[ÃˆÃ¨Ã‰Ã©ÃŠÃªÃ‹Ã«Ä’Ä“Ä”Ä•Ä–Ä—Ä˜Ä™ÄšÄ›]/g, "e");
+	result = result.replace(/[Ã‡Ã§]/g, "c");
+	result = result.replace(/[Ã�]/g, "d");
+	result = result.replace(/[ÃŒÃ�ÃŽÃ�Ã¬Ã­Ã®Ã¯]/g, "i");
+	result = result.replace(/[Ã™ÃšÃ›ÃœÃ¹ÃºÃ»Ã¼]/g, "u");
+	result = result.replace(/[Ã‘Ã±]/g, "n");
+	result = result.replace(/[ÃŒÃ�ÃŽÃ�Ã¬Ã­Ã®Ã¯]/g, "i");
+	result = result.replace(/[Å Å¡]/g, "s");
+	result = result.replace(/[Å¸Ã¿Ã½]/g, "y");
+	result = result.replace(/[Å½Å¾]/g, "z");
 	return result;
 }

@@ -1,4 +1,8 @@
 var _paramsDatas = {
+	'adaptation' : {
+		"code" : "adaptation",
+		"valeur" : "nantes"
+	},
 	'geo.boundsMinLong' : {
 		"code" : "geo.boundsMinLong",
 		"valeur" : "-2.26"

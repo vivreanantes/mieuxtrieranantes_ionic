@@ -59,6 +59,7 @@ angular.module('starter.controllers', [])
     dechets=$filter('filter')(_garbagesDatas, {code : dechet_code});
 
     $scope.toggleObject = {item: -1};
+    $scope.toggleObject2 = {item2: -1};
 
     //Le filter renvoie necessairement un Array donc on extrait le premier élément trouvé
     var dechet=dechets[0];

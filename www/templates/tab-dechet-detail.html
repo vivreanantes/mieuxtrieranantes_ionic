@@ -19,10 +19,10 @@
       </div>
         
 	<p><b>Conseils </b></p>
-  <!-- CRN -->
-      <div class="mode-collecte" ng-repeat="conseil in conseils" ng-click="toggleObject.item = $index">
+  	<!-- CRN -->
+    <div class="conseils" ng-repeat="conseil in conseils" ng-click="toggleObject2.item2 = $index">
           <!-- INFO conseil s'affiche uniquement sur ng-click du conseil -->
-          <div class="description" ng-show="toggleObject.item == $index" class="mode-collecte-info">
+          <div class="description" ng-show="toggleObject2.item2 == $index" class="conseil-info">
               <!-- HTML BRUT affiché car le champ descr contient des balises HTML -->
               <p ng-bind-html="conseil.descr"></p>
           </div>
