@@ -1,17 +1,15 @@
 <ion-view view-title="Déchets">
   <ion-content class="padding">
-   
- <div class="list">
 
-        <a ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}"
-           ng-href="#/tab/dechet/cat/{{::categorie.code}}"
-           class="item item-thumbnail-left">
-
-          <img ng-src="resources/images/{{::categorie.image}}"/>
-          <h2>{{::categorie.nom}}</h2>
-        </a>
-
- </div>
+  <div class="list panneau_bouton">
+    <span ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}" >
+      <a ng-href="#/tab/dechet/cat/{{::categorie.code}}"
+        class="selectable style_bouton">
+        <img ng-src="resources/images/{{::categorie.image}}"/><br/>
+        <span>{{::categorie.nom}}</span>
+      </a>
+    </span>
+  </div>
       
   </ion-content>
 </ion-view>
