@@ -1,0 +1,83 @@
+<ion-view view-title="{{::quiz.nom}}"> <ion-content class="padding">
+
+<form id='quizviewform'>
+
+	{{::quiz.descr}} <input type='hidden' name='ok' value='{{::quiz.ok}}' />
+
+	<div class='qheader'>
+		<img src={{::quiz.q1i1}} height='80px' /><br />1) {{::quiz.q1}}
+	</div>
+
+	<div class='qselections'>
+		<input type='checkbox' value='a' name='q1r1'> <span id='q1r1'>{{::quiz.q1r1}}</span><br />
+		<input type='checkbox' value='b' name='q1r2'> <span id='q1r2'>{{::quiz.q1r2}}</span><br />
+		<input type='checkbox' value='c' name='q1r3'> <span id='q1r3'>{{::quiz.q1r3}}</span><br />
+		<span id='q1e1'> </span> <span id='q1r1' style='font-weight: bold;'>{{::quiz.q1e1}}</span>
+	</div>
+
+	<div class='qheader'>
+		<img src={{::quiz.q2i1}} height='80px' /><br /> 2) {{::quiz.q2}}
+	</div>
+
+	<div class='qselections'>
+		<input type='checkbox' value='a' name='q2r1'> <span id='q2r1'>{{::quiz.q2r1}}</span><br />
+		<input type='checkbox' value='b' name='q2r2'> <span id='q2r2'>{{::quiz.q2r2}}</span><br />
+		<input type='checkbox' value='c' name='q2r3'> <span id='q2r3'>{{::quiz.q2r3}}</span><br />
+		<span id='q2e1'> </span> <span id='q1r1' style='font-weight: bold;'>{{::quiz.q2e1}}</span>
+	</div>
+
+	<div class='qheader'>
+		<img src={{::quiz.q3i1}} height='80px' /><br />3) {{::quiz.q3}}
+	</div>
+
+	<div class='qselections'>
+		<input type='checkbox' value='a' name='q3r1'> <span id='q3r1'>{{::quiz.q3r1}}</span><br />
+		<input type='checkbox' value='b' name='q3r2'> <span id='q3r2'>{{::quiz.q3r2}}</span><br />
+		<input type='checkbox' value='c' name='q3r3'> <span id='q3r3'>{{::quiz.q3r3}}</span><br />
+		<span id='q3e1'> </span> <span id='q1r1' style='font-weight: bold;'>{{::quiz.q3e1}}</span>
+	</div>
+
+	<div class='qheader'>
+		<img src={{::quiz.q4i1}} height='80px' /><br />4) {{::quiz.q4}}
+	</div>
+
+	<div class='qselections'>
+		<input type='checkbox' value='a' name='q4r1'> <span id='q4r1'>{{::quiz.q4r1}}</span><br />
+		<input type='checkbox' value='b' name='q4r2'> <span id='q4r2'>{{::quiz.q4r2}}</span><br />
+		<input type='checkbox' value='c' name='q4r3'> <span id='q4r3'>{{::quiz.q4r3}}</span><br />
+		<span id='q4e1'> </span><span id='q1r1' style='font-weight: bold;'>{{::quiz.q4e1}}</span>
+	</div>
+
+
+	<div class='qheader'>
+		<img src={{::quiz.q5i1}} height='80px' /><br />5) {{::quiz.q5}}
+	</div>
+
+	<div class='qselections'>
+		<input type='checkbox' value='a' name='q5r1'> <span id='q5r1'>{{::quiz.q5r1}}</span><br />
+		<input type='checkbox' value='b' name='q5r2'> <span id='q5r2'>{{::quiz.q5r2}}</span><br />
+		<input type='checkbox' value='c' name='q5r3'> <span id='q5r3'>{{::quiz.q5r3}}</span><br />
+		<span id='q5e1'> </span><span id='q1r1' style='font-weight: bold;'>{{::quiz.q5e1}}</span>
+	</div>
+</form>
+<br />
+<span id='resultat' style='font-weight: bold;'>&nbsp;</span>
+<div id='qres1'>
+	<img src='resources/images/quiz/1.png' height='80px' />
+</div>
+<div id='qres2'>
+	<img src='resources/images/quiz/2.png' height='80px' />
+</div>
+<div id='qres3'>
+	<img src='resources/images/quiz/3.png' height='80px' />
+</div>
+<div id='qres4'>
+	<img src='resources/images/quiz/4.png' height='80px' />
+</div>
+<div id='qres5'>
+	<img src='resources/images/quiz/5.png' height='80px' />
+</div>
+
+<button onClick='calculer()'>Vérifier</button>
+
+</ion-content> </ion-view>

@@ -9,7 +9,7 @@ var _docsDatas = [{
 				"nom" : "Tri’Sac - Consignes de tri",
 				"mots_cles" : "trisac,consigne",
 				"url" : "www.mieuxtrieranantes.fr/docs/ConsignesDeTri_Trisacs.pdf",
-				"image" : "sacs_jaune_et_bleu.png",
+				"image" : "nantes/sacs_jaune_et_bleu.png",
 				"src" : "MieuxTrierANantes 03/2015"
 			}, {
 				"code" : "doc_annuaireess",
@@ -22,7 +22,7 @@ var _docsDatas = [{
 				"nom" : "Carte des jours de collecte à Nantes",
 				"mots_cles" : "nantes,horaires,collecte,memo",
 				"url" : "www.mieuxtrieranantes.fr/docs/carte-jours-de-collecte-nantes_1326127232003.pdf",
-				"image" : "carte-collecte_1326128621876.jpg",
+				"image" : "carte_retrait_trisacs.jpg",
 				"src" : "03/2015"
 			}, {
 				"code" : "doc_memoboug",
