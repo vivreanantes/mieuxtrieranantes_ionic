@@ -247,7 +247,7 @@ var _collectModsDatas = [{
 	"descr" : "Pour les logements verticaux (appartement...) les encombrants sont récupérés à jour fixe dans la semaine (affiché en général en bas de l'immeuble).<br/>Pour les logements pavillonnaires (maisons...) le ramassage se fait sur rendez-vous à prendre par téléphone.<BR/>Voir <I>fiche 'Collecte des encombrants'</I>",
 	"descr_en" : "For vertical housing (apartment ...) are recovered bulky fixed day in the week (usually displayed at the bottom of the building). In order to the suburban housing (houses ...) collection is appointment to be taken by phone. <BR/> See <I> sheet 'Collection of bulky </ I>",
 	"icone" : "modco",
-	"image" : "encombrant_mini.png",
+	"image" : "nantes/encombrant_mini.png",
 	"mots_cles" : "point,depot,encombrant",
 	"mots_cles_en" : "point,deposit,bulky"
 }, {
