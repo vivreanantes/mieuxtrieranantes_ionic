@@ -10,14 +10,17 @@ angular.module('starter.controllers')
 	
     //GLOBAL DATA SOURCE
     $scope.categories=_usualCategoriesDatas;
+    $scope.itemPerRow=3;
     
 })
 .controller('DechetCatSubCtrl', 
-            function($scope, $stateParams) {
+            function($scope, $stateParams, $filter) {
 
             //GLOBAL DATA SOURCE
-            $scope.selected_categorie_usuelle = $stateParams.code;
-            $scope.dechets = _garbagesDatas;
+            var selected_categorie_usuelle = $stateParams.code;
+            $scope.dechets = $filter('filter')(_garbagesDatas, {
+                            cat_usuel : selected_categorie_usuelle
+                    }); 
 
 })
 .controller(

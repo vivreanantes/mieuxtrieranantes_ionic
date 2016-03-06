@@ -49,18 +49,27 @@
     height: 0.1em;
 }
 
+/* GRILLE 3 cellules par ligne */
+
 .panneau_bouton  {
-	background-color:#dfe78f
+	
 }
 
+/* Image adaptative pour les résolutions faibles */
+.panneau_bouton img {
+    max-width: 100%;
+}
+
+.panneau_bouton .card {
+    margin: 2px 2px;
+}
+
+.panneau_bouton .card .action {
+    padding: 6px;
+}
 
 .panneau_bouton a {
 	text-decoration:none;
-}
- .selectable.style_bouton {
         display:inline-block; 
-        width:30%;
-        border:1px solid #dfe78f;
-        text-align: center;
-        background-color: #f7f9e3;
- }
+        width:100%;
+}
