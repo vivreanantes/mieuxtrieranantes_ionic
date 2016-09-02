@@ -1,0 +1,65 @@
+<ion-view view-title="Lieu">
+  
+  <ion-content>
+  
+
+<div class="card">
+
+  <div class="item item-divider item-calm">
+      Recherche
+  </div>
+
+  <div class="item item-input">
+  <span class="input-label">Mot-clé / Nom</span>
+    <label class="item-input-wrapper">
+      <input ng-model="formParam.searchkey"  type="text" placeholder="Vélo, Meuble, Emmaüs ...">
+    </label>
+    <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
+  </div>
+
+  <ui-select ng-click="onChangeType()" style="overflow:visible" class="item" ng-model="formParam.type" theme="selectize" title="Type de structure">
+      <ui-select-match placeholder="Type de structure...">{{formParam.type.name}}</ui-select-match>
+      <ui-select-choices repeat="item in typeCollecte">
+          <span ng-bind="item.name"></span>
+      </ui-select-choices>
+  </ui-select>
+
+</div>
+
+<div class="card">
+
+  <div class="item item-divider item-calm">
+      Résultats <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
+  </div>
+
+  <div class="item" ng-show="results.length == 0">
+      Aucun résultat
+  </div>
+
+  <a class="item" ng-repeat="structure in results | limitTo:maxDisplayResults" ng-href="#/tab/lieu/detail/{{::structure.code}}">
+        {{::structure.nom}} <br>
+        {{::structure.type}}
+        <mtn-plage-horaire class="horaire" horaire="{{::structure.plagesHoraires}}"></mtn-plage-horaire>   
+  </a>
+
+  <div class="item item-assertive" ng-show="results.length > maxDisplayResults">
+      Les {{::maxDisplayResults}} premiers résultats ont été affichés...<br>
+      Vous pouvez utiliser la recherche par mot-clé pour affiner votre recherche.
+  </div>
+
+</div>
+
+
+  
+  </ion-content>
+    
+</ion-view>
+
+<!-- TODO -->
+<!-- 
+
+- Bouton RESET pour le champ de recherche mot-clé 
+- Page détail Lieu + Horaires en clair
+
+
+-->

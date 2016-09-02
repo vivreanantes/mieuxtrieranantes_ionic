@@ -1,25 +1,47 @@
 /* LIEUX */
 
 angular.module('starter.controllers')
-.controller(
-            'StructuresCtrl',
-            function($scope, ServiceStructures) {
+.controller('LieuCtrl',
 
-                    //SELECT Type de structures
-                    $scope.typeCollecte = ServiceStructures.getTypeCollecte();
-                    $scope.formSelected = {
+        function($scope, ServiceRecherche) {
 
-                            type : $scope.typeCollecte[0],
-                            searchKey : ''
-                    };
-                    $scope.results = [];
+            $scope.maxDisplayResults = 25;
 
-                    $scope.onChangeForm = function() {
+            //SELECT Type de structures                 
+            $scope.typeCollecte = ServiceRecherche.getTypeCollecte();
 
-                            $scope.results = ServiceStructures
-                                            .search($scope.formSelected.type,
-                                                    $scope.formSelected.searchKey);
-                    };
-            }
+            //FORM MODEL : DEFAULTS
+            $scope.formParam = {
+
+                type : $scope.typeCollecte[0],
+                searchkey : '',
+            };
+
+            //INIT RESULTS
+            $scope.results = ServiceRecherche.searchStructure('.*', '');
+
+            $scope.onChangeType = function() {
+                           
+                $scope.results = ServiceRecherche.searchStructure($scope.formParam.type.value, $scope.formParam.searchkey);
+
+            };
+
+            $scope.onSearchSubmit = function() {
+                           
+                $scope.results = ServiceRecherche.searchStructure($scope.formParam.type.value, $scope.formParam.searchkey);
+
+            };
+
+        }
+)
+.controller('LieuDetailCtrl',
+
+        function($scope, $stateParams, ServiceRecherche) {
+        
+            var code = $stateParams.code;
+            $scope.structure = ServiceRecherche.getStructure(code);
+
+        }
+
 );
 

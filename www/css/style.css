@@ -70,6 +70,30 @@
 
 .panneau_bouton a {
 	text-decoration:none;
-        display:inline-block; 
-        width:100%;
+    display:inline-block; 
+    width:100%;
+    line-height: 1.2em;
+}
+
+.horaire {
+
+    color:#37A811;
+  
+
+}
+
+
+/* UI SELECT DROPDOWN */
+
+
+/* Hack poour que la liste déroulante */
+.selectize-dropdown {
+
+    position: relative;
+}
+
+/* HACKS MTN */
+
+.item.mtn-nowrap {
+    white-space:pre-line;
 }

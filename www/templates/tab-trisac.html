@@ -1,0 +1,38 @@
+<ion-view view-title="Trisac">
+ <ion-content>
+
+<!--
+<div class="list">
+
+    <div class="item item-divider item-royal">
+    Vos favoris
+    </div>
+
+    <li class="item">
+      <i>Aucun favori</i>
+    </li>
+
+</div>
+-->
+
+
+<div class="card" ng-repeat="(key, value) in trisac | groupBy: 'sous_zone'">
+
+    <!-- TODO : NOM QUARTIER ? -->
+    <div class="item item-divider item-calm">
+      Quartier : {{::key}}
+    </div>
+
+    <!-- TODO : DETAIL TRISAC --> 
+    <a class="item" ng-repeat="item in value" ng-href="#/tab/trisac/detail/{{::item.code}}">
+          {{::item.type}}<br/>
+          {{::item.nom}}
+
+          <mtn-plage-horaire class="horaire" horaire="{{::item.plagesHoraires}}"></mtn-plage-horaire>         
+    </a>
+
+</div>
+
+
+  </ion-content>
+</ion-view>

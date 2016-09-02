@@ -6,103 +6,96 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
     
-    <!-- compiled css output -->
-    <link href="css/ionic.app.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    
-    <script type='application/javascript' src='lib/mieuxtrieranantes/comments.js'></script>
-    <script type='application/javascript' src='lib/mieuxtrieranantes/common.js'></script>
-    <script type='application/javascript' src='lib/mieuxtrieranantes/date.js'></script>
-    <script type='application/javascript' src='lib/mieuxtrieranantes/plageshoraires.js'></script>
-    <script type='application/javascript' src='lib/mieuxtrieranantes/search.js'></script>
-    <script type='application/javascript' src='lib/mieuxtrieranantes/translation.js'></script>
-        
-    <script type='application/javascript' src='resources/datas/nantes/ParamsDatas.js'></script>
+
+    <!-- BASE -->
+	<!-- build:js js/core.js -->
+    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+	<!-- endbuild -->
+	
+	<!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+	
+	
+	<!-- build:js js/lib.js -->
+	<script src="lib/angular-filter/dist/angular-filter.min.js"></script>  
+    <script src="lib/leaflet/dist/leaflet.js"></script>
+    <script src="lib/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+	<script src="lib/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
+    <script src="lib/angular-ui-select/dist/select.min.js"></script>
+    <script src='lib/mieuxtrieranantes/mtn_common.js'></script>
+    <script src='lib/mieuxtrieranantes/mtn_date.js'></script>
+	<!-- endbuild -->
+
+    <!-- CSS -->
+	<!-- build:css css/app.css -->
+    <link rel="stylesheet" href="css/ionic.app.css" />
+    <link rel="stylesheet" href="css/style.css" /> 
+	<link rel="stylesheet" href="lib/angular-ui-select/dist/select.min.css" />  
+	<link rel="stylesheet" href="lib/selectize/dist/css/selectize.default.css" />
+	<link rel="stylesheet" href="lib/leaflet/dist/leaflet.css" />   
+    <link rel="stylesheet" href="lib/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="lib/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+	<!-- endbuild -->
+
+    <!-- MAIN -->
+	
+	<!-- build:js js/app.js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/controller/home.js"></script>
+    <script src="js/controller/quizz.js"></script>
+    <script src="js/controller/doc.js"></script>
+    <script src="js/controller/dechet.js"></script>
+    <script src="js/controller/carte.js"></script>
+    <script src="js/controller/fiche.js"></script>
+    <script src="js/controller/lieu.js"></script>
+    <script src="js/controller/domicile.js"></script>
+    <script src="js/controller/trisac.js"></script>
+    <script src="js/service/recherche.js"></script>
+    <script src="js/service/trisac.js"></script>
+	<!-- endbuild -->
+	
+    <!-- DATA -->  
+
+    <!-- build:js js/data.min.js -->
     <script type='application/javascript' src='resources/datas/nantes/AdvicesDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/UsualCategoriesDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/GarbagesDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/CollectModsDatas.js'></script>
+    <script type='application/javascript' src='resources/datas/nantes/HomeCollectModsDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/InfosDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/StructuresDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/ContainersDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/QuizsDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/DocsDatas.js'></script>
     <script type='application/javascript' src='resources/datas/nantes/LabelsDatas.js'></script>
-    
-        
-    <!-- DATA -->
-    <script type="text/javascript">
-      /*
-      	// CRN
-      	// Au choix "montpellier" ou "nantes" ou "ernee"
-  		var adaptation = getParam("adaptation");
-    	function includeJS(jsFile) {
-    		var oHead = document.getElementsByTagName('HEAD').item(0);
-			var oScript= document.createElement("script");
-			oScript.type = "text/javascript";
-			oScript.src= "resources/datas/" + adaptation + "/" + jsFile;
-			oHead.appendChild(oScript);
-		}
-    includeJS("AdvicesDatas.js");
-		if (isPageActive("dechets")) {
-			includeJS("UsualCategoriesDatas.js");
-			includeJS("GarbagesDatas.js");
-			includeJS("CollectModsDatas.js");
-		}
-		if (isPageActive("fiches") ) {
-			includeJS("InfosDatas.js");
-		}
-		if (isPageActive("carte") || isPageActive("lieux")) {
-			includeJS("StructuresDatas.js");
-		}
-		if (isPageActive("carte")) {
-			includeJS("ContainersDatas.js");
-		}
-		includeJS("QuizsDatas.js");
-		includeJS("DocsDatas.js");
-		includeJS("LabelsDatas.js");
-		*/
-	</script>
+    <!-- endbuild -->
 
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
-    <script type='application/javascript' src='lib/fastclick/fastclick.js'></script>
-    <script type="text/javascript">      
-        if ('addEventListener' in document) {
-            document.addEventListener('DOMContentLoaded', function() {
-                FastClick.attach(document.body);
-            }, false);
-        }
-    </script>
-    
-    <!-- LEAFLET -->  
-    <script src="lib/leaflet/leaflet.js"></script>
-    <script src="lib/leaflet-markercluster/dist/leaflet.markercluster.js"></script>
-    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />   
-    <link rel="stylesheet" href="lib/leaflet-markercluster/dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="lib/leaflet-markercluster/dist/MarkerCluster.Default.css" />
-    <script src="lib/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
-    
-    <!-- LIB -->
-    <script src="lib/transliteration/transliteration.min.js"></script>
-    
-    <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
-
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/controller/home.js"></script>
-    <script src="js/controller/dechet.js"></script>
-    <script src="js/controller/carte.js"></script>
-    <script src="js/controller/fiche.js"></script>
-    <script src="js/controller/lieu.js"></script>
-    <script src="js/controller/quizz.js"></script>
-    <script src="js/controller/doc.js"></script>
-    <script src="js/services.js"></script>
-    
   </head>
   <body ng-app="starter">
+
+    <!-- <ion-side-menus>
+      
+      <ion-pane ion-side-menu-content>
+        <ion-nav-bar class="bar-positive nav-title-slide-ios7">
+          <ion-nav-back-button class="button-icon"><span class="icon ion-ios7-arrow-left"></span></ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view></ion-nav-view>
+      </ion-pane>
+
+      <ion-side-menu side="left">
+        <ion-header-bar class="bar bar-header bar-dark"></ion-header-bar>
+        <ion-content has-header="true">
+          <ion-list>
+            <ion-item href="#/" menu-close>Home</ion-item>
+            <ion-item href="#/about" menu-close>About</ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-side-menu>
+      
+    </ion-side-menus> 
+    -->
+
     <!--
       The nav bar that will be updated as we navigate between views.
     -->
@@ -115,6 +108,8 @@
       Templates are in the /templates folder (but you could also
       have templates inline in this html file if you'd like).
     -->
+
     <ion-nav-view></ion-nav-view>
+
   </body>
 </html>

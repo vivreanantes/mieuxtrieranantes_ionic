@@ -1,0 +1,44 @@
+<ion-view view-title="A domicile">
+<ion-content>
+  
+	<div class="card">
+
+	  	<div class="item item-divider item-calm">
+	      Recherche (adresse à Nantes)
+	  	</div>
+
+	  	<div class="item item-input">
+	    	<label class="item-input-wrapper">
+	     		<input ng-model="searchKey"  type="text" placeholder="boulevard, avenue, rue...">
+	    	</label>
+	    	<a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit(searchKey)"></a>
+	  	</div>
+
+	</div>
+
+	<div class="card" ng-show="results.length > 0">
+
+	  	<div class="item item-divider item-calm">
+	      Résultats <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
+	  	</div>
+
+	  	<div class="item" ng-show="results.length == 0">
+	      Aucun résultat
+	  	</div>
+
+	  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
+	        {{::collecte.dcv}}<br>
+	        <span ng-bind-html="collecte.jcbj"></span>
+	        <button class="button button-stable" ng-click="showInfo(collecte.cons)">
+      			<i class="icon ion-information-circled"></i>
+    		</button>
+	  	</div>
+
+	  	<div class="item item-assertive" ng-show="results.length > maxDisplayResults">
+      		Les {{::maxDisplayResults}} premiers résultats ont été affichés...<br>
+  		</div>
+
+	</div>
+
+</ion-content> 
+</ion-view>

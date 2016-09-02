@@ -1,6 +1,7 @@
-<ion-view view-title="Déchets">
+<ion-view view-title="Trier">
   <ion-content>
    
+  <!--
   <div class="row panneau_bouton" ng-repeat="dechet in ::dechets" ng-if="$index%3==0">      
       
       <div class="col card" ng-repeat="dechet in ::dechets | limitTo:3:$index">         
@@ -15,6 +16,24 @@
       </div>
       
   </div>
+  -->
+
+<div class="card">
+
+  <div class="item item-divider item-calm">
+      Catégories &gt; {{categorie.nom}}
+  </div>
+
+  <div class="list">
+
+      <a class="item item-avatar" ng-href="#/tab/dechet/detail/{{::dechet.code}}" ng-repeat="dechet in dechets">
+        <img ng-src="resources/images/{{::dechet.image}}"/>
+        {{::dechet.nom}}
+      </a>
+
+  </div>
+
+</div>
       
   </ion-content>
 </ion-view>

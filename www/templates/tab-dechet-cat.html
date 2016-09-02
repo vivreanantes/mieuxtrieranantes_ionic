@@ -1,6 +1,7 @@
-<ion-view view-title="Déchets">
+<ion-view view-title="Trier">
   <ion-content>
       
+    <!--
     <div class="row panneau_bouton" ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}" ng-if="$index%3==0">   
       <div class="col card" ng-repeat="categorie in ::categories|limitTo:3:$index"> 
         <div class="item text-center">
@@ -8,11 +9,47 @@
             <img ng-src="resources/images/{{::categorie.image}}"/><br/>        
             </a>   
         </div>
-        <a class="action item-text-wrap text-center positive" ng-href="#/tab/dechet/cat/{{::categorie.code}}">
+
+        <a class="button button-full button-clear button-positive item-text-wrap text-center" ng-href="#/tab/dechet/cat/{{::categorie.code}}">
             {{::categorie.nom}}
         </a>
+
       </div>
     </div>
+    -->
+
+<div class="card">
+
+  <div class="item item-divider item-calm">
+      Recherche
+  </div>
+
+  <div class="item item-input">
+    <span class="input-label">Déchet</span>
+    <label class="item-input-wrapper">
+      <input ng-model="searchkey"  type="text" placeholder="pile, bocal, ...">
+    </label>
+    <a class="button positive button-icon icon ion-search"></a>
+  </div>
+
+</div>
+
+<div class="card">
+
+  <div class="item item-divider item-calm">
+      Catégories
+  </div>
+
+  <div class="list">
+
+      <a class="item item-avatar" ng-href="#/tab/dechet/cat/{{::categorie.code}}" ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}">
+        <img ng-src="resources/images/{{::categorie.image}}"/>
+        {{::categorie.nom}}
+      </a>
+
+  </div>
+
+</div>
       
   </ion-content>
 </ion-view>

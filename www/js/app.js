@@ -5,7 +5,8 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'leaflet-directive'])
+
+var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'leaflet-directive', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -23,7 +24,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+
+  $ionicConfigProvider.tabs.position('bottom'); 
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
@@ -49,6 +52,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       }
     }
   })
+  
   .state('tab.dechet-cat', {
     url: '/dechet/cat',
     views: {
@@ -105,12 +109,30 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       }
     }
    })
-  .state('tab.structures', {
-    url: '/structures',
+  .state('tab.lieu', {
+    url: '/lieu',
     views: {
-      'tab-structures': {
-        templateUrl: 'templates/tab-structures.html',
-        controller: 'StructuresCtrl'
+      'tab-lieu': {
+        templateUrl: 'templates/tab-lieu.html',
+        controller: 'LieuCtrl'
+      }
+    }
+  })
+  .state('tab.lieu-detail', {
+    url: '/lieu/detail/:code',
+    views: {
+      'tab-lieu': {
+        templateUrl: 'templates/tab-lieu-detail.html',
+        controller: 'LieuDetailCtrl'
+      }
+    }
+   })
+  .state('tab.domicile', {
+    url: '/domicile',
+    views: {
+      'tab-domicile': {
+        templateUrl: 'templates/tab-domicile.html',
+        controller: 'DomicileCtrl'
       }
     }
   })
@@ -129,6 +151,24 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       'tab-docs': {
         templateUrl: 'templates/tab-docs.html',
         controller: 'DocsCtrl'
+      }
+    }
+   })
+   .state('tab.trisac', {
+    url: '/trisac',
+    views: {
+      'tab-trisac': {
+        templateUrl: 'templates/tab-trisac.html',
+        controller: 'TrisacCtrl'
+      }
+    }
+   })
+   .state('tab.trisac-detail', {
+    url: '/trisac/detail/:code',
+    views: {
+      'tab-trisac': {
+        templateUrl: 'templates/tab-trisac-detail.html',
+        controller: 'TrisacDetailCtrl'
       }
     }
    })

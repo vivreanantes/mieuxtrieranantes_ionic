@@ -1,0 +1,55 @@
+{{structure}}
+
+<ion-view view-title="Lieu">
+  <ion-content>
+   
+  <div class="list card">
+
+    <div class="item item-divider">
+      	<b>{{structure.nom}}</b>
+    </div>
+
+    <div class="item item-icon-left">
+        <i class="icon ion-information-circled"></i>
+      	<div>{{structure.type}}</div>   
+      	<mtn-plage-horaire class="horaire" horaire="{{::structure.plagesHoraires}}" fulldisplay="1"></mtn-plage-horaire> 
+    </div>
+
+	<div class="item item-stable item-icon-left item-body mtn-nowrap">
+        <p ng-bind-html="structure.descr"></p>   
+  </div>
+
+ 	<div class="item item-icon-left">
+      	<i class="icon ion-home"></i>
+      	<div>{{structure.adresseTemp}}</div>
+    </div>
+
+    <div class="item item-icon-left">
+    	<i class="icon ion-ios-telephone"></i>
+    	{{structure.tel}}
+    </div>
+
+    <div class="item item-icon-left" ng-show="structure.email">
+    	<i class="icon ion-email"></i>
+    	{{structure.email}}
+    </div>
+
+    <a target="_blank" ng-href="{{structure.url}}" class="item item-icon-left item-calm" ng-show="structure.url">
+    	<i class="icon ion-arrow-right-b"></i>
+    	<span ng-bind-html="structure.url"></span>
+    </a>
+
+    <a class="item item-icon-left item-calm" ng-click="notimplemented = 'TODO'">
+	    <i class="icon ion-compose"></i>
+	    Votre avis {{notimplemented}}
+  	</a>
+
+  </div>
+
+  <div class="row">
+	  <div class="col">Source : <i>{{structure.src}}</i></div>
+  </div>
+
+      
+  </ion-content>
+</ion-view>

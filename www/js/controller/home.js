@@ -1,6 +1,6 @@
 /* PAGE ACCUEIL */
         
-angular.module('starter.controllers').controller('HomeCtrl', function($scope) {
+angular.module('starter.controllers').controller('HomeCtrl', function($scope, $ionicSideMenuDelegate) {
     
   // TEMP CRN
   $scope.myFunctionName = function(){
@@ -9,4 +9,10 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope) {
       return true;
     }
   };
+
+  $scope.openMenu = function () {
+    //$ionicSideMenuDelegate.toggleLeft();
+    
+  };
+
 });

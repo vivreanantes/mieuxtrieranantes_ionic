@@ -1,0 +1,36 @@
+<ion-view view-title="Trisac">
+  <ion-content>
+   
+  <div class="list card">
+
+    <div class="item item-divider">
+      <b>{{detail.type}}</b>
+    </div>
+
+    <div class="item item-icon-left">
+      <i class="icon ion-information-circled"></i>
+      <div>{{detail.nom}}</div>
+      <div>{{detail.adresseTemp}}</div>
+      <mtn-plage-horaire class="horaire" horaire="{{::detail.plagesHoraires}}" fulldisplay="1"></mtn-plage-horaire> 
+    </div>
+
+    <div class="item">
+        TODO DIRECTIVE pour conseil : {{detail.cons}}
+    </div>
+
+    <div class="item">
+        TODO DIRECTIVE pour lien carte : {{detail.latitude}} {{detail.longitude}}
+    </div>
+
+    <div class="item">
+    <p>Source : {{detail.src}}</p>
+    </div>
+
+    <div class="item">
+    TODO DIRECTIVE pour commentaire
+    </div>
+
+  </div>
+      
+  </ion-content>
+</ion-view>

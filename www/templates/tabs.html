@@ -3,12 +3,7 @@ Create tabs with an icon and label, using the tabs-positive style.
 Each tab's child <ion-nav-view> directive will have its own
 navigation history that also transitions its views in and out.
 -->
-  <script type="text/javascript">
 
-    if (isPageActive('accueil_nantes')) {
-      document.write("");
-    }
-  </script>
 
 <ion-tabs class="tabs-icon-top tabs-color-active-positive">
 
@@ -17,22 +12,33 @@ navigation history that also transitions its views in and out.
     <ion-nav-view name="tab-home"></ion-nav-view>
   </ion-tab>
 
-  <ion-tab title="Déchets" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/dechet/cat">
+  <ion-tab title="Trier" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/dechet/cat">
     <ion-nav-view name="tab-dechet"></ion-nav-view>
   </ion-tab>
   
-  <ion-tab title="Carte" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/carte">
+  <!--
+  <ion-tab title="Carte" icon-off="ion-ios-flag-outline" icon-on="ion-ios-flag" href="#/tab/carte">
     <ion-nav-view name="tab-carte"></ion-nav-view>
   </ion-tab>
   
   <ion-tab title="Fiches" icon-off="ion-ios-paper-outline" icon-on="ion-ios-paper" href="#/tab/fiches">
     <ion-nav-view name="tab-fiches"></ion-nav-view>
   </ion-tab>
+  -->
   
-  <ion-tab title="Lieux" icon-off="ion-flag" icon-on="ion-flag" href="#/tab/structures">
-    <ion-nav-view name="tab-structures"></ion-nav-view>
+  <ion-tab title="Lieu" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/lieu">
+    <ion-nav-view name="tab-lieu"></ion-nav-view>
   </ion-tab>
 
+  <ion-tab title="A domicile" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/domicile">
+    <ion-nav-view name="tab-domicile"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Trisac" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/trisac">
+    <ion-nav-view name="tab-trisac"></ion-nav-view>
+  </ion-tab>
+
+<!-- 
   <ion-tab title="Quiz" icon-off="ion-flag" icon-on="ion-flag" href="#/tab/quiz">
     <ion-nav-view name="tab-quiz"></ion-nav-view>
   </ion-tab>
@@ -40,5 +46,7 @@ navigation history that also transitions its views in and out.
   <ion-tab title="Docs" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/docs">
     <ion-nav-view name="tab-docs"></ion-nav-view>
   </ion-tab>
+-->
+
 </ion-tabs>
 

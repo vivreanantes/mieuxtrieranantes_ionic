@@ -2,61 +2,61 @@
 
 angular.module('starter.controllers')
 .controller('DechetCatCtrl', 
-            function($scope) {
+
+    function($scope) {
     
-  // TEMP CRN
-	// var tmp = getParam("geo.boundsMinLong");
-	// alert(tmp);
-	
-    //GLOBAL DATA SOURCE
-    $scope.categories=_usualCategoriesDatas;
-    $scope.itemPerRow=3;
-    
-})
+        //GLOBAL DATA SOURCE
+        $scope.categories=_usualCategoriesDatas;
+        $scope.itemPerRow=3;
+
+    }
+
+)
 .controller('DechetCatSubCtrl', 
-            function($scope, $stateParams, $filter) {
 
-            //GLOBAL DATA SOURCE
-            var selected_categorie_usuelle = $stateParams.code;
-            $scope.dechets = $filter('filter')(_garbagesDatas, {
-                            cat_usuel : selected_categorie_usuelle
-                    }); 
+    function($scope, $stateParams, $filter, ServiceRecherche) {
 
-})
+        var categorie_usuelle = ServiceRecherche.getCategorieDechet($stateParams.code);
+
+        $scope.categorie = categorie_usuelle;
+
+        $scope.dechets = $filter('filter')(_garbagesDatas, {
+                cat_usuel : categorie_usuelle.code
+        }); 
+
+    }
+
+)
 .controller(
             'DechetDetailCtrl',
-            function($scope, $stateParams, $filter) {
 
-                    var dechet_code = $stateParams.code;
-                    //On récupère le déchet qui correspondant au code 
-                    dechets = $filter('filter')(_garbagesDatas, {
-                            code : dechet_code
-                    });
+        function($scope, $stateParams, $filter, ServiceRecherche) {
 
-                    $scope.toggleObject = {
-                            item : -1
-                    };
-                    $scope.toggleObject2 = {
-                            item2 : -1
-                    };
+                //On récupère le déchet qui correspondant au code 
+                var dechet = ServiceRecherche.getDechet($stateParams.code);
 
-                    //Le filter renvoie necessairement un Array donc on extrait le premier élément trouvé
-                    var dechet = dechets[0];
+                if (dechet.hasOwnProperty('cons')) {
 
-                    //Array modes collectes (split de la chaine)
-                    var modesCollectes = dechet.modco.split(",");
+                    $scope.conseils = ServiceRecherche.getConseils(dechet.cons);
 
-                    //RE-FILTER sur les modes de collecte
-                    var modesCollectesFilter = $filter('filter')(_collectModsDatas,
-                    //CUSTOM INLINE FILTER
-                    function(value, index, fullarray) {
+                }
+
+
+                /*
+                //Array modes collectes (split de la chaine)
+                var modesCollectes = dechet.modco.split(",");
+
+                //RE-FILTER sur les modes de collecte
+                var modesCollectesFilter = $filter('filter')(_collectModsDatas,
+                //CUSTOM INLINE FILTER
+                function(value, index, fullarray) {
                             //Modes de collecte déchet           
                             myindex = modesCollectes.indexOf(value.code);
                             if (myindex >= 0)
                                     return true;
                             else
                                     return false;
-                    });
+                });
 
                     // CRN
                     // Tableau des conseils (découpage de la chaine)
@@ -88,11 +88,11 @@ angular.module('starter.controllers')
                             dechet.recyc_color = "green";
                             dechet.recyc = _translate("label_OUI");
                     }
+                    */
 
                     //SCOPE
                     $scope.dechet = dechet;
-                    $scope.modesCollecte = modesCollectesFilter;
-                    $scope.conseils = conseilsFilter;
 
-});
+        }
+);
 
