@@ -7,3 +7,7 @@ plugins/
 www/lib
 mtn.sublime-project
 mtn.sublime-workspace
+resources/android/icon/
+resources/android/splash/
+resources/ios/icon/
+resources/ios/splash/
