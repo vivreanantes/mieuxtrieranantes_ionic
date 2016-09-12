@@ -61,4 +61,68 @@ var _usualCategoriesDatas = [{
 			"sous_cat" : "true",
 			"image" : "medicaments_mini.png",
 			"bouton" : "cu_toxique"
+		}, {
+			"code" : "scu_toxiquejardin",
+			"nom" : "Déchet toxique du Jardinage",
+			"nom_en" : "Toxic Waste of Gardening",
+			"descr" : " Engrais chimiques, herbicides, fongicides, insecticides...",
+			"sous_cat" : "true",
+			"image" : "desherbant_mini.png",
+			"bouton" : "cu_toxique"
+		}, {
+			"code" : "scu_toxiquegarage",
+			"nom" : "Déchet toxique du Garage",
+			"nom_en" : "Toxic Waste Garage",
+			"descr" : " Antigel, liquide de refroidissement, mastic de carrosserie, peinture antirouille, huile minérale, filtre à huile...",
+			"sous_cat" : "true",
+			"image" : "batterie_voiture_mini.png",
+			"bouton" : "cu_toxique"
+		}, {
+			"code" : "scu_toxiquecuisine",
+			"nom" : "Déchet toxique de la Cuisine",
+			"nom_en" : "Toxic Waste in the Kitchen",
+			"descr" : "Nettoyants cuivre et argenterie, nettoyants à l'ammoniac, récurant pour four...",
+			"sous_cat" : "true",
+			"image" : "bouteille_ammoniaque_mini.png",
+			"bouton" : "cu_toxique"
+		}, {
+			"code" : "scu_toxiquesdb",
+			"nom" : "Déchet toxique de la Salle de bain",
+			"nom_en" : "Toxic Waste in the bathroom",
+			"descr" : "Déboucheur liquide, détachant, eau de Javel, nettoyants à sol, récurant pour toilette, thermomètres à mercure...",
+			"sous_cat" : "true",
+			"image" : "desinfectant_toilette_mini.png",
+			"bouton" : "cu_toxique"
+		}, {
+			"code" : "scu_toxiquebrico",
+			"nom" : "Déchet toxique du Bricolage",
+			"nom_en" : "Toxic Waste of Housing",
+			"descr" : "Colles, produits de traitement du bois, enduits et vernis, peintures huile et eau,  laques, résines, diluants, solvants...",
+			"sous_cat" : "true",
+			"image" : "peinture_mini.png",
+			"bouton" : "cu_toxique"
+		}, {
+			"code" : "scu_toxiqueparasite",
+			"nom" : "Déchet toxique du traitement des parasites",
+			"nom_en" : "Toxic Waste treatment parasites",
+			"descr" : "Anti-fourmis, insecticides, naphtaline, mort aux rats...",
+			"sous_cat" : "true",
+			"image" : "mortaurat_mini.png",
+			"bouton" : "cu_toxique"
+		}, {
+			"code" : "scu_toxiquedivers",
+			"nom" : "Déchet toxique divers",
+			"nom_en" : "Various toxic waste",
+			"descr" : "acides, bases, essence de térébenthine, radiographie, révélateur et fixateur photo, néons...",
+			"sous_cat" : "true",
+			"image" : "pile_45_mini.png",
+			"bouton" : "cu_toxique"
+		}, {
+			"code" : "cu_toxique",
+			"nom" : "Toxique",
+			"nom_en" : "toxic ",
+			"estSousCategorie" : "scu_medicament,scu_toxiquejardin,scu_toxiquegarage,scu_toxiquecuisine,scu_toxiquesdb,scu_toxiquebrico,scu_toxiqueparasite,scu_toxiquedivers",
+			"sous_cat" : "false",
+			"image" : "batterie_voiture_mini.png",
+			"bouton" : "cu"
 		}, {}];

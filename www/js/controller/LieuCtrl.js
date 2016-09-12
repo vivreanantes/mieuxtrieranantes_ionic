@@ -14,7 +14,7 @@ angular.module('starter.controllers')
             $scope.formParam = {
 
                 type : $scope.typeCollecte[0],
-                searchkey : '',
+                searchkey : ''
             };
 
             //INIT RESULTS

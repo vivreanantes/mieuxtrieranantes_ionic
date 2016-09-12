@@ -3,6 +3,3 @@
  * */
 
 angular.module('starter.controllers', []);
-
-
-

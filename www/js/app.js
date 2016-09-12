@@ -82,6 +82,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
         }
       }
    })
+
    .state('tab.dechet-detail', {
       url: '/dechet/detail/:code',
       views: {
@@ -91,6 +92,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
         }
       }
    })
+
    .state('tab.fiches', {
     url: '/fiches',
     views: {
@@ -100,6 +102,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
       }
     }
    })
+
    .state('tab.fiche-detail', {
     url: '/fiches/detail/:code',
     views: {
@@ -109,6 +112,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
       }
     }
    })
+
   .state('tab.lieu', {
     url: '/lieu',
     views: {
@@ -118,6 +122,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
       }
     }
   })
+
   .state('tab.lieu-detail', {
     url: '/lieu/detail/:code',
     views: {
@@ -127,15 +132,17 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
       }
     }
    })
+
   .state('tab.domicile', {
     url: '/domicile',
     views: {
       'tab-domicile': {
-        templateUrl: 'templates/tab-domicile.html',
+        templateUrl: 'templates/nantes/tab-domicile.html',
         controller: 'DomicileCtrl'
       }
     }
   })
+
    .state('tab.quiz', {
     url: '/quiz',
     views: {
@@ -145,6 +152,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
       }
     }
    })
+
    .state('tab.docs', {
     url: '/docs',
     views: {
@@ -154,20 +162,22 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
       }
     }
    })
+
    .state('tab.trisac', {
     url: '/trisac',
     views: {
       'tab-trisac': {
-        templateUrl: 'templates/tab-trisac.html',
+        templateUrl: 'templates/nantes/tab-trisac.html',
         controller: 'TrisacCtrl'
       }
     }
    })
+
    .state('tab.trisac-detail', {
     url: '/trisac/detail/:code',
     views: {
       'tab-trisac': {
-        templateUrl: 'templates/tab-trisac-detail.html',
+        templateUrl: 'templates/nantes/tab-trisac-detail.html',
         controller: 'TrisacDetailCtrl'
       }
     }

@@ -1,6 +1,3 @@
-
-
-
 (function ( window, angular, undefined ) {
 /*jshint globalstrict:true*/
 'use strict';

@@ -1,5 +1,3 @@
-
-
 app.directive("mtnPlageHoraire", function() {
 
     var separatorEt = "+";

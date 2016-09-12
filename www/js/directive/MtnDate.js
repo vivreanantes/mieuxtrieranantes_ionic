@@ -1,5 +1,3 @@
-
-
 (function ( window, angular, undefined ) {
 /*jshint globalstrict:true*/
 'use strict';
@@ -262,9 +260,7 @@
 			(result);
 		}
 		return result;
-	};
-
-
+	}
 	/**
 	 * Convertit un mois dans sa chaine de caractère. Ex "01" devient "janvier".
 	 */
@@ -297,9 +293,7 @@
 		}
 		result = translate(result, stLocale);
 		return result;
-	};
-
-
+	}
 	//TODO
 	function translate(str) {
 
@@ -406,17 +400,17 @@
 		var yearDateYY = (date.getFullYear() + "").substring(2, 4);
 		var dayString = "" + jourDateJJ + moisDateMM + yearDateYY;
 
-		var arSaintSylvestre = new Array("010113", "010114", "010115", "010116", "010117", "010118");
-		var arPaques = new Array("010413", "210414", "060415", "280316", "160417", "010418");
-		var arFeteTravail = new Array("010513", "010514", "010515", "010516", "010517", "010518");
-		var ar8mai = new Array("080513", "080514", "080515", "080516", "080517", "080518");
-		var arAscension = new Array("090513", "290514", "140515", "050516", "250517", "100518");
-		var arPentecote = new Array("200513", "090614", "250515", "160516", "050617", "210518");
-		var arFeteNationale = new Array("140713", "140714", "140715", "140716", "140717", "140718");
-		var arAssomption = new Array("150813", "150814", "150815", "150816", "150817", "150818");
-		var arLaToussaint = new Array("011113", "011114", "011115", "011116", "011117", "011118");
-		var arArmistice = new Array("111113", "111114", "111115", "111116", "111117", "111118");
-		var arNoel = new Array("251213", "251214", "251215", "251216", "251217", "251218");
+		var arSaintSylvestre = ["010113", "010114", "010115", "010116", "010117", "010118"];
+		var arPaques = ["010413", "210414", "060415", "280316", "160417", "010418"];
+		var arFeteTravail = ["010513", "010514", "010515", "010516", "010517", "010518"];
+		var ar8mai = ["080513", "080514", "080515", "080516", "080517", "080518"];
+		var arAscension = ["090513", "290514", "140515", "050516", "250517", "100518"];
+		var arPentecote = ["200513", "090614", "250515", "160516", "050617", "210518"];
+		var arFeteNationale = ["140713", "140714", "140715", "140716", "140717", "140718"];
+		var arAssomption = ["150813", "150814", "150815", "150816", "150817", "150818"];
+		var arLaToussaint = ["011113", "011114", "011115", "011116", "011117", "011118"];
+		var arArmistice = ["111113", "111114", "111115", "111116", "111117", "111118"];
+		var arNoel = ["251213", "251214", "251215", "251216", "251217", "251218"];
 
 		if (_utilArrayContainObject(arSaintSylvestre, dayString)) {
 			return _FERIE_SAINT_SYLVESTRE;
