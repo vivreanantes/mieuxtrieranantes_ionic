@@ -13,8 +13,10 @@
       <mtn-etat-recyclable etat="{{dechet.recyc}}"></mtn-etat-recyclable>
     </div>
 
-    <div class="item">
-    TODO : Modes collecte
+    Modes de Collecte :
+    <div class="item item-icon-left" ng-repeat="modeDeCollecte in modeDeCollectes">
+        <img ng-src="resources/images/{{ modeDeCollecte.image }}">
+        {{modeDeCollecte.nom}}
     </div>
 
     <div class="item item-icon-left" ng-repeat="conseil in conseils">

@@ -15,11 +15,8 @@ angular.module('starter.controllers')
 .controller('DechetCatSubCtrl', 
 
     function($scope, $stateParams, $filter, ServiceRecherche) {
-
         var categorie_usuelle = ServiceRecherche.getCategorieDechet($stateParams.code);
-
         $scope.categorie = categorie_usuelle;
-
         $scope.dechets = $filter('filter')(_garbagesDatas, {
                 cat_usuel : categorie_usuelle.code
         }); 
@@ -32,16 +29,19 @@ angular.module('starter.controllers')
 
         function($scope, $stateParams, $filter, ServiceRecherche) {
 
-                //On récupère le déchet qui correspondant au code 
+                // On récupère le déchet qui correspondant au code 
                 var dechet = ServiceRecherche.getDechet($stateParams.code);
-
+                
+                // On récupère les conseils
                 if (dechet.hasOwnProperty('cons')) {
-
                     $scope.conseils = ServiceRecherche.getConseils(dechet.cons);
-
                 }
 
-
+                // On récupère les modes de collecte
+                if (dechet.hasOwnProperty('modco')) {
+                    $scope.modesDeCollecte = ServiceRecherche.getModeDeCollectes(dechet.modco);
+                }
+                
                 /*
                 //Array modes collectes (split de la chaine)
                 var modesCollectes = dechet.modco.split(",");
