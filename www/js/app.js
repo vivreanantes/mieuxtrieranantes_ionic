@@ -205,6 +205,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.jeux', {
     url: '/jeux',
     views: {
+      'tab-jeux': {
         templateUrl: 'templates/nantes/tab-jeux.html',
         controller: 'JeuxCtrl'
       }
