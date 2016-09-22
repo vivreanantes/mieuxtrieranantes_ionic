@@ -6,7 +6,7 @@
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
 
-var myApp =angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'leaflet-directive', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate']);
+var myApp =angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'leaflet-directive', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage']);
 
 myApp.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -200,6 +200,26 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
    })
+   
+   
+  .state('tab.jeux', {
+    url: '/jeux',
+    views: {
+        templateUrl: 'templates/nantes/tab-jeux.html',
+        controller: 'JeuxCtrl'
+      }
+    }
+  })
+  
+  .state('tab.config', {
+    url: '/config',
+    views: {
+      'tab-config': {
+        templateUrl: 'templates/tab-config.html',
+        controller: 'ConfigCtrl'
+      }
+    }
+  })
    ;
 
   // if none of the above states are matched, use this as the fallback
