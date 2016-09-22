@@ -6,9 +6,9 @@
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
 
-var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'leaflet-directive', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common'])
+var myApp =angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'leaflet-directive', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate']);
 
-.run(function($ionicPlatform) {
+myApp.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -22,12 +22,30 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
       StatusBar.styleLightContent();
     }
   });
-})
+});
 
-.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $translateProvider) {
 
-  $ionicConfigProvider.tabs.position('bottom'); 
-
+  $ionicConfigProvider.tabs.position('bottom');
+	$translateProvider.useStaticFilesLoader({
+				prefix : 'resources/datas/nantes/labels_',
+				suffix : '.json'
+			},
+			{
+				prefix : 'resources/datas/nantes/structures_',
+				suffix : '.json'
+			});
+	$translateProvider.registerAvailableLanguageKeys(['en', 'fr'], {
+				'en' : 'en',
+				'en_*' : 'en',
+				'fr' : 'fr',
+				'fr_*' : 'fr',
+				'*' : 'fr'
+			});
+	$translateProvider.preferredLanguage("en");
+	$translateProvider.fallbackLanguage("en");
+	$translateProvider.useSanitizeValueStrategy('escapeParameters');
+		
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
   // Set up the various states which the app can be in.
