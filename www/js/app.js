@@ -24,15 +24,13 @@ myApp.run(function($ionicPlatform) {
   });
 });
 
-myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $translateProvider) {
+myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $translateProvider/*, ParamService*/) {
 
-  $ionicConfigProvider.tabs.position('bottom');
+	/* var temp = ParamService.getParam("available_language"); */
+	$translateProvider.translations('en', this._ihmLabelsEnDatas);
+	$translateProvider.translations('fr', this._ihmLabelsFrDatas);
 	$translateProvider.useStaticFilesLoader({
-				prefix : 'resources/datas/nantes/labels_',
-				suffix : '.json'
-			},
-			{
-				prefix : 'resources/datas/nantes/structures_',
+				prefix : 'resources/datas/nantes/DataLabels_',
 				suffix : '.json'
 			});
 	$translateProvider.registerAvailableLanguageKeys(['en', 'fr'], {
@@ -42,6 +40,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
 				'fr_*' : 'fr',
 				'*' : 'fr'
 			});
+	$ionicConfigProvider.tabs.position('bottom');
 	$translateProvider.preferredLanguage("en");
 	$translateProvider.fallbackLanguage("en");
 	$translateProvider.useSanitizeValueStrategy('escapeParameters');

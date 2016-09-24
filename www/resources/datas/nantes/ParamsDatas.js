@@ -67,5 +67,5 @@ var _paramsDatas = {
 		"code" : "pages.page7.nom",
 		"valeur" : "trisacs_nantes"
 	},
-	'zz' : {}
+	'available_language' : "fr,en"
 };

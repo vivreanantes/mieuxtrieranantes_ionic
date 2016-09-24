@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.mieuxtrieranantes169414" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>mieuxtrieranantes</name>
+<widget id="com.ionicframework.mieuxtrieranantes169414" version="2.01" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Mieux trier à Nantes</name>
   <description>&#xD;&#xD;
-        An Ionic Framework and Cordova project.&#xD;&#xD;
+        Application libre (et gratuite) pour aider les habitants
+		de Nantes Métropole à trier.&#xD;&#xD;
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">&#xD;&#xD;
-      Ionic Framework Team&#xD;&#xD;
-    </author>
+  <author email="supprimeravantlepoint.mieuxtrieranantes@gmail.com" href="http://mieuxtrieranantes.fr">
+		Bénévoles
+	</author>
   <content src="index.html"/>
+  <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
   <access origin="*"/>
   <access origin="*.ionic.io"/>
   <access origin="*.openstreetmap.org"/>
+  <access origin="*" browserOnly="true"/>
+  <access origin="geo:*" launch-external="yes"/>
+  <access origin="tel:*" launch-external="yes"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
@@ -18,6 +23,10 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
+	<feature name="Geolocation">
+		<param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+	</feature>
+	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
@@ -41,5 +50,4 @@
     <splash src="resources\android\splash\drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources\android\splash\drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
-  <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
 </widget>
