@@ -1,26 +1,29 @@
-function ServiceTrisac($filter) {
+angular.module('starter.controller', []).factory('TrisacService',
+		function TrisacService($filter) {
 
-	// GLOBAL DATA 
-	// _structuresDatas;
+			// GLOBAL DATA
+			// _structuresDatas;
 
-	this.serviceData = $filter('filter')(_structuresDatas,
-			//CUSTOM INLINE FILTER
-			function(value, index, fullarray) {
+			var _serviceData = $filter('filter')(_structuresDatas,
+					// CUSTOM INLINE FILTER
+					function(value, index, fullarray) {
 
-		if (value.modesCollecte == 'modco_distrisac')
-			return true;
-		else
-			return false;
-	});
+				if (value.modesCollecte == 'modco_distrisac')
+					return true;
+				else
+					return false;
+			});
 
-	//FONCTIONS
+			// FONCTIONS
 
-	this.getAll = function() {
+			var _getAll = function() {
 
-		return this.serviceData;
+				return this.serviceData;
 
-	};
+			}
 
-};
-
-angular.module('starter.services').service('ServiceTrisac', ServiceTrisac);
+			return {
+				getAll : _getAll,
+				serviceData : _serviceData
+			};
+		});

@@ -3,7 +3,7 @@
 angular.module('starter.controllers')
 .controller('DomicileCtrl',
 
-            function($scope, $ionicPopup, $timeout, ServiceRecherche) {
+            function($scope, $ionicPopup, $timeout, RechercheService) {
 		
             	$scope.results = [];
             	$scope.searchKey = '';
@@ -11,7 +11,7 @@ angular.module('starter.controllers')
             	
             	$scope.onSearchSubmit = function(searchkey) {
 
-            		$scope.results = ServiceRecherche.searchCollecteDomicile(searchkey);
+            		$scope.results = RechercheService.searchCollecteDomicile(searchkey);
 
 
             	}
@@ -19,7 +19,7 @@ angular.module('starter.controllers')
             	// An alert dialog
 				$scope.showInfo = function(codeConseil) {
 
-					var conseil = ServiceRecherche.getConseil(codeConseil);
+					var conseil = RechercheService.getConseil(codeConseil);
 					//TODO : TRANSLATION
 
 				    var alertPopup = $ionicPopup.alert({

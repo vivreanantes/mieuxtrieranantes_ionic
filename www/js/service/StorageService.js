@@ -1,27 +1,27 @@
-angular.module('starter.controllers')
-.factory ('StorageService', function ($localStorage) {
+angular.module('starter.controllers').factory('StorageService',
 
-// Initialise la config
-$localStorage = $localStorage.$default({
-  things: []
-});
+function($localStorage) {
+			// Initialise la config
+			$localStorage = $localStorage.$default({
+						things : []
+					});
 
-var _getAll = function () {
-  return $localStorage.things;
-};
+			var _getAll = function() {
+				return $localStorage.things;
+			};
 
-var _add = function (thing) {
-  $localStorage.things.push(thing);
-}
+			var _add = function(thing) {
+				$localStorage.things.push(thing);
+			}
 
-var _remove = function (thing) {
-  $localStorage.things.splice($localStorage.things.indexOf(thing), 1);
-}
+			var _remove = function(thing) {
+				$localStorage.things.splice(
+						$localStorage.things.indexOf(thing), 1);
+			}
 
-
-return {
-    getAll: _getAll,
-    add: _add,
-    remove: _remove
-  };
-});
+			return {
+				getAll : _getAll,
+				add : _add,
+				remove : _remove
+			};
+		});

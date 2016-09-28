@@ -1,23 +1,20 @@
-
-
-
 /* TRISAC */
 
 angular.module('starter.controllers')
 .controller('TrisacCtrl',
 
-            function($scope, ServiceTrisac) {
+            function($scope, TrisacService) {
 
-            		$scope.trisac = ServiceTrisac.getAll();                
+            		$scope.trisac = TrisacService.getAll();                
 
             }
 )
-.controller('TrisacDetailCtrl', function($scope, $stateParams, $filter, ServiceTrisac) {
+.controller('TrisacDetailCtrl', function($scope, $stateParams, $filter, TrisacService) {
 
 	var code = $stateParams.code;
 
 	//On récupère la fiche qui correspondant au code 
-	var filterResult = $filter('filter')(ServiceTrisac.getAll(), {
+	var filterResult = $filter('filter')(TrisacService.getAll(), {
 		code : code
 	});
 

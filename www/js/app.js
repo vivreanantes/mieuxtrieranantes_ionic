@@ -6,7 +6,7 @@
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
 
-var myApp =angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'leaflet-directive', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage']);
+var myApp =angular.module('starter', ['ionic', 'starter.controllers', /*'starter.services', */'leaflet-directive', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage']);
 
 myApp.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -161,7 +161,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   })
 
    .state('tab.quiz', {
-    url: '/quiz',
+    url: '/jeux/quiz',
     views: {
       'tab-quiz': {
         templateUrl: 'templates/tab-quiz.html',
@@ -220,6 +220,17 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   })
+  
+  /*
+  .state('tab.modale.domicile', {
+    url: '/modale-domicile',
+    views: {
+      'tab-config': {
+        templateUrl: 'templates/nantes/modale-domicile.html',
+        controller: 'ConfigCtrl'
+      }
+    }
+  })*/
    ;
 
   // if none of the above states are matched, use this as the fallback

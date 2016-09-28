@@ -12,8 +12,8 @@ myCtrl.controller('DechetCatCtrl', function($scope) {
 
 );
 
-myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, ServiceRecherche) {
-			var categorie_usuelle = ServiceRecherche
+myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, RechercheService) {
+			var categorie_usuelle = RechercheService
 					.getCategorieDechet($stateParams.code);
 			$scope.categorie = categorie_usuelle;
 			$scope.dechets = $filter('filter')(_garbagesDatas, {
@@ -24,25 +24,22 @@ myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, Se
 
 );
 
-myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, ServiceRecherche) {
-
-			var language = $translate.proposedLanguage();
+myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, RechercheService) {
 
 			// On récupère le déchet qui correspondant au code 
-			var dechet = ServiceRecherche.getDechet($stateParams.code);
+			var dechet = RechercheService.getDechet($stateParams.code);
 
 			// On récupère les conseils
 			if (dechet.hasOwnProperty('cons')) {
-				$scope.conseils = ServiceRecherche.getConseils(dechet.cons);
+				$scope.conseils = RechercheService.getConseils(dechet.cons);
 			}
 
 			// On récupère les modes de collecte
 			if (dechet.hasOwnProperty('modco')) {
-				$scope.modesDeCollecte = ServiceRecherche
+				$scope.modesDeCollecte = RechercheService
 						.getModeDeCollectes(dechet.modco);
 			}
 
-			/*
 			//Array modes collectes (split de la chaine)
 			var modesCollectes = dechet.modco.split(",");
 
@@ -76,6 +73,7 @@ myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, Se
 			                    }
 			            });
 			    }
+			    /*
 			    if (dechet.recyc === "PAS_POUBELLE") {
 			            dechet.recyc_color = "orange";
 			            dechet.recyc = "Ne pas mettre à la poubelle";
@@ -87,8 +85,7 @@ myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, Se
 			    } else {
 			            dechet.recyc_color = "green";
 			            dechet.recyc = _translate("label_OUI");
-			    }
-			 */
+			    }*/
 
 			//SCOPE
 			$scope.dechet = dechet;

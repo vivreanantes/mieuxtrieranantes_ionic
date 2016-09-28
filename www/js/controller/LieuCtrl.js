@@ -3,12 +3,12 @@
 angular.module('starter.controllers')
 .controller('LieuCtrl',
 
-        function($scope, ServiceRecherche) {
+        function($scope, RechercheService) {
 
             $scope.maxDisplayResults = 25;
 
             //SELECT Type de structures                 
-            $scope.typeCollecte = ServiceRecherche.getTypeCollecte();
+            $scope.typeCollecte = RechercheService.getTypeCollecte();
 
             //FORM MODEL : DEFAULTS
             $scope.formParam = {
@@ -18,17 +18,17 @@ angular.module('starter.controllers')
             };
 
             //INIT RESULTS
-            $scope.results = ServiceRecherche.searchStructure('.*', '');
+            $scope.results = RechercheService.searchStructure('.*', '');
 
             $scope.onChangeType = function() {
                            
-                $scope.results = ServiceRecherche.searchStructure($scope.formParam.type.value, $scope.formParam.searchkey);
+                $scope.results = RechercheService.searchStructure($scope.formParam.type.value, $scope.formParam.searchkey);
 
             };
 
             $scope.onSearchSubmit = function() {
                            
-                $scope.results = ServiceRecherche.searchStructure($scope.formParam.type.value, $scope.formParam.searchkey);
+                $scope.results = RechercheService.searchStructure($scope.formParam.type.value, $scope.formParam.searchkey);
 
             };
 
@@ -36,10 +36,10 @@ angular.module('starter.controllers')
 )
 .controller('LieuDetailCtrl',
 
-        function($scope, $stateParams, ServiceRecherche) {
+        function($scope, $stateParams, RechercheService) {
         
             var code = $stateParams.code;
-            $scope.structure = ServiceRecherche.getStructure(code);
+            $scope.structure = RechercheService.getStructure(code);
 
         }
 

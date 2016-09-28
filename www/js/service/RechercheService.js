@@ -1,167 +1,165 @@
+angular.module('starter.controllers')
+.factory ('RechercheService', function ($filter) {
+  
+  //GLOBAL DATA
+  var structuresData = _structuresDatas;
+  var collecteDomicileData = _homeCollectModsDatas;
+  var advicesData = _advicesDatas;
+  var categoriesData = _usualCategoriesDatas;
+  var garbagesData = _garbagesDatas;
+  var collectModsDatas = _collectModsDatas;
+   
+  var structureCollecteType = [{
+        name : 'Tous',
+        value : '.*'
+    }, {
+        name : "Déchèteries / Ecopoints",
+        value : "modco_decheterie|modco_ecopoint"
+    }, {
+        name : "Encombrants",
+        value : "modco_encombrants_resume"
+    }, {
+        name : "Réemploi",
+        value : "smco_reemp"
+    }, {
+        name : "Vente vrac",
+        value : "ventevrac"
+    }];
 
 
-function ServiceRecherche($filter) {
-
-	//GLOBAL DATA
-	var structuresData = _structuresDatas;
-	var collecteDomicileData = _homeCollectModsDatas;
-	var advicesData = _advicesDatas;
-	var categoriesData = _usualCategoriesDatas;
-	var garbagesData = _garbagesDatas;
-	var collectModsDatas = _collectModsDatas;
-
-	var structureCollecteType = [{
-				name : 'Tous',
-				value : '.*'
-			}, {
-				name : "Déchèteries / Ecopoints",
-				value : "modco_decheterie|modco_ecopoint"
-			}, {
-				name : "Encombrants",
-				value : "modco_encombrants_resume"
-			}, {
-				name : "Réemploi",
-				value : "smco_reemp"
-			}, {
-				name : "Vente vrac",
-				value : "ventevrac"
-			}];
-
-	this._escapeRegExp = function(str) {
-		return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
-	}
+    var _escapeRegExp = function (str) {
+    	return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+    }
 
 	/*  RECHERCHE de structures basé sur un type de structure et un mot-clé
 	 * 
-	 *  @example ServiceRecherche.searchStructure('modco_decheterie|modco_ecopoint','vélo')
-	 * 
+	 *  @example RechercheService.searchStructure('modco_decheterie|modco_ecopoint','vélo')
+     * 
 	 */
-	this.searchStructure = function(structureType, searchKeyword) {
+  	var _searchStructure = function (structureType, searchKeyword) {
 
-		var searchKeyWordCleaned = $filter('searchTextClean')(searchKeyword);
+  		var searchKeyWordCleaned = $filter('searchTextClean')(searchKeyword);
 		var stTypeRegexp = new RegExp(structureType);
-		var my = this;
+		var my = this; 
 
-		var results = $filter('filter')(structuresData,
+		var results=$filter('filter')(structuresData, 
+        
+            //CUSTOM FILTER
+            function (item, index) {
+      
+            	var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
 
-				//CUSTOM FILTER
-				function(item, index) {
+                //Analyse du type uniquement
+                if (searchKeyWordCleaned == '') {
 
-			var textTest = new RegExp(my._escapeRegExp(searchKeyWordCleaned),
-					'ig');
+                    return stTypeRegexp.test(item.modesCollecte);
+                    
+                }
+                //Analyse type et mot-clé
+                else {
 
-			//Analyse du type uniquement
-			if (searchKeyWordCleaned == '') {
+                	return (stTypeRegexp.test(item.modesCollecte) && textTest.test(item.mots_cles));
 
-				return stTypeRegexp.test(item.modesCollecte);
+                }          
+                
+            }
+        );
 
-			}
-			//Analyse type et mot-clé
-			else {
+  		return results;
 
-				return (stTypeRegexp.test(item.modesCollecte) && textTest
-						.test(item.mots_cles));
+  	};
 
-			}
 
-		});
+    var _getStructure = function (code) {
 
-		return results;
+        var expFilter =  { code : code };
 
-	};
+        //On récupère la structure qui correspondant au code 
+        var filterResult = $filter('filter')(structuresData, expFilter);
 
-	this.getStructure = function(code) {
+        if (filterResult.length > 0) {
+            return filterResult[0];
+        }
+        else return null;
 
-		var expFilter = {
-			code : code
-		};
+    };
 
-		//On récupère la structure qui correspondant au code 
-		var filterResult = $filter('filter')(structuresData, expFilter);
 
-		if (filterResult.length > 0) {
-			return filterResult[0];
-		} else
-			return null;
+    /*  RECHERCHE du mode de collecte pour l'adresse en paramètre
+     * 
+     *  @example RechercheService.searchCollecte('rue des récollets')
+     * 
+     */
+    var _searchCollecteDomicile = function (adresse) {
 
-	};
+        var searchKeyWordCleaned = $filter('searchTextCleanAdresse')(adresse);
+        var myRegexp = new RegExp(searchKeyWordCleaned, 'ig');
 
-	/*  RECHERCHE du mode de collecte pour l'adresse en paramètre
-	 * 
-	 *  @example ServiceRecherche.searchCollecte('rue des récollets')
-	 * 
-	 */
-	this.searchCollecteDomicile = function(adresse) {
+        //console.log(searchKeyWordCleaned);
 
-		var searchKeyWordCleaned = $filter('searchTextCleanAdresse')(adresse);
-		var myRegexp = new RegExp(searchKeyWordCleaned, 'ig');
+        //On récupère la fiche qui correspondant au code 
+        var filterResult = $filter('filter')(collecteDomicileData, 
 
-		//console.log(searchKeyWordCleaned);
+            //CUSTOM FILTER
+            function (item, index) {
 
-		//On récupère la fiche qui correspondant au code 
-		var filterResult = $filter('filter')(collecteDomicileData,
+                return (myRegexp.test(item.mots_cles));
+                   
+            }
 
-				//CUSTOM FILTER
-				function(item, index) {
+        );
 
-			return (myRegexp.test(item.mots_cles));
+        return filterResult;
 
-		}
+    };
 
-		);
+    /*  Récupération d'un conseil à partir de son code
+     * 
+     *  @example RechercheService.getConseil('cons_encombrants')
+     * 
+     */
+    var _getConseil = function (code) {
 
-		return filterResult;
+        var expFilter =  { code : code };
 
-	};
+        //On récupère la fiche qui correspondant au code 
+        var filterResult = $filter('filter')(advicesData, expFilter);
 
-	/*  Récupération d'un conseil à partir de son code
-	 * 
-	 *  @example ServiceRecherche.getConseil('cons_encombrants')
-	 * 
-	 */
-	this.getConseil = function(code) {
+        if (filterResult.length > 0) {
+            return filterResult[0];
+        }
+        else return null;
 
-		var expFilter = {
-			code : code
-		};
+    }
 
-		//On récupère la fiche qui correspondant au code 
-		var filterResult = $filter('filter')(advicesData, expFilter);
+    /*  Récupération de conseils à partir de leurs codes (séparés par des virgules)
+     * 
+     *  @example RechercheService.getConseils('cons_sansbouchon,cons_bouchonamour,cons_ferraille,cons_acier')
+     * 
+     */
+    var _getConseils = function (codes) {
 
-		if (filterResult.length > 0) {
-			return filterResult[0];
-		} else
-			return null;
+        var expFilter =  function(item, index, array) {
 
-	}
+            var test = codes.indexOf(item.code);
+            return (test >= 0);
 
-	/*  Récupération de conseils à partir de leurs codes (séparés par des virgules)
-	 * 
-	 *  @example ServiceRecherche.getConseils('cons_sansbouchon,cons_bouchonamour,cons_ferraille,cons_acier')
-	 * 
-	 */
-	this.getConseils = function(codes) {
+        };
 
-		var expFilter = function(item, index, array) {
+        //On récupère la fiche qui correspondant au code 
+        var filterResult = $filter('filter')(advicesData, expFilter);
 
-			var test = codes.indexOf(item.code);
-			return (test >= 0);
+        return filterResult;
 
-		};
+    }
 
-		//On récupère la fiche qui correspondant au code 
-		var filterResult = $filter('filter')(advicesData, expFilter);
-
-		return filterResult;
-
-	}
 
 	/*  Récupération des modes de collecte à partir de leurs codes (séparés par des virgules)
 	 * 
-	 *  @example ServiceRecherche.getConseils('cons_sansbouchon,cons_bouchonamour,cons_ferraille,cons_acier')
+	 *  @example RechercheService.getConseils('cons_sansbouchon,cons_bouchonamour,cons_ferraille,cons_acier')
 	 * 
 	 */
-	this.getModeDeCollectes = function(codes) {
+	var _getModeDeCollectes = function(codes) {
 
 		var expFilter = function(item, index, array) {
 			var test = codes.indexOf(item.code);
@@ -174,95 +172,63 @@ function ServiceRecherche($filter) {
 		return filterResult;
 
 	}
-
-	/*  Récupération d'une categorie déchet à partir de son code
-	 * 
-	 *  @example ServiceRecherche.getCategorieDechet('cu_plastique')
-	 * 
-	 */
-	this.getCategorieDechet = function(codeCategorie) {
-
-		var expFilter = {
-			code : codeCategorie
-		};
-
-		//On récupère la fiche qui correspondant au code 
-		var filterResult = $filter('filter')(categoriesData, expFilter);
-
-		if (filterResult.length > 0) {
-			return filterResult[0];
-		} else
-			return null;
-
-	}
-
-	/*  Récupération d'un déchet à partir de son code
-	 * 
-	 *  @example ServiceRecherche.getDechet('dec_potPeinture')
-	 * 
-	 */
-	this.getDechet = function(code) {
-
-		var expFilter = {
-			code : code
-		};
-
-		//On récupère la fiche qui correspondant au code 
-		var filterResult = $filter('filter')(garbagesData, expFilter);
-
-		if (filterResult.length > 0) {
-			return filterResult[0];
-		} else
-			return null;
-
-	}
-
-	/*
-	 this.search = function (typeParam, searchkeyParam) {
 	
-	 console.time("search_structures");
-	 var stTypeRegexp = new RegExp(typeParam.value);
-	 var stSearchRegexp = new RegExp(Transliteration(searchkeyParam), 'ig');
+    /*  Récupération d'une categorie déchet à partir de son code
+     * 
+     *  @example RechercheService.getCategorieDechet('cu_plastique')
+     * 
+     */
+    var _getCategorieDechet = function (codeCategorie) {
 
-	 var results=$filter('filter')(structuresData, 
-	
-	 //CUSTOM FILTER
-	 function (item, index, fullarray) {
-	
-	 //Analyse du type uniquement
-	 if (searchkeyParam == '') {
-	
-	 return stTypeRegexp.test(item.modesCollecte);
-	
-	 }
-	 //Analyse type et mot-clé
-	 else {
-	
-	 var nomNormalize=Transliteration(item.nom);
-	
-	 //Mots-clés sur la donnée ??
-	 var keywordsNormalize='';                    
-	 if (typeof item.mots_cles !== "undefined") keywordsNormalize=Transliteration(item.mots_cles);
-	
-	 return stTypeRegexp.test(item.modesCollecte) && (stSearchRegexp.test(nomNormalize) || stSearchRegexp.test(keywordsNormalize));
-	
-	 }          
-	
-	 }
-	 );
+        var expFilter =  { code : codeCategorie };
 
-	 console.timeEnd("search_structures");  
+        //On récupère la fiche qui correspondant au code 
+        var filterResult = $filter('filter')(categoriesData, expFilter);
 
-	 return results;
-	 }; */
+        if (filterResult.length > 0) {
+            return filterResult[0];
+        }
+        else return null;
 
-	this.getTypeCollecte = function() {
+    }
 
-		return structureCollecteType;
+    /*  Récupération d'un déchet à partir de son code
+     * 
+     *  @example RechercheService.getDechet('dec_potPeinture')
+     * 
+     */
+    var _getDechet = function (code) {
 
-	};
+        var expFilter =  { code : code };
 
-};
+        //On récupère la fiche qui correspondant au code 
+        var filterResult = $filter('filter')(garbagesData, expFilter);
 
-angular.module('starter.services', []).service('ServiceRecherche',
-		ServiceRecherche);
+        if (filterResult.length > 0) {
+            return filterResult[0];
+        }
+        else return null;
+
+    }
+
+    var _getTypeCollecte = function () {
+        
+        return structureCollecteType;
+        
+    }   
+
+
+
+return {
+    escapeRegExp : _escapeRegExp,
+    searchStructure : _searchStructure,
+    getStructure : _getStructure,
+    searchCollecteDomicile : _searchCollecteDomicile,
+    getConseil : _getConseil,
+    getConseils : _getConseils,
+    getModeDeCollectes : _getModeDeCollectes,
+    getCategorieDechet : _getCategorieDechet,
+    getDechet : _getDechet,
+    getTypeCollecte : _getTypeCollecte
+  };
+});
