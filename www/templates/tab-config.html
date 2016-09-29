@@ -2,57 +2,59 @@
 
  <ion-content>
 
-	<ion-radio ng-model="choice" ng-value="'A'">J'habite Nantes</ion-radio>
-		<div class="buttons" ng-show="choice=='A'">
-        	<button class="button button-icon ion-wrench" ng-click="modal.show()">Retrouver mon mode de collecte selon mon adresse
-        	</button>
-         </div>
-	<ion-radio ng-model="choice" ng-value="'B'">J'habite une autre commune de Nantes Métropole</ion-radio>
+	{{"langue_actuelle" | translate}}
+	<button class="button button-light button-outline ion-settings"  ng-click="switchLanguage()">{{'change_language'|translate}}</button>
+	<br/><br/>
+	{{ collectmodsfilter }}
+	<button class="button button-light button-outline ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
+	
+	
+	<br/><br/>
 
-
-         <script id="nantes/modale-domicile2.html" type="text/ng-template">
+         <script id="nantes/modal-domicile.html" type="text/ng-template">
 		      <ion-modal-view>
+		        
 		        <ion-header-bar class="bar bar-header bar-positive">
-		          <h1 class="title">Retrouver mode de collecte par adresse</h1>
-		          <button class="button button-clear button-primary" ng-click="modal.hide()">Cancel</button>
+		          <h1 class="title">{{'configurez_selon_votre_adresse'|translate}}</h1>
+		          <button class="button button-clear button-primary" ng-click="modal.hide()">{{'cancel'|translate}}</button>
 		        </ion-header-bar>
+		        
 		        <ion-content class="padding">
-		      
-		      <div class="card">
+
+		      <ion-radio ng-model="choice" ng-value="'B'" ng-click="selectAdress('bac')">{{'jhabite_hors_nantes'|translate}}</ion-radio>
+		      <ion-radio ng-model="choice" ng-value="'A'">{{'jhabite_nantes'|translate}}</ion-radio>
+
+	
+		      <div class="card" ng-show="choice=='A'">
 			
-				  	<div class="item item-divider item-calm">
-				      Recherche (adresse à Nantes)
-				  	</div>
+				  	<div class="item item-divider item-calm">{{'donnez_votre_rue'|translate}}</div>
 			
 				  	<div class="item item-input">
 				    	<label class="item-input-wrapper">
-				     		<input ng-model="searchKey"  type="text" placeholder="boulevard, avenue, rue...">
+				     		<input ng-model="searchKey"  type="text" placeholder="{{'donnez_votre_rue_placeholder'|translate}}">
 				    	</label>
 				    	<a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit(searchKey)"></a>
 				  	</div>
 			
 				</div>
 			
-				<div class="card" ng-show="50 > 0">
+				<div class="card" ng-show="results.length > 0 && choice=='A'">
 			
-				  	<div class="item item-divider item-calm">
-				      Résultats <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
+				  	<div class="item item-divider item-calm">{{'results'|translate}}<span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
 				  	</div>
 			
-				  	<div class="item" ng-show="results.length == 0">
-				      Aucun résultat
-				  	</div>
+				  	<div class="item" ng-show="results.length == 0"> : {{'no_result'|translate}}</div>
 			
 				  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
 				        {{::collecte.dcv}}<br>
 				        <span ng-bind-html="collecte.jcbj"></span>
 				        <button class="button button-stable" ng-click="selectAdress(collecte.mco)">
-			      			<i class="icon ion-ios-checkmark-outline"></i>
+			      			<i class="ico ion-ios-checkmark-outline"></i>
 			    		</button>
 				  	</div>
 			
 				  	<div class="item item-assertive" ng-show="results.length > maxDisplayResults">
-			      		Les {{::maxDisplayResults}} premiers résultats ont été affichés...<br>
+				  		{{'les_xx_premiers_results_affiches'|translate:translatevalues}}<br/>{{'affiner_recherche'|translate}}
 			  		</div>
 			
 				</div>
@@ -60,28 +62,6 @@
 		        </ion-content>
 		      </ion-modal-view>
 		    </script>
-
-     
-  	<button ng-click="switchLanguage()">{{'Change language'|translate}}</button>
-  	<h2>{{"langue_actuelle" | translate}}</h2>
-  
-      <div class="list">
-        <div class="item item-input-inset">
-          <label class="item-input-wrapper">
-            <input type="text" placeholder="anything to save" ng-model="newThing">
-          </label>
-          <button class="button button-clear button-positive icon" ng-click="add(newThing)">
-            <i class="ion-ios-plus-outline"></i> Add
-          </button>
-        </div>
-      </div>
-
-<ion-list show-delete="false" can-swipe="true">
-       <ion-item ng-repeat="thing in things">
- {{thing}}
-       <ion-option-button class="button-assertive ion-trash-b" ng-click="remove(thing)"></ion-option-button>
-       </ion-item>
-     </ion-list>
 
    </ion-content>
 </ion-view>

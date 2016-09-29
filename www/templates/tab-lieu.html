@@ -28,13 +28,9 @@
 
 <div class="card">
 
-  <div class="item item-divider item-calm">
-      Résultats <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
-  </div>
+  <div class="item item-divider item-calm">{{'results'|translate}}<span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span></div>
 
-  <div class="item" ng-show="results.length == 0">
-      Aucun résultat
-  </div>
+  <div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
 
   <a class="item" ng-repeat="structure in results | limitTo:maxDisplayResults" ng-href="#/tab/lieu/detail/{{::structure.code}}">
         {{::structure.nom}} <br>
@@ -43,7 +39,7 @@
   </a>
 
   <div class="item item-assertive" ng-show="results.length > maxDisplayResults">
-      Les {{::maxDisplayResults}} premiers résultats ont été affichés...<br>
+     {{'les_xx_premiers_results_affiches'|translate:translatevalues}}<br>
       Vous pouvez utiliser la recherche par mot-clé pour affiner votre recherche.
   </div>
 

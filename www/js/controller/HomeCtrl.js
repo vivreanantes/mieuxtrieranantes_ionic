@@ -1,8 +1,10 @@
 /* PAGE ACCUEIL */
         
-angular.module('starter.controllers').controller('HomeCtrl', function($scope, $ionicSideMenuDelegate) {
+angular.module('starter.controllers').controller('HomeCtrl', function($scope, $ionicSideMenuDelegate, $translate, ParamService) {
     
-  // TEMP CRN
+	var temp = ParamService.getParam("available_language");
+	$translate.use(temp);
+
   $scope.myFunctionName = function(){
     //return true or false here
     if (isPageActive('accueil_nantes')) {

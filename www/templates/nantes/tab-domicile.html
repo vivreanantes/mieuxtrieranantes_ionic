@@ -18,13 +18,10 @@
 
 	<div class="card" ng-show="results.length > 0">
 
-	  	<div class="item item-divider item-calm">
-	      Résultats <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
+	  	<div class="item item-divider item-calm">{{'results'|translate}}<span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
 	  	</div>
 
-	  	<div class="item" ng-show="results.length == 0">
-	      Aucun résultat
-	  	</div>
+	  	<div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
 
 	  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
 	        {{::collecte.dcv}}<br>
@@ -35,7 +32,7 @@
 	  	</div>
 
 	  	<div class="item item-assertive" ng-show="results.length > maxDisplayResults">
-      		Les {{::maxDisplayResults}} premiers résultats ont été affichés...<br>
+      		{{'les_xx_premiers_results_affiches'|translate:translatevalues}}<br/>{{'affiner_recherche'|translate}}
   		</div>
 
 	</div>

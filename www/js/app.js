@@ -24,9 +24,8 @@ myApp.run(function($ionicPlatform) {
   });
 });
 
-myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $translateProvider/*, ParamService*/) {
+myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $translateProvider) {
 
-	/* var temp = ParamService.getParam("available_language"); */
 	$translateProvider.translations('en', this._ihmLabelsEnDatas);
 	$translateProvider.translations('fr', this._ihmLabelsFrDatas);
 	$translateProvider.useStaticFilesLoader({

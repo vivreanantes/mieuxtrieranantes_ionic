@@ -1,82 +1,43 @@
-angular.module('starter.controllers')
-		.controller(
-				'ConfigCtrl',
-				function($scope, StorageService, ParamService, RechercheService, $translate,
-						$ionicModal) {
-					$scope.things = StorageService.getAll();
+angular.module('starter.controllers').controller(
+		'ConfigCtrl',
+		function($scope, ParamService, RechercheService,
+				$translate, $ionicModal) {
+			$scope.lang = ParamService.getParam("available_language");
+			$scope.collectmodsfilter = ParamService
+					.getValue("collectmodsfilter");
 
-					$scope.add = function(newThing) {
-						StorageService.add(newThing);
-					};
+			$scope.switchLanguage = function() {
 
-					$scope.remove = function(thing) {
-						StorageService.remove(thing);
-					};
+				var tmp = $translate.proposedLanguage();
+				if (tmp === "fr") {
+					$translate.use("en");
+				} else {
+					$translate.use("fr");
+				}
+				// RM-PA_LANGUE_01 On peut sauver la langue de l'utilisateur
+				ParamService.setValue("currentlanguage", tmp);
+			}
 
-					// http://robferguson.org/2015/07/22/internationalisation-i18n-and-localisation-l10n-for-ionic-apps/
-					$scope.switchLanguage = function() {
-						// var temp = ParamService.getParam("available_language");
-						var tmp = $translate.proposedLanguage();
-						if (tmp === "fr") {
-							$translate.use("en");
-						} else {
-							$translate.use("fr");
-						}
-					}
+			$ionicModal.fromTemplateUrl('nantes/modal-domicile.html', {
+						scope : $scope
+					}).then(function(modal) {
+						$scope.modal = modal;
+						$scope.results = [];
+						$scope.searchKey = '';
+						$scope.maxDisplayResults = 2;
+						$scope.translatevalues = {
+							maxDisplayResults : $scope.maxDisplayResults
+						};
+					});
 
-					$ionicModal.fromTemplateUrl('nantes/modale-domicile2.html',
-							{
-								scope : $scope
-							}).then(function(modal) {
-								$scope.modal = modal;
-            	$scope.results = [];
-            	$scope.searchKey = '';
-            	$scope.maxDisplayResults = 30;
-							});
+			$scope.onSearchSubmit = function(searchkey) {
+				$scope.results = RechercheService
+						.searchCollecteDomicile(searchkey);
+			},
 
-					$scope.onSearchSubmit = function(searchkey) {
-						$scope.results = RechercheService.searchCollecteDomicile(searchkey);
-					},
-					
-					$scope.selectAdress = function(mco) {
-						StorageService.add(mco);
-						$scope.modal.hide();
-					}
-				
-					
-				});
+			$scope.selectAdress = function(mco) {
+				ParamService.setValue("collectmodsfilter", mco);
+				$scope.modal.hide();
+			}
 
-/*
-$scope.hashtag = function() {
-	$scope.hashtagValue = 'blackandwhitephotography'; // if selected, it'll display this value
-
-	$ionicModal.fromTemplateUrl('templates/nantes/modale-domicile.html', {
-				scope : $scope,
-				animation : 'slide-in-up',
-				focusFirstInput : true
-			}).then(function(modal) {
-				$scope.modal = modal;
-				$scope.modal.show();
-			});
-};
-
-$scope.openModal = function() {
-	$scope.modal.show();
-};
-
-$scope.closeModal = function() {
-	$scope.modal.hide();
-};
-
-$scope.$on('$destroy', function() {
-			$scope.modal.remove();
 		});
-
-$scope.$on('modal.hidden', function() {
-			// Execute action
-		});
-
-$scope.$on('modal.removed', function() {
-			// Execute action
-		});
-}*/

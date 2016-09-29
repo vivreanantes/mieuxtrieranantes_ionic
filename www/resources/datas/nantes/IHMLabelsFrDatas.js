@@ -163,5 +163,16 @@ var _ihmLabelsFrDatas = {
 	"accueil" : "Accueil",
 	"langue_actuelle" : "Français",
 	"jeux" : "Jeux",
-	"config" : "Config"
+	"config" : "Config",
+	"configurez_selon_votre_adresse" : "Configurez selon votre adresse",
+	"donnez_votre_rue" : "Indiquez votre rue",
+	"donnez_votre_rue_placeholder" : "boulevard, avenue, rue...",
+	"change_language" : "Changer la langue",
+	"cancel" : "Annuler",
+	"results" : "Résultats",
+	"no_result" : "Aucun résultats",
+	"les_xx_premiers_results_affiches" : "Les {{nb}} {{maxDisplayResults}} premiers résultats ont été affichés...",
+	"affiner_recherche" : "Vous pouvez utiliser la recherche par mot-clé pour affiner votre recherche.",
+	"jhabite_nantes" : "J'habite la ville de Nantes.",
+	"jhabite_hors_nantes" : "J'habite Nantes Métropole, mais pas Nantes."
 }

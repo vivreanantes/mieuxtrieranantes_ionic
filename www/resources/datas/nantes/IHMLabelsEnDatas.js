@@ -163,5 +163,16 @@ var _ihmLabelsEnDatas = {
 	"accueil" : "Welcome",
 	"langue_actuelle" : "English",
 	"jeux" : "Games",
-	"config" : "Config"
+	"config" : "Config",
+	"configurez_selon_votre_adresse" : "Configure depending your address",
+	"donnez_votre_rue" : "Give your street",
+	"donnez_votre_rue_placeholder" : "boulevard, avenue, street...",
+	"change_language" : "Change the language",
+	"cancel" : "Cancel",
+	"results" : "Résultats",
+	"no_result" : "No results",
+	"les_xx_premiers_results_affiches" : "The {{maxDisplayResults}} first results have been shown...",
+	"affiner_recherche" : "You can use the search by keyword to narrow your search.",
+	"jhabite_nantes" : "I live in Nantes.",
+	"jhabite_hors_nantes" : "I live in Nantes Métropôle, but noy in Nantes."
 };

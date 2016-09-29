@@ -1,5 +1,17 @@
 angular.module('starter.controllers').factory('ParamService',
-		function($filter) {
+		function($filter,$localStorage) {
+			// Initialise la config
+			$localStorage = $localStorage.$default({
+						things : []
+					});
+
+			var _getValue = function(key) {
+				return $localStorage[key];
+			};
+
+			var _setValue = function(key, value) {
+				$localStorage[key] = value;
+			};
 
 			/**
 			 * Renvoie la valeur d'un paramètre (les paramètres sont regroupés
@@ -13,9 +25,11 @@ angular.module('starter.controllers').factory('ParamService',
 					result = datas[stKey];
 				}
 				return result;
-			}
+			};
 
 			return {
-				getParam : _getParam
+				getParam : _getParam,
+				setValue : _setValue,
+				getValue : _getValue
 			};
 		});
