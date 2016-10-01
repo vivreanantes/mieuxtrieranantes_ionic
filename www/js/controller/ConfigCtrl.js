@@ -4,7 +4,7 @@ angular.module('starter.controllers').controller(
 				$translate, $ionicModal) {
 			$scope.lang = ParamService.getParam("available_language");
 			$scope.collectmodsfilter = ParamService
-					.getValue("collectmodsfilter");
+					.getValueInLocalStorage("collectmodsfilter");
 
 			$scope.switchLanguage = function() {
 
@@ -15,7 +15,7 @@ angular.module('starter.controllers').controller(
 					$translate.use("fr");
 				}
 				// RM-PA_LANGUE_01 On peut sauver la langue de l'utilisateur
-				ParamService.setValue("currentlanguage", tmp);
+				ParamService.setValueInLocalStorage("currentlanguage", tmp);
 			}
 
 			$ionicModal.fromTemplateUrl('nantes/modal-domicile.html', {
@@ -24,7 +24,7 @@ angular.module('starter.controllers').controller(
 						$scope.modal = modal;
 						$scope.results = [];
 						$scope.searchKey = '';
-						$scope.maxDisplayResults = 2;
+						$scope.maxDisplayResults = 30;
 						$scope.translatevalues = {
 							maxDisplayResults : $scope.maxDisplayResults
 						};
@@ -36,7 +36,7 @@ angular.module('starter.controllers').controller(
 			},
 
 			$scope.selectAdress = function(mco) {
-				ParamService.setValue("collectmodsfilter", mco);
+				ParamService.setValueInLocalStorage("collectmodsfilter", mco);
 				$scope.modal.hide();
 			}
 

@@ -174,5 +174,6 @@ var _ihmLabelsFrDatas = {
 	"les_xx_premiers_results_affiches" : "Les {{nb}} {{maxDisplayResults}} premiers résultats ont été affichés...",
 	"affiner_recherche" : "Vous pouvez utiliser la recherche par mot-clé pour affiner votre recherche.",
 	"jhabite_nantes" : "J'habite la ville de Nantes.",
-	"jhabite_hors_nantes" : "J'habite Nantes Métropole, mais pas Nantes."
+	"jhabite_hors_nantes" : "J'habite Nantes Métropole, mais pas Nantes.",
+	"fiche_descr" : "{{fiche.descr}}"
 }

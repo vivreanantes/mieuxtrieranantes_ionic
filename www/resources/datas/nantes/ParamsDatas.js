@@ -16,5 +16,6 @@ var _paramsDatas = {
 	'pages.page5.nom' : "lieux",
 	'pages.page6.nom' : "a_domicile",
 	'pages.page7.nom' : "trisacs_nantes",
-	'available_language' : "fr,en"
+	'available_language' : "fr,en",
+	'defaultlanguage' : "fr"
 };
