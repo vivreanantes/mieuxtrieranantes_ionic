@@ -7,7 +7,7 @@
     <div class="list">         
         <a class="item item-thumbnail-left" ng-href="#/tab/fiches/detail/{{::fiche.code}}" ng-repeat="fiche in ::fiches">           
             <img ng-src="resources/images/{{::fiche.image}}"/>
-            <h2>{{::fiche.nom}}</h2>
+            <h2>{{'nom_translated'|translate:fiche}}</h2>
         </a>
        
     </div>

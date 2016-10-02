@@ -11,7 +11,7 @@
         </div>
 
         <a class="button button-full button-clear button-positive item-text-wrap text-center" ng-href="#/tab/dechet/cat/{{::categorie.code}}">
-            {{::categorie.nom}}
+            {{'nom_translated'|translate:categorie}}
         </a>
 
       </div>
@@ -44,7 +44,7 @@
 
       <a class="item item-avatar" ng-href="#/tab/dechet/cat/{{::categorie.code}}" ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}">
         <img ng-src="resources/images/{{::categorie.image}}"/>
-        {{::categorie.nom}}
+        {{'nom_translated'|translate:categorie}}
       </a>
 
   </div>

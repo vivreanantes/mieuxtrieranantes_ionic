@@ -21,4 +21,8 @@ angular.module('starter.controllers')
 	//SCOPE
 	$scope.fiche = fiche;
 
+	$scope.translatevalues = {
+							descr : $scope.fiche.descr
+						};
+	
 });

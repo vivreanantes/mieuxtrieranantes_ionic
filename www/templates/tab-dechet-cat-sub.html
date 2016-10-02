@@ -11,7 +11,7 @@
             </a>   
         </div>
         <a class="action text-center positive" ng-href="#/tab/dechet/detail/{{::dechet.code}}">
-            {{::dechet.nom}}
+            {{'nom_translated'|translate:dechet}}
         </a>
       </div>
       
@@ -21,14 +21,14 @@
 <div class="card">
 
   <div class="item item-divider item-calm">
-      Catégories &gt; {{categorie.nom}}
+      Catégories &gt; {{'nom_translated'|translate:categorie}}
   </div>
 
   <div class="list">
 
       <a class="item item-avatar" ng-href="#/tab/dechet/detail/{{::dechet.code}}" ng-repeat="dechet in dechets">
         <img ng-src="resources/images/{{::dechet.image}}"/>
-        {{::dechet.nom}}
+        {{'nom_translated'|translate:dechet}}
       </a>
 
   </div>

@@ -6,22 +6,24 @@
 
     <div class="item item-avatar">
         <img ng-src="resources/images/{{ dechet.image }}">
-        <h2>{{dechet.nom}}</h2>
+        <h2>{{'nom_translated'|translate:dechet}}</h2>
     </div>
 
     <div class="item">
       <mtn-etat-recyclable etat="{{dechet.recyc}}"></mtn-etat-recyclable>
     </div>
 
+  <p><b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}</p>
+  
     Modes de Collecte :
     <div class="item item-icon-left" ng-repeat="modeDeCollecte in modeDeCollectes">
         <img ng-src="resources/images/{{ modeDeCollecte.image }}">
-        {{modeDeCollecte.nom}}
+        {{'nom_translated'|translate:modeDeCollecte}}
     </div>
 
     <div class="item item-icon-left" ng-repeat="conseil in conseils">
       <i class="icon ion-information-circled"></i>
-      <div>{{conseil.nom}}</div>
+      <div>{{'nom_translated'|translate:conseil}}</div>
       <p ng-bind-html="conseil.descr"></p>
     </div>
 
@@ -32,11 +34,11 @@
 
   </div>
 
-  <div class="row">
+  <div class="row" ng-show="dechet.src!=null">
     <div class="col">Source : <i>{{dechet.src}}</i></div>
   </div>
 
-    <div class="row">
+    <div class="row" ng-show="dechet.sponsor!=null">
       <div class="col">Cette ressource est parrainée par le donateur KissKissBankBank : <i>{{dechet.sponsor}}</i></div>
     </div>
 
@@ -44,7 +46,7 @@
   <div>    
       <a class="item item-thumbnail-left" href="#">
       <img ng-src="resources/images/{{ dechet.image }}">
-      <h2><b>{{dechet.nom}}</b></h2><br/>
+      <h2><b>{{'nom_translated'|translate:dechet}}</b></h2><br/>
       Recyclable : <font color='{{dechet.recyc_color}}'><b>{{dechet.recyc}}</b></font>
       </a>
 
@@ -65,7 +67,8 @@
           <a ng-if="conseil.fiche" ng-href="#/tab/fiches/detail/{{::conseil.fiche}}" class="selectable style_bouton">Plus d'infos</a>
       </div>
       
-      <p><b>Concerne :</b> {{dechet.descr}}</p>
+    
+       
       <p><b>Source :</b> {{dechet.src}}</p>
         
   </div>

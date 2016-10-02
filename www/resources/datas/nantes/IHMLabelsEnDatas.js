@@ -175,5 +175,7 @@ var _ihmLabelsEnDatas = {
 	"affiner_recherche" : "You can use the search by keyword to narrow your search.",
 	"jhabite_nantes" : "I live in Nantes.",
 	"jhabite_hors_nantes" : "I live in Nantes Métropôle, but noy in Nantes.",
-	"fiche_descr" : "{{fiche.descr_en}}"
+	"fiche_descr" : "{{descr}}",
+	"nom_translated" : "{{nom_en}}",
+	"descr_translated" : "{{descr_en}}"
 };

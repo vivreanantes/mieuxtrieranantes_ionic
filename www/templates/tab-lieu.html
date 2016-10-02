@@ -33,7 +33,7 @@
   <div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
 
   <a class="item" ng-repeat="structure in results | limitTo:maxDisplayResults" ng-href="#/tab/lieu/detail/{{::structure.code}}">
-        {{::structure.nom}} <br>
+        {{'nom_translated'|translate:structure}} <br>
         {{::structure.type}}
         <mtn-plage-horaire class="horaire" horaire="{{::structure.plagesHoraires}}"></mtn-plage-horaire>   
   </a>

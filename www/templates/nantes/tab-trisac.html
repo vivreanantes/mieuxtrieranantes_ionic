@@ -26,7 +26,7 @@
     <!-- TODO : DETAIL TRISAC --> 
     <a class="item" ng-repeat="item in value" ng-href="#/tab/trisac/detail/{{::item.code}}">
           {{::item.type}}<br/>
-          {{::item.nom}}
+          {{'nom_translated'|translate:item}}
 
           <mtn-plage-horaire class="horaire" horaire="{{::item.plagesHoraires}}"></mtn-plage-horaire>         
     </a>

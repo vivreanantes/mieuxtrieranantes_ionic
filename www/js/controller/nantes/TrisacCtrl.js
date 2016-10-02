@@ -5,7 +5,8 @@ angular.module('starter.controllers')
 
             function($scope, TrisacService) {
 
-            		$scope.trisac = TrisacService.getAll();                
+            		// $scope.trisac = TrisacService.getAll();
+            		            		$scope.trisac = 5;
 
             }
 )
