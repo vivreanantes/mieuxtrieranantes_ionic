@@ -173,8 +173,12 @@ var _ihmLabelsFrDatas = {
 	"no_result" : "Aucun résultats",
 	"les_xx_premiers_results_affiches" : "Les {{nb}} {{maxDisplayResults}} premiers résultats ont été affichés...",
 	"affiner_recherche" : "Vous pouvez utiliser la recherche par mot-clé pour affiner votre recherche.",
-	"jhabite_nantes" : "J'habite la ville de Nantes.",
-	"jhabite_hors_nantes" : "J'habite Nantes Métropole, mais pas Nantes.",
+	"jhabite_nantes" : "Ville de Nantes",
+	"jhabite_hors_nantes" : "Autre ville de Nantes Métropole",
 	"nom_translated" : "{{nom}}",
-	"descr_translated" : "{{descr}}"
+	"descr_translated" : "{{descr}}",
+	"categorie" : "Catégorie",
+	"modco_bacbleu,modco_bacjaunenantes" : "Nantes : bacs bleus et bacs jaunes",
+	"modco_bacbleu,modco_bacjaune" : "Hors Nantes : bacs bleus, bacs jaunes",
+	"modco_sacjaune,modco_sacbleu" : "Sacs bleus et sacs jaunes (Trisacs)"
 }

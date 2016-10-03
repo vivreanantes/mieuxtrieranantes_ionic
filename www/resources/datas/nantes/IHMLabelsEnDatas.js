@@ -173,9 +173,13 @@ var _ihmLabelsEnDatas = {
 	"no_result" : "No results",
 	"les_xx_premiers_results_affiches" : "The {{maxDisplayResults}} first results have been shown...",
 	"affiner_recherche" : "You can use the search by keyword to narrow your search.",
-	"jhabite_nantes" : "I live in Nantes.",
-	"jhabite_hors_nantes" : "I live in Nantes Métropôle, but noy in Nantes.",
+	"jhabite_nantes" : "Town of Nantes.",
+	"jhabite_hors_nantes" : "Other town of Nantes Métropôle",
 	"fiche_descr" : "{{descr}}",
 	"nom_translated" : "{{nom_en}}",
-	"descr_translated" : "{{descr_en}}"
+	"descr_translated" : "{{descr_en}}",
+	"categorie" : "Category",
+	"modco_bacbleu,modco_bacjaunenantes" : "Nantes : blue boxes and yellow boxes",
+	"modco_bacbleu,modco_bacjaune" : "Except Nantes : blue boxes, yellow boxes",
+	"modco_sacjaune,modco_sacbleu" : "Blue bags, yellow bags (Trisacs)"
 };

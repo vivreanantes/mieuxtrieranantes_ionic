@@ -5,7 +5,7 @@
 	{{"langue_actuelle" | translate}}
 	<button class="button button-light button-outline ion-settings"  ng-click="switchLanguage()">{{'change_language'|translate}}</button>
 	<br/><br/>
-	{{ collectmodsfilter }}
+	{{ collectmodsfilter | translate }}
 	<button class="button button-light button-outline ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
 	
 	
@@ -21,7 +21,7 @@
 		        
 		        <ion-content class="padding">
 
-		      <ion-radio ng-model="choice" ng-value="'B'" ng-click="selectAdress('bac')">{{'jhabite_hors_nantes'|translate}}</ion-radio>
+		      <ion-radio ng-model="choice" ng-value="'B'" ng-click="selectAdress('modco_bacbleu,modco_bacjaune')">{{'jhabite_hors_nantes'|translate}}</ion-radio>
 		      <ion-radio ng-model="choice" ng-value="'A'">{{'jhabite_nantes'|translate}}</ion-radio>
 
 	

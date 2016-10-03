@@ -37,6 +37,7 @@ angular.module('starter.controllers').controller(
 
 			$scope.selectAdress = function(mco) {
 				ParamService.setValueInLocalStorage("collectmodsfilter", mco);
+				$scope.collectmodsfilter = mco;
 				$scope.modal.hide();
 			}
 
