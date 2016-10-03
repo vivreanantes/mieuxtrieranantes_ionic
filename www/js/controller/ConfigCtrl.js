@@ -8,14 +8,14 @@ angular.module('starter.controllers').controller(
 
 			$scope.switchLanguage = function() {
 
-				var tmp = $translate.proposedLanguage();
-				if (tmp === "fr") {
+				var currentlanguage = $translate.proposedLanguage();
+				if (currentlanguage === "fr") {
 					$translate.use("en");
 				} else {
 					$translate.use("fr");
 				}
 				// RM-PA_LANGUE_01 On peut sauver la langue de l'utilisateur
-				ParamService.setValueInLocalStorage("currentlanguage", tmp);
+				ParamService.setValueInLocalStorage("currentlanguage", currentlanguage);
 			}
 
 			$ionicModal.fromTemplateUrl('nantes/modal-domicile.html', {

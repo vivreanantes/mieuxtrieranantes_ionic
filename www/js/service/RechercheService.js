@@ -1,5 +1,5 @@
 angular.module('starter.controllers')
-.factory ('RechercheService', function ($filter) {
+.factory ('RechercheService', function ($filter, $translate, ParamService) {
   
   //GLOBAL DATA
   var structuresData = _structuresDatas;
@@ -31,6 +31,20 @@ angular.module('starter.controllers')
     	return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
     }
 
+	/**
+	 * Renvoie le nom complet d'un paramètre.
+	 * Exemples : "descr_en", "descr"
+	 */
+	var _getKeyWord = function(key) {
+	 	var result = key;
+		var currentlanguage = $translate.proposedLanguage();
+		var defaultlanguage = ParamService.getParam("defaultlanguage");
+		if (currentlanguage!==defaultlanguage) {
+			result = key + "_"+ currentlanguage;
+		}
+		return result;
+	};
+	
 	/*  RECHERCHE de structures basé sur un type de structure et un mot-clé
 	 * 
 	 *  @example RechercheService.searchStructure('modco_decheterie|modco_ecopoint','vélo')
@@ -42,26 +56,26 @@ angular.module('starter.controllers')
 		var stTypeRegexp = new RegExp(structureType);
 		var my = this; 
 
+		var motsClesComplet = _getKeyWord("mots_cles");
 		var results=$filter('filter')(structuresData, 
         
             //CUSTOM FILTER
             function (item, index) {
       
             	var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
+            	var result = "";
 
                 //Analyse du type uniquement
                 if (searchKeyWordCleaned == '') {
-
-                    return stTypeRegexp.test(item.modesCollecte);
-                    
+                    result = stTypeRegexp.test(item.modesCollecte);
                 }
                 //Analyse type et mot-clé
                 else {
+					var currentlanguage = $translate.proposedLanguage();
+                	result = (stTypeRegexp.test(item.modesCollecte) && textTest.test(item[motsClesComplet]));
 
-                	return (stTypeRegexp.test(item.modesCollecte) && textTest.test(item.mots_cles));
-
-                }          
-                
+                }
+                return result;
             }
         );
 
