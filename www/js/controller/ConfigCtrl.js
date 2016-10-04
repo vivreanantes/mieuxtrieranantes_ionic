@@ -37,6 +37,16 @@ angular.module('starter.controllers').controller(
 
 			$scope.selectAdress = function(mco) {
 				ParamService.setValueInLocalStorage("collectmodsfilter", mco);
+				var mco_filter_not = "";
+				if (mco === "modco_bacbleu,modco_bacjaunenantes") {
+					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaune"
+				} else if (mco === "modco_bacbleu,modco_bacjaune") {
+					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaunenantes"
+				} else if (mco === "modco_sacjaune,modco_sacbleu") {
+					mco_filter_not = "modco_bacbleu,modco_bacjaunenantes,modco_bacjaune"
+				}
+				ParamService.setValueInLocalStorage("mco_filter_not",
+						mco_filter_not);
 				$scope.collectmodsfilter = mco;
 				$scope.modal.hide();
 			}

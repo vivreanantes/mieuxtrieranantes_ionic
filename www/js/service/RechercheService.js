@@ -111,6 +111,7 @@ angular.module('starter.controllers')
 
         //console.log(searchKeyWordCleaned);
 
+        
         //On récupère la fiche qui correspondant au code 
         var filterResult = $filter('filter')(collecteDomicileData, 
 
@@ -175,14 +176,17 @@ angular.module('starter.controllers')
 	 */
 	var _getModeDeCollectes = function(codes) {
 
+        var collectmodsfilter = ParamService.getValueInLocalStorage("mco_filter_not");
+
 		var expFilter = function(item, index, array) {
 			var test = codes.indexOf(item.code);
-			return (test >= 0);
+			if (test >= 0) {
+				var test2 = collectmodsfilter.indexOf(item.code);
+			}
 		};
-
 		//On récupère la fiche qui correspondant au code 
 		var filterResult = $filter('filter')(collectModsDatas, expFilter);
-
+        
 		return filterResult;
 
 	}
