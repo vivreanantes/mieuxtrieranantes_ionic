@@ -1,10 +1,10 @@
-angular.module('starter.controller').factory('TrisacService',
-		function TrisacService($filter) {
+angular.module('starter.controllers').factory('TrisacService',
+		function ($filter) {
 
 			// GLOBAL DATA
-  var structuresData = _structuresDatas;
+            var structuresData = _structuresDatas;
 
-			var _serviceData = $filter('filter')(structuresDatas,
+			var _serviceData = $filter('filter')(structuresData,
 					// CUSTOM INLINE FILTER
 					function(value, index, fullarray) {
 
@@ -18,9 +18,9 @@ angular.module('starter.controller').factory('TrisacService',
 
 			var _getAll = function() {
 
-				return this.serviceData;
+				return _serviceData;
 
-			}
+			};
 
 			return {
 				getAll : _getAll,
