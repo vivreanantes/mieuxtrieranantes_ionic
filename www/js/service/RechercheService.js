@@ -182,6 +182,9 @@ angular.module('starter.controllers')
 			var test = codes.indexOf(item.code);
 			if (test >= 0) {
 				var test2 = collectmodsfilter.indexOf(item.code);
+				return (test2 >= 0);
+			} else {
+				return false;
 			}
 		};
 		//On récupère la fiche qui correspondant au code 
