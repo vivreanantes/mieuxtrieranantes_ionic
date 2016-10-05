@@ -15,7 +15,7 @@
 
   <p><b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}</p>
   
-    Modes de Collecte :
+    {{'modes_de_collecte'|translate}} :
     <div class="item item-icon-left" ng-repeat="modeDeCollecte in modeDeCollectes">
         <img ng-src="resources/images/{{ modeDeCollecte.image }}">
         {{'nom_translated'|translate:modeDeCollecte}}
@@ -50,7 +50,7 @@
       Recyclable : <font color='{{dechet.recyc_color}}'><b>{{dechet.recyc}}</b></font>
       </a>
 
-      <p><b>Modes de collecte </b></p>     
+      <p><b>{{'modes_de_collecte'|translate}}</b></p>     
       <div class="mode-collecte" ng-repeat="modeCollecte in modesCollecte" ng-click="toggleObject.item = $index">
           <img style="width:1.5em" ng-src="resources/images/{{ modeCollecte.image }}"/> {{ modeCollecte.nom }}<br/>
           <div class="description" ng-show="toggleObject.item == $index" class="mode-collecte-info">            

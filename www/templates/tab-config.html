@@ -2,9 +2,11 @@
 
  <ion-content>
 
+	<h3>{{"langue_de_lapplication" | translate}}</h3>
 	{{"langue_actuelle" | translate}}
 	<button class="button button-light button-outline ion-settings"  ng-click="switchLanguage()">{{'change_language'|translate}}</button>
 	<br/><br/>
+	<h3>{{"modes_de_collecte" | translate}}</h3> 
 	{{ collectmodsfilter | translate }}
 	<button class="button button-light button-outline ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
 	
@@ -40,7 +42,7 @@
 			
 				<div class="card" ng-show="results.length > 0 && choice=='A'">
 			
-				  	<div class="item item-divider item-calm">{{'results'|translate}}<span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
+				  	<div class="item item-divider item-calm">{{'results'|translate}} <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
 				  	</div>
 			
 				  	<div class="item" ng-show="results.length == 0"> : {{'no_result'|translate}}</div>

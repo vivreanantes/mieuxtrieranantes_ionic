@@ -5,20 +5,18 @@
 
 <div class="card">
 
-  <div class="item item-divider item-calm">
-      Recherche
-  </div>
+  <div class="item item-divider item-calm">{{'recherche'|translate}}</div>
 
   <div class="item item-input">
   <span class="input-label">Mot-clé / Nom</span>
     <label class="item-input-wrapper">
-      <input ng-model="formParam.searchkey"  type="text" placeholder="Vélo, Meuble, Emmaüs ...">
+      <input ng-model="formParam.searchkey"  type="text" placeholder="{{'lieux_placeholder'|translate}}">
     </label>
     <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
   </div>
 
   <ui-select ng-click="onChangeType()" style="overflow:visible" class="item" ng-model="formParam.type" theme="selectize" title="Type de structure">
-      <ui-select-match placeholder="Type de structure...">{{formParam.type.name}}</ui-select-match>
+      <ui-select-match placeholder="Type de structures">{{formParam.type.name}}</ui-select-match>
       <ui-select-choices repeat="item in typeCollecte">
           <span ng-bind="item.name"></span>
       </ui-select-choices>
@@ -28,12 +26,12 @@
 
 <div class="card">
 
-  <div class="item item-divider item-calm">{{'results'|translate}}<span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span></div>
+  <div class="item item-divider item-calm">{{'results'|translate}} <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span></div>
 
   <div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
 
   <a class="item" ng-repeat="structure in results | limitTo:maxDisplayResults" ng-href="#/tab/lieu/detail/{{::structure.code}}">
-        {{'nom_translated'|translate:structure}} <br>
+        {{::structure.nom}} <br>
         {{::structure.type}}
         <mtn-plage-horaire class="horaire" horaire="{{::structure.plagesHoraires}}"></mtn-plage-horaire>   
   </a>

@@ -6,13 +6,8 @@
       <img ng-src="resources/images/{{ fiche.image }}">
       <h2><b>{{'nom_translated'|translate:fiche}}</b></h2>
       </a>
-        
-      <p>
-      <span ng-bind-html="fiche.descr"></span>dd
-      {{'fiche_descr'|translate:translatevalues}}
-      ---
-      <span ng-bind-html="fiche_descr|translate:fiche"></span>
-      </p>
+
+      <p><span ng-bind-html="fiche.descr"></span></p>
         
   </div>
       
