@@ -3944,14 +3944,14 @@ a.subdued {
     .bar.bar-positive.bar-footer {
       background-image: linear-gradient(180deg, #0c60ee, #0c60ee 50%, transparent 50%); }
   .bar.bar-calm {
-    border-color: #2790c4;
-    background-color: #2790C4;
-    background-image: linear-gradient(0deg, #2790c4, #2790c4 50%, transparent 50%);
-    color: white; }
+    border-color: green;
+    background-color: #008000;
+    background-image: linear-gradient(0deg, green, green 50%, transparent 50%);
+    color: #e6ffe6; }
     .bar.bar-calm .title {
-      color: white; }
+      color: #e6ffe6; }
     .bar.bar-calm.bar-footer {
-      background-image: linear-gradient(180deg, #2790c4, #2790c4 50%, transparent 50%); }
+      background-image: linear-gradient(180deg, green, green 50%, transparent 50%); }
   .bar.bar-assertive {
     border-color: #e42112;
     background-color: #ef473a;
@@ -4157,11 +4157,11 @@ a.subdued {
     background: none; }
 
 .bar-calm .button {
-  border-color: #2790c4;
-  background-color: #2790C4;
-  color: white; }
+  border-color: green;
+  background-color: #008000;
+  color: #e6ffe6; }
   .bar-calm .button:hover {
-    color: white;
+    color: #e6ffe6;
     text-decoration: none; }
   .bar-calm .button.active, .bar-calm .button.activated {
     border-color: #81ab2d;
@@ -4356,10 +4356,10 @@ a.subdued {
   justify-content: center;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  border-color: #2790c4;
-  background-color: #2790C4;
-  background-image: linear-gradient(0deg, #2790c4, #2790c4 50%, transparent 50%);
-  color: white;
+  border-color: green;
+  background-color: #008000;
+  background-image: linear-gradient(0deg, green, green 50%, transparent 50%);
+  color: #b3ffb3;
   position: absolute;
   bottom: 0;
   z-index: 5;
@@ -4370,8 +4370,8 @@ a.subdued {
   background-size: 0;
   line-height: 54px; }
   .tabs .tab-item .badge {
-    background-color: white;
-    color: #2790C4; }
+    background-color: #b3ffb3;
+    color: #008000; }
   @media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .tabs {
       padding-top: 2px;
@@ -4842,8 +4842,8 @@ a.subdued {
 .tabs-background-calm .tabs,
 .tabs-background-calm > .tabs {
   background-color: #9DCC3F;
-  background-image: linear-gradient(0deg, #2790c4, #2790c4 50%, transparent 50%);
-  border-color: #2790c4; }
+  background-image: linear-gradient(0deg, green, green 50%, transparent 50%);
+  border-color: green; }
 
 .tabs-background-assertive .tabs,
 .tabs-background-assertive > .tabs {

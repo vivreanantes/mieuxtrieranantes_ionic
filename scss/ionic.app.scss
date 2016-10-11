@@ -40,11 +40,11 @@ $item-default-text:             darken($calm, 70%);
 
 // BARS
 
-$bar-bg-color :                 #2790C4;
+$bar-bg-color :                 #008000;
 
 $bar-height:                    50px !default;
 $bar-calm-bg:                   $bar-bg-color;
-$bar-calm-text:                 lighten($bar-bg-color, 60%);
+$bar-calm-text:                 lighten($bar-bg-color, 70%);
 $bar-calm-border:               darken($bar-bg-color, 0%);
 
 
