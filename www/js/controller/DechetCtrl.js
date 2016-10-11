@@ -24,7 +24,7 @@ myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, Re
 
 );
 
-myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, RechercheService) {
+myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, RechercheService, $translate) {
 
 			// On récupère le déchet qui correspondant au code 
 			var dechet = RechercheService.getDechet($stateParams.code);
@@ -41,7 +41,7 @@ myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, Re
 			}
 
 			//Array modes collectes (split de la chaine)
-			var modesCollectes = dechet.modco.split(",");
+			/*var modesCollectes = dechet.modco.split(",");
 
 			//RE-FILTER sur les modes de collecte
 			var modesCollectesFilter = $filter('filter')(_collectModsDatas,
@@ -53,7 +53,7 @@ myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, Re
 			                    return true;
 			            else
 			                    return false;
-			});
+			});*/
 
 			    // CRN
 			    // Tableau des conseils (découpage de la chaine)
@@ -73,19 +73,17 @@ myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, Re
 			                    }
 			            });
 			    }
-			    /*
+			    
 			    if (dechet.recyc === "PAS_POUBELLE") {
 			            dechet.recyc_color = "orange";
-			            dechet.recyc = "Ne pas mettre à la poubelle";
-			            dechet.recyc = _translate("label_NON")
-			                            + _translate("label_pas_poubelle");
+			            dechet.recyc = $translate("recyclable_pas_poubelle");
 			    } else if (dechet.recyc === "NON") {
 			            dechet.recyc_color = "red";
-			            dechet.recyc = _translate("label_NON");
+			            dechet.recyc = $translate("non_recyclable");
 			    } else {
 			            dechet.recyc_color = "green";
-			            dechet.recyc = _translate("label_OUI");
-			    }*/
+			            dechet.recyc = $translate("non_recyclable");
+			    }
 
 			//SCOPE
 			$scope.dechet = dechet;

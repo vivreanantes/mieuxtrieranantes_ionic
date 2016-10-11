@@ -16,4 +16,4 @@ var _newsDatas = [{
 	"nom_en" : "&#x1f4b2; Bulk sale of Nantes : DayByDay…",
 	"descr" : "La meilleure façon de trier les déchets est de ne pas en avoir. Sur Nantes, on trouve la boutique DayByDay (près de la Tour Bretagne), les magasins BioCoop, Chlorophylle, Horizon Vert, Pirouette, Fleuron Bio. Voir la page Lieux.",
 	"descr_en" : "The best way to sort waste is not to be. Nantes, found the shop DayByDay (near the Tour Bretagne), les shops BioCoop, Chlorophylle, Horizon Vert, Pirouette, Fleuron Bio. See the page Places."
-}];
+}, {}];

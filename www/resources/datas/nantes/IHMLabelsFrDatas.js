@@ -87,6 +87,9 @@ var _ihmLabelsFrDatas = {
 	"resultat_recherche" : "Résultat de la recherche",
 	"structure_template_detail" : "<B>{type}</B> - {soustype} <BR/>{description_fr} <BR/><BR/><B>Horaires</B> : plagesHoraires2} {ouvertAujourdhuiEtDemain} <BR/><B>Adresse</B> : adresseTemp} '+ ' <BR/>Téléphone : telephoneTemp} '+ ' <BR/>TEMPO HORAIRES {horaires}",
 	"trisac_template_detail" : "{description_fr} <BR/><B>Horaires</B> : horaires} {ouvertAujourdhuiEtDemain} <BR/><B>Adresse</B> : adresseTemp} '+ ' <BR/>TEMPO HORAIRES {horaires}",
+	"ouvert_aujourdui_et_demain" : "Ouvert aujourd'hui et demain",
+	"ouvert_demain" : "Ouvert demain",
+	"ouvert_aujourdui" : "Ouvert aujourd'hui",
 	"janvier" : "janvier",
 	"fevrier" : "février",
 	"mars" : "mars",
@@ -185,6 +188,7 @@ var _ihmLabelsFrDatas = {
 	"modco_sacjaune,modco_sacbleu" : "Sacs bleus et sacs jaunes (Trisacs)",
 	"objet" : "Objet usagé",
 	"modes_de_collecte" : "Modes de Collecte",
+	"types_de_structure" : "Type de lieu",
 	"quartier" : "Quartier",
 	"all" : "Tous",
 	"qbcsa" : "Bellevue Chantenay Sainte-Anne",
@@ -201,5 +205,9 @@ var _ihmLabelsFrDatas = {
 	"Nantes" : "Nantes",
 	"hnnl" : "Hors Nantes : Nord Loire",
 	"hnsl" : "Hors Nantes : Sud Loire",
-	"langue_de_lapplication" : "Langue de l'application"
+	"langue_de_lapplication" : "Langue de l'application",
+        		"recyclable" : 'Recyclable',
+        		"non_recyclable" : 'Non Recyclable',
+        		"recyclable_pas_poubelle"  : 'Non Recyclable (ne pas mettre à la poubelle)',
+        		"recyclable_nantes"  : 'Recycable (Bacs jaunes à Nantes uniquement)'
 }
