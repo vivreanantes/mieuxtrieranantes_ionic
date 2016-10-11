@@ -87,6 +87,9 @@ var _ihmLabelsEnDatas = {
 	"resultat_recherche" : "Search result",
 	"structure_template_detail" : "<B>{type}</B> - {soustype} <BR/>{description_fr} <BR/><B>Schedules</B> : plagesHoraires2} {ouvertAujourdhuiEtDemain} <BR/>Address : adresseTemp} '+ ' <BR/><B>Phone</B> : telephoneTemp} '+ ' <BR/>TEMPO HORAIRES {horaires}",
 	"trisac_template_detail" : "{description_fr} <BR/><B>Schedules</B> : horaires} {ouvertAujourdhuiEtDemain} <BR/><B>Address</B> : adresseTemp} '+ ' <BR/>TEMPO HORAIRES {horaires}",
+	"ouvert_aujourdui_et_demain" : "Open today and tomorrow",
+	"ouvert_demain" : "Ouvert tomorrow",
+	"ouvert_aujourdui" : "Ouvert today",
 	"janvier" : "january",
 	"fevrier" : "february",
 	"mars" : "march",
@@ -185,8 +188,9 @@ var _ihmLabelsEnDatas = {
 	"modco_bacbleu,modco_bacjaunenantes" : "Nantes : blue boxes and yellow boxes",
 	"modco_bacbleu,modco_bacjaune" : "Except Nantes : blue boxes, yellow boxes",
 	"modco_sacjaune,modco_sacbleu" : "Blue bags, yellow bags (Trisacs)",
-	"objet" : "used object",
+	"objet" : "Used object",
 	"modes_de_collecte" : "Collect mods",
+	"types_de_structure" : "Type of places",
 	"quartier" : "Zone",
 	"all" : "Tous",
 	"qbcsa" : "Bellevue Chantenay Sainte-Anne",
@@ -203,5 +207,9 @@ var _ihmLabelsEnDatas = {
 	"Nantes" : "Nantes",
 	"hnnl" : "Hors Nantes : Nord Loire",
 	"hnsl" : "Hors Nantes : Sud Loire",
-	"langue_de_lapplication" : "Lang of the application"
+	"langue_de_lapplication" : "Lang of the application",
+	"recyclable" : "Recyclable",
+	"non_recyclable" : "Not Recyclable",
+	"recyclable_pas_poubelle"  : "Not Recyclable (don't put in trash)",
+	"recyclable_nantes"  : "Recycable (yellow boxes for Nantes only)"
 };

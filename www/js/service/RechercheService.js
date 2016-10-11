@@ -8,10 +8,9 @@ angular.module('starter.controllers')
   var categoriesData = _usualCategoriesDatas;
   var garbagesData = _garbagesDatas;
   var collectModsDatas = _collectModsDatas;
-  var newsDatas = _newsDatas;
    
   var structureCollecteType = [{
-        name : 'Tous',
+        name : 'Tous les lieux',
         value : '.*'
     }, {
         name : "Déchèteries / Ecopoints",
@@ -169,19 +168,6 @@ angular.module('starter.controllers')
 
     }
 
-    /*  Récupération des actualités
-     * 
-     *  @example RechercheService.getNews()
-     * 
-     */
-    var _getNews = function () {
-
-
-        return newsDatas;
-
-    }
-
-
 	/*  Récupération des modes de collecte à partir de leurs codes (séparés par des virgules)
 	 * 
 	 *  @example RechercheService.getConseils('cons_sansbouchon,cons_bouchonamour,cons_ferraille,cons_acier')
@@ -189,13 +175,19 @@ angular.module('starter.controllers')
 	 */
 	var _getModeDeCollectes = function(codes) {
 
-        var collectmodsfilter = ParamService.getValueInLocalStorage("mco_filter_not");
+    var mco_filter_not = ParamService.getValueInLocalStorage("mco_filter_not");
 
 		var expFilter = function(item, index, array) {
 			var test = codes.indexOf(item.code);
 			if (test >= 0) {
-				var test2 = collectmodsfilter.indexOf(item.code);
-				return (test2 >= 0);
+        
+				var test2 = mco_filter_not.indexOf(item.code);
+        if (test2>0) {
+          return false;
+        }
+        else {
+          return true;
+        }
 			} else {
 				return false;
 			}
@@ -260,7 +252,6 @@ return {
     searchCollecteDomicile : _searchCollecteDomicile,
     getConseil : _getConseil,
     getConseils : _getConseils,
-    getNews : _getNews,
     getModeDeCollectes : _getModeDeCollectes,
     getCategorieDechet : _getCategorieDechet,
     getDechet : _getDechet,

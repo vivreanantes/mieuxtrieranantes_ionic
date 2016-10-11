@@ -12,6 +12,7 @@ var _structuresDatas = [{
 	"adresseTemp" : "22 quai Ernest Renaud  44100 NANTES",
 	"url" : "https://www.secourspopulaire.fr/pop-fringues",
 	"tel" : "02 40 69 38 22",
+	"logo" : "resources/images/nantes/logo_secours_populaire_francais.png",
 	"src" : "MieuxTrierANantes 07/2016",
 	"horaires" : "Lundi, mardi, jeudi, vendredi de 13h à 17h",
 	"plagesHoraires" : "0101-3112_lu+ma+je+ve_13h00-17h00",

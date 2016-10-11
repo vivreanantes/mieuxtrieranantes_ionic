@@ -1,4 +1,4 @@
-<ion-view view-title="{{'trier'|translate}}">
+<ion-view view-title="{{'nom_translated'|translate:dechet}}">
   <ion-content>
    
 
@@ -9,25 +9,28 @@
         <h2>{{'nom_translated'|translate:dechet}}</h2>
     </div>
 
-    <div class="item">
+    <div class="item item-text-wrap">
       <mtn-etat-recyclable etat="{{dechet.recyc}}"></mtn-etat-recyclable>
     </div>
 
   <p><b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}</p>
   
     {{'modes_de_collecte'|translate}} :
-    <div class="item item-icon-left" ng-repeat="modeDeCollecte in modeDeCollectes">
+    <div class="item item-icon-left" ng-repeat="modeDeCollecte in modesDeCollecte">
         <img ng-src="resources/images/{{ modeDeCollecte.image }}">
         {{'nom_translated'|translate:modeDeCollecte}}
     </div>
 
     <div class="item item-icon-left" ng-repeat="conseil in conseils">
       <i class="icon ion-information-circled"></i>
-      <div>{{'nom_translated'|translate:conseil}}</div>
-      <p ng-bind-html="conseil.descr"></p>
+      <span class="item item-text-wrap">{{'nom_translated'|translate:conseil}}</span>
+			<div class="item item-stable item-icon-left item-body item-text-wrap">
+				<span ng-bind-html="conseil.descr"></span>
+				<span ng-show="false">{{'descr_translated'|translate:conseil}}</span>
+			</div>
     </div>
 
-     <a class="item item-icon-left item-calm" ng-click="notimplemented = 'TODO'">
+     <a class="item item-icon-left item-calm" ng-click="notimplemented = 'TODO'" ng-show="false">
       <i class="icon ion-compose"></i>
       Votre avis {{notimplemented}}
     </a>

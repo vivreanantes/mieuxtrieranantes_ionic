@@ -83,7 +83,7 @@ angular.module('mtn.common',['angular.filter'])
      	/* -------------------- */
  	/* DIRECTIVE DEFINITION */
 	/* -------------------- */
-  .directive('mtnEtatRecyclable', function() {
+  .directive('mtnEtatRecyclable', function($translate) {
    
 
     return {
@@ -101,22 +101,22 @@ angular.module('mtn.common',['angular.filter'])
         	return '<div class="{{cssClass}}">{{labelRecyclable}}</div>';
         },
 
-        link: function(scope, element, attrs){
+        link: function(scope, element, attrs, $translate){
 
         	var labelKey = scope.etat;
         	//TODO : Ajout translate
         	var labels = { 
 
-        		OUI : 'Recyclable',
-        		NON : 'Non Recyclable',
-        		PAS_POUBELLE : 'Non Recyclable (ne pas mettre à la poubelle)',
-        		OUI_ET_NON : 'Recycable (Bacs jaunes à Nantes uniquement)'
+        		OUI : 'recyclable',
+        		NON : 'non_recyclable',
+        		PAS_POUBELLE : 'recyclable_pas_poubelle',
+        		OUI_ET_NON : 'recyclable_nantes'
  
         	}; 
 
         	if (labels.hasOwnProperty(labelKey)) {
 
-        		scope.labelRecyclable  = labels[labelKey];
+        		scope.labelRecyclable  = $translate.instant(labels[labelKey]);
         		var cssClass = 'recyclable_' + labelKey;
         		scope.cssClass = cssClass.toLowerCase();
         	}

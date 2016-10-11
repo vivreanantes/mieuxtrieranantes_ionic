@@ -103,7 +103,7 @@
 
 	}
 
-	function _traduitEnsemblePlageHoraire(stPlagesHoraire) {
+	function _traduitEnsemblePlageHoraire(stPlagesHoraire, $translate) {
 
 		var result = '';
 
@@ -116,7 +116,7 @@
 
 				if (plageHoraire != "") {
 					result = result + "- "
-							+ __traduitPlageHoraire(plageHoraire)
+							+ __traduitPlageHoraire(plageHoraire, $translate)
 							+ htmlSautDeLigne;
 				}
 			}
@@ -126,24 +126,24 @@
 
 
 
-	function __traduitPlageHoraire(plageHoraire) {
+	function __traduitPlageHoraire(plageHoraire, $translate) {
 
 		var result = '';
-
-		var stLabelDe = translate("de");
-		var stLabelH = translate("h");
-		var stLabelA = translate("a");
-		var stLabelAu = translate("au");
-		var stLabelEt = translate("et");
+		var stLabelDe = $translate.instant("de");
+		// var stLabelDe = $translate.instant("de");
+		var stLabelH = $translate.instant("h");
+		var stLabelA = $translate.instant("a");
+		var stLabelAu = $translate.instant("au");
+		var stLabelEt = $translate.instant("et");
 		
 
 		// Cas des "sauf_"
 		if (plageHoraire.substring(0, 5) == "sauf_") {
-			result = translate("label_sauf_ferie");
+			result = $translate.instant("sauf_ferie");
 		}
 		// Cas de "feries_suivant"
 		else if (plageHoraire.substring(0, 14) == "feries_suivant") {
-			result = translate("label_uniqferiessuivant") + " :";
+			result = $translate.instant("uniqferiessuivant") + " :";
 		}
 		// Cas des plages
 		else {
@@ -187,16 +187,16 @@
 				} else if (jourDeLaSemaine.length == 5) {
 					// Renvoie par exemple "du lundi au samedi"
 					/* stLabelDu + " " */
-					result = result + __getDayString(jourDeLaSemaine.substring(0, 2), 0)
+					result = result + __getDayString(jourDeLaSemaine.substring(0, 2), 0, $translate)
 							+ " " + stLabelAu + " "
-							+ __getDayString(jourDeLaSemaine.substring(3, 5), 0)
+							+ __getDayString(jourDeLaSemaine.substring(3, 5), 0, $translate)
 							+ " ";
 				} else {
 					// Renvoie par exemple "lundi, mercredi, samedi"
 					var arDays = jourDeLaSemaine.split(separatorEt);
 					for (var i = 0; i < arDays.length; i++) {
 						var day = arDays[i];
-						result = result + __getDayString(day, 1);
+						result = result + __getDayString(day, 1, $translate);
 						if (i != (arDays.length - 1)) {
 							result = result + ", ";
 						}
@@ -238,24 +238,24 @@
 	 *            firstLetterInUpper "0" pour Mettre la première lettre en majuscule
 	 * @return {} exemple "Lundi"
 	 */
-	function __getDayString(strDay, firstLetterInUpper) {
+	function __getDayString(strDay, firstLetterInUpper, $translate) {
 		var result = strDay;
 		if (strDay == "lu") {
-			result = "label_lundi"
+			result = "lundi"
 		} else if (strDay == "ma") {
-			result = "label_mardi"
+			result = "mardi"
 		} else if (strDay == "me") {
-			result = "label_mercredi"
+			result = "mercredi"
 		} else if (strDay == "je") {
-			result = "label_jeudi"
+			result = "jeudi"
 		} else if (strDay == "ve") {
-			result = "label_vendredi"
+			result = "vendredi"
 		} else if (strDay == "sa") {
-			result = "label_samedi"
+			result = "samedi"
 		} else if (strDay == "di") {
-			result = "label_dimanche"
+			result = "dimanche"
 		}
-		result = translate(result);
+		result = $translate.instant(result);
 		if (firstLetterInUpper == 0) {
 			(result);
 		}
@@ -267,29 +267,29 @@
 	function __getMonthString(stMonth, stLocale) {
 		var result = "";
 		if (stMonth == "01") {
-			result = "label_janvier";
+			result = "janvier";
 		} else if (stMonth == "02") {
-			result = "label_fevrier";
+			result = "fevrier";
 		} else if (stMonth == "03") {
-			result = "label_mars";
+			result = "mars";
 		} else if (stMonth == "04") {
-			result = "label_avril";
+			result = "avril";
 		} else if (stMonth == "05") {
-			result = "label_mai";
+			result = "mai";
 		} else if (stMonth == "06") {
-			result = "label_juin";
+			result = "juin";
 		} else if (stMonth == "07") {
-			result = "label_juillet";
+			result = "juillet";
 		} else if (stMonth == "08") {
-			result = "label_aout";
+			result = "aout";
 		} else if (stMonth == "09") {
-			result = "label_septembre";
+			result = "septembre";
 		} else if (stMonth == "10") {
-			result = "label_octobre";
+			result = "octobre";
 		} else if (stMonth == "11") {
-			result = "label_novembre";
+			result = "novembre";
 		} else if (stMonth == "12") {
-			result = "label_decembre";
+			result = "decembre";
 		}
 		result = translate(result, stLocale);
 		return result;
@@ -459,7 +459,7 @@ angular.module('mtn.date',[])
    	/* -------------------- */
  	/* DIRECTIVE DEFINITION */
 	/* -------------------- */
-  	.directive('mtnPlageHoraire', function() {
+  	.directive('mtnPlageHoraire', function($translate) {
    
 
     return {
@@ -477,23 +477,23 @@ angular.module('mtn.date',[])
         	return '<div>{{labelOuverture}}</div>';
         },
 
-        link: function(scope, element, attrs){
+        link: function(scope, element, attrs, $translate){
 
         	var res = _verifieOuvertAujourdhuiDemain(scope.horaire);
         	var label = '';
         	if (res.bOuvertAujourdhui && res.bOuvertDemain) {
-        		label = "Ouvert aujourd'hui et demain";
+        		label = $translate.instant("ouvert_aujourdui_et_demain");
         	}
         	else if (!res.bOuvertAujourdhui && res.bOuvertDemain) {
-        		label = "Ouvert demain";
+        		label = $translate.instant("ouvert_demain");
         	}
         	else if (res.bOuvertAujourdhui && !res.bOuvertDemain) {
-        		label = "Ouvert aujourd'hui";
+        		label = $translate.instant("ouvert_aujourdui");
         	}
      	
      	  	if (typeof scope.fulldisplay !== 'undefined') {
     			
-     	  		label += _traduitEnsemblePlageHoraire(scope.horaire);
+     	  		label += _traduitEnsemblePlageHoraire(scope.horaire, $translate);
 
 			}
 

@@ -2,7 +2,7 @@
 
 angular.module('starter.controllers').controller('HomeCtrl',
 
-function($scope, $ionicSideMenuDelegate, $translate, ParamService, RechercheService) {
+function($scope, $ionicSideMenuDelegate, $translate, ParamService) {
 
 	// Récupère la langue courant. Initialise l'application avec cette langue.
 	var temp = ParamService.getValueInLocalStorageWithDefault(
@@ -20,7 +20,4 @@ function($scope, $ionicSideMenuDelegate, $translate, ParamService, RechercheServ
 		// $ionicSideMenuDelegate.toggleLeft();
 
 	};
-
-	$scope.news = RechercheService.getNews();
-
 });
