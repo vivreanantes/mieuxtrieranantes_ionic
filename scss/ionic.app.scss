@@ -40,20 +40,19 @@ $item-default-text:             darken($calm, 70%);
 
 // BARS
 
-$bar-bg-color :                 #008000;
+$bar-bg-color :                 #B9D67E;
 
-$bar-height:                    50px !default;
-$bar-calm-bg:                   $bar-bg-color;
-$bar-calm-text:                 lighten($bar-bg-color, 70%);
-$bar-calm-border:               darken($bar-bg-color, 0%);
+$bar-height:                    44px !default;
+$bar-stable-text:               #444 !default;
+$bar-stable-bg:                 $bar-bg-color !default;
+$bar-stable-border:             darken($bar-bg-color, 30%) !default;
 
 
 //TABS (BOTTOM)
 
-$tabs-height:                     54px !default;
-$tabs-default-bg:                 $bar-bg-color;
-$tabs-default-border:             darken($bar-bg-color, 0%);
-$tabs-default-text:               lighten($bar-bg-color, 60%);
+$tabs-stable-bg:                  $bar-bg-color !default;
+$tabs-stable-border:              darken($bar-bg-color, 30%) !default;
+$tabs-stable-text:                #444 !default !default;
 
 //BUTTONS
 
