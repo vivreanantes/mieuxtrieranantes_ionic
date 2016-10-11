@@ -18,6 +18,49 @@ $dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
+//BASE COLORS
+
+$calm:    						#9DCC3F;
+
+$base-background-color:      	lighten($calm, 40%);
+$base-color:                 	#000;
+
+
+// Menus
+
+$menu-bg:                       lighten($calm, 40%) !default;
+$menu-width:                    255px !default;
+$menu-animation-speed:          200ms !default;
+
+//ITEMS
+
+$item-default-bg:               lighten($calm, 60%);
+$item-default-border:           lighten($calm, 30%);
+$item-default-text:             darken($calm, 70%);
+
+// BARS
+
+$bar-bg-color :                 #2790C4;
+
+$bar-height:                    50px !default;
+$bar-calm-bg:                   $bar-bg-color;
+$bar-calm-text:                 lighten($bar-bg-color, 60%);
+$bar-calm-border:               darken($bar-bg-color, 0%);
+
+
+//TABS (BOTTOM)
+
+$tabs-height:                     54px !default;
+$tabs-default-bg:                 $bar-bg-color;
+$tabs-default-border:             darken($bar-bg-color, 0%);
+$tabs-default-text:               lighten($bar-bg-color, 60%);
+
+//BUTTONS
+
+$button-default-text:             darken($calm, 20%);
+
+
+
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic";
+@import "www/lib/ionic/scss/ionic.scss";
 

@@ -3,8 +3,8 @@
    
   <div class="list card">
 
-    <div class="item item-divider">
-      	<b>{{::structure.nom}}</b>
+    <div class="item item-divider item-calm">
+      	{{::structure.nom}}
     </div>
 
     <div class="item item-icon-left">
@@ -32,12 +32,12 @@
     	{{structure.email}}
     </div>
 
-    <a target="_blank" ng-href="{{structure.url}}" class="item item-icon-left item-calm" ng-show="structure.url">
+    <a target="_blank" ng-href="{{structure.url}}" class="item item-icon-left" ng-show="structure.url">
     	<i class="icon ion-arrow-right-b"></i>
     	<span ng-bind-html="structure.url"></span>
     </a>
 
-    <a class="item item-icon-left item-calm" ng-click="notimplemented = 'TODO'">
+    <a class="item item-icon-left" ng-click="notimplemented = 'TODO'">
 	    <i class="icon ion-compose"></i>
 	    Votre avis {{notimplemented}}
   	</a>

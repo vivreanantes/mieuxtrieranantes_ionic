@@ -1,6 +1,6 @@
    <ion-side-menus enable-menu-with-back-views="false">
       <ion-side-menu-content>
-        <ion-nav-bar class="bar-stable">
+        <ion-nav-bar class="bar-calm">
           <ion-nav-back-button>
           </ion-nav-back-button>
 
@@ -8,13 +8,19 @@
             <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
             </button>
           </ion-nav-buttons>
+
+         <ion-nav-buttons side="right">
+            <a class="button button-icon button-positive ion-home" ng-href="#/tab/home"></a>
+          </ion-nav-buttons>
+
         </ion-nav-bar>
 
         <!-- TABS -->
-	      <ion-tabs class="tabs-icon-top tabs-color-active-positive">
+	      <ion-tabs class="tabs-icon-top">
 		
 			  <!-- Dashboard Tab -->
-			  <ion-tab title="{{'accueil'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/home">
+
+			  <ion-tab title="{{'accueil'|translate}}" icon-off="ion-home" icon-on="ion-home" href="#/tab/home">
 			    <ion-nav-view name="tab-home"></ion-nav-view>
 			  </ion-tab>
 			
@@ -64,7 +70,9 @@
 
        <!-- Side Menu (left) -->
       <ion-side-menu side="left">
-		<ion-header-bar class="bar bar-header bar-dark">{{'menu'|translate}}</ion-header-bar>
+		<ion-header-bar class="bar bar-header bar-calm">
+		<div class="title">{{'menu'|translate}}</div>
+		</ion-header-bar>
 	    <ion-content has-header="true">
 	       <ion-list>
     	     <ion-item menu-close href="#/tab/domicile">{{'collete_a_domicile'|translate}}</ion-item>

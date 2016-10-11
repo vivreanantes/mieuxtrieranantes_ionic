@@ -1,22 +1,6 @@
 <ion-view view-title="{{'trier'|translate}}">
   <ion-content>
       
-    <!--
-    <div class="row panneau_bouton" ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}" ng-if="$index%3==0">   
-      <div class="col card" ng-repeat="categorie in ::categories|limitTo:3:$index"> 
-        <div class="item text-center">
-            <a ng-href="#/tab/dechet/cat/{{::categorie.code}}" class="selectable">
-            <img ng-src="resources/images/{{::categorie.image}}"/><br/>        
-            </a>   
-        </div>
-
-        <a class="button button-full button-clear button-positive item-text-wrap text-center" ng-href="#/tab/dechet/cat/{{::categorie.code}}">
-            {{'nom_translated'|translate:categorie}}
-        </a>
-
-      </div>
-    </div>
-    -->
 
 <div class="card">
 
@@ -27,23 +11,29 @@
     <label class="item-input-wrapper">
       <input ng-model="searchkey"  type="text" placeholder="{{'dechet_placeholder'|translate}}">
     </label>
-    <a class="button positive button-icon icon ion-search"></a>
+    <a class="button button-icon icon ion-search"></a>
   </div>
 
 </div>
 
 <div class="card">
 
-  <div class="item item-divider item-calm">{{'categorie'|translate}}</div>
+  <!-- <div class="item item-divider item-calm">{{'categorie'|translate}}</div> -->
 
-  <div class="list">
+    <div class="row panneau_bouton" ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}" ng-if="$index%3==0">   
+      <div class="col card" ng-repeat="categorie in ::categories|limitTo:3:$index"> 
+        <div class="item text-center">
+            <a ng-href="#/tab/dechet/cat/{{::categorie.code}}" class="selectable">
+            <img ng-src="resources/images/{{::categorie.image}}"/><br/>        
+            </a>   
+        </div>
 
-      <a class="item item-avatar" ng-href="#/tab/dechet/cat/{{::categorie.code}}" ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}">
-        <img ng-src="resources/images/{{::categorie.image}}"/>
-        {{'nom_translated'|translate:categorie}}
-      </a>
+        <a class="button button-full button-clear button-dark item-text-wrap text-center" ng-href="#/tab/dechet/cat/{{::categorie.code}}">
+            {{'nom_translated'|translate:categorie}}
+        </a>
 
-  </div>
+      </div>
+    </div>
 
 </div>
       

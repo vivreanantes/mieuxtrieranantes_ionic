@@ -13,7 +13,8 @@ var paths = {
   sass: ['./scss/**/*.scss']
 };
 
-gulp.task('default', ['sass']);
+
+gulp.task('default', ['sass','watch']);
 gulp.task('build', ['sass', 'html-optimize']);
 
 gulp.task('sass', function(done) {

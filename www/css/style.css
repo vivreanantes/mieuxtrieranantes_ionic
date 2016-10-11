@@ -1,6 +1,28 @@
 /* Empty. Add your own CSS if you like */
 
 
+/* HOME */
+
+ion-content.home {
+
+    background: url('../img/bghome3.jpg') no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+
+}
+
+ion-content.home .news .item {
+
+    font-size: 90%;
+
+}
+
+.bar .title {
+
+    text-align: left;
+
+}
+
 .mode-collecte {
     
     background-color: #F7F9E3;
@@ -58,6 +80,7 @@
 /* Image adaptative pour les résolutions faibles */
 .panneau_bouton img {
     max-width: 100%;
+    max-height: 60px;
 }
 
 .panneau_bouton .card {
@@ -68,11 +91,18 @@
     padding: 6px;
 }
 
-.panneau_bouton a {
+.panneau_bouton .card .item {
+
+    padding:6px;
+}
+
+.panneau_bouton a.button {
 	text-decoration:none;
     display:inline-block; 
     width:100%;
-    line-height: 1.2em;
+    line-height: 1em;
+    min-height: 20px;
+    font-size: 95%;
 }
 
 .horaire {
@@ -80,6 +110,18 @@
     color:#37A811;
   
 
+}
+
+/* FICHES */
+
+.fiches .item-thumbnail-left {
+    min-height: 70px;
+}
+
+.fiches .item-thumbnail-left > img:first-child {
+
+    max-width: 50px;
+    max-height: 50px;
 }
 
 

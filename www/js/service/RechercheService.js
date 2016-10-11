@@ -8,6 +8,7 @@ angular.module('starter.controllers')
   var categoriesData = _usualCategoriesDatas;
   var garbagesData = _garbagesDatas;
   var collectModsDatas = _collectModsDatas;
+  var newsDatas = _newsDatas;
    
   var structureCollecteType = [{
         name : 'Tous',
@@ -168,6 +169,18 @@ angular.module('starter.controllers')
 
     }
 
+    /*  Récupération des actualités
+     * 
+     *  @example RechercheService.getNews()
+     * 
+     */
+    var _getNews = function () {
+
+
+        return newsDatas;
+
+    }
+
 
 	/*  Récupération des modes de collecte à partir de leurs codes (séparés par des virgules)
 	 * 
@@ -247,6 +260,7 @@ return {
     searchCollecteDomicile : _searchCollecteDomicile,
     getConseil : _getConseil,
     getConseils : _getConseils,
+    getNews : _getNews,
     getModeDeCollectes : _getModeDeCollectes,
     getCategorieDechet : _getCategorieDechet,
     getDechet : _getDechet,

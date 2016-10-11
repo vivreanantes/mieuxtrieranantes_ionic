@@ -3,14 +3,16 @@
 
   <!-- one time binding sur fiches -->
   <!-- Cf http://blog.thoughtram.io/angularjs/2014/10/14/exploring-angular-1.3-one-time-bindings.html -->
+  <div class="card fiches">
 
     <div class="list">         
         <a class="item item-thumbnail-left" ng-href="#/tab/fiches/detail/{{::fiche.code}}" ng-repeat="fiche in ::fiches">           
             <img ng-src="resources/images/{{::fiche.image}}"/>
-            <h2>{{'nom_translated'|translate:fiche}}</h2>
-        </a>
-       
+            {{'nom_translated'|translate:fiche}}
+        </a>    
     </div>
+
+  </div>
       
   </ion-content>
 </ion-view>

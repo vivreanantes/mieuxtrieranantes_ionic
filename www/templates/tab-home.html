@@ -4,54 +4,32 @@
       <button class="button button-icon button-clear ion-navicon" ng-click="openMenu()"></button>
   </ion-nav-buttons>  -->
 
-  <ion-content class="padding">
+  <ion-content class="padding home">
 
-    <!-- 
-    <div class="card">
-    <div class="item item-divider">
-    TODO Page accueil
+  <div class="card">
+
+    <div class="item item-divider item-calm">{{'recherche'|translate}}</div>
+
+    <div class="item item-input">
+    <label class="item-input-wrapper">
+      <input ng-model="searchkey"  type="text" placeholder="Ex : miroir, emmaüs, compostage">
+    </label>
+    <a class="button button-icon icon ion-search"></a>
     </div>
-    <div class="item item-text-wrap">
-      <ul>
-          <li>Zone recherche globale</li>
-          <li>Zone actus</li> 
-          <li>Info légale application</li>
-          <li>Paramètres (Ex : stockage adresse utilisateur pour réutilisation dans l'application, langue interface)</li>
-          <li>Habillage général</li>
-          <li>Splashscreen Cordova (Loader JS données, AngularJS ready)</li>
-      </ul>
+
+  </div>
+
+  <div class="card news">
+
+    <div class="item item-divider item-calm">Actualités</div>
+
+    <div class="list">         
+        <div class="item" ng-repeat="actu in ::news">            
+            <span ng-bind-html="actu.nom"></span>
+        </div>  
     </div>
-    <div class="item item-divider">
-    TODO Pages Déchets
-    </div>
-    <div class="item item-text-wrap">
-      <ul>
-          <li>Fiche déchet : Infos modes de collecte en mode "toggle"</li>
-          <li>Commentaires : non prioritaire</li>         
-      </ul>
-    </div>
-        
-    <div class="item item-divider">
-    TODO Fiches
-    </div>
-    <div class="item item-text-wrap">
-      <ul>
-          <li>Revoir données description fiches (balises HTML en dur, BR, CSS en dur)</li>        
-      </ul>
-    </div>
-    </div>
-      
-    <div class="item item-divider">
-    TODO Carte
-    </div>
-    <div class="item item-text-wrap">
-      <ul>
-          <li>Markers, icons</li>     
-          <li>Configuration : centrage sur ville paramétrée</li>  
-          <li>Conteneurs : Limitation cercle</li>  
-      </ul>
-    </div>
-    -->
+
+  </div>
       
   </ion-content>
 </ion-view>
