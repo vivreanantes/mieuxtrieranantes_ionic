@@ -2,15 +2,16 @@
 
  <ion-content>
 
-	<h3>{{"langue_de_lapplication" | translate}}</h3>
-	{{"langue_actuelle" | translate}}
-	<button class="button button-light button-outline ion-settings"  ng-click="switchLanguage()">{{'change_language'|translate}}</button>
-	<br/><br/>
-	<h3>{{"modes_de_collecte" | translate}}</h3> 
+ <div class="card padding">
+
+	<h4>{{"langue_de_lapplication" | translate}} ({{"langue_actuelle" | translate}})</h4>
+	
+	<a class="button button-calm icon-left ion-settings"  ng-click="switchLanguage()">{{'change_language'|translate}}</a>
+	<br/>
+	<h4>{{"modes_de_collecte" | translate}}</h4> 
 	{{ collectmodsfilter | translate }}
-	<button class="button button-light button-outline ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
-	
-	
+	<button class="button button-calm  icon-left ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
+
 	<br/><br/>
 
          <script id="nantes/modal-domicile.html" type="text/ng-template">
@@ -64,6 +65,7 @@
 		        </ion-content>
 		      </ion-modal-view>
 		    </script>
+   </div>
 
    </ion-content>
 </ion-view>
