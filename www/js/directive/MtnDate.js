@@ -11,7 +11,6 @@
     var separatorDeZonePlageHoraire = "_";
     var separatorDePlageHoraire = ",";
     var separatorJusquA = "-";
-    var htmlSautDeLigne = "<br/>";
 
 	var _SAUF_FERIE = "sauf_ferie";
 	var _FERIE_SAINT_SYLVESTRE = "sauf_saint_sylvestre";
@@ -116,8 +115,7 @@
 
 				if (plageHoraire != "") {
 					result = result + "- "
-							+ __traduitPlageHoraire(plageHoraire, $translate)
-							+ htmlSautDeLigne;
+							+ __traduitPlageHoraire(plageHoraire, $translate);
 				}
 			}
 		}
@@ -477,7 +475,7 @@ angular.module('mtn.date',[])
         	return '<div>{{labelOuverture}}</div>';
         },
 
-        link: function(scope, element, attrs, $translate){
+        link: function(scope, element, attrs){
 
         	var res = _verifieOuvertAujourdhuiDemain(scope.horaire);
         	var label = '';

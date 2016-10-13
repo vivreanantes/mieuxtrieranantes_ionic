@@ -7,7 +7,7 @@
 function _utilRetireMotsInutiles(result) {
 	result = result
 			.replace(
-					/allee|avenue|bas chemin|basse tenue|boulevard|chemin|cours|esplanade|hameau|haute impasse|impasse|jardin|mail|nouvelle impasse|parvis|passage|petit chemin|petite avenue|petite rue|place|pont|promenade|quai|rond-point|route|rue|ruelle|sentier|square|venelle|voie/g,
+					/allee |avenue |bas chemin |basse tenue |boulevard |chemin |cours |esplanade |hameau |haute impasse |impasse |jardin |mail |nouvelle impasse |parvis |passage |petit chemin |petite avenue |petite rue |place |pont |promenade |quai |rond-point |route |rue |ruelle |sentier |square |venelle |voie /g,
 					"");
 	//NOUVEAU !!
 	//On supprime aussi les prépositions en francais (uniquement avec espace avant et après)
@@ -60,7 +60,7 @@ angular.module('mtn.common',['angular.filter'])
 				// RM_RE_MODE_RECH_06, RM_RE_MOTS_CLES_02
 				// Remplace les " " et les "+" par des virgules
 				result = result.replace(/[ +]/g, ",");
-				result = _utilMettreNomAuSingulier(result);
+				// result = _utilMettreNomAuSingulier(result);
 			}
 
     		return result;

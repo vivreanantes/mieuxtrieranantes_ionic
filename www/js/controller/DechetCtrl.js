@@ -76,13 +76,13 @@ myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, Re
 			    
 			    if (dechet.recyc === "PAS_POUBELLE") {
 			            dechet.recyc_color = "orange";
-			            dechet.recyc = $translate("recyclable_pas_poubelle");
+			            dechet.recyc2 = "recyclable_pas_poubelle";
 			    } else if (dechet.recyc === "NON") {
 			            dechet.recyc_color = "red";
-			            dechet.recyc = $translate("non_recyclable");
+			            dechet.recyc2 = "non";
 			    } else {
 			            dechet.recyc_color = "green";
-			            dechet.recyc = $translate("non_recyclable");
+			            dechet.recyc2 = "oui";
 			    }
 
 			//SCOPE

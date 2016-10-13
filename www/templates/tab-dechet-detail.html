@@ -10,16 +10,18 @@
     </div>
 
     <div class="item item-text-wrap">
+      {{'recyclable'|translate}} : <font color='{{dechet.recyc_color}}'><b>{{dechet.recyc2|translate}}</b></font> 
       <mtn-etat-recyclable etat="{{dechet.recyc}}"></mtn-etat-recyclable>
     </div>
 
   <p><b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}</p>
   
     {{'modes_de_collecte'|translate}} :
-    <div class="item item-icon-left" ng-repeat="modeDeCollecte in modesDeCollecte">
-        <img ng-src="resources/images/{{ modeDeCollecte.image }}">
+      <a class="item item-avatar" ng-repeat="modeDeCollecte in modesDeCollecte">
+        <img ng-src="resources/images/{{::modeDeCollecte.image}}"/>
         {{'nom_translated'|translate:modeDeCollecte}}
-    </div>
+      </a>
+
 
     <div class="item item-icon-left" ng-repeat="conseil in conseils">
       <i class="icon ion-information-circled"></i>

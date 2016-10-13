@@ -38,12 +38,12 @@ angular.module('starter.controllers').controller(
 			$scope.selectAdress = function(mco) {
 				ParamService.setValueInLocalStorage("collectmodsfilter", mco);
 				var mco_filter_not = "";
-				if (mco === "modco_bacbleu,modco_bacjaunenantes") {
+				if (mco === "modco_bacbleu,modco_bacjaunnantes") {
 					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaune"
 				} else if (mco === "modco_bacbleu,modco_bacjaune") {
-					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaunenantes"
+					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaunnantes,modco_bacblehorsnantes"
 				} else if (mco === "modco_sacjaune,modco_sacbleu") {
-					mco_filter_not = "modco_bacbleu,modco_bacjaunenantes,modco_bacjaune"
+					mco_filter_not = "modco_bacbleu,modco_bacjaunnantes,modco_bacjaune,modco_bacblehorsnantes"
 				}
 				ParamService.setValueInLocalStorage("mco_filter_not",
 						mco_filter_not);

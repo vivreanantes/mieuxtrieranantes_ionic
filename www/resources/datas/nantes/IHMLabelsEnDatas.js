@@ -185,7 +185,7 @@ var _ihmLabelsEnDatas = {
 	"nom_translated" : "{{nom_en}}",
 	"descr_translated" : "{{descr_en}}",
 	"categorie" : "Category",
-	"modco_bacbleu,modco_bacjaunenantes" : "Nantes : blue boxes and yellow boxes",
+	"modco_bacbleu,modco_bacjaunnantes" : "Nantes : blue boxes and yellow boxes",
 	"modco_bacbleu,modco_bacjaune" : "Except Nantes : blue boxes, yellow boxes",
 	"modco_sacjaune,modco_sacbleu" : "Blue bags, yellow bags (Trisacs)",
 	"objet" : "Used object",

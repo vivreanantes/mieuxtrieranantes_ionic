@@ -231,7 +231,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "polystyrene,plastic,tray,tray,",
 			"cons" : "cons_pasuniquementbouteilleflacon",
 			"image" : "barquette_polystyrene_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -315,7 +315,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "plastic,egg,carton,",
 			"cons" : "cons_pasuniquementbouteilleflacon",
 			"image" : "boite_a_oeufs_plastique_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -568,7 +568,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "household,product,bottles,not,empty,",
 			"cons" : "cons_bouchon,cons_bouchonamour,cons_pasuniquementbouteilleflacon",
 			"image" : "images_non_libres_temp/bouteille_produit_menager_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -1223,7 +1223,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "plastic,film,",
 			"cons" : "cons_pasuniquementbouteilleflacon",
 			"image" : "film_plastique_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -2167,7 +2167,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "polystyrene,polystyrene,tray,",
 			"cons" : "cons_pasuniquementbouteilleflacon",
 			"image" : "polystyrene_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -2202,7 +2202,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "cream,pot,",
 			"cons" : "cons_bouchonamour,cons_pasuniquementbouteilleflacon",
 			"image" : "pot_creme_fraiche_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -2254,7 +2254,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "yoghurt,pot,",
 			"cons" : "cons_pasuniquementbouteilleflacon",
 			"image" : "yaourt_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015",
 			"sponsor" : "remigs"
@@ -2475,7 +2475,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "plastic,bag,",
 			"cons" : "cons_pasuniquementbouteilleflacon",
 			"image" : "sac_plastique_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -2526,7 +2526,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "pen,pencil,",
 			"cons" : "cons_pasuniquementbouteilleflacon",
 			"image" : "crayon_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -2660,7 +2660,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "garden,hose,",
 			"cons" : "cons_pasuniquementbouteilleflacon",
 			"image" : "tuyau_arrosage_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 02/2015"
 		}, {
@@ -2709,7 +2709,7 @@ var _garbagesDatas = [{
 			"mots_cles_en" : "plastic,tableware,plastic,cup,plastic,cover,plastic,knife,plastic,fork,plastic,spoon,",
 			"cons" : "cons_remplacergobelet,cons_vaissellebiodegradable,cons_pasuniquementbouteilleflacon",
 			"image" : "gobelet_plastique_mini.png",
-			"modco" : "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+			"modco" : "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
 			"recyc" : "OUI_ET_NON",
 			"src" : "MieuxTrierANantes 14/2014"
 		}, {
