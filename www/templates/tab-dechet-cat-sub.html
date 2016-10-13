@@ -26,7 +26,7 @@
 
   <div class="list">
 
-      <a class="item item-avatar" ng-href="#/tab/dechet/detail/{{::dechet.code}}" ng-repeat="dechet in dechets">
+      <a class="item item-thumbnail-left" ng-href="#/tab/dechet/detail/{{::dechet.code}}" ng-repeat="dechet in dechets">
         <img ng-src="resources/images/{{::dechet.image}}"/>
         {{'nom_translated'|translate:dechet}}
       </a>

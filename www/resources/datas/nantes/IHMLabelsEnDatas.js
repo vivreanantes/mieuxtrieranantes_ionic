@@ -188,7 +188,7 @@ var _ihmLabelsEnDatas = {
 	"modco_bacbleu,modco_bacjaunnantes" : "Nantes : blue boxes and yellow boxes",
 	"modco_bacbleu,modco_bacjaune" : "Except Nantes : blue boxes, yellow boxes",
 	"modco_sacjaune,modco_sacbleu" : "Blue bags, yellow bags (Trisacs)",
-	"objet" : "Used object",
+	"objet" : "Object",
 	"modes_de_collecte" : "Collect mods",
 	"types_de_structure" : "Type of places",
 	"quartier" : "Zone",

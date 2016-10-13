@@ -186,7 +186,7 @@ var _ihmLabelsFrDatas = {
 	"modco_bacbleu,modco_bacjaunnantes" : "Nantes : bacs bleus et bacs jaunes",
 	"modco_bacbleu,modco_bacjaune" : "Hors Nantes : bacs bleus, bacs jaunes",
 	"modco_sacjaune,modco_sacbleu" : "Sacs bleus et sacs jaunes (Trisacs)",
-	"objet" : "Objet usagé",
+	"objet" : "Objet",
 	"modes_de_collecte" : "Modes de Collecte",
 	"types_de_structure" : "Type de lieu",
 	"quartier" : "Quartier",

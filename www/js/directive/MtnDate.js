@@ -472,31 +472,31 @@ angular.module('mtn.date',[])
 
         template: function(tElem, tAttrs){
 
-        	return '<div>{{labelOuverture}}</div>';
+        	return '{{labelOuverture}}<br/><div>{{labelHoraires}}</div>';
         },
 
         link: function(scope, element, attrs){
 
-        	var res = _verifieOuvertAujourdhuiDemain(scope.horaire);
-        	var label = '';
+        	/*var res = _verifieOuvertAujourdhuiDemain(scope.horaire);
+        	var labelHoraires = '';
         	if (res.bOuvertAujourdhui && res.bOuvertDemain) {
-        		label = $translate.instant("ouvert_aujourdui_et_demain");
+        		labelHoraires = $translate.instant("ouvert_aujourdui_et_demain");
         	}
         	else if (!res.bOuvertAujourdhui && res.bOuvertDemain) {
-        		label = $translate.instant("ouvert_demain");
+        		labelHoraires = $translate.instant("ouvert_demain");
         	}
         	else if (res.bOuvertAujourdhui && !res.bOuvertDemain) {
-        		label = $translate.instant("ouvert_aujourdui");
+        		labelHoraires = $translate.instant("ouvert_aujourdui");
         	}
      	
-     	  	if (typeof scope.fulldisplay !== 'undefined') {
-    			
-     	  		label += _traduitEnsemblePlageHoraire(scope.horaire, $translate);
-
-			}
-
-			scope.labelOuverture = label;
-
+     	  	var labelOuverture = "";
+			if (typeof scope.fulldisplay !== 'undefined') {
+     	  		labelOuverture = _traduitEnsemblePlageHoraire(scope.horaire, $translate);
+			}*/
+			
+			scope.labelOuverture = "labelOuverture";
+			scope.labelHoraires = "labelHoraires";
+			
         }
 
     };
