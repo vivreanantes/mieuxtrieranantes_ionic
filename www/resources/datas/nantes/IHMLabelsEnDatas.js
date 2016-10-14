@@ -120,7 +120,7 @@ var _ihmLabelsEnDatas = {
 	"telephone" : "phone number",
 	"email" : "email",
 	"url" : "web site",
-	"horaires" : "schedules",
+	"horaires" : "Schedules",
 	"ouvert_aujourdhui_et_demain" : "Open today and tomorrow",
 	"ouvert_aujourdhui" : "Open today",
 	"ouvert_demain" : "Open tomorrow",

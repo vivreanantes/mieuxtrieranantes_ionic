@@ -175,10 +175,24 @@ angular.module('starter.controllers')
      * 
      */
     var _getNews = function () {
-
-
         return newsDatas;
+    }
 
+
+
+    /*  Récupération d'une actualité à partir de son code
+     * 
+     *  @example RechercheService.getOneNews('news1')
+     * 
+     */
+    var _getOneNews = function (code) {
+        var expFilter =  { code : code };
+        //On récupère la fiche qui correspondant au code 
+        var filterResult = $filter('filter')(newsDatas, expFilter);
+        if (filterResult.length > 0) {
+            return filterResult[0];
+        }
+        else return null;
     }
 
 	/*  Récupération des modes de collecte à partir de leurs codes (séparés par des virgules)
@@ -266,6 +280,7 @@ return {
     getConseil : _getConseil,
     getConseils : _getConseils,
     getNews : _getNews,
+    getOneNews : _getOneNews,
     getModeDeCollectes : _getModeDeCollectes,
     getCategorieDechet : _getCategorieDechet,
     getDechet : _getDechet,

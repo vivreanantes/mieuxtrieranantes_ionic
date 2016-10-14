@@ -19,7 +19,7 @@
         <p ng-bind-html="structure.descr"></p>   
   </div>
 
- 	<div class="item item-icon-left">
+ 	<div class="item item-icon-left item-text-wrap">
       	<i class="icon ion-home"></i>
       	<div>{{structure.adresseTemp}}</div>
     </div>
@@ -34,7 +34,7 @@
     	{{structure.email}}
     </div>
 
-    <a target="_blank" ng-href="{{structure.url}}" class="item item-icon-left" ng-show="structure.url">
+    <a target="_blank" ng-href="{{structure.url}}" class="item item-icon-left item-text-wrap" ng-show="structure.url">
     	<i class="icon ion-arrow-right-b"></i>
     	<span ng-bind-html="structure.url"></span>
     </a>
