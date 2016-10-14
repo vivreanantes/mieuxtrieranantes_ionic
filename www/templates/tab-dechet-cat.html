@@ -24,8 +24,7 @@
       <div class="col card" ng-repeat="categorie in ::categories|limitTo:3:$index"> 
         <div class="item text-center">
             <a ng-href="#/tab/dechet/cat/{{::categorie.code}}" class="selectable">
-            <img ng-src="resources/images/{{::categorie.image}}"/><br/>        
-            </a>   
+              <img ng-src="resources/images/{{::categorie.image}}"/></a>
         </div>
 
         <a class="button button-full button-clear button-dark item-text-wrap text-center" ng-href="#/tab/dechet/cat/{{::categorie.code}}">

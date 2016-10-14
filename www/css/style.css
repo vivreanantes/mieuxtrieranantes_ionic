@@ -139,3 +139,20 @@ ion-content.home .news .item {
 .item.mtn-nowrap {
     white-space:pre-line;
 }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.custom-btn-color {
+    color: red !important;
+    animation: blink 5s;
+    animation-iteration-count: infinite;
+}

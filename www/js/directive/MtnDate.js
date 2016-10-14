@@ -472,7 +472,7 @@ angular.module('mtn.date',[])
 
         template: function(tElem, tAttrs){
 
-        	return '<div class=" item-text-wrap">{{labelOuverture}}<br/>{{labelHoraires}}</div>';
+        	return "<div class='item-text-wrap'>{{labelOuverture|translate}}<div class='row' ng-show='labelHoraires!=null'><br/>{{'horaires'|translate}} {{labelHoraires|translate}}</div></div>";
         	// return '<div>{{labelOuverture}}</div>';
         },
 
@@ -481,20 +481,17 @@ angular.module('mtn.date',[])
         	var res = _verifieOuvertAujourdhuiDemain(scope.horaire);
         	var labelOuverture = '';
         	if (res.bOuvertAujourdhui && res.bOuvertDemain) {
-        		labelOuverture = $translate.instant("ouvert_aujourdui_et_demain");
+        		labelOuverture = "ouvert_aujourdui_et_demain";
         	}
         	else if (!res.bOuvertAujourdhui && res.bOuvertDemain) {
-        		labelOuverture = $translate.instant("ouvert_demain");
+        		labelOuverture = "ouvert_demain";
         	}
         	else if (res.bOuvertAujourdhui && !res.bOuvertDemain) {
-        		labelOuverture = $translate.instant("ouvert_aujourdui");
+        		labelOuverture = "ouvert_aujourdui";
         	}
-     	
-     	  	var labelHoraires = "";
 			if (typeof scope.fulldisplay !== 'undefined') {
-     	  		labelHoraires = $translate.instant("horaires") +" " + _traduitEnsemblePlageHoraire(scope.horaire, $translate);
-			}
-			
+     	  		var labelHoraires = _traduitEnsemblePlageHoraire(scope.horaire, $translate);
+			}			
 			scope.labelOuverture = labelOuverture;
 			scope.labelHoraires = labelHoraires;
 			
