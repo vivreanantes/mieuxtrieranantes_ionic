@@ -1,18 +1,29 @@
 /* DECHETS */
 
 var myCtrl = angular.module('starter.controllers');
+	
+	myCtrl.controller('DechetCatCtrl', function($scope, RechercheService, ParamService) {
+		
+		//GLOBAL DATA SOURCE
+		$scope.categories = _usualCategoriesDatas;
+		$scope.itemPerRow = 3;
 
-myCtrl.controller('DechetCatCtrl', function($scope) {
+			$scope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
+			
+        //INIT RESULTS
+        $scope.results = RechercheService.searchDechet('');
+        $scope.onChangeType = function() {
+            $scope.results = RechercheService.searchDechet($scope.formParam.searchkey);
+        };
 
-			//GLOBAL DATA SOURCE
-			$scope.categories = _usualCategoriesDatas;
-			$scope.itemPerRow = 3;
+        $scope.onSearchSubmit = function() {
+            $scope.results = RechercheService.searchDechet($scope.formParam.searchkey);
+        };
 
-		}
+	});
 
-);
-
-myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, RechercheService) {
+            
+	myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, RechercheService) {
 			var categorie_usuelle = RechercheService
 					.getCategorieDechet($stateParams.code);
 			$scope.categorie = categorie_usuelle;

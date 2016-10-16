@@ -1,0 +1,17 @@
+<ion-view view-title="{{'zerodechetnantes'|translate}}">
+ <ion-content>
+
+  <div class="card">
+    <div class="item item-divider">{{'zerodechetnantes_intro'|translate}}</div>
+     <div class="card" ng-repeat="(key, value) in allzerodechet | groupBy: 'type'">
+       <div class="item item-divider item-calm">{{key|translate}}</div>
+       <div class="item" ng-repeat="item in ::value" ng-click="showInfo(item.code)">            
+            <img ng-src="resources/images/{{::item.image}}" style="max-height:70px;" />
+            {{'nom_translated'|translate:item}}
+        </div>  
+       </div>
+    </div>
+ </div>
+      
+  </ion-content>
+</ion-view>

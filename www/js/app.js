@@ -40,8 +40,8 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
 				'*' : 'fr'
 			});
 	$ionicConfigProvider.tabs.position('bottom');
-	$translateProvider.preferredLanguage("en");
-	$translateProvider.fallbackLanguage("en");
+	$translateProvider.preferredLanguage("fr");
+	$translateProvider.fallbackLanguage("fr");
 	$translateProvider.useSanitizeValueStrategy('escapeParameters');
 		
   // Ionic uses AngularUI Router which uses the concept of states
@@ -209,6 +209,26 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   })
+
+  .state('tab.zerodechetnantes', {
+    url: '/zerodechetnantes',
+    views: {
+      'tab-zerodechetnantes': {
+        templateUrl: 'templates/nantes/tab-zerodechetnantes.html',
+        controller: 'ZeroDechetCtrl'
+      }
+    }
+   })
+  .state('tab.apropos', {
+    url: '/apropos',
+    views: {
+      'tab-config': {
+        templateUrl: 'templates/tab-apropos.html',
+        controller: 'AProposCtrl'
+      }
+    }
+  
+  })
   
   .state('tab.config', {
     url: '/config',
@@ -219,7 +239,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   })
-  
   /*
   .state('tab.modale.domicile', {
     url: '/modale-domicile',

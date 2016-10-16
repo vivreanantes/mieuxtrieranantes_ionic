@@ -9,6 +9,7 @@ angular.module('starter.controllers')
   var garbagesData = _garbagesDatas;
   var collectModsDatas = _collectModsDatas;
   var newsDatas = _newsDatas;
+  var zeroDechetNantesDatas = _zeroDechetNantesDatas;
    
   var structureCollecteType = [{
         name : 'Tous les lieux',
@@ -84,6 +85,34 @@ angular.module('starter.controllers')
 
   	};
 
+	/*  RECHERCHE de déchets basé sur  un mot-clé
+	 * 
+	 *  @example RechercheService.searchStructure('modco_decheterie|modco_ecopoint','vélo')
+     * 
+	 */
+  	var _searchDechet = function (searchKeyword) {
+
+  		var searchKeyWordCleaned = $filter('searchTextClean')(searchKeyword);
+		var my = this; 
+
+		var motsClesComplet = _getKeyWord("mots_cles");
+		var results=$filter('filter')(garbagesData, 
+        
+            //CUSTOM FILTER
+            function (item, index) {
+      
+            	var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
+            	var result = "";
+				var currentlanguage = $translate.proposedLanguage();
+               	result = textTest.test(item[motsClesComplet]);
+                return result;
+            }
+        );
+
+  		return results;
+
+  	};
+  	
 
     var _getStructure = function (code) {
 
@@ -178,8 +207,6 @@ angular.module('starter.controllers')
         return newsDatas;
     }
 
-
-
     /*  Récupération d'une actualité à partir de son code
      * 
      *  @example RechercheService.getOneNews('news1')
@@ -195,6 +222,27 @@ angular.module('starter.controllers')
         else return null;
     }
 
+    /*  Récupération des actualités
+     *  @example RechercheService.getNews()
+     */
+    var _getAllZeroDechet = function () {
+        return zeroDechetNantesDatas;
+    }
+
+    /*  Récupération d'un conseil zéro déchet à partir de son code
+     *  @example RechercheService.getOneNews('news1')
+     * 
+     */
+    var _getAZeroDechet = function (code) {
+        var expFilter =  { code : code };
+        //On récupère la fiche qui correspondant au code 
+        var filterResult = $filter('filter')(zeroDechetNantesDatas, expFilter);
+        if (filterResult.length > 0) {
+            return filterResult[0];
+        }
+        else return null;
+    }
+    
 	/*  Récupération des modes de collecte à partir de leurs codes (séparés par des virgules)
 	 * 
 	 *  @example RechercheService.getConseils('cons_sansbouchon,cons_bouchonamour,cons_ferraille,cons_acier')
@@ -274,6 +322,7 @@ angular.module('starter.controllers')
 
 return {
     escapeRegExp : _escapeRegExp,
+    searchDechet : _searchDechet,
     searchStructure : _searchStructure,
     getStructure : _getStructure,
     searchCollecteDomicile : _searchCollecteDomicile,
@@ -281,6 +330,8 @@ return {
     getConseils : _getConseils,
     getNews : _getNews,
     getOneNews : _getOneNews,
+    getAZeroDechet : _getAZeroDechet,
+    getAllZeroDechet : _getAllZeroDechet,
     getModeDeCollectes : _getModeDeCollectes,
     getCategorieDechet : _getCategorieDechet,
     getDechet : _getDechet,

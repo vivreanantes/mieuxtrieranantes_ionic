@@ -167,6 +167,7 @@ var _ihmLabelsEnDatas = {
 	"langue_actuelle" : "English",
 	"jeux" : "Games",
 	"config" : "Config",
+	"alert_collectmodsfilter" : "Remember to set your address for the collection modes you need.",
 	"configurez_selon_votre_adresse" : "Configure depending your address",
 	"donnez_votre_rue" : "Give your street",
 	"donnez_votre_rue_placeholder" : "boulevard, avenue, street...",
@@ -211,5 +212,9 @@ var _ihmLabelsEnDatas = {
 	"recyclable" : "Recyclable",
 	"non_recyclable" : "Not Recyclable",
 	"recyclable_pas_poubelle"  : "Not Recyclable (don't put in trash)",
-	"recyclable_nantes"  : "Recycable (yellow boxes for Nantes only)"
+	"recyclable_nantes"  : "Recycable (yellow boxes for Nantes only)",
+	"zerodechetnantes" : "No waste Nantes",
+	"zerodechetnantes_intro" : "Tips concocted by members of Facebook group ZeroDechetNantes.",
+	"zerodechetnantes_type1" : "Objets remplaçant",
+	"zerodechetnantes_type2" : "Produits daits maison"
 };

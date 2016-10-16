@@ -167,6 +167,7 @@ var _ihmLabelsFrDatas = {
 	"langue_actuelle" : "Français",
 	"jeux" : "Jeux",
 	"config" : "Config",
+	"alert_collectmodsfilter" : "Pensez à configurer votre adresse, pour avoir les modes de collectes qui vous correspondent.",
 	"configurez_selon_votre_adresse" : "Configurez selon votre adresse",
 	"donnez_votre_rue" : "Indiquez votre rue",
 	"donnez_votre_rue_placeholder" : "boulevard, avenue, rue...",
@@ -206,8 +207,12 @@ var _ihmLabelsFrDatas = {
 	"hnnl" : "Hors Nantes : Nord Loire",
 	"hnsl" : "Hors Nantes : Sud Loire",
 	"langue_de_lapplication" : "Langue de l'application",
-        		"recyclable" : 'Recyclable',
-        		"non_recyclable" : 'Non Recyclable',
-        		"recyclable_pas_poubelle"  : 'Non Recyclable (ne pas mettre à la poubelle)',
-        		"recyclable_nantes"  : 'Recycable (Bacs jaunes à Nantes uniquement)'
+	"recyclable" : 'Recyclable',
+	"non_recyclable" : 'Non Recyclable',
+	"recyclable_pas_poubelle"  : 'Non Recyclable (ne pas mettre à la poubelle)',
+	"recyclable_nantes"  : 'Recycable (Bacs jaunes à Nantes uniquement)',
+	"zerodechetnantes" : "Zéro déchet Nantes",
+	"zerodechetnantes_intro" : "Astuces concoctées par les membres du groupe Facebook ZeroDechetNantes.",
+	"zerodechetnantes_type1" : "Remplacer les objets jetables",
+	"zerodechetnantes_type2" : "Produits faits maison"
 }
