@@ -115,17 +115,7 @@ angular.module('starter.controllers')
   	
 
     var _getStructure = function (code) {
-
-        var expFilter =  { code : code };
-
-        //On récupère la structure qui correspondant au code 
-        var filterResult = $filter('filter')(structuresData, expFilter);
-
-        if (filterResult.length > 0) {
-            return filterResult[0];
-        }
-        else return null;
-
+      return _getOneData(code, structuresData);
     };
 
 
@@ -164,17 +154,7 @@ angular.module('starter.controllers')
      * 
      */
     var _getConseil = function (code) {
-
-        var expFilter =  { code : code };
-
-        //On récupère la fiche qui correspondant au code 
-        var filterResult = $filter('filter')(advicesData, expFilter);
-
-        if (filterResult.length > 0) {
-            return filterResult[0];
-        }
-        else return null;
-
+      return _getOneData(code, advicesData);
     }
 
     /*  Récupération de conseils à partir de leurs codes (séparés par des virgules)
@@ -213,9 +193,13 @@ angular.module('starter.controllers')
      * 
      */
     var _getOneNews = function (code) {
-        var expFilter =  { code : code };
+        return _getOneData(code, newsDatas);
+    }
+    
+    var _getOneData = function(code, data) {
+       var expFilter =  { code : code };
         //On récupère la fiche qui correspondant au code 
-        var filterResult = $filter('filter')(newsDatas, expFilter);
+        var filterResult = $filter('filter')(data, expFilter);
         if (filterResult.length > 0) {
             return filterResult[0];
         }
@@ -234,13 +218,7 @@ angular.module('starter.controllers')
      * 
      */
     var _getAZeroDechet = function (code) {
-        var expFilter =  { code : code };
-        //On récupère la fiche qui correspondant au code 
-        var filterResult = $filter('filter')(zeroDechetNantesDatas, expFilter);
-        if (filterResult.length > 0) {
-            return filterResult[0];
-        }
-        else return null;
+        return _getOneData(code, zeroDechetNantesDatas);
     }
     
 	/*  Récupération des modes de collecte à partir de leurs codes (séparés par des virgules)
@@ -280,17 +258,7 @@ angular.module('starter.controllers')
      * 
      */
     var _getCategorieDechet = function (codeCategorie) {
-
-        var expFilter =  { code : codeCategorie };
-
-        //On récupère la fiche qui correspondant au code 
-        var filterResult = $filter('filter')(categoriesData, expFilter);
-
-        if (filterResult.length > 0) {
-            return filterResult[0];
-        }
-        else return null;
-
+      return _getOneData(codeCategorie, categoriesData);
     }
 
     /*  Récupération d'un déchet à partir de son code
@@ -299,23 +267,11 @@ angular.module('starter.controllers')
      * 
      */
     var _getDechet = function (code) {
-
-        var expFilter =  { code : code };
-
-        //On récupère la fiche qui correspondant au code 
-        var filterResult = $filter('filter')(garbagesData, expFilter);
-
-        if (filterResult.length > 0) {
-            return filterResult[0];
-        }
-        else return null;
-
+      return _getOneData(codeCategorie, garbagesData);
     }
 
     var _getTypeCollecte = function () {
-        
-        return structureCollecteType;
-        
+        return structureCollecteType;        
     }   
 
 

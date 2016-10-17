@@ -1,10 +1,9 @@
 <ion-view view-title="{{'nom_translated'|translate:dechet}}">
   <ion-content>
-   
 
   <div class="list card">
 
-    <div class="item item-avatar">
+    <div class="item">
         <img ng-src="resources/images/{{ dechet.image }}">
         <h2>{{'nom_translated'|translate:dechet}}</h2>
     </div>
@@ -14,14 +13,18 @@
       <mtn-etat-recyclable etat="{{dechet.recyc}}"></mtn-etat-recyclable>
     </div>
 
-  <p><b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}</p>
+  <div><b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}</div>
   
+	<div>
     {{'modes_de_collecte'|translate}} :
-      <a class="item item-avatar" ng-repeat="modeDeCollecte in modesDeCollecte">
-        <img ng-src="resources/images/{{::modeDeCollecte.image}}"/>
+      <a class="item " ng-repeat="modeDeCollecte in modesDeCollecte">
+        <img ng-src="resources/images/{{::modeDeCollecte.image}}" style="max-width:30px" />
         {{'nom_translated'|translate:modeDeCollecte}}
       </a>
+	</div>
 
+	</div>
+	 <div class="list card">
 
     <div class="item item-icon-left" ng-repeat="conseil in conseils">
       <i class="icon ion-information-circled"></i>

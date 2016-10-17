@@ -3,9 +3,13 @@
   <!--<ion-nav-buttons side="left">
       <button class="button button-icon button-clear ion-navicon" ng-click="openMenu()"></button>
   </ion-nav-buttons>  -->
-
+				
   <ion-content class="padding home">
 
+  <div class="card" ng-show="collectmodsfilter==null">
+  	<a class="button button-icon button-stable ion-alert-circled custom-btn-color" ng-href="#/tab/config"> {{'alert_collectmodsfilter'|translate}}</a>
+  </div>
+  
   <div class="card">
 
     <div class="item item-divider item-calm">{{'recherche'|translate}}</div>
