@@ -209,7 +209,7 @@ var _ihmLabelsEnDatas = {
 	"hnnl" : "Hors Nantes : Nord Loire",
 	"hnsl" : "Hors Nantes : Sud Loire",
 	"langue_de_lapplication" : "Lang of the application",
-	"apropos", "A propos",
+	"apropos" : "A propos",
 	"recyclable" : "Recyclable",
 	"non_recyclable" : "Not Recyclable",
 	"recyclable_pas_poubelle"  : "Not Recyclable (don't put in trash)",

@@ -267,7 +267,7 @@ angular.module('starter.controllers')
      * 
      */
     var _getDechet = function (code) {
-      return _getOneData(codeCategorie, garbagesData);
+      return _getOneData(code, garbagesData);
     }
 
     var _getTypeCollecte = function () {

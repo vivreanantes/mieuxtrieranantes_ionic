@@ -2,27 +2,38 @@
 
 var myCtrl = angular.module('starter.controllers');
 	
-	myCtrl.controller('DechetCatCtrl', function($scope, RechercheService, ParamService) {
+	myCtrl.controller('DechetCatCtrl', function($scope, $state, RechercheService, ParamService) {
 		
 		//GLOBAL DATA SOURCE
 		$scope.categories = _usualCategoriesDatas;
 		$scope.itemPerRow = 3;
 
-			$scope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
-			
+		$scope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
+		
+		//FORM MODEL : DEFAULTS
+        $scope.formParam = {
+			searchkey : ''
+        };	
         //INIT RESULTS
-        $scope.results = RechercheService.searchDechet('');
+        // $scope.results = RechercheService.searchDechet('');
         $scope.onChangeType = function() {
             $scope.results = RechercheService.searchDechet($scope.formParam.searchkey);
         };
 
         $scope.onSearchSubmit = function() {
-            $scope.results = RechercheService.searchDechet($scope.formParam.searchkey);
+			$state.go('tab.dechet-cat-result', { searchString: $scope.formParam.searchkey});
         };
 
 	});
 
-            
+   	myCtrl.controller('DechetCatResultCtrl', function($scope, $stateParams, RechercheService) {
+		
+		$scope.searchString = $stateParams.searchString;
+		// $scope.results = RechercheService.searchDechet($scope.searchString);
+		$scope.results = RechercheService.searchDechet('pile');
+
+	});
+	
 	myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, RechercheService) {
 			var categorie_usuelle = RechercheService
 					.getCategorieDechet($stateParams.code);
@@ -32,24 +43,22 @@ var myCtrl = angular.module('starter.controllers');
 					});
 
 		}
+	);
 
-);
+	myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, RechercheService, $translate) {
 
-myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, RechercheService, $translate) {
+		// On récupère le déchet qui correspondant au code 
+		var dechet = RechercheService.getDechet($stateParams.code);
 
-			// On récupère le déchet qui correspondant au code 
-			var dechet = RechercheService.getDechet($stateParams.code);
+		// On récupère les conseils
+		if (dechet.hasOwnProperty('cons')) {
+			$scope.conseils = RechercheService.getConseils(dechet.cons);
+		}
 
-			// On récupère les conseils
-			if (dechet.hasOwnProperty('cons')) {
-				$scope.conseils = RechercheService.getConseils(dechet.cons);
-			}
-
-			// On récupère les modes de collecte
-			if (dechet.hasOwnProperty('modco')) {
-				$scope.modesDeCollecte = RechercheService
-						.getModeDeCollectes(dechet.modco);
-			}
+		// On récupère les modes de collecte
+		if (dechet.hasOwnProperty('modco')) {
+			$scope.modesDeCollecte = RechercheService.getModeDeCollectes(dechet.modco);
+		}
 
 			//Array modes collectes (split de la chaine)
 			/*var modesCollectes = dechet.modco.split(",");
@@ -66,37 +75,37 @@ myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, Re
 			                    return false;
 			});*/
 
-			    // CRN
-			    // Tableau des conseils (découpage de la chaine)
-			    if (dechet.cons != null) {
-			            var conseils = dechet.cons.split(",");
+		// CRN
+		// Tableau des conseils (découpage de la chaine)
+		if (dechet.cons != null) {
+				var conseils = dechet.cons.split(",");
 
-			            // RE-FILTER sur les conseils
-			            var conseilsFilter = $filter('filter')(_advicesDatas,
-			            // CUSTOM INLINE FILTER
-			            function(value, index, fullarray) {
-			                    // Conseils déchet           
-			                    myindex = conseils.indexOf(value.code);
-			                    if (myindex >= 0) {
-			                            return true;
-			                    } else {
-			                            return false;
-			                    }
-			            });
-			    }
-			    
-			    if (dechet.recyc === "PAS_POUBELLE") {
-			            dechet.recyc_color = "orange";
-			            dechet.recyc2 = "recyclable_pas_poubelle";
-			    } else if (dechet.recyc === "NON") {
-			            dechet.recyc_color = "red";
-			            dechet.recyc2 = "non";
-			    } else {
-			            dechet.recyc_color = "green";
-			            dechet.recyc2 = "oui";
-			    }
+				// RE-FILTER sur les conseils
+				var conseilsFilter = $filter('filter')(_advicesDatas,
+				// CUSTOM INLINE FILTER
+				function(value, index, fullarray) {
+						// Conseils déchet           
+						myindex = conseils.indexOf(value.code);
+						if (myindex >= 0) {
+								return true;
+						} else {
+								return false;
+						}
+				});
+		}
+		
+		if (dechet.recyc === "PAS_POUBELLE") {
+				dechet.recyc_color = "orange";
+				dechet.recyc2 = "recyclable_pas_poubelle";
+		} else if (dechet.recyc === "NON") {
+				dechet.recyc_color = "red";
+				dechet.recyc2 = "non";
+		} else {
+				dechet.recyc_color = "green";
+				dechet.recyc2 = "oui";
+		}
+	
+		//SCOPE
+		$scope.dechet = dechet;
 
-			//SCOPE
-			$scope.dechet = dechet;
-
-		});
+	});

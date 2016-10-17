@@ -1,0 +1,25 @@
+<ion-view view-title="{{'trier'|translate}}">
+  <ion-content>
+
+<div class="card">
+	<div class="card" ng-show="results.length > 0">
+
+	  	<div class="item item-divider item-calm">{{'results'|translate}} <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
+	  	</div>
+
+	  	<div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
+      
+      <a class="item item-thumbnail-left" ng-href="#/tab/dechet/detail/{{::dechet.code}}" ng-repeat="dechet in results">
+        <img ng-src="resources/images/{{::dechet.image}}"/>
+        {{'nom_translated'|translate:dechet}}
+      </a>
+
+	  	<div class="item item-assertive" ng-show="results.length > maxDisplayResults">
+      		{{'les_xx_premiers_results_affiches'|translate:translatevalues}}<br/>{{'affiner_recherche'|translate}}
+  		</div>
+
+	</div>
+</div>
+      
+  </ion-content>
+</ion-view>

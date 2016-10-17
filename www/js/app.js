@@ -79,6 +79,17 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
   })
   
+  .state('tab.dechet-cat-result', {
+    url: '/dechet/cat/result',
+    views: {
+      'tab-dechet-result': {
+        templateUrl: 'templates/tab-dechet-cat-result.html',
+        controller: 'DechetCatResultCtrl',
+        params: { searchString: {} }
+      }
+    }
+  })
+  
   .state('tab.carte', {
     url: '/carte',
     views: {
