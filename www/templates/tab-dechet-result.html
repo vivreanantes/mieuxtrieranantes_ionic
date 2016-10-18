@@ -2,8 +2,8 @@
   <ion-content>
 
 <div class="card">
-	<div class="card" ng-show="results.length > 0">
-
+		</div>
+    
 	  	<div class="item item-divider item-calm">{{'results'|translate}} <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
 	  	</div>
 
@@ -16,10 +16,6 @@
 
 	  	<div class="item item-assertive" ng-show="results.length > maxDisplayResults">
       		{{'les_xx_premiers_results_affiches'|translate:translatevalues}}<br/>{{'affiner_recherche'|translate}}
-  		</div>
-
-	</div>
-</div>
-      
+  		</div>  
   </ion-content>
 </ion-view>

@@ -79,17 +79,28 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
   })
   
-  .state('tab.dechet-cat-result', {
-    url: '/dechet/cat/result',
+  
+  .state('tab.dechet-result', {
+    url: '/dechet/result/:searchString',
     views: {
-      'tab-dechet-result': {
-        templateUrl: 'templates/tab-dechet-cat-result.html',
-        controller: 'DechetCatResultCtrl',
-        params: { searchString: {} }
+      'tab-dechet': {
+        templateUrl: 'templates/tab-dechet-result.html',
+        controller: 'DechetResultCtrl'/*,
+        params: { searchString:{} }*/
       }
     }
   })
   
+  /*.state('tab.dechet-result', {
+    url: '/result',
+    views: {
+      'tab-dechet-result': {
+        templateUrl: 'templates/tab-dechet-cat.html',
+        controller: 'DechetCatCtrl'
+      }
+    }
+  })
+ */
   .state('tab.carte', {
     url: '/carte',
     views: {

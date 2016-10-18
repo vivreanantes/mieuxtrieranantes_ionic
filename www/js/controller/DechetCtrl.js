@@ -2,6 +2,8 @@
 
 var myCtrl = angular.module('starter.controllers');
 	
+	myCtrl.$inject = ['$scope', '$stateParams'];
+	
 	myCtrl.controller('DechetCatCtrl', function($scope, $state, RechercheService, ParamService) {
 		
 		//GLOBAL DATA SOURCE
@@ -21,16 +23,16 @@ var myCtrl = angular.module('starter.controllers');
         };
 
         $scope.onSearchSubmit = function() {
-			$state.go('tab.dechet-cat-result', { searchString: $scope.formParam.searchkey});
+			// var searchString = $scope.formParam.searchkey;
+			$state.go('tab.dechet-result', { searchString: $scope.formParam.searchkey});
         };
 
 	});
 
-   	myCtrl.controller('DechetCatResultCtrl', function($scope, $stateParams, RechercheService) {
-		
+   	myCtrl.controller('DechetResultCtrl', function($scope, $stateParams, RechercheService) {
 		$scope.searchString = $stateParams.searchString;
 		// $scope.results = RechercheService.searchDechet($scope.searchString);
-		$scope.results = RechercheService.searchDechet('pile');
+		$scope.results = RechercheService.searchDechet($scope.searchString);
 
 	});
 	
