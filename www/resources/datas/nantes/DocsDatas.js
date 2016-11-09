@@ -137,7 +137,7 @@ var _docsDatas = [
       "nom":"Prolonger la durée des batteries",
       "mots_cles":"batterie",
       "url":"www.mieuxtrieranantes.fr/docs/batteries_Lithium_Ion.pdf",
-      "image":"application-pdf.png",
+      "image":"batterie_lithium.png",
       "src":"10/2016"
    },
    {}];

@@ -23,8 +23,8 @@ var myCtrl = angular.module('starter.controllers');
         };
 
         $scope.onSearchSubmit = function() {
-			// var searchString = $scope.formParam.searchkey;
-			$state.go('tab.dechet-result', { searchString: $scope.formParam.searchkey});
+					// var searchString = $scope.formParam.searchkey;
+					$state.go('tab.dechet-result', { searchString: $scope.formParam.searchkey});
         };
 
 	});
@@ -37,8 +37,7 @@ var myCtrl = angular.module('starter.controllers');
 	});
 	
 	myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, RechercheService) {
-			var categorie_usuelle = RechercheService
-					.getCategorieDechet($stateParams.code);
+			var categorie_usuelle = RechercheService.getCategorieDechet($stateParams.code);
 			$scope.categorie = categorie_usuelle;
 			$scope.dechets = $filter('filter')(_garbagesDatas, {
 						cat_usuel : categorie_usuelle.code
