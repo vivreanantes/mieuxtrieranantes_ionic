@@ -9,7 +9,7 @@
 	<a class="button button-calm icon-left ion-settings"  ng-click="switchLanguage()">{{'change_language'|translate}}</a>
 	<br/>
 	<h4>{{"modes_de_collecte" | translate}}</h4> 
-	{{ collectmodsfilter | translate }}
+	{{ $rootScope.collectmodsfilter | translate }}
 	<button class="button button-calm  icon-left ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
 
 	<br/><br/>
@@ -26,7 +26,6 @@
 
 		      <ion-radio ng-model="choice" ng-value="'B'" ng-click="selectAdress('modco_bacbleu,modco_bacjaune')">{{'jhabite_hors_nantes'|translate}}</ion-radio>
 		      <ion-radio ng-model="choice" ng-value="'A'">{{'jhabite_nantes'|translate}}</ion-radio>
-
 	
 		      <div class="card" ng-show="choice=='A'">
 			
@@ -52,7 +51,7 @@
 				        {{::collecte.dcv}}<br>
 				        <span ng-bind-html="collecte.jcbj"></span>
 				        <button class="button button-stable" ng-click="selectAdress(collecte.mco)">
-			      			<i class="ico ion-ios-checkmark-outline"></i>
+			      			<i class="ico ion-arrow-right-c"> {{'select'|translate}}</i>
 			    		</button>
 				  	</div>
 			

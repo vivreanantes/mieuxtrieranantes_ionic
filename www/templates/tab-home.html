@@ -30,6 +30,7 @@
     <div class="list">         
         <div class="item" ng-repeat="actu in ::news" ng-click="showInfo(actu.code)">            
             <span ng-bind-html="actu.nom"></span>
+						<!--span>{{'nom_translated'|translate:actu}}</span-->
         </div>  
     </div>
 

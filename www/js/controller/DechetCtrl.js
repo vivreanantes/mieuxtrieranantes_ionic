@@ -4,13 +4,13 @@ var myCtrl = angular.module('starter.controllers');
 	
 	myCtrl.$inject = ['$scope', '$stateParams'];
 	
-	myCtrl.controller('DechetCatCtrl', function($scope, $state, RechercheService, ParamService) {
+	myCtrl.controller('DechetCatCtrl', function($scope, $state, RechercheService, ParamService, $rootScope) {
 		
 		//GLOBAL DATA SOURCE
 		$scope.categories = _usualCategoriesDatas;
 		$scope.itemPerRow = 3;
 
-		$scope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
+		$rootScope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
 		
 		//FORM MODEL : DEFAULTS
         $scope.formParam = {
