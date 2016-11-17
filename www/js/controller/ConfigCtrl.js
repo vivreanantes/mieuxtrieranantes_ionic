@@ -1,19 +1,20 @@
 angular.module('starter.controllers').controller(
 		'ConfigCtrl',
 		function($scope, ParamService, RechercheService,
-				$translate, $ionicModal) {
+				$translate, $ionicModal, $rootScope) {
 			$scope.lang = ParamService.getParam("available_language");
-			$scope.collectmodsfilter = ParamService
+			$rootScope.collectmodsfilter = ParamService
 					.getValueInLocalStorage("collectmodsfilter");
 
 			$scope.switchLanguage = function() {
 
 				var currentlanguage = $translate.proposedLanguage();
 				if (currentlanguage === "fr") {
-					$translate.use("en");
+					currentlanguage = "en";
 				} else {
-					$translate.use("fr");
+					currentlanguage = "fr";
 				}
+					$translate.use(currentlanguage);
 				// RM-PA_LANGUE_01 On peut sauver la langue de l'utilisateur
 				ParamService.setValueInLocalStorage("currentlanguage", currentlanguage);
 			}
@@ -47,7 +48,7 @@ angular.module('starter.controllers').controller(
 				}
 				ParamService.setValueInLocalStorage("mco_filter_not",
 						mco_filter_not);
-				$scope.collectmodsfilter = mco;
+				$rootScope.collectmodsfilter = mco;
 				$scope.modal.hide();
 			}
 

@@ -8,7 +8,6 @@ function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, 
 	var temp = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
 	$translate.use(temp);
 	
-	// ?????
 	$scope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
 
 	$scope.openMenu = function() {
