@@ -17,7 +17,7 @@ angular.module('starter.controllers')
             	}
 
             	// An alert dialog
-				$scope.showInfo = function(codeConseil) {
+				$scope.showAdvice = function(codeConseil) {
 
 					var conseil = RechercheService.getConseil(codeConseil);
 					//TODO : TRANSLATION

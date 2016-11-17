@@ -26,7 +26,7 @@
 	  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
 	        {{::collecte.dcv}}<br>
 	        <span ng-bind-html="collecte.jcbj"></span>
-	        <button class="button button-stable" ng-click="showInfo(collecte.cons)">
+	        <button class="button button-stable" ng-click="showAdvice(collecte.cons)">
       			<i class="icon ion-information-circled"></i>
     		</button>
 	  	</div>

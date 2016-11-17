@@ -16,24 +16,59 @@
 
     <div class="item item-input">
     <label class="item-input-wrapper">
-      <input ng-model="searchkey"  type="text" placeholder="Ex : miroir, emmaüs, compostage">
+      <input ng-model="formParam.searchkey"  type="text" placeholder="Ex : miroir, emmaüs, compostage">
     </label>
-    <a class="button button-icon icon ion-search"></a>
+    <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
     </div>
 
   </div>
 
+  <div class="card" ng-show="resultsLength > 0">
+		<div class="item item-divider item-calm" ng-click="onToggleObject()">{{'results'|translate}}<span ng-bind="'(' + (resultsLength) + ')'"></span></div>
+<div  ng-show="toggleObject>0">
+		<a class="item item-thumbnail-left"  ng-repeat="item in resultsGarbages | limitTo:maxDisplayResults" ng-href="#/tab/dechet/detail/{{::item.code}}">
+					<img ng-src="resources/images/{{::item.image}}"/>
+					{{::item.nom}} <br>
+					<span style="color:#666">{{::item.type}}</span>
+		</a>
+		<a class="item item-thumbnail-left"  ng-repeat="item in resultsPlaces | limitTo:maxDisplayResults" ng-href="#/tab/lieu/detail/{{::item.code}}">
+					<img ng-src="resources/images/{{::item.image}}"/>
+					{{::item.nom}} <br>
+					<span style="color:#666">{{::item.type}}</span>
+					<mtn-plage-horaire class="horaire" horaire="{{::item.plagesHoraires}}"></mtn-plage-horaire>   
+		</a>
+		<a class="item item-thumbnail-left"  ng-repeat="item in resultsPlaces | limitTo:maxDisplayResults" ng-href="#/tab/lieu/detail/{{::item.code}}">
+					<img ng-src="resources/images/{{::item.image}}"/>
+					{{::item.nom}} <br>
+					<span style="color:#666">{{::item.type}}</span>
+					<mtn-plage-horaire class="horaire" horaire="{{::item.plagesHoraires}}"></mtn-plage-horaire>   
+		</a>
+		<div class="item item-button-right" ng-repeat="collecte in resultsHomeCollects | limitTo:maxDisplayResults">
+			{{'collete_a_domicile'|translate}}<br/>
+			{{::collecte.dcv}}<br>
+				<span ng-bind-html="collecte.jcbj"></span>
+				<button class="button button-stable" ng-click="showAdvice(collecte.cons)">
+					<i class="icon ion-information-circled"></i>
+				</button>
+			</div>
+		<div class="item item-assertive" ng-show="resultsLength > maxDisplayResults">
+			 {{'les_xx_premiers_results_affiches'|translate:translatevalues}}<br>{{'affiner_recherche'|translate}}
+		</div>
+</div>
+  </div>
+	
   <div class="card news">
 
     <div class="item item-divider item-calm">Actualités</div>
 
     <div class="list">         
-        <div class="item" ng-repeat="actu in ::news" ng-click="showInfo(actu.code)">            
+        <div class="item" ng-repeat="actu in ::news" ng-click="showNews(actu.code)">            
             <span ng-bind-html="actu.nom"></span>
         </div>  
     </div>
 
   </div>
-      
+
+	
   </ion-content>
 </ion-view>
