@@ -10,6 +10,7 @@ angular.module('starter.controllers')
   var collectModsDatas = _collectModsDatas;
   var newsDatas = _newsDatas;
   var zeroDechetNantesDatas = _zeroDechetNantesDatas;
+  var compagniesAdvicesDatas = _compagniesAdvicesDatas;
    
   var structureCollecteType = [{
         name : 'Tous les lieux',
@@ -221,6 +222,22 @@ angular.module('starter.controllers')
         return _getOneData(code, zeroDechetNantesDatas);
     }
     
+    /*  Récupération des actualités
+     *  @example RechercheService.getNews()
+     */
+    var _getAllCompaniesAdvices = function () {
+        return compagniesAdvicesDatas;
+    }
+
+    /*  Récupération d'un conseil zéro déchet à partir de son code
+     *  @example RechercheService.getOneNews('news1')
+     * 
+     */
+
+    var _getACompaniesAdvice = function (code) {
+        return _getOneData(code, compagniesAdvicesDatas);
+    }
+    
 	/*  Récupération des modes de collecte à partir de leurs codes (séparés par des virgules)
 	 * 
 	 *  @example RechercheService.getConseils('cons_sansbouchon,cons_bouchonamour,cons_ferraille,cons_acier')
@@ -288,6 +305,8 @@ return {
     getOneNews : _getOneNews,
     getAZeroDechet : _getAZeroDechet,
     getAllZeroDechet : _getAllZeroDechet,
+    getACompaniesAdvice : _getACompaniesAdvice,
+    getAllCompaniesAdvices : _getAllCompaniesAdvices,
     getModeDeCollectes : _getModeDeCollectes,
     getCategorieDechet : _getCategorieDechet,
     getDechet : _getDechet,

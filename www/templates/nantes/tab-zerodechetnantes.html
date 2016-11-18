@@ -2,7 +2,7 @@
  <ion-content>
 
   <div class="card">
-    <div class="item item-divider">{{'zerodechetnantes_intro'|translate}}</div>
+    <div class="item item-divider mtn-nowrap">{{'zerodechetnantes_intro'|translate}}</div>
      <div class="card" ng-repeat="(key, value) in allzerodechet | groupBy: 'type'">
        <div class="item item-divider item-calm">{{key|translate}}</div>
        <div class="item" ng-repeat="item in ::value" ng-click="showInfo(item.code)">            

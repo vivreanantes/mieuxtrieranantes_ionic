@@ -1,6 +1,5 @@
 var _ihmLabelsEnDatas = {
 	"Conseil" : "Advise",
-	"recyclable" : "recycling",
 	"ou" : "or",
 	"pour_collecte_bac_jaune" : "Only for yellow bacs",
 	"OUI" : "YES",
@@ -185,14 +184,13 @@ var _ihmLabelsEnDatas = {
 	"fiche_descr" : "{{descr}}",
 	"nom_translated" : "{{nom_en}}",
 	"descr_translated" : "{{descr_en}}",
+	"resume_translated" : "{{resume_en}}",
 	"categorie" : "Category",
 	"modco_bacbleu,modco_bacjaunnantes" : "Nantes : blue boxes and yellow boxes",
 	"modco_bacbleu,modco_bacjaune" : "Except Nantes : blue boxes, yellow boxes",
 	"modco_sacjaune,modco_sacbleu" : "Blue bags, yellow bags (Trisacs)",
 	"objet" : "Object",
-	"modes_de_collecte" : "Collect mods",
 	"types_de_structure" : "Type of places",
-	"quartier" : "Zone",
 	"all" : "Tous",
 	"qbcsa" : "Bellevue Chantenay Sainte-Anne",
 	"qbb" : "Breil Barberie",
@@ -217,5 +215,10 @@ var _ihmLabelsEnDatas = {
 	"zerodechetnantes" : "No waste Nantes",
 	"zerodechetnantes_intro" : "Tips concocted by members of Facebook group ZeroDechetNantes.",
 	"zerodechetnantes_type1" : "Objets remplaçant",
-	"zerodechetnantes_type2" : "Produits daits maison"
+	"zerodechetnantes_type2" : "Produits daits maison",
+	"companiesadvices" : "Companies",
+	"companiesadvices_intro" : "Tips advices are from the association Oasis Environnement.",
+	"companiesadvices_type1" : "Full solutions",
+	"companiesadvices_type2" : "Specific recycling",
+	"companiesadvices_type3" : "Advices"
 };

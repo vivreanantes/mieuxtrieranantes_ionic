@@ -1,0 +1,18 @@
+<ion-view view-title="{{'companiesadvices'|translate}}">
+ <ion-content>
+
+  <div class="card">
+    <div class="item item-divider mtn-nowrap">{{'companiesadvices_intro'|translate}}</div>
+     <div class="card" ng-repeat="(key, value) in allzerodechet | groupBy: 'type'">
+       <div class="item item-divider item-calm">{{key|translate}}</div>
+       <div class="item item-thumbnail-left" ng-repeat="item in ::value" ng-click="showInfo(item.code)">            
+            <img ng-src="resources/images/{{::item.image}}" style="max-height:70px;" />
+            {{'nom_translated'|translate:item}}<br/>
+            <span style="color:#666" class="mtn-nowrap">{{'resume_translated'|translate:item}}</span>
+        </div>  
+       </div>
+    </div>
+ </div>
+      
+  </ion-content>
+</ion-view>

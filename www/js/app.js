@@ -241,6 +241,15 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
    })
+  .state('tab.companiesadvices', {
+    url: '/companiesadvices',
+    views: {
+      'tab-companiesadvices': {
+        templateUrl: 'templates/nantes/tab-companiesadvices.html',
+        controller: 'CompaniesAdvicesCtrl'
+      }
+    }
+   })
   .state('tab.apropos', {
     url: '/apropos',
     views: {
