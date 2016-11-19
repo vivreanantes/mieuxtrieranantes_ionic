@@ -1,5 +1,5 @@
-
-function  ServiceCarte ($filter) {
+angular.module('starter.controllers')
+.factory('CarteService', function ($filter, $translate, ParamService) {
   
   //GLOBAL DATA
   var structuresData = _structuresDatas;
@@ -22,7 +22,7 @@ function  ServiceCarte ($filter) {
     }];
 
   //Retourne Objet L.icon (Leaflet)
-  this.iconMapper = function (structure) {
+  var iconMapper = function (structure) {
            
       var iconTypeMap = {};      
       iconTypeMap["Conteneur verre"] = '/img/marker_verre.png';
@@ -55,50 +55,6 @@ function  ServiceCarte ($filter) {
       
   };
 
-
-  this.search = function (typeParam, searchkeyParam) {
-        
-        console.time("search_structures");
-        var stTypeRegexp = new RegExp(typeParam.value);
-        var stSearchRegexp = new RegExp(Transliteration(searchkeyParam), 'ig');
-
-        var results=$filter('filter')(structuresData, 
-        
-            //CUSTOM FILTER
-            function (item, index, fullarray) {
-      
-                //Analyse du type uniquement
-                if (searchkeyParam == '') {
-                    
-                    return stTypeRegexp.test(item.modesCollecte);
-                    
-                }
-                //Analyse type et mot-clé
-                else {
-                    
-                    var nomNormalize=Transliteration(item.nom);
-                    
-                    //Mots-clés sur la donnée ??
-                    var keywordsNormalize='';                    
-                    if (typeof item.mots_cles !== "undefined") keywordsNormalize=Transliteration(item.mots_cles);
-                    
-                    return stTypeRegexp.test(item.modesCollecte) && (stSearchRegexp.test(nomNormalize) || stSearchRegexp.test(keywordsNormalize));
-                    
-                }          
-                
-            }
-        );
-
-        console.timeEnd("search_structures");  
-
-        return results;
-    };
-    
-    this.getTypeCollecte = function () {
-        
-        return structureCollecteType;
-        
-    };
     
     /* Retourne tous les conteneurs (au format compatible Angular Leaflet)
      * car les conteneurs sont uniquement destinés à être affichés sur la carte Leaflet
@@ -107,27 +63,38 @@ function  ServiceCarte ($filter) {
       location = { lat: 47.22, lng:  -1.52}
       
     */   
-    this.getLeafletContainers = function (centerLocation) {      
+    var _getLeafletContainers = function (centerLocation, codeModeCollecte) {      
 
         var leafletContainers={};
         //DISTANCE EN METRES MAX
         var maxDistance=2800;
         
-        var latlngCenterLocation = L.latLng(centerLocation.lat, centerLocation.lng);  
+        var latlngCenterLocation = L.latLng(centerLocation.lat, centerLocation.lng);
+        
+        var expFilter =  function(item, index, array) {
+
+            var modeCo = item.modesCollecte;
+            var test = modeCo.indexOf(codeModeCollecte);
+            return (test >= 0);
+
+        };
+
+        //Filtre des marqueurs pour le mode de collecte
+        var leafletContainersFiltered = $filter('filter')(_containersDatas, expFilter);
        
-        for (var i = 0; i < 1130; i++) {  //_containersDatas.length
+        for (var i = 0; i < leafletContainersFiltered.length ; i++) {  
         
             //SKIP INVALID CONTAINER
-            var container=_containersDatas[i];
+            var container=leafletContainersFiltered[i];
             if (container.length === 0 || container.type == '') continue;
         
             popuptext='<b>' + container.type + '</b><br/>';
             if (container.nom) {
-		popuptext = popuptext + container.nom + '<br/>';
+            popuptext = popuptext + container.nom + '<br/>';
             };
             
             if (container.adresseTemp) {
-		popuptext = popuptext + container.adresseTemp + '<br/>';
+            popuptext = popuptext + container.adresseTemp + '<br/>';
             }
         
             //Mapping data MTN => data Angular Leaflet
@@ -136,15 +103,10 @@ function  ServiceCarte ($filter) {
                  lng: parseFloat(container.longitude), //IMPORTANT : données origine de type string !                
                  message: popuptext,
                  group: 'containers',
-                 icon: iconMapper(container)
+                // icon: iconMapper(container)
             };
-            
-            //AJOUT CONTAINER SSI dans le cercle autorisé (limite en mètres)
-            currentPoint=L.latLng(leafletContainer.lat, leafletContainer.lng);
-            if (latlngCenterLocation.distanceTo(currentPoint) <= maxDistance)
-            {
-                leafletContainers[container.code]=leafletContainer;
-            }
+        
+            leafletContainers[container.code] = leafletContainer;
         
         }
    
@@ -152,5 +114,11 @@ function  ServiceCarte ($filter) {
    
     };
     
+    return {
+      
+        getLeafletContainers : _getLeafletContainers,
 
-};
+    };
+    
+    
+});

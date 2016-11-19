@@ -1,11 +1,19 @@
 <ion-view view-title="{{'carte'|translate}}">
-  <ion-content style="background:#E4F2C7;">
-
-<br/><br/>
-      <center><img src="resources/images/temp_carte.png" width="50%" /></center>
-
+  <ion-content>
     
-    <!-- leaflet lf-center="center" layers="layers" markers="markers" paths="paths" height="480px" width="100%" -->  
-      
+  <div class="card">
+
+    <div class="item item-divider item-calm">
+        Types
+    </div>
+  
+    <div class="list">
+  
+        <a class="item" ng-href="#/tab/carte/detail/{{::mode.code}}" ng-repeat="mode in modeCollecte">{{::mode.libelle}}</a>
+  
+    </div>
+
+  </div>
+
   </ion-content>
 </ion-view>
