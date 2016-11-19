@@ -19,18 +19,18 @@
 
 </div>
 
-<div class="card">
+<div class="dechet-categorie">
 
   <!-- <div class="item item-divider item-calm">{{'categorie'|translate}}</div> -->
 
     <div class="row panneau_bouton" ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}" ng-if="$index%3==0">   
-      <div class="col card" ng-repeat="categorie in ::categories|limitTo:3:$index"> 
+      <div class="col" ng-repeat="categorie in ::categories|limitTo:3:$index"> 
         <div class="item text-center">
             <a ng-href="#/tab/dechet/cat/{{::categorie.code}}" class="selectable">
               <img ng-src="resources/images/{{::categorie.image}}"/></a>
         </div>
 
-        <a class="button button-full button-clear button-dark item-text-wrap text-center" ng-href="#/tab/dechet/cat/{{::categorie.code}}">
+        <a class="button button-full button-clear item-text-wrap text-center" ng-href="#/tab/dechet/cat/{{::categorie.code}}">
             {{'nom_translated'|translate:categorie}}
         </a>
 

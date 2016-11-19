@@ -73,8 +73,14 @@ ion-content.home .news .item {
 
 /* GRILLE 3 cellules par ligne */
 
-.panneau_bouton  {
-	
+.card.dechet-categorie {
+    box-shadow:none;
+    
+}
+
+.panneau_bouton {
+    padding: 10px;
+    padding-bottom: 0px;
 }
 
 /* Image adaptative pour les résolutions faibles */
@@ -96,6 +102,12 @@ ion-content.home .news .item {
     padding:6px;
 }
 
+.panneau_bouton  .col {
+    
+    padding: 0em;
+	
+}
+
 .panneau_bouton a.button {
 	text-decoration:none;
     display:inline-block; 
@@ -103,6 +115,11 @@ ion-content.home .news .item {
     line-height: 1em;
     min-height: 20px;
     font-size: 95%;
+    background: #888;
+    color:#fff;
+    margin:0em;
+    padding:10px;
+    font-weight: bold;
 }
 
 .horaire {
@@ -136,9 +153,10 @@ ion-content.home .news .item {
 
 /* HACKS MTN */
 
-.item.mtn-nowrap {
-    white-space:pre-line;
+.item.mtn-nowrap, .mtn-nowrap {
+    white-space:normal !important;
 }
+
 
 @keyframes blink {
     0% {

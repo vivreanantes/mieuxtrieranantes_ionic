@@ -3,36 +3,42 @@
 
   <div class="list card">
 
-    <div class="item">
-        <img ng-src="resources/images/{{ dechet.image }}">
-        <h2>{{'nom_translated'|translate:dechet}}</h2>
+    <div class="item item-divider item-calm">
+      	 {{'nom_translated'|translate:dechet}}
+    </div>
+		
+		<div class="item item-thumbnail-left" href="#">
+      <img ng-src="resources/images/{{ dechet.image }}">
+      <h2>{{'recyclable'|translate}} : <font color='{{dechet.recyc_color}}'><b>{{dechet.recyc2|translate}}</b></font></h2>
     </div>
 
-    <div class="item item-text-wrap">
-      {{'recyclable'|translate}} : <font color='{{dechet.recyc_color}}'><b>{{dechet.recyc2|translate}}</b></font> 
-      <mtn-etat-recyclable etat="{{dechet.recyc}}"></mtn-etat-recyclable>
-    </div>
+		<div class="item item-divider">
+        {{'modes_de_collecte'|translate}}
+		</div>
 
-  <div><b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}</div>
-  
-	<div>
-    {{'modes_de_collecte'|translate}} :
-      <a class="item " ng-repeat="modeDeCollecte in modesDeCollecte">
+    <a class="item" ng-repeat="modeDeCollecte in modesDeCollecte">
         <img ng-src="resources/images/{{::modeDeCollecte.image}}" style="max-width:30px" />
         {{'nom_translated'|translate:modeDeCollecte}}
-      </a>
-	</div>
+    </a>
 
 	</div>
 	 <div class="list card">
 
+    <div class="item item-divider item-calm">
+      	 {{'informations'|translate}}
+    </div>
+
+  	<div class="item item-divider">
+        <b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}
+		</div>
+
     <div class="item item-icon-left" ng-repeat="conseil in conseils">
       <i class="icon ion-information-circled"></i>
-      <span class="item item-text-wrap">{{'nom_translated'|translate:conseil}}</span>
-			<div class="item item-stable item-icon-left item-body item-text-wrap">
+      <h2 class="mtn-nowrap">{{'nom_translated'|translate:conseil}}</h2>
+			<p class="mtn-nowrap">
 				<span ng-bind-html="conseil.descr"></span>
 				<span ng-show="false">{{'descr_translated'|translate:conseil}}</span>
-			</div>
+			</p>
     </div>
 
      <a class="item item-icon-left item-calm" ng-click="notimplemented = 'TODO'" ng-show="false">
