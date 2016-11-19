@@ -218,7 +218,7 @@ var _ihmLabelsEnDatas = {
 	"zerodechetnantes_type2" : "Produits daits maison",
 	"companiesadvices" : "Companies",
 	"companiesadvices_intro" : "Tips advices are from the association Oasis Environnement.",
-	"companiesadvices_type1" : "Full solutions",
-	"companiesadvices_type2" : "Specific recycling",
-	"companiesadvices_type3" : "Advices"
+	"companiesadvices_type1" : "For compagnies : full solutions",
+	"companiesadvices_type2" : "For compagnies : specific recycling",
+	"companiesadvices_type3" : "For compagnies : advices"
 };
