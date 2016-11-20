@@ -2,18 +2,13 @@
   <ion-content>
     
   <div class="card">
-
-    <div class="item item-divider item-calm">
-        Types
-    </div>
-  
+    <div class="item item-divider item-calm">{{'carte_filter'|translate}}</div>
     <div class="list">
-  
         <a class="item" ng-href="#/tab/carte/detail/{{::mode.code}}" ng-repeat="mode in modeCollecte">{{::mode.libelle}}</a>
-  
     </div>
-
   </div>
 
+  <a class="button button-calm icon-left ion-settings" ng-click="switchLanguage()">{{'carte_afficher'|translate}}</a>
+  
   </ion-content>
 </ion-view>

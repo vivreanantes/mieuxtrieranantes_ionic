@@ -41,7 +41,7 @@ angular.module('starter.controllers')
 	var _getKeyWord = function(key) {
 	 	var result = key;
 		var currentlanguage = $translate.proposedLanguage();
-		var defaultlanguage = ParamService.getParam("defaultlanguage");
+		var defaultlanguage = ParamService.getParam("defaultlanguage", "fr");
 		if (currentlanguage!==defaultlanguage) {
 			result = key + "_"+ currentlanguage;
 		}
@@ -291,9 +291,15 @@ angular.module('starter.controllers')
         return structureCollecteType;        
     }   
 
+    var _getAFilter = function (filterName) {
+      var result = [];
+      if (filterName==="filter_map") {
+        result = [ { "code" : "smco_conteneurlerelais", "libelle" : "Conteneur Le Relais" }, { "code" : "modco_contpapiercarton", "libelle" : "Conteneur papier/carton"} ];
+      }
+      return result;
+    }
 
-
-return {
+  return {
     escapeRegExp : _escapeRegExp,
     searchDechet : _searchDechet,
     searchStructure : _searchStructure,
@@ -310,6 +316,7 @@ return {
     getModeDeCollectes : _getModeDeCollectes,
     getCategorieDechet : _getCategorieDechet,
     getDechet : _getDechet,
-    getTypeCollecte : _getTypeCollecte
+    getTypeCollecte : _getTypeCollecte,
+    getAFilter : _getAFilter
   };
 });

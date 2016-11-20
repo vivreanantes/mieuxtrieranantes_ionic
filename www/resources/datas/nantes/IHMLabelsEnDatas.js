@@ -217,8 +217,11 @@ var _ihmLabelsEnDatas = {
 	"zerodechetnantes_type1" : "Objets remplaçant",
 	"zerodechetnantes_type2" : "Produits daits maison",
 	"companiesadvices" : "Companies",
-	"companiesadvices_intro" : "Tips advices are from the association Oasis Environnement.",
+	"companiesadvices_intro" : "Tips advices are from the association ?????",
 	"companiesadvices_type1" : "For compagnies : full solutions",
 	"companiesadvices_type2" : "For compagnies : specific recycling",
-	"companiesadvices_type3" : "For compagnies : advices"
+	"companiesadvices_type3" : "For compagnies : advices",
+	"carte_filter" : "Filter (points to show)",
+	"carte_afficher" : "Show the map",
+	"objets_recuperes" : "Recovered objects"
 };

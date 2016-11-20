@@ -20,7 +20,12 @@ var _structuresDatas = [
       "sous_zone":"qbcsa",
       "mots_cles":"pop,fringues,secours,populaire,francais,nantes,,vetements,bibelots,livres,pull,pantalon,veste",
       "mots_cles_en":"pop,fringues,secours,populaire,francais,nantes,,clothing,trinkets,books,sweater,pants,jacket",
-      "image":"icon-go-home.png"
+      "image":"icon-go-home.png",
+      "twitter" : "temp",
+      "facebook" : "temp",
+      "googleplus" : "temp",
+      "objets_recuperes":"vetements,bibelots,livres,pull,pantalon,veste",
+      "objets_recuperes_en":"clothing,trinkets,books,sweater,pants,jacket"
    },      {"code":"stco_reemploi_solidarimeuble",
       "latitude":"47.198314",
       "longitude":"-1.596764",

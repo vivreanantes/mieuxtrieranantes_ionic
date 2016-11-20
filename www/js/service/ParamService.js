@@ -32,21 +32,27 @@ angular.module('starter.controllers').factory('ParamService',
 			};
 
 			/**
-			 * Renvoie la valeur d'un paramètre (les paramètres sont regroupés
-			 * dans _paramsDatas)
+			 * Renvoie la valeur d'un paramètre (les paramètres sont regroupés dans _paramsDatas)
+			 * Si le paramètre n'existe pas, renvoie defaultValue
 			 */
-			var _getParam = function(stKey) {
+			var _getParam = function(stKey, defaultValue) {
 				var datas = _paramsDatas;
 				if (datas[stKey] == null) {
-					result = stKey;
+					result = defaultValue;
 				} else {
 					result = datas[stKey];
 				}
 				return result;
 			};
+			
+			var _getNumberParam = function(stKey, defaultValue) {
+				var result = parseFloat(_getParam(stKey, defaultValue));
+				return result;
+			};
 
 			return {
 				getParam : _getParam,
+				getNumberParam : _getNumberParam,
 				setValueInLocalStorage : _setValueInLocalStorage,
 				getValueInLocalStorage : _getValueInLocalStorage,
 				getValueInLocalStorageWithDefault : _getValueInLocalStorageWithDefault

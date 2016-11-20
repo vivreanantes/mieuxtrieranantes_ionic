@@ -2,11 +2,11 @@
 
 angular.module('starter.controllers')
 .controller('CarteCtrl', 
-            function($scope) {
+            function($scope, RechercheService) {
                 
        //ServiceStructures, leafletData, leafletMapEvents
-       $scope.modeCollecte = [ { "code" : "smco_conteneurlerelais", "libelle" : "Conteneur Le Relais" }, { "code" : "modco_contpapiercarton", "libelle" : "Conteneur papier/carton"} ];
-      
+       // $scope.modeCollecte = [ { "code" : "smco_conteneurlerelais", "libelle" : "Conteneur Le Relais" }, { "code" : "modco_contpapiercarton", "libelle" : "Conteneur papier/carton"} ];
+      $scope.modeCollecte = RechercheService.getAFilter("filter_map");
             
             //CONTENEURS
             
@@ -37,16 +37,18 @@ angular.module('starter.controllers')
     
 })
 .controller('CarteDetailCtrl', 
-            function($scope, $stateParams, leafletMarkerEvents, CarteService) {
+            function($scope, $stateParams, leafletMarkerEvents, CarteService, ParamService) {
                 
             //Récupération mode de collecte en argument 
             var codeModeCollecte = $stateParams.code;
-                       
+                    /*   
+                   */
             angular.extend($scope, {
                 center: {
-                    lat: 47.240987,
-                    lng: -1.8,
-                    zoom: 10
+                    lat: ParamService.getNumberParam("geo.defaultLat", 47.240987),
+                    lng: ParamService.getNumberParam("geo.defaultLong", -1.8),
+                    // zoom: ParamService.getNumberParam("geo.zoomInit", 10)
+                    zoom : 10
                 },
                 layers:
                 {

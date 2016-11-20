@@ -2,7 +2,7 @@ angular.module('starter.controllers').controller(
 		'ConfigCtrl',
 		function($scope, ParamService, RechercheService,
 				$translate, $ionicModal, $rootScope) {
-			$scope.lang = ParamService.getParam("available_language");
+			$scope.lang = ParamService.getParam("available_language", "fr");
 			$rootScope.collectmodsfilter = ParamService
 					.getValueInLocalStorage("collectmodsfilter");
 
