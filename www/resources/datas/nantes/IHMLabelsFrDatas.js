@@ -126,6 +126,7 @@ var _ihmLabelsFrDatas = {
 	"ouvert_demain" : "Ouvert demain",
 	"dechets" : "déchets",
 	"carte" : "Carte",
+	"carte_filtre" : "Carte, choix filtre",
 	"fiches" : "Apprendre",
 	"lieux" : "Lieux",
 	"a_domicile" : "à domicile",

@@ -2,12 +2,20 @@
 
 angular.module('starter.controllers')
 .controller('CarteCtrl', 
-            function($scope, RechercheService) {
+            function($scope, $state, RechercheService) {
                 
        //ServiceStructures, leafletData, leafletMapEvents
        // $scope.modeCollecte = [ { "code" : "smco_conteneurlerelais", "libelle" : "Conteneur Le Relais" }, { "code" : "modco_contpapiercarton", "libelle" : "Conteneur papier/carton"} ];
       $scope.modeCollecte = RechercheService.getAFilter("filter_map");
-            
+    
+      $scope.typeofmarkers = {}; //Initialize model here
+
+	  // handle search
+      $scope.onSearchSubmit = function() {
+        $temp = $scope.typeofmarkers;
+        $state.go('tab.carte-detail', { code:"modco_compostage"});
+     };
+
             //CONTENEURS
             
             //$scope.markers = ServiceStructures.getLeafletContainers($scope.center); 

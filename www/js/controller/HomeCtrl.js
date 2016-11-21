@@ -49,11 +49,11 @@ function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, 
 	$scope.resultsLength = 0;
 	// handle search
   $scope.onSearchSubmit = function() {
-		$searchkey = $scope.formParam.searchkey;
-    $scope.resultsPlaces = RechercheService.searchStructure('.*', $searchkey);
-		$scope.resultsGarbages = RechercheService.searchDechet($searchkey);
-		// $scope.resultsHomeCollects = RechercheService.searchCollecteDomicile($searchkey);
-		$scope.resultsLength = $scope.resultsPlaces.length + $scope.resultsGarbages.length + $scope.resultsHomeCollects.length;
+	    $searchkey = $scope.formParam.searchkey;
+        $scope.resultsPlaces = RechercheService.searchStructure('.*', $searchkey);
+	    $scope.resultsGarbages = RechercheService.searchDechet($searchkey);
+	    // $scope.resultsHomeCollects = RechercheService.searchCollecteDomicile($searchkey);
+	    $scope.resultsLength = $scope.resultsPlaces.length + $scope.resultsGarbages.length + $scope.resultsHomeCollects.length;
   };
 
 	// An alert dialog for the advices

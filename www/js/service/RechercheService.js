@@ -294,7 +294,14 @@ angular.module('starter.controllers')
     var _getAFilter = function (filterName) {
       var result = [];
       if (filterName==="filter_map") {
-        result = [ { "code" : "smco_conteneurlerelais", "libelle" : "Conteneur Le Relais" }, { "code" : "modco_contpapiercarton", "libelle" : "Conteneur papier/carton"} ];
+        result = [
+          { "code" : "modco_reemploi", "nom" : "Réemploi" },
+          { "code" : "modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs", "nom" : "Conteneurs", "nom_en" : "Containers"},
+          { "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
+          { "code" : "modco_compostage", "nom" : "Composteurs", "nom_en" : "Composting"},
+          { "code" : "smco_conteneurlerelais", "nom" : "Conteneurs vêtements", "nom_en" : "Containers clothes"},
+          { "code" : "ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops"}
+        ];
       }
       return result;
     }

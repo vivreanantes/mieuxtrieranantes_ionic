@@ -125,6 +125,7 @@ var _ihmLabelsEnDatas = {
 	"ouvert_demain" : "Open tomorrow",
 	"dechets" : "garbages",
 	"carte" : "Map",
+	"carte_filtre" : "Map, choose filter",
 	"fiches" : "Learn",
 	"lieux" : "Places",
 	"a_domicile" : "At home",

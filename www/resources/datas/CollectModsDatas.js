@@ -265,7 +265,7 @@ var _collectModsDatas = [{
 	"mots_cles" : "conteneur,vetements",
 	"mots_cles_en" : "container,clothing"
 }, {
-	"code" : "smco_reempelectromenag  ",
+	"code" : "smco_reempelectromenag",
 	"nom" : "Réemploi appareils électroménager",
 	"nom_en" : "Reuse household appliances",
 	"libelleBouton" : "Réemploi appareils électroménager",

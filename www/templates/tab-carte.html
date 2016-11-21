@@ -1,14 +1,19 @@
-<ion-view view-title="{{'carte'|translate}}">
+<ion-view view-title="{{'carte_filtre'|translate}}">
   <ion-content>
     
   <div class="card">
     <div class="item item-divider item-calm">{{'carte_filter'|translate}}</div>
+    <!--
     <div class="list">
-        <a class="item" ng-href="#/tab/carte/detail/{{::mode.code}}" ng-repeat="mode in modeCollecte">{{::mode.libelle}}</a>
+        <a class="item" ng-href="#/tab/carte/detail/{{::mode.code}}" ng-repeat="mode in modeCollecte">{{::mode.nom}}</a>
     </div>
   </div>
+  -->
+  <ion-radio ng-model="typeofmarkers.id" ng-value="mode.code" ng-repeat="mode in modeCollecte">{{::mode.nom}}</ion-radio>
 
-  <a class="button button-calm icon-left ion-settings" ng-click="switchLanguage()">{{'carte_afficher'|translate}}</a>
+  <ion-checkbox ng-model="mode.code" ng-repeat="mode in modeCollecte">{{::mode.nom}}</ion-checkbox>
+
+  <a class="button button-calm icon-left ion-settings" ng-click="onSearchSubmit()">{{'carte_afficher'|translate}}</a>
   
   </ion-content>
 </ion-view>
