@@ -223,4 +223,5 @@ var _ihmLabelsEnDatas = {
 	"companiesadvices_type3" : "For compagnies : advices",
 	"carte_filter" : "Filter (points to show)",
 	"carte_afficher" : "Show the map",
+	"debug_mots_cles" : "DEBUG MOD ONLY : keywords to find this page "
 };
