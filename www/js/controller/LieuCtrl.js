@@ -4,7 +4,7 @@ angular.module('starter.controllers')
 .controller('LieuCtrl',
 
         function($scope, RechercheService) {
-
+            
             $scope.maxDisplayResults = 25;
 
             //SELECT Type de structures                 

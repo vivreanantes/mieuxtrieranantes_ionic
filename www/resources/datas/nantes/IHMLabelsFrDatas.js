@@ -221,5 +221,5 @@ var _ihmLabelsFrDatas = {
 	"companiesadvices_type3" : "Pour les entreprises : Conseils",
 	"carte_filter" : "Filtres (points à afficher)",
 	"carte_afficher" : "Afficher la carte",
-	"objets_recuperes" : "Objets récupérés"
+	"debug_mots_cles" : "MODE DEBUG UNIQUEMENT : mots clés pour trouver cette page "
 }

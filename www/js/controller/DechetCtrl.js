@@ -29,7 +29,7 @@ var myCtrl = angular.module('starter.controllers');
 
 	});
 
-   	myCtrl.controller('DechetResultCtrl', function($scope, $stateParams, RechercheService) {
+  myCtrl.controller('DechetResultCtrl', function($scope, $stateParams, RechercheService) {
 		$scope.searchString = $stateParams.searchString;
 		// $scope.results = RechercheService.searchDechet($scope.searchString);
 		$scope.results = RechercheService.searchDechet($scope.searchString);

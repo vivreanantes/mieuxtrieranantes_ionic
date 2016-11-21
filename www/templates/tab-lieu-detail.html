@@ -17,7 +17,6 @@
 
 	<div class="item item-stable item-icon-left item-body mtn-nowrap">
         <p ng-bind-html="structure.descr"></p>
-				<div nh-show="structure.objets_recuperes">{{'objets_recuperes'|translate}} : {{structure.objets_recuperes}}</div>
   </div>
 
  	<div class="item item-icon-left item-text-wrap">
@@ -66,6 +65,7 @@
 	  <div class="col">Source : <i>{{structure.src}}</i></div>
   </div>
 
+  <div nh-show="structure.debug">{{'debug_mots_cles'|translate}} : {{structure.objets_recuperes}}</div>
       
   </ion-content>
 </ion-view>

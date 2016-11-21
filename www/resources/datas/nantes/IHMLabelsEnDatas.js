@@ -223,5 +223,4 @@ var _ihmLabelsEnDatas = {
 	"companiesadvices_type3" : "For compagnies : advices",
 	"carte_filter" : "Filter (points to show)",
 	"carte_afficher" : "Show the map",
-	"objets_recuperes" : "Recovered objects"
 };
