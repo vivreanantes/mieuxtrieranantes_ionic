@@ -19,12 +19,12 @@
         <p ng-bind-html="structure.descr"></p>
   </div>
 
- 	<div class="item item-icon-left item-text-wrap">
+ 	<div class="item item-icon-left item-text-wrap" ng-show="structure.adresseTemp">
       	<i class="icon ion-home"></i>
       	<div>{{structure.adresseTemp}}</div>
     </div>
 
-    <div class="item item-icon-left">
+    <div class="item item-icon-left"ng-show="structure.tel">
     	<i class="icon ion-ios-telephone"></i>
     	{{structure.tel}}
     </div>
@@ -65,7 +65,7 @@
 	  <div class="col">Source : <i>{{structure.src}}</i></div>
   </div>
 
-  <div nh-show="structure.debug">{{'debug_mots_cles'|translate}} : {{structure.objets_recuperes}}</div>
+  <div nh-show="structure.debug">{{'debug_mots_cles'|translate}} : {{structure.mots_cles}}</div>
       
   </ion-content>
 </ion-view>
