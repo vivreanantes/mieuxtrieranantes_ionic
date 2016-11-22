@@ -217,10 +217,11 @@ var _ihmLabelsFrDatas = {
 	"zerodechetnantes_type2" : "Produits faits maison",
 	"companiesadvices" : "Entreprises",
 	"companiesadvices_intro" : "Ces conseils proviennent de l'association ?????",
-	"companiesadvices_type1" : "Pour les entreprises : solutions complètes",
-	"companiesadvices_type2" : "Pour les entreprises : Recyclages spécifiques",
+	"companiesadvices_type1" : "Pour entreprises : solutions complètes",
+	"companiesadvices_type2" : "Pour entreprises : Recyclages spécifiques",
 	"companiesadvices_type3" : "Pour les entreprises : Conseils",
 	"carte_filter" : "Filtres (points à afficher)",
 	"carte_afficher" : "Afficher la carte",
-	"debug_mots_cles" : "MODE DEBUG UNIQUEMENT : mots clés pour trouver cette page "
+	"debug_mots_cles" : "MODE DEBUG UNIQUEMENT : mots clés pour trouver cette page ",
+	"toutletemps" : "tout le temps"
 }
