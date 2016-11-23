@@ -9,6 +9,7 @@
     </div>
   </div>
   -->
+  <ion-checkbox ng-model="isChecked" ng-repeat="mode in modeCollecte">{{::mode.nom}}</ion-checkbox>
 
   <a class="button button-calm icon-left ion-settings" ng-click="onSearchSubmit()">{{'carte_afficher'|translate}}</a>
   
