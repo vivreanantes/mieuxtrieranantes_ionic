@@ -26,12 +26,12 @@ angular.module('starter.controllers')
            
       var iconTypeMap = {};      
       iconTypeMap["Conteneur verre"] = '/img/marker_verre.png';
-      iconTypeMap["Conteneurs verre"] = '/img/marker_verre.png';
-      iconTypeMap["Conteneurs : verre, papier-carton"] = '/img/marker_verre_carton.png';    
-      iconTypeMap["Conteneur papier-carton"] = '/img/marker_verre_carton.png';
-      iconTypeMap["Conteneurs : verre, papier-carton, plastique"] = '/img/marker_verre_carton_plastique.png';
-      iconTypeMap["Conteneurs : papier-carton, plastique"] = '/img/marker_verre_carton_plastique.png';
-      iconTypeMap["Conteneurs : verre, plastique"] = '/img/marker_verre_carton_plastique.png';
+      iconTypeMap["Conteneur verre, papier"] = '/img/marker_verre_carton.png';    
+      iconTypeMap["Conteneur papier"] = '/img/marker_verre_carton.png';
+      iconTypeMap["Conteneur verre, papier, canettes"] = '/img/marker_verre_carton_plastique.png';
+      iconTypeMap["Conteneur papier, plastique"] = '/img/marker_verre_carton_plastique.png';
+      iconTypeMap["Conteneur verre, plastique"] = '/img/marker_verre_carton_plastique.png';
+      iconTypeMap["Conteneur emballages journaux magazines"] = '/img/marker_verre_carton_plastique.png';
       
       //LISTE des différentes icônes
       var iconDefault={};     
@@ -63,19 +63,25 @@ angular.module('starter.controllers')
       location = { lat: 47.22, lng:  -1.52}
       
     */   
-    var _getLeafletContainers = function (centerLocation, codeModeCollecte) {      
+    var _getLeafletContainers = function (centerLocation, stCollectMods) {
 
+        stCollectMods = "modco_reemploi";
         var leafletContainers={};
         //DISTANCE EN METRES MAX
-        var maxDistance=2800;
+        // var maxDistance=2800;
         
+        var listCollectMods = stCollectMods.split(",");
         var latlngCenterLocation = L.latLng(centerLocation.lat, centerLocation.lng);
         
         var expFilter =  function(item, index, array) {
 
             var modeCo = item.modesCollecte;
-            var test = modeCo.indexOf(codeModeCollecte);
-            return (test >= 0);
+            var listItemCollectMods = modeCo.split(",");
+            var showTheMarker = false;
+            for (var i = 0; i < listItemCollectMods.length && showTheMarker==false; i++) {
+              showTheMarker = _utilArrayContainObject(listCollectMods, listItemCollectMods[i]);
+            }
+            return showTheMarker;
 
         };
 
@@ -103,7 +109,7 @@ angular.module('starter.controllers')
                  lng: parseFloat(container.longitude), //IMPORTANT : données origine de type string !                
                  message: popuptext,
                  group: 'containers',
-                // icon: iconMapper(container)
+                 icon: iconMapper(container)
             };
         
             leafletContainers[container.code] = leafletContainer;
