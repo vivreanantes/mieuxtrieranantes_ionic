@@ -2,6 +2,7 @@
  <ion-content>
 
   <div class="card">
+           {{}}
     <div class="item item-divider mtn-nowrap">{{'companiesadvices_intro'|translate}}</div>
      <div class="card" ng-repeat="(key, value) in allzerodechet | groupBy: 'type'">
        <div class="item item-divider item-calm">{{key|translate}}</div>
@@ -10,7 +11,8 @@
          {{'nom_translated'|translate:item}}<br/>
          <span style="color:#666" class="mtn-nowrap">{{'resume_translated'|translate:item}}</span>
          <div ng-show="toggleObject[[$parent.$index]][[$index]]>0">
-           <span ng-show="'fr'==='fr'" ng-bind-html="item.descr"></span>
+           <span ng-show="'ou'|translate=='ou'" ng-bind-html="item.descr"></span>
+           <span ng-show="'ou'|translate=='or'" ng-bind-html="item.nom"></span>
        </div>
     </div>
   </div>

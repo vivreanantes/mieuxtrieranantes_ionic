@@ -224,5 +224,6 @@ var _ihmLabelsFrDatas = {
 	"carte_filter" : "Filtres (points à afficher)",
 	"carte_afficher" : "Afficher la carte",
 	"debug_mots_cles" : "MODE DEBUG UNIQUEMENT : mots clés pour trouver cette page ",
-	"toutletemps" : "tout le temps"
+	"toutletemps" : "tout le temps",
+	"objets_recuperes" : "Objets récupérés"
 }

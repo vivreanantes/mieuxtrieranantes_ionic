@@ -15,8 +15,9 @@
       	<mtn-plage-horaire class="horaire" horaire="{{::structure.plagesHoraires}}" fulldisplay="1"></mtn-plage-horaire> 
     </div>
 
-	<div class="item item-stable item-icon-left item-body mtn-nowrap">
+	<span>
         <p ng-bind-html="structure.descr"></p>
+				<span ng-show="structure.objets_recuperes"><b>{{'objets_recuperes'|translate:translatevalues}} : {{structure.objets_recuperes}}</b></span>
   </div>
 
  	<div class="item item-icon-left item-text-wrap" ng-show="structure.adresseTemp">
@@ -65,7 +66,7 @@
 	  <div class="col">Source : <i>{{structure.src}}</i></div>
   </div>
 
-  <div nh-show="structure.debug">{{'debug_mots_cles'|translate}} : {{structure.mots_cles}}</div>
+  <div nh-show="structure.debug" style="color:blue">{{'debug_mots_cles'|translate}} : {{structure.mots_cles}}</div>
       
   </ion-content>
 </ion-view>

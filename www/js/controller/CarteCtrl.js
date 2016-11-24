@@ -7,11 +7,29 @@ angular.module('starter.controllers')
        //ServiceStructures, leafletData, leafletMapEvents
        // $scope.modeCollecte = [ { "code" : "smco_conteneurlerelais", "libelle" : "Conteneur Le Relais" }, { "code" : "modco_contpapiercarton", "libelle" : "Conteneur papier/carton"} ];
       $scope.modeCollecte = RechercheService.getAFilter("filter_map");
-
-	  // handle search
+      $scope.selected = {};
+   
+      // http://stackoverflow.com/questions/36931140/ionic-angularjs-checkbox-and-ng-repeat-from-api
+      angular.forEach($scope.modeCollecte, function(val, index) {
+            $scope.selected[val.id] = "true";
+            $scope.modeCollecte[index].checked = true;
+        })
+	    // handle search
+      $scope.checked = function(key, status) {
+            if (status == "true") {
+                $scope.modeCollecte[key].checked = true;
+            } else {
+                $scope.modeCollecte[key].checked = false;
+            }
+      }
       $scope.onSearchSubmit = function() {
-       // $temp = $scope.mode.id;
-        $state.go('tab.carte-detail', { code:"modco_compostage"});
+        var temp = "";
+        angular.forEach($scope.modeCollecte, function(val, index) {
+            if ($scope.modeCollecte[index].checked == true) {
+              temp += $scope.modeCollecte[index].code;
+            }
+        })
+        $state.go('tab.carte-detail', { code:temp});
      };
 
             //CONTENEURS

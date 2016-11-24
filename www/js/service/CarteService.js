@@ -65,7 +65,7 @@ angular.module('starter.controllers')
     */   
     var _getLeafletContainers = function (centerLocation, stCollectMods) {
 
-        stCollectMods = "modco_reemploi";
+        // stCollectMods = "modco_reemploi";
         var leafletContainers={};
         //DISTANCE EN METRES MAX
         // var maxDistance=2800;

@@ -5,7 +5,7 @@ angular.module('starter.controllers')
 
         function($scope, RechercheService) {
 
-            $scope.maxDisplayResults = 25;
+            $scope.maxDisplayResults = 250;
 	     	$scope.debug = true;
             
             //SELECT Type de structures                 
