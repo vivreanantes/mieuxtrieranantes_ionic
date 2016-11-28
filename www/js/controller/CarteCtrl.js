@@ -2,7 +2,7 @@
 
 angular.module('starter.controllers')
 .controller('CarteCtrl', 
-            function($scope, $state, RechercheService) {
+            function($scope, $state, RechercheService, ParamService) {
                 
        //ServiceStructures, leafletData, leafletMapEvents
        // $scope.modeCollecte = [ { "code" : "smco_conteneurlerelais", "libelle" : "Conteneur Le Relais" }, { "code" : "modco_contpapiercarton", "libelle" : "Conteneur papier/carton"} ];
@@ -12,11 +12,11 @@ angular.module('starter.controllers')
       // http://stackoverflow.com/questions/36931140/ionic-angularjs-checkbox-and-ng-repeat-from-api
       angular.forEach($scope.modeCollecte, function(val, index) {
             $scope.selected[val.id] = "true";
-            $scope.modeCollecte[index].checked = true;
+            $scope.modeCollecte[index].checked = false;
         })
 	    // handle search
       $scope.checked = function(key, status) {
-            if (status == "true") {
+            if (status == true) {
                 $scope.modeCollecte[key].checked = true;
             } else {
                 $scope.modeCollecte[key].checked = false;
@@ -26,10 +26,11 @@ angular.module('starter.controllers')
         var temp = "";
         angular.forEach($scope.modeCollecte, function(val, index) {
             if ($scope.modeCollecte[index].checked == true) {
-              temp += $scope.modeCollecte[index].code;
+              temp += $scope.modeCollecte[index].id+",";
             }
         })
-        $state.go('tab.carte-detail', { code:temp});
+        ParamService.setValueInLocalStorage("filter_map_checked", temp);
+        $state.go('tab.carte-detail');
      };
 
             //CONTENEURS
@@ -61,12 +62,18 @@ angular.module('starter.controllers')
     
 })
 .controller('CarteDetailCtrl', 
-            function($scope, $stateParams, leafletMarkerEvents, CarteService, ParamService) {
-                
-            //Récupération mode de collecte en argument 
-            var codeModeCollecte = $stateParams.code;
-                    /*   
-                   */
+            function($scope, $stateParams, leafletMarkerEvents, CarteService, ParamService, RechercheService) {
+            
+      var temp = ParamService.getValueInLocalStorage("filter_map_checked");
+      var modeCollecte = RechercheService.getAFilter("filter_map");
+      var list = temp.split(",");
+      var codesModeCollecte = "";
+      for (var i=0; i<modeCollecte.length;i++) {
+        if (modeCollecte[i].id in list) {
+          codesModeCollecte += modeCollecte[i].code;
+        }
+      }
+     
             angular.extend($scope, {
                 center: {
                     lat: ParamService.getNumberParam("geo.defaultLat", 47.240987),
@@ -97,12 +104,12 @@ angular.module('starter.controllers')
             
             $scope.$on("leafletDirectiveMap.mymap.load", function(event, args){
                 var leafEvent = args.leafletEvent;
-                $scope.markers = CarteService.getLeafletContainers($scope.center, codeModeCollecte);
+                $scope.markers = CarteService.getLeafletContainers($scope.center, codesModeCollecte);
                 console.log('markers');
             });
             
             //Récupération des marqueurs Leaflets
-            $scope.codeModeCollecte = codeModeCollecte;
+            $scope.codesModeCollecte = codesModeCollecte;
             
 
                 

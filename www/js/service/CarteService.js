@@ -2,7 +2,7 @@ angular.module('starter.controllers')
 .factory('CarteService', function ($filter, $translate, ParamService) {
   
   //GLOBAL DATA
-  var structuresData = _structuresDatas;
+  // var structuresData = _structuresDatas;
    
   var structureCollecteType = [{
         name : 'Tous',
@@ -24,8 +24,9 @@ angular.module('starter.controllers')
   //Retourne Objet L.icon (Leaflet)
   var iconMapper = function (structure) {
            
-      var iconTypeMap = {};      
+      var iconTypeMap = {};
       iconTypeMap["Conteneur verre"] = '/img/marker_verre.png';
+      iconTypeMap["Entreprise de réemploi"] = '/img/marker_verre.png';
       iconTypeMap["Conteneur verre, papier"] = '/img/marker_verre_carton.png';    
       iconTypeMap["Conteneur papier"] = '/img/marker_verre_carton.png';
       iconTypeMap["Conteneur verre, papier, canettes"] = '/img/marker_verre_carton_plastique.png';
@@ -76,17 +77,21 @@ angular.module('starter.controllers')
         var expFilter =  function(item, index, array) {
 
             var modeCo = item.modesCollecte;
-            var listItemCollectMods = modeCo.split(",");
             var showTheMarker = false;
-            for (var i = 0; i < listItemCollectMods.length && showTheMarker==false; i++) {
-              showTheMarker = _utilArrayContainObject(listCollectMods, listItemCollectMods[i]);
+            if (modeCo!==null) {
+              var listItemCollectMods = modeCo.split(",");
+              for (var i = 0; i < listItemCollectMods.length && showTheMarker==false; i++) {
+                // showTheMarker = listItemCollectMods[i] in listCollectMods;
+                showTheMarker = _utilArrayContainObject(listCollectMods, listItemCollectMods[i]);
+              }
             }
             return showTheMarker;
 
         };
 
         //Filtre des marqueurs pour le mode de collecte
-        var leafletContainersFiltered = $filter('filter')(_containersDatas, expFilter);
+        var tmpDatas = _structuresDatas.concat(_containersDatas);
+        var leafletContainersFiltered = $filter('filter')(tmpDatas, expFilter);
        
         for (var i = 0; i < leafletContainersFiltered.length ; i++) {  
         

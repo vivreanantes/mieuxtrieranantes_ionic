@@ -295,12 +295,12 @@ angular.module('starter.controllers')
       var result = [];
       if (filterName==="filter_map") {
         result = [
-          { "id" : "1", "code" : ",modco_reemploi", "nom" : "Réemploi" },
-          { "id" : "2", "code" : ",modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs", "nom" : "Conteneurs", "nom_en" : "Containers"},
-          { "id" : "3", "code" : ",modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
-          { "id" : "4", "code" : ",modco_compostage", "nom" : "Composteurs", "nom_en" : "Composting"},
-          { "id" : "5", "code" : ",smco_conteneurlerelais", "nom" : "Conteneurs vêtements", "nom_en" : "Containers clothes"},
-          { "id" : "6", "code" : ",ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops"}
+          { "id" : "1", "code" : "smco_reemp", "nom" : "Réemploi" },
+          { "id" : "2", "code" : "modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs", "nom" : "Conteneurs", "nom_en" : "Containers"},
+          { "id" : "3", "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
+          { "id" : "4", "code" : "modco_compostage", "nom" : "Composteurs", "nom_en" : "Composting"},
+          { "id" : "5", "code" : "smco_conteneurlerelais", "nom" : "Conteneurs vêtements", "nom_en" : "Containers clothes"},
+          { "id" : "6", "code" : "ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops"}
         ];
       }
       return result;
