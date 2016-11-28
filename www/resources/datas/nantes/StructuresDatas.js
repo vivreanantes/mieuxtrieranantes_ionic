@@ -3531,6 +3531,5 @@ var _structuresDatas = [
       "sous_zone":"qdb",
       "src":"OpenDataNantes 11/2015",
       "image":"relais_trisac.jpg"
-   },
-{}
+   }
 ]

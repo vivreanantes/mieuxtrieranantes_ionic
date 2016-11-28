@@ -64,15 +64,22 @@ angular.module('starter.controllers')
 .controller('CarteDetailCtrl', 
             function($scope, $stateParams, leafletMarkerEvents, CarteService, ParamService, RechercheService) {
             
-      var temp = ParamService.getValueInLocalStorage("filter_map_checked");
+      var filterMap = ParamService.getValueInLocalStorage("filter_map_checked");
       var modeCollecte = RechercheService.getAFilter("filter_map");
-      var list = temp.split(",");
+      var listFilterMap = filterMap.split(",");
       var codesModeCollecte = "";
       for (var i=0; i<modeCollecte.length;i++) {
-        if (modeCollecte[i].id in list) {
-          codesModeCollecte += modeCollecte[i].code;
+            var ajoutModeCollecte = false;
+            for (var j=0; j<listFilterMap.length && ajoutModeCollecte===false;j++) {
+              if (modeCollecte[i].id===listFilterMap[j]) {
+                ajoutModeCollecte = true;
+              }
+            }
+            if (ajoutModeCollecte) {
+              codesModeCollecte += modeCollecte[i].code + ",";
+            }
         }
-      }
+      // var temp=0;
      
             angular.extend($scope, {
                 center: {

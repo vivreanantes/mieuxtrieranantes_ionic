@@ -24,19 +24,18 @@ angular.module('starter.controllers')
   //Retourne Objet L.icon (Leaflet)
   var iconMapper = function (structure) {
            
-      var iconTypeMap = {};
-      iconTypeMap["Conteneur verre"] = '/img/marker_verre.png';
+      /*var iconTypeMap = {};
+      iconTypeMap[modesCollecte] = '/img/marker_verre.png';
       iconTypeMap["Entreprise de réemploi"] = '/img/marker_verre.png';
       iconTypeMap["Conteneur verre, papier"] = '/img/marker_verre_carton.png';    
       iconTypeMap["Conteneur papier"] = '/img/marker_verre_carton.png';
       iconTypeMap["Conteneur verre, papier, canettes"] = '/img/marker_verre_carton_plastique.png';
       iconTypeMap["Conteneur papier, plastique"] = '/img/marker_verre_carton_plastique.png';
       iconTypeMap["Conteneur verre, plastique"] = '/img/marker_verre_carton_plastique.png';
-      iconTypeMap["Conteneur emballages journaux magazines"] = '/img/marker_verre_carton_plastique.png';
+      iconTypeMap["Conteneur emballages journaux magazines"] = '/img/marker_verre_carton_plastique.png';*/
       
       //LISTE des différentes icônes
-      var iconDefault={};     
-      var iconBase= {
+      var iconCustom= {
                     //iconUrl: '/img/marker_verre.png',
                     //shadowUrl: '/img/leaf-shadow.png',
                     iconSize:     [32, 48], // size of the icon
@@ -45,14 +44,18 @@ angular.module('starter.controllers')
                     shadowAnchor: [4, 30],  // the same for the shadow
                     popupAnchor:  [0, -45] // point from which the popup should open relative to the iconAnchor
       };
-      
-      if (structure.type in iconTypeMap) {
-          
-          iconCustom=iconBase;
-          iconCustom.iconUrl=iconTypeMap[structure.type];
-          return iconCustom;
-      } 
-      else return iconDefault;
+      // var listModesCollecte = structure.modesCollecte.split(",");
+      if (structure.modesCollecte.indexOf("smco_conteneurlerelais,")>0) {
+        iconCustom.iconUrl="/img/marker-red.png";
+      } else if ( structure.modesCollecte.indexOf("modco_contembjournmag")>0 ||
+                  structure.modesCollecte.indexOf("modco_contverre")>0 ||
+                  structure.modesCollecte.indexOf("marker_verre_carton")>0) {
+        iconCustom.iconUrl="/img/marker_verre_carton_plastique.png";        
+      } else {
+        iconCustom.iconUrl="/img/marker-red.png";
+      }
+
+      return iconCustom;
       
   };
 
@@ -72,7 +75,7 @@ angular.module('starter.controllers')
         // var maxDistance=2800;
         
         var listCollectMods = stCollectMods.split(",");
-        var latlngCenterLocation = L.latLng(centerLocation.lat, centerLocation.lng);
+        // var latlngCenterLocation = L.latLng(centerLocation.lat, centerLocation.lng);
         
         var expFilter =  function(item, index, array) {
 
@@ -80,17 +83,24 @@ angular.module('starter.controllers')
             var showTheMarker = false;
             if (modeCo!==null) {
               var listItemCollectMods = modeCo.split(",");
-              for (var i = 0; i < listItemCollectMods.length && showTheMarker==false; i++) {
+              for (var i = 0; i<listItemCollectMods.length && showTheMarker===false; i++) {
+                for (var j=0; j<listCollectMods.length && showTheMarker===false; j++) {
+                  if (listCollectMods[j]===listItemCollectMods[i]) {
+                    showTheMarker = true;
+                  }
+                }
                 // showTheMarker = listItemCollectMods[i] in listCollectMods;
-                showTheMarker = _utilArrayContainObject(listCollectMods, listItemCollectMods[i]);
+                // showTheMarker = _utilArrayContainObject(listCollectMods, listItemCollectMods[i]);
               }
             }
             return showTheMarker;
-
+            // return true;
         };
 
         //Filtre des marqueurs pour le mode de collecte
-        var tmpDatas = _structuresDatas.concat(_containersDatas);
+       var tmpDatas = _containersDatas.concat(_structuresDatas);
+       // var tmpDatas = _containersDatas;
+        // var tmpDatas = _structuresDatas;
         var leafletContainersFiltered = $filter('filter')(tmpDatas, expFilter);
        
         for (var i = 0; i < leafletContainersFiltered.length ; i++) {  
