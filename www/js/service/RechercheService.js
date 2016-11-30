@@ -12,7 +12,7 @@ angular.module('starter.controllers')
   var zeroDechetNantesDatas = _zeroDechetNantesDatas;
   var compagniesAdvicesDatas = _compagniesAdvicesDatas;
    
-  var structureCollecteType = [{
+  /*var structureCollecteType = [{
         name : 'Tous les lieux',
         value : '.*'
     }, {
@@ -27,8 +27,7 @@ angular.module('starter.controllers')
     }, {
         name : "Vente vrac",
         value : "ventevrac"
-    }];
-
+    }];*/
 
     var _escapeRegExp = function (str) {
     	return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
@@ -252,7 +251,7 @@ angular.module('starter.controllers')
 			if (test >= 0) {
         
 				var test2 = mco_filter_not.indexOf(item.code);
-        if (test2>0) {
+        if (test2>=0) {
           return false;
         }
         else {
@@ -293,9 +292,17 @@ angular.module('starter.controllers')
 
     var _getAFilter = function (filterName) {
       var result = [];
-      if (filterName==="filter_map") {
+      if (filterName==="filter_collect_types") {
         result = [
-          { "id" : "1", "code" : "smco_reemp", "nom" : "Réemploi" },
+          { "id" : "1", "code" : ".*", "nom" : "Tous les lieux" },
+          { "id" : "2", "code" : "smco_reempl", "nom" : "Réemploi" },
+          { "id" : "3", "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
+          { "id" : "4", "code" : "modco_encombrants_resume", "nom" : "Encombrants", "nom_en" : "Containers"},
+          { "id" : "5", "code" : "ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops"}
+        ];
+      } else if (filterName==="filter_map") {
+        result = [
+          { "id" : "1", "code" : "smco_reempl", "nom" : "Réemploi" },
           { "id" : "2", "code" : "modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs", "nom" : "Conteneurs", "nom_en" : "Containers"},
           { "id" : "3", "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
           { "id" : "4", "code" : "modco_compostage", "nom" : "Composteurs", "nom_en" : "Composting"},

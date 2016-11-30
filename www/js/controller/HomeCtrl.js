@@ -2,13 +2,13 @@
 
 angular.module('starter.controllers').controller('HomeCtrl',
 
-function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, RechercheService) {
+function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, RechercheService, $rootScope) {
 
 	// Récupère la langue courant. Initialise l'application avec cette langue.
 	var temp = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
 	$translate.use(temp);
 	
-	$scope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
+	$rootScope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
 
 	$scope.openMenu = function() {
 		// $ionicSideMenuDelegate.toggleLeft();

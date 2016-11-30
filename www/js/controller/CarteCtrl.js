@@ -29,6 +29,9 @@ angular.module('starter.controllers')
               temp += $scope.modeCollecte[index].id+",";
             }
         })
+        if (temp.length>0) {
+            temp = temp.substring(0,temp.length-1);
+        }
         ParamService.setValueInLocalStorage("filter_map_checked", temp);
         $state.go('tab.carte-detail');
      };
