@@ -302,7 +302,7 @@ angular.module('starter.controllers')
         ];
       } else if (filterName==="filter_map") {
         result = [
-          { "id" : "1", "code" : "smco_reempl", "nom" : "Réemploi" },
+          { "id" : "1", "code" : "smco_reemp", "nom" : "Réemploi" },
           { "id" : "2", "code" : "modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs", "nom" : "Conteneurs", "nom_en" : "Containers"},
           { "id" : "3", "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
           { "id" : "4", "code" : "modco_compostage", "nom" : "Composteurs", "nom_en" : "Composting"},

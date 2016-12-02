@@ -81,7 +81,10 @@ angular.module('starter.controllers')
 
             var modeCo = item.modesCollecte;
             var showTheMarker = false;
-            if (modeCo!==null) {
+            if (typeof(modeCo)!="undefined") {
+              if (item.code==="stco_conteneur_DS5443") {
+                 var temp = 2;
+              }
               var listItemCollectMods = modeCo.split(",");
               for (var i = 0; i<listItemCollectMods.length && showTheMarker===false; i++) {
                 for (var j=0; j<listCollectMods.length && showTheMarker===false; j++) {
@@ -98,7 +101,7 @@ angular.module('starter.controllers')
         };
 
         //Filtre des marqueurs pour le mode de collecte
-       var tmpDatas = _containersDatas.concat(_structuresDatas);
+        var tmpDatas = _containersDatas.concat(_structuresDatas);
        // var tmpDatas = _containersDatas;
         // var tmpDatas = _structuresDatas;
         var leafletContainersFiltered = $filter('filter')(tmpDatas, expFilter);
