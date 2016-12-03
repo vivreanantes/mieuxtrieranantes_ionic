@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
-     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com *.ionic.io *.openstreetmap.org http://192.168.1.28 ; style-src 'self' 'unsafe-inline'; media-src *; img-src *; script-src 'self' 'unsafe-inline' http://192.168.1.28  'unsafe-eval'"> -->
-     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; media-src *; img-src *; script-src * 'unsafe-inline' 'unsafe-eval'">
+     <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com *.ionic.io *.openstreetmap.org http://192.168.1.28 ; style-src 'self' 'unsafe-inline'; media-src *; img-src *; script-src 'self' 'unsafe-inline' http://192.168.1.28  'unsafe-eval'">
+     <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; media-src *; img-src *; script-src * 'unsafe-inline' 'unsafe-eval'"> -->
 
     <!-- BASE -->
 	<!-- build:js js/core.js -->
@@ -29,6 +29,7 @@
     <script src="lib/angular-ui-select/dist/select.min.js"></script>
 		<script src="js/directive/MtnCommon.js"></script>
     <script src="js/directive/MtnDate.js"></script>
+		<script src="lib/mieuxtrieranantes/common.js"></script>
 	<!-- endbuild -->
 
     <!-- CSS -->
@@ -62,6 +63,7 @@
 		<script src="js/controller/nantes/ZeroDechetCtrl.js"></script>
 		<script src="js/controller/nantes/CompaniesAdvicesCtrl.js"></script>
     <script src="js/service/RechercheService.js"></script>
+		<script src="js/service/CarteService.js"></script>
     <script src="js/service/nantes/TrisacService.js"></script>
 		<script src="js/service/ParamService.js"></script>
 	<!-- endbuild -->

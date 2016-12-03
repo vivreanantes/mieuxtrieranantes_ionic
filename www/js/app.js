@@ -6,7 +6,7 @@
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
 
-var myApp =angular.module('starter', ['ionic', 'starter.controllers', /*'starter.services', */'leaflet-directive', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage']);
+var myApp =angular.module('starter', ['ionic', 'leaflet-directive', 'starter.controllers', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage']);
 
 myApp.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -107,6 +107,15 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       'tab-carte': {
         templateUrl: 'templates/tab-carte.html',
         controller: 'CarteCtrl'
+      }
+    }
+  })
+  .state('tab.carte-detail', {
+    url: '/carte/detail/:code',
+    views: {
+      'tab-carte': {
+        templateUrl: 'templates/tab-carte-detail.html',
+        controller: 'CarteDetailCtrl'
       }
     }
   })

@@ -1,11 +1,19 @@
-<ion-view view-title="{{'carte'|translate}}">
-  <ion-content style="background:#E4F2C7;">
-
-<br/><br/>
-      <center><img src="resources/images/temp_carte.png" width="50%" /></center>
-
+<ion-view view-title="{{'carte_filtre'|translate}}">
+  <ion-content>
     
-    <!-- leaflet lf-center="center" layers="layers" markers="markers" paths="paths" height="480px" width="100%" -->  
-      
+  <div class="card">
+    <div class="item item-divider item-calm">{{'carte_filter'|translate}}</div>
+    <!--
+    <div class="list">
+        <a class="item" ng-href="#/tab/carte/detail/{{::mode.code}}" ng-repeat="mode in modeCollecte">{{::mode.nom}}</a>
+    </div>
+  </div>
+  -->
+  <!--ion-checkbox ng-model="mode.checked" ng-repeat="mode in ">{{::mode.nom}}</ion-checkbox -->
+  <div ng-repeat="(key,val) in modeCollecte">
+    <input type="checkbox" ng-model="selected[val.id]" ng-click="checked(key,selected[val.id])" ng-true-value="true" ng-false-value="false">{{val.nom}}
+  </div>
+  <a class="button button-calm icon-left ion-settings" ng-click="onSearchSubmit()">{{'carte_afficher'|translate}}</a>
+  
   </ion-content>
 </ion-view>

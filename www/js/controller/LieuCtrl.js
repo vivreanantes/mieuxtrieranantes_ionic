@@ -5,15 +5,15 @@ angular.module('starter.controllers')
 
         function($scope, RechercheService) {
 
-            $scope.maxDisplayResults = 25;
-
+            $scope.maxDisplayResults = 250;
+	     	$scope.debug = true;
+            
             //SELECT Type de structures                 
-            $scope.typeCollecte = RechercheService.getTypeCollecte();
-
+            $scope.typeCollecte = RechercheService.getAFilter("filter_collect_types");
+           
             //FORM MODEL : DEFAULTS
             $scope.formParam = {
-
-                type : $scope.typeCollecte[0],
+                type : $scope.typeCollecte[0].id,
                 searchkey : ''
             };
 
@@ -22,13 +22,13 @@ angular.module('starter.controllers')
 
             $scope.onChangeType = function() {
                            
-                $scope.results = RechercheService.searchStructure($scope.formParam.type.value, $scope.formParam.searchkey);
+                $scope.results = RechercheService.searchStructure($scope.formParam.type.code, $scope.formParam.searchkey);
 
             };
 
             $scope.onSearchSubmit = function() {
                            
-                $scope.results = RechercheService.searchStructure($scope.formParam.type.value, $scope.formParam.searchkey);
+                $scope.results = RechercheService.searchStructure($scope.formParam.type.code, $scope.formParam.searchkey);
 
             };
 

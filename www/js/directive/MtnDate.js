@@ -206,7 +206,7 @@
 			if (arHeures[2] != null && arHeures[2].length > 0) {
 				var heures = arHeures[2];
 				if (heures === "00h00-23h59") {
-					result = ""
+					result = $translate.instant("toutletemps")
 				} else {
 					// On peut avoir plusieurs creneaux horaires. exemple :
 					// 12h00-14h00+14h30-19h00

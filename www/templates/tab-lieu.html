@@ -15,10 +15,20 @@
     <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
   </div>
 
+ <!--
+    <select ng-model="formParam.type" ng-click="onChangeType()">
+    <option ng-selected="{{item.id === '1'}}"
+            ng-repeat="item in typeCollecte"
+            value="{{item.id}}"
+           >
+      {{item.nom}}
+    </option>
+</select>
+       -->
     <ui-select ng-model="formParam.type" ng-click="onChangeType()" title="{{'types_de_structure'|translate}}">
-      <ui-select-match placeholder="{{'types_de_structure'|translate}}">{{formParam.type.name}}</ui-select-match>
+      <ui-select-match placeholder="{{'types_de_structure'|translate}}">{{formParam.type.nom}}</ui-select-match>
       <ui-select-choices repeat="item in typeCollecte">
-        <div ng-bind="item.name"></div>
+        <div ng-bind="item.nom"></div>
       </ui-select-choices>
     </ui-select>
 

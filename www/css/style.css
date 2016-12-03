@@ -141,6 +141,13 @@ ion-content.home .news .item {
     max-height: 50px;
 }
 
+/* CARTE */
+
+.carte .bar-subheader {
+    top: 0px;
+    height: 44px;
+}
+
 
 /* UI SELECT DROPDOWN */
 

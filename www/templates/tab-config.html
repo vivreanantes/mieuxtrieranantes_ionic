@@ -2,18 +2,16 @@
 
  <ion-content>
 
- <div class="card padding">
-
-	<h4>{{"langue_de_lapplication" | translate}} ({{"langue_actuelle" | translate}})</h4>
+ <div class="card">
+   <div class="item item-divider item-calm">{{"langue_de_lapplication" | translate}}</div>
+	  <div class="item">{{"langue_actuelle" | translate}}</div>
+		 <div class="item"><a class="button button-calm icon-left ion-settings" ng-click="switchLanguage()">{{'change_language'|translate}}</a></div>
+	</div>
 	
-	<a class="button button-calm icon-left ion-settings"  ng-click="switchLanguage()">{{'change_language'|translate}}</a>
-	<br/>
-	<h4>{{"modes_de_collecte" | translate}}</h4> 
-	{{ $rootScope.collectmodsfilter | translate }}
-	<button class="button button-calm  icon-left ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
-
-	<br/><br/>
-
+	<div class="card padding">
+	  <div class="item item-divider item-calm">{{"modes_de_collecte" | translate}}</div>
+	  <div class="item">{{ collectmodsfilter | translate }}</div>
+	  <div class="item"><button class="button button-calm  icon-left ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
          <script id="nantes/modal-domicile.html" type="text/ng-template">
 		      <ion-modal-view>
 		        
@@ -66,5 +64,7 @@
 		    </script>
    </div>
 
+	</div>
+	
    </ion-content>
 </ion-view>
