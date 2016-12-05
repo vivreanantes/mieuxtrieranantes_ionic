@@ -37,11 +37,34 @@ angular.module('starter.controllers')
 .controller('LieuDetailCtrl',
 
         function($scope, $stateParams, RechercheService) {
-        
             var code = $stateParams.code;
             $scope.structure = RechercheService.getStructure(code);
-
+            
+            // Open Geo
+            $scope.openMapLink = function(latitude, longitude) {
+              var geoString = '';
+              if(ionic.Platform.isIOS()) {
+                geoString = 'maps://?q='+latitude+','+longitude+'';
+              }
+              else if(ionic.Platform.isAndroid()) {
+                geoString = 'geo://?q='+latitude+','+longitude+'';
+              } else {
+                geoString = 'http://maps.google.fr/maps?f=q&hl=fr&q='+latitude+','+longitude+'';
+              }
+              window.open(geoString, '_system');
+            }
+            
+            // Open Phone
+            $scope.openPhoneLink = function(tel) {
+              var telString = 'tel:'+tel+'';
+              window.open(telString, '_system');
+            }
+            
+            // Open Link
+            $scope.openHrefLink = function(url) {
+              var hrefString = url;
+              window.open(hrefString,'_blank','location=yes');
+            }
         }
-
 );
 

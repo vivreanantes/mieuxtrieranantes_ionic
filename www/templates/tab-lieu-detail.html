@@ -23,16 +23,19 @@
  	<div class="item item-icon-left item-text-wrap" ng-show="structure.adresseTemp">
       	<i class="icon ion-home"></i>
       	<div>{{structure.adresseTemp}}</div>
+				<div ng-click="openMapLink(structure.latitude, structure.longitude)" class="ico ion-arrow-right-c"> {{'y_aller'|translate}}</div>
     </div>
 
     <div class="item item-icon-left"ng-show="structure.tel">
     	<i class="icon ion-ios-telephone"></i>
     	{{structure.tel}}
+			<div ng-click="openPhoneLink(structure.tel)" class="ico ion-arrow-right-c"> {{'telephoner'|translate}}</div>
     </div>
 
     <div class="item item-icon-left" ng-show="structure.email">
     	<i class="icon ion-email"></i>
-    	{{structure.email}}
+			{{structure.email}}<br/>
+			<i class="ico ion-arrow-right-c"><a href="mailto:{{structure.email}}" style="color:black;text-decoration:none"> {{'ecrire'|translate}}</a></i>
     </div>
     <a target="_blank" ng-href="{{structure.url}}" class="item item-icon-left item-text-wrap" ng-show="structure.url">
     	<i class="icon ion-arrow-right-b"></i>
@@ -43,16 +46,19 @@
     <div class="item item-icon-left" ng-show="structure.facebook">
     	<i class="icon ion-social-facebook"></i>
     	{{structure.facebook}}
+			<div ng-click="openHrefLink(structure.facebook)" class="ico ion-arrow-right-c"> {{'aller_sur_page'|translate}}</div>
     </div>
 
     <div class="item item-icon-left" ng-show="structure.googleplus">
     	<i class="icon ion-social-googleplus"></i>
-    	{{structure.googleplus}}
+			{{structure.googleplus}}
+    	<div ng-click="openHrefLink(structure.googleplus)" class="ico ion-arrow-right-c"> {{'aller_sur_page'|translate}}</div>
     </div>
 
     <div class="item item-icon-left" ng-show="structure.twitter">
     	<i class="icon ion-social-twitter"></i>
     	{{structure.twitter}}
+			<div ng-click="openHrefLink(structure.twitter)" class="ico ion-arrow-right-c"> {{'aller_sur_page'|translate}}</div>
     </div>
 		
     <!--a class="item item-icon-left" ng-click="notimplemented = 'TODO'">

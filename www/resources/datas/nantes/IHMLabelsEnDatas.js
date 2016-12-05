@@ -228,5 +228,9 @@ var _ihmLabelsEnDatas = {
 	"carte_afficher" : "Show the map",
 	"debug_mots_cles" : "DEBUG MOD ONLY : keywords to find this page ",
 	"toutletemps" : "allways",
-	"objets_recuperes" : "Recovered objects"
+	"objets_recuperes" : "Recovered objects",
+	"ecrire" : "Send a message",
+	"y_aller" : "Go there",
+	"telephoner" : "Phone",
+	"aller_sur_page" : "Go to the page"
 };

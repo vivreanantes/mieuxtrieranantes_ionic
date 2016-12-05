@@ -226,5 +226,9 @@ var _ihmLabelsFrDatas = {
 	"carte_afficher" : "Afficher la carte",
 	"debug_mots_cles" : "MODE DEBUG UNIQUEMENT : mots clés pour trouver cette page ",
 	"toutletemps" : "tout le temps",
-	"objets_recuperes" : "Objets récupérés"
+	"objets_recuperes" : "Objets récupérés",
+	"ecrire" : "Envoyer un message",
+	"y_aller" : "Y aller",
+	"telephoner" : "Téléphoner",
+	"aller_sur_page"
 }
