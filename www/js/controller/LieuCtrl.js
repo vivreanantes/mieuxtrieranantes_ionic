@@ -18,7 +18,7 @@ angular.module('starter.controllers')
             };
 
             //INIT RESULTS
-            $scope.results = RechercheService.searchStructure('.*', '');
+            $scope.results = RechercheService.searchStructure('smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevrac', '');
 
             $scope.onChangeType = function() {
                            

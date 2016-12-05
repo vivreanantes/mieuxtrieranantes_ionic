@@ -294,9 +294,9 @@ angular.module('starter.controllers')
       var result = [];
       if (filterName==="filter_collect_types") {
         result = [
-          { "id" : "1", "code" : ".*", "nom" : "Tous les lieux" },
-          { "id" : "2", "code" : "smco_reempl", "nom" : "Réemploi" },
-          { "id" : "3", "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
+          { "id" : "1", "code" : "smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevrac", "nom" : "Tous les lieux" },
+          { "id" : "2", "code" : "smco_reemp", "nom" : "Réemploi" },
+          { "id" : "3", "code" : "modco_decheterie|modco_ecopoint", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
           { "id" : "4", "code" : "modco_encombrants_resume", "nom" : "Encombrants", "nom_en" : "Containers"},
           { "id" : "5", "code" : "ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops"}
         ];

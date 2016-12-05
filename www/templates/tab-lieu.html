@@ -25,7 +25,8 @@
     </option>
 </select>
        -->
-    <ui-select ng-model="formParam.type" ng-click="onChangeType()" title="{{'types_de_structure'|translate}}">
+    {{'types_de_structure'|translate}}
+    <ui-select ng-model="formParam.type" ng-click="onChangeType()">
       <ui-select-match placeholder="{{'types_de_structure'|translate}}">{{formParam.type.nom}}</ui-select-match>
       <ui-select-choices repeat="item in typeCollecte">
         <div ng-bind="item.nom"></div>

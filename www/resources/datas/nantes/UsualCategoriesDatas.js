@@ -42,7 +42,7 @@ var _usualCategoriesDatas = [{
 			"bouton" : "cu"
 		}, {
 			"code" : "cu_encombrantelectronique",
-			"nom" : "Encombrant Élec.",
+			"nom" : "Encombrant Électricité",
 			"nom_en" : "Bulky Electronic",
 			"sous_cat" : "false",
 			"image" : "refrigerateur_mini.png",
