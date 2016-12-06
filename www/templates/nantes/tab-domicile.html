@@ -2,14 +2,14 @@
 <ion-content>
   
 	<div class="card">
-
+			<div class="item item-divider mtn-nowrap">{{'homecollect_intro'|translate}}</div>
 	  	<div class="item item-divider item-calm">
 	      {{'recherche'|translate}} (Nantes)
 	  	</div>
 
 	  	<div class="item item-input">
 	    	<label class="item-input-wrapper">
-	     		<input ng-model="searchKey"  type="text" placeholder=""{{'donnez_votre_rue_placeholder'|translate}}">
+	     		<input ng-model="searchKey"  type="text" placeholder="{{'donnez_votre_rue_placeholder'|translate}}">
 	    	</label>
 	    	<a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit(searchKey)"></a>
 	  	</div>
@@ -18,14 +18,13 @@
 
 	<div class="card" ng-show="results.length > 0">
 
-	  	<div class="item item-divider item-calm">{{'results'|translate}} <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
-	  	</div>
+	  	<div class="item item-divider item-calm">{{'results'|translate}} <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span></div>
 
 	  	<div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
 
 	  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
 	        {{::collecte.dcv}}<br>
-	        <span ng-bind-html="collecte.jcbj"></span>
+	        <span ng-bind-html="collecte.jcbj" class="mtn-nowrap"></span>
 	        <button class="button button-stable" ng-click="showAdvice(collecte.cons)">
       			<i class="icon ion-information-circled"></i>
     		</button>

@@ -172,7 +172,7 @@ var _ihmLabelsFrDatas = {
 	"alert_collectmodsfilter": "Pensez à configurer votre adresse, pour avoir les modes de collectes qui vous correspondent.",
 	"configurez_selon_votre_adresse": "Configurez selon votre adresse",
 	"donnez_votre_rue": "Indiquez votre rue",
-	"donnez_votre_rue_placeholder": "boulevard, avenue, rue...",
+	"donnez_votre_rue_placeholder": "hollande",
 	"dechet_placeholder": "pile, bocal...",
 	"lieux_placeholder": "Vélo, Meuble, Emmaüs...",
 	"change_language": "Changer la langue",
@@ -230,5 +230,6 @@ var _ihmLabelsFrDatas = {
 	"ecrire": "Envoyer un message",
 	"y_aller": "Y aller",
 	"telephoner": "Téléphoner",
-	"aller_sur_page":"Aller sur la page"
+	"aller_sur_page":"Aller sur la page",
+	"homecollect_intro" : "Pour les habitants de la ville de Nantes, trouver les jours de collecte et le mode de collecte, selon le nom de votre rue"
 }

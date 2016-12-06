@@ -171,7 +171,7 @@ var _ihmLabelsEnDatas = {
 	"alert_collectmodsfilter": "Remember to set your address for the collection modes you need.",
 	"configurez_selon_votre_adresse": "Configure depending your address",
 	"donnez_votre_rue": "Give your street",
-	"donnez_votre_rue_placeholder": "boulevard, avenue, street...",
+	"donnez_votre_rue_placeholder": "hollande",
 	"dechet_placeholder": "battery, car...",
 	"lieux_placeholder": "Bike, Furniture, Emmaüs...",
 	"change_language": "Change the language",
@@ -232,5 +232,6 @@ var _ihmLabelsEnDatas = {
 	"ecrire": "Send a message",
 	"y_aller": "Go there",
 	"telephoner": "Phone",
-	"aller_sur_page": "Go to the page"
+	"aller_sur_page": "Go to the page",
+	"homecollect_intro" : "For the inhabitants of the city of Nantes, find the collection days and collection mode, according to the name of your street."
 };

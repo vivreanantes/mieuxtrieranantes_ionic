@@ -5,7 +5,8 @@
         <a ng-repeat="doc in ::docs"
            ng-href="http://{{::doc.url}}"
            class="item item-thumbnail-left"
-           target="_new" >
+           target="_new"
+											ng-show="doc.nom">
           <img ng-src="resources/images/{{::doc.image}}"/>
           <h2>{{'nom_translated'|translate:doc}}</h2>
         </a>
