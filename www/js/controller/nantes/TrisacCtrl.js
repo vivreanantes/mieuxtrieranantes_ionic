@@ -20,4 +20,17 @@ angular.module('starter.controllers')
 
 	$scope.detail = filterResult[0];
 
+    // Open Geo
+    $scope.openMapLink = function(latitude, longitude) {
+      var geoString = '';
+      if(ionic.Platform.isIOS()) {
+        geoString = 'maps://?q='+latitude+','+longitude+'';
+      }
+      else if(ionic.Platform.isAndroid()) {
+        geoString = 'geo://?q='+latitude+','+longitude+'';
+      } else {
+        geoString = 'http://maps.google.fr/maps?f=q&hl=fr&q='+latitude+','+longitude+'';
+      }
+      window.open(geoString, '_system');
+    }
 });
