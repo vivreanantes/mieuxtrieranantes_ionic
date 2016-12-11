@@ -14,20 +14,23 @@
       <mtn-plage-horaire class="horaire" horaire="{{::detail.plagesHoraires}}" fulldisplay="1"></mtn-plage-horaire> 
     </div>
 
-    <div class="item">
-        TODO DIRECTIVE pour conseil : {{detail.cons}}
+    <div class="item item-icon-left" ng-repeat="conseil in detail.cons">
+      <i class="icon ion-information-circled"></i>
+      <h2 class="mtn-nowrap">{{'nom_translated'|translate:conseil}}</h2>
+			<p class="mtn-nowrap">
+				<span ng-bind-html="conseil.descr"></span>
+				<span ng-show="false">{{'descr_translated'|translate:conseil}}</span>
+			</p>
+    </div>
+    
+    <div class="item item-icon-left item-text-wrap" ng-show="detail.adresseTemp">
+      	<i class="icon ion-home"></i>
+      	<div>{{detail.adresseTemp}}</div>
+				<div ng-click="openMapLink(detail.latitude, detail.longitude)" class="ico ion-arrow-right-c"> {{'y_aller'|translate}}</div>
     </div>
 
-    <div class="item">
-        TODO DIRECTIVE pour lien carte : {{detail.latitude}} {{detail.longitude}}
-    </div>
-
-    <div class="item">
-    <p>Source : {{detail.src}}</p>
-    </div>
-
-    <div class="item">
-    TODO DIRECTIVE pour commentaire
+    <div class="row" ng-show="dechet.src!=null">
+      <div class="col">Source : <i>{{detail.src}}</i></div>
     </div>
 
   </div>

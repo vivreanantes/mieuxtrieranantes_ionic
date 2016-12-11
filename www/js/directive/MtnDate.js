@@ -151,22 +151,27 @@
 			if (arHeures[0].length > 0) {
 				var jours = arHeures[0];
 
-				// Si on est sur la plage année complère
-				if (jours === "0101-3112") {
-
-				}
-				// Si on est de type "de .. à "
-				else if (jours.indexOf(separatorJusquA, 0) != -1) {
-					result = result + /*stLabelDu + " " + */jours.substring(0, 2) + " "
-							+ __getMonthString(jours.substring(2, 4))
-							+ " " + stLabelAu + " " + jours.substring(5, 7) + " "
-							+ __getMonthString(jours.substring(7, 9)) + " - ";
-				}
-				// Cas des jours précis
-				else {
-					result = result + /*stLabelLe + " "*/ + jours.substring(0, 2) + " "
-							+ __getMonthString(jours.substring(2, 4))
-							+ " " + "20" + jours.substring(4, 6)+ " - ";
+				var arJours = jours.split(separatorEt);
+				for (var i = 0; i < arJours.length; i++) {
+					var jour = arJours[i];
+					// Si on est sur la plage année complète
+					if (jour === "0101-3112") {
+	
+					}
+					// Si on est de type "de .. à "
+					else if (jour.indexOf(separatorJusquA, 0) != -1) {
+						// PB 0101-3112_lu+je_16h30-19h30
+						result = result + /*stLabelDu + " " + */jour.substring(0, 2) + " "
+								+ __getMonthString(jour.substring(2, 4))
+								+ " " + stLabelAu + " " + jour.substring(5, 7) + " "
+								+ __getMonthString(jour.substring(7, 9)) + " - ";
+					}
+					// Cas des jours précis
+					else {
+						result = result + /*stLabelLe + " "*/ + jour.substring(0, 2) + " "
+								+ __getMonthString(jour.substring(2, 4))
+								+ " " + "20" + jour.substring(4, 6)+ " - ";
+					}
 				}
 			}
 			// result = result + " - ";
