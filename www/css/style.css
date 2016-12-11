@@ -195,3 +195,8 @@ ion-content.home .news .item {
    width:270px; 
 
 }
+
+.checkbox input:checked::before, .checkbox input:checked + .checkbox-icon::before {
+    background: #9DCC3F;
+    border-color: #9DCC3F;
+}

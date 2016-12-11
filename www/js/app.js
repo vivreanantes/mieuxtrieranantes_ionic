@@ -24,7 +24,7 @@ myApp.run(function($ionicPlatform) {
   });
 });
 
-myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $translateProvider) {
+myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $translateProvider, $logProvider) {
 
 	$translateProvider.translations('en', this._ihmLabelsEnDatas);
 	$translateProvider.translations('fr', this._ihmLabelsFrDatas);
@@ -44,6 +44,8 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
 	$translateProvider.fallbackLanguage("fr");
 	$translateProvider.useSanitizeValueStrategy('escapeParameters');
 		
+  $logProvider.debugEnabled(false);
+
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
   // Set up the various states which the app can be in.
@@ -111,7 +113,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
   })
   .state('tab.carte-detail', {
-    url: '/carte/detail/:code',
+    url: '/carte/detail',
     views: {
       'tab-carte': {
         templateUrl: 'templates/tab-carte-detail.html',

@@ -23,7 +23,7 @@ angular.module('starter.controllers')
 
   //Retourne Objet L.icon (Leaflet)
   var iconMapper = function (structure) {
-           
+
       /*var iconTypeMap = {};
       iconTypeMap[modesCollecte] = '/img/marker_verre.png';
       iconTypeMap["Entreprise de réemploi"] = '/img/marker_verre.png';
@@ -45,11 +45,11 @@ angular.module('starter.controllers')
                     popupAnchor:  [0, -45] // point from which the popup should open relative to the iconAnchor
       };
       // var listModesCollecte = structure.modesCollecte.split(",");
-      if (structure.modesCollecte.indexOf("smco_conteneurlerelais,")>0) {
+      if (structure.modesCollecte.indexOf("smco_conteneurlerelais,") >= 0) {
         iconCustom.iconUrl="/img/marker-red.png";
-      } else if ( structure.modesCollecte.indexOf("modco_contembjournmag")>0 ||
-                  structure.modesCollecte.indexOf("modco_contverre")>0 ||
-                  structure.modesCollecte.indexOf("marker_verre_carton")>0) {
+      } else if ( structure.modesCollecte.indexOf("modco_contembjournmag") >= 0 ||
+                  structure.modesCollecte.indexOf("modco_contverre") >= 0 ||
+                  structure.modesCollecte.indexOf("marker_verre_carton") >= 0) {
         iconCustom.iconUrl="/img/marker_verre_carton_plastique.png";        
       } else {
         iconCustom.iconUrl="/img/marker-red.png";
@@ -75,16 +75,13 @@ angular.module('starter.controllers')
         // var maxDistance=2800;
         
         var listCollectMods = stCollectMods.split(",");
-        // var latlngCenterLocation = L.latLng(centerLocation.lat, centerLocation.lng);
         
         var expFilter =  function(item, index, array) {
 
             var modeCo = item.modesCollecte;
             var showTheMarker = false;
             if (typeof(modeCo)!="undefined") {
-              if (item.code==="stco_conteneur_DS5443") {
-                 var temp = 2;
-              }
+  
               var listItemCollectMods = modeCo.split(",");
               for (var i = 0; i<listItemCollectMods.length && showTheMarker===false; i++) {
                 for (var j=0; j<listCollectMods.length && showTheMarker===false; j++) {
@@ -126,14 +123,14 @@ angular.module('starter.controllers')
                  lat: parseFloat(container.latitude),  //IMPORTANT : données origine de type string !
                  lng: parseFloat(container.longitude), //IMPORTANT : données origine de type string !                
                  message: popuptext,
-                 group: 'containers',
+                 layer: 'markerLayer',
                  icon: iconMapper(container)
             };
         
             leafletContainers[container.code] = leafletContainer;
         
         }
-   
+
         return leafletContainers;
    
     };
