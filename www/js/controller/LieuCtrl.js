@@ -3,28 +3,24 @@
 angular.module('starter.controllers')
 .controller('LieuCtrl',
 
-        function($scope, RechercheService) {
+        function($scope, $ionicPopup, RechercheService) {
 
             $scope.maxDisplayResults = 250;
-	     	$scope.debug = true;
+	     	    $scope.debug = true;
             
             //SELECT Type de structures                 
             $scope.typeCollecte = RechercheService.getAFilter("filter_collect_types");
            
             //FORM MODEL : DEFAULTS
             $scope.formParam = {
-                type : $scope.typeCollecte[0].id,
+                type : $scope.typeCollecte[0],
                 searchkey : ''
             };
+
 
             //INIT RESULTS
             $scope.results = RechercheService.searchStructure('smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevrac', '');
 
-            $scope.onChangeType = function() {
-                           
-                $scope.results = RechercheService.searchStructure($scope.formParam.type.code, $scope.formParam.searchkey);
-
-            };
 
             $scope.onSearchSubmit = function() {
                            
@@ -32,8 +28,32 @@ angular.module('starter.controllers')
 
             };
 
-        }
-)
+
+            //Choix du type de lieu (popup)
+            $scope.selectTypeLieuPopup = function () {
+              
+              $ionicPopup.show({
+              template: '<div ng-repeat="obj in typeCollecte"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.nom}}</ion-radio> </div>',
+              cssClass: 'popup-lieu',
+              title: 'Type de lieu',
+              scope: $scope,
+              buttons: [
+                {
+                  text: 'OK',
+                  type: 'button-positive',
+                  onTap: function(e) {
+
+                    $scope.onSearchSubmit();
+                    
+                  }
+                }
+              ]
+            });
+
+          };
+
+  
+})
 .controller('LieuDetailCtrl',
 
         function($scope, $stateParams, RechercheService) {

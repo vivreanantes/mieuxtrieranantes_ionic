@@ -181,3 +181,17 @@ ion-content.home .news .item {
     animation: blink 5s;
     animation-iteration-count: infinite;
 }
+
+.typelieu .item-input-wrapper {
+
+  background: #eee;
+  font-size: 90%;
+  padding: 0.4em;
+  cursor: pointer;
+}
+
+.popup-lieu .popup {
+
+   width:270px; 
+
+}

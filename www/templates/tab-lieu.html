@@ -15,23 +15,12 @@
     <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
   </div>
 
- <!--
-    <select ng-model="formParam.type" ng-click="onChangeType()">
-    <option ng-selected="{{item.id === '1'}}"
-            ng-repeat="item in typeCollecte"
-            value="{{item.id}}"
-           >
-      {{item.nom}}
-    </option>
-</select>
-       -->
-    {{'types_de_structure'|translate}}
-    <ui-select ng-model="formParam.type" ng-click="onChangeType()">
-      <ui-select-match placeholder="{{'types_de_structure'|translate}}">{{formParam.type.nom}}</ui-select-match>
-      <ui-select-choices repeat="item in typeCollecte">
-        <div ng-bind="item.nom"></div>
-      </ui-select-choices>
-    </ui-select>
+
+  <div class="typelieu item item-icon-right item-input" ng-click="selectTypeLieuPopup()">
+      <span class="input-label">{{'types_de_structure'|translate}}</span> 
+      <label class="item-input-wrapper">{{ formParam.type.nom }}</label>
+      <a class="button positive button-icon icon ion-arrow-down-b" ng-click=""></a>
+  </div>
 
 </div>
 
