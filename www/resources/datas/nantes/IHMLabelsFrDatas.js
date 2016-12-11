@@ -218,7 +218,7 @@ var _ihmLabelsFrDatas = {
 	"zerodechetnantes_type2": "Produits faits maison",
 	"companiesadvices": "Entreprises",
 	"companiesadvices_title": "Solutions pour entreprises",
-	"companiesadvices_intro": "Ces conseils proviennent de l'association ?????",
+	"companiesadvices_intro": "Ces conseils sont réalisés en partenariat avec l'association Oasis Environnement",
 	"companiesadvices_type1": "Solutions complètes",
 	"companiesadvices_type2": "Recyclages spécifiques",
 	"companiesadvices_type3": "Conseils",

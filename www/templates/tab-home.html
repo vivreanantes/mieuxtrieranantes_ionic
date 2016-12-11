@@ -16,14 +16,14 @@
 
     <div class="item item-input">
     <label class="item-input-wrapper">
-      <input ng-model="formParam.searchkey"  type="text" placeholder="Ex : miroir, emmaüs, compostage">
+      <input ng-model="formParam.searchkey"  type="text" placeholder="Ex : miroir, emmaüs, compostage" ng-keyup="$event.keyCode == 13 && onSearchSubmit()">
     </label>
     <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
     </div>
 
   </div>
 
-  <div class="card" ng-show="resultsLength > 0">
+  <div class="card" ng-show="resultsLength >= 0">
 		<div class="item item-divider item-calm" ng-click="onToggleObject()">{{'results'|translate}} <span ng-bind="'(' + (resultsLength) + ')'"></span></div>
 <div  ng-show="toggleObject>0">
 		<a class="item item-thumbnail-left"  ng-repeat="item in resultsGarbages | limitTo:maxDisplayResults" ng-href="#/tab/dechet/detail/{{::item.code}}">

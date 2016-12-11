@@ -12,7 +12,7 @@
   <div class="item item-input">
     <span class="input-label">{{'objet'|translate}}</span>
     <label class="item-input-wrapper">
-      <input ng-model="formParam.searchkey"  type="text" placeholder="{{'dechet_placeholder'|translate}}">
+      <input ng-model="formParam.searchkey"  type="text" placeholder="{{'dechet_placeholder'|translate}}" ng-keyup="$event.keyCode == 13 && onSearchSubmit()">
     </label>
     <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
   </div>

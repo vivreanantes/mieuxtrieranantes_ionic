@@ -31,7 +31,7 @@
 			
 				  	<div class="item item-input">
 				    	<label class="item-input-wrapper">
-				     		<input ng-model="searchKey"  type="text" placeholder="{{'donnez_votre_rue_placeholder'|translate}}">
+				     		<input ng-model="searchKey"  type="text" placeholder="{{'donnez_votre_rue_placeholder'|translate}}" ng-keyup="$event.keyCode == 13 && onSearchSubmit(searchKey)">
 				    	</label>
 				    	<a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit(searchKey)"></a>
 				  	</div>

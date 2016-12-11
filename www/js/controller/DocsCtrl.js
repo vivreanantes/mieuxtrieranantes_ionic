@@ -5,5 +5,10 @@ angular.module('starter.controllers')
 
 	//GLOBAL DATA SOURCE
 	$scope.docs = _docsDatas;
-
+  
+  // Open Link
+  $scope.openHrefLink = function(url) {
+    window.open(url, '_system', 'location=yes');
+    return false;
+  }
 });

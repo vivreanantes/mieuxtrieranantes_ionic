@@ -46,7 +46,7 @@ function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, 
 	$scope.resultsGarbages = [];
 	$scope.resultsPlaces = [];
 	$scope.resultsHomeCollects = [];
-	$scope.resultsLength = 0;
+	$scope.resultsLength = -1;
 	// handle search
   $scope.onSearchSubmit = function() {
 	    $searchkey = $scope.formParam.searchkey;

@@ -513,7 +513,7 @@ var _structuresDatas = [
       "sous_zone":"hnsl",
       "mots_cles":"stations,services,matieres,premieres,bois,metal,plastique,textile",
       "mots_cles_en":"stations,services,materials,wood,metal,plastic,textile",
-      "objets_recuperes":"matières,premières,bois,métal,plastique,textile",
+      "objets_recuperes":"materials,wood,metal,plastic,textile",
       "objets_recuperes_en":"materials,wood,metal,plastic,textile",
       "image":"icon-go-home.png"
    },      {"code":"stco_reemploi_recuperette",

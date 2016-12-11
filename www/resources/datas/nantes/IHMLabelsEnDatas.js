@@ -220,7 +220,7 @@ var _ihmLabelsEnDatas = {
 	"zerodechetnantes_type2": "Produits daits maison",
 	"companiesadvices": "Companies",
 	"companiesadvices_title": "Solutions for companies",
-	"companiesadvices_intro": "Tips advices are from the association ?????",
+	"companiesadvices_intro": "Tips advices are with the association Oasis Environnement",
 	"companiesadvices_type1": "Full solutions",
 	"companiesadvices_type2": "Specific recycling",
 	"companiesadvices_type3": "Advices",

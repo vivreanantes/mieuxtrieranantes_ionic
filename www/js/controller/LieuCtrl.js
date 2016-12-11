@@ -62,8 +62,8 @@ angular.module('starter.controllers')
             
             // Open Link
             $scope.openHrefLink = function(url) {
-              var hrefString = url;
-              window.open(hrefString,'_blank','location=yes');
+              window.open(url, '_system', 'location=yes');
+              return false;
             }
         }
 );

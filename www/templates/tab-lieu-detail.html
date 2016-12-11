@@ -32,28 +32,28 @@
 			<div ng-click="openPhoneLink(structure.tel)" class="ico ion-arrow-right-c"> {{'telephoner'|translate}}</div>
     </div>
 
-    <div class="item item-icon-left" ng-show="structure.email">
+    <div ng-click="openHrefLink('mailto:{{structure.email}}')" class="item item-icon-left" ng-show="structure.email">
     	<i class="icon ion-email"></i>
 			{{structure.email}}<br/>
-			<i class="ico ion-arrow-right-c"><a target="_blank" ng-href="mailto:{{structure.email}}" style="color:black;text-decoration:none"> {{'ecrire'|translate}}</a></i>
+			<i class="ico ion-arrow-right-c">{{'ecrire'|translate}}</i>
     </div>
 		
-    <a target="_blank" ng-href="{{structure.url}}" class="item item-icon-left item-text-wrap" ng-show="structure.url">
+    <div ng-click="openHrefLink('{{::structure.url}}')" class="item item-icon-left item-text-wrap" ng-show="structure.url">
     	<i class="icon ion-arrow-right-b"></i>
     	<span ng-bind-html="structure.url"></span>
-    </a>
+    </div>
 
-    <a target="_blank" ng-href="{{structure.facebook}}" class="item item-icon-left item-text-wrap" ng-show="structure.facebook">
+    <a ng-click="openHrefLink('{{::structure.facebook}}')" class="item item-icon-left item-text-wrap" ng-show="structure.facebook">
     	<i class="icon ion-social-facebook"></i>
     	<span ng-bind-html="structure.facebook"></span>
     </a>
 		
-    <a target="_blank" ng-href="{{structure.googleplus}}" class="item item-icon-left item-text-wrap" ng-show="structure.googleplus">
+    <a ng-click="openHrefLink('{{::structure.googleplus}}')" class="item item-icon-left item-text-wrap" ng-show="structure.googleplus">
     	<i class="icon ion-social-googleplus"></i>
     	<span ng-bind-html="structure.googleplus"></span>
     </a>
 
-    <a target="_blank" ng-href="{{structure.twitter}}" class="item item-icon-left item-text-wrap" ng-show="structure.twitter">
+    <a ng-click="openHrefLink('{{::structure.twitter}}')" class="item item-icon-left item-text-wrap" ng-show="structure.twitter">
     	<i class="icon ion-social-twitter"></i>
     	<span ng-bind-html="structure.twitter"></span>
     </a>
