@@ -136,7 +136,7 @@ var _ihmLabelsEnDatas = {
 	"quiz_janvier": "Quiz January",
 	"quiz_hellfest": "Quiz Hellfest",
 	"quiz": "Quiz",
-	"home_docs_imprimables": "Documents to print",
+	"home_docs_imprimables": "Documents downloadable",
 	"cu_plastique": "plastic",
 	"cu_papierscartons": "paper-cardboard",
 	"cu_metal": "",

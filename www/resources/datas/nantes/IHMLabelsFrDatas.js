@@ -137,7 +137,7 @@ var _ihmLabelsFrDatas = {
 	"quiz_janvier": "Quiz Janvier",
 	"quiz_hellfest": "Quiz Hellfest",
 	"quiz": "Quiz",
-	"home_docs_imprimables": "Docs imprimables",
+	"home_docs_imprimables": "Docs téléchargeables",
 	"cu_plastique": "plastique",
 	"cu_papierscartons": "papiers-cartons",
 	"cu_metal": "métal",

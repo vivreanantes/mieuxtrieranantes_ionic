@@ -51,6 +51,10 @@ var myCtrl = angular.module('starter.controllers');
 		// On récupère le déchet qui correspondant au code 
 		var dechet = RechercheService.getDechet($stateParams.code);
 
+	  $scope.toggleObject = new Array(20);
+    for (var j = 0; j < 20; j++) {
+      $scope.toggleObject[j] = -1;
+		}
 		// On récupère les conseils
 		if (dechet.hasOwnProperty('cons')) {
 			$scope.conseils = RechercheService.getConseils(dechet.cons);
