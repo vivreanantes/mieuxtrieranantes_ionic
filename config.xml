@@ -23,6 +23,8 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
+  <preference name="windows-target-version" value="10.0" />
+  <preference name="WindowsStoreIdentityName" value="MYcompany.MY_WINDOWS_STORE_APP_ID"/>
   <feature name="Geolocation">
     <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker"/>
   </feature>
@@ -82,4 +84,14 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" width="640" height="960"/>
     <splash src="resources/ios/splash/Default~iphone.png" width="320" height="480"/>
   </platform>
-</widget>
+  <platform name="wp8">
+	    <!-- images are determined by width and height. The following are supported -->
+	    <splash src="res/screen/wp8/SplashScreenImage.jpg" width="768" height="1280"/>
+	</platform>
+	
+	<platform name="windows8">
+	    <!-- images are determined by width and height. The following are supported -->
+	    <splash src="res/screen/windows8/splashscreen.png" width="620" height="300"/>
+	</platform>
+	
+	</widget>
