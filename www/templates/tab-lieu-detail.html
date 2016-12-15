@@ -57,7 +57,12 @@
     	<i class="icon ion-social-twitter"></i>
     	<span ng-bind-html="structure.twitter"></span>
     </a>
-		
+
+		<div ng-show="lstPhotos.length>0 && isNavigator">
+		  <a class="item" ng-repeat="photo in lstPhotos" href="http://{{photo}}">
+			  <img src="http://{{photo}}" style="max-width:80%" />
+		  </a>
+		</div>
     <!--a class="item item-icon-left" ng-click="notimplemented = 'TODO'">
 	    <i class="icon ion-compose"></i>
 	    Votre avis {{notimplemented}}

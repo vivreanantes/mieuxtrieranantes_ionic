@@ -245,10 +245,17 @@ angular.module('starter.controllers')
 	var _getModeDeCollectes = function(codes) {
 
     var mco_filter_not = ParamService.getValueInLocalStorage("mco_filter_not");
+ 
 
 		var expFilter = function(item, index, array) {
 			var test = codes.indexOf(item.code);
+      
 			if (test >= 0) {
+           
+        if (mco_filter_not==null) {
+          // Si le filtre mco_filter_not n'est pas paramétré, on accepte tout.
+          return true;
+        }
         
 				var test2 = mco_filter_not.indexOf(item.code);
         if (test2>=0) {
