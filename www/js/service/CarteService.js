@@ -102,14 +102,23 @@ angular.module('starter.controllers')
        // var tmpDatas = _containersDatas;
         // var tmpDatas = _structuresDatas;
         var leafletContainersFiltered = $filter('filter')(tmpDatas, expFilter);
+        var latlngInit = L.latLng(centerLocation.lat, centerLocation.lng);
+        var maxDistance = ParamService.getNumberParam("geo.zoneDistance", 1500);
        
         for (var i = 0; i < leafletContainersFiltered.length ; i++) {  
         
             //SKIP INVALID CONTAINER
             var container=leafletContainersFiltered[i];
             if (container.length === 0 || container.type == '') continue;
+
+            //SKIP structure trop lointaine
+            var latlngcurrent = L.latLng(parseFloat(container.latitude), parseFloat(container.longitude));
+            var distance = latlngcurrent.distanceTo(latlngInit);
+            if (distance > maxDistance) {
+                continue;
+            }
         
-            popuptext='<b>' + container.type + '</b><br/>';
+            var popuptext='<b>' + container.type + '</b><br/>';
             if (container.nom) {
             popuptext = popuptext + container.nom + '<br/>';
             };
@@ -123,7 +132,7 @@ angular.module('starter.controllers')
                  lat: parseFloat(container.latitude),  //IMPORTANT : données origine de type string !
                  lng: parseFloat(container.longitude), //IMPORTANT : données origine de type string !                
                  message: popuptext,
-                 layer: 'markerLayer',
+                 //layer: 'markerLayer',
                  icon: iconMapper(container)
             };
         
@@ -134,6 +143,7 @@ angular.module('starter.controllers')
         return leafletContainers;
    
     };
+
     
     return {
       
