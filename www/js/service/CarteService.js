@@ -107,9 +107,12 @@ angular.module('starter.controllers')
        
         for (var i = 0; i < leafletContainersFiltered.length ; i++) {  
         
-            //SKIP INVALID CONTAINER
+            //SKIP structure invalide
             var container=leafletContainersFiltered[i];
             if (container.length === 0 || container.type == '') continue;
+
+            //SKIP structure sans latitude ou longitude
+            if (angular.isUndefined(container.latitude) || angular.isUndefined(container.longitude)) continue;
 
             //SKIP structure trop lointaine
             var latlngcurrent = L.latLng(parseFloat(container.latitude), parseFloat(container.longitude));
