@@ -60,6 +60,13 @@ angular.module('starter.controllers')
             var code = $stateParams.code;
             $scope.structure = RechercheService.getStructure(code);
             
+            $scope.isNavigator = !ionic.Platform.isIOS() && !ionic.Platform.isAndroid();
+            if ($scope.isNavigator && $scope.structure.photos) {
+                $scope.lstPhotos = $scope.structure.photos.split(",");
+            } else {
+                $scope.lstPhotos = [];
+            }
+            
             // Open Geo
             $scope.openMapLink = function(latitude, longitude) {
               var geoString = '';
