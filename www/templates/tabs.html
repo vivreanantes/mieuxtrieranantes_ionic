@@ -4,10 +4,11 @@
           <ion-nav-back-button>
           </ion-nav-back-button>
 
-          <ion-nav-buttons side="left">
-            <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
-            </button>
-          </ion-nav-buttons>
+       <!--Just the menu toggle-->
+            <ion-nav-buttons side="left">
+              <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+              </button>
+            </ion-nav-buttons>
 
          <ion-nav-buttons side="right">
             <a class="button button-icon button-stable ion-home" ng-href="#/tab/home"></a>
@@ -39,7 +40,7 @@
 			  <ion-tab title="{{'fiches'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/fiches">
 			    <ion-nav-view name="tab-fiches"></ion-nav-view>
 			  </ion-tab>
-			  
+			  <!--
 			  <ion-tab title="{{'collete_a_domicile'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/domicile" hidden="true">
 				<ion-nav-view name="tab-domicile"></ion-nav-view>
 			  </ion-tab>
@@ -55,7 +56,7 @@
 			  <ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/docs" hidden="true">
 			    <ion-nav-view name="tab-docs"></ion-nav-view>
 			  </ion-tab>
-				
+				-->
 			  <!--<ion-tab icon-off="ion-ios-trash-outline" icon-on="ion-ios-trash" href="#/tab/jeux" hidden="true">
 			    <ion-nav-view name="tab-jeux"></ion-nav-view>
 			  </ion-tab>-->
@@ -63,7 +64,7 @@
 			  <!--<ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/zerodechetnantes" hidden="true">
 			    <ion-nav-view name="tab-zerodechetnantes"></ion-nav-view>
 			  </ion-tab>-->
-
+<!--
 			  <ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/companiesadvices" hidden="true">
 			    <ion-nav-view name="tab-companiesadvices"></ion-nav-view>
 			  </ion-tab>
@@ -75,9 +76,11 @@
 			  <ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/config" hidden="true">
 			    <ion-nav-view name="tab-config"></ion-nav-view>
 			  </ion-tab>
-			  			  			  
+			-->
 		</ion-tabs>
 
+	   <ion-nav-view name="menuContent"></ion-nav-view>
+			  
       </ion-side-menu-content>
 
        <!-- Side Menu (left) -->
@@ -87,14 +90,14 @@
 		</ion-header-bar>
 	    <ion-content has-header="true">
 	       <ion-list>
-    	     <ion-item menu-close href="#/tab/domicile">{{'collete_a_domicile'|translate}}</ion-item>
-         	 <ion-item menu-close href="#/tab/trisac">{{'trisac'|translate}}</ion-item>
-         	 <ion-item menu-close href="#/tab/docs">{{'home_docs_imprimables'|translate}}</ion-item>
-         	 <!--<ion-item menu-close href="#/tab/jeux">{{'jeux'|translate}}</ion-item>-->
-         	 <!--<ion-item menu-close href="#/tab/zerodechetnantes">{{'zerodechetnantes'|translate}}</ion-item>-->
-				 <ion-item menu-close href="#/tab/companiesadvices">{{'companiesadvices'|translate}}</ion-item>
-         	 <ion-item menu-close href="#/tab/config">{{'config'|translate}}</ion-item>
-         	 <ion-item menu-close href="#/tab/apropos">{{'apropos'|translate}}</ion-item>
+    	     <ion-item nav-clear menu-close href="#/tab/domicile">{{'collete_a_domicile'|translate}}</ion-item>
+         	 <ion-item nav-clear menu-close href="#/tab/trisac">{{'trisac'|translate}}</ion-item>
+         	 <ion-item nav-clear  menu-close href="#/tab/docs">{{'home_docs_imprimables'|translate}}</ion-item>
+         	 <!--<ion-item nav-clear  menu-close href="#/tab/jeux">{{'jeux'|translate}}</ion-item>-->
+         	 <!--<ion-item nav-clear  menu-close href="#/tab/zerodechetnantes">{{'zerodechetnantes'|translate}}</ion-item>-->
+				 <ion-item nav-clear menu-close href="#/tab/companiesadvices">{{'companiesadvices'|translate}}</ion-item>
+         	 <ion-item nav-clear menu-close href="#/tab/config">{{'config'|translate}}</ion-item>
+         	 <ion-item nav-clear menu-close href="#/tab/apropos">{{'apropos'|translate}}</ion-item>
 	       </ion-list>
        	</ion-content>
       </ion-side-menu>

@@ -64,7 +64,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.home', {
     url: '/home',
     views: {
-      'tab-home': {
+      'menuContent': {
         templateUrl: 'templates/tab-home.html',
         controller: 'HomeCtrl'
       }
@@ -74,7 +74,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.dechet-cat', {
     url: '/dechet/cat',
     views: {
-      'tab-dechet': {
+      'menuContent': {
         templateUrl: 'templates/tab-dechet-cat.html',
         controller: 'DechetCatCtrl'
       }
@@ -85,7 +85,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.dechet-result', {
     url: '/dechet/result/:searchString',
     views: {
-      'tab-dechet': {
+      'menuContent': {
         templateUrl: 'templates/tab-dechet-result.html',
         controller: 'DechetResultCtrl'/*,
         params: { searchString:{} }*/
@@ -106,7 +106,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.carte', {
     url: '/carte',
     views: {
-      'tab-carte': {
+      'menuContent': {
         templateUrl: 'templates/tab-carte.html',
         controller: 'CarteCtrl'
       }
@@ -115,7 +115,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.carte-detail', {
     url: '/carte/detail',
     views: {
-      'tab-carte': {
+      'menuContent': {
         templateUrl: 'templates/tab-carte-detail.html',
         controller: 'CarteDetailCtrl'
       }
@@ -125,7 +125,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.dechet-cat-sub', {
       url: '/dechet/cat/:code',
       views: {
-        'tab-dechet': {
+        'menuContent': {
           templateUrl: 'templates/tab-dechet-cat-sub.html',
           controller: 'DechetCatSubCtrl'
         }
@@ -135,7 +135,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
    .state('tab.dechet-detail', {
       url: '/dechet/detail/:code',
       views: {
-        'tab-dechet': {
+        'menuContent': {
           templateUrl: 'templates/tab-dechet-detail.html',
           controller: 'DechetDetailCtrl'
         }
@@ -145,7 +145,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
    .state('tab.fiches', {
     url: '/fiches',
     views: {
-      'tab-fiches': {
+      'menuContent': {
         templateUrl: 'templates/tab-fiches.html',
         controller: 'FichesCtrl'
       }
@@ -155,7 +155,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
    .state('tab.fiche-detail', {
     url: '/fiches/detail/:code',
     views: {
-      'tab-fiches': {
+      'menuContent': {
         templateUrl: 'templates/tab-fiche-detail.html',
         controller: 'FichesDetailCtrl'
       }
@@ -165,7 +165,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.lieu', {
     url: '/lieu',
     views: {
-      'tab-lieu': {
+      'menuContent': {
         templateUrl: 'templates/tab-lieu.html',
         controller: 'LieuCtrl'
       }
@@ -175,7 +175,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.lieu-detail', {
     url: '/lieu/detail/:code',
     views: {
-      'tab-lieu': {
+      'menuContent': {
         templateUrl: 'templates/tab-lieu-detail.html',
         controller: 'LieuDetailCtrl'
       }
@@ -185,7 +185,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.domicile', {
     url: '/domicile',
     views: {
-      'tab-domicile': {
+      'menuContent': {
         templateUrl: 'templates/nantes/tab-domicile.html',
         controller: 'DomicileCtrl'
       }
@@ -195,7 +195,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
    .state('tab.quiz', {
     url: '/jeux/quiz',
     views: {
-      'tab-quiz': {
+      'menuContent': {
         templateUrl: 'templates/tab-quiz.html',
         controller: 'QuizCtrl'
       }
@@ -205,7 +205,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
    .state('tab.docs', {
     url: '/docs',
     views: {
-      'tab-docs': {
+      'menuContent': {
         templateUrl: 'templates/tab-docs.html',
         controller: 'DocsCtrl'
       }
@@ -215,7 +215,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
    .state('tab.trisac', {
     url: '/trisac',
     views: {
-      'tab-trisac': {
+      'menuContent': {
         templateUrl: 'templates/nantes/tab-trisac.html',
         controller: 'TrisacCtrl'
       }
@@ -225,7 +225,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
    .state('tab.trisac-detail', {
     url: '/trisac/detail/:code',
     views: {
-      'tab-trisac': {
+      'menuContent': {
         templateUrl: 'templates/nantes/tab-trisac-detail.html',
         controller: 'TrisacDetailCtrl'
       }
@@ -236,7 +236,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.jeux', {
     url: '/jeux',
     views: {
-      'tab-jeux': {
+      'menuContent': {
         templateUrl: 'templates/nantes/tab-jeux.html',
         controller: 'JeuxCtrl'
       }
@@ -246,7 +246,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.zerodechetnantes', {
     url: '/zerodechetnantes',
     views: {
-      'tab-zerodechetnantes': {
+      'menuContent': {
         templateUrl: 'templates/nantes/tab-zerodechetnantes.html',
         controller: 'ZeroDechetCtrl'
       }
@@ -255,7 +255,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.companiesadvices', {
     url: '/companiesadvices',
     views: {
-      'tab-companiesadvices': {
+      'menuContent': {
         templateUrl: 'templates/nantes/tab-companiesadvices.html',
         controller: 'CompaniesAdvicesCtrl'
       }
@@ -264,7 +264,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.apropos', {
     url: '/apropos',
     views: {
-      'tab-config': {
+      'menuContent': {
         templateUrl: 'templates/tab-apropos.html',
         controller: 'AProposCtrl'
       }
@@ -275,7 +275,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
   .state('tab.config', {
     url: '/config',
     views: {
-      'tab-config': {
+      'menuContent': {
         templateUrl: 'templates/tab-config.html',
         controller: 'ConfigCtrl'
       }
