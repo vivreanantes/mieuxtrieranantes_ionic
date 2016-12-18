@@ -121,15 +121,22 @@ angular.module('starter.controllers')
                 continue;
             }
         
-            var popuptext='<b>' + container.type + '</b><br/>';
-            if (container.nom) {
-            popuptext = popuptext + container.nom + '<br/>';
-            };
-            
-            if (container.adresseTemp) {
-            popuptext = popuptext + container.adresseTemp + '<br/>';
+            var popuptext = "";
+            if (container.type !== null) {
+              popuptext = "<b>" + container.type + "</b><br/>";
             }
-        
+            if (container.nom !== null) {
+              popuptext = popuptext + container.nom + '<br/>';
+            }
+            /*if (container.adresseTemp !== null) {
+              popuptext = popuptext + container.adresseTemp + '<br/>';
+            }*/
+            /*if (container.src !== null) {
+              popuptext = popuptext + "<span style='color:red;font-style: italic;'>Source : " + container.src + '</span><br/>';
+            }*/
+          /*  if (container.src !== null) {
+              popuptext = "Source : " + container.src;
+            }*/
             //Mapping data MTN => data Angular Leaflet
             leafletContainer={
                  lat: parseFloat(container.latitude),  //IMPORTANT : données origine de type string !
