@@ -42,19 +42,20 @@ angular.module('starter.controllers')
                     shadowSize:   [32, 48], // size of the shadow
                     iconAnchor:   [15, 48], // point of the icon which will correspond to marker's location
                     shadowAnchor: [4, 30],  // the same for the shadow
-                    popupAnchor:  [0, -45] // point from which the popup should open relative to the iconAnchor
+                    popupAnchor:  [0, -45], // point from which the popup should open relative to the iconAnchor
+                    iconUrl:structure
       };
       // var listModesCollecte = structure.modesCollecte.split(",");
-      if (structure.modesCollecte.indexOf("smco_conteneurlerelais,") >= 0) {
-        iconCustom.iconUrl="resources/icons/marker-icon-yellow.png";
+      /*if (structure.modesCollecte.indexOf("smco_conteneurlerelais,") >= 0) {
+        iconCustom.iconUrl="/img/marker-red.png";
       } else if ( structure.modesCollecte.indexOf("modco_contembjournmag") >= 0 ||
                   structure.modesCollecte.indexOf("modco_contverre") >= 0 ||
                   structure.modesCollecte.indexOf("marker_verre_carton") >= 0) {
         iconCustom.iconUrl="resources/icons/marker-icon-blue.png";
         // /img/marker_verre_carton_plastique.png
       } else {
-        iconCustom.iconUrl="resources/icons/marker-icon-red.png";
-      }
+        iconCustom.iconUrl="/img/marker-red.png";
+      }*/
 
       return iconCustom;
       
@@ -122,13 +123,13 @@ angular.module('starter.controllers')
                 continue;
             }
         
-            var popuptext = "";
+            /*var popuptext = "";
             if (container.type !== null) {
               popuptext = "<b>" + container.type + "</b><br/>";
             }
             if (container.nom !== null) {
               popuptext = popuptext + container.nom + '<br/>';
-            }
+            }*/
             /*if (container.adresseTemp !== null) {
               popuptext = popuptext + container.adresseTemp + '<br/>';
             }*/
@@ -142,9 +143,10 @@ angular.module('starter.controllers')
             leafletContainer={
                  lat: parseFloat(container.latitude),  //IMPORTANT : données origine de type string !
                  lng: parseFloat(container.longitude), //IMPORTANT : données origine de type string !                
-                 message: popuptext,
+                 message: container.cartePopuptext,
                  //layer: 'markerLayer',
-                 hoicon: iconMapper(container)
+                 // icon: iconMapper(container)
+                 icon:iconMapper(container.carteIcon)
             };
         
             leafletContainers[container.code] = leafletContainer;

@@ -53,34 +53,65 @@ angular.module('starter.controllers')
      * 
 	 */
   	var _searchStructure = function (structureType, searchKeyword) {
-
-  		var searchKeyWordCleaned = $filter('searchTextClean')(searchKeyword);
-		var stTypeRegexp = new RegExp(structureType);
-		var my = this; 
-
-		var motsClesComplet = _getKeyWord("mots_cles");
-		var results=$filter('filter')(structuresData, 
-        
+      var results = [];
+  	  var searchKeyWordCleaned = $filter('searchTextClean')(searchKeyword);
+    
+    /*  var arSearchKeyWordCleaned = searchKeyWordCleaned.split(",");
+      for(i = 0; i < arSearchKeyWordCleaned.length; i++) {*/
+		     var stTypeRegexp = new RegExp(structureType);
+         var motsClesComplet = _getKeyWord("mots_cles");
+         var aResult = $filter('filter')(structuresData, 
             //CUSTOM FILTER
             function (item, index) {
-      
-            	var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
+            	// var textTest = new RegExp(_escapeRegExp(arSearchKeyWordCleaned[i]), 'ig');
+              var textTest = new RegExp(_escapeRegExp('station|pomme'), 'ig');
             	var result = "";
-
                 //Analyse du type uniquement
-                if (searchKeyWordCleaned == '') {
-                    result = stTypeRegexp.test(item.modesCollecte);
+                if (arSearchKeyWordCleaned[i] === '') {
+                    results = stTypeRegexp.test(item.modesCollecte);
                 }
                 //Analyse type et mot-clé
                 else {
-					var currentlanguage = $translate.proposedLanguage();
-                	result = (stTypeRegexp.test(item.modesCollecte) && textTest.test(item[motsClesComplet]));
-
+                  var currentlanguage = $translate.proposedLanguage();
+                	results = (stTypeRegexp.test(item.modesCollecte) && textTest.test(item[motsClesComplet]));
                 }
-                return result;
+                return results;
             }
         );
-
+        /* if (results.length==0) {
+            results=aResult;
+         } else {
+           for (index = 0; index < aResult.length; ++index) {
+              results.push(aResult[index]);
+              var add=true;
+              for (index2 = 0; add==true && index2 < results.length; ++index2) {
+                 if (results[index2].code===aResult[index].code) {
+                  add=false;
+                }
+              }
+              if (add==true) {
+                results.push(aResult[index]);
+              }
+           }
+         }*/
+         /*if (results.length==0) {
+          results = aResult[index];
+         } else {
+           for (index = 0; index < aResult.length; ++index) {
+            results.push(aResult[index]);
+              var add = true;
+              for (index2 = 0; index2 < results.length; ++index2) {
+                if (results[index2].code===aResult[index].code) {
+                  add=false;
+                }
+                if (add==true) {
+                  results.push(aResult[index]);
+                }
+              }
+           }
+         }*/
+   /*  }*/
+    
   		return results;
 
   	};
@@ -314,8 +345,7 @@ angular.module('starter.controllers')
           { "id" : "3", "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints"},
           { "id" : "4", "code" : "modco_compostage", "nom" : "Composteurs", "nom_en" : "Composting"},
           { "id" : "5", "code" : "smco_conteneurlerelais", "nom" : "Conteneurs vêtements", "nom_en" : "Containers clothes"},
-          { "id" : "6", "code" : "ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops"},
-          { "id" : "7", "code" : "trisacs", "nom" : "Trisac", "nom_en" : "Trisac"}
+          { "id" : "6", "code" : "ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops"}
         ];
       }
       return result;

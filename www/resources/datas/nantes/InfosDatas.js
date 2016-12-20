@@ -1,5 +1,6 @@
 var _infosDatas = [
    {
+<<<<<<< HEAD
       "code":"fiche_aremacs",
       "nom":"Aremacs",
       "nom_en":"Aremacs",
@@ -9,6 +10,17 @@ var _infosDatas = [
       "image":"nantes/aremacs_mini.png",
       "mots_cles":"aremacs,fete,evenement",
       "mots_cles_en":"bins,yellow,blue"
+=======
+      "code":"fiche_ecopoint",
+      "nom":"Déchèteries / écopoint",
+      "nom_en":"Déchèteries / écopoint",
+      "descr":"<IMG SRC='resources/images/nantes/ecopoint_panneau_labeaujoire.jpg' WIDTH='300px' ALIGN='right' /><IMG SRC='resources/images/nantes/ecopoint_viarme_mini.png' WIDTH='200px' /><BR/>Les déchèteries et les écopoints sont <B>réservés aux particuliers habitant la Communauté Urbaine de Nantes</B>.<BR/>Les Ecopoints sont des mini-déchetteries où seuls les gravats ne sont pas admis. Il y en a 4 sur Nantes.<BR/><UL>Les déchets suivants sont admis :<LI>déblais, gravats, encombrants</LI><LI>les appareils électriques</LI><LI>les déchets toxiques (en petites quantités dans les écopoints) : peinture, vernis, colle, diluants, batteries, huiles moteur...</LI><LI>les déchets verts</LI><LI>les bouteilles et les flacons plastiques</LI><LI>papiers, cartons, cartonnettes</LI><LI>le verre (uniquement le verre ménager) : pôts, bouteilles</LI><LI>le métal</LI></UL>",
+      "descr_en":"<IMG src='resources/images/nantes/ecopoint_panneau_labeaujoire.jpg' WIDTH='300px' align='right' /> <IMG SRC='resources/images/nantes/ecopoint_viarme_mini.png' width='200px' /><BR/>déchèteries and ecopoints are <B> reserved for individuals living in the Nantes Urban Community </B>.<BR/>Ecopoints are mini recycling centers where only rubble are not allowed. There are 4 on Nantes<BR/><UL> The following shall be permitted:. <LI> rubble, rubble, bulky </LI><LI> electrical appliances </LI><LI> toxic waste ( in small amounts in ecopoints): paint, varnish, glue, thinners, batteries, motor oil ... </LI><LI> green waste </LI><LI> bottles and plastic bottles </LI><LI> paper, cardboard, cardboards </LI><LI> glass (only the domestic glass): Pots, bottles </LI><LI> metal </LI></ UL>",
+      "bouton":"fiche",
+      "image":"nantes/ecopoint_viarme_mini.png",
+      "mots_cles":"decheteries,ecopoint",
+      "mots_cles_en":"greentax"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_bacjaune",
@@ -25,12 +37,22 @@ var _infosDatas = [
       "code":"fiche_bouchon_amour",
       "nom":"Bouchons d'amour",
       "nom_en":"Bouchons d'amour",
+<<<<<<< HEAD
       "descr":"<IMG SRC='resources/images/bouchon_plastique_mini.png' width='50px' /><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.<br/><br/>Plus d'infos : <a href='openHrefLink(http://www.bouchonsdamour.com/les-bons-bouchons' target='_blank' id='bouchons_amour_link'target=_new >http://www.bouchonsdamour.com/les-bons-bouchons</a>",
       "descr_en":"<IMG src='resources/images/bouchon_plastique_mini.png' width='50px' /> <b> The following plugs are accepted </b>: water, milk, soda, oil, vinegar, wine, sauce, cream, dishwashing liquid, cleaning products, laundry softeners, aerosols, deodorants, hairspray, perfume, toothpaste, shampoo, shower products, plastic cover chocolate, powdered coffee plastic cover, plastic cover mustard.<BR/><BR/><b> Stoppers denied </b>: toxic products, detergents<BR/>More. <a href='openHrefLink(http: //www.bouchonsdamour.com/les -bons-caps' target = '_ blank' id = 'bouchons_amour_link'> http://www.bouchonsdamour.com/les-bons-bouchons </a>",
       "bouton":"fiche",
       "image":"bouchon_plastique_mini.png",
       "mots_cles":"bouchons,amour",
       "mots_cles_en":"collection,bulky"
+=======
+      "descr":"<IMG SRC='resources/images/bouchon_plastique_mini.png' width='50px' /><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.<br/><br/>Plus d'infos : <a href=\'javascript:void(0);\' onclick=\'window.open('http://www.bouchonsdamour.com/les-bons-bouchons', '_system', 'location=yes');\'>http://www.bouchonsdamour.com/les-bons-bouchons</a>",
+      "descr_en":"<IMG src='resources/images/bouchon_plastique_mini.png' width='50px' /> <b> The following plugs are accepted </b>: water, milk, soda, oil, vinegar, wine, sauce, cream, dishwashing liquid, cleaning products, laundry softeners, aerosols, deodorants, hairspray, perfume, toothpaste, shampoo, shower products, plastic cover chocolate, powdered coffee plastic cover, plastic cover mustard.<BR/><BR/><b> Stoppers denied </b>: toxic products, detergents<BR/>More. <a href=\'javascript:void(0);\' onclick=\'window.open('http: //www.bouchonsdamour.com/les -bons-caps', '_system', 'location=yes');\'> http://www.bouchonsdamour.com/les-bons-bouchons </a>",
+      "bouton":"fiche",
+      "image":"bouchon_plastique_mini.png",
+      "mots_cles":"bouchons,amour",
+      "mots_cles_en":"collection,bulky",
+      "urls":"http://www.bouchonsdamour.com/les-bons-bouchons"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_encombrant",
@@ -41,29 +63,53 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/encombrant_mini.png",
       "mots_cles":"collecte,encombrant",
+<<<<<<< HEAD
       "mots_cles_en":"collection,bulky"
+=======
+      "mots_cles_en":"compostri"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_compostage",
       "nom":"Compostage",
       "nom_en":"Composting",
+<<<<<<< HEAD
       "descr":"<IMG SRC='resources/images/composteur_mini.png' ALIGN='left' />Le compostage est un processus de décomposition. En première phase, la température peut atteindre jusqu'à 70°, et une bonne aération est nécessaire (pour les bactéries 'aérobies'). En seconde phase, champignons, lombrics et autres petits animaux sont à l'œuvre Il faut 6 mois-1 an pour un bon compost.<BR/><BR/><B>Le compost peut contenir</B> :<BR/> - les restes de la cuisine : céréales, épluchures, fruits, légumes, marc de café, sachets de thé,<BR/> - les restes du jardin : fleurs fanées, feuilles mortes, foin, gazon séché, mauvaises herbes, paille, plantes de jardin, sciure de bois en petite quantité,<BR/> - les restes de la maison : cendres (en petite quantité), cheveux, essuie-tout, filtres à café, mouchoirs en papier, papier, poussière.<BR/><BR/><IMG SRC='resources/images/epeluchure_mini.png' ALIGN='right' /><B>De préférence, éviter</B> :<BR/> - le pain en grosse quantité,<BR/> - les coquilles d'œufs (non biodégradable),<BR/> - les écorces d'agrumes non traités.<BR/><BR/><B>Ne surtout pas mettre</B><BR/> :  - branches en grosse quantité,<BR/> - coquilles de noix et noisettes,<BR/> - écorces d'agrumes traités,<BR/> - feuilles de noyer ou rhubarbe,<BR/> - fromage (attire rats, souris...),<BR/> - graisses,<BR/> - herbes traitées,<BR/> - laits et produits laitiers,<BR/> - litières animaux,<BR/> - plantes malades, <BR/> - reste de taille de jardinage en grosse quantité,<BR/> - viandes (odeur forte, attire rats, chiens...).<BR/><BR/><B>Quelques conseils</B> :<BR/> - équilibrer entre déchets secs et humides,<BR/> - aérer : ne pas tasser, mais retourner de temps en temps,<BR/> - mouiller un peu.<BR/><BR/><FONT COLOR=red>Source principale : <A href='openHrefLink(http://fr.ekopedia.org/Compost' TARGET='_new'>article Compost sur Ékopédia</A></FONT>",
       "descr_en":"<IMG src='resources/images/composteur_mini.png' align='left' /> Composting is the decomposition process. In first phase, the temperature can reach up to 70 °, and good ventilation is required (for the bacteria 'aerobic'). In second phase, fungi, earthworms and other small animals are at work It takes 6 months-1 year for good compost<BR/><BR/><B> Compost can contain </B>. <BR /> - the kitchen scraps cereals, vegetable peelings, fruit, vegetables, coffee grounds, tea bags,<BR/>- the remains of the garden: faded flowers, leaves, hay, dried grass, weeds, straw , garden plants, sawdust sparingly,<BR/>- the remains of the house: ash (in small quantities), hair, paper towels, coffee filters, paper towels, paper, dust<BR/><BR/><IMG src='resources/images/epeluchure_mini.png' align='right' /> <B> Preferably avoid </B>:<BR/>- the bread in large quantities, < BR /> - egg shells (non-biodegradable)<BR/>. - untreated citrus peel<BR/><BR/><B> Please do not put </B><BR/>- branches in large quantities,<BR/>- hazelnut and walnut shells,<BR/>- treated citrus peel,<BR/>- walnut leaves or rhubarb,<BR/>- cheese (attracts rats, mouse ...),<BR/>- fats,<BR/>- processed herbs,<BR/>- milk and dairy products,<BR/>- pet beds,<BR/>- diseased plants,<BR/>- rest of gardening in bulk size,<BR/>- meats (strong smell attracts rats, dogs ...)<BR/><BR/><B> Tips </B>:<BR/>- balance between dry and wet waste<BR/>- airing: do not pack, but return occasionally,<BR/>- a little wet<BR/><BR/><FONT COLOR=red> Main source: <A href='openHrefLink(http://fr.ekopedia.org/Compost' TARGET='_new'> Article Compost on Ekopedia </A> </font>",
       "bouton":"fiche",
       "image":"composteur_mini.png",
       "mots_cles":"compostage",
       "mots_cles_en":"compostri"
+=======
+      "descr":"<IMG SRC='resources/images/composteur_mini.png' ALIGN='left' />Le compostage est un processus de décomposition. En première phase, la température peut atteindre jusqu'à 70°, et une bonne aération est nécessaire (pour les bactéries 'aérobies'). En seconde phase, champignons, lombrics et autres petits animaux sont à l'œuvre Il faut 6 mois-1 an pour un bon compost.<BR/><BR/><B>Le compost peut contenir</B> :<BR/> - les restes de la cuisine : céréales, épluchures, fruits, légumes, marc de café, sachets de thé,<BR/> - les restes du jardin : fleurs fanées, feuilles mortes, foin, gazon séché, mauvaises herbes, paille, plantes de jardin, sciure de bois en petite quantité,<BR/> - les restes de la maison : cendres (en petite quantité), cheveux, essuie-tout, filtres à café, mouchoirs en papier, papier, poussière.<BR/><BR/><IMG SRC='resources/images/epeluchure_mini.png' ALIGN='right' /><B>De préférence, éviter</B> :<BR/> - le pain en grosse quantité,<BR/> - les coquilles d'œufs (non biodégradable),<BR/> - les écorces d'agrumes non traités.<BR/><BR/><B>Ne surtout pas mettre</B><BR/> :  - branches en grosse quantité,<BR/> - coquilles de noix et noisettes,<BR/> - écorces d'agrumes traités,<BR/> - feuilles de noyer ou rhubarbe,<BR/> - fromage (attire rats, souris...),<BR/> - graisses,<BR/> - herbes traitées,<BR/> - laits et produits laitiers,<BR/> - litières animaux,<BR/> - plantes malades, <BR/> - reste de taille de jardinage en grosse quantité,<BR/> - viandes (odeur forte, attire rats, chiens...).<BR/><BR/><B>Quelques conseils</B> :<BR/> - équilibrer entre déchets secs et humides,<BR/> - aérer : ne pas tasser, mais retourner de temps en temps,<BR/> - mouiller un peu.<BR/><BR/><FONT COLOR=red>Source principale : <A href=\'javascript:void(0);\' onclick=\'window.open('http://fr.ekopedia.org/Compost', '_system', 'location=yes');\'>article Compost sur Ékopédia</A></FONT>",
+      "descr_en":"<IMG src='resources/images/composteur_mini.png' align='left' /> Composting is the decomposition process. In first phase, the temperature can reach up to 70 °, and good ventilation is required (for the bacteria 'aerobic'). In second phase, fungi, earthworms and other small animals are at work It takes 6 months-1 year for good compost<BR/><BR/><B> Compost can contain </B>. <BR /> - the kitchen scraps cereals, vegetable peelings, fruit, vegetables, coffee grounds, tea bags,<BR/>- the remains of the garden: faded flowers, leaves, hay, dried grass, weeds, straw , garden plants, sawdust sparingly,<BR/>- the remains of the house: ash (in small quantities), hair, paper towels, coffee filters, paper towels, paper, dust<BR/><BR/><IMG src='resources/images/epeluchure_mini.png' align='right' /> <B> Preferably avoid </B>:<BR/>- the bread in large quantities, < BR /> - egg shells (non-biodegradable)<BR/>. - untreated citrus peel<BR/><BR/><B> Please do not put </B><BR/>- branches in large quantities,<BR/>- hazelnut and walnut shells,<BR/>- treated citrus peel,<BR/>- walnut leaves or rhubarb,<BR/>- cheese (attracts rats, mouse ...),<BR/>- fats,<BR/>- processed herbs,<BR/>- milk and dairy products,<BR/>- pet beds,<BR/>- diseased plants,<BR/>- rest of gardening in bulk size,<BR/>- meats (strong smell attracts rats, dogs ...)<BR/><BR/><B> Tips </B>:<BR/>- balance between dry and wet waste<BR/>- airing: do not pack, but return occasionally,<BR/>- a little wet<BR/><BR/><FONT COLOR=red> Main source: <A href=\'javascript:void(0);\' onclick=\'window.open('http://fr.ekopedia.org/Compost' TARGET='_new'> Article Compost on Ekopedia </A> </font>",
+      "bouton":"fiche",
+      "image":"composteur_mini.png",
+      "mots_cles":"compostage",
+      "mots_cles_en":"container,packaging,newspaper,magazine",
+      "urls":"http://fr.ekopedia.org/Compost"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_compostri",
       "nom":"Compostri",
       "nom_en":"Compostri",
+<<<<<<< HEAD
       "descr":"<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><br/><br/>C'est une association nantais qui aide à la constructions de composteurs collectifs, en accompagnant les particuliers à la création et l'alimentation du composteur.<b>Compostri favorise la mise en place de projets de compostage partagé</b> et accompagne les habitants dans cette démarche à l'échelle d'un quartier, immeuble, groupe d'immeubles, écoles maternelles et primaires ... <b>sur le territoire de Nantes Métropole</b> et avec le soutien de cette collectivité.<br/><br/>Aujourd'hui 120 sites de compostage partagé sont en fonctionnement sur le territoire nantais. Ces pavillons sont mis en place grâce au soutien de Nantes Métropole.<br/>Compostri et ses 3 guides composteurs accompagnent les citoyens porteurs de projets : aide à l'installation de pavillons de compostage, formation, suivi technique.<br/><br/>Cette association accompagne également les groupes scolaires: restaurants associatifs, foyers de jeunes, EHPAD et dernièrement une moyenne surface (30 tonnes de bio-déchets /an).<br/><br/>Adresse : 18, quai du Président Wilson, 44200 Nantes<br/><br/>Tél : 09 82 45 22 21<br/><br/>courriel : contact@compostri.fr<br/><br/><a href='openHrefLink(http://www.compostri.fr/)' target=_new >http://www.compostri.fr/</a>",
       "descr_en":"<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><BR/>Nantes This is a combination that helps the construction of collective composters, accompanying individuals to the creation and supply of compost. <b> Compostri promotes the establishment of shared composting projects </b> and accompanies the people in this process at the neighborhood level, building, group of buildings, kindergartens and schools ... <b> in the territory of Nantes Métropole </b> and with the support of this community. Today<BR/>120 shared composting sites are operating on the territory Nantes. These pavilions are set up with the support of Nantes Métropole<BR/>Compostri and three composters guides accompany project promoters citizens. Installation help composting pavilions, training, technical monitoring<BR/><. br /> This association also accompanied school groups. associative restaurants, hostels for young, retirement homes and lately an average size (30 tonnes of bio-waste / year)<BR/>Address: 18, President of the dock Wilson, 44200 Nantes<BR/>Tel: 09 82 45 22 21<BR/>email: contact@compostri.fr<BR/><a href='openHrefLink(http://www.compostri.fr/ 'target='_blank'> http://www.compostri.fr/ </a>",
       "bouton":"fiche",
       "image":"nantes/logo_compostri_mini.png",
       "mots_cles":"compostri",
       "mots_cles_en":"container,packaging,newspaper,magazine"
+=======
+      "descr":"<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><br/><br/>C'est une association nantais qui aide à la constructions de composteurs collectifs, en accompagnant les particuliers à la création et l'alimentation du composteur.<b>Compostri favorise la mise en place de projets de compostage partagé</b> et accompagne les habitants dans cette démarche à l'échelle d'un quartier, immeuble, groupe d'immeubles, écoles maternelles et primaires ... <b>sur le territoire de Nantes Métropole</b> et avec le soutien de cette collectivité.<br/><br/>Aujourd'hui 120 sites de compostage partagé sont en fonctionnement sur le territoire nantais. Ces pavillons sont mis en place grâce au soutien de Nantes Métropole.<br/>Compostri et ses 3 guides composteurs accompagnent les citoyens porteurs de projets : aide à l'installation de pavillons de compostage, formation, suivi technique.<br/><br/>Cette association accompagne également les groupes scolaires: restaurants associatifs, foyers de jeunes, EHPAD et dernièrement une moyenne surface (30 tonnes de bio-déchets /an).<br/><br/>Adresse : 18, quai du Président Wilson, 44200 Nantes<br/><br/>Tél : 09 82 45 22 21<br/><br/>courriel : contact@compostri.fr<br/><br/><a href=\'javascript:void(0);\' onclick=\'window.open('http://www.compostri.fr/', '_system', 'location=yes');\' >http://www.compostri.fr/</a>",
+      "descr_en":"<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><BR/>Nantes This is a combination that helps the construction of collective composters, accompanying individuals to the creation and supply of compost. <b> Compostri promotes the establishment of shared composting projects </b> and accompanies the people in this process at the neighborhood level, building, group of buildings, kindergartens and schools ... <b> in the territory of Nantes Métropole </b> and with the support of this community. Today<BR/>120 shared composting sites are operating on the territory Nantes. These pavilions are set up with the support of Nantes Métropole<BR/>Compostri and three composters guides accompany project promoters citizens. Installation help composting pavilions, training, technical monitoring<BR/><. br /> This association also accompanied school groups. associative restaurants, hostels for young, retirement homes and lately an average size (30 tonnes of bio-waste / year)<BR/>Address: 18, President of the dock Wilson, 44200 Nantes<BR/>Tel: 09 82 45 22 21<BR/>email: contact@compostri.fr<BR/><a href=\'javascript:void(0);\' onclick=\'window.open('http://www.compostri.fr', '_system', 'location=yes');\'> http://www.compostri.fr/ </a>",
+      "bouton":"fiche",
+      "image":"nantes/logo_compostri_mini.png",
+      "mots_cles":"compostri",
+      "mots_cles_en":"containers,clothing",
+      "urls":"http://www.compostri.fr"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_contembjournmag",
@@ -74,7 +120,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_emballages_journaux_magazines_mini.png",
       "mots_cles":"conteneur,emballage,journal,magasine",
+<<<<<<< HEAD
       "mots_cles_en":"containers,clothing"
+=======
+      "mots_cles_en":""
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_contvet",
@@ -85,18 +135,32 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_lerelais_mini.png",
       "mots_cles":"conteneurs,vetements",
+<<<<<<< HEAD
       "mots_cles_en":""
+=======
+      "mots_cles_en":"cloth,diaper,arbalange"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_coucheslavables",
       "nom":"Couches lavables",
       "nom_en":"Cloth diapers",
+<<<<<<< HEAD
       "descr":"Pourquoi ne pas tester les couches lavables ? Une couche de bonne qualité coûte entre 15 et 20 euros, et se revend 7 euros d'occasion. Il en faut environ 25 (il est recommandé de changer le bébé 8-9 fois par jour pour ce type de couche). Certaines couches sont moins épaisses, et ne donnent pas cet effet 'gros popotin'. Voir 'vente en vrac' sur la page Lieux.<br/><br/><img src='resources/images/nantes/logo_arbalange.png' /><br/><b>Arbalange</B><br/>En 2009, des Nantais ont créés Arbalange. Cette SARL alimentait des crèches en couches lavables. Elle s'est diversifiée (confection/vente de couches), mais a fermé en 2011. Retour sur cette expérience.<br/><a href='openHrefLink(http://www.atelier-idf.org/ressources/breves/2012-01-27,arbalange-explications-faillite.htm' target='_blank'>Article 'Arbalange : pourquoi ça a fermé'</a>",
       "descr_en":"Why not test cloth diapers? A layer of good quality costs between 15 and 20 euros, and resells used 7 euros. It takes about 25 (it is recommended to change the baby 8-9 times per day for this type of layer). Some layers are thinner, and do not give this effect 'big butt'. See 'loose sales' on the page 'Lieux'.<BR/><img src='resources/images/nantes/logo_arbalange.png'/><br/><b>Arbalange</B><br/>In 2009, they created Arbalange Nantais. This fueled SARL nurseries in cloth diapers. . It expanded (manufacture / sale of layers), but closed in 2011. Back on this experience<BR/><a href='openHrefLink(http://www.atelier-idf.org/ressources/breves/2012-01to27,arbalange-explanations-faillite.htm' target='_ blank'>Article 'Arbalange : why it closed'</a>",
       "bouton":"fiche",
       "image":"couches_lavables_1.png",
       "mots_cles":"couche,lavable,arbalange",
       "mots_cles_en":"cloth,diaper,arbalange"
+=======
+      "descr":"Pourquoi ne pas tester les couches lavables ? Une couche de bonne qualité coûte entre 15 et 20 euros, et se revend 7 euros d'occasion. Il en faut environ 25 (il est recommandé de changer le bébé 8-9 fois par jour pour ce type de couche). Certaines couches sont moins épaisses, et ne donnent pas cet effet 'gros popotin'. Voir 'vente en vrac' sur la page Lieux.<br/><br/><img src='resources/images/nantes/logo_arbalange.png' /><br/><b>Arbalange</B><br/>En 2009, des Nantais ont créés Arbalange. Cette SARL alimentait des crèches en couches lavables. Elle s'est diversifiée (confection/vente de couches), mais a fermé en 2011. Retour sur cette expérience.<br/><a href=\'javascript:void(0);\' onclick=\'window.open('http://www.atelier-idf.org/ressources/breves/2012-01-27,arbalange-explications-faillite.htm', '_system', 'location=yes');\'>Article 'Arbalange : pourquoi ça a fermé'</a>",
+      "descr_en":"Why not test cloth diapers? A layer of good quality costs between 15 and 20 euros, and resells used 7 euros. It takes about 25 (it is recommended to change the baby 8-9 times per day for this type of layer). Some layers are thinner, and do not give this effect 'big butt'. See 'loose sales' on the page 'Lieux'.<BR/><img src='resources/images/nantes/logo_arbalange.png'/><br/><b>Arbalange</B><br/>In 2009, they created Arbalange Nantais. This fueled SARL nurseries in cloth diapers. . It expanded (manufacture / sale of layers), but closed in 2011. Back on this experience<BR/><a href=\'javascript:void(0);\' onclick=\'window.open('http://www.atelier-idf.org/ressources/breves/2012-01to27,arbalange-explanations-faillite.htm', '_system', 'location=yes');\' >Article 'Arbalange : why it closed'</a>",
+      "bouton":"fiche",
+      "image":"couches_lavables_1.png",
+      "mots_cles":"couche,lavable,arbalange",
+      "mots_cles_en":"container,paper,cardboard",
+      "urls":"http://www.atelier-idf.org/ressources/breves/2012-01-27,arbalange-explications-faillite.htm"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_contpapiercarton",
@@ -107,7 +171,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_carton_mini.png",
       "mots_cles":"conteneur,papier,carton",
+<<<<<<< HEAD
       "mots_cles_en":"container,paper,cardboard"
+=======
+      "mots_cles_en":"container,plastic"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_contmpb",
@@ -118,7 +186,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_plastique_mini.png",
       "mots_cles":"conteneur,plastique",
+<<<<<<< HEAD
       "mots_cles_en":"container,plastic"
+=======
+      "mots_cles_en":"container,glass"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_contverre",
@@ -129,7 +201,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_verre_mini.png",
       "mots_cles":"conteneur,verre",
+<<<<<<< HEAD
       "mots_cles_en":"container,glass"
+=======
+      "mots_cles_en":"decheteries,ecopoint"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_ecopoint",
@@ -140,7 +216,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/ecopoint_viarme_mini.png",
       "mots_cles":"decheteries,ecopoint",
+<<<<<<< HEAD
       "mots_cles_en":"decheteries,ecopoint"
+=======
+      "mots_cles_en":"greentax"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_ecoparticipation",
@@ -151,73 +231,134 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"ticket_caisse_ecoparticipation_mini.png",
       "mots_cles":"eco,participation,taxe",
+<<<<<<< HEAD
       "mots_cles_en":"greentax"
+=======
+      "mots_cles_en":"eugene,poubelle"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_poubelle",
       "nom":"Eugène Poubelle",
       "nom_en":"Eugène Poubelle",
+<<<<<<< HEAD
       "descr":"<IMG SRC='resources/images/images_externes_libres/portrait_eugene_poubelle.jpg' ALIGN='right' /><ul>En 1883, pour lutter contre la saleté des rues de Paris, le préfet Eugène Poubelle signe un arrêté :<li>les propriétaires doivent fournir un récipient (commun à tous les locataires) pour les déchets ménagers</li><li>3 boîtes de tri sont obligatoires par locataire : matières putrescibles, papiers/chiffons, verre/faïence/coquilles d'huîtres</li><li>le ramassage régulier de ces réceptacles est organisé.</li></ul>L'hostilité des propriétaires (coût), des concierges (surcroît de travail), des chiffonniers (perte du gagne-pain) fit que peu-à-peu les anciennes boîtes ne furent pas remplacées, et au bout du compte on arrêta le tri des déchets.<br/><br/><b>Monsieur Poubelle laissa son nom au récipient, mais il faut reconnaître en lui un des précurseur du tri</b> même s'il ne fut pas suivi à cause de certains corporatismes.<br/><P class='source'>Source principale : <A href='openHrefLink(http://fr.wikipedia.org/wiki/Eug%C3%A8ne_Poubelle' TARGET='_blank'>article sur Wikipédia (l'image provient de ce site)</A>",
       "descr_en":"<IMG src='resources/images/images_externes_libres / portrait_eugene_poubelle.jpg' align='right' /> <ul> In 1883, the fight against dirt streets of Paris, the prefect Eugène Trash sign an order: <li> Owners must provide a container (common to all tenants) for household waste </ li> <li> 3 sorting boxes are required by tenant putrescible waste, paper / rags, glass / china / oyster shells </ li > <li> the regular collection of these containers is organized. </ li> </ ul> The hostility owners (cost), janitors (extra work), ragpickers (loss of livelihoods) made little -to little old boxes were not replaced, and in the end we stopped sorting waste.<BR/><b> Mr. Bin gave his name to the container, but we must recognize in him a precursor sorting </b> even if it was not followed because of certain corporatism<BR/><P class='source'> Main. Source: <a href='openHrefLink(http: //fr.wikipedia. org / wiki /% C3% Eug A8ne_Poubelle TARGET = '_ blank'> article on Wikipedia (the image from this site) </A>",
       "bouton":"fiche",
       "image":"images_externes_libres/portrait_eugene_poubelle_mini.png",
       "mots_cles":"eugene,poubelle",
       "mots_cles_en":"eugene,poubelle"
+=======
+      "descr":"<IMG SRC='resources/images/images_externes_libres/portrait_eugene_poubelle.jpg' ALIGN='right' /><ul>En 1883, pour lutter contre la saleté des rues de Paris, le préfet Eugène Poubelle signe un arrêté :<li>les propriétaires doivent fournir un récipient (commun à tous les locataires) pour les déchets ménagers</li><li>3 boîtes de tri sont obligatoires par locataire : matières putrescibles, papiers/chiffons, verre/faïence/coquilles d'huîtres</li><li>le ramassage régulier de ces réceptacles est organisé.</li></ul>L'hostilité des propriétaires (coût), des concierges (surcroît de travail), des chiffonniers (perte du gagne-pain) fit que peu-à-peu les anciennes boîtes ne furent pas remplacées, et au bout du compte on arrêta le tri des déchets.<br/><br/><b>Monsieur Poubelle laissa son nom au récipient, mais il faut reconnaître en lui un des précurseur du tri</b> même s'il ne fut pas suivi à cause de certains corporatismes.<br/><P class='source'>Source principale : <A href=\'javascript:void(0);\' onclick=\'window.open('http://fr.wikipedia.org/wiki/Eug%C3%A8ne_Poubelle', '_system', 'location=yes');\'>article sur Wikipédia (l'image provient de ce site)</A>",
+      "descr_en":"<IMG src='resources/images/images_externes_libres / portrait_eugene_poubelle.jpg' align='right' /> <ul> In 1883, the fight against dirt streets of Paris, the prefect Eugène Trash sign an order: <li> Owners must provide a container (common to all tenants) for household waste </ li> <li> 3 sorting boxes are required by tenant putrescible waste, paper / rags, glass / china / oyster shells </ li > <li> the regular collection of these containers is organized. </ li> </ ul> The hostility owners (cost), janitors (extra work), ragpickers (loss of livelihoods) made little -to little old boxes were not replaced, and in the end we stopped sorting waste.<BR/><b> Mr. Bin gave his name to the container, but we must recognize in him a precursor sorting </b> even if it was not followed because of certain corporatism<BR/><P class='source'> Main. Source: <a href=\'javascript:void(0);\' onclick=\'window.open('http: //fr.wikipedia. org / wiki /% C3% Eug A8ne_Poubelle', '_system', 'location=yes');\'> article on Wikipedia (the image from this site) </A>",
+      "bouton":"fiche",
+      "image":"images_externes_libres/portrait_eugene_poubelle_mini.png",
+      "mots_cles":"eugene,poubelle",
+      "mots_cles_en":"logo,eco,emballage,adelphe,cyclamed,pet,pehd,peld,pp,pse,triman",
+      "urls":"http://fr.wikipedia.org/wiki/Eug%C3%A8ne_Poubelle"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_logos",
       "nom":"Logos utilisés",
       "nom_en":"Logos used",
+<<<<<<< HEAD
       "descr":"<IMG SRC='resources/images/images_non_libres/logo_contribution_petit.png' width='50px' /> Le fabriquant verse une contribution à l'une de ces trois sociétés : Eco-Emballage, Adelphe ou Cyclamed. <B>Ceci ne signifie pas que le produit est recyclable</B>.<BR/><IMG SRC='resources/images/images_non_libres/logo_triman.png' width='50px' />Il existe une consigne de tri.</B>.<BR/><IMG SRC='resources/images/images_non_libres/moebius_sans_mini.png' width='50px' /> Ce produit ou cet emballage est <B>recyclable</B>.<BR/><IMG SRC='resources/images/images_non_libres/moebius_mini.png' width='50px' /> Ce produit ou cet emballage contient <B>65 % de matières recyclées</B>.<BR/><BR/><IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pete_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-hdpe_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pvc_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ldpe_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pp_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ps_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-autres_mini.png' width='50px' /><BR/>Les logos sur les plastiques (listes des produits non exhaustives) : <LI>1 : PET (Polyéthylène Teraphtalate) : bouteilles de soda <B>recyclable</B></LI><LI>2 : PEHD (Polyéthylène haute densité) : bouteille de lait, jus de fruit, javel, détergent, de shampoing, <B>recyclable</B></LI><LI>3 : PVC (PolyChlorure de Vinyle) : bouteilles détergent, shampoing, tuyau gris, gaine électrique... <B>recyclable</B> (rarement recyclé)</LI><LI>4 : PELD (Polyéthylène basse densité) : bouteilles compressibles, sacs cabas, moquettes : <B>pas recyclable</B> (ou difficilement)</LI><LI>5 : PP (Polypropylène) : pots de yaourt, bouteilles de ketchup, bouchons de boisson gazeuses... <B>pas recyclable</B> (ou difficilement, comme Les Bouchons d'Amour)</LI><LI>6 : PSE (Polystyrène Expansé) : assiettes jetables, boitiers CDs, barquette alimentaire <B>pas recyclable</B> (ou difficilement)</LI><LI>7 : autres plastiques <B>pas recyclable</B> (ou difficilement)</LI><B>Privilégiez les produits avec les logos 1 et 2</B>.<BR/>Plus d'infos : <A href='openHrefLink(http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/' target='_blank'target=_new >http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/</A>",
       "descr_en":"<IMG src='resources/images/images_non_libres/logo_contribution_petit.png' width='50px' /> The manufacturer is contributing to one of these three companies: Eco-Emballage, Adelphe or Cyclamed. <B> This does not mean that the product is recyclable </B>.<BR/><IMG SRC='resources/images/images_non_libres/logo_triman.png' width='50px' />There is a sorting instruction.</B>.<BR/><IMG src='resources/images/images_non_libres/moebius_sans_mini.png' width='50px' /> This product or the packaging is <b>recycled </B>.<BR/><IMG src='resources/images/images_non_libres/moebius_mini.png' width='50px' /> This product and the packaging contains <B> 65% recycled materials </B>.<BR/><BR/><IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pete_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-hdpe_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pvc_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ldpe_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pp_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ps_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-autres_mini.png' width='50px' /><BR/>logos on plastic (non-exhaustive list of products): <LI> 1: PET (Polyethylene terephthalate) bottles of soda <B> recycled </B> </LI><LI> 2: HDPE (high density polyethylene) bottle of milk, fruit, bleach juice, detergent, shampoo, <B> recycled </B> </LI><LI> 3: PVC (polyvinyl chloride) : detergent bottles, shampoo, gray pipe, electrical conduit ... <B> recycled </B> (rarely recycled) </LI><LI> 4: LDPE (Low Density Polyethylene): squeeze bottles, shopping bags, carpet: <B> not recyclable </B> (or difficult) </LI><LI> 5: PP (Polypropylene): yogurt cups, ketchup bottles, soft drink caps ... <B> not recyclable </b> (or difficult, as the plugs Love) </LI><LI> 6: EPS (Expanded Polystyrene): disposable plates, housings CDs, food tray <B> not recyclable </B> (or difficult) </LI><LI> 7: other plastics <B> not recyclable </B> (or difficult) </LI><B> Favour products with the logos 1 and 2 </B><BR/>More. Info: <A href='openHrefLink(http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/' target='_blank'target=_new >http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/</A>",
       "bouton":"fiche",
       "image":"images_non_libres/logo_contribution_mini.png",
       "mots_cles":"logo,eco,emballage,adelphe,cyclamed,pet,pehd,peld,pp,pse,triman",
       "mots_cles_en":"logo,eco,emballage,adelphe,cyclamed,pet,pehd,peld,pp,pse,triman"
+=======
+      "descr":"<IMG SRC='resources/images/images_non_libres/logo_contribution_petit.png' width='50px' /> Le fabriquant verse une contribution à l'une de ces trois sociétés : Eco-Emballage, Adelphe ou Cyclamed. <B>Ceci ne signifie pas que le produit est recyclable</B>.<BR/><IMG SRC='resources/images/images_non_libres/logo_triman.png' width='50px' />Il existe une consigne de tri.</B>.<BR/><IMG SRC='resources/images/images_non_libres/moebius_sans_mini.png' width='50px' /> Ce produit ou cet emballage est <B>recyclable</B>.<BR/><IMG SRC='resources/images/images_non_libres/moebius_mini.png' width='50px' /> Ce produit ou cet emballage contient <B>65 % de matières recyclées</B>.<BR/><BR/><IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pete_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-hdpe_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pvc_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ldpe_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pp_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ps_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-autres_mini.png' width='50px' /><BR/>Les logos sur les plastiques (listes des produits non exhaustives) : <LI>1 : PET (Polyéthylène Teraphtalate) : bouteilles de soda <B>recyclable</B></LI><LI>2 : PEHD (Polyéthylène haute densité) : bouteille de lait, jus de fruit, javel, détergent, de shampoing, <B>recyclable</B></LI><LI>3 : PVC (PolyChlorure de Vinyle) : bouteilles détergent, shampoing, tuyau gris, gaine électrique... <B>recyclable</B> (rarement recyclé)</LI><LI>4 : PELD (Polyéthylène basse densité) : bouteilles compressibles, sacs cabas, moquettes : <B>pas recyclable</B> (ou difficilement)</LI><LI>5 : PP (Polypropylène) : pots de yaourt, bouteilles de ketchup, bouchons de boisson gazeuses... <B>pas recyclable</B> (ou difficilement, comme Les Bouchons d'Amour)</LI><LI>6 : PSE (Polystyrène Expansé) : assiettes jetables, boitiers CDs, barquette alimentaire <B>pas recyclable</B> (ou difficilement)</LI><LI>7 : autres plastiques <B>pas recyclable</B> (ou difficilement)</LI><B>Privilégiez les produits avec les logos 1 et 2</B>.<BR/>Plus d'infos : <A href=\'javascript:void(0);\' onclick=\'window.open('http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/', '_system', 'location=yes');\'>http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/</A>",
+      "descr_en":"<IMG src='resources/images/images_non_libres/logo_contribution_petit.png' width='50px' /> The manufacturer is contributing to one of these three companies: Eco-Emballage, Adelphe or Cyclamed. <B> This does not mean that the product is recyclable </B>.<BR/><IMG SRC='resources/images/images_non_libres/logo_triman.png' width='50px' />There is a sorting instruction.</B>.<BR/><IMG src='resources/images/images_non_libres/moebius_sans_mini.png' width='50px' /> This product or the packaging is <b>recycled </B>.<BR/><IMG src='resources/images/images_non_libres/moebius_mini.png' width='50px' /> This product and the packaging contains <B> 65% recycled materials </B>.<BR/><BR/><IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pete_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-hdpe_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pvc_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ldpe_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pp_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ps_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-autres_mini.png' width='50px' /><BR/>logos on plastic (non-exhaustive list of products): <LI> 1: PET (Polyethylene terephthalate) bottles of soda <B> recycled </B> </LI><LI> 2: HDPE (high density polyethylene) bottle of milk, fruit, bleach juice, detergent, shampoo, <B> recycled </B> </LI><LI> 3: PVC (polyvinyl chloride) : detergent bottles, shampoo, gray pipe, electrical conduit ... <B> recycled </B> (rarely recycled) </LI><LI> 4: LDPE (Low Density Polyethylene): squeeze bottles, shopping bags, carpet: <B> not recyclable </B> (or difficult) </LI><LI> 5: PP (Polypropylene): yogurt cups, ketchup bottles, soft drink caps ... <B> not recyclable </b> (or difficult, as the plugs Love) </LI><LI> 6: EPS (Expanded Polystyrene): disposable plates, housings CDs, food tray <B> not recyclable </B> (or difficult) </LI><LI> 7: other plastics <B> not recyclable </B> (or difficult) </LI><B> Favour products with the logos 1 and 2 </B><BR/>More. Info: <A href=\'javascript:void(0);\' onclick=\'window.open('http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/', '_system', 'location=yes');\'>http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/</A>",
+      "bouton":"fiche",
+      "image":"images_non_libres/logo_contribution_mini.png",
+      "mots_cles":"logo,eco,emballage,adelphe,cyclamed,pet,pehd,peld,pp,pse,triman",
+      "mots_cles_en":"vermicompost",
+      "urls":"http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_lombricompost",
       "nom":"Lombricompost",
       "nom_en":"Vermicompost",
+<<<<<<< HEAD
       "descr":"Le lombricopost (ou vermicompost) permet de transformer des déchets biodégradables en engrais naturel : on utilise des vers qui dégradent rapidement les déchets.<BR/><BR/><B>Pas de fermentation, donc quasiment pas d'odeurs</B><BR/>Contrairement au compost classique, il n'y a  pas de fermentation. Il reste cependant une légère odeur d'humus.<BR/><BR/><B>Les vers de compost</B><BR/>Ces vers (une des 150 espèces de verre de terre) peuvent manger entre la moitié et 2 fois leurs poids par jour. Ils se reproduisent rapidement (la population peut doubler tous les 3 mois). Ils sont commercialisés sur Internet, au rayon pêche des supermarchés. On peut les trouver aussi dans les tas de fumiers. Ils vivent dans un environnement entre 15 et 25 degrés.<BR/><BR/><B>Le composteur</B><BR/>Le modèle le plus courant est dit horizontal : il inclut 2 bacs contigus permettant une rotation (quand le premier est plein, on utilise alors le second). Si les composteurs peuvent facilement être fabriqués, vous pouvez les acheter : compter entre 35 et 180 euros le vermicomposteur.<BR/><BR/><B>A mettre</B><BR/>Reste de fruits et légumes, papier, carton, coquilles d'oeufs, coquilles de noix/noisettes, feuilles d'arbre, marc de café, sachet de thé, poussière d'aspirateur<BR/><BR/><B>A éviter</B><BR/>agrumes, poireaux, oignons, échalotes, pâtes, riz, pain, cheveux, ongles.<BR/><BR/><B>Ne pas mettre</B><BR/>rhubarbe, ail, mouchoirs usagés, viandes, poissons, litières, déjections animales, produits laitiers, gras et huile.<BR/><BR/><B>Attention à l'humidité</B><BR/>Pour éviter la présence de mouches, il faut diminuer l'humidité du compost, en mettant papier, carton, journal, marc de café...<BR/><BR/>Source principale : <A HREF=\'http://fr.ekopedia.org/Lombricompostage\' target='_blank'target=_new >http://fr.ekopedia.org/Lombricompostage</A>.<BR/>",
       "descr_en":"The lombricopost (or vermicompost) can convert biodegradable waste into natural fertilizer. Are used to rapidly degrade waste<BR/><BR/><B> No fermentation, so almost no odor </b><BR/>Unlike conventional compost there is no fermentation. There remains a slight smell of humus.<BR/><BR/><B> The compost worms </B><BR/>These worms (one of 150 earthworm species) can eat between half and 2 times their weight per day. They reproduce rapidly (the population can double every three months). They are sold on the Internet, in fishing the supermarket shelf. They can be found also in the pile of manure. They live in an environment between 15 and 25 degrees<BR/><BR/><B> The composter </B><BR/>The most common model is called horizontal. It includes 2 adjacent bins allowing rotation ( when the first is full, it then uses the second). If composters can be easily manufactured, you can buy them: be between 35 and 180 euros vermicomposter<BR/><BR/><B> A place </B><BR/>Rest of fruits and vegetables, paper. , cardboard, egg shells, nuts / nut shells, tree leaves, coffee grounds, tea bags, vacuum cleaner dust<BR/><BR/><B> Avoid </B> <BR /> citrus, leeks, onions, shallots, pasta, rice, bread, hair, nails.<BR/><BR/><B> Do not </B><BR/>rhubarb, garlic, used tissues, meat , fish, litter, animal manure, dairy, fat and oil.<BR/><BR/><B> Warning moisture </B><BR/>To avoid the presence of flies, we must reduce the moisture compost, putting paper, cardboard, newspaper, coffee grounds ...<BR/><BR/>Main source: <A HREF = 'http: //fr.ekopedia.org/Lombricompostage' target = ' _blank '> http://fr.ekopedia.org/Lombricompostage </A>.<BR/>",
       "bouton":"fiche",
       "image":"compost_mini.png",
       "mots_cles":"lombricompost",
       "mots_cles_en":"vermicompost"
+=======
+      "descr":"Le lombricopost (ou vermicompost) permet de transformer des déchets biodégradables en engrais naturel : on utilise des vers qui dégradent rapidement les déchets.<BR/><BR/><B>Pas de fermentation, donc quasiment pas d'odeurs</B><BR/>Contrairement au compost classique, il n'y a  pas de fermentation. Il reste cependant une légère odeur d'humus.<BR/><BR/><B>Les vers de compost</B><BR/>Ces vers (une des 150 espèces de verre de terre) peuvent manger entre la moitié et 2 fois leurs poids par jour. Ils se reproduisent rapidement (la population peut doubler tous les 3 mois). Ils sont commercialisés sur Internet, au rayon pêche des supermarchés. On peut les trouver aussi dans les tas de fumiers. Ils vivent dans un environnement entre 15 et 25 degrés.<BR/><BR/><B>Le composteur</B><BR/>Le modèle le plus courant est dit horizontal : il inclut 2 bacs contigus permettant une rotation (quand le premier est plein, on utilise alors le second). Si les composteurs peuvent facilement être fabriqués, vous pouvez les acheter : compter entre 35 et 180 euros le vermicomposteur.<BR/><BR/><B>A mettre</B><BR/>Reste de fruits et légumes, papier, carton, coquilles d'oeufs, coquilles de noix/noisettes, feuilles d'arbre, marc de café, sachet de thé, poussière d'aspirateur<BR/><BR/><B>A éviter</B><BR/>agrumes, poireaux, oignons, échalotes, pâtes, riz, pain, cheveux, ongles.<BR/><BR/><B>Ne pas mettre</B><BR/>rhubarbe, ail, mouchoirs usagés, viandes, poissons, litières, déjections animales, produits laitiers, gras et huile.<BR/><BR/><B>Attention à l'humidité</B><BR/>Pour éviter la présence de mouches, il faut diminuer l'humidité du compost, en mettant papier, carton, journal, marc de café...<BR/><BR/>Source principale : <A HREF=\'javascript:void(0);\' onclick=\'window.open('http://fr.ekopedia.org/Lombricompostage', '_system', 'location=yes');\'>http://fr.ekopedia.org/Lombricompostage</A>.<BR/>",
+      "descr_en":"The lombricopost (or vermicompost) can convert biodegradable waste into natural fertilizer. Are used to rapidly degrade waste<BR/><BR/><B> No fermentation, so almost no odor </b><BR/>Unlike conventional compost there is no fermentation. There remains a slight smell of humus.<BR/><BR/><B> The compost worms </B><BR/>These worms (one of 150 earthworm species) can eat between half and 2 times their weight per day. They reproduce rapidly (the population can double every three months). They are sold on the Internet, in fishing the supermarket shelf. They can be found also in the pile of manure. They live in an environment between 15 and 25 degrees<BR/><BR/><B> The composter </B><BR/>The most common model is called horizontal. It includes 2 adjacent bins allowing rotation ( when the first is full, it then uses the second). If composters can be easily manufactured, you can buy them: be between 35 and 180 euros vermicomposter<BR/><BR/><B> A place </B><BR/>Rest of fruits and vegetables, paper. , cardboard, egg shells, nuts / nut shells, tree leaves, coffee grounds, tea bags, vacuum cleaner dust<BR/><BR/><B> Avoid </B> <BR /> citrus, leeks, onions, shallots, pasta, rice, bread, hair, nails.<BR/><BR/><B> Do not </B><BR/>rhubarb, garlic, used tissues, meat , fish, litter, animal manure, dairy, fat and oil.<BR/><BR/><B> Warning moisture </B><BR/>To avoid the presence of flies, we must reduce the moisture compost, putting paper, cardboard, newspaper, coffee grounds ...<BR/><BR/>Main source : <A href=\'javascript:void(0);\' onclick=\'window.open('http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/', '_system', 'location=yes');\'>http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/</A>",
+      "bouton":"fiche",
+      "image":"compost_mini.png",
+      "mots_cles":"lombricompost",
+      "mots_cles_en":"mieux,trier,nantes",
+      "urls":"http://fr.ekopedia.org/Lombricompostage"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_mieuxtrierannantes",
       "nom":"Mieux trier à Nantes",
       "nom_en":"Mieux trier à Nantes",
+<<<<<<< HEAD
       "descr":"Application et site Internet 'Mieux trier à Nantes'<br/><img src='resources/images/nantes/logo_mieuxtrieranantes.png' /><br/>'Mieux trier à Nantes' est une application android (gratuite) et un site http://mieuxtrieranantes.fr (qui présente le même contenu que l'application) pour les habitants de Nantes Métropole.<br/><br/>L'objectif est d'aider à trier.<br/>- savoir si un déchet est recyclable et les façons dont il peut être valorisé (avec des conseils spécifiques à chaque déchet),<br/>- connaître les emplacements des conteneurs, lieux et horaires des déchèteries et distribution des sacs jaunes et bleus,<br/>- connaître la filière tri à Nantes : centres de tri, associations nantaises, signification des logos...<br/>- connaître les organismes de la région qui se proposent de donner une seconde vie à vos déchets,<br/>- retrouver le mode de collecte et le jour de collecte à domicile (pour les Nantais recherche par rue, hors Nantes recherche par quartier).<br/><br/>C'est un logiciel libre qui s'appuie notamment sur les données Open Data de Nantes.<br/><br/>Nos coordonnées :<br/>- mail : mieuxtrieranantes@gmail.com<br/>- site Internet : <a href='openHrefLink(http://mieuxtrieranantes.fr)' target=_new >http://mieuxtrieranantes.fr</a><br/>- blog : <a href='openHrefLink(https://mieuxtrieranantes.wordpress.com)' target=_new >https://mieuxtrieranantes.wordpress.com</a><br/>- page Facebook : <a href='openHrefLink(https://www.facebook.com/pages/Mieux-trier-%C3%A0-Nantes/266725983531595' taget=_blanktarget=_new >https://www.facebook.com/pages/Mieux-trier-%C3%A0-Nantes/266725983531595</a><br/>- page Google + : <a href='openHrefLink(https://plus.google.com/115672613214762676111/posts)' target=_new >https://plus.google.com/115672613214762676111/posts</a><br/>- page Framasphere : <a href='openHrefLink(https://framasphere.org/people/b0e79dd0547701326e712a0000053625)' target=_new >https://framasphere.org/people/b0e79dd0547701326e712a0000053625</a><br/>- utilisateur Tweeter : @MieuxTrierANant<br/>- les quiz : <a href='openHrefLink(http://mieuxtrieranantes.e-monsite.com/quiz/)' target=_new >http://mieuxtrieranantes.e-monsite.com/quiz/</a>",
       "descr_en":"Application and website of Better sort Nantes'<BR/><img src='resources/images/nantes/logo_mieuxtrieranantes.png' /><BR/>' better sort in Nantes is an android application (free) and http : //mieuxtrieranantes.fr (which has the same content as the application) to the people of Nantes Métropole<BR/>The goal is to help sort<BR/>- whether a. waste is recyclable and the ways it can be upgraded (with advice specific to each waste)<BR/>- the locations of containers, places and schedules of waste reception centers and distribution of yellow and blue bags,<BR/>- know the sort sector in Nantes: sorting centers, Nantes associations, meaning<BR/>logos ... - know the area organizations that offer to give a second life to your waste<BR/>- find it fashion and home collection collection day (for Nantais search by street outside Nantes search by area).<BR/>This is free software that relies particularly on Open Data Data . Nantes<BR/>Contact information:<BR/>- mail: mieuxtrieranantes@gmail.com<BR/>- website: <a href='openHrefLink(http://mieuxtrieranantes.fr' target=_blank> http://mieuxtrieranantes.fr </a><BR/>- blog: <a href='openHrefLink(https://mieuxtrieranantes.wordpress.com' target=_blank> https://mieuxtrieranantes.wordpress.com </a><BR/>- Facebook page: <a href='openHrefLink(https://www.facebook.com/pages/Mieux-trier-%C3%A0-Nantes/266725983531595' taget=_blank> https: //www.facebook. com / pages / Wellness trier-% C3% A0-Nantes / 266725983531595 </a><BR/>- Google + page: <a href='openHrefLink(https: //plus.google.com/115672613214762676111/posts' target='_blank'> https://plus.google.com/115672613214762676111/posts </a><BR/>- Framasphere page: <a href='openHrefLink(https://framasphere.org/people/b0e79dd0547701326e712a0000053625' target=_blank> https: //framasphere.org/people/b0e79dd0547701326e712a0000053625 </a><BR/>- Tweeter User:MieuxTrierANant<BR/>- quiz: <a href='openHrefLink(http: //mieuxtrieranantes.e-monsite.com/quiz/ 'target='_blank'> http://mieuxtrieranantes.e-monsite.com/quiz/ </a>",
       "bouton":"fiche",
       "image":"nantes/logo_mieuxtrieranantes.png",
       "mots_cles":"mieux,trier,nantes",
       "mots_cles_en":"mieux,trier,nantes"
+=======
+      "descr":"Application et site Internet 'Mieux trier à Nantes'<br/><img src='resources/images/nantes/logo_mieuxtrieranantes.png' /><br/>'Mieux trier à Nantes' est une application android (gratuite) et un site http://mieuxtrieranantes.fr (qui présente le même contenu que l'application) pour les habitants de Nantes Métropole.<br/><br/>L'objectif est d'aider à trier.<br/>- savoir si un déchet est recyclable et les façons dont il peut être valorisé (avec des conseils spécifiques à chaque déchet),<br/>- connaître les emplacements des conteneurs, lieux et horaires des déchèteries et distribution des sacs jaunes et bleus,<br/>- connaître la filière tri à Nantes : centres de tri, associations nantaises, signification des logos...<br/>- connaître les organismes de la région qui se proposent de donner une seconde vie à vos déchets,<br/>- retrouver le mode de collecte et le jour de collecte à domicile (pour les Nantais recherche par rue, hors Nantes recherche par quartier).<br/><br/>C'est un logiciel libre qui s'appuie notamment sur les données Open Data de Nantes.<br/><br/>Nos coordonnées :<br/>- mail : mieuxtrieranantes@gmail.com<br/>- site Internet : <a href=\'javascript:void(0);\' onclick=\'window.open('http://mieuxtrieranantes.fr', '_system', 'location=yes');\' >http://mieuxtrieranantes.fr</a><br/>- blog : <a href=\'javascript:void(0);\' onclick=\'window.open('https://mieuxtrieranantes.wordpress.com', '_system', 'location=yes');\' >https://mieuxtrieranantes.wordpress.com</a><br/>- page Facebook : <a href=\'javascript:void(0);\' onclick=\'window.open('https://www.facebook.com/pages/Mieux-trier-%C3%A0-Nantes/266725983531595', '_system', 'location=yes');\' >https://www.facebook.com/pages/Mieux-trier-%C3%A0-Nantes/266725983531595</a><br/>- page Google + : <a href=\'javascript:void(0);\' onclick=\'window.open('https://plus.google.com/115672613214762676111/posts', '_system', 'location=yes');\' >https://plus.google.com/115672613214762676111/posts</a><br/>- page Framasphere : <a href=\'javascript:void(0);\' onclick=\'window.open('https://framasphere.org/people/b0e79dd0547701326e712a0000053625', '_system', 'location=yes');\' >https://framasphere.org/people/b0e79dd0547701326e712a0000053625</a><br/>- utilisateur Tweeter : @MieuxTrierANant<br/>- les quiz : <a href=\'javascript:void(0);\' onclick=\'window.open('http://mieuxtrieranantes.e-monsite.com/quiz/', '_system', 'location=yes');\' >http://mieuxtrieranantes.e-monsite.com/quiz/</a>",
+      "descr_en":"Application and website of Better sort Nantes'<BR/><img src='resources/images/nantes/logo_mieuxtrieranantes.png' /><BR/>' better sort in Nantes is an android application (free) and http : //mieuxtrieranantes.fr (which has the same content as the application) to the people of Nantes Métropole<BR/>The goal is to help sort<BR/>- whether a. waste is recyclable and the ways it can be upgraded (with advice specific to each waste)<BR/>- the locations of containers, places and schedules of waste reception centers and distribution of yellow and blue bags,<BR/>- know the sort sector in Nantes: sorting centers, Nantes associations, meaning<BR/>logos ... - know the area organizations that offer to give a second life to your waste<BR/>- find it fashion and home collection collection day (for Nantais search by street outside Nantes search by area).<BR/>This is free software that relies particularly on Open Data Data . Nantes<BR/>Contact information:<BR/>- mail: mieuxtrieranantes@gmail.com<BR/>- website: <a href=\'javascript:void(0);\' onclick=\'window.open('http://mieuxtrieranantes.fr', '_system', 'location=yes');\'> http://mieuxtrieranantes.fr </a><BR/>- blog: <a href=\'javascript:void(0);\' onclick=\'window.open('https://mieuxtrieranantes.wordpress.com', '_system', 'location=yes');\'> https://mieuxtrieranantes.wordpress.com </a><BR/>- Facebook page: <a href=\'javascript:void(0);\' onclick=\'window.open('https://www.facebook.com/pages/Mieux-trier-%C3%A0-Nantes/266725983531595' taget=_blank> https: //www.facebook. com / pages / Wellness trier-% C3% A0-Nantes / 266725983531595 </a><BR/>- Google + page: <a href=\'javascript:void(0);\' onclick=\'window.open('https: //plus.google.com/115672613214762676111/posts' target='_blank'> https://plus.google.com/115672613214762676111/posts </a><BR/>- Framasphere page: <a href=\'javascript:void(0);\' onclick=\'window.open('https://framasphere.org/people/b0e79dd0547701326e712a0000053625', '_system', 'location=yes');\'> https: //framasphere.org/people/b0e79dd0547701326e712a0000053625 </a><BR/>- Tweeter User:MieuxTrierANant<BR/>- quiz: <a href=\'javascript:void(0);\' onclick=\'window.open('http: //mieuxtrieranantes.e-monsite.com/quiz/', '_system', 'location=yes');\' > http://mieuxtrieranantes.e-monsite.com/quiz', '_system', 'location=yes');\'cation=yes');\'",
+      "bouton":"fiche",
+      "image":"nantes/logo_mieuxtrieranantes.png",
+      "mots_cles":"mieux,trier,nantes",
+      "mots_cles_en":"pp,plastic,pickup,oceane,reze"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_plastik",
       "nom":"PP Plastic Pickup",
       "nom_en":"PP Plastic Pickup",
+<<<<<<< HEAD
       "descr":"Cette association est née d'une réflexion pour les membres fondateurs : je ramasse naturellement le plastique que je trouve. Deuxième constat : je ne suis pas isolé dans ce geste.<br/>Sous l’impulsion de la mairie de Rezé, l’association a été créée en 2012.<br/>L'objectif est de valoriser cet acte de ramassage, d'en faire un geste naturel et adopté par tous, de changer le regard sur ce déchet banalisé et dangereux pour l'environnement.<br/>Les 60 membres environ participent à des opérations nationales de <b>ramassage de déchets</b>comme les initiatives Océanes et le World Clean Up.<br/>RCette association ralise également des actions de sensibilisation du public comme le Plastic Flashmob et le Plastic Mobile.<br/>Voir la page <a href='openHrefLink(http://www.plastiques.eu/' target=_new >www.plastiques.eu/</a>",
+=======
+      "descr":"Cette association est née d'une réflexion pour les membres fondateurs : je ramasse naturellement le plastique que je trouve. Deuxième constat : je ne suis pas isolé dans ce geste.<br/>Sous l’impulsion de la mairie de Rezé, l’association a été créée en 2012.<br/>L'objectif est de valoriser cet acte de ramassage, d'en faire un geste naturel et adopté par tous, de changer le regard sur ce déchet banalisé et dangereux pour l'environnement.<br/>Les 60 membres environ participent à des opérations nationales de <b>ramassage de déchets</b>comme les initiatives Océanes et le World Clean Up.<br/>RCette association ralise également des actions de sensibilisation du public comme le Plastic Flashmob et le Plastic Mobile.<br/>Voir la page <a href=\'javascript:void(0);\' onclick=\'window.open('http://www.plastiques.eu', '_system', 'location=yes');\' >www.plastiques.eu/</a>",
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
       "descr_en":"Originally a reflection to the founding members, I naturally picks up the plastic I find. Second observation: I am not alone in this gesture. Under the leadership of the municipality of Rezé, the association was created in 2012.<BR/>The objective is to enhance this act of collecting, to make it a natural gesture and adopted by all, to change the look trivialized this waste and dangerous for the environment.<BR/>about 60 members involved in domestic operations like the Ocean initiatives and World Clean Up.<BR/>also Conducts public awareness actions like Plastic Flashmob Plastic and mobile.",
       "bouton":"fiche",
       "image":"nantes/logo_plasticpickup.png",
       "mots_cles":"plastique,pp,plastic,pickup,oceane,reze",
+<<<<<<< HEAD
       "mots_cles_en":"pp,plastic,pickup,oceane,reze"
+=======
+      "mots_cles_en":"plus2vers,exchange,earthworms"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_plus2vers",
       "nom":"Plus2vers - échange de lombrics",
       "nom_en":"Plus2vers - exchange of earthworms",
+<<<<<<< HEAD
       "descr":"Bourse aux lombrics et conseils sur le lombricompostage, essentiellement sur la région nantaise.<br/>(les lombrics sont utiliisés pour le lombricompostage)<br/><br/><img src='resources/images/nantes/logo_plus2vers.png' /><br/>Site internet qui permet de mettre en lien (gratuitement) des personnes qui veulent échanger des lombrics :<br/>Localiser sur une carte les donateurs de lombrics et contacter-les simplement en leur envoyant un mail.<br/>Vous trouverez ici des conseils très utiles pour réussir avec son lombricomposteur.<br/>300 donateurs sur la carte fin 2014.<br/><br/>Voir le site <a href='openHrefLink(http://plus2vers.fr/' target=_blank target=_new >http://plus2vers.fr/</a>",
       "descr_en":"Exchange earthworms and advice on vermicomposting, mainly in the Nantes region.<BR/>(Earthworms for vermicomposting are utiliisés)<BR/><img src='resources/images/nantes/logo_plus2vers.png' /><BR/>website that allows to link (free) for people who want to exchange earthworms.<BR/>Locate on a map earthworms donors and contact them by simply sending them an email < br /> Here you will find useful tips for success with his Vermicomposter<BR/>300 donors on the map<BR/>end of 2014. See the website <a href='openHrefLink(http:. // plus2vers. fr / 'target='_blank'> http://plus2vers.fr/ </a>",
       "bouton":"fiche",
       "image":"nantes/logo_plus2vers.png",
       "mots_cles":"plus2vers,echange,lombrics",
       "mots_cles_en":"plus2vers,exchange,earthworms"
+=======
+      "descr":"Bourse aux lombrics et conseils sur le lombricompostage, essentiellement sur la région nantaise.<br/>(les lombrics sont utiliisés pour le lombricompostage)<br/><br/><img src='resources/images/nantes/logo_plus2vers.png' /><br/>Site internet qui permet de mettre en lien (gratuitement) des personnes qui veulent échanger des lombrics :<br/>Localiser sur une carte les donateurs de lombrics et contacter-les simplement en leur envoyant un mail.<br/>Vous trouverez ici des conseils très utiles pour réussir avec son lombricomposteur.<br/>300 donateurs sur la carte fin 2014.<br/><br/>Voir le site <a href=\'javascript:void(0);\' onclick=\'window.open('http://plus2vers.fr/, '_system', 'location=yes');\'  >http://plus2vers.fr/</a>",
+      "descr_en":"Exchange earthworms and advice on vermicomposting, mainly in the Nantes region.<BR/>(Earthworms for vermicomposting are utiliisés)<BR/><img src='resources/images/nantes/logo_plus2vers.png' /><BR/>website that allows to link (free) for people who want to exchange earthworms.<BR/>Locate on a map earthworms donors and contact them by simply sending them an email < br /> Here you will find useful tips for success with his Vermicomposter<BR/>300 donors on the map<BR/>end of 2014. See the website <a href=\'javascript:void(0);\' onclick=\'window.open('http://plus2vers.fr', '_system', 'location=yes');\' >http://plus2vers.fr</a>",
+      "bouton":"fiche",
+      "image":"nantes/logo_plus2vers.png",
+      "mots_cles":"plus2vers,echange,lombrics",
+      "mots_cles_en":"recovery,medicine",
+      "urls":"http://plus2vers.fr"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_medicament",
@@ -228,7 +369,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"medicaments_mini.png",
       "mots_cles":"recuperation,medicaments",
+<<<<<<< HEAD
       "mots_cles_en":"recovery,medicine"
+=======
+      "mots_cles_en":"getbags,yellow,andblue"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_plusieurstrisac",
@@ -239,7 +384,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"distributeur_trisac_mini.png",
       "mots_cles":"recuperer,sacs,jaunes,bleus",
+<<<<<<< HEAD
       "mots_cles_en":"getbags,yellow,andblue"
+=======
+      "mots_cles_en":"recycling,steel"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_acier",
@@ -250,18 +399,31 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"aerosol_mini.png",
       "mots_cles":"recyclage,acier",
+<<<<<<< HEAD
       "mots_cles_en":"recycling,steel"
+=======
+      "mots_cles_en":"recyclingincompany"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_recyclage_entreprse",
       "nom":"Recyclage en entreprise",
       "nom_en":"Recycling company",
+<<<<<<< HEAD
       "descr":"Nous détaillons ici uniquement les solutions nantaises dédiées aux entreprises : <B>ARBRES</B>L'association nantaise <b>A.R.B.R.E.S.</b> a 2 objectifs : récupérer certains déchets (surtout le papier et le carton, mais aussi cartouches d'encre et matériel electronique) et accompagner les bénéficiaires du RMI qui travaillent pour l'association. Elle dispose des récipients dans les entreprises, et s'occupe complètement . Plus d'infos sur <a href='openHrefLink(http://arbres44.org'target=_new >http://arbres44.org</a>.<br/><img src='images/images_non_libres/association_arbres.png' /><br/><br/><B>Solution Recyclage</B>Propose des solutions pour les entreprises : récupère plus de quarante déchets différents. Le papier, le carton, les bouteilles, la moquette, mais aussi les gobelets.<br/>Adresse : 181 Quai Emile Cormerais, 44800 Saint-Herblain<br/>Téléphone : 02 53 55 07 17<img src='images/nantes/logo_solutionrecyclage.png' /><br/><br/><B>Paprec</B>Paprec Group (parfois appelée Paprec Recyclage) est une société française de collecte et recyclage de déchets industriels et ménagers. Son site nantais est très actif. Ils récupèrent dans les entreprises tous les déchets, et gèrent la chaîne de bout en bout.",
       "descr_en":"The association Nantes <b> TREES </b> has two objectives: to recover certain waste (Surtour paper and cardboard, but also ink cartridges and electronic equipment) and support RMI recipients who work for the association. It has containers in businesses, and handles completely. More information <a href='openHrefLink(http://arbres44.org'> http://arbres44.org </a>.<BR/><img src='images/nantes/association_arbres.png' /><BR/>",
       "bouton":"fiche",
       "image":"nantes/association_arbres_mini.png",
       "mots_cles":"recyclage,en,entreprise",
       "mots_cles_en":"recyclingincompany"
+=======
+      "descr":"Nous détaillons ici uniquement les solutions nantaises dédiées aux entreprises : <B>ARBRES</B>L'association nantaise <b>A.R.B.R.E.S.</b> a 2 objectifs : récupérer certains déchets (surtout le papier et le carton, mais aussi cartouches d'encre et matériel electronique) et accompagner les bénéficiaires du RMI qui travaillent pour l'association. Elle dispose des récipients dans les entreprises, et s'occupe complètement . Plus d'infos sur <a href=\'javascript:void(0);\' onclick=\'window.open('http://arbres44.org'target=_new >http://arbres44.org</a>.<br/><img src='images/images_non_libres/association_arbres.png' /><br/><br/><B>Solution Recyclage</B>Propose des solutions pour les entreprises : récupère plus de quarante déchets différents. Le papier, le carton, les bouteilles, la moquette, mais aussi les gobelets.<br/>Adresse : 181 Quai Emile Cormerais, 44800 Saint-Herblain<br/>Téléphone : 02 53 55 07 17<img src='images/nantes/logo_solutionrecyclage.png' /><br/><br/><B>Paprec</B>Paprec Group (parfois appelée Paprec Recyclage) est une société française de collecte et recyclage de déchets industriels et ménagers. Son site nantais est très actif. Ils récupèrent dans les entreprises tous les déchets, et gèrent la chaîne de bout en bout.",
+      "descr_en":"The association Nantes <b> TREES </b> has two objectives: to recover certain waste (Surtour paper and cardboard, but also ink cartridges and electronic equipment) and support RMI recipients who work for the association. It has containers in businesses, and handles completely. More information <a href=\'javascript:void(0);\' onclick=\'window.open('http://arbres44.org'> http://arbres44.org </a>.<BR/><img src='images/nantes/association_arbres.png' /><BR/>",
+      "bouton":"fiche",
+      "image":"nantes/association_arbres_mini.png",
+      "mots_cles":"recyclage,en,entreprise",
+      "mots_cles_en":"recyclingplastic"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_pet",
@@ -272,7 +434,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"bouteille_transparente_mini.png",
       "mots_cles":"recyclage,plastique",
+<<<<<<< HEAD
       "mots_cles_en":"recyclingplastic"
+=======
+      "mots_cles_en":"recycling,tetrapak"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_tetrapak",
@@ -283,7 +449,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"brique_lait_mini.png",
       "mots_cles":"recyclage,tetrapak,brique",
+<<<<<<< HEAD
       "mots_cles_en":"recycling,tetrapak"
+=======
+      "mots_cles_en":"recyclingglass"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_verre",
@@ -294,7 +464,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"bocal_verre_mini.png",
       "mots_cles":"recyclage,verre",
+<<<<<<< HEAD
       "mots_cles_en":"recyclingglass"
+=======
+      "mots_cles_en":"reuse,bike,transformeurs,atao,place,autour"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_velo",
@@ -305,7 +479,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"veloenfant_mini.png",
       "mots_cles":"reemploi,velo,transformeurs,atao,place,autour",
+<<<<<<< HEAD
       "mots_cles_en":"reuse,bike,transformeurs,atao,place,autour"
+=======
+      "mots_cles_en":"recovery,stores"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_reprise",
@@ -316,7 +494,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"telephone_mini.png",
       "mots_cles":"reprise,magasins",
+<<<<<<< HEAD
       "mots_cles_en":"recovery,stores"
+=======
+      "mots_cles_en":"bags,yellow,blue"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_sacjaune",
@@ -327,9 +509,25 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/sacs_jaune_et_bleu.png",
       "mots_cles":"sacs,jaunes,bleus",
+<<<<<<< HEAD
       "mots_cles_en":"bags,yellow,blue"
    },
 
+=======
+      "mots_cles_en":"solution,recyclage,company"
+   },
+   {
+      "code":"fiche_solutionrecyclage",
+      "nom":"Solution recyclage",
+      "nom_en":"Solution recyclage",
+      "descr":"Propose des solutions pour les entreprises : récupère plus de quarante déchets différents. Le papier, le carton, les bouteilles, la moquette, mais aussi les gobelets.<br/>Adresse : 181 Quai Emile Cormerais, 44800 Saint-Herblain<br/>Téléphone : 02 53 55 07 17",
+      "descr_en":"Offers solutions for companies: recovers over forty different wastes. Paper, cardboard, bottles, carpets, but also cups<BR/>. Address: 181 Quai Emile Cormerais, 44800 Saint-Herblain<BR/>Phone 02 53 55 July 17",
+      "bouton":"fiche",
+      "image":"nantes/logo_solutionrecyclage.png",
+      "mots_cles":"solution,recyclage,entreprise",
+      "mots_cles_en":"allo,allonantes,proximity,telephone,phone,call,doubt,question"
+   },
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    {
       "code":"fiche_telephone",
       "nom":"Numéros de téléphones",
@@ -339,7 +537,11 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"phone_black.png",
       "mots_cles":"allo,allonantes,proximite,telephone,tel,appeler,doute,question",
+<<<<<<< HEAD
       "mots_cles_en":"allo,allonantes,proximity,telephone,phone,call,doubt,question"
+=======
+      "mots_cles_en":"factory,arc,ciel,coueron"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_arcenciel",
@@ -350,17 +552,31 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/usine_arcenciel_mini.png",
       "mots_cles":"usine,arc,ciel,arc,ciel,coueron",
+<<<<<<< HEAD
       "mots_cles_en":"factory,arc,ciel,coueron"
+=======
+      "mots_cles_en":"factory,valorena"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    },
    {
       "code":"fiche_valorena",
       "nom":"Usine Valorena",
       "nom_en":"Valorena factory ",
+<<<<<<< HEAD
       "descr":"<IMG SRC='resources/images/nantes/usine_valorena.jpg' ALIGN='left' /><br/>Cette usine d'incinération d'ordures ménagères  a été mise en service en octobre 1987, elle alimente un réseau de chauffage urbain grâce à l'énergie récupérée lors de la combustion des déchets.<BR/><BR/>Elle est situé à proximité de la route Nantes, Angers (au bord de la voie SNCF)<BR/><BR/>Consultez le site Internet : <A href='openHrefLink(http://www.novergie.fr/page/groupe/usines/usine.php?id=34' TARGET='NEW' >valorena</A><br/><A href='openHrefLink(http://www.youtube.com/watch?v=H69lhVN7QXE' target='_blank'>Vidéo de présentation (3 minutes)</A><br/>Des visites de l'usine sont proposées toutes l'année.",
       "descr_en":"<IMG src='resources/images/nantes/usine_valorena.jpg' align='left' /><BR/>This incinerator household waste was commissioned in October 1987, it feeds a heating network Urban thanks to the energy recovered during waste combustion.<BR/><BR/>It is located near the road Nantes, Angers (along the train route)<BR/><BR/>Check Website: <A href='openHrefLink(http://www.novergie.fr/page/groupe/usines/usine.php?id=34' TARGET='NEW'> valorena </A><BR/><A href='openHrefLink(http://www.youtube.com/watch?v=H69lhVN7QXE' target='_blank'> Overview Video (3 minutes) </A><BR/>Tours of the factory are offered all the year.",
       "bouton":"fiche",
       "image":"nantes/usine_valorena.png",
       "mots_cles":"usine,valorena",
       "mots_cles_en":"factory,valorena"
+=======
+      "descr":"<IMG SRC='resources/images/nantes/usine_valorena.jpg' ALIGN='left' /><br/>Cette usine d'incinération d'ordures ménagères  a été mise en service en octobre 1987, elle alimente un réseau de chauffage urbain grâce à l'énergie récupérée lors de la combustion des déchets.<BR/><BR/>Elle est situé à proximité de la route Nantes, Angers (au bord de la voie SNCF)<BR/><BR/>Consultez le site Internet : <A href=\'javascript:void(0);\' onclick=\'window.open('http://www.novergie.fr/page/groupe/usines/usine.php?id=34', '_system', 'location=yes');\' >valorena</A><br/><A href=\'javascript:void(0);\' onclick=\'window.open('http://www.youtube.com/watch?v=H69lhVN7QXE', '_system', 'location=yes');\'>Vidéo de présentation (3 minutes)</A><br/>Des visites de l'usine sont proposées toutes l'année.",
+      "descr_en":"<IMG src='resources/images/nantes/usine_valorena.jpg' align='left' /><BR/>This incinerator household waste was commissioned in October 1987, it feeds a heating network Urban thanks to the energy recovered during waste combustion.<BR/><BR/>It is located near the road Nantes, Angers (along the train route)<BR/><BR/>Check Website: <A href=\'javascript:void(0);\' onclick=\'window.open('http://www.novergie.fr/page/groupe/usines/usine.php?id=34', '_system', 'location=yes');\'> valorena </A><BR/><A href=\'javascript:void(0);\' onclick=\'window.open('http://www.youtube.com/watch?v=H69lhVN7QXE', '_system', 'location=yes');\'> Overview Video (3 minutes) </A><BR/>Tours of the factory are offered all the year.",
+      "bouton":"fiche",
+      "image":"nantes/usine_valorena.png",
+      "mots_cles":"usine,valorena",
+      "mots_cles_en":"factory,valorena",
+      "urls":"http://www.youtube.com/watch?v=H69lhVN7QXE"
+>>>>>>> f009fc3b2cf0fc66fd2b77ab2e52b68b02f2ab43
    }
 ,{} ];
