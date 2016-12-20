@@ -24,7 +24,12 @@ angular.module('starter.controllers')
 	$scope.translatevalues = {
 		descr : $scope.fiche.descr
 	};
-	
+
+	if ($scope.fiche.urls) {
+			$scope.lstUrls = $scope.fiche.urls.split(",");
+	} else {
+			$scope.lstUrls = [];
+	}
 	 // Open Link
 	 $scope.openHrefLink = function(url) {
 		 window.open(url, '_system', 'location=yes');

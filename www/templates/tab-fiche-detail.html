@@ -9,6 +9,10 @@
 
       <p><span ng-bind-html="fiche.descr"></span></p>
         
+
+		<div ng-show="lstUrls.length>0" class="item" >
+    {{'plus_d_infos'|translate}} : <a ng-repeat="url in lstUrls" ng-click="openHrefLink('{{::url}}')">{{url}}</a>
+		</div>
   </div>
       
   </ion-content>

@@ -169,7 +169,7 @@ var _ihmLabelsFrDatas = {
 	"langue_actuelle": "Français",
 	"jeux": "Jeux",
 	"config": "Paramètres",
-	"alert_collectmodsfilter": "Pensez à configurer votre adresse, pour avoir les modes de collectes qui vous correspondent.",
+	"alert_collectmodsfilter": "Pensez à configurer votre adresse, pour avoir uniquement vos modes de collectes.",
 	"configurez_selon_votre_adresse": "Configurez selon votre adresse",
 	"donnez_votre_rue": "Indiquez votre rue",
 	"donnez_votre_rue_placeholder": "hollande",
