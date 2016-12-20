@@ -24,7 +24,7 @@
   <div class="card" ng-show="resultsLength >= 0">
 		<div class="item item-divider item-calm" ng-click="onToggleObject()">{{'results'|translate}} <span ng-bind="'(' + (resultsLength) + ')'"></span></div>
 <div  ng-show="toggleObject>0">
-		<a class="item item-thumbnail-left"  ng-repeat="item in resultsGarbages | limitTo:maxDisplayResults" ng-href="#/tab/dechet/detail/{{::item.code}}">
+		<a class="item item-thumbnail-left"  ng-repeat="item in resultsGarbages | limitTo:maxDisplayResults" ng-href="#/tab/home/dechet/{{::item.code}}">
 					<img ng-src="resources/images/{{::item.image}}"/>
 					{{::item.nom}} <br>
 					<span style="color:#666">{{::item.type}}</span>

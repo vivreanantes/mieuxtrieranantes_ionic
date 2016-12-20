@@ -72,4 +72,11 @@ function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, 
 	$scope.onToggleObject = function() {
 		$scope.toggleObject = -($scope.toggleObject);
 	}
+	
+	 // Open Link
+	 $scope.openHrefLink = function(url) {
+		 window.open(url, '_system', 'location=yes');
+		 return false;
+	 }	
+
 });

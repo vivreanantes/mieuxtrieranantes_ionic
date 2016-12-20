@@ -22,7 +22,12 @@ angular.module('starter.controllers')
 	$scope.fiche = fiche;
 
 	$scope.translatevalues = {
-							descr : $scope.fiche.descr
-						};
+		descr : $scope.fiche.descr
+	};
 	
+	 // Open Link
+	 $scope.openHrefLink = function(url) {
+		 window.open(url, '_system', 'location=yes');
+		 return false;
+	 }	
 });

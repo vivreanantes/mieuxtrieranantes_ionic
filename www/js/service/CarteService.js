@@ -46,13 +46,14 @@ angular.module('starter.controllers')
       };
       // var listModesCollecte = structure.modesCollecte.split(",");
       if (structure.modesCollecte.indexOf("smco_conteneurlerelais,") >= 0) {
-        iconCustom.iconUrl="/img/marker-red.png";
+        iconCustom.iconUrl="resources/icons/marker-icon-yellow.png";
       } else if ( structure.modesCollecte.indexOf("modco_contembjournmag") >= 0 ||
                   structure.modesCollecte.indexOf("modco_contverre") >= 0 ||
                   structure.modesCollecte.indexOf("marker_verre_carton") >= 0) {
-        iconCustom.iconUrl="/img/marker_verre_carton_plastique.png";        
+        iconCustom.iconUrl="resources/icons/marker-icon-blue.png";
+        // /img/marker_verre_carton_plastique.png
       } else {
-        iconCustom.iconUrl="/img/marker-red.png";
+        iconCustom.iconUrl="resources/icons/marker-icon-red.png";
       }
 
       return iconCustom;
@@ -143,7 +144,7 @@ angular.module('starter.controllers')
                  lng: parseFloat(container.longitude), //IMPORTANT : données origine de type string !                
                  message: popuptext,
                  //layer: 'markerLayer',
-                 icon: iconMapper(container)
+                 hoicon: iconMapper(container)
             };
         
             leafletContainers[container.code] = leafletContainer;

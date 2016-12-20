@@ -71,6 +71,16 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
   })
   
+  .state('tab.home.dechet', {
+    url: '/home/dechet/:code',
+    views: {
+        'menuContent': {
+          templateUrl: 'templates/tab-dechet-detail.html',
+          controller: 'DechetDetailCtrl'
+        }
+      }
+  })
+  
   .state('tab.dechet-cat', {
     url: '/dechet/cat',
     views: {
