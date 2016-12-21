@@ -63,6 +63,19 @@ var myCtrl = angular.module('starter.controllers');
 		// On récupère les modes de collecte
 		if (dechet.hasOwnProperty('modco')) {
 			$scope.modesDeCollecte = RechercheService.getModeDeCollectes(dechet.modco);
+
+			  for (var k = 0; k < $scope.modesDeCollecte.length; k++) {
+				if (typeof $scope.modesDeCollecte[0].colFiches !== 'undefined') {
+					$scope.modesDeCollecte[k].lstFiches = $scope.modesDeCollecte[k].colFiches.split(",");
+				} else {
+					$scope.modesDeCollecte[k].lstFiches = [];
+				}
+				if (typeof $scope.modesDeCollecte[0].colLieux !== 'undefined') {
+					$scope.modesDeCollecte[k].lstLieux = $scope.modesDeCollecte[k].colLieux.split(",");
+				} else {
+					$scope.modesDeCollecte[k].lstLieux = [];
+				}
+			}
 		}
 
 			//Array modes collectes (split de la chaine)
