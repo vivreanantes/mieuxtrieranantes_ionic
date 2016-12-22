@@ -40,10 +40,13 @@ angular.module('starter.controllers').controller(
 				ParamService.setValueInLocalStorage("collectmodsfilter", mco);
 				var mco_filter_not = "";
 				if (mco === "modco_bacbleu,modco_bacjaunnantes") {
-					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaune"
+					// bac nantes : retire sacs, bac jaune, bacs bleus hors nantes
+					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaune,modco_bacblehorsnantes"
 				} else if (mco === "modco_bacbleu,modco_bacjaune") {
-					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaunnantes,modco_bacblehorsnantes"
+					// bac hors nantes : retire sacs, bacs jaunes hors nantes, bacs bleus
+					mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaunnantes,modco_bacbleu"
 				} else if (mco === "modco_sacjaune,modco_sacbleu") {
+					// trisac : retire bacs bleus, bacs jaunes nantes, bacs jaunes hors nantes, bacs bleus hors nantes
 					mco_filter_not = "modco_bacbleu,modco_bacjaunnantes,modco_bacjaune,modco_bacblehorsnantes"
 				}
 				ParamService.setValueInLocalStorage("mco_filter_not",

@@ -21,23 +21,23 @@
         {{'nom_translated'|translate:modeDeCollecte}}<br/>
 				<!-- ng-show="toggleObject.item == $index"  -->
           <div class="description" class="mode-collecte-info" ng-show="toggleObject[[$index]]>0">
-              <p ng-bind-html="modeDeCollecte.descr" class="mtn-nowrap"></p><span></span>
+              <p ng-bind-html="modeDeCollecte.descr" class="mtn-nowrap"></p>
 							<!-- <div ng-show="modeDeCollecte.lstFiches.length>0" class="item" >
 							  {{'plus_d_infos'|translate}} : <a ng-repeat="url in modeDeCollecte.lstFiches" ng-href="{{::url}}">{{url}}</a>
 							</div> -->
           </div>
     </a>
 
+  	<div class="item item-divider mtn-nowrap">
+        <b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}
+		</div>
 	</div>
+	
 	 <div class="list card">
 
     <div class="item item-divider item-calm">
       	 {{'informations'|translate}}
     </div>
-
-  	<div class="item item-divider mtn-nowrap">
-        <b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}
-		</div>
 
     <div class="item item-icon-left" ng-repeat="conseil in conseils">
       <i class="icon ion-information-circled"></i>

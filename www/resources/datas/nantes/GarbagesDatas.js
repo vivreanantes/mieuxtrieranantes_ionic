@@ -231,7 +231,7 @@ var _garbagesDatas = [
       "mots_cles_en":"polystyrene,plastic,tray,tray,",
       "cons":"cons_pasuniquementbouteilleflacon",
       "image":"barquette_polystyrene_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -315,7 +315,7 @@ var _garbagesDatas = [
       "mots_cles_en":"plastic,egg,carton,",
       "cons":"cons_pasuniquementbouteilleflacon",
       "image":"boite_a_oeufs_plastique_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -568,7 +568,7 @@ var _garbagesDatas = [
       "mots_cles_en":"household,product,bottles,not,empty,",
       "cons":"cons_bouchon,cons_bouchonamour,cons_pasuniquementbouteilleflacon",
       "image":"images_non_libres_temp/bouteille_produit_menager_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -818,6 +818,7 @@ var _garbagesDatas = [
       "descr_en":"shoe in good condition, in good condition bote",
       "mots_cles":"chaussure,bon,etat,bote,bon,etat,",
       "mots_cles_en":"shoe,in,good,condition,in,good,condition,bote,",
+      "cons":"cons_lerelais",
       "image":"chaussures_mini.png",
       "modco":"smco_conteneurlerelais,smco_reempvet",
       "recyc":"NON",
@@ -1223,7 +1224,7 @@ var _garbagesDatas = [
       "mots_cles_en":"plastic,film,",
       "cons":"cons_pasuniquementbouteilleflacon",
       "image":"film_plastique_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -1543,6 +1544,7 @@ var _garbagesDatas = [
       "descr_en":"wool",
       "mots_cles":"laine,",
       "mots_cles_en":"wool,",
+      "cons":"cons_lerelais",
       "image":"pelotes_laine_mini.png",
       "image_secondaire":"images_non_libres_temp/bouteille_produit_menager_mini.png",
       "modco":"smco_conteneurlerelais,smco_reempvet",
@@ -2118,7 +2120,8 @@ var _garbagesDatas = [
       "image_secondaire":"morceaux_de_bois_mini.png",
       "modco":"modco_decheterie",
       "recyc":"PAS_POUBELLE",
-      "src":"MieuxTrierANantes 02/2015"
+      "src":"MieuxTrierANantes 02/2015",
+      "sponsor":"Stations Services"
    },
    {"code":"dec_plante",
       "type":"Ressource / objet usagé",
@@ -2167,7 +2170,7 @@ var _garbagesDatas = [
       "mots_cles_en":"polystyrene,polystyrene,tray,",
       "cons":"cons_pasuniquementbouteilleflacon",
       "image":"polystyrene_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -2202,7 +2205,7 @@ var _garbagesDatas = [
       "mots_cles_en":"cream,pot,",
       "cons":"cons_bouchonamour,cons_pasuniquementbouteilleflacon",
       "image":"pot_creme_fraiche_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -2254,7 +2257,7 @@ var _garbagesDatas = [
       "mots_cles_en":"yoghurt,pot,",
       "cons":"cons_pasuniquementbouteilleflacon",
       "image":"yaourt_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015",
       "sponsor":"remigs"
@@ -2475,7 +2478,7 @@ var _garbagesDatas = [
       "mots_cles_en":"plastic,bag,",
       "cons":"cons_pasuniquementbouteilleflacon",
       "image":"sac_plastique_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -2526,7 +2529,7 @@ var _garbagesDatas = [
       "mots_cles_en":"pen,pencil,",
       "cons":"cons_pasuniquementbouteilleflacon",
       "image":"crayon_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -2660,7 +2663,7 @@ var _garbagesDatas = [
       "mots_cles_en":"garden,hose,",
       "cons":"cons_pasuniquementbouteilleflacon",
       "image":"tuyau_arrosage_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 02/2015"
    },
@@ -2709,7 +2712,7 @@ var _garbagesDatas = [
       "mots_cles_en":"plastic,tableware,plastic,cup,plastic,cover,plastic,knife,plastic,fork,plastic,spoon,",
       "cons":"cons_remplacergobelet,cons_vaissellebiodegradable,cons_pasuniquementbouteilleflacon",
       "image":"gobelet_plastique_mini.png",
-      "modco":"modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
+      "modco":"modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
       "recyc":"OUI_ET_NON",
       "src":"MieuxTrierANantes 14/2014"
    },
@@ -2760,6 +2763,7 @@ var _garbagesDatas = [
       "descr_en":"Clothing,pants, shirt, sweater, jacket, skirt, dress",
       "mots_cles":"vetement,bon,etat,pantalon,chemise,pull,veste,jupe,robe,",
       "mots_cles_en":"clothing,pants,shirt,sweater,jacket,skirt,dress,",
+      "cons":"cons_lerelais",
       "image":"chemise_mini.png",
       "modco":"smco_conteneurlerelais,smco_reempvet",
       "recyc":"NON",
@@ -2776,6 +2780,7 @@ var _garbagesDatas = [
       "descr_en":"Clothing,pants, shirt, sweater, jacket, skirt, dress",
       "mots_cles":"vetement,usage,vetement,mauvais,etat,pantalon,chemise,pull,veste,jupe,robe,",
       "mots_cles_en":"clothing,pants,shirt,sweater,jacket,skirt,dress,",
+      "cons":"cons_lerelais,",
       "image":"jean_usage_mini.png",
       "modco":"modco_bacbleu,modco_sacbleu",
       "recyc":"NON",

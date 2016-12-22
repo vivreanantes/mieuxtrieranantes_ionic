@@ -74,14 +74,15 @@
 	  <div class="col">Source : <i>{{structure.src}}</i></div>
   </div>
 
-  <div nh-show="structure.debug" style="color:blue">{{'debug_mots_cles'|translate}} : {{structure.mots_cles}}
-  <span ng-show="structure.adresseTemp==null"><br/>Pour ce lieu il n'y a pas de : adresseTemp</span>
-  <span ng-show="structure.email==null"><br/>Pour ce lieu il n'y a pas de : email</span>
-	<span ng-show="structure.url==null"><br/>Pour ce lieu il n'y a pas de : url</span>
-	<span ng-show="structure.facebook==null"><br/>Pour ce lieu il n'y a pas de : facebook</span>
-	<span ng-show="structure.googleplus==null"><br/>Pour ce lieu il n'y a pas de : googleplus</span>
-	<span ng-show="structure.twitter==null"><br/>Pour ce lieu il n'y a pas de : twitter</span>
+  <div nh-show="structure.debug && isNavigator" style="color:blue">{{'debug_mots_cles'|translate}} : {{structure.mots_cles}}
+	  <span ng-show="structure.adresseTemp==null"><br/>Pour ce lieu il n'y a pas de : adresseTemp</span>
+    <span ng-show="structure.email==null"><br/>Pour ce lieu il n'y a pas de : email</span>
+	  <span ng-show="structure.url==null"><br/>Pour ce lieu il n'y a pas de : url</span>
+  	<span ng-show="structure.facebook==null"><br/>Pour ce lieu il n'y a pas de : facebook</span>
+  	<span ng-show="structure.googleplus==null"><br/>Pour ce lieu il n'y a pas de : googleplus</span>
+  	<span ng-show="structure.twitter==null"><br/>Pour ce lieu il n'y a pas de : twitter</span>
 	</div>
-      
+	
+  <br/><br/><br/>
   </ion-content>
 </ion-view>
