@@ -71,6 +71,26 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
   })
   
+	.state('tab.home-dechet-detail', {
+		url: '/home/dechet-detail/:code',
+		views: {
+			'tab-home': {
+				templateUrl: 'templates/tab-dechet-detail.html',
+				controller: 'DechetDetailCtrl'
+			}
+		}
+	})
+
+	.state('tab.home-lieu-detail', {
+		url: '/home/lieu-detail/:code',
+		views: {
+			'tab-home': {
+				templateUrl: 'templates/tab-lieu-detail.html',
+				controller: 'LieuDetailCtrl'
+			}
+		}
+	})
+	
   .state('tab.home.dechet', {
     url: '/home/dechet/:code',
     views: {
