@@ -1429,8 +1429,8 @@ var _containersDatas = [{
 	}, {
 		"code": "stco_conteneur_VE0930",
 		"adresseTemp": "Rue Annie Hure 44230 St-Sébastien-sur-Loire",
-		"latitude": "47.2050235870175",
-		"longitude": "-1.4997140344728",
+		"latitude": "47.1896552",
+		"longitude": "-1.5641083000000435",
 		"src": "OpenDataNantes 09/2016 ",
 		"type": "Conteneur verre",
 		"modesCollecte": ",modco_contverre",
@@ -25187,8 +25187,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,216567",
-		"longitude": "-1,466988",
+		"latitude": "47.216567",
+		"longitude": "-1.466988",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25202,8 +25202,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,141605",
-		"longitude": "-1,688792",
+		"latitude": "47.141605",
+		"longitude": "-1.688792",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25217,8 +25217,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,15593",
-		"longitude": "-1,681448",
+		"latitude": "47.15593",
+		"longitude": "-1.681448",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25232,8 +25232,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,174762",
-		"longitude": "-1,609643",
+		"latitude": "47.174762",
+		"longitude": "-1.609643",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25247,8 +25247,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,174515",
-		"longitude": "-1,62393",
+		"latitude": "47.174515",
+		"longitude": "-1.62393",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25262,8 +25262,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,18065",
-		"longitude": "-1,579425",
+		"latitude": "47.18065",
+		"longitude": "-1.579425",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25277,8 +25277,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,180882",
-		"longitude": "-1,588231",
+		"latitude": "47.180882",
+		"longitude": "-1.588231",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25292,8 +25292,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,17697",
-		"longitude": "-1,61421",
+		"latitude": "47.17697",
+		"longitude": "-1.61421",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25307,8 +25307,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,187287",
-		"longitude": "-1,587384",
+		"latitude": "47.187287",
+		"longitude": "-1.587384",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25322,8 +25322,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,175091",
-		"longitude": "-1,5857",
+		"latitude": "47.175091",
+		"longitude": "-1.5857",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25337,8 +25337,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "2",
-		"latitude": "47,168614",
-		"longitude": "-1,719921",
+		"latitude": "47.168614",
+		"longitude": "-1.719921",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25352,8 +25352,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "2",
-		"latitude": "47,234908",
-		"longitude": "-1,666844",
+		"latitude": "47.234908",
+		"longitude": "-1.666844",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25367,8 +25367,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,211191",
-		"longitude": "-1,719866",
+		"latitude": "47.211191",
+		"longitude": "-1.719866",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25382,8 +25382,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "2",
-		"latitude": "47,216079",
-		"longitude": "-1,685009",
+		"latitude": "47.216079",
+		"longitude": "-1.685009",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25397,8 +25397,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,21561",
-		"longitude": "-1,678565",
+		"latitude": "47.21561",
+		"longitude": "-1.678565",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25412,8 +25412,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,279782",
-		"longitude": "-1,557147",
+		"latitude": "47.279782",
+		"longitude": "-1.557147",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25427,8 +25427,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "2",
-		"latitude": "47,284695",
-		"longitude": "-1,551252",
+		"latitude": "47.284695",
+		"longitude": "-1.551252",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25442,8 +25442,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,187686",
-		"longitude": "-1,683135",
+		"latitude": "47.187686",
+		"longitude": "-1.683135",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25457,8 +25457,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,187087",
-		"longitude": "-1,68772",
+		"latitude": "47.187087",
+		"longitude": "-1.68772",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25472,8 +25472,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,189839",
-		"longitude": "-1,684207",
+		"latitude": "47.189839",
+		"longitude": "-1.684207",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25487,8 +25487,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,198203",
-		"longitude": "-1,754081",
+		"latitude": "47.198203",
+		"longitude": "-1.754081",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25502,8 +25502,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,313202",
-		"longitude": "-1,411112",
+		"latitude": "47.313202",
+		"longitude": "-1.411112",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25517,8 +25517,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,256595",
-		"longitude": "-1,512939",
+		"latitude": "47.256595",
+		"longitude": "-1.512939",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25532,8 +25532,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,225771",
-		"longitude": "-1,503966",
+		"latitude": "47.225771",
+		"longitude": "-1.503966",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25547,8 +25547,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "2",
-		"latitude": "47,200967",
-		"longitude": "-1,571585",
+		"latitude": "47.200967",
+		"longitude": "-1.571585",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25562,8 +25562,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,253997",
-		"longitude": "-1,523433",
+		"latitude": "47.253997",
+		"longitude": "-1.523433",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25577,8 +25577,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,198379",
-		"longitude": "-1,601848",
+		"latitude": "47.198379",
+		"longitude": "-1.601848",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25592,8 +25592,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,225424",
-		"longitude": "-1,591564",
+		"latitude": "47.225424",
+		"longitude": "-1.591564",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25607,8 +25607,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,222283",
-		"longitude": "-1,564918",
+		"latitude": "47.222283",
+		"longitude": "-1.564918",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25622,8 +25622,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,257051",
-		"longitude": "-1,633487",
+		"latitude": "47.257051",
+		"longitude": "-1.633487",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25637,8 +25637,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "3",
-		"latitude": "47,159805",
-		"longitude": "-1,535079",
+		"latitude": "47.159805",
+		"longitude": "-1.535079",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25652,8 +25652,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "2",
-		"latitude": "47,193004",
-		"longitude": "-1,572563",
+		"latitude": "47.193004",
+		"longitude": "-1.572563",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25667,8 +25667,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,127206",
-		"longitude": "-1,630765",
+		"latitude": "47.127206",
+		"longitude": "-1.630765",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25682,8 +25682,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "2",
-		"latitude": "47,247162",
-		"longitude": "-1,608473",
+		"latitude": "47.247162",
+		"longitude": "-1.608473",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25697,8 +25697,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,226644",
-		"longitude": "-1,616787",
+		"latitude": "47.226644",
+		"longitude": "-1.616787",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25712,8 +25712,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,238183",
-		"longitude": "-1,598048",
+		"latitude": "47.238183",
+		"longitude": "-1.598048",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25727,8 +25727,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,211178",
-		"longitude": "-1,617295",
+		"latitude": "47.211178",
+		"longitude": "-1.617295",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25742,8 +25742,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,218384",
-		"longitude": "-1,608025",
+		"latitude": "47.218384",
+		"longitude": "-1.608025",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25757,8 +25757,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,213531",
-		"longitude": "-1,648381",
+		"latitude": "47.213531",
+		"longitude": "-1.648381",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25772,8 +25772,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,206197",
-		"longitude": "-1,614961",
+		"latitude": "47.206197",
+		"longitude": "-1.614961",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25787,8 +25787,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,207772",
-		"longitude": "-1,659269",
+		"latitude": "47.207772",
+		"longitude": "-1.659269",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25802,8 +25802,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,224918",
-		"longitude": "-1,612651",
+		"latitude": "47.224918",
+		"longitude": "-1.612651",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25817,8 +25817,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,192693",
-		"longitude": "-1,725339",
+		"latitude": "47.192693",
+		"longitude": "-1.725339",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25832,8 +25832,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,135717",
-		"longitude": "-1,732269",
+		"latitude": "47.135717",
+		"longitude": "-1.732269",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25847,8 +25847,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "4",
-		"latitude": "47,19206",
-		"longitude": "-1,495526",
+		"latitude": "47.19206",
+		"longitude": "-1.495526",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25862,8 +25862,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,198648",
-		"longitude": "-1,527197",
+		"latitude": "47.198648",
+		"longitude": "-1.527197",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25877,8 +25877,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,195963",
-		"longitude": "-1,488662",
+		"latitude": "47.195963",
+		"longitude": "-1.488662",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25892,8 +25892,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,209336",
-		"longitude": "-1,487174",
+		"latitude": "47.209336",
+		"longitude": "-1.487174",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25907,7 +25907,7 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,192852",
+		"latitude": "47.192852",
 		"longitude": "1,493267",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
@@ -25922,8 +25922,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,274951",
-		"longitude": "-1,467053",
+		"latitude": "47.274951",
+		"longitude": "-1.467053",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25937,8 +25937,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "2",
-		"latitude": "47,264746",
-		"longitude": "-1,679711",
+		"latitude": "47.264746",
+		"longitude": "-1.679711",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25952,8 +25952,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,179804",
-		"longitude": "-1,501874",
+		"latitude": "47.179804",
+		"longitude": "-1.501874",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25967,8 +25967,8 @@ var _containersDatas = [{
 		"modesCollecte": "smco_conteneurlerelais",
 		"type": "Conteneur vêtements",
 		"adresseTemp": "1",
-		"latitude": "47,178547",
-		"longitude": "-1,460528",
+		"latitude": "47.178547",
+		"longitude": "-1.460528",
 		"src": "Données envoyées par Le Relais Atlantique le 11/2016, ",
 		"descr": "Tissus secs, propres ou sales, mis dans des sacs plastiques.",
 		"image": "conteneur_le_relais_instructions_mini.png",
@@ -25977,7 +25977,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Conteneur vêtements<br/><i>Source : Le Relais Atlantique le 11/2016</i>",
 		"cartePopuptext_en": "Conteneur vêtements<br/><i>Source : Le Relais Atlantique le 11/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp1",
 		"latitude": "47.309189",
 		"longitude": "-1.550442",
 		"type": "Composteur collectif ouvert au quartier",
@@ -25992,7 +25992,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp2",
 		"latitude": "47.440246,",
 		"longitude": " -1.497247",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26007,7 +26007,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp3",
 		"latitude": "47.363990",
 		"longitude": "-1.601683",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26022,7 +26022,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp4",
 		"latitude": "47.205462",
 		"longitude": "47.205462",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26037,7 +26037,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp5",
 		"latitude": "47.252164",
 		"longitude": "-1.545310",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26052,7 +26052,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp6",
 		"latitude": "47.208352",
 		"longitude": "-1.600441",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -26067,7 +26067,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp7",
 		"latitude": "47.239860",
 		"longitude": "-1.540975",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -26082,7 +26082,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp9",
 		"latitude": "47.205596",
 		"longitude": "-1.607506",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -26097,7 +26097,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp10",
 		"latitude": "47.244386",
 		"longitude": "-1.617706",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26112,7 +26112,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp11",
 		"latitude": "47.234700",
 		"longitude": "-1.600595",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26127,7 +26127,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp12",
 		"latitude": "47.202082",
 		"longitude": "-1.604951",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26142,7 +26142,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp13",
 		"latitude": "47.1978782",
 		"longitude": "-1.5302229000000125",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26157,7 +26157,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp14",
 		"latitude": "47.191035",
 		"longitude": "-1.521222",
 		"type": "Composteur collectif sur des jardins collectifs",
@@ -26172,7 +26172,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp15",
 		"latitude": "47.189175",
 		"longitude": "-1.548478",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26187,7 +26187,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp16",
 		"latitude": "47.2099443",
 		"longitude": "-1.5246918000000278",
 		"type": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs",
@@ -26202,7 +26202,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp17",
 		"latitude": "47.196625",
 		"longitude": "-1.554385",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26217,7 +26217,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp18",
 		"latitude": "47.19479159999999",
 		"longitude": "-1.5783106999999743",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26232,7 +26232,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp19",
 		"latitude": "47.214237",
 		"longitude": "-1.568532",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26247,7 +26247,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp20",
 		"latitude": "47.19607800000001",
 		"longitude": "-1.5227311999999529",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26262,7 +26262,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp21",
 		"latitude": "47.230758",
 		"longitude": "-1.594751",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26277,7 +26277,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp22",
 		"latitude": "47.238935",
 		"longitude": "-1.5197619999999998",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26292,7 +26292,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp23",
 		"latitude": "47.236173",
 		"longitude": "-1.520948",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26307,7 +26307,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp24",
 		"latitude": "47.202296",
 		"longitude": "-1.586049",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26322,7 +26322,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp25",
 		"latitude": "47.233325",
 		"longitude": "-1.573991",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26337,7 +26337,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp26",
 		"latitude": "47.18439",
 		"longitude": "-1.550647",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26352,7 +26352,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp27",
 		"latitude": "47.228768",
 		"longitude": "-1.566054",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26367,7 +26367,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp28",
 		"latitude": "47.195262",
 		"longitude": "-1.490196",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26382,7 +26382,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp29",
 		"latitude": "47.184245",
 		"longitude": "-1.557209",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26397,7 +26397,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp30",
 		"latitude": "47.121276",
 		"longitude": "-1.637503",
 		"type": "Composteur collectif ouvert au quartier, Composteur collectif Pédagogique en établissement scolaire",
@@ -26412,7 +26412,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier, Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier, Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp31",
 		"latitude": "47.230049",
 		"longitude": "-1.504224",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26427,7 +26427,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp32",
 		"latitude": "47.243183 ",
 		"longitude": "-1.517386",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26442,7 +26442,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp33",
 		"latitude": "47.230617",
 		"longitude": "-1.543575",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26457,7 +26457,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp34",
 		"latitude": "47.168376",
 		"longitude": "-1.598071",
 		"type": "Composteur collectif sur des jardins collectifs",
@@ -26472,7 +26472,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp35",
 		"latitude": "47.206184",
 		"longitude": "-1.542426",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26487,7 +26487,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp36",
 		"latitude": "47.199468",
 		"longitude": "-1.591116",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -26502,7 +26502,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp37",
 		"latitude": "47.211964",
 		"longitude": "-1.548060",
 		"type": "Composteur collectif sur des jardins collectifs",
@@ -26517,7 +26517,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp38",
 		"latitude": "47.227054",
 		"longitude": "-1.518301",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26532,7 +26532,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp39",
 		"latitude": "47.180299",
 		"longitude": "-1.533312",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26547,7 +26547,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp40",
 		"latitude": "47.243691",
 		"longitude": "-1.528226",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26562,7 +26562,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp41",
 		"latitude": "47.263677",
 		"longitude": "-1.631934",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -26577,7 +26577,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp42",
 		"latitude": "47.306035",
 		"longitude": "-1.554568",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26592,7 +26592,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp43",
 		"latitude": "47.2151",
 		"longitude": "-1.5351",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26607,7 +26607,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp44",
 		"latitude": "47.191435",
 		"longitude": "-1.5584036000000197",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26622,7 +26622,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp45",
 		"latitude": "47.2620375",
 		"longitude": "-1.5278637000000117",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26637,7 +26637,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp46",
 		"latitude": "47.219692",
 		"longitude": "-1.609410",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26652,7 +26652,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp47",
 		"latitude": "47.2398926",
 		"longitude": "-1.5150200000000495",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26667,7 +26667,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp48",
 		"latitude": "47.195455",
 		"longitude": "-1.523846",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26682,7 +26682,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp49",
 		"latitude": "47.2247686",
 		"longitude": "-1.548586699999987",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26697,7 +26697,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp50",
 		"latitude": "47.1808775",
 		"longitude": "-1.5616284999999834",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26712,7 +26712,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp51",
 		"latitude": "47.202292",
 		"longitude": "-1.546508000000017",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26727,7 +26727,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp52",
 		"latitude": "47.208005",
 		"longitude": "-1.614903",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26742,7 +26742,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp53",
 		"latitude": "47.3044761",
 		"longitude": "-1.5588801000000103",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26757,7 +26757,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp54",
 		"latitude": "47.1785721",
 		"longitude": "-1.620072299999947",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26772,7 +26772,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp55",
 		"latitude": "47.2125732",
 		"longitude": "-1.5412590999999338",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26787,7 +26787,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp56",
 		"latitude": "47.2052437",
 		"longitude": "-1.5516660000000684",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26802,7 +26802,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp57",
 		"latitude": "47.157406",
 		"longitude": "-1.675624",
 		"type": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs",
@@ -26817,7 +26817,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp58",
 		"latitude": "47.209349",
 		"longitude": "-1.5289678000000322",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26832,7 +26832,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp59",
 		"latitude": "47.2063175",
 		"longitude": "-1.556525899999997",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26847,7 +26847,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp60",
 		"latitude": "47.222301",
 		"longitude": "-1.561171",
 		"type": "Composteur collectif ouvert au quartier",
@@ -26862,7 +26862,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp61",
 		"latitude": "47.2407654",
 		"longitude": "-1.5811751",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26877,7 +26877,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp62",
 		"latitude": "47.442653",
 		"longitude": "-1.500773",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26892,7 +26892,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp63",
 		"latitude": "47.2226423",
 		"longitude": "-1.5294613999999456",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26907,7 +26907,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp64",
 		"latitude": "47.2088163",
 		"longitude": "-1.6487124999999878",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26922,7 +26922,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp65",
 		"latitude": "47.2545665",
 		"longitude": "-1.5367369000000508",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26937,7 +26937,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp66",
 		"latitude": "47.225689",
 		"longitude": "-1.6504671000000144",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26952,7 +26952,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp67",
 		"latitude": "47.2068509",
 		"longitude": "-1.5747179999999616",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26967,7 +26967,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp68",
 		"latitude": "47.247411",
 		"longitude": "-1.5707",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26982,7 +26982,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp69",
 		"latitude": "47.26220387488973",
 		"longitude": "-1.5750709176063538",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -26997,7 +26997,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp70",
 		"latitude": "47.213238",
 		"longitude": "-1.548982",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27012,7 +27012,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp71",
 		"latitude": "47.2492601",
 		"longitude": "-1.6049035999999433",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27027,7 +27027,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp72",
 		"latitude": "47.2279913",
 		"longitude": "-1.5799531999999772",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27042,7 +27042,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp73",
 		"latitude": "47.17241532914606",
 		"longitude": "-1.5274643898010254",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27057,7 +27057,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp74",
 		"latitude": "47.2457435",
 		"longitude": "-1.5726994999999988",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27072,7 +27072,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp75",
 		"latitude": "47.23216739999999",
 		"longitude": "-1.576319099999978",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27087,7 +27087,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp76",
 		"latitude": "47.222923",
 		"longitude": "-1.562232",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27102,7 +27102,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp77",
 		"latitude": "47.226218",
 		"longitude": "-1.588087",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27117,7 +27117,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp78",
 		"latitude": "47.25805339999999",
 		"longitude": "-1.5169750999999678",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27132,7 +27132,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp79",
 		"latitude": "47.1890984",
 		"longitude": "-1.5704894000000422",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27147,7 +27147,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp80",
 		"latitude": "47.2008957",
 		"longitude": "-1.4904340000000502",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27162,7 +27162,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp81",
 		"latitude": "47.2184147",
 		"longitude": "-1.5760129000000234",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27177,7 +27177,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp82",
 		"latitude": "47.2384984",
 		"longitude": "-1.6044331000000511",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27192,7 +27192,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp83",
 		"latitude": "47.2092388",
 		"longitude": "-1.6474002999999584",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27207,7 +27207,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp84",
 		"latitude": "47.254879",
 		"longitude": "-1.578933",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27222,7 +27222,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp85",
 		"latitude": "47.1965613",
 		"longitude": "-1.5293607999999494",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27237,7 +27237,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp86",
 		"latitude": "47.208299",
 		"longitude": "-1.502585",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27252,7 +27252,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp87",
 		"latitude": "47.205872",
 		"longitude": "-1.520853",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27267,7 +27267,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp88",
 		"latitude": "47.2294584",
 		"longitude": "-1.5612923999999566",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27282,7 +27282,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp89",
 		"latitude": "47.206319",
 		"longitude": "-1.516141",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27297,7 +27297,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp90",
 		"latitude": "47.223106",
 		"longitude": "-1.537304",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27312,7 +27312,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp91",
 		"latitude": "47.2462956",
 		"longitude": "-1.5791442",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27327,7 +27327,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp92",
 		"latitude": "47.207748,",
 		"longitude": "-1.540578",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27342,7 +27342,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp93",
 		"latitude": "47.367328",
 		"longitude": "-1.605229",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27357,7 +27357,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp94",
 		"latitude": "47.222727,",
 		"longitude": "-1.548422",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27372,7 +27372,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp95",
 		"latitude": "47.21587875284195",
 		"longitude": "-1.5240184217691422",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27387,7 +27387,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp96",
 		"latitude": "47.224169",
 		"longitude": "-1.565516",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27402,7 +27402,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp97",
 		"latitude": "47.231168",
 		"longitude": "-1.553320",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27417,7 +27417,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp98",
 		"latitude": "47.23409350000001",
 		"longitude": "-1.5599150000000463",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27432,7 +27432,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp99",
 		"latitude": "47.2122336",
 		"longitude": "-1.615248500000007",
 		"type": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs",
@@ -27447,7 +27447,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp100",
 		"latitude": "47.2250486",
 		"longitude": "-1.590999600000032",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27462,7 +27462,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp101",
 		"latitude": "47.192793",
 		"longitude": "-1.647847",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27477,7 +27477,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp102",
 		"latitude": "47.240122",
 		"longitude": "-1.608225",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27492,7 +27492,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp103",
 		"latitude": "47.2029721",
 		"longitude": "-1.5483064000000013",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27507,7 +27507,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp104",
 		"latitude": "47.2958809",
 		"longitude": "-1.5501815999999735",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27522,7 +27522,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp105",
 		"latitude": "47.2107653",
 		"longitude": "-1.7304017000000158",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27537,7 +27537,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp106",
 		"latitude": "47.235613",
 		"longitude": "-1.524601",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27552,7 +27552,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp107",
 		"latitude": "47.22608959999999",
 		"longitude": "-1.52228869999999",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27567,7 +27567,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp108",
 		"latitude": "47.2987616",
 		"longitude": "-1.550350500000036",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27582,7 +27582,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp109",
 		"latitude": "47.1914003",
 		"longitude": "-1.5675257000000329",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27597,7 +27597,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp110",
 		"latitude": "47.231681",
 		"longitude": "-1.605733",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27612,7 +27612,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp111",
 		"latitude": "47.1896552",
 		"longitude": "-1.5641083000000435",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27627,7 +27627,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp112",
 		"latitude": "47.2147054",
 		"longitude": "-1.6825397000000066",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27642,7 +27642,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp113",
 		"latitude": "47.2820923",
 		"longitude": "-1.5198500000000197",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27657,7 +27657,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp114",
 		"latitude": "47.195634",
 		"longitude": "-1.528563",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27672,7 +27672,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp115",
 		"latitude": "47.1833364",
 		"longitude": "-1.5828842",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27687,7 +27687,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp116",
 		"latitude": "47.191855",
 		"longitude": "-1.544262",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27702,7 +27702,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp117",
 		"latitude": "47.2004919",
 		"longitude": "-1.7552545",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27717,7 +27717,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp118",
 		"latitude": "47.226333",
 		"longitude": "-1.559526",
 		"type": "Composteur collectif ouvert au quartier",
@@ -27732,7 +27732,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp119",
 		"latitude": "47.244971",
 		"longitude": "-1.591808",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27747,7 +27747,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp120",
 		"latitude": "47.206318",
 		"longitude": "-1.616954",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27762,7 +27762,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp121",
 		"latitude": "47.2176808",
 		"longitude": "-1.6978372999999465",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27777,7 +27777,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp122",
 		"latitude": "47.2209261",
 		"longitude": "-1.623419799999965",
 		"type": "Composteur collectif en résidence - copropriété",
@@ -27792,7 +27792,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif en résidence - copropriété<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif en résidence - copropriété<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp123",
 		"latitude": "47.205364",
 		"longitude": "-1.499816",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27807,7 +27807,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp124",
 		"latitude": "47.252192",
 		"longitude": "-1.518617",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27822,7 +27822,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp125",
 		"latitude": "47.1894099",
 		"longitude": "-1.5551677999999356",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27837,7 +27837,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp126",
 		"latitude": "47.234426",
 		"longitude": "-1.583033",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27852,7 +27852,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp127",
 		"latitude": "47.267761",
 		"longitude": "-1.527770",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27867,7 +27867,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp128",
 		"latitude": "47.267761",
 		"longitude": "-1.527770",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27882,7 +27882,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp129",
 		"latitude": "47.195813",
 		"longitude": "-1.648512",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27897,7 +27897,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp130",
 		"latitude": "47.201383,",
 		"longitude": "-1.669023",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27912,7 +27912,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp131",
 		"latitude": "47.228517",
 		"longitude": "-1.58368710000002",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27927,7 +27927,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp132",
 		"latitude": "47.1867428",
 		"longitude": "-1.5003326999999445",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27942,7 +27942,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp133",
 		"latitude": "47.227802",
 		"longitude": "-1.592902",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27957,7 +27957,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp134",
 		"latitude": "47.259079",
 		"longitude": "-1.568922",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27972,7 +27972,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp135",
 		"latitude": "47.262169",
 		"longitude": "-1.570867",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -27987,7 +27987,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp136",
 		"latitude": "47.227869",
 		"longitude": "-1.521940",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28002,7 +28002,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp137",
 		"latitude": "47.201870",
 		"longitude": "-1.577965",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28017,7 +28017,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp138",
 		"latitude": "47.234471",
 		"longitude": "-1.533735",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28032,7 +28032,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp139",
 		"latitude": "47.205135",
 		"longitude": "-1.5928257",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28047,7 +28047,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp140",
 		"latitude": "47.2314089",
 		"longitude": "-1.5543489",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28062,7 +28062,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp141",
 		"latitude": "47.219201",
 		"longitude": "-1.602191",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28077,7 +28077,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp142",
 		"latitude": "47.2270726",
 		"longitude": "-1.5976218",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28092,7 +28092,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp143",
 		"latitude": "47.2150664",
 		"longitude": "-1.6010558",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28107,7 +28107,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp144",
 		"latitude": "47.2123968",
 		"longitude": "-1.561360499999978",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28122,7 +28122,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp145",
 		"latitude": "47.253092",
 		"longitude": "-1.575098",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28137,7 +28137,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp146",
 		"latitude": "47.2204186",
 		"longitude": "-1.6001197000000502",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28152,7 +28152,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp147",
 		"latitude": "47.237928",
 		"longitude": "-1.522485999999958",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28167,7 +28167,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp148",
 		"latitude": "47.2175466",
 		"longitude": "-1.5192799999999806",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28182,7 +28182,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp149",
 		"latitude": "47.2040719",
 		"longitude": "-1.600138799999968",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28197,7 +28197,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp150",
 		"latitude": "47.2026472",
 		"longitude": "-1.5410670999999638",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28212,7 +28212,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp151",
 		"latitude": "47.274265",
 		"longitude": "-1.625867",
 		"type": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs",
@@ -28227,7 +28227,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp152",
 		"latitude": "47.179366",
 		"longitude": "-1.505915",
 		"type": "Composteur collectif sur des jardins collectifs",
@@ -28242,7 +28242,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp153",
 		"latitude": "47.2746184",
 		"longitude": "-1.4294688999999607",
 		"type": "Composteur collectif sur des jardins collectifs",
@@ -28257,7 +28257,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp154",
 		"latitude": "47.218360",
 		"longitude": "-1.601033",
 		"type": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs",
@@ -28272,7 +28272,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier, Composteur collectif sur des jardins collectifs<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp155",
 		"latitude": "47.192031",
 		"longitude": "-1.530538",
 		"type": "Composteur collectif ouvert au quartier",
@@ -28287,7 +28287,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp156",
 		"latitude": "47.193029",
 		"longitude": "-1.531305",
 		"type": "Composteur collectif Pédagogique en établissement scolaire",
@@ -28302,7 +28302,7 @@ var _containersDatas = [{
 		"cartePopuptext": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif Pédagogique en établissement scolaire<br/><i>Source :  www.compostri.fr - 12/2016</i>"
 	}, {
-		"code": "comp",
+		"code": "comp157",
 		"latitude": "47.124134",
 		"longitude": "-1.630217",
 		"type": "Composteur collectif ouvert au quartier",
@@ -28316,5 +28316,12 @@ var _containersDatas = [{
 		"carteIcon": "resources/icons/marker-icon-blue.png",
 		"cartePopuptext": "Composteur collectif ouvert au quartier<br/><i>Source : www.compostri.fr - 12/2016</i>",
 		"cartePopuptext_en": "Composteur collectif ouvert au quartier<br/><i>Source :  www.compostri.fr - 12/2016</i>"
+	}, {
+		"code": "no2",
+		"latitude": "47.0",
+		"longitude": "-1.6",
+		"modesCollecte": "no2",
+		"type": "no2",
+		"type_en": "no2"
 	}
 ]

@@ -2240,7 +2240,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, tires, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from family crafts, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de La Prairie de Mauves<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de La Prairie de Mauves<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2258,7 +2258,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Ecopoint Chantenay<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Ecopoint Chantenay<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2276,7 +2276,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Ecopoint La Beaujoire<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Ecopoint La Beaujoire<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2294,7 +2294,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Ecopoint Dervallières<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Ecopoint Dervallières<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2312,7 +2312,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Ecopoint Viarme<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Ecopoint Viarme<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2330,7 +2330,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de Saint Sébastien<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de Saint Sébastien<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2348,7 +2348,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de Saint Herblain<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de Saint Herblain<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2366,7 +2366,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de Carquefou<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de Carquefou<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2384,7 +2384,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de Saint Jean de Boiseau<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de Saint Jean de Boiseau<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2402,7 +2402,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de La Chapelle sur Erdre<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de La Chapelle sur Erdre<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2420,7 +2420,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, encombrants ménagers divers, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelo",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de La Montagne<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de La Montagne<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2438,7 +2438,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie d'Orvault<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie d'Orvault<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2456,7 +2456,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de Saint Aignan Grand Lieu<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de Saint Aignan Grand Lieu<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2474,7 +2474,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de Rezé<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de Rezé<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2492,7 +2492,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de Vertou<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de Vertou<br/><i>Source : OpenDataNantes 09/2016</i>"
@@ -2510,7 +2510,7 @@ var _structuresDatas = [
       "image":"panneau_dechetterie_mini.png",
       "descr":"Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
       "descr_en":"Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
-      "carteMarqueur":"2",
+      "carteMarqueur":"3",
       "carteIcon":"resources/icons/marker-icon-pink.png",
       "cartePopuptext":"Déchèterie de Mauves sur Loire<br/><i>Source : OpenDataNantes 09/2016</i>",
       "cartePopuptext_en":"Déchèterie de Mauves sur Loire<br/><i>Source : OpenDataNantes 09/2016</i>"
