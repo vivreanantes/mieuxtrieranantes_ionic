@@ -8,8 +8,8 @@
   <div class="card">
     <div class="item item-divider item-calm">{{'carte_filter'|translate}}</div>
 
-    <ion-checkbox ng-repeat="modeCollecteItem in modeCollecte" ng-model="modeCollecteItem.checked" ng-checked="modeCollecteItem.checked">
-      {{modeCollecteItem.nom}}
+    <ion-checkbox ng-repeat="modeCollecteItem in tousModesDeCollecte" ng-model="modeCollecteItem.checked" ng-checked="modeCollecteItem.checked">
+      {{modeCollecteItem.nom}} <img src={{modeCollecteItem.image}} />
     </ion-checkbox>
 
     <button class="button button-block button-positive icon-right ion-chevron-right" ng-click="onSearchSubmit()">{{'carte_afficher'|translate}}</button>
