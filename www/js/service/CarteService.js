@@ -93,6 +93,13 @@ angular.module('starter.controllers')
 					message: container.cartePopuptext,
 					icon: localIcons.trisac
 				};
+			} else if (container.carteMarqueur == 8) {
+				leafletContainer = {
+					lat: parseFloat(container.latitude),
+					lng: parseFloat(container.longitude),
+					message: container.cartePopuptext,
+					icon: localIcons.collectors
+				};
 			}
 			leafletContainers[container.code] = leafletContainer;
 

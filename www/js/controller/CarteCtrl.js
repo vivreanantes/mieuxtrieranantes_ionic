@@ -68,6 +68,9 @@ angular.module('starter.controllers')
 		},
 		trisac: {
 			iconUrl: "resources/icons/marker-icon-purple.png"
+		},
+		collectors: {
+			iconUrl: "resources/icons/marker-icon-grey.png"
 		}
 	};
 	angular.extend($scope, {

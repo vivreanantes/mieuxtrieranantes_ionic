@@ -315,7 +315,8 @@ angular.module('starter.controllers')
           { "id" : "4", "code" : "modco_compostage", "nom" : "Composteurs", "nom_en" : "Composting", "image" : "resources/icons/marker-icon-yellow.png"},
           { "id" : "5", "code" : "smco_conteneurlerelais", "nom" : "Conteneurs vêtements", "nom_en" : "Containers clothes", "image" : "resources/icons/marker-icon-pink.png"},
           { "id" : "6", "code" : "ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops", "image" : "resources/icons/marker-icon-red.png"},
-          { "id" : "7", "code" : "trisacs", "nom" : "Trisac", "nom_en" : "Trisac", "image" : "resources/icons/marker-icon-purple.png"}
+          { "id" : "7", "code" : "trisacs", "nom" : "Trisac", "nom_en" : "Trisac", "image" : "resources/icons/marker-icon-purple.png"},
+          { "id" : "8", "code" : "modco_bouchons", "nom" : "Collecteurs (bouchons)", "nom_en" : "Collector (corks)", "image" : "resources/icons/marker-icon-grey.png"}
         ];        
       }
       return result;

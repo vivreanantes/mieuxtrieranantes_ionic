@@ -9,7 +9,7 @@
     <div class="item item-divider item-calm">{{'carte_filter'|translate}}</div>
 
     <ion-checkbox ng-repeat="modeCollecteItem in tousModesDeCollecte" ng-model="modeCollecteItem.checked" ng-checked="modeCollecteItem.checked">
-      {{modeCollecteItem.nom}} <img src={{modeCollecteItem.image}} />
+      <img src="{{modeCollecteItem.image}}" height="18px" /> {{modeCollecteItem.nom}}
     </ion-checkbox>
 
     <button class="button button-block button-positive icon-right ion-chevron-right" ng-click="onSearchSubmit()">{{'carte_afficher'|translate}}</button>
