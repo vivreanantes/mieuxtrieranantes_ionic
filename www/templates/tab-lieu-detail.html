@@ -12,7 +12,7 @@
     <div class="item item-icon-left">
         <i class="icon ion-information-circled"></i>
       	<div>{{structure.type}}</div>   
-      	<mtn-plage-horaire class="horaire" horaire="{{::structure.plagesHoraires}}" fulldisplay="1"></mtn-plage-horaire> 
+      	<mtn-plage-horaire class="horaire" plagehoraire="{{::structure.plagesHoraires}}" horaire="{{::structure.horaires}}" fulldisplay="1"></mtn-plage-horaire>
     </div>
 
 	<span>
@@ -25,11 +25,14 @@
       	<div>{{structure.adresseTemp}}</div>
 				<div ng-click="openMapLink(structure.latitude, structure.longitude)" class="ico ion-arrow-right-c"> {{'y_aller'|translate}}</div>
     </div>
-
-    <div class="item item-icon-left"ng-show="structure.tel">
-    	<i class="icon ion-ios-telephone"></i>
-    	{{structure.tel}}
-			<div ng-click="openPhoneLink(structure.tel)" class="ico ion-arrow-right-c"> {{'telephoner'|translate}}</div>
+		
+    <div class="item item-icon-left" ng-show="lstTel.length>0">
+      <i class="icon ion-ios-telephone"></i>
+			<div  ng-repeat="oneTel in lstTel" >
+				<span ng-show="[[$index]]>0"><hr/></span>
+				{{oneTel}}
+        <div ng-click="openPhoneLink(oneTel)" class="ico ion-arrow-right-c"> {{'telephoner'|translate}}</div>
+			</div>
     </div>
 
     <div ng-click="openHrefLink('mailto:{{structure.email}}')" class="item item-icon-left" ng-show="structure.email">

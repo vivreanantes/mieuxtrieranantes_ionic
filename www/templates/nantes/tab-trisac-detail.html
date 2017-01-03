@@ -11,7 +11,7 @@
       <i class="icon ion-information-circled"></i>
       <div>{{'nom_translated'|translate:detail}}</div>
       <div>{{detail.adresseTemp}}</div>
-      <mtn-plage-horaire class="horaire" horaire="{{::detail.plagesHoraires}}" fulldisplay="1"></mtn-plage-horaire> 
+      <mtn-plage-horaire class="horaire" plagehoraire="{{::detail.plagesHoraires}}" horaire="{{::detail.horaires}}" fulldisplay="1"></mtn-plage-horaire> 
     </div>
 
     <div class="item item-icon-left" ng-repeat="conseil in detail.cons">

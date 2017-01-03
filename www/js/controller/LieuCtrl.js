@@ -67,6 +67,12 @@ angular.module('starter.controllers')
                 $scope.lstPhotos = [];
             }
             
+            if ($scope.structure.tel) {
+                $scope.lstTel = $scope.structure.tel.split(",");
+            } else {
+                $scope.lstTel = [];
+            }
+            
             // Open Geo
             $scope.openMapLink = function(latitude, longitude) {
               var geoString = '';
