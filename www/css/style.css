@@ -24,7 +24,7 @@ ion-content.home .news .item {
 }
 
 .mode-collecte {
-    
+
     background-color: #F7F9E3;
     padding:0.2em;
     margin:0.4em 0em;
@@ -39,7 +39,7 @@ ion-content.home .news .item {
 
 /* HACK : la description contient des images, des BR et c'est moche : on ne les affichent pas => à enlever des DATA !!! */
 .mode-collecte .description img {
-    
+
     display: none;
 }
 
@@ -48,7 +48,7 @@ ion-content.home .news .item {
 }
 
 .conseil {
-    
+
     background-color: #c6deff;
     padding:0.2em;
     margin:0.4em 0em;
@@ -63,7 +63,7 @@ ion-content.home .news .item {
 
 /* HACK : la description contient des images, des BR et c'est moche : on ne les affichent pas => à enlever des DATA !!! */
 .conseil .description img {
-    
+
     display: none;
 }
 
@@ -103,9 +103,9 @@ ion-content.home .news .item {
 }
 
 .panneau_bouton  .col {
-    
+
     padding: 0em;
-	
+
 }
 
 .panneau_bouton a.button {
@@ -125,7 +125,7 @@ ion-content.home .news .item {
 .horaire {
 
     color:#37A811;
-  
+
 
 }
 
@@ -144,8 +144,23 @@ ion-content.home .news .item {
 /* CARTE */
 
 .carte .bar-subheader {
-    top: 0px;
+    top: 0px!important;
     height: 44px;
+}
+
+.carte .wrapper-map{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+}
+
+.carte .wrapper-map .button-center{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
 }
 
 

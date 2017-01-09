@@ -1,11 +1,13 @@
 <ion-view view-title="{{'carte'|translate}}">
-  <ion-content class="carte">
-    
-  <div class="bar bar-subheader">
-     <h2 class="title">{{labelsModeCollecte}}</h2>
-  </div>
-    
-  <leaflet id="mymap" markers="markers" layers="layers" lf-center="center" height="860px" width="100%" event-broadcast="events"></leaflet>
+	<ion-content class="carte has-footer" scroll="false">
 
-  </ion-content>
+		<div class="bar bar-subheader">
+			<h2 class="title">{{labelsModeCollecte}}</h2>
+		</div>
+		<div class="wrapper-map" data-tap-disabled="true">
+			<leaflet id="mymap" markers="markers" layers="layers" lf-center="center" height="100%" width="100%" event-broadcast="events" watch-markers="false"></leaflet>
+			<button class="button button-center" ng-click="centerOnMe()" ng-show="isDrag===true">Ma position</button>
+		</div>
+
+	</ion-content>
 </ion-view>

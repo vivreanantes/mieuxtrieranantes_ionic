@@ -7,7 +7,7 @@ angular.module('starter.controllers')
 
 	location = { lat: 47.22, lng:  -1.52}
 
-	 */
+	*/
 	var _getLeafletContainers = function (centerLocation, stCollectMods, localIcons) {
 
 		var listCollectMods = stCollectMods.split(",");
@@ -29,10 +29,11 @@ angular.module('starter.controllers')
 		};
 
 		//Filtre des marqueurs pour le mode de collecte
-		var tmpDatas = _containersDatas.concat(_structuresDatas);
+		var tmpDatas = _containersDatas.concat(_structuresDatas),
+		structureID = ["1","6","3","7"],
+		markersFiltered = $filter('filter')(tmpDatas, expFilter);
 		// var tmpDatas = _containersDatas;
 		// var tmpDatas = _structuresDatas;
-		var markersFiltered = $filter('filter')(tmpDatas, expFilter);
 
 		var leafletContainers = {};
 		for (var i = 0; i < markersFiltered.length; i++) {
@@ -56,50 +57,69 @@ angular.module('starter.controllers')
 					lat: parseFloat(container.latitude),
 					lng: parseFloat(container.longitude),
 					message: container.cartePopuptext,
-					icon: localIcons.conteneurs
+					icon: localIcons.conteneurs,
+					focus: false,
+					draggable: false
 				};
 			} else if (container.carteMarqueur == 3) {
 				leafletContainer = {
 					lat: parseFloat(container.latitude),
 					lng: parseFloat(container.longitude),
 					message: container.cartePopuptext,
-					icon: localIcons.decheterie
+					icon: localIcons.decheterie,
+					focus: false,
+					draggable: false
 				};
 			} else if (container.carteMarqueur == 4) {
 				leafletContainer = {
 					lat: parseFloat(container.latitude),
 					lng: parseFloat(container.longitude),
 					message: container.cartePopuptext,
-					icon: localIcons.composteurs
+					icon: localIcons.composteurs,
+					focus: false,
+					draggable: false
 				};
 			} else if (container.carteMarqueur == 5) {
 				leafletContainer = {
 					lat: parseFloat(container.latitude),
 					lng: parseFloat(container.longitude),
 					message: container.cartePopuptext,
-					icon: localIcons.conteneurlerelais
+					icon: localIcons.conteneurlerelais,
+					focus: false,
+					draggable: false
 				};
 			} else if (container.carteMarqueur == 6) {
 				leafletContainer = {
 					lat: parseFloat(container.latitude),
 					lng: parseFloat(container.longitude),
 					message: container.cartePopuptext,
-					icon: localIcons.ventevrac
+					icon: localIcons.ventevrac,
+					focus: false,
+					draggable: false
 				};
 			} else if (container.carteMarqueur == 7) {
 				leafletContainer = {
 					lat: parseFloat(container.latitude),
 					lng: parseFloat(container.longitude),
 					message: container.cartePopuptext,
-					icon: localIcons.trisac
+					icon: localIcons.trisac,
+					focus: false,
+					draggable: false
 				};
 			} else if (container.carteMarqueur == 8) {
 				leafletContainer = {
 					lat: parseFloat(container.latitude),
 					lng: parseFloat(container.longitude),
 					message: container.cartePopuptext,
-					icon: localIcons.collectors
+					icon: localIcons.collectors,
+					focus: false,
+					draggable: false
 				};
+			}
+
+			// Ajout d'un lien hypertext dans le message des structures
+			if(structureID.indexOf(container.carteMarqueur)> -1||container.linkInPopup===true){
+				leafletContainer.message += "<br><a href='#/tab/lieu/detail/"+container.code+"'>Voir la fiche</a>";
 			}
 			leafletContainers[container.code] = leafletContainer;
 
