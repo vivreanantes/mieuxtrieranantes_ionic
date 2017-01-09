@@ -16,7 +16,7 @@
         {{'modes_de_collecte'|translate}}
 		</div>
 
-    <a class="item" ng-repeat="modeDeCollecte in modesDeCollecte" ng-click="toggleObject[[$index]] = -(toggleObject[[$index]])">
+    <a class="item mtn-nowrap" ng-repeat="modeDeCollecte in modesDeCollecte" ng-click="toggleObject[[$index]] = -(toggleObject[[$index]])">
         <img ng-src="resources/images/{{::modeDeCollecte.image}}" style="max-width:30px" />
         {{'nom_translated'|translate:modeDeCollecte}}<br/>
 				<!-- ng-show="toggleObject.item == $index"  -->

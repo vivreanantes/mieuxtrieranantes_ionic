@@ -25,7 +25,7 @@
 
     <div class="row panneau_bouton" ng-repeat="categorie in ::categories | filter:{sous_cat : 'false'}" ng-if="$index%3==0">   
       <div class="col" ng-repeat="categorie in ::categories|limitTo:3:$index"> 
-        <div class="item text-center">
+        <div class="item text-center" style="padding:5px">
             <a ng-href="#/tab/dechet/cat/{{::categorie.code}}" class="selectable">
               <img ng-src="resources/images/{{::categorie.image}}"/></a>
         </div>
@@ -38,6 +38,6 @@
     </div>
 
 </div>
-      
+<br/><br/>
   </ion-content>
 </ion-view>

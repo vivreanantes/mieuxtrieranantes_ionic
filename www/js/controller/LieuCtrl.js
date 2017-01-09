@@ -6,7 +6,7 @@ angular.module('starter.controllers')
         function($scope, $ionicPopup, RechercheService) {
 
             $scope.maxDisplayResults = 250;
-	     	    $scope.debug = true;
+     	    $scope.debug = false;
             
             //SELECT Type de structures                 
             $scope.typeCollecte = RechercheService.getAFilter("filter_collect_types");
