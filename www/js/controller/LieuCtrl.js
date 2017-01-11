@@ -57,6 +57,9 @@ angular.module('starter.controllers')
 .controller('LieuDetailCtrl',
 
         function($scope, $stateParams, RechercheService) {
+            
+             $scope.debug = false;
+             
             var code = $stateParams.code;
             $scope.structure = RechercheService.getStructure(code);
             

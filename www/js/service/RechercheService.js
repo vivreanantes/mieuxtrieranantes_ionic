@@ -55,6 +55,7 @@ angular.module('starter.controllers')
   	var _searchStructure = function (structureType, searchKeyword) {
 
   		var searchKeyWordCleaned = $filter('searchTextClean')(searchKeyword);
+
 		var stTypeRegexp = new RegExp(structureType);
 		var my = this; 
 
@@ -73,7 +74,7 @@ angular.module('starter.controllers')
                 }
                 //Analyse type et mot-clé
                 else {
-					var currentlanguage = $translate.proposedLanguage();
+                	var currentlanguage = $translate.proposedLanguage();
                 	result = (stTypeRegexp.test(item.modesCollecte) && textTest.test(item[motsClesComplet]));
 
                 }
@@ -81,6 +82,18 @@ angular.module('starter.controllers')
             }
         );
 
+      /*
+       *fonctionne mais trop lent
+      var lat2 = ParamService.getValueInLocalStorageWithDefault("latitude", "geo.defaultLat");
+      var lng2 = ParamService.getValueInLocalStorageWithDefault("longitude", "geo.defaultLong");
+      var latlngInit = L.latLng(lat2,lng2);
+      for (var i = 0; i < results.length; i++) {
+        var container = results[i];
+        var latlngcurrent = L.latLng(parseFloat(container.latitude), parseFloat(container.longitude));
+        container.distance = latlngcurrent.distanceTo(latlngInit);
+      }
+      */
+    
   		return results;
 
   	};

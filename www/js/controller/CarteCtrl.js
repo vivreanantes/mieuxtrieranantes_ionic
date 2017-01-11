@@ -124,6 +124,9 @@ angular.module('starter.controllers')
 		$scope.$on("$ionicView.beforeEnter", function(event, data){
 			activeWatch = navigator.geolocation.watchPosition(function(position) {
 				$timeout(function(){
+					
+					ParamService.setValueInLocalStorage("latitude", position.coords.latitude);
+					ParamService.setValueInLocalStorage("longitude", position.coords.longitude);
 					lastPosition = {
 						lat: angular.copy(position.coords.latitude),
 						lng: angular.copy(position.coords.longitude)

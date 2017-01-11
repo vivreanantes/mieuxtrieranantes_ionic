@@ -18,7 +18,7 @@ angular.module('starter.controllers').factory('ParamService',
 			 */
 			var _getValueInLocalStorageWithDefault = function(key, defaultParam) {
 				var result = _getValueInLocalStorage(key);
-				if (result === null) {
+				if (typeof result === 'undefined') {
 					result = _getParam(defaultParam)
 				}
 				return result;

@@ -3,8 +3,8 @@ var _newsDatas = [
       "code":"Actu_01",
       "nom":"&#x263a; Envie 44 propose des réparations",
       "nom_en":"Envie 44 offers to repair",
-      "descr":"Cettte grande structure nantaise récupère depuis des années les produits électriques usagés. Désormais il propose aux particuliers de réparer les appareils (et de les rendre acec garantie). Voir <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.envie.org', '_system', 'location=yes');\">www.envie.org</a>",
-      "descr_en":"This large structure recovers Nantes for years used electrical products. It now offers individuals to repair appliances (and make acec guarantee).. See <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.envie.org', '_system', 'location=yes');\">www.envie.org</a>"
+      "descr":"Cettte grande structure nantaise récupère depuis des années les produits électriques usagés. Désormais il propose aux particuliers de réparer les appareils (et de les rendre acec garantie). Voir <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.envie-44.org', '_system', 'location=yes');\">www.envie-44.org</a>",
+      "descr_en":"This large structure recovers Nantes for years used electrical products. It now offers individuals to repair appliances (and make acec guarantee).. See <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.envie-44.org', '_system', 'location=yes');\">www.envie-44.org</a>"
    },
    {
       "code":"Actu_02",

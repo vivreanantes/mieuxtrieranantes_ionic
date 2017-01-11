@@ -4,7 +4,7 @@
   <div class="card">
     <div class="item item-divider item-calm">{{'carte_filter'|translate}}</div>
 
-    <ion-checkbox ng-repeat="modeCollecteItem in tousModesDeCollecte" ng-model="modeCollecteItem.checked" ng-checked="modeCollecteItem.checked">
+    <ion-checkbox ng-repeat="modeCollecteItem in tousModesDeCollecte" ng-model="modeCollecteItem.checked" ng-checked="modeCollecteItem.checked" style="padding-top:5px;padding-bottom:5px;">
       <img src="{{modeCollecteItem.image}}" height="18px" /> {{modeCollecteItem.nom}}
     </ion-checkbox>
 
