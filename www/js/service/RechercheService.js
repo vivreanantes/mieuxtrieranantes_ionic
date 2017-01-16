@@ -82,17 +82,20 @@ angular.module('starter.controllers')
             }
         );
 
-      /*
-       *fonctionne mais trop lent
+     
+     // fonctionne mais trop lent
       var lat2 = ParamService.getValueInLocalStorageWithDefault("latitude", "geo.defaultLat");
       var lng2 = ParamService.getValueInLocalStorageWithDefault("longitude", "geo.defaultLong");
       var latlngInit = L.latLng(lat2,lng2);
       for (var i = 0; i < results.length; i++) {
         var container = results[i];
-        var latlngcurrent = L.latLng(parseFloat(container.latitude), parseFloat(container.longitude));
-        container.distance = latlngcurrent.distanceTo(latlngInit);
+        var distance = 100000;
+        if (typeof container.latitude !== 'undefined' && typeof container.longitude!== 'undefined') {
+          var latlngcurrent = L.latLng(parseFloat(container.latitude), parseFloat(container.longitude));
+          distance = latlngcurrent.distanceTo(latlngInit);
+        }
+        container.distance = distance;
       }
-      */
     
   		return results;
 
