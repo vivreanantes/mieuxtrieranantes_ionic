@@ -25,7 +25,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Clothing, trinkets, books, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Pop' Fringues (Secours Populaire Français Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>Pop' Fringues (Secours Populaire Français Nantes)"
 	}, {
@@ -57,7 +56,6 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0499.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0501.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0504.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0507.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0509.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Solidari'meubles (Secours Populaire Français Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>Solidari'meubles (Secours Populaire Français Nantes)"
 	}, {
@@ -88,7 +86,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, small furniture, books, toys, dishes, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>S'POP affaires (Secours Populaire Français Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>S'POP affaires (Secours Populaire Français Nantes)"
 	}, {
@@ -119,7 +116,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle,bike",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Velocampus",
 		"cartePopuptext_en": "Association de réemploi<br/>Velocampus"
 	}, {
@@ -142,7 +138,6 @@ var _structuresDatas = [{
 		"mots_cles_en": "decheterie,paimboeuf,/,saint,viaud,decheterie,paimboeuf,/,saint,viaud,,",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Déchèterie Paimboeuf / Saint Viaud",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Déchèterie Paimboeuf / Saint Viaud"
 	}, {
@@ -171,7 +166,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle, furniture, textiles, tableware, toy, baby, book, CD, DVD, tools, electrical equipment",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Atelier du Retz Emploi (Sainte-Pazanne)",
 		"cartePopuptext_en": "Association de réemploi<br/>Atelier du Retz Emploi (Sainte-Pazanne)"
 	}, {
@@ -201,7 +195,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle, furniture, textiles, tableware, toy, baby, book, CD, DVD, tools, electrical equipment",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Atelier du Retz Emploi (Le Pèlerin)",
 		"cartePopuptext_en": "Association de réemploi<br/>Atelier du Retz Emploi (Le Pèlerin)"
 	}, {
@@ -232,7 +225,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle, furniture, textiles, tableware, toy, baby, book, CD, DVD, tools, electrical equipment",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Atelier du Retz Emploi (Le Breil)",
 		"cartePopuptext_en": "Association de réemploi<br/>Atelier du Retz Emploi (Le Breil)"
 	}, {
@@ -262,7 +254,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle, furniture, textiles, tableware, toy, baby, book, CD, DVD, tools, electrical equipment",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Atelier du Retz Emploi (Saint Brévin)",
 		"cartePopuptext_en": "Association de réemploi<br/>Atelier du Retz Emploi (Saint Brévin)"
 	}, {
@@ -291,7 +282,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "linen, textiles, shoes, dishes, tools, toy, book, furniture",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Le comptoir du Solilab (Atelier du Retz Emploi et Ding Fring)",
 		"cartePopuptext_en": "Association de réemploi<br/>Le comptoir du Solilab (Atelier du Retz Emploi et Ding Fring)"
 	}, {
@@ -319,7 +309,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "computer",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Nâga",
 		"cartePopuptext_en": "Association de réemploi<br/>Nâga"
 	}, {
@@ -346,7 +335,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "garment, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>La Pomme et La Lionne",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>La Pomme et La Lionne"
 	}, {
@@ -374,7 +362,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "computers, imrpmantes, smartphones, tablets",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Tech Recyclage",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Tech Recyclage"
 	}, {
@@ -401,7 +388,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "garment, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Ça Tourn'au Troc (Couëron)",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Ça Tourn'au Troc (Couëron)"
 	}, {
@@ -421,7 +407,7 @@ var _structuresDatas = [{
 		"tel": "02 40 92 89 00",
 		"logo": "resources/images/nantes/logo_atao_mini.png",
 		"src": "Entretien Atao / MieuxTrierANantes 03/2016",
-		"horaires": " Lundi et mercredi : 8h - 12h & 13h30 – 16h, Mardi et jeudi 8h - 12h15 & 13h – 17h, Vendredi 8h – 12h<br/>Le 1er mercredi de chaque mois : ouverture à 13h30",
+		"horaires": "Le 1er mercredi de chaque mois : ouverture à 13h30",
 		"plagesHoraires": "0101-3112_lu+me_08h00-12h00+13h30-16h00,0101-3112_ma+je_08h00-12h15+13h00-17h00,0101-3112_ve_08h00-12h00",
 		"mots_cles": "atao,saint,herblain,velo,velo,roue,pedalier,,",
 		"mots_cles_en": "atao,saint,herblain,velo,atao,saint,herblain,velo,,",
@@ -430,7 +416,6 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/ATAO/velo/ATAO_velo_ATAO_001_OAP_3199.jpg,www.mieuxtrieranantes.fr/docs/medias/ATAO/velo/ATAO_velo_IMG_5008.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>ATAO (Saint-Herblain) vélo",
 		"cartePopuptext_en": "Association de réemploi<br/>ATAO (Saint-Herblain) vélo"
 	}, {
@@ -449,7 +434,7 @@ var _structuresDatas = [{
 		"tel": "02 40 92 28 91",
 		"logo": "resources/images/nantes/logo_atao_mini.png",
 		"src": "Entretien Atao / MieuxTrierANantes 03/2016",
-		"horaires": "Lundi 8h00 - 12h15 / 13h30 – 16h00,Mardi 8h00 - 12h15 / 13h00 – 17h00,Mercredi* 8h00 - 12h00 / 13h30 – 16h00,Jeudi 8h00 - 12h15 / 13h00 – 17h00,Vendredi 8h00 – 12h15<br/>* Le 1er mercredi de chaque mois : ouverture à 13h30",
+		"horaires": "Le 1er mercredi de chaque mois : ouverture à 13h30",
 		"plagesHoraires": "0101-3112_lu_08h00-12h15+13h30-16h00,0101-3112_ma_08h00-12h15+13h30-17h00,0101-3112_me_08h00-12h00+13h30-16h00,0101-3112_je_08h00-12h15+13h00-17h00,0101-3112_ve_08h00-12h15",
 		"sous_zone": "hnnl",
 		"mots_cles": "atao,saint,herblain,auto,auto,automobile,auto,voiture,,",
@@ -459,7 +444,6 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/ATAO/auto/ATAO_auto_ATAO-pano-1.jpg,www.mieuxtrieranantes.fr/docs/medias/ATAO/auto/ATAO_auto_IMG_4875.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>ATAO (Saint-Herblain) auto",
 		"cartePopuptext_en": "Association de réemploi<br/>ATAO (Saint-Herblain) auto"
 	}, {
@@ -486,7 +470,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, sweater, pants, jacket, play, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>La Boîte Utile (Pilote – île de Nantes, Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>La Boîte Utile (Pilote – île de Nantes, Nantes)"
 	}, {
@@ -514,7 +497,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, sweater, pants, jacket, play, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>La Boîte Utile 2 (La Bottière, Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>La Boîte Utile 2 (La Bottière, Nantes)"
 	}, {
@@ -541,7 +523,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, sweater, pants, jacket, play, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>La Boîte Utile 3 (Sainte-Thérèse, Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>La Boîte Utile 3 (Sainte-Thérèse, Nantes)"
 	}, {
@@ -568,7 +549,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, sweater, pants, jacket, play, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>La Boîte Utile 4 (Chantenay-Bourderies, Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>La Boîte Utile 4 (Chantenay-Bourderies, Nantes)"
 	}, {
@@ -599,7 +579,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "garment, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Re-act",
 		"cartePopuptext_en": "Association de réemploi<br/>Re-act"
 	}, {
@@ -629,7 +608,6 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteStationsServices/VisiteStationsServices_DSC_0581.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteStationsServices/VisiteStationsServices_DSC_0584.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Stations services",
 		"cartePopuptext_en": "Association de réemploi<br/>Stations services"
 	}, {
@@ -658,7 +636,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "tableware and kitchenware, DIY and garden tools, ornaments and decorative items, and clean clothes in good condition, toys and baby equipment, books / CDs / vinyl, furniture in good condition, lighting",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>La récupérette (Clisson)",
 		"cartePopuptext_en": "Association de réemploi<br/>La récupérette (Clisson)"
 	}, {
@@ -686,7 +663,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "paper",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Arbres",
 		"cartePopuptext_en": "Association de réemploi<br/>Arbres"
 	}, {
@@ -714,7 +690,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "computer,screen,alis",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>ALIS44",
 		"cartePopuptext_en": "Association de réemploi<br/>ALIS44"
 	}, {
@@ -740,7 +715,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bread",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Atelier Bar'Amel trajet",
 		"cartePopuptext_en": "Association de réemploi<br/>Atelier Bar'Amel trajet"
 	}, {
@@ -767,7 +741,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furnishings, furniture, toy, baby, crockery, trinket, frame, book, clothing, linens, tools, gardening, cycling, lighting, CD-DVD, video games, bedding, sports equipment, household appliances, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>La Ressourcerie de l'ïle",
 		"cartePopuptext_en": "Association de réemploi<br/>La Ressourcerie de l'ïle"
 	}, {
@@ -794,7 +767,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "électroménager,meuble,vêtement,livres,BD,CD,DVD,lit,linge,luste,lampe,vêtement,vaisselle,divers,jouet",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Emmaus Bouguenais",
 		"cartePopuptext_en": "Association de réemploi<br/>Emmaus Bouguenais"
 	}, {
@@ -821,7 +793,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furniture",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>L'homme debout",
 		"cartePopuptext_en": "Association de réemploi<br/>L'homme debout"
 	}, {
@@ -847,7 +818,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "SCOP de réemploi<br/>Relais Atlantique",
 		"cartePopuptext_en": "SCOP de réemploi<br/>Relais Atlantique"
 	}, {
@@ -873,7 +843,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "paper, cardboard, plastic cover",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Oser forêt vivante",
 		"cartePopuptext_en": "Association de réemploi<br/>Oser forêt vivante"
 	}, {
@@ -899,7 +868,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "paper",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Papiers de l'espoir",
 		"cartePopuptext_en": "Association de réemploi<br/>Papiers de l'espoir"
 	}, {
@@ -926,7 +894,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "computer, computer, pc, laptop",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>TRIS Actif Ouest",
 		"cartePopuptext_en": "Association de réemploi<br/>TRIS Actif Ouest"
 	}, {
@@ -954,7 +921,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furniture,wood,metal structure",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Les Marchands de SABLE",
 		"cartePopuptext_en": "Association de réemploi<br/>Les Marchands de SABLE"
 	}, {
@@ -981,7 +947,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "SCOP de réemploi<br/>DING-FRING Rezé",
 		"cartePopuptext_en": "SCOP de réemploi<br/>DING-FRING Rezé"
 	}, {
@@ -1008,7 +973,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "SCOP de réemploi<br/>DING-FRING Palais des Congrès",
 		"cartePopuptext_en": "SCOP de réemploi<br/>DING-FRING Palais des Congrès"
 	}, {
@@ -1035,7 +999,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "SCOP de réemploi<br/>DING-FRING Chantier Navals",
 		"cartePopuptext_en": "SCOP de réemploi<br/>DING-FRING Chantier Navals"
 	}, {
@@ -1062,7 +1025,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "SCOP de réemploi<br/>DING-FRING Nantes Erdre Grand Clos",
 		"cartePopuptext_en": "SCOP de réemploi<br/>DING-FRING Nantes Erdre Grand Clos"
 	}, {
@@ -1089,7 +1051,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "appliances, refrigerator, television, dishwasher, freezer, envie44",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Envie 44 Saint Herblain",
 		"cartePopuptext_en": "Association de réemploi<br/>Envie 44 Saint Herblain"
 	}, {
@@ -1115,7 +1076,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "glasses, hearing, wheelchair",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Orthopédie sans Frontières",
 		"cartePopuptext_en": "Association de réemploi<br/>Orthopédie sans Frontières"
 	}, {
@@ -1142,7 +1102,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "appliances, books / BD / CD / DVD, toy, furniture, clothing, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Véti Frat - La Fraternité",
 		"cartePopuptext_en": "Association de réemploi<br/>Véti Frat - La Fraternité"
 	}, {
@@ -1170,7 +1129,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing,books,toys,crockery,trinket,bag,shoes",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>La Croix Rouge / Vestiboutique",
 		"cartePopuptext_en": "Association de réemploi<br/>La Croix Rouge / Vestiboutique"
 	}, {
@@ -1198,7 +1156,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furniture,lighting,sofa,bedding,appliance,decorative",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>La Croix Rouge / Meubles,bibelots",
 		"cartePopuptext_en": "Association de réemploi<br/>La Croix Rouge / Meubles,bibelots"
 	}, {
@@ -1226,7 +1183,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "book, magazine, Comics",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Nantes Ecologie L'Air Livre (château Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>Nantes Ecologie L'Air Livre (château Nantes)"
 	}, {
@@ -1255,7 +1211,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Book, magazine, comic, manual, school",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Nantes Ecologie L'Air Livre (Cité des Congrès Nantes)",
 		"cartePopuptext_en": "Association de réemploi<br/>Nantes Ecologie L'Air Livre (Cité des Congrès Nantes)"
 	}, {
@@ -1281,7 +1236,6 @@ var _structuresDatas = [{
 		"mots_cles_en": "arcade,arcade,,",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>ARCADE",
 		"cartePopuptext_en": "Association de réemploi<br/>ARCADE"
 	}, {
@@ -1309,7 +1263,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furniture, cartridge, impression, electric, electronic, cd, DVD, pile, battery, tumbler, paper, cardboard, metal",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>TRAIT D'UNION",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>TRAIT D'UNION"
 	}, {
@@ -1336,7 +1289,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "phone, computer",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Ecophone 44",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Ecophone 44"
 	}, {
@@ -1361,7 +1313,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cartridge, toner",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>LEVER L'ENCRE",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>LEVER L'ENCRE"
 	}, {
@@ -1389,7 +1340,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cartridge",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>OCE'ENCRE",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>OCE'ENCRE"
 	}, {
@@ -1416,7 +1366,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cartridge, toner",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Point Encre Et Toner",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Point Encre Et Toner"
 	}, {
@@ -1441,7 +1390,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Action cancer 44 (Rezé)",
 		"cartePopuptext_en": "Association de réemploi<br/>Action cancer 44 (Rezé)"
 	}, {
@@ -1465,7 +1413,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Action cancer 44 (La Chapelle Sur Erdre)",
 		"cartePopuptext_en": "Association de réemploi<br/>Action cancer 44 (La Chapelle Sur Erdre)"
 	}, {
@@ -1492,7 +1439,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "scrap metal, appliances",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>RECUPFER44",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>RECUPFER44"
 	}, {
@@ -1510,7 +1456,6 @@ var _structuresDatas = [{
 		"url": "http://studentsshop44.blogspot.fr/",
 		"email": "studentsshop44@hotmail.com",
 		"src": "MieuxTrierANantes 09/16",
-		"horaires": "les lundis et jeudis de 16h30 à 19h30.",
 		"plagesHoraires": "0101-3112_lu+je_16h30-19h30",
 		"zone": "Nantes",
 		"mots_cles": "students,shop,44,0,,",
@@ -1518,7 +1463,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "T-shirt, jeans, dictionary, exercise book, dishes(crockery), knife, plate, glass, fork(range), braid, pillow, brooms, basket, shovel",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Students' shop 44",
 		"cartePopuptext_en": "Association de réemploi<br/>Students' shop 44"
 	}, {
@@ -1541,7 +1485,6 @@ var _structuresDatas = [{
 		"mots_cles_en": "happycash,nantes,centre,,happycash,nantes,centre,,,",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>HappyCash (Nantes Centre)",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>HappyCash (Nantes Centre)"
 	}, {
@@ -1569,7 +1512,6 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0508.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0509.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0511.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0512.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0514.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Le Ressort, boutique solidaire aux Dervallières",
 		"cartePopuptext_en": "Association de réemploi<br/>Le Ressort, boutique solidaire aux Dervallières"
 	}, {
@@ -1594,7 +1536,6 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0576.JPG,www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0577.JPG,www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0579.JPG,www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0580.JPG,www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0581.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>60B",
 		"cartePopuptext_en": "Association de réemploi<br/>60B"
 	}, {
@@ -1621,7 +1562,6 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furnishings, furniture, toy, baby, crockery, trinket, frame, book, clothing, linens, tools, gardening, cycling, lighting, CD-DVD, video games, bedding, sports equipment, household appliances, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Récup'Halvêque Beaujoire",
 		"cartePopuptext_en": "Association de réemploi<br/>Récup'Halvêque Beaujoire"
 	}, {
@@ -1652,11 +1592,12 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteRecycLivre/VisiteRecycLivre_DSC_0588.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteRecycLivre/VisiteRecycLivre_DSC_0592.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteRecycLivre/VisiteRecycLivre_DSC_0593.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>RecycLivre",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>RecycLivre"
 	}, {
 		"code": "stco_reemploi_trocantons_belligne",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Entreprise de réemploi",
 		"statut": "Entreprise",
@@ -1674,11 +1615,12 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Clothing, furniture, appliances, computer, dishware, trinket, book, CD, dvd, disc, childcare, toy, tool, hardware, paper, cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Trocantons Belligné",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Trocantons Belligné"
 	}, {
 		"code": "stco_reemploi_trocantons_lecellier",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Entreprise de réemploi",
 		"statut": "Entreprise",
@@ -1695,11 +1637,12 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Clothing, furniture, appliances, computer, dishware, trinket, book, CD, dvd, disc, childcare, toy, tool, hardware, paper, cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Trocantons Le Cellier",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Trocantons Le Cellier"
 	}, {
 		"code": "stco_reemploi_trocantons_pannece",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Entreprise de réemploi",
 		"statut": "Entreprise",
@@ -1716,11 +1659,12 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Clothing, furniture, appliances, computer, dishware, trinket, book, CD, dvd, disc, childcare, toy, tool, hardware, paper, cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Trocantons Pannecé",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Trocantons Pannecé"
 	}, {
 		"code": "sto_reemploi_savenay",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Entreprise de réemploi",
 		"statut": "Entreprise",
@@ -1736,11 +1680,12 @@ var _structuresDatas = [{
 		"objets_recuperes": "Vêtement, mobilier, électroménager, ordinateur, vaisselle, bibelot, livre, CD, dvd, disque, puériculture, jouet, outil, quincaillerie,papier, bouchon",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Savenay",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Savenay"
 	}, {
 		"code": "sto_reemploi_blain",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Entreprise de réemploi",
 		"statut": "Entreprise",
@@ -1756,11 +1701,12 @@ var _structuresDatas = [{
 		"mots_cles_en": "recyclerie,nord,atlantique,blain,recyclerie,nord,atlantique,blain,,",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Blain",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Blain"
 	}, {
 		"code": "sto_reemploi_nortsurerdre",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Entreprise de réemploi",
 		"statut": "Entreprise",
@@ -1775,11 +1721,12 @@ var _structuresDatas = [{
 		"mots_cles_en": "recyclerie,nord,atlantique,nort,sur,erdre,recyclerie,nord,atlantique,nort,sur,erdre,,",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Nort-Sur-Erdre",
 		"cartePopuptext_en": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Nort-Sur-Erdre"
 	}, {
 		"code": "sto_reemploi_bouchonamour_nantes1",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Association de réemploi",
 		"statut": "Association",
@@ -1801,11 +1748,12 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Nantes 1",
 		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Nantes 1"
 	}, {
 		"code": "sto_reemploi_bouchonamour_nantes2",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Association de réemploi",
 		"statut": "Association",
@@ -1827,11 +1775,12 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Nantes 2",
 		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Nantes 2"
 	}, {
 		"code": "sto_reemploi_bouchonamour_nantes3",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Association de réemploi",
 		"statut": "Association",
@@ -1853,11 +1802,12 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Nantes 3",
 		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Nantes 3"
 	}, {
 		"code": "sto_reemploi_bouchonamour_ancenis",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Association de réemploi",
 		"statut": "Association",
@@ -1878,11 +1828,12 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Ancenis",
 		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Ancenis"
 	}, {
 		"code": "sto_reemploi_bouchonamour_nortsurerdre",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Association de réemploi",
 		"statut": "Association",
@@ -1903,11 +1854,12 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Nort-Sur-Erdre",
 		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Nort-Sur-Erdre"
 	}, {
 		"code": "sto_reemploi_bouchonamour_saintsebastiensurloire",
+		"latitude": "47.213527",
+		"longitude": "-1.579137",
 		"modesCollecte": "smco_reemp",
 		"type": "Association de réemploi",
 		"statut": "Association",
@@ -1928,7 +1880,6 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
 		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Saint Sébastien Sur Loire",
 		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Saint Sébastien Sur Loire"
 	}, {
@@ -1936,8 +1887,8 @@ var _structuresDatas = [{
 		"latitude": "47.221645",
 		"longitude": " -1.557494",
 		"modesCollecte": "smco_reemp",
-		"type": "Magasin – Collecte  de réemploi",
-		"statut": "Magasin – Collecte ",
+		"type": "Magasin – Collecteur de réemploi",
+		"statut": "Magasin – Collecteur",
 		"categorie": "divers",
 		"descr": "Vos bouchons en liège seront recyclés comme revêtements de sol, articles de décoration, pièces pour l'industrie aérospatiale et automobile... ou comme énergie électrique.<br/><br/>Les fonds récoltés seront reversés à l'IML (Institut Méditerranéen du Liège) pour financer la plantation de chênes-lièges. dans les Pyrénées Orientales.<br/><br/>Aujourd'hui c'est plus de 9 millions bouchons récupérés, soit l'équivalent de plus de 1 100 chênes-lièges plantés.<br/>http://www.nicolas.com/fr/collecte-bouchons.html",
 		"descr_en": "Your corks will be recycled as floor coverings, decorative items, parts for the aerospace and automotive industry ... or as electrical energy. <br/> The funds raised will be donated to the IML (Institute Mediterranean Cork) to finance the planting of cork oaks in the Pyrenees Orientales. <br/> Today is over 9 million corks collected, equivalent to more than 1 100 cork oaks planted.<br/>http://www.nicolas.com/fr/collecte-bouchons.html",
@@ -1957,16 +1908,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
-		"cartePopuptext": "Magasin – Collecte  de réemploi<br/>Boutique Nicolas Talensac récupération bouchon liège",
-		"cartePopuptext_en": "Magasin – Collecte  de réemploi<br/>Boutique Nicolas Talensac récupération bouchon liège"
+		"cartePopuptext": "Magasin – Collecteur de réemploi<br/>Boutique Nicolas Talensac récupération bouchon liège",
+		"cartePopuptext_en": "Magasin – Collecteur de réemploi<br/>Boutique Nicolas Talensac récupération bouchon liège"
 	}, {
 		"code": "stco_reemploi_nicolas_cassini",
 		"latitude": "47.214589",
 		"longitude": "-1.565568",
 		"modesCollecte": "smco_reemp",
-		"type": "Magasin – Collecte  de réemploi",
-		"statut": "Magasin – Collecte ",
+		"type": "Magasin – Collecteur de réemploi",
+		"statut": "Magasin – Collecteur",
 		"categorie": "divers",
 		"descr": "Vos bouchons en liège seront recyclés comme revêtements de sol, articles de décoration, pièces pour l'industrie aérospatiale et automobile... ou comme énergie électrique.<br/><br/>Les fonds récoltés seront reversés à l'IML (Institut Méditerranéen du Liège) pour financer la plantation de chênes-lièges dans les Pyrénées Orientales.<br/><br/>Aujourd'hui c'est plus de 9 millions bouchons récupérés, soit l'équivalent de plus de 1 100 chênes-lièges plantés.<br/>http://www.nicolas.com/fr/collecte-bouchons.html",
 		"descr_en": "Your corks will be recycled as floor coverings, decorative items, parts for the aerospace and automotive industry ... or as electrical energy. <br/> The funds raised will be donated to the IML (Institute Mediterranean Cork) to finance the planting of cork oaks in the Pyrenees Orientales. <br/> Today is over 9 million corks collected, equivalent to more than 1 100 cork oaks planted.<br/>http://www.nicolas.com/fr/collecte-bouchons.html",
@@ -1986,9 +1936,8 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"carteIcon": "resources/icons/marker-icon-green.png",
-		"cartePopuptext": "Magasin – Collecte  de réemploi<br/>Boutique Nicolas récupération bouchon liège",
-		"cartePopuptext_en": "Magasin – Collecte  de réemploi<br/>Boutique Nicolas récupération bouchon liège"
+		"cartePopuptext": "Magasin – Collecteur de réemploi<br/>Boutique Nicolas récupération bouchon liège",
+		"cartePopuptext_en": "Magasin – Collecteur de réemploi<br/>Boutique Nicolas récupération bouchon liège"
 	}, {
 		"code": "stco_ventevrac1",
 		"latitude": "47.126671",
@@ -2460,7 +2409,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, tires, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from family crafts, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de La Prairie de Mauves<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de La Prairie de Mauves<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2479,7 +2427,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Ecopoint Chantenay<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Ecopoint Chantenay<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2498,7 +2445,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Ecopoint La Beaujoire<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Ecopoint La Beaujoire<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2517,7 +2463,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Ecopoint Dervallières<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Ecopoint Dervallières<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2536,7 +2481,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Ecopoint Viarme<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Ecopoint Viarme<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2555,7 +2499,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de Saint Sébastien<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de Saint Sébastien<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2574,7 +2517,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de Saint Herblain<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de Saint Herblain<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2593,7 +2535,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de Carquefou<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de Carquefou<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2612,7 +2553,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de Saint Jean de Boiseau<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de Saint Jean de Boiseau<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2631,7 +2571,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de La Chapelle sur Erdre<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de La Chapelle sur Erdre<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2650,7 +2589,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, encombrants ménagers divers, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelo",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de La Montagne<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de La Montagne<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2669,7 +2607,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie d'Orvault<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie d'Orvault<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2688,7 +2625,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de Saint Aignan Grand Lieu<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de Saint Aignan Grand Lieu<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2707,7 +2643,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de Rezé<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de Rezé<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2726,7 +2661,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de Vertou<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de Vertou<br/><i>Source : OpenDataNantes 09/2016</i>"
 	}, {
@@ -2745,7 +2679,6 @@ var _structuresDatas = [{
 		"descr": "Réservé aux particuliers habitant Nantes Métropole.<br/><br/><b>Déchets admis</b> : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-j",
 		"descr_en": "Reserved for individuals living in Nantes Métropole.Déchets admitted: batteries, wood, cardboard, debris and rubble from the family crafts, waste electrical and electronic equipment, various household bulky, scrap metal, motor oil, paper, newspapers, books, household plastic, textiles, mowing lawn-products garden-pruning branches (eligible production for a household, and length of branches less than 1 meter), verre.Déchets prohibited: dead animals, debris-debris other than those from DIY family, anatomical or infectious waste, hospital waste, whole car body parts or truck, medicines, household waste, tires, explosives, flammable, radioactive products, industrielle.Déchets manufacturing residues allowed with conditions: ask at the recycling center FRONT deposits: asbestos waste linked products, grass clippings, garden pruning branches in large quantities.",
 		"carteMarqueur": "3",
-		"carteIcon": "resources/icons/marker-icon-pink.png",
 		"cartePopuptext": "Déchèterie de Mauves sur Loire<br/><i>Source : OpenDataNantes 09/2016</i>",
 		"cartePopuptext_en": "Déchèterie de Mauves sur Loire<br/><i>Source : OpenDataNantes 09/2016</i>"
 	},

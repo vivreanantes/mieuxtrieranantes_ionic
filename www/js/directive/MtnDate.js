@@ -114,7 +114,7 @@
 				var plageHoraire = arPlagesHoraires[i];
 
 				if (plageHoraire != "") {
-					result = result + "- "
+					result = result + " - "
 							+ __traduitPlageHoraire(plageHoraire, $translate);
 				}
 			}
@@ -187,14 +187,14 @@
 					result = result + "lundi au vendredi"
 				} else if (jourDeLaSemaine === "lu+ma+me+je+ve+sa") {
 					result = result + "lundi au samedi"
-				} else if (jourDeLaSemaine.length == 5) {
+				}/* else if (jourDeLaSemaine.length == 5) {
 					// Renvoie par exemple "du lundi au samedi"
-					/* stLabelDu + " " */
+					// stLabelDu + " "
 					result = result + __getDayString(jourDeLaSemaine.substring(0, 2), 0, $translate)
 							+ " " + stLabelAu + " "
 							+ __getDayString(jourDeLaSemaine.substring(3, 5), 0, $translate)
 							+ " ";
-				} else {
+				}*/ else {
 					// Renvoie par exemple "lundi, mercredi, samedi"
 					var arDays = jourDeLaSemaine.split(separatorEt);
 					for (var i = 0; i < arDays.length; i++) {
