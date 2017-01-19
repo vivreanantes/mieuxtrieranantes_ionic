@@ -33,7 +33,8 @@
   <a class="item" ng-repeat="structure in results | limitTo:maxDisplayResults | orderBy:'distance'" ng-href="#/tab/lieu/detail/{{::structure.code}}">
         {{::structure.nom}} <br>
         <span style="color:#666">{{::structure.type}}</span>
-        <mtn-plage-horaire class="horaire" plagehoraire="{{::structure.plagesHoraires}}"></mtn-plage-horaire>   
+        <mtn-plage-horaire class="horaire" plagehoraire="{{::structure.plagesHoraires}}"></mtn-plage-horaire>
+        <span ng-show="structure.distance!=100000"><i>{{::structure.distance}} {{'metres'|translate}}</i></span>
   </a>
 
   <div class="item item-assertive" ng-show="results.length > maxDisplayResults">

@@ -92,7 +92,7 @@ angular.module('starter.controllers')
         var distance = 100000;
         if (typeof container.latitude !== 'undefined' && typeof container.longitude!== 'undefined') {
           var latlngcurrent = L.latLng(parseFloat(container.latitude), parseFloat(container.longitude));
-          distance = latlngcurrent.distanceTo(latlngInit);
+          distance = parseInt(latlngcurrent.distanceTo(latlngInit));
         }
         container.distance = distance;
       }
