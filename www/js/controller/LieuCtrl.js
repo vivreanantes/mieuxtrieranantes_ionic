@@ -22,10 +22,13 @@ angular.module('starter.controllers')
             $scope.results = RechercheService.searchStructure('smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevrac', '');
 
 
-            $scope.onSearchSubmit = function() {
-                           
+            $scope.onSearchSubmit = function() {          
                 $scope.results = RechercheService.searchStructure($scope.formParam.type.code, $scope.formParam.searchkey);
-
+				if ($scope.formParam.searchkey.indexOf(" ")>-1) {
+					$scope.onlyOneResult = "1";
+				} else {
+					$scope.onlyOneResult = null;
+				}
             };
 
 

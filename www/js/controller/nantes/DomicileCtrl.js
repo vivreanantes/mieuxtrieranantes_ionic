@@ -10,10 +10,12 @@ angular.module('starter.controllers')
             	$scope.maxDisplayResults = 30;
             	
             	$scope.onSearchSubmit = function(searchkey) {
-
             		$scope.results = RechercheService.searchCollecteDomicile(searchkey);
-
-
+								if (searchkey.indexOf(" ")>-1) {
+									$scope.onlyOneResult = "1";
+								} else {
+									$scope.onlyOneResult = null;
+								}
             	}
 
             	// An alert dialog

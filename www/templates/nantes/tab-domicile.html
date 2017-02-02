@@ -13,7 +13,7 @@
 	    	</label>
 	    	<a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit(searchKey)"></a>
 	  	</div>
-
+			<div ng-show="onlyOneResult!=null" style='color:red'>{{'only_one_world'|translate}}</div>
 	</div>
 
 	<div class="card" ng-show="results.length > 0">

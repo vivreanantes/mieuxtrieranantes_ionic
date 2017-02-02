@@ -234,5 +234,6 @@ var _ihmLabelsEnDatas = {
 	"telephoner": "Phone",
 	"aller_sur_page": "Go to the page",
 	"homecollect_intro" : "For the inhabitants of the city of Nantes, find the collection days and collection mode, according to the name of your street.",
-	"metres" : "meters"
+	"metres" : "meters",
+	"only_one_world" : "For research, put only ONE world."
 };

@@ -14,14 +14,15 @@
     </label>
     <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
   </div>
-
-
+    
   <div class="typelieu item item-icon-right item-input" ng-click="selectTypeLieuPopup()">
       <span class="input-label">{{'types_de_structure'|translate}}</span> 
       <label class="item-input-wrapper">{{ formParam.type.nom }}</label>
       <a class="button positive button-icon icon ion-arrow-down-b" ng-click=""></a>
   </div>
 
+	<div ng-show="onlyOneResult!=null" style='color:red'>{{'only_one_world'|translate}}</div>
+  
 </div>
 
 <div class="card">

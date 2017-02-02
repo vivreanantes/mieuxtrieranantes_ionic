@@ -34,6 +34,11 @@ angular.module('starter.controllers').controller(
 			$scope.onSearchSubmit = function(searchkey) {
 				$scope.results = RechercheService
 						.searchCollecteDomicile(searchkey);
+				if (searchkey.indexOf(" ")>-1) {
+					$scope.onlyOneResult = "1";
+				} else {
+					$scope.onlyOneResult = null;
+				}
 			},
 
 			$scope.selectAdress = function(mco) {

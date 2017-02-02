@@ -15,8 +15,8 @@
       <input ng-model="formParam.searchkey"  type="text" placeholder="{{'dechet_placeholder'|translate}}" ng-keyup="$event.keyCode == 13 && onSearchSubmit()">
     </label>
     <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
+	  <div ng-show="onlyOneResult!=null" style='color:red'>{{'only_one_world'|translate}}</div>
   </div>
-
 </div>
 
 <div class="dechet-categorie">

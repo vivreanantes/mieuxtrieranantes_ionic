@@ -18,12 +18,12 @@
     </label>
     <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
     </div>
-
+		<div ng-show="onlyOneResult!=null" style='color:red'>{{'only_one_world'|translate}}</div>
   </div>
 
   <div class="card" ng-show="resultsLength >= 0">
 		<div class="item item-divider item-calm" ng-click="onToggleObject()">{{'results'|translate}} <span ng-bind="'(' + (resultsLength) + ')'"></span></div>
-<div  ng-show="toggleObject>0">
+    <div ng-show="toggleObject>0">
 		<a class="item item-thumbnail-left"  ng-repeat="item in resultsGarbages | limitTo:maxDisplayResults" ng-href="#/tab/dechet/detail/{{::item.code}}">
 					<img ng-src="resources/images/{{::item.image}}"/>
 					{{::item.nom}} <br>

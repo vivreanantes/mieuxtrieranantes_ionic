@@ -54,6 +54,11 @@ function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, 
 	    $scope.resultsGarbages = RechercheService.searchDechet($searchkey);
 	    // $scope.resultsHomeCollects = RechercheService.searchCollecteDomicile($searchkey);
 	    $scope.resultsLength = $scope.resultsPlaces.length + $scope.resultsGarbages.length + $scope.resultsHomeCollects.length;
+			if ($searchkey.indexOf(" ")>-1) {
+				$scope.onlyOneResult = "1";
+			} else {
+				$scope.onlyOneResult = null;
+			}
   };
 
 	// An alert dialog for the advices
