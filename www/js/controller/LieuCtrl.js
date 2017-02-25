@@ -59,7 +59,7 @@ angular.module('starter.controllers')
 })
 .controller('LieuDetailCtrl',
 
-        function($scope, $stateParams, RechercheService) {
+        function($scope, $stateParams, RechercheService, $rootScope) {
             
              $scope.debug = false;
              

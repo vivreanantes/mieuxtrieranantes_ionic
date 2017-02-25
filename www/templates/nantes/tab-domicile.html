@@ -24,7 +24,9 @@
 
 	  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
 	        {{::collecte.dcv}}<br>
-	        <span ng-bind-html="collecte.jcbj" class="mtn-nowrap"></span>
+				<span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='fr'"></span>
+				<span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='en'"></span>
+
 	        <button class="button button-stable" ng-click="showAdvice(collecte.cons)">
       			<i class="icon ion-information-circled"></i>
     		</button>

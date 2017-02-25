@@ -17,6 +17,7 @@ angular.module('starter.controllers').controller(
 					$translate.use(currentlanguage);
 				// RM-PA_LANGUE_01 On peut sauver la langue de l'utilisateur
 				ParamService.setValueInLocalStorage("currentlanguage", currentlanguage);
+				$rootScope.currentlanguage=currentlanguage;
 			}
 
 			$ionicModal.fromTemplateUrl('nantes/modal-domicile.html', {

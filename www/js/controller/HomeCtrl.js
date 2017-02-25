@@ -6,6 +6,7 @@ function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, 
 
 	// Récupère la langue courant. Initialise l'application avec cette langue.
 	var temp = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
+	$rootScope.currentlanguage=temp;
 	$translate.use(temp);
 	
 	$rootScope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");

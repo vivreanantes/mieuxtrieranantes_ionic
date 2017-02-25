@@ -2,7 +2,6 @@
   <ion-content>
 
   <div class="list card">
-
     <div class="item item-divider item-calm">
       	 {{'nom_translated'|translate:dechet}}
     </div>
@@ -21,7 +20,8 @@
         {{'nom_translated'|translate:modeDeCollecte}}<br/>
 				<!-- ng-show="toggleObject.item == $index"  -->
           <div class="description" class="mode-collecte-info" ng-show="toggleObject[[$index]]>0">
-              <p ng-bind-html="modeDeCollecte.descr" class="mtn-nowrap"></p>
+              <p ng-bind-html="modeDeCollecte.descr" class="mtn-nowrap" ng-show="currentlanguage=='fr'"></p>
+							<p ng-bind-html="modeDeCollecte.descr_en" class="mtn-nowrap" ng-show="currentlanguage=='en'"></p>
 							<!-- <div ng-show="modeDeCollecte.lstFiches.length>0" class="item" >
 							  {{'plus_d_infos'|translate}} : <a ng-repeat="url in modeDeCollecte.lstFiches" ng-href="{{::url}}">{{url}}</a>
 							</div> -->
@@ -43,7 +43,8 @@
       <i class="icon ion-information-circled"></i>
       <h2 class="mtn-nowrap">{{'nom_translated'|translate:conseil}}</h2>
 			<p class="mtn-nowrap">
-				<span ng-bind-html="conseil.descr"></span>
+				<span ng-bind-html="conseil.descr" ng-show="currentlanguage=='fr'"></span>
+			  <span ng-bind-html="conseil.descr_en" ng-show="currentlanguage=='en'"></span>
 				<span ng-show="false">{{'descr_translated'|translate:conseil}}</span>
 			</p>
     </div>

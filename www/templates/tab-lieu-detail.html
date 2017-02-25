@@ -15,9 +15,10 @@
       	<mtn-plage-horaire class="horaire" plagehoraire="{{::structure.plagesHoraires}}" horaire="{{::structure.horaires}}" fulldisplay="1"></mtn-plage-horaire>
     </div>
 
-	<span>
-        <p ng-bind-html="structure.descr"></p>
-				<span ng-show="structure.objets_recuperes"><b>{{'objets_recuperes'|translate:translatevalues}} : {{structure.objets_recuperes}}</b></span>
+	<div>
+     <p ng-bind-html="structure.descr" ng-show="currentlanguage=='fr'"></p>
+     <p ng-bind-html="structure.descr_en" ng-show="currentlanguage=='en'"></p>
+		<span ng-show="structure.objets_recuperes"><b>{{'objets_recuperes'|translate:translatevalues}} : {{structure.objets_recuperes}}</b></span>
   </div>
 
  	<div class="item item-icon-left item-text-wrap" ng-show="structure.adresseTemp">
@@ -29,7 +30,7 @@
     <div class="item item-icon-left" ng-show="lstTel.length>0">
       <i class="icon ion-ios-telephone"></i>
 			<div  ng-repeat="oneTel in lstTel" >
-				<span ng-show="[[$index]]>0"><hr/></span>
+				<span ng-show="[[$index]]>0"><hr/></div>
 				{{oneTel}}
         <div ng-click="openPhoneLink(oneTel)" class="ico ion-arrow-right-c"> {{'telephoner'|translate}}</div>
 			</div>

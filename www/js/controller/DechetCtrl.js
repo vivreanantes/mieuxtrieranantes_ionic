@@ -46,7 +46,7 @@ var myCtrl = angular.module('starter.controllers');
 		}
 	);
 
-	myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, RechercheService, $translate) {
+	myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, RechercheService, $translate, $rootScope) {
 
 		// On récupère le déchet qui correspondant au code 
 		var dechet = RechercheService.getDechet($stateParams.code);
@@ -117,10 +117,10 @@ var myCtrl = angular.module('starter.controllers');
 				dechet.recyc2 = "recyclable_pas_poubelle";
 		} else if (dechet.recyc === "NON") {
 				dechet.recyc_color = "red";
-				dechet.recyc2 = "non";
+				dechet.recyc2 = "recyclable_non";
 		} else {
 				dechet.recyc_color = "green";
-				dechet.recyc2 = "oui";
+				dechet.recyc2 = "recyclable_oui";
 		}
 	
 		//SCOPE

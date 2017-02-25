@@ -7,8 +7,10 @@
       <h2><b>{{'nom_translated'|translate:fiche}}</b></h2>
       </a>
 
-      <p><span ng-bind-html="fiche.descr"></span></p>
-        
+      <p>
+				<span ng-bind-html="fiche.descr" ng-show="currentlanguage=='fr'"></span>
+				<span ng-bind-html="fiche.descr_en" ng-show="currentlanguage=='en'"></span>
+      </p>
 
 		<div ng-show="lstUrls.length>0" class="item" >
     {{'plus_d_infos'|translate}} : <a ng-repeat="url in lstUrls" ng-click="openHrefLink('{{::url}}')">{{url}}</a>
