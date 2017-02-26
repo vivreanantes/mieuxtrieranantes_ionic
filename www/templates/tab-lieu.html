@@ -1,6 +1,6 @@
 <ion-view view-title="{{'lieux'|translate}}" hide-back-button="true">
   
-  <ion-content>
+  <ion-content class="has-footer">
   
 
 <div class="card">
@@ -33,7 +33,7 @@
 
   <a class="item" ng-repeat="structure in results | limitTo:maxDisplayResults | orderBy:'distance'" ng-href="#/tab/lieu/detail/{{::structure.code}}">
         {{::structure.nom}} <br>
-        <span style="color:#666">{{::structure.type}}</span>
+        <span style="color:#666"><div>{{'type_translated'|translate:structure}}</div></span>
         <mtn-plage-horaire class="horaire" plagehoraire="{{::structure.plagesHoraires}}"></mtn-plage-horaire>
         <span ng-show="structure.distance!=100000"><i>{{::structure.distance}} {{'metres'|translate}}</i></span>
   </a>

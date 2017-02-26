@@ -10,7 +10,7 @@
          {{'nom_translated'|translate:item}}<br/>
          <span style="color:#666" class="mtn-nowrap">{{'resume_translated'|translate:item}}</span>
          <div ng-show="toggleObject[[$parent.$index]][[$index]]>0">
-				       <span ng-bind-html="item.descr" ng-show="currentlanguage=='fr'"></span>
+				       <span ng-bind-html="item.descr" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
 				       <span ng-bind-html="item.descr_en" ng-show="currentlanguage=='en'"></span>
        </div>
     </div>

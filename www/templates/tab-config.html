@@ -47,7 +47,7 @@
 			
 				  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
 				        {{::collecte.dcv}}<br>
- 				       <span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='fr'"></span>
+ 				       <span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
  				       <span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='en'"></span>
 				        <button class="button button-stable" ng-click="selectAdress(collecte.mco)">
 			      			<i class="ico ion-arrow-right-c"> {{'select'|translate}}</i>

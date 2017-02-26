@@ -11,12 +11,12 @@
 		
     <div class="item item-icon-left">
         <i class="icon ion-information-circled"></i>
-      	<div>{{structure.type}}</div>   
+				<div>{{'type_translated'|translate:structure}}</div>
       	<mtn-plage-horaire class="horaire" plagehoraire="{{::structure.plagesHoraires}}" horaire="{{::structure.horaires}}" fulldisplay="1"></mtn-plage-horaire>
     </div>
-
+	<div>{{'statut'|translate}} : {{structure.statut|translate}}</div>
 	<div>
-     <p ng-bind-html="structure.descr" ng-show="currentlanguage=='fr'"></p>
+     <p ng-bind-html="structure.descr" ng-show="currentlanguage=='fr'||!currentlanguage"></p>
      <p ng-bind-html="structure.descr_en" ng-show="currentlanguage=='en'"></p>
 		<span ng-show="structure.objets_recuperes"><b>{{'objets_recuperes'|translate:translatevalues}} : {{structure.objets_recuperes}}</b></span>
   </div>

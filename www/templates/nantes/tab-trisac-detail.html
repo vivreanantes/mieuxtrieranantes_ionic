@@ -18,7 +18,7 @@
       <i class="icon ion-information-circled"></i>
       <h2 class="mtn-nowrap">{{'nom_translated'|translate:conseil}}</h2>
 			<p class="mtn-nowrap">
-				<span ng-bind-html="conseil.descr" ng-show="currentlanguage=='fr'"></span>
+				<span ng-bind-html="conseil.descr" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
 				<span ng-bind-html="conseil.descr_en" ng-show="currentlanguage=='en'"></span>
 			</p>
 			<span ng-show="false">{{'descr_translated'|translate:conseil}}</span>

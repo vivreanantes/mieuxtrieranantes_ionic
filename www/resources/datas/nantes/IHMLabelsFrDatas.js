@@ -186,6 +186,7 @@ var _ihmLabelsFrDatas = {
 	"nom_translated": "{{nom}}",
 	"descr_translated": "{{descr}}",
 	"resume_translated": "{{resume}}",
+	"type_translated": "{{type}}",
 	"categorie": "Catégorie",
 	"modco_bacbleu,modco_bacjaunnantes": "Nantes : bacs bleus et bacs jaunes",
 	"modco_bacbleu,modco_bacjaune": "Hors Nantes : bacs bleus, bacs jaunes",

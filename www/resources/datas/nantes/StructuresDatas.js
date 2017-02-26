@@ -3,7 +3,8 @@ var _structuresDatas = [{
 		"latitude": "47.20508",
 		"longitude": "-1.575083",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements, divers, livres/BD/CD/DVD",
+		"type_en": "Re-use : vêtements, divers, livres/BD/CD/DVD",
 		"statut": "Association",
 		"categorie": "vêtements, divers, livres/BD/CD/DVD",
 		"descr": "Dans une boutique d'environ 40 mètres carrés, vous trouverez des vêtements, livres, jouets, vaisselle.<br/>Pour les dons, amener des objets en bon état: ils ne sont pas réparés avant la revente.<br/>La vente des objets usagés permet le financement des actions du secours populaire français (la plupart des objets/vêtements sont proposés aux personnes en difficulté).<br/><br/>Il existe également un numéro de téléphone commun pour toutes les structures : 02.40.74.14.14.",
@@ -25,14 +26,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Clothing, trinkets, books, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Pop' Fringues (Secours Populaire Français Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>Pop' Fringues (Secours Populaire Français Nantes)"
+		"cartePopuptext": "Réemploi : vêtements, divers, livres/BD/CD/DVD<br/><b>Pop' Fringues (Secours Populaire Français Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, divers, livres/BD/CD/DVD<br/><b>Pop' Fringues (Secours Populaire Français Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_solidarimeuble",
 		"latitude": "47.198314",
 		"longitude": "-1.596764",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers,meuble, électroménager",
+		"type_en": "Re-use : divers,meuble, électroménager",
 		"statut": "Association",
 		"categorie": "divers,meuble, électroménager",
 		"descr": "Vous ne savez que faire de vos meubles, vos appareils, de vos nécessaires ménager ou de vos livres qui méritent une seconde vie, pensez à en faire don, et ainsi vous pourrez apporter une aide précieuse aux plus déshérités.<br/>Attention : pas de vêtements ici.<br/>Dépôt des dons : Les mardi et jeudi de 9h30 à 12h et de 13h30 à 17h, Le vendredi de 9h30 à 12h et 13h30 à 15h30.<br/>Pour les dons, amener des objets en bon état: ils ne sont pas réparés avant la revente.<br/>La vente des objets usagés permet le financement des actions du secours populaire français (la plupart des objets/vêtements sont proposés aux personnes en difficulté).<br/><br/>Il existe également un numéro de téléphone commun pour toutes les structures : 02.40.74.14.14.",
@@ -56,14 +58,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0499.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0501.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0504.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0507.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteSolidariMeubles/VisiteSolidariMeubles_DSC_0509.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Solidari'meubles (Secours Populaire Français Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>Solidari'meubles (Secours Populaire Français Nantes)"
+		"cartePopuptext": "Réemploi : divers,meuble, électroménager<br/><b>Solidari'meubles (Secours Populaire Français Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : divers,meuble, électroménager<br/><b>Solidari'meubles (Secours Populaire Français Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_spopaffaires",
 		"latitude": "47.210229",
 		"longitude": "-1.550847",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements, divers, livres/BD/CD/DVD",
+		"type_en": "Re-use : vêtements, divers, livres/BD/CD/DVD",
 		"statut": "Association",
 		"categorie": "vêtements, divers, livres/BD/CD/DVD",
 		"descr": "Vêtements, petits mobiliers, livres, jouets, vaisselle, bibelots.<br/>Pour les dons, amener des objets en bon état: ils ne sont pas réparés avant la revente.<br/>La vente des objets usagés permet le financement des actions du secours populaire français (la plupart des objets/vêtements sont proposés aux personnes en difficulté).<br/><br/>Il existe également un numéro de téléphone commun pour toutes les structures: 02.40.74.14.14.",
@@ -85,14 +88,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, small furniture, books, toys, dishes, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>S'POP affaires (Secours Populaire Français Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>S'POP affaires (Secours Populaire Français Nantes)"
+		"cartePopuptext": "Réemploi : vêtements, divers, livres/BD/CD/DVD<br/><b>S'POP affaires (Secours Populaire Français Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, divers, livres/BD/CD/DVD<br/><b>S'POP affaires (Secours Populaire Français Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_velocampus",
 		"latitude": "47.243274",
 		"longitude": "-1.554955",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vélo",
+		"type_en": "Re-use : vélo",
 		"statut": "Association",
 		"categorie": "vélo",
 		"descr": "Vélocampus est une association qui anime des ateliers participatifs et solidaires qui visent à fournir aux participants une certaine autonomie à l'entretien et la réparation de leur vélo. C'est ce qu'on appelle la vélonomie ! Ils permettent de nombreux échanges et une pratique pour acquérir, appliquer et aussi transmettre des savoir-faire dans ce domaine.<br/>Nous récupérons tous types de vélos, dans tous les états, pour leur offrir une seconde vie.<BR/>Objets récupérés : vélos,pièces,carcasses",
@@ -115,14 +119,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle,bike",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Velocampus",
-		"cartePopuptext_en": "Association de réemploi<br/>Velocampus"
+		"cartePopuptext": "Réemploi : vélo<br/><b>Velocampus</b>,",
+		"cartePopuptext_en": "Re-use : vélo<br/><b>Velocampus</b>,"
 	}, {
 		"code": "stco_reemploi_dechetpaimboeuf",
 		"latitude": "47.286783",
 		"longitude": "-2.025536",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi",
+		"type_en": "Re-use",
 		"statut": "Entreprise",
 		"descr": "Certains déchets ne sont pas acceptés en déchèteries : ordures ménagères et tri sélectif, pneumatiques (sauf pneumatiques vélo), bouteilles de gaz, extincteurs, déchets explosifs ou radioactifs, cadavres d'animaux ou déchets anatomiques, médicaments, déchets hospitaliers, bâches agricoles, souches d'arbres, épaves de véhicules à moteur…",
 		"descr_en": "Some wastes are not accepted in déchèteries: refuse and recycling, tires (except bicycle tires), gas bottles, fire extinguishers, explosives or radioactive waste, animal carcasses or anatomical waste, medicines, hospital waste, agricultural sheeting, strains trees, motor vehicle wrecks ...",
@@ -137,14 +142,15 @@ var _structuresDatas = [{
 		"mots_cles_en": "decheterie,paimboeuf,/,saint,viaud,decheterie,paimboeuf,/,saint,viaud,,",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Déchèterie Paimboeuf / Saint Viaud",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Déchèterie Paimboeuf / Saint Viaud"
+		"cartePopuptext": "Réemploi<br/><b>Déchèterie Paimboeuf / Saint Viaud</b>,",
+		"cartePopuptext_en": "Re-use<br/><b>Déchèterie Paimboeuf / Saint Viaud</b>,"
 	}, {
 		"code": "stco_reemploi_retzemploi_saintepaz",
 		"latitude": "47.112545",
 		"longitude": "-1.802187",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
+		"type_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"statut": "Association",
 		"categorie": "meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"descr": "Collecte, revente à petit prix de ce qui est récupérable, tri en vue de recyclage : vaisselle, jouets, livres, disques, électroménager en état de fonctionnement, outils, vêtements, chaussures, bibelots, meubles...<br/><br/>Permances sur Déchèterie du Pont-Béranger",
@@ -164,14 +170,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle, furniture, textiles, tableware, toy, baby, book, CD, DVD, tools, electrical equipment",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Atelier du Retz Emploi (Sainte-Pazanne)",
-		"cartePopuptext_en": "Association de réemploi<br/>Atelier du Retz Emploi (Sainte-Pazanne)"
+		"cartePopuptext": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Atelier du Retz Emploi (Sainte-Pazanne)</b>,",
+		"cartePopuptext_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Atelier du Retz Emploi (Sainte-Pazanne)</b>,"
 	}, {
 		"code": "stco_reemploi_retzemploi_lepelerin",
 		"latitude": "47.200633",
 		"longitude": "-1.755177",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
+		"type_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"statut": "Association",
 		"categorie": "meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"descr": "Collecte, revente à petit prix de ce qui est récupérable, tri en vue de recyclage : vaisselle, jouets, livres, disques, électroménager en état de fonctionnement, outils, vêtements, chaussures, bibelots, meubles...<br/><br/>Permanences sur Déchèterie du Pont-Béranger",
@@ -192,14 +199,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle, furniture, textiles, tableware, toy, baby, book, CD, DVD, tools, electrical equipment",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Atelier du Retz Emploi (Le Pèlerin)",
-		"cartePopuptext_en": "Association de réemploi<br/>Atelier du Retz Emploi (Le Pèlerin)"
+		"cartePopuptext": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Atelier du Retz Emploi (Le Pèlerin)</b>,",
+		"cartePopuptext_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Atelier du Retz Emploi (Le Pèlerin)</b>,"
 	}, {
 		"code": "stco_reemploi_retzemploi_lebreil",
 		"latitude": "47.231095",
 		"longitude": "-1.590294",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
+		"type_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"statut": "Association",
 		"categorie": "meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"descr": "Collecte, revente à petit prix de ce qui est récupérable, tri en vue de recyclage : vaisselle, jouets, livres, disques, électroménager en état de fonctionnement, outils, vêtements, chaussures, bibelots, meubles...<br/><br/>Permanences sur Déchèterie de Saint-Jean de Boiseau",
@@ -221,14 +229,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle, furniture, textiles, tableware, toy, baby, book, CD, DVD, tools, electrical equipment",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Atelier du Retz Emploi (Le Breil)",
-		"cartePopuptext_en": "Association de réemploi<br/>Atelier du Retz Emploi (Le Breil)"
+		"cartePopuptext": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Atelier du Retz Emploi (Le Breil)</b>,",
+		"cartePopuptext_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Atelier du Retz Emploi (Le Breil)</b>,"
 	}, {
 		"code": "stco_reemploi_retzemploi_saintbrevin",
 		"latitude": "47.240987",
 		"longitude": "-2.154311",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
+		"type_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"statut": "Association",
 		"categorie": "meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"descr": "Collecte, revente à petit prix de ce qui est récupérable, tri en vue de recyclage : vaisselle, jouets, livres, disques, électroménager en état<br/><br/>Permanences sur Déchèterie de Saint-Brevin-les-Pins (Route de la gendarmerie)",
@@ -249,14 +258,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bicycle, furniture, textiles, tableware, toy, baby, book, CD, DVD, tools, electrical equipment",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Atelier du Retz Emploi (Saint Brévin)",
-		"cartePopuptext_en": "Association de réemploi<br/>Atelier du Retz Emploi (Saint Brévin)"
+		"cartePopuptext": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Atelier du Retz Emploi (Saint Brévin)</b>,",
+		"cartePopuptext_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Atelier du Retz Emploi (Saint Brévin)</b>,"
 	}, {
 		"code": "stco_reemploi_solilab",
 		"latitude": "47.201027",
 		"longitude": "-1.571628",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : livres/bd/cd/dvd, jouet, vêtements, divers",
+		"type_en": "Re-use : livres/bd/cd/dvd, jouet, vêtements, divers",
 		"statut": "Association",
 		"categorie": "livres/bd/cd/dvd, jouet, vêtements, divers",
 		"descr": "<ul>Deux acteurs locaux du réemploi et de la valorisation s'unissent dans une nouvelle boutique pour proposer un grand choix d'objets de seconde main : Le Comptoir. <li>l'Atelier du Retz Emploi, anime une filière professionnelle de récupération et de traitement des objets en vue du réemploi.<br/>C'est une Ressourcerie qui collecte, valorise, trie, nettoie et revend à petits prix dans ses boutiques solidaires en recréant du lien social et en proposant un accueil chaleureux.</li><li>Le Relais Atlantique est une entreprise d'insertion en SCOP qui collecte, trie et valorise les textiles, les chaussures et le linge de maison.<br/>Les vêtements et articles en bon état sont commercialisés à petit prix dans son réseau de boutiques de seconde main 'DING FRING' et au Comptoir du Solilab. Vente au kilo à partir de 7€50.</li></ul><br/>HORAIRES D'OUVERTURE : Du Mardi au Samedi de 10 h à 18 h <br/>Permanences sur déchèterie (déchèterie de Tougas à Saint-Herblain et Déchèterie de Saint-Sébastien) : vous pouvez y déposer chaque jour des objets réutilisables<br/>Accès : Tan : Ligne C5 Arrêt «Quai des Antilles»",
@@ -276,14 +286,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "linen, textiles, shoes, dishes, tools, toy, book, furniture",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Le comptoir du Solilab (Atelier du Retz Emploi et Ding Fring)",
-		"cartePopuptext_en": "Association de réemploi<br/>Le comptoir du Solilab (Atelier du Retz Emploi et Ding Fring)"
+		"cartePopuptext": "Réemploi : livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Le comptoir du Solilab (Atelier du Retz Emploi et Ding Fring)</b>,",
+		"cartePopuptext_en": "Re-use : livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Le comptoir du Solilab (Atelier du Retz Emploi et Ding Fring)</b>,"
 	}, {
 		"code": "stco_reemploi_naga",
 		"latitude": "47.187252",
 		"longitude": "-1.5476762",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : informatique",
+		"type_en": "Re-use : informatique",
 		"statut": "Association",
 		"categorie": "informatique",
 		"descr": "Nâga est une association de récupération et de don d'ordinateurs sur Nantes Métropole.<br/>Nous intervenons dans la récupération de parcs informatiques d'entreprises et d'ordinateurs de particuliers.<br/>Les ordinateurs sont alors reconditionnés, puis donnés aux adhérents de l'association.",
@@ -303,14 +314,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "computer",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Nâga",
-		"cartePopuptext_en": "Association de réemploi<br/>Nâga"
+		"cartePopuptext": "Réemploi : informatique<br/><b>Nâga</b>,",
+		"cartePopuptext_en": "Re-use : informatique<br/><b>Nâga</b>,"
 	}, {
 		"code": "stco_reemploi_lapommeetlalionne",
 		"latitude": "47.27985",
 		"longitude": "-2.207535",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : vêtements",
+		"type_en": "Re-use : vêtements",
 		"statut": "Entreprise",
 		"categorie": "vêtements",
 		"descr": "début mars 2015, un espace sera disponible pour mon atelier boutique à ST Nazaire, près du marché",
@@ -329,14 +341,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "garment, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>La Pomme et La Lionne",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>La Pomme et La Lionne"
+		"cartePopuptext": "Réemploi : vêtements<br/><b>La Pomme et La Lionne</b>,",
+		"cartePopuptext_en": "Re-use : vêtements<br/><b>La Pomme et La Lionne</b>,"
 	}, {
 		"code": "stco_reemploi_techrecyclage",
 		"latitude": "47.216793",
 		"longitude": "-1.552638",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi",
+		"type_en": "Re-use",
 		"statut": "Entreprise",
 		"descr": "Tech-Recyclage recycle vos appareils informatiques cassés ou obsolètes. Nous réparons aussi vos ordinateurs portables (écrans cassés, plasturgie...).<br/>Enlèvement gratuit sur demande téléphonique ou mail.",
 		"descr_en": "Tech-Recycling recycles your broken or obsolete computer equipment. We also repair your laptops (broken screens, plastics ...). Removal <br/> free on telephone request or email.",
@@ -356,14 +369,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "computers, imrpmantes, smartphones, tablets",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Tech Recyclage",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Tech Recyclage"
+		"cartePopuptext": "Réemploi<br/><b>Tech Recyclage</b>,",
+		"cartePopuptext_en": "Re-use<br/><b>Tech Recyclage</b>,"
 	}, {
 		"code": "stco_reemploi_catourneautroc",
 		"latitude": "47.209943",
 		"longitude": "-1.730260",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : vêtements",
+		"type_en": "Re-use : vêtements",
 		"statut": "Entreprise",
 		"categorie": "vêtements",
 		"descr": "Dépôt-vente vêtements et accessoires. Femme et enfant. Dépôt uniquement sur rendez-vous. ",
@@ -382,14 +396,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "garment, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Ça Tourn'au Troc (Couëron)",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Ça Tourn'au Troc (Couëron)"
+		"cartePopuptext": "Réemploi : vêtements<br/><b>Ça Tourn'au Troc (Couëron)</b>,",
+		"cartePopuptext_en": "Re-use : vêtements<br/><b>Ça Tourn'au Troc (Couëron)</b>,"
 	}, {
 		"code": "stco_reemploi_ataovelo",
 		"latitude": "47.218935",
 		"longitude": "-1.645201",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vélo",
+		"type_en": "Re-use : vélo",
 		"statut": "Association",
 		"categorie": "vélo",
 		"descr": "Plusieurs types de services sont proposés aux entreprises et aux particuliers :<br/>- la vente de bicyclettes remises en état et garanties<br/>-L'entretien de bicyclettes de particuliers ou d'un parc d'entreprise.",
@@ -410,14 +425,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/ATAO/velo/ATAO_velo_ATAO_001_OAP_3199.jpg,www.mieuxtrieranantes.fr/docs/medias/ATAO/velo/ATAO_velo_IMG_5008.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>ATAO (Saint-Herblain) vélo",
-		"cartePopuptext_en": "Association de réemploi<br/>ATAO (Saint-Herblain) vélo"
+		"cartePopuptext": "Réemploi : vélo<br/><b>ATAO (Saint-Herblain) vélo</b>,",
+		"cartePopuptext_en": "Re-use : vélo<br/><b>ATAO (Saint-Herblain) vélo</b>,"
 	}, {
 		"code": "stco_reemploi_ataoauto",
 		"latitude": "47.218935",
 		"longitude": "-1.645201",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi",
+		"type_en": "Re-use",
 		"statut": "Association",
 		"descr": "ATAO recherche des véhicules usagés qui puissent être réparés : berlines ou petits utilitaires (toutes marques, tous kilométrages).<br/>Ses salariés les remettent en état et l'association les vend aux personnes à faible revenu (RSA, jeunes...), dans le cadre de leur projet professionnel.<br/><br/>ATAO développe ainsi une double démarche d'insertion :<br/>- Vos dons permettent une activité professionnalisante dans les métiers de la mécanique automobile et de l'accueil, ce qui permet le retour à l'emploi de ses salariés<br/> - Une fois remis à neuf, ces véhicules offrent aux bénéficiaires de minima sociaux la mobilité nécessaire pour accéder à l'emploi.<br/><br/>Et : vous réduisez vos impôts : Les dons permettent une déduction fiscale : 60 % du montant pour les entreprises et 66 % pour les particuliers.",
 		"nom": "ATAO (Saint-Herblain) auto",
@@ -438,14 +454,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/ATAO/auto/ATAO_auto_ATAO-pano-1.jpg,www.mieuxtrieranantes.fr/docs/medias/ATAO/auto/ATAO_auto_IMG_4875.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>ATAO (Saint-Herblain) auto",
-		"cartePopuptext_en": "Association de réemploi<br/>ATAO (Saint-Herblain) auto"
+		"cartePopuptext": "Réemploi<br/><b>ATAO (Saint-Herblain) auto</b>,",
+		"cartePopuptext_en": "Re-use<br/><b>ATAO (Saint-Herblain) auto</b>,"
 	}, {
 		"code": "stco_reemploi_boiteutile1",
 		"latitude": "47.205534",
 		"longitude": "-1.550461",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Boîtes à dons impulsées par des habitants, réalisées à partir de matériaux de récup et installées sur l'espace public dans un quartier nantais. Action animée par Nous & Co. N'hésitez pas à nous rejoindre pour assurer leur bon fonctionnement dans la durée. Les boîtes Utiles sont VOS boîtes à don.",
@@ -463,14 +480,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, sweater, pants, jacket, play, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La Boîte Utile (Pilote – île de Nantes, Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>La Boîte Utile (Pilote – île de Nantes, Nantes)"
+		"cartePopuptext": "Réemploi : divers<br/><b>La Boîte Utile (Pilote – île de Nantes, Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>La Boîte Utile (Pilote – île de Nantes, Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_boiteutile2",
 		"latitude": "47.236002",
 		"longitude": "-1.519424",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Boîtes à dons impulsées par des habitants, réalisées à partir de matériaux de récup et installées sur l'espace public dans un quartier nantais. Action animée par Nous & Co. N'hésitez pas à nous rejoindre pour assurer leur bon fonctionnement dans la durée. Les boîtes Utiles sont VOS boîtes à don.<br/><b>Actuellement indisponible ; de retour au printemps 2017</b>",
@@ -489,14 +507,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, sweater, pants, jacket, play, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La Boîte Utile 2 (La Bottière, Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>La Boîte Utile 2 (La Bottière, Nantes)"
+		"cartePopuptext": "Réemploi : divers<br/><b>La Boîte Utile 2 (La Bottière, Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>La Boîte Utile 2 (La Bottière, Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_boiteutile3",
 		"latitude": "47.233464",
 		"longitude": "-1.574327",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Boîtes à dons impulsées par des habitants, réalisées à partir de matériaux de récup et installées sur l'espace public dans un quartier nantais. Action animée par Nous & Co. N'hésitez pas à nous rejoindre pour assurer leur bon fonctionnement dans la durée. Les boîtes Utiles sont VOS boîtes à don.",
@@ -514,14 +533,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, sweater, pants, jacket, play, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La Boîte Utile 3 (Sainte-Thérèse, Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>La Boîte Utile 3 (Sainte-Thérèse, Nantes)"
+		"cartePopuptext": "Réemploi : divers<br/><b>La Boîte Utile 3 (Sainte-Thérèse, Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>La Boîte Utile 3 (Sainte-Thérèse, Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_boiteutile4",
 		"latitude": "47.207341",
 		"longitude": "-1.596453",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Boîtes à dons impulsées par des habitants, réalisées à partir de matériaux de récup et installées sur l'espace public dans un quartier nantais. Action animée par Nous & Co. N'hésitez pas à nous rejoindre pour assurer leur bon fonctionnement dans la durée. Les boîtes Utiles sont VOS boîtes à don.",
@@ -539,14 +559,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, sweater, pants, jacket, play, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La Boîte Utile 4 (Chantenay-Bourderies, Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>La Boîte Utile 4 (Chantenay-Bourderies, Nantes)"
+		"cartePopuptext": "Réemploi : divers<br/><b>La Boîte Utile 4 (Chantenay-Bourderies, Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>La Boîte Utile 4 (Chantenay-Bourderies, Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_react",
 		"latitude": "47.242692",
 		"longitude": "-1.571018",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements",
+		"type_en": "Re-use : vêtements",
 		"statut": "Association",
 		"categorie": "vêtements",
 		"descr": "RE-act est un service né en 2010 de proximité proposant aux gens de transformer leurs vêtements afin de s'offrir une nouvelle pièce unique et sur-mesure.<br/><br/>Il s'adresse majoritairement à des personnes peu consuméristes à la recherche d'originalité et de singularité par une nouvelle expérience du vêtement et leur offre ainsi une alternative séduisante à la consommation de textiles neufs.<br/>Les clients apportent leurs vieux vêtements en boutique, choisissent parmi les coupes disponibles et commandent leur nouveau vêtement, personnalisé, fait à partir de leurs propres vêtements",
@@ -568,14 +589,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "garment, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Re-act",
-		"cartePopuptext_en": "Association de réemploi<br/>Re-act"
+		"cartePopuptext": "Réemploi : vêtements<br/><b>Re-act</b>,",
+		"cartePopuptext_en": "Re-use : vêtements<br/><b>Re-act</b>,"
 	}, {
 		"code": "stco_reemploi_stationservices",
 		"latitude": "47.164317",
 		"longitude": "-1.543635",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements, divers",
+		"type_en": "Re-use : vêtements, divers",
 		"statut": "Association",
 		"categorie": "vêtements, divers",
 		"descr": "<img src='resources/images/nantes/stations_services.png' /><br/>STATIONS SERVICES est une recyclerie de matières premières. Nous récoltons des rebuts et chutes de productions dans les entreprises du territoire et nous les revendons à bas prix aux particuliers, bricoleurs, bricoleuses, artistes, étudiants, créatifs en tous genres, associations, institutions culturelles...<br/>Nous proposons un large choix de matériaux bruts issus d'un système d'économie circulaire : bois, métal, matières plastiques, tissus, mercerie...<br/>Pour vos petits travaux ou vos plus grands chef-d'œuvres, nous vous fournissons en matériaux de réemploi collectés, triés, revalorisés.<br/>Grâce à vous, ces matériaux sont détournés des bennes et retrouvent une seconde vie. Ainsi, vous participez à une consommation plus responsable et plus respectueuse de la planète !<br/><br/>Pour les horaires, c'est le mercredi, le vendredi et le samedi de 10h à 18h. Pour les périodes particulières (vacances, jours fériés), vous pouvez vérifier si la structure est ouverte sur la page Facebook.",
@@ -596,14 +618,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteStationsServices/VisiteStationsServices_DSC_0581.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteStationsServices/VisiteStationsServices_DSC_0584.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Stations services",
-		"cartePopuptext_en": "Association de réemploi<br/>Stations services"
+		"cartePopuptext": "Réemploi : vêtements, divers<br/><b>Stations services</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, divers<br/><b>Stations services</b>,"
 	}, {
 		"code": "stco_reemploi_recuperette",
 		"latitude": "47.077636",
 		"longitude": "-1.282525",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements, livres/bd/cd/dvd, jouet, divers",
+		"type_en": "Re-use : vêtements, livres/bd/cd/dvd, jouet, divers",
 		"statut": "Association",
 		"categorie": "vêtements, livres/bd/cd/dvd, jouet, divers",
 		"descr": "Les dépots peuvent se faire sur les horaires d'ouverture de la boutique.<br/><br/>RÉCUPÈRE le matériel en bon état :<br/>- Vaisselle et batterie de cuisine<br/>- Outils de bricolage et de jardin<br/>- Bibelots et objets de décoration<br/>- Vêtements propres et en bon état<br/>- Jouets et matériel de puériculture<br/>- Livres / CD / Vinyles<br/>- Meubles en bon état<br/>- Luminaires<br/>- Chaînes Hifi, play-stations, télécommandes universelles<br/><br/>Ne RÉCUPÈRE pas le matériel en mauvais état ainsi que ...<br/>- Déchets verts<br/>- Cartouches et toners d'imprimantes<br/>- K7 vidéo<br/>- Téléphones portables, chargeurs<br/>- Téléviseurs, télécommandes<br/>- Matériel informatique<br/>- Vêtements sales ou abîmés<br/><br/>Nos horaires d'ouverture : chaque mercredi de 9h à 13h et de 14h à 18h, chaque vendredi de 9h à 13h et deux samedis par mois (le 2e et le 4e) de 10h à 13h et de 14h à 18h (sauf samedi 24 décembre).",
@@ -624,14 +647,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "tableware and kitchenware, DIY and garden tools, ornaments and decorative items, and clean clothes in good condition, toys and baby equipment, books / CDs / vinyl, furniture in good condition, lighting",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La récupérette (Clisson)",
-		"cartePopuptext_en": "Association de réemploi<br/>La récupérette (Clisson)"
+		"cartePopuptext": "Réemploi : vêtements, livres/bd/cd/dvd, jouet, divers<br/><b>La récupérette (Clisson)</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, livres/bd/cd/dvd, jouet, divers<br/><b>La récupérette (Clisson)</b>,"
 	}, {
 		"code": "stco_reemploi_arbres",
 		"latitude": "47.260956",
 		"longitude": "-1.570404",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Récupération de papier (même pour des volumes moyens)",
@@ -651,14 +675,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "paper",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Arbres",
-		"cartePopuptext_en": "Association de réemploi<br/>Arbres"
+		"cartePopuptext": "Réemploi : divers<br/><b>Arbres</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Arbres</b>,"
 	}, {
 		"code": "stco_reemploi_alis44",
 		"latitude": "47.239259",
 		"longitude": "-1.51986",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : informatique",
+		"type_en": "Re-use : informatique",
 		"statut": "Association",
 		"categorie": "informatique",
 		"descr": "Récupération, reconditionnement et distribution d'ordinateurs sous OS Linux",
@@ -678,14 +703,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "computer,screen,alis",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>ALIS44",
-		"cartePopuptext_en": "Association de réemploi<br/>ALIS44"
+		"cartePopuptext": "Réemploi : informatique<br/><b>ALIS44</b>,",
+		"cartePopuptext_en": "Re-use : informatique<br/><b>ALIS44</b>,"
 	}, {
 		"code": "stco_reemploi_baramel",
 		"latitude": "47.258053",
 		"longitude": "-1.654222",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Récupération de pain. Cette structure d'insertion (pilotée par l'association Trajet) fait travailler 32 personnes. Elle s'approvisionne auprès de 200 commerces qui fournissent les invendus. Le pain transformé est ensuite revendu pour être intégré à la nourriture pour animaux.",
@@ -703,14 +729,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "bread",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Atelier Bar'Amel trajet",
-		"cartePopuptext_en": "Association de réemploi<br/>Atelier Bar'Amel trajet"
+		"cartePopuptext": "Réemploi : divers<br/><b>Atelier Bar'Amel trajet</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Atelier Bar'Amel trajet</b>,"
 	}, {
 		"code": "stco_reemploi_ressourcerieile",
 		"latitude": "47.196638",
 		"longitude": "-1.565745",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
+		"type_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"statut": "Association",
 		"categorie": "meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"descr": "(Ancien nom : Ecorev)<br/>Réemploi d'objets de la vie courante : collecte en déchèterie et à domicile sur Nantes Métropole, et en apport volontaire à Rezé, puis revente à bas prix (mobilier, vaisselle, jouets, livres, vêtements, articles de loisirs, outillage...)<br/><br/>Quels objets peut-on donner/acheter ? Mobilier, jouet, puériculture, vaisselle, bibelot, cadre, livre, vêtement, linge de maison, outillage, jardinerie, vélo, luminaire, CD-DVD, jeux vidéos, literie, article de sport …. Ces objets du quotidien doivent être en état d'utilisation, propres, même s'ils présentent des dommages d'usure.<br/>Depuis janvier 2015 il est possible de déposer les petits appareils ménager (qui seront revendus en boutique) ou le gros électroménager (qui sera transmis à Envie44)<br/><br/>Dépôt d'objets : lundi-samedi de 9h30 à 17h (il n'y a plus de coupures le midi)<br/>Boutique solidaire : les mercredis et samedis de 9h30 à 17h30 (hors jours fériés)<br/>Util'o'Bus : 2ème mercredi du mois au Dervallières (9h-12h), 3ème mercredi du mois à La Bottière (14h-17h)",
@@ -729,14 +756,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furnishings, furniture, toy, baby, crockery, trinket, frame, book, clothing, linens, tools, gardening, cycling, lighting, CD-DVD, video games, bedding, sports equipment, household appliances, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La Ressourcerie de l'ïle",
-		"cartePopuptext_en": "Association de réemploi<br/>La Ressourcerie de l'ïle"
+		"cartePopuptext": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>La Ressourcerie de l'ïle</b>,",
+		"cartePopuptext_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>La Ressourcerie de l'ïle</b>,"
 	}, {
 		"code": "stco_reemploi_emmaus",
 		"latitude": "47.161667",
 		"longitude": "-1.56069",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
+		"type_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"statut": "Association",
 		"categorie": "meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"descr": "Meubles, appareils et ustensiles ménagers, literie, couverture, linge, lustres et luminaires, vêtements, livres, vaisselle...",
@@ -755,14 +783,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "électroménager,meuble,vêtement,livres,BD,CD,DVD,lit,linge,luste,lampe,vêtement,vaisselle,divers,jouet",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Emmaus Bouguenais",
-		"cartePopuptext_en": "Association de réemploi<br/>Emmaus Bouguenais"
+		"cartePopuptext": "Réemploi : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Emmaus Bouguenais</b>,",
+		"cartePopuptext_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers<br/><b>Emmaus Bouguenais</b>,"
 	}, {
 		"code": "stco_reemploi_lhommedebout",
 		"latitude": "47.224091",
 		"longitude": "-1.641401",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble",
+		"type_en": "Re-use : meuble",
 		"statut": "Association",
 		"categorie": "meuble",
 		"descr": "Récupération de meubles :<br/>chantier d'insertion réalisant le reconditionnement de meuble :<br/>Des meubles sont récupérés chez des particuliers qui souhaitent en faire don à l'association. Ceux-ci sont ensuite restaurer ou transformer au niveau du chantier puis redistribuer gratuitement à des personnes qui n'ont pas les moyens financiers pour acheter du mobilier. Les demandes de meubles se font dans ce cas sur demande écrite par l'intermédiaire de services sociaux.<br/>Dépôts de meubles : les lundis, mardis et jeudis de 9h00 à 12h00 et de 14h00 à 17h00 ; Les mercredis de 9h00 à 12h00 - Pour effectuer un devis :Les mardis de 14h00 à 17h00, Les jeudis de 9h00 à 12h00",
@@ -781,14 +810,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furniture",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>L'homme debout",
-		"cartePopuptext_en": "Association de réemploi<br/>L'homme debout"
+		"cartePopuptext": "Réemploi : meuble<br/><b>L'homme debout</b>,",
+		"cartePopuptext_en": "Re-use : meuble<br/><b>L'homme debout</b>,"
 	}, {
 		"code": "stco_reemploi_relaisatlantique",
 		"latitude": "47.222275",
 		"longitude": "-1.643064",
 		"modesCollecte": "smco_reemp",
-		"type": "SCOP de réemploi",
+		"type": "Réemploi : vêtements, divers",
+		"type_en": "Re-use : vêtements, divers",
 		"statut": "SCOP",
 		"categorie": "vêtements, divers",
 		"descr": "Centre de traitement des vêtements déposés dans les bornes Le Relais : récupération de vêtements, chaussures, linge.<br/>Le relais Atlantique a déménagé en octobre 2014. En 2014, cette SCOP de 17 salariés-sociétaires (50 % bénéfices aux sociétaires, 50% aux investissements) gère 300 tonnes de vêtements par mois, compte 14 camions et des fourgons.<br/><br/>Voir <a href='fiche:fiche_contvet'>Conteneurs de vêtements</a>",
@@ -805,14 +835,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "SCOP de réemploi<br/>Relais Atlantique",
-		"cartePopuptext_en": "SCOP de réemploi<br/>Relais Atlantique"
+		"cartePopuptext": "Réemploi : vêtements, divers<br/><b>Relais Atlantique</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, divers<br/><b>Relais Atlantique</b>,"
 	}, {
 		"code": "stco_reemploi_oserforetvivante",
 		"latitude": "47.190903",
 		"longitude": "-1.545704",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Cette association d'insertion vers l'emploi a parmi ces activités la collecte des déchets recyclables, pour les entreprises du sud de l'agglomération nantaise:<br/>Papiers, Cartons, Housses plastiques",
@@ -831,14 +862,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "paper, cardboard, plastic cover",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Oser forêt vivante",
-		"cartePopuptext_en": "Association de réemploi<br/>Oser forêt vivante"
+		"cartePopuptext": "Réemploi : divers<br/><b>Oser forêt vivante</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Oser forêt vivante</b>,"
 	}, {
 		"code": "stco_reemploi17",
 		"latitude": "47.1842788",
 		"longitude": "-1.4852487",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Collecte de papiers usagés. L'association a pour objectif de financer des actions humanitaires éducatives à partir d'un geste écologique, le tri du papier.<br/>En 2010, l'activité de Papiers de l'Espoir (70 kms environ autour de Nantes) de participer et d'aider à la scolarisation de 7 000 enfants.",
@@ -856,14 +888,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "paper",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Papiers de l'espoir",
-		"cartePopuptext_en": "Association de réemploi<br/>Papiers de l'espoir"
+		"cartePopuptext": "Réemploi : divers<br/><b>Papiers de l'espoir</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Papiers de l'espoir</b>,"
 	}, {
 		"code": "stco_reemploi_trisactifsouest",
 		"latitude": "47.230689",
 		"longitude": "-1.633349",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Créée par l'association Actif Ouest, cette entreprise d'insertion est spécialisées dans la <br/>- rénovation de micro-ordinateurs réformés et leur revente avec garantie,<br/>- démantèlement assuré par l'atelier d'insertion pour le matériel ‘obsolète' ou en panne.<br/><br/>C'est un lieu de dépôt des Déchets d'équipement électrique et électronique (D3E).<br/>Tri Actif Ouest est labellisé Ordi2.0 (filière nationale de collecte, rénovation est réemploi des ordinateurs).<br/><br/>C'est également un lieu de vente d'ordinateurs fixes ou portables (avec garantie), de dépannage et de vente de pièces détachées.",
@@ -882,14 +915,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteTrisActifOuest/VisiteTrisActifOuest_p1120664.jpg,www.mieuxtrieranantes.fr/docs/medias/VisiteTrisActifOuest/VisiteTrisActifOuest_p1120663.jpg,www.mieuxtrieranantes.fr/docs/medias/VisiteTrisActifOuest/VisiteTrisActifOuest_p1120662.jpg,www.mieuxtrieranantes.fr/docs/medias/VisiteTrisActifOuest/VisiteTrisActifOuest_p1120661.jpg,www.mieuxtrieranantes.fr/docs/medias/VisiteTrisActifOuest/VisiteTrisActifOuest_p1120660.jpg,www.mieuxtrieranantes.fr/docs/medias/VisiteTrisActifOuest/VisiteTrisActifOuest_p1120659.jpg",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>TRIS Actif Ouest",
-		"cartePopuptext_en": "Association de réemploi<br/>TRIS Actif Ouest"
+		"cartePopuptext": "Réemploi : divers<br/><b>TRIS Actif Ouest</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>TRIS Actif Ouest</b>,"
 	}, {
 		"code": "stco_reemploi_lesmarchandsdesable",
 		"latitude": "47.200229",
 		"longitude": "-1.561791",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble",
+		"type_en": "Re-use : meuble",
 		"statut": "Association",
 		"categorie": "meuble",
 		"descr": "Créations d'aménagements intérieurs à partir de matériaux de réemploi.<br/>Scénographie Architecture Bâti Lieux Expérimentaux. Notre travail trouve son application dans la création d'installation urbaines et constructions temporaires <b>à base d'objets récupérés</b>.<br/>Ils recherchent surtout du mobilier, du bois (mais de préférence du dois brut et pas de l'aggloméré) et des structures métalliques.",
@@ -909,14 +943,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furniture,wood,metal structure",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Les Marchands de SABLE",
-		"cartePopuptext_en": "Association de réemploi<br/>Les Marchands de SABLE"
+		"cartePopuptext": "Réemploi : meuble<br/><b>Les Marchands de SABLE</b>,",
+		"cartePopuptext_en": "Re-use : meuble<br/><b>Les Marchands de SABLE</b>,"
 	}, {
 		"code": "stco_reemploi_dingfring_reze",
 		"latitude": "47.1879293",
 		"longitude": "-1.5515172",
 		"modesCollecte": "smco_reemp",
-		"type": "SCOP de réemploi",
+		"type": "Réemploi : vêtements",
+		"type_en": "Re-use : vêtements",
 		"statut": "SCOP",
 		"categorie": "vêtements",
 		"descr": "Les boutiques 'Ding Fring' proposent certains des vêtements déposés dans les bornes Le Relais.<br/>Un quart du stock renouvelé toutes les semaines.<br/>Il y en 7 en Loire-Atlantique, dont 4 sur Nantes Métropole.<br/>Vente au détail à partir de 4€60. Uniquement ouvert aux particuliers.",
@@ -934,14 +969,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "SCOP de réemploi<br/>DING-FRING Rezé",
-		"cartePopuptext_en": "SCOP de réemploi<br/>DING-FRING Rezé"
+		"cartePopuptext": "Réemploi : vêtements<br/><b>DING-FRING Rezé</b>,",
+		"cartePopuptext_en": "Re-use : vêtements<br/><b>DING-FRING Rezé</b>,"
 	}, {
 		"code": "stco_reemploi_dingfring_palaiscongres",
 		"latitude": "47.2119882",
 		"longitude": "-1.5468354",
 		"modesCollecte": "smco_reemp",
-		"type": "SCOP de réemploi",
+		"type": "Réemploi : vêtements",
+		"type_en": "Re-use : vêtements",
 		"statut": "SCOP",
 		"categorie": "vêtements",
 		"descr": "Les boutiques 'Ding Fring' proposent certains des vêtements déposés dans les bornes Le Relais.<br/>Un quart du stock renouvelé toutes les semaines.<br/>Il y en 7 en Loire-Atlantique, dont 4 sur Nantes Métropole.<br/>Vente au détail à partir de 4€60. Uniquement ouvert aux particuliers.",
@@ -959,14 +995,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "SCOP de réemploi<br/>DING-FRING Palais des Congrès",
-		"cartePopuptext_en": "SCOP de réemploi<br/>DING-FRING Palais des Congrès"
+		"cartePopuptext": "Réemploi : vêtements<br/><b>DING-FRING Palais des Congrès</b>,",
+		"cartePopuptext_en": "Re-use : vêtements<br/><b>DING-FRING Palais des Congrès</b>,"
 	}, {
 		"code": "stco_reemploi_dingfring_chantiernaval",
 		"latitude": "47.2092982",
 		"longitude": "-1.5692261",
 		"modesCollecte": "smco_reemp",
-		"type": "SCOP de réemploi",
+		"type": "Réemploi : vêtements",
+		"type_en": "Re-use : vêtements",
 		"statut": "SCOP",
 		"categorie": "vêtements",
 		"descr": "Les boutiques 'Ding Fring' proposent certains des vêtements déposés dans les bornes Le Relais.<br/>Un quart du stock renouvelé toutes les semaines.<br/>Il y en 7 en Loire-Atlantique, dont 4 sur Nantes Métropole.<br/>Vente au détail à partir de 4€60. Uniquement ouvert aux particuliers.",
@@ -984,14 +1021,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "SCOP de réemploi<br/>DING-FRING Chantier Navals",
-		"cartePopuptext_en": "SCOP de réemploi<br/>DING-FRING Chantier Navals"
+		"cartePopuptext": "Réemploi : vêtements<br/><b>DING-FRING Chantier Navals</b>,",
+		"cartePopuptext_en": "Re-use : vêtements<br/><b>DING-FRING Chantier Navals</b>,"
 	}, {
 		"code": "stco_reemploi_dingfring_erdre",
 		"latitude": "47.2414082",
 		"longitude": "-1.5318757",
 		"modesCollecte": "smco_reemp",
-		"type": "SCOP de réemploi",
+		"type": "Réemploi : vêtements",
+		"type_en": "Re-use : vêtements",
 		"statut": "SCOP",
 		"categorie": "vêtements",
 		"descr": "Les boutiques 'Ding Fring' proposent certains des vêtements déposés dans les bornes Le Relais.<br/>Un quart du stock renouvelé toutes les semaines.<br/>Il y en 7 en Loire-Atlantique, dont 4 sur Nantes Métropole.<br/>Vente au détail à partir de 4€60. Uniquement ouvert aux particuliers.",
@@ -1009,24 +1047,25 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing, linen, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "SCOP de réemploi<br/>DING-FRING Nantes Erdre Grand Clos",
-		"cartePopuptext_en": "SCOP de réemploi<br/>DING-FRING Nantes Erdre Grand Clos"
+		"cartePopuptext": "Réemploi : vêtements<br/><b>DING-FRING Nantes Erdre Grand Clos</b>,",
+		"cartePopuptext_en": "Re-use : vêtements<br/><b>DING-FRING Nantes Erdre Grand Clos</b>,"
 	}, {
 		"code": "stco_reemploi_envie44",
 		"latitude": "47.233582",
 		"longitude": "-1.652637",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : électroménager",
+		"type_en": "Re-use : électroménager",
 		"statut": "Association",
 		"categorie": "électroménager",
 		"descr": "Récupération et vente d'électroménager <br/>Créés par des membres d'Emmaûs, Envie regroupe désormais 50 entreprises, dont 2 en Loire Atlantique (Saint-Nazaire et Saint-Herblain), ce qui représente 90 salariés dans le département.<br/><br/>C'est un lieu de dépôt des Déchets d'équipement électrique et électronique (D3E).<br/>Les particuliers peuvent déposer en déchèteries ou directement chez Envie 44.<br/><br/>C'est également un magasin qui présente les appareils électroménagers à prix abordables.",
 		"descr_en": "Recovery and sale of appliances <br/>Created by members of Emmaus, want now comprises 50 companies, including 2 in Loire Atlantique (Saint-Nazaire and St. Herblain), which represents 90 employees in the department. <br/> It is a repository of electrical and electronic equipment waste (D3E). Individuals can drop <br/> in waste collection centers or directly at Envie <br/> 44. It is also a store that has appliances at affordable prices.",
-		"nom": "Envie 44 Saint Herblain",
+		"nom": "Envie 44 Saint-Herblain",
 		"adresseTemp": "18 rue Bobby Sands  44800 SAINT-HERBLAIN",
-		"url": "http://www.envie-44.org/nos-magasins/nantes-st-herblain.html",
+		"url": "http://envie-44.envie.org/envie-nantes-st-herblain/",
 		"email": "magasin44sth@envie.org",
 		"tel": "02 40 43 21 11",
-		"src": "MieuxTrierANantes 01/15",
+		"src": "Visite des locaux par MieuxTrierANantes 01/15",
 		"plagesHoraires": "0101-3112_lu+ma+me+je+ve+sa_10h00-13h00+14h00-19h00",
 		"mots_cles": "envie,44,saint,herblain,electromenager,refrigerateur,television,lave,vaisselle,congelateur,envie44,,",
 		"mots_cles_en": "envie,44,saint,herblain,envie,44,saint,herblain,,",
@@ -1034,14 +1073,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "appliances, refrigerator, television, dishwasher, freezer, envie44",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Envie 44 Saint Herblain",
-		"cartePopuptext_en": "Association de réemploi<br/>Envie 44 Saint Herblain"
+		"cartePopuptext": "Réemploi : électroménager<br/><b>Envie 44 Saint-Herblain</b>,",
+		"cartePopuptext_en": "Re-use : électroménager<br/><b>Envie 44 Saint-Herblain</b>,"
 	}, {
 		"code": "stco_reemploi_orthopedie",
 		"latitude": "47.229244",
 		"longitude": "-1.661669",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Récupération de matériels pour chambre d'hôpital, fauteuils roulant, lunettes, appareils auditifs<br/><br/>Collecter, réparer et distribuer vers les plus démunis et en particulier dans les pays du sud en voie de développement des matériels, médicaux, paramédicaux et orthopédiques collectés dans les cliniques, hopitaux, centre des personnes agées ou handicapés et aussi les particuliers.<br/><br/>Lieu de collecte : La Métairie, 44800 Saint Herblain",
@@ -1059,14 +1099,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "glasses, hearing, wheelchair",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Orthopédie sans Frontières",
-		"cartePopuptext_en": "Association de réemploi<br/>Orthopédie sans Frontières"
+		"cartePopuptext": "Réemploi : divers<br/><b>Orthopédie sans Frontières</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Orthopédie sans Frontières</b>,"
 	}, {
 		"code": "stco_reemploi_frat",
 		"latitude": "47.2097351",
 		"longitude": "-1.5801384",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : électroménager, livres/BD/CD/DVD, jouet, meuble, vêtements, divers",
+		"type_en": "Re-use : électroménager, livres/BD/CD/DVD, jouet, meuble, vêtements, divers",
 		"statut": "Association",
 		"categorie": "électroménager, livres/BD/CD/DVD, jouet, meuble, vêtements, divers",
 		"descr": "<b>Les magasins d'occasion</b> 'Bric et Véti frat' (situés sur le même lieu) : très petits prix ou gratuité suivant les situations. On y trouve du Bric à brac (petit mobilier, objets, vaisselle, livres...) et des vêtements.<br/><br/><b>Le dépôt :</b> : <i>je dépose mes fringues que je ne mets plus et où j'en achète d'autres pour un, deux ou cinq euros (5 euros c'est pour les ensembles)… ",
@@ -1086,14 +1127,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "appliances, books / BD / CD / DVD, toy, furniture, clothing, miscellaneous",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Véti Frat - La Fraternité",
-		"cartePopuptext_en": "Association de réemploi<br/>Véti Frat - La Fraternité"
+		"cartePopuptext": "Réemploi : électroménager, livres/BD/CD/DVD, jouet, meuble, vêtements, divers<br/><b>Véti Frat - La Fraternité</b>,",
+		"cartePopuptext_en": "Re-use : électroménager, livres/BD/CD/DVD, jouet, meuble, vêtements, divers<br/><b>Véti Frat - La Fraternité</b>,"
 	}, {
 		"code": "stco_reemploi_croixrougevesti",
 		"latitude": "47.249728",
 		"longitude": "-1.504440",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements, livres/bd/cd/dvd, jouet, divers",
+		"type_en": "Re-use : vêtements, livres/bd/cd/dvd, jouet, divers",
 		"statut": "Association",
 		"categorie": "vêtements, livres/bd/cd/dvd, jouet, divers",
 		"descr": "Récupération et distribution de vêtements, livres, jouets, vaisselle, linge de maison, bibelots",
@@ -1113,14 +1155,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "clothing,books,toys,crockery,trinket,bag,shoes",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La Croix Rouge / Vestiboutique",
-		"cartePopuptext_en": "Association de réemploi<br/>La Croix Rouge / Vestiboutique"
+		"cartePopuptext": "Réemploi : vêtements, livres/bd/cd/dvd, jouet, divers<br/><b>La Croix Rouge / Vestiboutique</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, livres/bd/cd/dvd, jouet, divers<br/><b>La Croix Rouge / Vestiboutique</b>,"
 	}, {
 		"code": "stco_reemploi_croixrougememble",
 		"latitude": "47.249728",
 		"longitude": "-1.504440",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : meuble, vêtements, livres/bd/cd/dvd, jouet, divers",
+		"type_en": "Re-use : meuble, vêtements, livres/bd/cd/dvd, jouet, divers",
 		"statut": "Association",
 		"categorie": "meuble, vêtements, livres/bd/cd/dvd, jouet, divers",
 		"descr": "Ventes de meubles, petits meubles, meubles de bureau, luminaire, canapé, literie, meubles de cuisine, petit et gros électroménager, articles de décoration. À petits prix.",
@@ -1139,14 +1182,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furniture,lighting,sofa,bedding,appliance,decorative",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La Croix Rouge / Meubles,bibelots",
-		"cartePopuptext_en": "Association de réemploi<br/>La Croix Rouge / Meubles,bibelots"
+		"cartePopuptext": "Réemploi : meuble, vêtements, livres/bd/cd/dvd, jouet, divers<br/><b>La Croix Rouge / Meubles,bibelots</b>,",
+		"cartePopuptext_en": "Re-use : meuble, vêtements, livres/bd/cd/dvd, jouet, divers<br/><b>La Croix Rouge / Meubles,bibelots</b>,"
 	}, {
 		"code": "stco_reemploi_nantesecologie_chateau",
 		"latitude": "47.217117",
 		"longitude": "-1.548943",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : livres/bd/cd/dvd",
+		"type_en": "Re-use : livres/bd/cd/dvd",
 		"statut": "Association",
 		"categorie": "livres/bd/cd/dvd",
 		"descr": "Récupération de livres, revues, BD",
@@ -1166,14 +1210,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "book, magazine, Comics",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Nantes Ecologie L'Air Livre (château Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>Nantes Ecologie L'Air Livre (château Nantes)"
+		"cartePopuptext": "Réemploi : livres/bd/cd/dvd<br/><b>Nantes Ecologie L'Air Livre (château Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : livres/bd/cd/dvd<br/><b>Nantes Ecologie L'Air Livre (château Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_nantesecologie_cite",
 		"latitude": "47.213765",
 		"longitude": "-1.5484173",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : livres/bd/cd/dvd",
+		"type_en": "Re-use : livres/bd/cd/dvd",
 		"statut": "Association",
 		"categorie": "livres/bd/cd/dvd",
 		"descr": "Récupération de livres, revues, BD et de manuels scolaires",
@@ -1194,14 +1239,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Book, magazine, comic, manual, school",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Nantes Ecologie L'Air Livre (Cité des Congrès Nantes)",
-		"cartePopuptext_en": "Association de réemploi<br/>Nantes Ecologie L'Air Livre (Cité des Congrès Nantes)"
+		"cartePopuptext": "Réemploi : livres/bd/cd/dvd<br/><b>Nantes Ecologie L'Air Livre (Cité des Congrès Nantes)</b>,",
+		"cartePopuptext_en": "Re-use : livres/bd/cd/dvd<br/><b>Nantes Ecologie L'Air Livre (Cité des Congrès Nantes)</b>,"
 	}, {
 		"code": "stco_reemploi_arcade_orvault",
 		"latitude": "47.259354",
 		"longitude": "-1.633449",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "Récupération de matériels divers pour le tiers monde.",
@@ -1219,14 +1265,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/instructions_arcade.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Arcade (Orvault)",
-		"cartePopuptext_en": "Association de réemploi<br/>Arcade (Orvault)"
+		"cartePopuptext": "Réemploi : divers<br/><b>Arcade (Orvault)</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Arcade (Orvault)</b>,"
 	}, {
 		"code": "stco_reemploi_traitdunion",
 		"latitude": "47.199656",
 		"longitude": "-1.624346",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Entreprise",
 		"categorie": "divers",
 		"descr": "Entreprise d'Insertion SAS (lauréate en 2011 Entreprise Responsabilité Globale). L'entreprise TRAIT D'UNION est spécialisée dans la collecte des produits valorisables (Déchets électriques et electroniques, piles, batterie, encombrants, mobiliers, bois , métaux, plastiques, CD, DVD, archives, cartons, ....). Elle effectue également, auprès des particuliers et des entreprises, des prestations de débarras et de déménagement.",
@@ -1246,14 +1293,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furniture, cartridge, impression, electric, electronic, cd, DVD, pile, battery, tumbler, paper, cardboard, metal",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>TRAIT D'UNION",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>TRAIT D'UNION"
+		"cartePopuptext": "Réemploi : divers<br/><b>TRAIT D'UNION</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>TRAIT D'UNION</b>,"
 	}, {
 		"code": "stco_reemploi_ecophone44",
 		"latitude": "47.209536",
 		"longitude": "-1.558127",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : informatique, divers",
+		"type_en": "Re-use : informatique, divers",
 		"statut": "Entreprise",
 		"categorie": "informatique, divers",
 		"descr": "Ouverture d'une boutique Ecophone 44 au 2 rue Deurbroucq à Nantes. 2 entreprises : Ecophone 44 et SAFETY PC 44 et nous récupérons les téléphones et les ordinateurs hors d'usage.",
@@ -1272,14 +1320,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "phone, computer",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Ecophone 44",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Ecophone 44"
+		"cartePopuptext": "Réemploi : informatique, divers<br/><b>Ecophone 44</b>,",
+		"cartePopuptext_en": "Re-use : informatique, divers<br/><b>Ecophone 44</b>,"
 	}, {
 		"code": "stco_reemploi_leverleencre",
 		"latitude": "47.286079",
 		"longitude": "-1.439917",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : cartouches encre/tuners",
+		"type_en": "Re-use : cartouches encre/tuners",
 		"statut": "Entreprise",
 		"categorie": "cartouches encre/tuners",
 		"descr": "Recharge de cartouche d'imprimante et remanufacturation de toner",
@@ -1296,14 +1345,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cartridge, toner",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>LEVER L'ENCRE",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>LEVER L'ENCRE"
+		"cartePopuptext": "Réemploi : cartouches encre/tuners<br/><b>LEVER L'ENCRE</b>,",
+		"cartePopuptext_en": "Re-use : cartouches encre/tuners<br/><b>LEVER L'ENCRE</b>,"
 	}, {
 		"code": "stco_reemploi_oceencre",
 		"latitude": "47.2125716",
 		"longitude": "-1.5591834",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : cartouches encre/tuners",
+		"type_en": "Re-use : cartouches encre/tuners",
 		"statut": "Entreprise",
 		"categorie": "cartouches encre/tuners",
 		"descr": "Recharge de cartouche d'imprimante",
@@ -1323,14 +1373,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cartridge",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>OCE'ENCRE",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>OCE'ENCRE"
+		"cartePopuptext": "Réemploi : cartouches encre/tuners<br/><b>OCE'ENCRE</b>,",
+		"cartePopuptext_en": "Re-use : cartouches encre/tuners<br/><b>OCE'ENCRE</b>,"
 	}, {
 		"code": "stco_reemploi_pointencre",
 		"latitude": "47.217781",
 		"longitude": "-1.556319",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : cartouches encre/tuners",
+		"type_en": "Re-use : cartouches encre/tuners",
 		"statut": "Entreprise",
 		"categorie": "cartouches encre/tuners",
 		"descr": "Recharge de cartouche d'imprimante et remanufacturation de toner",
@@ -1349,14 +1400,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cartridge, toner",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Point Encre Et Toner",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Point Encre Et Toner"
+		"cartePopuptext": "Réemploi : cartouches encre/tuners<br/><b>Point Encre Et Toner</b>,",
+		"cartePopuptext_en": "Re-use : cartouches encre/tuners<br/><b>Point Encre Et Toner</b>,"
 	}, {
 		"code": "stco_reemploi_action44_reze",
 		"latitude": "47.177256",
 		"longitude": "-1.551247",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "L'association Actions Cancer 44 réalisent plusieurs actions qui lui permettent de donner de l'argent contre le cancer. En particulier ils récupèrent les bouchons de liège. Plusieurs particuliers récupèrent à leurs domiciles ces bouchons (et en général ils vont en chercher dans les restaurants proches).Sur la région nantaise il existe une personne à Rezé et une personne à La Chapelle Sur Erdre. <br/><br/>Les bouchons doivent être déposés dans des sacs plastiques devant leurs domiciles. Ils sont ensuite regroupés, puis envoyés au siège de l'association à La Baule. Ils sont recyclés par une entreprise spécialisée et la somme récupérée est envoyée pour le centre anti-cancéreux de l'Hôpital Gauducheau (10 000 euros en 2010).",
@@ -1374,14 +1426,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/actionsCancer44_bouchons_lieges.jpg",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Action cancer 44 (Rezé)",
-		"cartePopuptext_en": "Association de réemploi<br/>Action cancer 44 (Rezé)"
+		"cartePopuptext": "Réemploi : divers<br/><b>Action cancer 44 (Rezé)</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Action cancer 44 (Rezé)</b>,"
 	}, {
 		"code": "stco_reemploi_action44_lachap",
 		"latitude": "47.278727",
 		"longitude": "-1.554889",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "L'association Actions Cancer 44 réalisent plusieurs actions qui lui permettent de donner de l'argent contre le cancer. En particulier ils récupèrent les bouchons de liège. Plusieurs particuliers récupèrent à leurs domiciles ces bouchons (et en général ils vont en chercher dans les restaurants proches).Sur la région nantaise il existe une personne à Rezé et une personne à La Chapelle Sur Erdre. <br/><br/>Les bouchons doivent être déposés dans des sacs plastiques devant leurs domiciles. Ils sont ensuite regroupés, puis envoyés au siège de l'association à La Baule. Ils sont recyclés par une entreprise spécialisée et la somme récupérée est envoyée pour le centre anti-cancéreux de l'Hôpital Gauducheau (10 000 euros en 2010).",
@@ -1397,14 +1450,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Action cancer 44 (La Chapelle Sur Erdre)",
-		"cartePopuptext_en": "Association de réemploi<br/>Action cancer 44 (La Chapelle Sur Erdre)"
+		"cartePopuptext": "Réemploi : divers<br/><b>Action cancer 44 (La Chapelle Sur Erdre)</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Action cancer 44 (La Chapelle Sur Erdre)</b>,"
 	}, {
 		"code": "stco_reemploi_recupfer",
 		"latitude": "47.1819242",
 		"longitude": "-1.5324433",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : électroménager, divers",
+		"type_en": "Re-use : électroménager, divers",
 		"statut": "Entreprise",
 		"categorie": "électroménager, divers",
 		"descr": "Récupération de ferraille, métaux, électroménager, voiture, camion, bateau, engins agricole... Déplacement à domicile dans toute la loire-atlantique.",
@@ -1422,14 +1476,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "scrap metal, appliances",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>RECUPFER44",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>RECUPFER44"
+		"cartePopuptext": "Réemploi : électroménager, divers<br/><b>RECUPFER44</b>,",
+		"cartePopuptext_en": "Re-use : électroménager, divers<br/><b>RECUPFER44</b>,"
 	}, {
 		"code": "stco_reemploi_studentsshop",
 		"latitude": "47.249936",
 		"longitude": "-1.558263",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements, livres/bd/cd/dvd, divers",
+		"type_en": "Re-use : vêtements, livres/bd/cd/dvd, divers",
 		"statut": "Association",
 		"categorie": "vêtements, livres/bd/cd/dvd, divers",
 		"descr": "Pour les donateurs :<br/>Pour faire un don, il suffit de venir au local de notre association pendant l'une de nos permanences (l'association est fermée en juillet et août). Venez à la cité U Launay Violette et des affiches vous indiqueront où se situe notre local. Si vous ne pouvez pas venir durant les permanences, contactez nous sur notre site ou sur studentsshop44@hotmail.com pour prendre rendez-vous au local avec un bénévole. Vous pouvez donner tous les objets du quotidien qui pourront servir aux étudiants (vaisselle, petit électroménager, ustensile de cuisine, vêtements, chaussures, linge de lit, serviettes, torchon, éléments de décoration, couette, oreiller, informatique etc.)<br/><br/>Pour les bénéficiaires :<br/>Il suffit de venir avec une carte étudiante pendant nos permanences. Ce sont des prix étudiants :) Les vêtements sont tous à 1€ (sauf les manteaux 3€), couettes 2€, oreiller 1€, les chaussures entre 1-3€, les livres entre 50cts-2€, les couverts 10cts pièce, casserole 1€, bouilloire 3€, grille pain 3€, corbeille à papiers 1€, balais, etc.<br/><br/>Avec les bénéfices, nous proposons chaque mois, une activité gratuite à 20-30 étudiants.",
@@ -1448,14 +1503,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/StudentsShop44/StudentsShop44_DSC02864.jpg,www.mieuxtrieranantes.fr/docs/medias/StudentsShop44/StudentsShop44_IMG_1990.jpg,www.mieuxtrieranantes.fr/docs/medias/StudentsShop44/StudentsShop44_Photo1583.jpg,www.mieuxtrieranantes.fr/docs/medias/StudentsShop44/StudentsShop44_Photo1607.jpg,www.mieuxtrieranantes.fr/docs/medias/StudentsShop44/StudentsShop44_Photo1608.jpg,www.mieuxtrieranantes.fr/docs/medias/StudentsShop44/StudentsShop44_Photo1610.jpg",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Students' shop 44",
-		"cartePopuptext_en": "Association de réemploi<br/>Students' shop 44"
+		"cartePopuptext": "Réemploi : vêtements, livres/bd/cd/dvd, divers<br/><b>Students' shop 44</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, livres/bd/cd/dvd, divers<br/><b>Students' shop 44</b>,"
 	}, {
 		"code": "stco_reemploi_happycash",
 		"latitude": "47.214911",
 		"longitude": "-1.55997",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : téléphone, mobile, smartphone, ordinateur, portable",
+		"type_en": "Re-use : téléphone, mobile, smartphone, ordinateur, portable",
 		"statut": "Entreprise",
 		"categorie": "téléphone, mobile, smartphone, ordinateur, portable",
 		"nom": "HappyCash (Nantes Centre)",
@@ -1469,14 +1525,15 @@ var _structuresDatas = [{
 		"mots_cles_en": "happycash,nantes,centre,,happycash,nantes,centre,,,",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>HappyCash (Nantes Centre)",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>HappyCash (Nantes Centre)"
+		"cartePopuptext": "Réemploi : téléphone, mobile, smartphone, ordinateur, portable<br/><b>HappyCash (Nantes Centre)</b>,",
+		"cartePopuptext_en": "Re-use : téléphone, mobile, smartphone, ordinateur, portable<br/><b>HappyCash (Nantes Centre)</b>,"
 	}, {
 		"code": "stco_reemploi_boutique_dervallieres",
 		"latitude": "47.223334",
 		"longitude": "-1.597959",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements, livres/bd/cd/dvd, divers",
+		"type_en": "Re-use : vêtements, livres/bd/cd/dvd, divers",
 		"statut": "Association",
 		"categorie": "vêtements, livres/bd/cd/dvd, divers",
 		"descr": "<img src='resources/images/nantes/logo_le_ressort_mini.jpg' /><br/>Le collectif d'associations (CSF, CLCV,Ressourcerie de l'ïle, La Luna, A.B.D.) est à l'origine de ce projet. C'est désormais l'association d'insertion A.B.D. qui porte le projet 'Le Ressort', dont l'un des aspects est la boutique solidaire des Dervallières.<br/><br/>Dans cette boutique de 80 m2 on trouve des vêtements, des jouets, des livres, des éléments de décoration.<br/>La boutique est ouverte à tous, aux chomeurs comme aux familles à revenus modestes.<br/><br/>Les dépôts ont lieu de 9h00 à 12H30 et de 13h30 à 17h00 du lundi au vendredi (pendant les vacances scolaires, mieux vaut appeler avant pour savoir si la structure est ouverte).<br/>La boutique est ouverte au public tous les mercredis, de 9h30 à 12h30 et de 14h à 17h.",
@@ -1495,14 +1552,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0508.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0509.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0511.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0512.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteLeRessort/VisiteLeRessort_DSC_0514.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Le Ressort, boutique solidaire aux Dervallières",
-		"cartePopuptext_en": "Association de réemploi<br/>Le Ressort, boutique solidaire aux Dervallières"
+		"cartePopuptext": "Réemploi : vêtements, livres/bd/cd/dvd, divers<br/><b>Le Ressort, boutique solidaire aux Dervallières</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, livres/bd/cd/dvd, divers<br/><b>Le Ressort, boutique solidaire aux Dervallières</b>,"
 	}, {
 		"code": "stco_reemploi_60B",
 		"latitude": "47.239259",
 		"longitude": "-1.51986",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : vêtements, vélo",
+		"type_en": "Re-use : vêtements, vélo",
 		"statut": "Association",
 		"categorie": "vêtements, vélo",
 		"descr": "Nous sommes un lieu dédié au réemploi, à la réparation et à la création à base de récupération. Nous avons une boutique textile : chacun.e peut venir déposer des vêtements encore utilisable chez nous (le mardi matin : 9h30/12h30) et venir en acheter le vendredi toute la journée (9h30/12h30 - 14h/16h) à partir de janvier 2017.<br/>Nous récupérons également des vélos, pour les retaper et les vendre à bas coût (entre 15 et 30 euros) ou récupérer des pièces détachées dessus.<br/>Il y a 3 pièces pour textile (1 femme, 1 homme, 1 enfant) et un petit local vélo avec nombreuses pièces détachées.<br/>Nous sommes aussi un point de dépôt de bouchons en plastique pour les Bouchons d'Amour.",
@@ -1520,14 +1578,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0576.JPG,www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0577.JPG,www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0579.JPG,www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0580.JPG,www.mieuxtrieranantes.fr/docs/medias/Visite60B/Visite60B_DSC_0581.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>60B",
-		"cartePopuptext_en": "Association de réemploi<br/>60B"
+		"cartePopuptext": "Réemploi : vêtements, vélo<br/><b>60B</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, vélo<br/><b>60B</b>,"
 	}, {
 		"code": "stco_reemploi_recup_halveque_beaujoire",
 		"latitude": "47.257240",
 		"longitude": "-1.520334",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : Divers,Electromenager,Informatique,Jouet,Livres/BD/CD/DVD,Meuble,Velo,Vetements",
+		"type_en": "Re-use : Divers,Electromenager,Informatique,Jouet,Livres/BD/CD/DVD,Meuble,Velo,Vetements",
 		"statut": "Association",
 		"categorie": "Divers,Electromenager,Informatique,Jouet,Livres/BD/CD/DVD,Meuble,Velo,Vetements",
 		"descr": "Ressourcerie de quartier, ouverte à tous<br/><br/>Vente (meubles, électroménager, textile…) les samedi 10-15h<br/>Dépôt-vente les mercredis 15h-18h (pour l'achat, prévoir l'appoint)<br/>Récup'Halvêque propose aussi des animations et ateliers liés au ré emploi comme réparation de vélo, mobiliers...gratuit et inscription conseillée (planning trimestriel sur nos flyers accessible au local).",
@@ -1545,14 +1604,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "furnishings, furniture, toy, baby, crockery, trinket, frame, book, clothing, linens, tools, gardening, cycling, lighting, CD-DVD, video games, bedding, sports equipment, household appliances, sweater, pants, jacket",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Récup'Halvêque Beaujoire",
-		"cartePopuptext_en": "Association de réemploi<br/>Récup'Halvêque Beaujoire"
+		"cartePopuptext": "Réemploi : Divers,Electromenager,Informatique,Jouet,Livres/BD/CD/DVD,Meuble,Velo,Vetements<br/><b>Récup'Halvêque Beaujoire</b>,",
+		"cartePopuptext_en": "Re-use : Divers,Electromenager,Informatique,Jouet,Livres/BD/CD/DVD,Meuble,Velo,Vetements<br/><b>Récup'Halvêque Beaujoire</b>,"
 	}, {
 		"code": "stco_reemploi_nicolas_talensac",
 		"latitude": "47.221645",
 		"longitude": " -1.557494",
 		"modesCollecte": "smco_reemp",
-		"type": "Magasin – Collecteur de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Magasin – Collecteur",
 		"categorie": "divers",
 		"descr": "Vos bouchons en liège seront recyclés comme revêtements de sol, articles de décoration, pièces pour l'industrie aérospatiale et automobile... ou comme énergie électrique.<br/><br/>Les fonds récoltés seront reversés à l'IML (Institut Méditerranéen du Liège) pour financer la plantation de chênes-lièges. dans les Pyrénées Orientales.<br/><br/>Aujourd'hui c'est plus de 9 millions bouchons récupérés, soit l'équivalent de plus de 1 100 chênes-lièges plantés.<br/>http://www.nicolas.com/fr/collecte-bouchons.html",
@@ -1572,14 +1632,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Magasin – Collecteur de réemploi<br/>Boutique Nicolas Talensac récupération bouchon liège",
-		"cartePopuptext_en": "Magasin – Collecteur de réemploi<br/>Boutique Nicolas Talensac récupération bouchon liège"
+		"cartePopuptext": "Réemploi : divers<br/><b>Boutique Nicolas Talensac récupération bouchon liège</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Boutique Nicolas Talensac récupération bouchon liège</b>,"
 	}, {
 		"code": "stco_reemploi_nicolas_cassini",
 		"latitude": "47.214589",
 		"longitude": "-1.565568",
 		"modesCollecte": "smco_reemp",
-		"type": "Magasin – Collecteur de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Magasin – Collecteur",
 		"categorie": "divers",
 		"descr": "Vos bouchons en liège seront recyclés comme revêtements de sol, articles de décoration, pièces pour l'industrie aérospatiale et automobile... ou comme énergie électrique.<br/><br/>Les fonds récoltés seront reversés à l'IML (Institut Méditerranéen du Liège) pour financer la plantation de chênes-lièges dans les Pyrénées Orientales.<br/><br/>Aujourd'hui c'est plus de 9 millions bouchons récupérés, soit l'équivalent de plus de 1 100 chênes-lièges plantés.<br/>http://www.nicolas.com/fr/collecte-bouchons.html",
@@ -1599,14 +1660,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Magasin – Collecteur de réemploi<br/>Boutique Nicolas récupération bouchon liège",
-		"cartePopuptext_en": "Magasin – Collecteur de réemploi<br/>Boutique Nicolas récupération bouchon liège"
+		"cartePopuptext": "Réemploi : divers<br/><b>Boutique Nicolas récupération bouchon liège</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Boutique Nicolas récupération bouchon liège</b>,"
 	}, {
 		"code": "stco_reemploi_recyclivre",
 		"latitude": "47.213582",
 		"longitude": "-1.579126",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : Livres/BD/CD/DVD",
+		"type_en": "Re-use : Livres/BD/CD/DVD",
 		"statut": "Entreprise",
 		"categorie": "Livres/BD/CD/DVD",
 		"descr": "<img src='resources/images/nantes/logo_recyclivre.png' /><br/>Attention, nous donnons une seconde vie aux livres en les réemployant afin d'accompagner des emplois en insertion et soutenir financièrement des programmes autour de la culture et de la préservation de l'environnement !<br/>Nous ne pouvons donc pas collecter les livres très abîmés ou aux contenus obsolètes (ex : manuels scolaires), les dictionnaires et encyclopédies, les livres clubs (ex : France Loisirs, Grand Livre du Mois, Sélection du Livre...) tout comme les revues et journaux et les guides de voyage.<br/> nous faisons de la collecte à domicile sur toutes les communes de Nantes Métopole à partir de 50 livres.",
@@ -1628,14 +1690,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VisiteRecycLivre/VisiteRecycLivre_DSC_0588.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteRecycLivre/VisiteRecycLivre_DSC_0592.JPG,www.mieuxtrieranantes.fr/docs/medias/VisiteRecycLivre/VisiteRecycLivre_DSC_0593.JPG",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>RecycLivre",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>RecycLivre"
+		"cartePopuptext": "Réemploi : Livres/BD/CD/DVD<br/><b>RecycLivre</b>,",
+		"cartePopuptext_en": "Re-use : Livres/BD/CD/DVD<br/><b>RecycLivre</b>,"
 	}, {
 		"code": "stco_reemploi_trocantons_belligne",
 		"latitude": "47.466047",
 		"longitude": "-1.032931",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : vêtements, livres/bd/cd/dvd, divers",
+		"type_en": "Re-use : vêtements, livres/bd/cd/dvd, divers",
 		"statut": "Entreprise",
 		"categorie": "vêtements, livres/bd/cd/dvd, divers",
 		"descr": "Collecte à domicile du mardi au vendredi, renseignements et rendez-vous au 02.40.97.78.55<br/>Dépôt possible à Pannecé,la Floquerie<br/>Du mardi au samedi matin 9h30 à 12h30, jeudi 9h30 à 12h30 et 14h à 17h30<br/>ou dans les boutiques pour les petits équipements",
@@ -1651,14 +1714,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Clothing, furniture, appliances, computer, dishware, trinket, book, CD, dvd, disc, childcare, toy, tool, hardware, paper, cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Trocantons Belligné",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Trocantons Belligné"
+		"cartePopuptext": "Réemploi : vêtements, livres/bd/cd/dvd, divers<br/><b>Trocantons Belligné</b>,",
+		"cartePopuptext_en": "Re-use : vêtements, livres/bd/cd/dvd, divers<br/><b>Trocantons Belligné</b>,"
 	}, {
 		"code": "stco_reemploi_trocantons_lecellier",
 		"latitude": "47.335405",
 		"longitude": "-1.355063",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi",
+		"type_en": "Re-use",
 		"statut": "Entreprise",
 		"descr": "Collecte à domicile du mardi au vendredi, renseignements et rendez-vous au 02.40.97.78.55<br/>Dépôt possible à Pannecé,la Floquerie<br/>Du mardi au samedi matin 9h30 à 12h30, jeudi 9h30 à 12h30 et 14h à 17h30<br/>ou dans les boutiques pour les petits équipements",
 		"descr_en": "Home collection from Tuesday to Friday, information and appointments on 02.40.97.78.55 <br/> Possible depot in Pannecé, la Floquerie <br/> From Tuesday to Saturday morning 9:30 am to 12:30 pm, Thursday 9:30 am to 12:30 pm and 2 pm to 17h30 <br/> or in shops for small equipment",
@@ -1673,14 +1737,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Clothing, furniture, appliances, computer, dishware, trinket, book, CD, dvd, disc, childcare, toy, tool, hardware, paper, cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Trocantons Le Cellier",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Trocantons Le Cellier"
+		"cartePopuptext": "Réemploi<br/><b>Trocantons Le Cellier</b>,",
+		"cartePopuptext_en": "Re-use<br/><b>Trocantons Le Cellier</b>,"
 	}, {
 		"code": "stco_reemploi_trocantons_pannece",
 		"latitude": "47.485996",
 		"longitude": "-1.240432",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi",
+		"type_en": "Re-use",
 		"statut": "Entreprise",
 		"descr": "Collecte à domicile du mardi au vendredi, renseignements et rendez-vous au 02.40.97.78.55<br/>Dépôt possible à Pannecé,la Floquerie<br/>Du mardi au samedi matin 9h30 à 12h30, jeudi 9h30 à 12h30 et 14h à 17h30<br/>ou dans les boutiques pour les petits équipements",
 		"descr_en": "Home collection from Tuesday to Friday, information and appointments on 02.40.97.78.55 <br/> Possible depot in Pannecé, la Floquerie <br/> From Tuesday to Saturday morning 9:30 am to 12:30 pm, Thursday 9:30 am to 12:30 pm and 2 pm to 17h30 <br/> or in shops for small equipment",
@@ -1695,14 +1760,15 @@ var _structuresDatas = [{
 		"objets_recuperes_en": "Clothing, furniture, appliances, computer, dishware, trinket, book, CD, dvd, disc, childcare, toy, tool, hardware, paper, cork",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Trocantons Pannecé",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Trocantons Pannecé"
+		"cartePopuptext": "Réemploi<br/><b>Trocantons Pannecé</b>,",
+		"cartePopuptext_en": "Re-use<br/><b>Trocantons Pannecé</b>,"
 	}, {
 		"code": "sto_reemploi_savenay",
 		"latitude": "47.353271",
 		"longitude": "-1.888937",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi",
+		"type_en": "Re-use",
 		"statut": "Entreprise",
 		"descr": "Nous recyclons presque tout sauf literie endommagée ou tachée, produits toxiques liquides pâteux, matériel électrique hors d'usage, bouteilles de gaz, pneumatiques, tubes néons.<br/>Même horaires d'ouverture pour la boutique et le dépôt.",
 		"descr_en": "We recycle almost everything except damaged or stained bedding, toxic liquid pasty products, disused electrical equipment, gas bottles, tires, neon tubes.",
@@ -1719,14 +1785,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/RecyclerieDeLAtlantique/RecyclerieDeLAtlantique_Savenay_1.jpg,www.mieuxtrieranantes.fr/docs/medias/RecyclerieDeLAtlantique/RecyclerieDeLAtlantique_Savenay_2.jpg",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Savenay",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Savenay"
+		"cartePopuptext": "Réemploi<br/><b>Recyclerie Nord-Atlantique Savenay</b>,",
+		"cartePopuptext_en": "Re-use<br/><b>Recyclerie Nord-Atlantique Savenay</b>,"
 	}, {
 		"code": "sto_reemploi_blain",
 		"latitude": "47.484302",
 		"longitude": "-1.748764",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi : 47.484302",
+		"type_en": "Re-use : 47.484302",
 		"statut": "Entreprise",
 		"categorie": "47.484302",
 		"descr": "Nous recyclons presque tout sauf literie endommagée ou tachée, produits toxiques liquides pâteux, matériel électrique hors d'usage, bouteilles de gaz, pneumatiques, tubes néons.<br/>Même horaires d'ouverture pour la boutique et le dépôt.",
@@ -1744,14 +1811,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/RecyclerieDeLAtlantique/RecyclerieDeLAtlantique_Blain_1.jpg,www.mieuxtrieranantes.fr/docs/medias/RecyclerieDeLAtlantique/RecyclerieDeLAtlantique_Blain_2.jpg",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Blain",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Blain"
+		"cartePopuptext": "Réemploi : 47.484302<br/><b>Recyclerie Nord-Atlantique Blain</b>,",
+		"cartePopuptext_en": "Re-use : 47.484302<br/><b>Recyclerie Nord-Atlantique Blain</b>,"
 	}, {
 		"code": "sto_reemploi_nortsurerdre",
 		"latitude": "47.436274",
 		"longitude": "-1.515294",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi",
+		"type_en": "Re-use",
 		"statut": "Entreprise",
 		"descr": "Nous recyclons presque tout sauf literie endommagée ou tachée, produits toxiques liquides pâteux, matériel électrique hors d'usage, bouteilles de gaz, pneumatiques, tubes néons.<br/>Même horaires d'ouverture pour la boutique et le dépôt.",
 		"descr_en": "We recycle almost everything except damaged or stained bedding, toxic liquid pasty products, disused electrical equipment, gas bottles, tires, neon tubes.",
@@ -1767,14 +1835,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/RecyclerieDeLAtlantique/RecyclerieDeLAtlantique_NortSurErdre.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Nort-Sur-Erdre",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Nort-Sur-Erdre"
+		"cartePopuptext": "Réemploi<br/><b>Recyclerie Nord-Atlantique Nort-Sur-Erdre</b>,",
+		"cartePopuptext_en": "Re-use<br/><b>Recyclerie Nord-Atlantique Nort-Sur-Erdre</b>,"
 	}, {
 		"code": "sto_reemploi_bouchonamour_nantes1",
 		"latitude": "47.228639",
 		"longitude": "-1.527531",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "<IMG SRC='resources/images/images_non_libres/logo_bouchonamour.png' width='150px' /><br/><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde, couvercle plastique épices.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.",
@@ -1794,14 +1863,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Nantes 1",
-		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Nantes 1"
+		"cartePopuptext": "Réemploi : divers<br/><b>Bouchon d'Amour, Nantes 1</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Bouchon d'Amour, Nantes 1</b>,"
 	}, {
 		"code": "sto_reemploi_bouchonamour_nantes2",
 		"latitude": "47.236358",
 		"longitude": "-1.525829",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "<IMG SRC='resources/images/images_non_libres/logo_bouchonamour.png' width='150px' /><br/><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde, couvercle plastique épices.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.",
@@ -1821,14 +1891,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Nantes 2",
-		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Nantes 2"
+		"cartePopuptext": "Réemploi : divers<br/><b>Bouchon d'Amour, Nantes 2</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Bouchon d'Amour, Nantes 2</b>,"
 	}, {
 		"code": "sto_reemploi_bouchonamour_nantes3",
 		"latitude": "47.246865",
 		"longitude": "-1.572193",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "<IMG SRC='resources/images/images_non_libres/logo_bouchonamour.png' width='150px' /><br/><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde, couvercle plastique épices.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.",
@@ -1848,14 +1919,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Nantes 3",
-		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Nantes 3"
+		"cartePopuptext": "Réemploi : divers<br/><b>Bouchon d'Amour, Nantes 3</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Bouchon d'Amour, Nantes 3</b>,"
 	}, {
 		"code": "sto_reemploi_bouchonamour_ancenis",
 		"latitude": "47.371183",
 		"longitude": "-1.184674",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "<IMG SRC='resources/images/images_non_libres/logo_bouchonamour.png' width='150px' /><br/><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde, couvercle plastique épices.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.",
@@ -1874,14 +1946,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Ancenis",
-		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Ancenis"
+		"cartePopuptext": "Réemploi : divers<br/><b>Bouchon d'Amour, Ancenis</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Bouchon d'Amour, Ancenis</b>,"
 	}, {
 		"code": "sto_reemploi_bouchonamour_nortsurerdre",
 		"latitude": "47.436992",
 		"longitude": "-1.499303",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "<IMG SRC='resources/images/images_non_libres/logo_bouchonamour.png' width='150px' /><br/><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde, couvercle plastique épices.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.",
@@ -1900,14 +1973,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Nort-Sur-Erdre",
-		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Nort-Sur-Erdre"
+		"cartePopuptext": "Réemploi : divers<br/><b>Bouchon d'Amour, Nort-Sur-Erdre</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Bouchon d'Amour, Nort-Sur-Erdre</b>,"
 	}, {
 		"code": "sto_reemploi_bouchonamour_saintsebastiensurloire",
 		"latitude": "47.437003",
 		"longitude": "-1.499303",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "<IMG SRC='resources/images/images_non_libres/logo_bouchonamour.png' width='150px' /><br/><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde, couvercle plastique épices.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.",
@@ -1926,14 +2000,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/affiche_bouchondamour_2017.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Bouchon d'Amour, Saint Sébastien Sur Loire",
-		"cartePopuptext_en": "Association de réemploi<br/>Bouchon d'Amour, Saint Sébastien Sur Loire"
+		"cartePopuptext": "Réemploi : divers<br/><b>Bouchon d'Amour, Saint Sébastien Sur Loire</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Bouchon d'Amour, Saint Sébastien Sur Loire</b>,"
 	}, {
 		"code": "stco_reemploi_arcade_bouguenais",
 		"latitude": "47.177809",
 		"longitude": "-1.627308",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : divers",
+		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
 		"descr": "<IMG SRC='resources/images/images_non_libres/logo_bouchonamour.png' width='150px' /><br/><b>Les bouchons suivant sont acceptés</b> : eau, lait, soda, huile, vinaigre, vin, compote, crème fraîche, liquide vaisselle, produits d'entretien, lessive, assouplissants, aérosols, déodorants, laque, parfum, dentifrice, shampooing,  produits douche, couvercle en plastique du chocolat, couvercle en plastique du café en poudre, couvercle en plastique de la moutarde, couvercle plastique épices.<br/><br/><b>Bouchons refusés</b> : produits toxiques, détergents.",
@@ -1950,14 +2025,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/Divers/instructions_arcade.png",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>Arcade (Bouguenais)",
-		"cartePopuptext_en": "Association de réemploi<br/>Arcade (Bouguenais)"
+		"cartePopuptext": "Réemploi : divers<br/><b>Arcade (Bouguenais)</b>,",
+		"cartePopuptext_en": "Re-use : divers<br/><b>Arcade (Bouguenais)</b>,"
 	}, {
 		"code": "stco_reemploi_boite_a_recup",
 		"latitude": "47.236137",
 		"longitude": "-1.586922",
 		"modesCollecte": "smco_reemp",
-		"type": "Association de réemploi",
+		"type": "Réemploi : Livres/BD/CD/DVD",
+		"type_en": "Re-use : Livres/BD/CD/DVD",
 		"statut": "Association",
 		"categorie": "Livres/BD/CD/DVD",
 		"descr": "Cette ressourcerie recueille et revend à petits prix principalement des livres mais aussi des CD, DVD et quelques autres objets s’offrant une seconde vie.<br/>Elle est orientée culture mais sans intention élitiste ! Nous proposons pour 50% des livres, BD, revues, cartes postales… Pour le reste, nous avons des DVD, des CD, quelques jouets, de la vaisselle mais nous ne prenons pas les vêtements et les meubles.",
@@ -1975,14 +2051,15 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/BoiteARecup/BoiteARecup_1.jpg,www.mieuxtrieranantes.fr/docs/medias/BoiteARecup/BoiteARecup_2.jpg",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Association de réemploi<br/>La Boîte à récup (Saint-Herblain)",
-		"cartePopuptext_en": "Association de réemploi<br/>La Boîte à récup (Saint-Herblain)"
+		"cartePopuptext": "Réemploi : Livres/BD/CD/DVD<br/><b>La Boîte à récup (Saint-Herblain)</b>,",
+		"cartePopuptext_en": "Re-use : Livres/BD/CD/DVD<br/><b>La Boîte à récup (Saint-Herblain)</b>,"
 	}, {
 		"code": "sto_reemploi_dreffeac",
 		"latitude": "47.469294",
 		"longitude": "-2.066178",
 		"modesCollecte": "smco_reemp",
-		"type": "Entreprise de réemploi",
+		"type": "Réemploi",
+		"type_en": "Re-use",
 		"statut": "Entreprise",
 		"descr": "Nous recyclons presque tout sauf literie endommagée ou tachée, produits toxiques liquides pâteux, matériel électrique hors d'usage, bouteilles de gaz, pneumatiques, tubes néons.<br/>Même horaires d'ouverture pour la boutique et le dépôt.",
 		"nom": "Recyclerie Nord-Atlantique Dréffeac",
@@ -1997,8 +2074,33 @@ var _structuresDatas = [{
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/RecyclerieDeLAtlantique/RecyclerieDeLAtlantique_Dreffeac.jpg",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
-		"cartePopuptext": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Dréffeac",
-		"cartePopuptext_en": "Entreprise de réemploi<br/>Recyclerie Nord-Atlantique Dréffeac"
+		"cartePopuptext": "Réemploi<br/><b>Recyclerie Nord-Atlantique Dréffeac</b>,",
+		"cartePopuptext_en": "Re-use<br/><b>Recyclerie Nord-Atlantique Dréffeac</b>,"
+	}, {
+		"code": "sto_reemploi_envie_saintnazaire",
+		"latitude": "47.259558",
+		"longitude": "-2.273012",
+		"modesCollecte": "smco_reemp",
+		"type": "Réemploi : électroménager",
+		"type_en": "Re-use : électroménager",
+		"statut": "Association",
+		"categorie": "électroménager",
+		"descr": "Récupération et vente d'électroménager <br/>Créés par des membres d'Emmaûs, Envie regroupe désormais 50 entreprises, dont 2 en Loire Atlantique (Saint-Nazaire et Saint-Herblain), ce qui représente 90 salariés dans le département.<br/><br/>C'est un lieu de dépôt des Déchets d'équipement électrique et électronique (D3E).<br/>Les particuliers peuvent déposer en déchèteries ou directement chez Envie 44.<br/><br/>C'est également un magasin qui présente les appareils électroménagers à prix abordables.",
+		"descr_en": "Recovery and sale of appliances <br/>Created by members of Emmaus, want now comprises 50 companies, including 2 in Loire Atlantique (Saint-Nazaire and St. Herblain), which represents 90 employees in the department. <br/> It is a repository of electrical and electronic equipment waste (D3E). Individuals can drop <br/> in waste collection centers or directly at Envie <br/> 44. It is also a store that has appliances at affordable prices.",
+		"nom": "Envie 44 Saint-Nazaire",
+		"adresseTemp": "29 route de l'Etoile du Matin  44600 SAINT-NAZAIRE",
+		"url": "http://envie-44.envie.org/envie-st-nazaire/",
+		"tel": "02 53 35 51 90",
+		"src": "MieuxTrierANantes 02/17",
+		"plagesHoraires": "0101-3112_lu+ma+me+je+ve+sa_10h00-12h00+14h00-19h00",
+		"mots_cles": "envie,44,saint,nazaire,electromenager,refrigerateur,television,lave,vaisselle,congelateur,envie44,,",
+		"mots_cles_en": "envie,44,saint,nazaire,envie,44,saint,nazaire,,",
+		"objets_recuperes": "électroménager,réfrigérateur,télévision,lave-vaisselle,congélateur,envie44",
+		"objets_recuperes_en": "appliances, refrigerator, television, dishwasher, freezer, envie44",
+		"image": "icon-go-home.png",
+		"carteMarqueur": "1",
+		"cartePopuptext": "Réemploi : électroménager<br/><b>Envie 44 Saint-Nazaire</b>,",
+		"cartePopuptext_en": "Re-use : électroménager<br/><b>Envie 44 Saint-Nazaire</b>,"
 	}, {
 		"code": "stco_ventevrac1",
 		"latitude": "47.126671",

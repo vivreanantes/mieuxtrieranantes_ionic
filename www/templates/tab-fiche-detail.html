@@ -8,7 +8,7 @@
       </a>
 
       <p>
-				<span ng-bind-html="fiche.descr" ng-show="currentlanguage=='fr'"></span>
+				<span ng-bind-html="fiche.descr" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
 				<span ng-bind-html="fiche.descr_en" ng-show="currentlanguage=='en'"></span>
       </p>
 
