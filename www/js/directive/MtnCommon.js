@@ -3,7 +3,6 @@
 'use strict';
 
 
-
 function _utilRetireMotsInutiles(result) {
 	result = result
 			.replace(
