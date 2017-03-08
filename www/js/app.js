@@ -35,7 +35,7 @@ function _isNavigator() {
 
 var myApp =angular.module('starter', ['ionic', 'leaflet-directive', 'starter.controllers', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage']);
 
-myApp.run(function($ionicPlatform) {
+myApp.run(function($ionicPlatform, $ionicPopup,$state,$translate) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -49,6 +49,27 @@ myApp.run(function($ionicPlatform) {
       StatusBar.styleLightContent();
     }
   });
+
+  // Ouvre une fenêtre avant de quitter l'application
+  $ionicPlatform.registerBackButtonAction(function(event) {
+   var stLabelTitre = $translate.instant("quitter_titre");
+   var stLabelDescription = $translate.instant("quitter_description");
+   var stLabelCancel = $translate.instant("cancel");
+   if ($state.current.name == "tab.home") {
+      $ionicPopup.confirm({
+        title: stLabelTitre,
+        template: stLabelDescription,
+        cancelText: stLabelCancel
+      }).then(function(res) {
+        if (res) {
+          ionic.Platform.exitApp();
+        }
+      })
+    } else {
+      navigator.app.backHistory();
+    }
+  }, 100);
+  
 });
 
 myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $translateProvider, $logProvider) {

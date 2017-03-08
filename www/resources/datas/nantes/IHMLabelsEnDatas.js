@@ -236,5 +236,7 @@ var _ihmLabelsEnDatas = {
 	"aller_sur_page": "Go to the page",
 	"homecollect_intro" : "For the inhabitants of the city of Nantes, find the collection days and collection mode, according to the name of your street.",
 	"metres" : "meters",
-	"only_one_world" : "For research, put only ONE world."
+	"only_one_world" : "For research, put only ONE world.",
+	"quitter_titre" : "Quit application",
+	"quitter_description" : "Do you really want to quit the application ?"
 };
