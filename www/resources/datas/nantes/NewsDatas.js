@@ -20,4 +20,11 @@ var _newsDatas = [
       "descr":"La nouvelle association Bout'à'Bout fournit des bouteilles consignées aux producteurs. Le magasin O Bôcal propose ces produits. Voir <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.boutabout.org', '_system', 'location=yes');\" >www.boutabout.org</a>",
       "descr_en":"The new association Bout'à'Bout . See <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.boutabout.org', '_system', 'location=yes');\" >www.boutabout.org</a>"
    },
+   {
+      "code":"Actu_04",
+      "nom":"Débat : les nouvelles bouteilles de lait. Non recyclables ?",
+      "nom_en":"Question : The new bottles of milk. Not recyclable?",
+      "descr":" Voir <a href=\"javascript:void(0);\" onclick=\"window.open('https://www.actu-environnement.com/ae/news/pet-opaque-recyclage-ultimatum-eco-emballages-bouteille-lait-28386.php4', '_system', 'location=yes');\" >www.actu-environnement.com</a>",
+      "descr_en":"See <a href=\"javascript:void(0);\" onclick=\"window.open('https://www.actu-environnement.com/ae/news/pet-opaque-recyclage-ultimatum-eco-emballages-bouteille-lait-28386.php4', '_system', 'location=yes');\" >www.actu-environnement.com</a>"
+   },
 {}];

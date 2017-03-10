@@ -325,14 +325,14 @@ angular.module('starter.controllers')
         ];
       } else if (filterName==="filter_map") {
         result = [
-          { "id" : "1", "code" : "smco_reemp", "nom" : "Réemploi", "image" : "resources/icons/marker-icon-blue.png" },
-          { "id" : "2", "code" : "modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs", "nom" : "Conteneurs", "nom_en" : "Containers", "image" : "resources/icons/marker-icon-brown.png"},
-          { "id" : "3", "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints", "nom_en" : "Déchèteries / Ecopoints", "image" : "resources/icons/marker-icon-green.png"},
-          { "id" : "4", "code" : "modco_compostage", "nom" : "Composteurs", "nom_en" : "Composting", "image" : "resources/icons/marker-icon-yellow.png"},
-          { "id" : "5", "code" : "smco_conteneurlerelais", "nom" : "Conteneurs vêtements", "nom_en" : "Containers clothes", "image" : "resources/icons/marker-icon-pink.png"},
-          { "id" : "6", "code" : "ventevrac", "nom" : "Vente vrac", "nom_en" : "No packaging shops", "image" : "resources/icons/marker-icon-red.png"},
-          { "id" : "7", "code" : "trisacs", "nom" : "Trisac", "nom_en" : "Trisac", "image" : "resources/icons/marker-icon-purple.png"},
-          { "id" : "8", "code" : "modco_bouchons", "nom" : "Collecteurs (bouchons)", "nom_en" : "Collector (corks)", "image" : "resources/icons/marker-icon-grey.png"}
+          { "id" : "1", "code" : "smco_reemp", "nom" : "Réemploi (70)", "nom_en" : "Re-use (70)","image" : "resources/icons/marker-icon-blue.png" },
+          { "id" : "2", "code" : "modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs", "nom" : "Conteneurs (1580)", "nom_en" : "Containers (1580)", "image" : "resources/icons/marker-icon-brown.png"},
+          { "id" : "3", "code" : "modco_ecopoint,modco_decheterie", "nom" : "Déchèteries / Ecopoints (21)", "nom_en" : "Déchèteries / Ecopoints (21)", "image" : "resources/icons/marker-icon-green.png"},
+          { "id" : "4", "code" : "modco_compostage", "nom" : "Composteurs (156)", "nom_en" : "Composting (156)", "image" : "resources/icons/marker-icon-yellow.png"},
+          { "id" : "5", "code" : "smco_conteneurlerelais", "nom" : "Conteneurs vêtements (53)", "nom_en" : "Containers clothes (53)", "image" : "resources/icons/marker-icon-pink.png"},
+          { "id" : "6", "code" : "ventevrac", "nom" : "Vente vrac (17)", "nom_en" : "No packaging shops (17)", "image" : "resources/icons/marker-icon-red.png"},
+          { "id" : "7", "code" : "trisacs", "nom" : "Trisac (116)", "nom_en" : "Trisac (116)", "image" : "resources/icons/marker-icon-purple.png"},
+          { "id" : "8", "code" : "modco_bouchons", "nom" : "Collecteurs bouchons (0)", "nom_en" : "Collector corks (0)", "image" : "resources/icons/marker-icon-grey.png"}
         ];        
       }
       return result;
