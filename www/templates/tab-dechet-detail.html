@@ -1,5 +1,5 @@
 <ion-view view-title="{{'nom_translated'|translate:dechet}}">
-  <ion-content>
+  <ion-content class="has-footer">
 
   <div class="list card">
     <div class="item item-divider item-calm">
@@ -33,11 +33,9 @@
 		</div>
 	</div>
 	
-	 <div class="list card">
+	 <div class="list card" ng-show="conseils.length>0">
 
-    <div class="item item-divider item-calm">
-      	 {{'informations'|translate}}
-    </div>
+    <div class="item item-divider item-calm">{{'informations'|translate}}</div>
 
     <div class="item item-icon-left" ng-repeat="conseil in conseils">
       <i class="icon ion-information-circled"></i>

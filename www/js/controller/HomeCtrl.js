@@ -46,15 +46,17 @@ function($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, 
   // init results
 	$scope.resultsGarbages = [];
 	$scope.resultsPlaces = [];
+	$scope.resultsDocs = [];
 	$scope.resultsHomeCollects = [];
 	$scope.resultsLength = -1;
 	// handle search
   $scope.onSearchSubmit = function() {
 	    $searchkey = $scope.formParam.searchkey;
-        $scope.resultsPlaces = RechercheService.searchStructure('.*', $searchkey);
+      $scope.resultsPlaces = RechercheService.searchStructure('.*', $searchkey);
 	    $scope.resultsGarbages = RechercheService.searchDechet($searchkey);
+			$scope.resultsDocs = RechercheService.searchFiche($searchkey);
 	    // $scope.resultsHomeCollects = RechercheService.searchCollecteDomicile($searchkey);
-	    $scope.resultsLength = $scope.resultsPlaces.length + $scope.resultsGarbages.length + $scope.resultsHomeCollects.length;
+	    $scope.resultsLength = $scope.resultsPlaces.length + $scope.resultsGarbages.length + $scope.resultsDocs.length + $scope.resultsHomeCollects.length;
 			if ($searchkey.indexOf(" ")>-1) {
 				$scope.onlyOneResult = "1";
 			} else {

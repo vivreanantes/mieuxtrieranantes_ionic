@@ -4,7 +4,7 @@
       <button class="button button-icon button-clear ion-navicon" ng-click="openMenu()"></button>
   </ion-nav-buttons>  -->
 				
-  <ion-content class="padding home">
+  <ion-content class="padding home has-footer"">
 
   <div class="card" ng-show="collectmodsfilter==null">
   	<a class="button button-icon button-stable ion-alert-circled custom-btn-color" ng-href="#/tab/config"> {{'alert_collectmodsfilter'|translate}}</a>
@@ -34,6 +34,11 @@
 					{{::item.nom}} <br>
 					<span style="color:#666">{{::item.type}}</span>
 					<mtn-plage-horaire class="horaire" plagehoraire="{{::item.plagesHoraires}}" horaire="{{::item.horaires}}"></mtn-plage-horaire>   
+		</a>
+		<a class="item item-thumbnail-left"  ng-repeat="item in resultsDocs | limitTo:maxDisplayResults" ng-href="#/tab/fiches/detail/{{::item.code}}">
+					<img ng-src="resources/images/{{::item.image}}"/>
+					{{::item.nom}} <br>
+					<span style="color:#666">{{::item.type}}</span>
 		</a>
 		<div class="item item-button-right" ng-repeat="collecte in resultsHomeCollects | limitTo:maxDisplayResults">
 			{{'collete_a_domicile'|translate}}<br/>

@@ -10,8 +10,8 @@ var _newsDatas = [
       "code":"Actu_02",
       "nom":"&#127873; 4 boîtes utiles à Nantes",
       "nom_en":"&#127873; Four give box in Nantes",
-      "descr":"Ce sont des endroits où l'on dépose (ou prend) des petits objets, gratuitement. Posées en pleine rue, elles sont accessibles en permanence. Près de Vincent Gache, quartier Ste Thérèse, Bottière et maintenant Chanteay. Voir <a href=\"javascript:void(0);\" onclick=\"window.open('http://lesboitesutiles.tumblr.com', '_system', 'location=yes');\">http://lesboitesutiles.tumblr.com</a>",
-      "descr_en":"These are places where is deposited (or takes) small objects free. Asked in the street, they are always accessible. Vincent Gache, Ste Thérèse... See <a href=\"javascript:void(0);\" onclick=\"window.open('http://lesboitesutiles.tumblr.com', '_system', 'location=yes');\">http://lesboitesutiles.tumblr.com</a>"
+      "descr":"Ce sont des endroits où l'on dépose (ou prend) des petits objets, gratuitement. Posées en pleine rue, elles sont accessibles en permanence. Près de Vincent Gache, quartier Ste Thérèse, Bottière et maintenant Chanteay. Voir <a href=\"javascript:void(0);\" onclick=\"window.open('https://nousandco.com/category/les-boites-utiles/', '_system', 'location=yes');\">https://nousandco.com/category/les-boites-utiles/</a>",
+      "descr_en":"These are places where is deposited (or takes) small objects free. Asked in the street, they are always accessible. Vincent Gache, Ste Thérèse... See <a href=\"javascript:void(0);\" onclick=\"window.open('https://nousandco.com/category/les-boites-utiles/', '_system', 'location=yes');\">https://nousandco.com/category/les-boites-utiles/</a>"
    },
    {
       "code":"Actu_03",
@@ -22,8 +22,8 @@ var _newsDatas = [
    },
    {
       "code":"Actu_04",
-      "nom":"Débat : les nouvelles bouteilles de lait. Non recyclables ?",
-      "nom_en":"Question : The new bottles of milk. Not recyclable?",
+      "nom":"&#x1F441;Débat : les nouvelles bouteilles de lait, non recyclables ?",
+      "nom_en":"&#x1F441;Question : The new bottles of milk, not recyclable ?",
       "descr":" Voir <a href=\"javascript:void(0);\" onclick=\"window.open('https://www.actu-environnement.com/ae/news/pet-opaque-recyclage-ultimatum-eco-emballages-bouteille-lait-28386.php4', '_system', 'location=yes');\" >www.actu-environnement.com</a>",
       "descr_en":"See <a href=\"javascript:void(0);\" onclick=\"window.open('https://www.actu-environnement.com/ae/news/pet-opaque-recyclage-ultimatum-eco-emballages-bouteille-lait-28386.php4', '_system', 'location=yes');\" >www.actu-environnement.com</a>"
    },

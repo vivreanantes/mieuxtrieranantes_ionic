@@ -1,5 +1,5 @@
 <ion-view view-title="{{::structure.nom}}">
-  <ion-content>
+  <ion-content class="has-footer">
    
   <div class="list card">
 
@@ -29,10 +29,11 @@
 		
     <div class="item item-icon-left" ng-show="lstTel.length>0">
       <i class="icon ion-ios-telephone"></i>
-			<div  ng-repeat="oneTel in lstTel" >
-				<span ng-show="[[$index]]>0"><hr/></div>
-				{{oneTel}}
-        <div ng-click="openPhoneLink(oneTel)" class="ico ion-arrow-right-c"> {{'telephoner'|translate}}</div>
+			<div ng-repeat="oneTel in lstTel" >
+				{{oneTel}}<div ng-click="openPhoneLink(oneTel)" class="ico ion-arrow-right-c"> {{'telephoner'|translate}}</div>
+				<div ng-show="[[$index]]<lstTel.length-1"><hr/></div>
+				
+        
 			</div>
     </div>
 

@@ -1,5 +1,5 @@
 <ion-view view-title="{{'collete_a_domicile'|translate}}">
-<ion-content>
+<ion-content class="has-footer">
   
 	<div class="card">
 			<div class="item item-divider mtn-nowrap">{{'homecollect_intro'|translate}}</div>
@@ -22,7 +22,7 @@
 
 	  	<div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
 
-	  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
+	  	<div class="item item-button-right item-text-wrap" ng-repeat="collecte in results | limitTo:maxDisplayResults">
 	        {{::collecte.dcv}}<br>
 				<span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
 				<span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='en'"></span>
