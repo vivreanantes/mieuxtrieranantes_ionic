@@ -66,8 +66,9 @@ angular.module('starter.controllers')
             var code = $stateParams.code;
             $scope.structure = RechercheService.getStructure(code);
             
-            $scope.isNavigator = _isNavigator();
-            if ($scope.isNavigator && $scope.structure.photos) {
+            // $scope.isNavigator = _isNavigator();
+            // $scope.isNavigator && 
+            if ($scope.structure.photos) {
                 $scope.lstPhotos = $scope.structure.photos.split(",");
             } else {
                 $scope.lstPhotos = [];
