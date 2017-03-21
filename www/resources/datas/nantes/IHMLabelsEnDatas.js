@@ -115,7 +115,7 @@ var _ihmLabelsEnDatas = {
 	"dechet_nom": "garbage/name",
 	"dechet": "garbage",
 	"type": "type",
-	"statut": "status",
+	"statut": "Status",
 	"telephone": "phone number",
 	"email": "email",
 	"url": "web site",
