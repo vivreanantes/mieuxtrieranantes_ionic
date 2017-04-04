@@ -1100,6 +1100,7 @@ var _structuresDatas = [{
 		"mots_cles_en": "veti,frat,fraternite,veti,frat,fraternite,,",
 		"objets_recuperes": "mobilier,vaisselle,livre,vêtement,linge,pull,pantalon,veste,chaussette,chemisier,Tshirt,chaussure,couverture,drap,couette,layette,boy,sous-vêtement",
 		"objets_recuperes_en": "appliances, books / BD / CD / DVD, toy, furniture, clothing, miscellaneous",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_01.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_02.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_03.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_04.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_05.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_06.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_07.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_08.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_09.jpg,www.mieuxtrieranantes.fr/docs/medias/StructuresReemploi/LaFrat/LaFrat_10.jpg",
 		"image": "icon-go-home.png",
 		"carteMarqueur": "1",
 		"cartePopuptext": "Réemploi : électroménager, livres/BD/CD/DVD, jouet, meuble, vêtements, divers<br/><b>Véti Frat - La Fraternité</b>,",
