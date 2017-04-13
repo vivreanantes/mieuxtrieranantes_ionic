@@ -15,13 +15,6 @@ var _docsDatas = [
       "src":"MieuxTrierANantes 03/2015"
    },
    {
-      "code":"doc_annuaireess",
-      "nom":"Annuaire économie sociale et solidaire – Nantes",
-      "mots_cles":"annuaire,ess",
-      "image":"application-vnd.ms-excel.png",
-      "src":"MieuxTrierANantes 03/2015"
-   },
-   {
       "code":"doc_jours_collectes_nantes",
       "nom":"Carte des jours de collecte à Nantes",
       "mots_cles":"nantes,horaires,collecte,memo",
@@ -118,22 +111,7 @@ var _docsDatas = [
       "src":"09/2015"
    },
    {
-      "code":"doc_lerelais44",
-      "nom":"Présentation de 'Le Relais Atlantique'",
-      "mots_cles":"relais,vetement,conteneur",
-      "url":"www.mieuxtrieranantes.fr/docs/LeRelaisAtlantique.pdf",
-      "image":"application-pdf.png",
-      "src":"10/2016"
-   },
-   {
-      "code":"doc_listeasso",
-      "nom":"Liste Associations Ou Entreprises Réemploi Loire-Atlantique (et lieux vente en vrac)",
-      "mots_cles":"association,entreprise,reemploi,loire,atlantique,vrac",
-      "image":"application-vnd.ms-excel.png",
-      "src":"07/2015"
-   },
-   {
-      "code":"doc_annuaireess",
+      "code":"doc_batteries",
       "nom":"Prolonger la durée des batteries",
       "mots_cles":"batterie",
       "url":"www.mieuxtrieranantes.fr/docs/batteries_Lithium_Ion.pdf",
