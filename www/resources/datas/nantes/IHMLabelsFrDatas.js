@@ -214,7 +214,7 @@ var _ihmLabelsFrDatas = {
 	"recyclable_pas_poubelle": 'Non Recyclable (ne pas mettre à la poubelle)',
 	"recyclable_nantes": 'Recycable (Bacs jaunes à Nantes uniquement)',
 	"zerodechetnantes": "Zéro déchet Nantes",
-	"zerodechetnantes_intro": "Astuces concoctées par les membres du groupe Facebook ZeroDechetNantes.",
+	"zerodechetnantes_intro": "Pour toute question ou remarque, écrire à l'auteur à charles.duvergey@laposte.net",
 	"zerodechetnantes_type1": "Remplacer les objets jetables",
 	"zerodechetnantes_type2": "Produits faits maison",
 	"companiesadvices": "Entreprises",

@@ -3,14 +3,110 @@
 
   <div class="card">
     <div class="item item-divider mtn-nowrap">{{'zerodechetnantes_intro'|translate}}</div>
-     <div class="card" ng-repeat="(key, value) in allzerodechet | groupBy: 'type'">
-       <div class="item item-divider item-calm">{{key|translate}}</div>
-       <div class="item" ng-repeat="item in ::value" ng-click="showInfo(item.code)">            
-            <img ng-src="resources/images/{{::item.image}}" style="max-height:70px;" />
-            {{'nom_translated'|translate:item}}
-        </div>  
-       </div>
-    </div>
+     <div>
+   <p><strong>ZERO DECHET : GUIDE RAPIDE DES GESTES DE BASE</strong></p>
+      <br/>
+      <p class="zero_dechet">Le z&eacute;ro d&eacute;chet, pourquoi ?</p>
+      <ul>
+        <li> - Gain de temps : une poubelle remplie moins vite &eacute;gale moins de manutention et de tri ;</li>
+        <li> - Gain d'espace : on ne s'encombre plus d'objets inutiles ;</li>
+        <li> - Gain mat&eacute;riel : la gestion plus avis&eacute;e de nos d&eacute;chets offre de nombreuses possibilit&eacute;s d'&eacute;conomies, aussi bien sur un plan individuel que collectif : moins d'argent mal d&eacute;pens&eacute;, moins de gaspillage alimentaire...</li>
+        <li> - Gain social : acheter au sein de structures ayant des pratiques vertueuses (vrac...) encourage lesdites pratiques ;</li>
+        <li> - Gain &eacute;cologique : le recyclage va dans la bonne voie mais reste insuffisant pour la r&eacute;duction de notre impact sur notre environnement ; agir &agrave; la source du probl&egrave;me, en &eacute;vitant l'existence m&ecirc;me du d&eacute;chet, offre un b&eacute;n&eacute;fice sur tous les plans : extraction et consommation des mat&eacute;riaux, qualit&eacute; de l'air, des sols, propret&eacute; etc. ;</li>
+        <li> - Gain m&eacute;dical : le z&eacute;ro d&eacute;chet implique l'usage de produits naturels, meilleurs pour notre sant&eacute;.</li>
+      </ul>
+      <br/>
+      <p class="zero_dechet">Coller un STOP PUB sur sa bo&icirc;te aux lettres</p>
+      <p>Il est g&eacute;n&eacute;ralement respect&eacute;. En cas de prospectus ind&eacute;sirable fourni avec une enveloppe pr&eacute;-affranchie, il peut &ecirc;tre amusant d'utiliser cette derni&egrave;re pour renvoyer l'&eacute;l&eacute;ment importun &agrave; son envoyeur !</p>
+      <br/>
+      <p class="zero_dechet">&Eacute;conomiser le papier</p>
+      <p>&Eacute;viter d'imprimer ce qui n'est pas n&eacute;cessaire, et dans si c'est le cas, imprimer recto-verso, ou utiliser le verso d'une feuille d&eacute;j&agrave; imprim&eacute;e. Cette derni&egrave;re &eacute;tant &eacute;galement utilisable comme brouillon en &eacute;criture manuscrite, pour dessiner... Ces bons r&eacute;flexes entra&icirc;nent une consommation de papier modeste, &agrave; l'usage et &agrave; l'achat.</p>
+      <br/>
+      <p class="zero_dechet">Acheter en vrac</p>
+      <img src="resources/images/nantes/images_zero_dechet/bocaux.jpg" class="zero_dechet" width="70%" /><br/>
+      <p>Les emballages des produits courants (p&acirc;tes, riz, biscuits, &oelig;ufs, chocolat en poudre...) repr&eacute;sentent environ 20 % du prix d'achat, et en outre, il faut ensuite s'emb&ecirc;ter &agrave; les trier et &agrave; les jeter... Passer &agrave; l'achat en vrac, avec des contenants r&eacute;utilisables (sac &agrave; pain, sacs en tissu, bocaux en verre, tupperwares, bo&icirc;te &agrave; &oelig;ufs r&eacute;employ&eacute;e...) nous &eacute;pargne cette corv&eacute;e, permet de d&eacute;penser au plus juste, et &eacute;videmment r&eacute;duit gaspillage et dommages sur notre environnement.</p>
+      <br/>
+      <p class="zero_dechet">Composter ses d&eacute;chets organiques</p>
+      <img src="resources/images/nantes/images_zero_dechet/composter.jpg" class="zero_dechet" width="70%" /><br/>
+      <p>&Eacute;pluchures de fruits et l&eacute;gumes, coquilles d&rsquo;&oelig;ufs, ongles et cheveux constituent &agrave; eux seuls environ un tiers du contenu de notre poubelle. Leur incin&eacute;ration est co&ucirc;teuse et dommageable, l&agrave; o&ugrave; le compostage est un processus naturel produisant un amendement de qualit&eacute; pour enrichir nos sols agricoles. Cela passe par l'utilisation d'un composteur ; suivant l'importance du public (personne seule / famille / population de quartier) et de l'habitat concern&eacute; (appartement de petite taille et sans espace vert / maison &agrave; la campagne...), diff&eacute;rentes options peuvent &ecirc;tre envisag&eacute;es : simple seau &agrave; compost qu'on ira vider r&eacute;guli&egrave;rement au composteur de quartier, lombricomposteur, composteur priv&eacute; dans le jardin... Un &eacute;quipement collectif demandera &eacute;ventuellement une modeste cotisation annuelle pour assurer sa maintenance.</p>
+      <br/>
+      <p class="zero_dechet">Refuser les sacs propos&eacute;s en magasin</p>
+      <p>Utiliser son sac &agrave; dos, son cabas, son sac &agrave; main, ou encore garder &agrave; la main le DVD qu'on vient d'acheter, au lieu d'accepter le sac en plastique ou en papier qu'on nous ajoute encore trop souvent d'office &agrave; la caisse, supprime tout un tas de choses en amont et en aval de votre achat : il ne faut pas oublier que ce sac a d&ucirc; &ecirc;tre fabriqu&eacute;, transport&eacute; et stock&eacute; avant d'arriver jusqu'&agrave; nous ; et qu'apr&egrave;s, en supposant que nous ne l'abandonnions pas dans la nature, il devra encore &ecirc;tre d&eacute;pos&eacute; dans une poubelle, collect&eacute; et transport&eacute;, et &eacute;ventuellement plus ou moins bien trait&eacute; : au mieux recycl&eacute;, au pire incin&eacute;r&eacute;, mis en d&eacute;charge, ou perdu dans l'environnement en cours de route, avec toutes les pollutions que cela induit.</p>
+      <p>Cette habitude est aussi avantageuse car elle est &agrave; la port&eacute;e des personnes moins enclines &agrave; s'occuper attentivement de leurs d&eacute;chets, que ce soit par manque de temps, d'int&eacute;r&ecirc;t... Vous risquez moins de jeter quelque chose dans la nature si en d&eacute;but de cha&icirc;ne, on vous en retire tout simplement l'opportunit&eacute; !</p>
+      <br/>
+      <p class="zero_dechet">Soutenir le retour aux bouteilles consign&eacute;es</p>
+      <p>Bien que le recyclage du verre constitue un progr&egrave;s, il est encore inf&eacute;rieur au syst&egrave;me de la consigne qui consiste &agrave; faire payer l'emballage &agrave; l'achat et &agrave; le rembourser quand il est rapport&eacute; en boutique ; ce contenant sera ensuite lav&eacute; et r&eacute;utilis&eacute; &agrave; nouveau, des dizaines de fois. Cette fa&ccedil;on de faire n'est pas nouvelle puisque elle a exist&eacute; jusque dans les ann&eacute;es 1960, et existe encore dans certaines r&eacute;gions comme l'Alsace. Des associations se sont constitu&eacute;es pour remettre en vigueur cette solution sur l'ensemble du territoire : Bout' &agrave; Bout' en&nbsp; Pays de la Loire, distro.bzh en Bretagne...</p>
+      <p>Certaines boutiques comme &Ocirc; Bocal proposent ainsi ce type de prestation &agrave; leur client&egrave;le.</p>
+      <br/>
+      <p class="zero_dechet">Remplacer ses mouchoirs jetables par un mouchoir en tissu</p>
+      <img src="resources/images/nantes/images_zero_dechet/mouchoirs_papiers.jpg" class="zero_dechet" width="30%" /><img src="resources/images/nantes/images_zero_dechet/fleche.jpg" class="zero_dechet" width="20%" /><img src="resources/images/nantes/images_zero_dechet/mouchoirs.jpg" class="zero_dechet" width="30%" />
+      <p>Avec &eacute;ventuellement un ou deux mouchoirs de rechange. Bien pli&eacute; et stock&eacute;, le mouchoir en tissu n'est gu&egrave;re salissant, et il se nettoie rapidement et simplement au savon de Marseille et &agrave; l'eau chaude. Un peu plus cher &agrave; l'achat (environ 5 &euro;), mais vite rentable et moins encombrant que d'innombrables paquets de mouchoirs jetables.</p>
+      <br/>
+      <p class="zero_dechet">Remplacer son savon, son shampoing et son dentifrice par leurs &eacute;quivalents solides</p>
+      <img src="resources/images/nantes/images_zero_dechet/flacon_savon.jpg" class="zero_dechet" width="30%" /><img src="resources/images/nantes/images_zero_dechet/fleche.jpg" class="zero_dechet" width="20%" /><img src="resources/images/nantes/images_zero_dechet/savon.jpg" class="zero_dechet" width="30%" /><br/>
+      <img src="resources/images/nantes/images_zero_dechet/shampoing.jpg" class="zero_dechet" width="30%" /><img src="resources/images/nantes/images_zero_dechet/fleche.jpg" class="zero_dechet" width="20%" /><img src="resources/images/nantes/images_zero_dechet/shampoing_2.jpg" class="zero_dechet" width="30%" /><br/>
+      <img src="resources/images/nantes/images_zero_dechet/creme.jpg" class="zero_dechet" width="30%" /><img src="resources/images/nantes/images_zero_dechet/fleche.jpg" class="zero_dechet" width="20%" /><img src="resources/images/nantes/images_zero_dechet/creme_maison.jpg" class="zero_dechet" width="30%" />
+      <p>Un bon gros vieux savon de Marseille ne vous laisse pas un flacon en plastique sur les bras chaque fois que vous en usez un, de m&ecirc;me que le shampoing et le dentifrice solides qui s'utilisent de la m&ecirc;me fa&ccedil;on : mouillez et frottez ! Ils peuvent co&ucirc;ter un peu plus cher &agrave; l'achat (12,40 &euro; pour le shampoing chez &Ocirc; Bocal) mais se r&eacute;v&egrave;lent plus &eacute;conomiques sur le long terme, pouvant durer de nombreux mois (environ six pour un shampoing utilis&eacute; deux fois par semaine par une personne avec une chevelure courte). Le savon solide a &eacute;galement l'avantage de la polyvalence, outre&nbsp; les mains et le reste du corps, il peut s'employer pour le m&eacute;nage.</p>
+      <br/>
+      <p class="zero_dechet">Remplacer ses cotons tiges par un oriculi</p>
+      <img src="resources/images/nantes/images_zero_dechet/coton_tige.jpg" class="zero_dechet" width="30%" /><img src="resources/images/nantes/images_zero_dechet/fleche.jpg" class="zero_dechet" width="20%" /><img src="resources/images/nantes/images_zero_dechet/coton_tige_bois.jpg" class="zero_dechet" width="30%" />
+      <p>La partie plastique desdits cotons tiges finit trop souvent dans la nature, avec des effets tr&egrave;s n&eacute;gatifs sur cette derni&egrave;re ; m&ecirc;me si la l&eacute;gislation pr&eacute;voit des les interdire dans quelques ann&eacute;es, les rempla&ccedil;ant par un mod&egrave;le enti&egrave;rement biod&eacute;gradable (tige en papier), la meilleure solution consiste &agrave; utiliser &agrave; la place un outil unique, r&eacute;utilisable quasiment &agrave; l'infini.</p>
+      <p>L'oriculi, ou cure-oreille, provient d'Asie o&ugrave; il est employ&eacute; avec succ&egrave;s depuis fort longtemps. Il co&ucirc;te un peu plus cher &agrave; l'achat (exemple : 4,50 &euro; chez &Ocirc; Bocal), mais est vite amorti, pouvant durer sans probl&egrave;me des ann&eacute;es, voire toute votre vie. Et si d'aventure le v&ocirc;tre devient hors d'usage, sa fabrication le rend parfaitement compostable (mod&egrave;le en bambou) ou recyclable (mod&egrave;le en m&eacute;tal).</p>
+      <img src="resources/images/nantes/images_zero_dechet/brosse_a_dent.jpg" class="zero_dechet" width="30%" /><img src="resources/images/nantes/images_zero_dechet/fleche.jpg" class="zero_dechet" width="20%" /><img src="resources/images/nantes/images_zero_dechet/brosse_a_dent_bois.jpg" class="zero_dechet" width="30%" />
+      <br/>
+      <p class="zero_dechet">Remplacer sa brosse &agrave; dents en plastique par son &eacute;quivalent compostable</p>
+      <p>Comme les cotons tiges, la brosse &agrave; dents est un objet &agrave; usure rapide dont l'impact environnemental pose probl&egrave;me, particuli&egrave;rement en fin de vie puisque le mod&egrave;le en plastique est rarement recycl&eacute;. Pour rem&eacute;dier &agrave; ce probl&egrave;me, des mod&egrave;les en bambou ont r&eacute;cemment vu le jour, ce qui repr&eacute;sente un net progr&egrave;s vu que l'objet devient majoritairement compostable (il faut h&eacute;las s&eacute;parer les poils lorsque ils sont en nylon). En outre leur prix est encore &eacute;lev&eacute; par rapport aux produits classiques (environ 5 &euro;), et il n'existe pas encore de fabrication nationale, la production (labellis&eacute;e) s'effectuant actuellement en Chine. La production fran&ccedil;aise fournit actuellement des brosses en plastique &agrave; manche r&eacute;utilisable (seule la t&ecirc;te se change).</p>
+      <br/>
+      <p class="zero_dechet">Remplacer ses bouteilles d'eau en plastique par une gourde</p>
+      <img src="resources/images/nantes/images_zero_dechet/bouteille_plastique.jpg" class="zero_dechet" width="30%" /><img src="resources/images/nantes/images_zero_dechet/fleche.jpg" class="zero_dechet" width="20%" /><img src="resources/images/nantes/images_zero_dechet/thermos.jpg" class="zero_dechet" width="30%" />
+      <p>Nul besoin de pr&eacute;senter le d&eacute;sastre &eacute;cologique de la bouteille en plastique jetable. Une gourde m&eacute;tallique remplie d'eau du robinet est tout &agrave; fait apte &agrave; la remplacer. Diff&eacute;rents formats existent, notamment des petits mod&egrave;les pouvant tenir dans un sac &agrave; main, pour les personnes souhaitant un encombrement r&eacute;duit.</p>
+      <br/>
+      <p class="zero_dechet">R&eacute;parer ou faire r&eacute;parer, r&eacute;cup&eacute;rer, donner, &eacute;changer, acheter et revendre d'occasion</p>
+      <p>Les possibilit&eacute;s en la mati&egrave;re se sont fortement accrues ces derni&egrave;res ann&eacute;es, avec tout un tas d'alternatives (anciennes ou nouvelles) au syst&egrave;me destructeur qu'est la soci&eacute;t&eacute; de consommation ; la liste ci-dessous ne pr&eacute;tend pas &ecirc;tre exhaustive !</p>
+      <p>Sur le net :</p>
+      <ul>
+        <li> - donnons.org (dons)</li>
+        <li> - recup.net (dons)</li>
+        <li> - leboncoin.fr (achat / vente)</li>
+        <li> - priceminister.com (achat / vente)</li>
+        <li> - Groupe FaceBook// Parall&egrave;le // Nantes (dons)</li>
+        <li> - Groupe FaceBook Ventes entre nantais (achat / vente)</li>
+      </ul>
+	  <br/>
+      <p>Hors du net :</p>
+      <ul>
+        <li> - Entre ami-e-s</li>
+        <li> - Dans la rue (mobiliers, cartons r&eacute;utilisables pour un d&eacute;m&eacute;nagement, un envoi postal...) !</li>
+        <li> - Vide greniers, brocantes, trocantes, march&eacute;s aux puces</li>
+        <li> - Bo&icirc;tes utiles ou give box</li>
+        <li> - Ateliers de r&eacute;paration de v&eacute;lo (voir heureux-cyclage.org)</li>
+        <li> - Repair Caf&eacute;s</li>
+        <li> - Ressourceries</li>
+      </ul>
+	  <br/>
+      <br/>
+      <p class="zero_dechet">Produits d'entretien</p>
+      <p>Des produits simples, efficaces, sains pour la sant&eacute; et l'environnement peuvent se trouver en vrac : vinaigre blanc, bicarbonate de soude, savon de Marseille, savon noir, citron...</p>
+      <br/>
+      <p class="zero_dechet">Quelques adresses locales</p>
+      <ul>
+        <li> - Compostri, 8 rue Saint Domingue - Le Solilab 44200 Nantes</li>
+        <li> - V&eacute;locampus, 3 chemin de la Censive du Tertre 44300 Nantes</li>
+        <li> - &Ocirc; Bocal, 3 rue de l'h&ocirc;tel de ville 44000 Nantes</li>
+        <li> - Biocoop, 188 route de Rennes 44300 Nantes / 8 rue du Commandant Charcot 44700 Orvault / 332 boulevard Marcel Paul 44800 Saint Herblain / 17 boulevard Gustave Roch 44200 Nantes / rue Louis Blanc 44230 Saint S&eacute;bastien sur Loire</li>
+        <li> - Cash Express, 6 rue de la Barillerie 44000 Nantes</li>
+        <li> - N&acirc;ga, 17 chemin Fontaine Launay 44400 Rez&eacute;</li>
+        <li> - PiNG, 38 Rue du Breil 44100 Nantes</li>
+        <li> - La Ressourcerie de l'&icirc;le, 90 rue de la Basse &icirc;le 44400 Rez&eacute;</li>
+        <li> - L'Atelier du Retz emploi, rue Saint Domingue 44200 Nantes</li>
+        <li> - Plan&egrave;te occasion, La Jalousie route de Paris 44470 Carquefou</li>
+        <li> - Envie44, 18 rue Bobby Sands 44800 Saint Herblain</li>
+        <li> - Frip'in Shop, 52 &amp; 60 rue mar&eacute;chal Joffre 44000 Nantes</li>
+        <li> - Stations Services, 9 rue de la Bauche Thiraud 44400 Rez&eacute;</li>
+        <li> - mieuxtrieranantes.fr</li>
+      </ul>
+	 </div>
+	 
  </div>
       
   </ion-content>

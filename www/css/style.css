@@ -215,3 +215,12 @@ ion-content.home .news .item {
     background: #9DCC3F;
     border-color: #9DCC3F;
 }
+
+p.zero_dechet {
+	font-weight:bold;
+    text-decoration:underline;
+    font-size:14px;
+} 
+img.zero_dechet {
+   vertical-align:middle;
+}
