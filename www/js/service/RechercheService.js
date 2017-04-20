@@ -407,8 +407,8 @@ angular.module('starter.controllers')
 				}, {
 					"id": "8",
 					"code": "modco_bouchons",
-					"nom": "Collecteurs bouchons (0)",
-					"nom_en": "Collector corks (0)",
+					"nom": "Collecteurs bouchons (38)",
+					"nom_en": "Collector corks (38)",
 					"image": "resources/icons/marker-icon-grey.png"
 				}
 			];
