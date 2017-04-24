@@ -78,7 +78,7 @@ var _advicesDatas = [{
 		"descr_en": "Cork caps are recyclable but not recycled. They are recovered by the association 'Cancer 44' (20 tonnes of cork stoppers harvested in 2012). The deposit occurs in a volunteer at 52 Rue du Château d'Eau in La Chapelle sur Erdre."
 	}, {
 		"code": "cons_allu",
-		"nom": "L'aluminium se recycle à 100%",
+		"nom": "L'aluminium se recycle à 100% ! ",
 		"nom_en": "Aluminium can be recycled to 100%!",
 		"descr": "Il peut être recyclé à l'infini sans perdre ses caractéristiques physiques.",
 		"descr_en": "It can be recycled infinitely without losing its physical characteristics."
@@ -162,19 +162,19 @@ var _advicesDatas = [{
 		"descr_en": "These are toxic because contain some mercury. That is why we must bring them to recycling center or sales points (Supermarkets, DIY stores ...)."
 	}, {
 		"code": "cons_sansbouchon",
-		"nom": "Que faire du bouchon / couvercle…",
+		"nom": "Que faire du bouchon / couvercle ?",
 		"nom_en": "What cap / lid?",
 		"descr": "Le bouchon/couvercle doit être trié séparément (même s'il peut être trié). <br/>Voir déchet<i> Bouchon plastique'</i> et déchet<i> 'Couvercle métallique'</i>.",
 		"descr_en": "The cap / lid must be ordered separately (although it can be sorted). See <br/> waste <i> Plastic cap '</ i> and waste <i>' Metal cover '</ i>."
 	}, {
 		"code": "cons_capsulelait",
-		"nom": "Que faire de l'opercule…",
-		"nom_en": "What of the metal cap?",
+		"nom": "Que faire de la capsule métallique (opercule) ?",
+		"nom_en": "What of the metal cap ?",
 		"descr": "La capsule doit être mis dans les déchets ménagers ('bac bleu' ou 'sac bleu'). Ils sont rejetées par le processus de tri du fait de leur taille.",
 		"descr_en": "The capsule should be placed in household waste ('blue box' or 'blue bag'). they are rejected by the sorting process due to their size."
 	}, {
 		"code": "cons_potsmoutarde",
-		"nom": "Les verres des pots de moutarde et Nutella",
+		"nom": "Les verres des pots de moutarde et nutella",
 		"nom_en": "The glasses mustard pots and nutella",
 		"descr": "Les pots de moutarde et de Nutella (qui peuvent être transformés en verre à boire) peuvent être recyclés (conseil AlloPropreté 05/2014).",
 		"descr_en": "Mustard Pots and Nutella (which can be turned into drinking glass) can be recycled (board AlloPropreté 05/2014)."
@@ -216,13 +216,13 @@ var _advicesDatas = [{
 		"descr_en": "The Tetra Pak recycling: cardboard is collected, the rest is rarely recovered. Preferred glass packaging."
 	}, {
 		"code": "cons_distrisac_relais",
-		"nom": "Retrait de sacs en relais - 3 rouleaux par retrait, 2 retraits par an",
+		"nom": "Retrait de sacs en relais (3 rouleaux par retrait, 2 retraits par an)",
 		"nom_en": "Relay bags withdrawal (3 rolls per withdrawal, two withdrawals per year)",
 		"descr": "Les relais sont des lieux de réapprovisionnement destinés à dépanner : vous pouvez retirer 3 rouleaux de sacs (bleus et/ou jaunes). Vous pouvez vous y rendre 2 fois par an.",
 		"descr_en": "Relays are restocking places for help: You can remove 3 rolls of bags (blue and / or yellow). You can go there 2 times a year."
 	}, {
 		"code": "cons_distrisac_achat",
-		"nom": "Achats de sacs Trisacs",
+		"nom": "Achats de sacs Trisacs (2,20 € le rouleau de 30 sacs)",
 		"nom_en": "Trisacs shopping bags (2.20 € the 30 bags roll)",
 		"descr": "- en supermarché : Leclerc Paridis, Super U Dalby, Carrefour Market Rond Point de Vannes, Intermarché Pitre Chevalier.<br/>- dans des distributeurs automatiques : devant la mairie de Chantenay, sous le marché de Talensac, dans le hall de la piscine Jules Verne, dans le hall de la piscine petite Amazonie.",
 		"descr_en": "- Supermarket: Paridis Leclerc, Super U Dalby, Carrefour Market roundabout Vannes, Intermarché <br/> Pitre Chevalier - in vending machines. Outside the town hall of Chantenay under the Talensac market in the pool hall Jules Verne, in the lobby of the small pool Amazon."
@@ -240,7 +240,7 @@ var _advicesDatas = [{
 		"descr_en": "Only wash the sorted elements (this is done in the sorting centers). Simply empty."
 	}, {
 		"code": "cons_alloproprete",
-		"nom": "Des questions ... 02 40 41 9000",
+		"nom": "Des questions ? 02 40 41 9000",
 		"nom_en": "Questions ? 02 40 41 9000",
 		"descr": "AlloNantes est un numéro gratuit pour les Nantais (notamment pour les questions sur le tri). Ouvert de 8h à 19h du lundi au vendredi, et le samedi de 8h à 13h.",
 		"descr_en": "AlloNantes is a free number for Nantais (including questions about sorting). Open from 8 am to 19h from Monday to Friday, and Saturday from 8 to 13h."
@@ -288,7 +288,7 @@ var _advicesDatas = [{
 		"descr_en": "Present your tray before 6 am or before."
 	}, {
 		"code": "cons_proximite",
-		"nom": "Des questions ... 0800 800 868",
+		"nom": "Des questions ? 0800 800 868",
 		"nom_en": "Questions ? 0800 800 868",
 		"descr": "Vous habitez une autre commune de la métropole, contactez votre pôle de proximité, du lundi au vendredi de 8h30 à 12h30 et de 13h30 à 17h30. C'est un numéro gratuit depuis un poste fixe.<br/>Pôle Erdre et Loire : 02 28 20 22 00, Pôle Erdre-et-Cens : 02 51 83 65 00, Pôle Loire, Sèvre et Vignoble : 02 72 01 26 00, Pôle Loire-Chézine : 02 28 03 41 50, Pôle Nantes-Loire : 02 51 86 54 00, Pôle Nantes-Ouest : 02 28 03 47 00, Pôle Sud-Ouest : 02 28 00 16 00.",
 		"descr_en": "You live in another town of the metropolis, contact your nearby pole, Monday to Friday from 8:30 to 12:30 and 13:30 to 17:30. This is a free number from a landline <br/> Pole Erdre and Loire. 02 28 20 22 00, pole-and-Erdre Cens: 02 51 83 65 00, Pole Loire, Sevre and Vineyard 02 72 01 26 00 Pole Loire-Chézine 02 March 28 41 50 Pole-Loire Nantes 02 51 86 54 00 Pole Nantes West: Feb. 28, 03 47 00, Pole Southwest: February 28 00 16 00."
@@ -340,13 +340,13 @@ var _advicesDatas = [{
 		"descr_en": "Put the oil in a bottle you drop in the blue bag or in the blue bin."
 	}, {
 		"code": "cons_spirale",
-		"nom": "Doit-on supprimer les spirales ...",
+		"nom": "Doit-on supprimer les spirales ?",
 		"nom_en": "Should we remove the spirals ?",
 		"descr": "Non ce n'est pas obligatoire.",
 		"descr_en": "No this is not mandatory. "
 	}, {
 		"code": "cons_bouteillepaspet",
-		"nom": "Peut-on recycler les nouvelles bouteilles plastiques ...",
+		"nom": "Peut-on recycler les nouvelles bouteilles plastiques&nbsp;?",
 		"nom_en": "Can the new plastic bottles be recycled ?",
 		"descr": "Selon les consignes de Nantes Métropole (04/2017) les nouvelles plastiques (celles qui sont brillantes, qui ne sont pas en PET) peuvent être mises au recyclage.",
 		"descr_en": "According to the instructions of Nantes Métropole (04/2017) the new plastics (those which are brilliant, which are not in PET) can be recycled."
