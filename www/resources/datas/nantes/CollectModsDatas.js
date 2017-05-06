@@ -406,7 +406,7 @@ var _collectModsDatas = [
       "libelleBouton":"Réemploi Vaisselle",
       "libelleBouton_en":"Reuse Crockery",
       "modesCollecte":"true",
-      "descr":"Plusieurs organismes (association 'La croix rouge', 'La ressourcerie de l'ïle'..) récupèrent la vaissellee.",
+      "descr":"Plusieurs organismes (association 'La croix rouge', 'La ressourcerie de l'ïle'..) récupèrent la vaisselle.",
       "descr_en":"Several organizations ('The red cross', 'La ressourcerie de l'ïle'…) recover the ancient books.",
       "image":"reemploi_petit.png",
       "mots_cles":"reemploi,vaisselle",
