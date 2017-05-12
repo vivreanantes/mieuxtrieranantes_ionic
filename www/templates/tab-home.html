@@ -61,12 +61,14 @@
     <div class="list">         
         <div class="item" ng-repeat="actu in ::news" ng-click="showNews(actu.code)">            
 	        <span ng-bind-html="actu.nom" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
- 				  <span ng-bind-html="actu.nom_en" ng-show="currentlanguage=='en'"></span>
-        </div>  
-    </div>
+				  <span ng-bind-html="actu.nom_en" ng-show="currentlanguage=='en'"></span>
+		</div>
+		<div class="item"ng-repeat="collect in ::collects" ng-if="collect.gform!=''" ng-click="showCollect(collect.title.rendered,collect.content.rendered,collect.link)">
+			&#x1F603; Collectes citoyennes : {{::collect.title.rendered}}
+		</div>
+	</div>
 
   </div>
-
 	
   </ion-content>
 </ion-view>
