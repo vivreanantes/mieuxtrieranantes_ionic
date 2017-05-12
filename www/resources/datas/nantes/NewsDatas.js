@@ -32,6 +32,6 @@ var _newsDatas = [
       "code":"Actu_05",
       "nom":"&#x1F332;Nouveau : prochaines collectes citoyennes de déchets",
       "nom_en":"&#x1F332;New : upcoming citizen waste collection",
-      "descr":"- 'Les amis de l'Erdre' et 'PP Plastic Pickup' organisent une collecte, le samedi 29 Avril à 9h place Foch, sur le Cours Saint Pierre. Voir <a href=\"javascript:void(0);\" onclick=\"window.open('https://www.plastiques.eu/', '_system', 'location=yes');\" >https://www.plastiques.eu/</a>",
-      "descr_en":"- 'Les amis de l'Erdre' and 'PP Plastic Pickup' organize a collect, on Saturday 29 April at 9am Place Foch, on the Cours Saint Pierre. See <a href=\"javascript:void(0);\" onclick=\"window.open('https://www.plastiques.eu/', '_system', 'location=yes');\" >https://www.plastiques.eu/</a>"
+      "descr":"'PP Plastic Pickup' organise des collectes : <br/>- le samedi 20 Mai de 14h à 16h aux Dervallières.<br/>Voir <a href=\"javascript:void(0);\" onclick=\"window.open('https://www.plastiques.eu/nos-actions/dechets-doeuvre-dervalieres-20-mai/', '_system', 'location=yes');\" >https://www.plastiques.eu/nos-actions/dechets-doeuvre-dervalieres-20-mai/</a>",
+      "descr_en":"'PP Plastic Pickup' organize a collect, on Saturday 20 May at Les Dervallières. See <a href=\"javascript:void(0);\" onclick=\"window.open('https://www.plastiques.eu/nos-actions/dechets-doeuvre-dervalieres-20-mai/', '_system', 'location=yes');\" >https://www.plastiques.eu/nos-actions/dechets-doeuvre-dervalieres-20-mai/</a>"
    }];
