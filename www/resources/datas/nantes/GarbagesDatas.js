@@ -1729,7 +1729,7 @@ var _garbagesDatas = [{
 		"descr_en": "drug",
 		"mots_cles": "medicament,",
 		"mots_cles_en": "drug,",
-		"cons": "cons_recupmedicament,",
+		"cons": "cons_recupmedicament,cons_medicamentembal,",
 		"image": "medicaments_mini.png",
 		"modco": "smco_pharmacie,modco_decheterie,modco_ecopoint",
 		"recyc": "PAS_POUBELLE",
