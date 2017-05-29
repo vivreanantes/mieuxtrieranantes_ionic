@@ -36,25 +36,25 @@ angular.module('starter.controllers').controller('HomeCtrl',
 				title: actu.nom,
 				template: actu.descr
 			});
-		// Close the popup after 5 seconds for some reason
+		// Close the popup after 20 seconds for some reason
 		$timeout(function () {
 			alertPopup.close();
-		}, 5000);
+		}, 20000);
 
 	};
 
 	// An alert dialog for the collects
-	$scope.showCollect = function (nom, descr, link) {
-		var temp = descr.substring(0, 180) + "...<br/><br/>Voir <a href=\"javascript:void(0);\" onclick=\"window.open('" + link + "', '_system', 'location=yes');\" >" + link + "</a>";
+	$scope.showCollect = function (nom, descr, link, datetime) {
+		var temp = descr.substring(0, 180) + "...<br/><i>Date : " + datetime  + "</i><br/><br/>Voir <a href=\"javascript:void(0);\" onclick=\"window.open('" + link + "', '_system', 'location=yes');\" >" + link + "</a>";
 		// Open alert dialog
 		var alertPopup = $ionicPopup.alert({
 				title: nom,
 				template: temp
 			});
-		// Close the popup after 5 seconds for some reason
+		// Close the popup after 20 seconds for some reason
 		$timeout(function () {
 			alertPopup.close();
-		}, 5000);
+		}, 20000);
 
 	};
 	///// GLOBAL SEARCH /////
