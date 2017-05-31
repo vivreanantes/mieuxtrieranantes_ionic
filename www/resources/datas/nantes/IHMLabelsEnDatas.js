@@ -10,6 +10,7 @@ var _ihmLabelsEnDatas = {
 	"sauf_ferie": "except official holiday",
 	"uniqferiessuivant": "only following official holiday",
 	"plus_d_infos": "More informations",
+	"plus_d_infos_sur": "More informations on",
 	"commentez": "Comment",
 	"retour": "Return",
 	"le": " ",

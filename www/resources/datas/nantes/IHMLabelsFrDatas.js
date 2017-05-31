@@ -11,6 +11,7 @@ var _ihmLabelsFrDatas = {
 	"sauf_ferie": "sauf jours fériés",
 	"uniqferiessuivant": "uniquement les jours fériés suivant",
 	"plus_d_infos": "Plus d'infos",
+	"plus_d_infos_sur": "Plus d'infos sur",
 	"commentez": "Commentez",
 	"retour": "Retour",
 	"le": "le",
