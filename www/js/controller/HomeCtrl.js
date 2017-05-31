@@ -22,6 +22,13 @@ angular.module('starter.controllers').controller('HomeCtrl',
 	// News are show in home page
 	$scope.news = RechercheService.getNews();
 
+	// News from web
+	$scope.news = RechercheService.getNews();
+	$http.get('http://www.mieuxtrieranantes.fr/scripts_php/news_json.php').
+	then(function (response) {
+		$scope.news2 = response.data;
+	});
+
 	// Collectes citoyennes
 	$http.get('https://www.plastiques.eu/wp-json/wp/v2/actions/').
 	then(function (response) {
@@ -43,9 +50,23 @@ angular.module('starter.controllers').controller('HomeCtrl',
 
 	};
 
+	// An alert dialog for the news
+	$scope.showNews2 = function (nom, descr, link) {
+		var temp = descr + "</i><br/><br/>Voir <a href=\"javascript:void(0);\" onclick=\"window.open('" + link + "', '_system', 'location=yes');\" >" + link + "</a>";
+		// Open alert dialog
+		var alertPopup = $ionicPopup.alert({
+				title: nom,
+				template: temp
+			});
+		// Close the popup after 20 seconds for some reason
+		$timeout(function () {
+			alertPopup.close();
+		}, 20000);
+	};
+
 	// An alert dialog for the collects
 	$scope.showCollect = function (nom, descr, link, datetime) {
-		var temp = descr.substring(0, 180) + "...<br/><i>Date : " + datetime  + "</i><br/><br/>Voir <a href=\"javascript:void(0);\" onclick=\"window.open('" + link + "', '_system', 'location=yes');\" >" + link + "</a>";
+		var temp = descr.substring(0, 180) + "...<br/><i>Date : " + datetime + "</i><br/><br/>Voir <a href=\"javascript:void(0);\" onclick=\"window.open('" + link + "', '_system', 'location=yes');\" >" + link + "</a>";
 		// Open alert dialog
 		var alertPopup = $ionicPopup.alert({
 				title: nom,

@@ -62,10 +62,14 @@
         <div class="item" ng-repeat="actu in ::news" ng-click="showNews(actu.code)">            
 	        <span ng-bind-html="actu.nom" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
 				  <span ng-bind-html="actu.nom_en" ng-show="currentlanguage=='en'"></span>
-		</div>
-		<div class="item"ng-repeat="collect in ::collects" ng-if="collect.gform!=''" ng-click="showCollect(collect.title.rendered,collect.content.rendered,collect.link,collect.datetime)">
-			&#x1F603; Collectes citoyennes : {{::collect.title.rendered}}
-		</div>
+				</div>
+				<div class="item" ng-repeat="actu in ::news2" ng-click="showNews2(actu.nom, actu.descr, actu.link)">
+	        <span ng-bind-html="actu.nom" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
+				  <span ng-bind-html="actu.nom_en" ng-show="currentlanguage=='en'"></span>
+				</div>
+				<div class="item"ng-repeat="collect in ::collects" ng-if="collect.gform!=''" ng-click="showCollect(collect.title.rendered,collect.content.rendered,collect.link,collect.datetime)">
+					&#x1F603; Collectes citoyennes : {{::collect.title.rendered}}
+				</div>
 	</div>
 
   </div>
