@@ -15,18 +15,21 @@
         {{'modes_de_collecte'|translate}}
 		</div>
 
-    <a class="item mtn-nowrap" ng-repeat="modeDeCollecte in modesDeCollecte" ng-click="toggleObject[[$index]] = -(toggleObject[[$index]])">
-        <img ng-src="resources/images/{{::modeDeCollecte.image}}" style="max-width:30px" />
-        {{'nom_translated'|translate:modeDeCollecte}}<br/>
-				<!-- ng-show="toggleObject.item == $index"  -->
-          <div class="description" class="mode-collecte-info" ng-show="toggleObject[[$index]]>0">
-              <p ng-bind-html="modeDeCollecte.descr" class="mtn-nowrap" ng-show="currentlanguage=='fr'||!currentlanguage"></p>
-							<p ng-bind-html="modeDeCollecte.descr_en" class="mtn-nowrap" ng-show="currentlanguage=='en'"></p>
-							<!-- <div ng-show="modeDeCollecte.lstFiches.length>0" class="item" >
-							  {{'plus_d_infos'|translate}} : <a ng-repeat="url in modeDeCollecte.lstFiches" ng-href="{{::url}}">{{url}}</a>
-							</div> -->
-          </div>
-    </a>
+    <span ng-repeat="modeDeCollecte in modesDeCollecte" class="item mtn-nowrap">
+			<a style="color: black;">
+        <div ng-click="toggleObject[[$index]] = -(toggleObject[[$index]])">
+					<img ng-src="resources/images/{{::modeDeCollecte.image}}" style="max-width:30px" />
+	        {{'nom_translated'|translate:modeDeCollecte}}
+				</div>
+        <div class="description" class="mode-collecte-info" ng-show="toggleObject[[$index]]>0" ng-click="toggleObject[[$index]] = -(toggleObject[[$index]])">
+          <p ng-bind-html="modeDeCollecte.descr" class="mtn-nowrap" ng-show="currentlanguage=='fr'||!currentlanguage"></p>
+					<p ng-bind-html="modeDeCollecte.descr_en" class="mtn-nowrap" ng-show="currentlanguage=='en'"></p>
+        </div>
+			</a>
+			<a ng-href="#/tab/fiches/detail/{{::modeDeCollecte.colFiches}}" ng-show="toggleObject[[$index]]>0 && modeDeCollecte.colFiches">
+				> {{'plus_d_infos_sur'|translate}} : {{'nom_translated'|translate:modeDeCollecte}}
+			</a>
+    </span>
 
   	<div class="item item-divider mtn-nowrap">
         <b>{{'concerne_aussi'|translate}}</b> : {{'descr_translated'|translate:dechet}}
@@ -43,7 +46,8 @@
 			<p class="mtn-nowrap">
 				<span ng-bind-html="conseil.descr" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
 			  <span ng-bind-html="conseil.descr_en" ng-show="currentlanguage=='en'"></span>
-				<span ng-show="false">{{'descr_translated'|translate:conseil}}</span>
+				<span ng-show="false">{{'descr_translated'|translate:conseil}}</span><br/>
+				<a ng-show="conseil.fiche" ng-href="#/tab/fiches/detail/{{::conseil.fiche}}">{{'plus_d_infos'|translate}}</a>
 			</p>
     </div>
 

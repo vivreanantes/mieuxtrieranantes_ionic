@@ -11,7 +11,7 @@ angular.module('starter.controllers')
 	var _getLeafletContainers = function (centerLocation, stCollectMods, localIcons) {
 
 		var listCollectMods = stCollectMods.split(",");
-
+		
 		var expFilter = function (item, index, array) {
 
 			var marqueur = item.carteMarqueur;
@@ -29,8 +29,20 @@ angular.module('starter.controllers')
 		};
 
 		//Filtre des marqueurs pour le mode de collecte
-		var tmpDatas = _containersDatas.concat(_structuresDatas),
-		structureID = ["1","6","3","7"],
+		structureID = ["1","3","6","7"];
+		var onlyStructure = true;
+		// Si presence de conteneurs > alors j'ai que des structures est faux
+		// 2 'conteneurs' est present, ou 4 'composteurs' est present, ou 5 'conteneurs vetements' est present, ou 8 'collecteurs bouchons' est present
+		if (listCollectMods.indexOf("2")!=-1 || listCollectMods.indexOf("4")!=-1 || listCollectMods.indexOf("5")!=-1 || listCollectMods.indexOf("8")!=-1) {
+			onlyStructure = false;
+		}
+
+		if (onlyStructure) {
+			var tmpDatas = _structuresDatas;
+		} else {
+			var tmpDatas = _containersDatas.concat(_structuresDatas);
+		}
+		
 		markersFiltered = $filter('filter')(tmpDatas, expFilter);
 		// var tmpDatas = _containersDatas;
 		// var tmpDatas = _structuresDatas;

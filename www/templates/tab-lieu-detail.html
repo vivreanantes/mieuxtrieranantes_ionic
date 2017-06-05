@@ -14,7 +14,7 @@
 				<div class="item-text-wrap">{{'type_translated'|translate:structure}}</div>
       	<mtn-plage-horaire class="horaire" plagehoraire="{{::structure.plagesHoraires}}" horaire="{{::structure.horaires}}" fulldisplay="1"></mtn-plage-horaire>
     </div>
-	<div>{{'statut'|translate}} : {{structure.statut|translate}}</div>
+	<div>{{'statut'|translate}} : {{structure.statut|translate}}<br/><br/></div>
 	<div>
      <p ng-bind-html="structure.descr" ng-show="currentlanguage=='fr'||!currentlanguage"></p>
      <p ng-bind-html="structure.descr_en" ng-show="currentlanguage=='en'"></p>
@@ -63,7 +63,7 @@
     	<span ng-bind-html="structure.twitter"></span>
     </a>
 
-		<div ng-show="lstPhotos.length>0 && isNavigator">
+		<div ng-show="lstPhotos.length>0">
 		  <a class="item" ng-repeat="photo in lstPhotos" href="http://{{photo}}" target=_new>
 			  <img src="http://{{photo}}" style="max-width:80%" />
 		  </a>
