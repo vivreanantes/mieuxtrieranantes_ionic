@@ -1,6 +1,20 @@
 /* Empty. Add your own CSS if you like */
 
+#mainContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+    max-height: 1000px;
+}
 
+body {
+    background-color:#F7F9E3;
+}
 /* HOME */
 
 ion-content.home {
