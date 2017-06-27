@@ -165,18 +165,17 @@ angular.module('starter.controllers')
 	var _searchCollecteDomicile = function (adresse) {
 
 		var searchKeyWordCleaned = $filter('searchTextCleanAdresse')(adresse);
-		var myRegexp = new RegExp(searchKeyWordCleaned, 'ig');
 
 		//console.log(searchKeyWordCleaned);
-
 
 		//On récupère la fiche qui correspondant au code
 		var filterResult = $filter('filter')(collecteDomicileData,
 
 				//CUSTOM FILTER
 				function (item, index) {
-
-				return (myRegexp.test(item.mots_cles));
+					// il faut bien recréer l'expression régulière à chaque fois
+					var myRegexp = new RegExp(searchKeyWordCleaned, 'ig');
+					return (myRegexp.test(item.mots_cles));
 
 			});
 
