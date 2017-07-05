@@ -12,24 +12,8 @@ angular.module('starter.controllers')
 	var zeroDechetNantesDatas = _zeroDechetNantesDatas;
 	var compagniesAdvicesDatas = _compagniesAdvicesDatas;
 	var infosDatas = _infosDatas;
-
-	/*var structureCollecteType = [{
-	name : 'Tous les lieux',
-	value : '.*'
-	}, {
-	name : "Déchèteries / Ecopoints",
-	value : "modco_decheterie|modco_ecopoint"
-	}, {
-	name : "Encombrants",
-	value : "modco_encombrants_resume"
-	}, {
-	name : "Réemploi",
-	value : "smco_reemp"
-	}, {
-	name : "Vente vrac",
-	value : "ventevrac"
-	}];*/
-
+  var filterTypeLieux = _paramFilterTypePlacesDatas;
+	var filterTypeCarte = _paramFilterTypeMapDatas;
 	var _escapeRegExp = function (str) {
 		return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 	}
@@ -335,82 +319,9 @@ angular.module('starter.controllers')
 	var _getAFilter = function (filterName) {
 		var result = [];
 		if (filterName === "filter_collect_types") {
-			result = [{
-					"id": "1",
-					"code": "smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevrac",
-					"nom": "Tous les lieux"
-				}, {
-					"id": "2",
-					"code": "smco_reemp",
-					"nom": "Réemploi"
-				}, {
-					"id": "3",
-					"code": "modco_decheterie|modco_ecopoint",
-					"nom": "Déchèteries / Ecopoints",
-					"nom_en": "Déchèteries / Ecopoints"
-				}, {
-					"id": "4",
-					"code": "modco_encombrants_resume",
-					"nom": "Encombrants",
-					"nom_en": "Containers"
-				}, {
-					"id": "5",
-					"code": "ventevrac",
-					"nom": "Vente vrac",
-					"nom_en": "No packaging shops"
-				}
-			];
+			result = filterTypeLieux;
 		} else if (filterName === "filter_map") {
-			result = [{
-					"id": "1",
-					"code": "smco_reemp",
-					"nom": "Réemploi (77)",
-					"nom_en": "Re-use (77)",
-					"image": "resources/icons/marker-icon-blue.png"
-				}, {
-					"id": "2",
-					"code": "modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs",
-					"nom": "Conteneurs (1580)",
-					"nom_en": "Containers (1580)",
-					"image": "resources/icons/marker-icon-brown.png"
-				}, {
-					"id": "3",
-					"code": "modco_ecopoint,modco_decheterie",
-					"nom": "Déchèteries / Ecopoints (16)",
-					"nom_en": "Déchèteries / Ecopoints (16)",
-					"image": "resources/icons/marker-icon-green.png"
-				}, {
-					"id": "4",
-					"code": "modco_compostage",
-					"nom": "Composteurs (156)",
-					"nom_en": "Composting (156)",
-					"image": "resources/icons/marker-icon-yellow.png"
-				}, {
-					"id": "5",
-					"code": "smco_conteneurlerelais",
-					"nom": "Conteneurs vêtements (53)",
-					"nom_en": "Containers clothes (53)",
-					"image": "resources/icons/marker-icon-pink.png"
-				}, {
-					"id": "6",
-					"code": "ventevrac",
-					"nom": "Vente vrac (17)",
-					"nom_en": "No packaging shops (17)",
-					"image": "resources/icons/marker-icon-red.png"
-				}, {
-					"id": "7",
-					"code": "trisacs",
-					"nom": "Trisac (116)",
-					"nom_en": "Trisac (116)",
-					"image": "resources/icons/marker-icon-purple.png"
-				}, {
-					"id": "8",
-					"code": "modco_bouchons",
-					"nom": "Collecteurs bouchons (38)",
-					"nom_en": "Collector corks (38)",
-					"image": "resources/icons/marker-icon-grey.png"
-				}
-			];
+			result = filterTypeCarte;
 		}
 		return result;
 	}
