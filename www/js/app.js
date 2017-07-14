@@ -113,12 +113,11 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     url: '/home',
     views: {
       'menuContent': {
-        templateUrl: 'templates/tab-home.html',
+        templateUrl: 'templates/lebm/tab-home.html',
         controller: 'HomeCtrl'
       }
     }
   })
-  
 	.state('tab.home-dechet-detail', {
 		url: '/home/dechet-detail/:code',
 		views: {
@@ -128,7 +127,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
 			}
 		}
 	})
-
 	.state('tab.home-lieu-detail', {
 		url: '/home/lieu-detail/:code',
 		views: {
@@ -138,7 +136,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
 			}
 		}
 	})
-	
   .state('tab.home.dechet', {
     url: '/home/dechet/:code',
     views: {
@@ -148,7 +145,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
         }
       }
   })
-  
   .state('tab.dechet-cat', {
     url: '/dechet/cat',
     views: {
@@ -158,29 +154,16 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   })
-  
-  
   .state('tab.dechet-result', {
     url: '/dechet/result/:searchString',
     views: {
       'menuContent': {
         templateUrl: 'templates/tab-dechet-result.html',
-        controller: 'DechetResultCtrl'/*,
-        params: { searchString:{} }*/
+        controller: 'DechetResultCtrl'
       }
     }
   })
-  
-  /*.state('tab.dechet-result', {
-    url: '/result',
-    views: {
-      'tab-dechet-result': {
-        templateUrl: 'templates/tab-dechet-cat.html',
-        controller: 'DechetCatCtrl'
-      }
-    }
-  })
- */
+
   .state('tab.carte', {
     url: '/carte',
     views: {
@@ -259,27 +242,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
    })
-
-  .state('tab.domicile', {
-    url: '/domicile',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/nantes/tab-domicile.html',
-        controller: 'DomicileCtrl'
-      }
-    }
-  })
-
-   .state('tab.quiz', {
-    url: '/jeux/quiz',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/tab-quiz.html',
-        controller: 'QuizCtrl'
-      }
-    }
-   })
-
    .state('tab.docs', {
     url: '/docs',
     views: {
@@ -290,71 +252,21 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
    })
 
-   .state('tab.trisac', {
-    url: '/trisac',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/nantes/tab-trisac.html',
-        controller: 'TrisacCtrl'
-      }
-    }
-   })
-
-   .state('tab.trisac-detail', {
-    url: '/trisac/detail/:code',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/nantes/tab-trisac-detail.html',
-        controller: 'TrisacDetailCtrl'
-      }
-    }
-   })
-   
-   
-  .state('tab.jeux', {
-    url: '/jeux',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/nantes/tab-jeux.html',
-        controller: 'JeuxCtrl'
-      }
-    }
-  })
-
-  .state('tab.zerodechetnantes', {
-    url: '/zerodechetnantes',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/nantes/tab-zerodechetnantes.html',
-        controller: 'ZeroDechetCtrl'
-      }
-    }
-   })
-  .state('tab.companiesadvices', {
-    url: '/companiesadvices',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/nantes/tab-companiesadvices.html',
-        controller: 'CompaniesAdvicesCtrl'
-      }
-    }
-   })
   .state('tab.apropos', {
     url: '/apropos',
     views: {
       'menuContent': {
-        templateUrl: 'templates/tab-apropos.html',
+        templateUrl: 'templates/lebm/tab-apropos.html',
         controller: 'AProposCtrl'
       }
     }
   
   })
-  
   .state('tab.config', {
     url: '/config',
     views: {
       'menuContent': {
-        templateUrl: 'templates/tab-config.html',
+        templateUrl: 'templates/lebm/tab-config.html',
         controller: 'ConfigCtrl'
       }
     }

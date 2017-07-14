@@ -35,7 +35,6 @@
    			<ion-tab title="{{'fiches'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/fiches">
    				<ion-nav-view name="tab-fiches"></ion-nav-view>
    			</ion-tab>
-			
 		</ion-tabs>
 
 		<ion-nav-view name="menuContent"></ion-nav-view>
@@ -49,6 +48,12 @@
 		</ion-header-bar>
 		<ion-content has-header="true">
 			<ion-list>
+				<ion-item nav-clear menu-close href="#/tab/domicile">{{'collete_a_domicile'|translate}}</ion-item>
+				<ion-item nav-clear menu-close href="#/tab/trisac">{{'trisac'|translate}}</ion-item>
+				<ion-item nav-clear  menu-close href="#/tab/docs">{{'home_docs_imprimables'|translate}}</ion-item>
+				<!--<ion-item nav-clear  menu-close href="#/tab/jeux">{{'jeux'|translate}}</ion-item>-->
+				<ion-item nav-clear  menu-close href="#/tab/zerodechetnantes">{{'zerodechetnantes'|translate}}</ion-item>
+				<ion-item nav-clear menu-close href="#/tab/companiesadvices">{{'companiesadvices'|translate}}</ion-item>
 				<ion-item nav-clear menu-close href="#/tab/config">{{'config'|translate}}</ion-item>
 				<ion-item nav-clear menu-close href="#/tab/apropos">{{'apropos'|translate}}</ion-item>
 			</ion-list>

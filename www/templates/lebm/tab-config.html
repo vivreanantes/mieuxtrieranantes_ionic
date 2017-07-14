@@ -1,0 +1,36 @@
+<ion-view view-title="{{'config'|translate}}">
+
+ <ion-content class="has-footer">
+
+ <div class="card">
+   <div class="item item-divider item-calm">{{"langue_de_lapplication" | translate}}</div>
+	  <div class="item">{{"langue_actuelle" | translate}}</div>
+		 <div class="item"><a class="button button-calm icon-left ion-settings" ng-click="switchLanguage()">{{'change_language'|translate}}</a></div>
+	</div>
+	
+	<div class="card padding">
+	  <div class="item item-divider item-calm">{{"modes_de_collecte" | translate}}</div>
+	  <div class="item">{{ collectmodsfilter | translate }}</div>
+	  <div class="item"><button class="button button-calm  icon-left ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
+         <script id="nantes/modal-domicile.html" type="text/ng-template">
+		      <ion-modal-view>
+		        
+		        <ion-header-bar class="bar bar-header bar-stable">
+		          <h1 class="title">{{'configurez_selon_votre_adresse'|translate}}</h1>
+		          <button class="button button-clear button-primary" ng-click="modal.hide()">{{'cancel'|translate}}</button>
+		        </ion-header-bar>
+		        
+		        <ion-content class="padding">
+
+		      <ion-radio ng-model="choice" ng-value="'B'" ng-click="selectAdress('modco_bacblenormal,modco_bacjaunnormal')">{{'jhabite_ccbocage'|translate}}</ion-radio>
+		      <ion-radio ng-model="choice" ng-value="'A'" ng-click="selectAdress('modco_bacbleuextension,modco_bacjauneextension')">{{'jhabite_cclernee'|translate}}</ion-radio>
+	
+		        </ion-content>
+		      </ion-modal-view>
+		    </script>
+   </div>
+
+	</div>
+	
+   </ion-content>
+</ion-view>

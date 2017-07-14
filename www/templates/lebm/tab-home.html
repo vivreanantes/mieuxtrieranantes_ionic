@@ -1,0 +1,75 @@
+<ion-view view-title="Mieux trier Ernée-Bocage" hide-back-button="true">
+
+  <!--<ion-nav-buttons side="left">
+      <button class="button button-icon button-clear ion-navicon" ng-click="openMenu()"></button>
+  </ion-nav-buttons>  -->
+				
+  <ion-content class="padding home has-footer"">
+
+  <div class="card" ng-show="collectmodsfilter==null">
+  	<a class="button button-icon button-stable ion-alert-circled custom-btn-color" ng-href="#/tab/config"> {{'alert_collectmodsfilter'|translate}}</a>
+  </div>
+  
+  <div class="card">
+    <div class="item item-divider item-calm">{{'recherche'|translate}}</div>
+    <div class="item item-input">
+    <label class="item-input-wrapper">
+      <input ng-model="formParam.searchkey"  type="text" placeholder="Ex : miroir, emmaüs, compostage" ng-keyup="$event.keyCode == 13 && onSearchSubmit()">
+    </label>
+    <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
+    </div>
+		<div ng-show="onlyOneResult!=null" style='color:red'>{{'only_one_world'|translate}}</div>
+  </div>
+
+  <div class="card" ng-show="resultsLength >= 0">
+		<div class="item item-divider item-calm" ng-click="onToggleObject()">{{'results'|translate}} <span ng-bind="'(' + (resultsLength) + ')'"></span></div>
+    <div ng-show="toggleObject>0">
+		<a class="item item-thumbnail-left"  ng-repeat="item in resultsGarbages | limitTo:maxDisplayResults" ng-href="#/tab/dechet/detail/{{::item.code}}">
+					<img ng-src="resources/images/{{::item.image}}"/>
+					{{::item.nom}} <br>
+					<span style="color:#666">{{::item.type}}</span>
+		</a>
+		<a class="item item-thumbnail-left"  ng-repeat="item in resultsPlaces | limitTo:maxDisplayResults" ng-href="#/tab/lieu/detail/{{::item.code}}">
+					<img ng-src="resources/images/{{::item.image}}"/>
+					{{::item.nom}} <br>
+					<span style="color:#666">{{::item.type}}</span>
+					<mtn-plage-horaire class="horaire" plagehoraire="{{::item.plagesHoraires}}" horaire="{{::item.horaires}}"></mtn-plage-horaire>   
+		</a>
+		<a class="item item-thumbnail-left"  ng-repeat="item in resultsDocs | limitTo:maxDisplayResults" ng-href="#/tab/fiches/detail/{{::item.code}}">
+					<img ng-src="resources/images/{{::item.image}}"/>
+					{{::item.nom}} <br>
+					<span style="color:#666">{{::item.type}}</span>
+		</a>
+		<div class="item item-button-right" ng-repeat="collecte in resultsHomeCollects | limitTo:maxDisplayResults">
+			{{'collete_a_domicile'|translate}}<br/>
+			{{::collecte.dcv}}<br>
+				<span ng-bind-html="collecte.jcbj"></span>
+				<button class="button button-stable" ng-click="showAdvice(collecte.cons)">
+					<i class="icon ion-information-circled"></i>
+				</button>
+			</div>
+		<div class="item item-assertive" ng-show="resultsLength > maxDisplayResults">
+			 {{'les_xx_premiers_results_affiches'|translate:translatevalues}}<br>{{'affiner_recherche'|translate}}
+		</div>
+</div>
+  </div>
+	
+  <div class="card news">
+
+    <div class="item item-divider item-calm">Actualités</div>
+
+    <div class="list">         
+        <div class="item" ng-repeat="actu in ::news" ng-click="showNews(actu.code)">            
+			<span ng-bind-html="actu.nom" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
+			<span ng-bind-html="actu.nom_en" ng-show="currentlanguage=='en'"></span>
+		</div>
+		<div class="item" ng-repeat="actu in ::news2" ng-click="showNews2(actu.nom, actu.descr, actu.link)">
+			<span ng-bind-html="actu.nom" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
+			<span ng-bind-html="actu.nom_en" ng-show="currentlanguage=='en'"></span>
+		</div>
+	</div>
+
+  </div>
+	
+  </ion-content>
+</ion-view>

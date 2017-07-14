@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.MieuxVivreANantes.MieuxTrierANantes" version="2.09" android-versionCode="31" ios-CFBundleVersion="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Mieux trier à Nantes</name>
-  <description>&#xD;&#xD;&#xD;&#xD;
-        Application libre (et gratuite) pour aider les habitants&#xD;&#xD;
-		de Nantes Métropole à trier.&#xD;&#xD;&#xD;&#xD;
+<widget id="com.MieuxVivreANantes.MieuxTrierANantes" version="0.01" android-versionCode="1" ios-CFBundleVersion="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Mieux trier Ernée Bocage</name>
+  <description>&#xD;&#xD;&#xD;&#xD;&#xD;
+        Application libre (et gratuite) pour aider les habitants&#xD;&#xD;&#xD;
+		de L'Ernée - Bocage Mayennais à trier.&#xD;&#xD;&#xD;&#xD;&#xD;
     </description>
-  <author email="supprimeravantlepoint.mieuxtrieranantes@gmail.com" href="http://mieuxtrieranantes.fr">&#xD;&#xD;
-		Bénévoles&#xD;&#xD;
+  <author email="supprimeravantlepoint.mieuxtrieranantes@gmail.com" href="http://mieuxtrieranantes.fr">&#xD;&#xD;&#xD;
+		Bénévoles&#xD;&#xD;&#xD;
 	</author>
   <content src="index.html"/>
   <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
