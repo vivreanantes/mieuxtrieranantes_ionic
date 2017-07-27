@@ -38,14 +38,14 @@ var _paramFilterTypePlacesDatas = [{
 var _paramFilterTypeMapDatas = [{
 		"id": "1",
 		"code": "smco_reemp",
-		"nom": "Réemploi (77)",
-		"nom_en": "Re-use (77)",
+		"nom": "Réemploi",
+		"nom_en": "Re-use",
 		"image": "resources/icons/marker-icon-blue.png"
 	}, {
 		"id": "2",
 		"code": "modco_contmpb,modco_contverre,modco_contembjournmag,modco_contomr,modco_dechetssecs",
-		"nom": "Conteneurs (1580)",
-		"nom_en": "Containers (1580)",
+		"nom": "Conteneurs",
+		"nom_en": "Containers",
 		"image": "resources/icons/marker-icon-brown.png"
 	}, {
 		"id": "3",
@@ -53,6 +53,12 @@ var _paramFilterTypeMapDatas = [{
 		"nom": "Déchèteries",
 		"nom_en": "Déchèteries",
 		"image": "resources/icons/marker-icon-green.png"
+	}, {
+		"id": "4",
+		"code": "modco_bouchons",
+		"nom": "Collecteurs Bouchons",
+		"nom_en": "Collecteurs Bouchons",
+		"image": "resources/icons/marker-icon-orange.png"
 	}
 ];
 
@@ -68,5 +74,8 @@ var paramIconsMap = {
 			},
 			decheterie: {
 				iconUrl: "resources/icons/marker-icon-green.png"
+			},
+			bouchons: {
+				iconUrl: "resources/icons/marker-icon-orange.png"
 			}
 		};
