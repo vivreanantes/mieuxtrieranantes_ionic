@@ -59,6 +59,12 @@ var _paramFilterTypeMapDatas = [{
 		"nom": "Collecteurs Bouchons",
 		"nom_en": "Collecteurs Bouchons",
 		"image": "resources/icons/marker-icon-orange.png"
+	}, {
+		"id": "5",
+		"code": "smco_conteneurlerelais",
+		"nom": "Conteneurs vêtements",
+		"nom_en": "Containers clothes",
+		"image": "resources/icons/marker-icon-pink.png"
 	}
 ];
 
@@ -77,5 +83,8 @@ var paramIconsMap = {
 			},
 			bouchons: {
 				iconUrl: "resources/icons/marker-icon-orange.png"
+			},
+			conteneurlerelais: {
+				iconUrl: "resources/icons/marker-icon-pink.png"
 			}
 		};
