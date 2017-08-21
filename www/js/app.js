@@ -104,7 +104,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     .state('tab', {
     url: '/tab',
     abstract: true,
-    templateUrl: 'templates/tabs.html'
+    templateUrl: 'templates/nantes/tabs.html'
   })
 
   // Each tab has its own nav history stack:
@@ -270,16 +270,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
   })
 
-   .state('tab.quiz', {
-    url: '/jeux/quiz',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/tab-quiz.html',
-        controller: 'QuizCtrl'
-      }
-    }
-   })
-
    .state('tab.docs', {
     url: '/docs',
     views: {
@@ -310,7 +300,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
    })
    
-   
   .state('tab.jeux', {
     url: '/jeux',
     views: {
@@ -320,6 +309,16 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   })
+  
+   .state('tab.quiz', {
+    url: '/quiz',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/tab-quiz.html',
+        controller: 'QuizCtrl'
+      }
+    }
+   })
 
   .state('tab.zerodechetnantes', {
     url: '/zerodechetnantes',
@@ -348,8 +347,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   
-  })
-  
+  })  
   .state('tab.config', {
     url: '/config',
     views: {
@@ -359,16 +357,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   })
-  /*
-  .state('tab.modale.domicile', {
-    url: '/modale-domicile',
-    views: {
-      'tab-config': {
-        templateUrl: 'templates/nantes/modale-domicile.html',
-        controller: 'ConfigCtrl'
-      }
-    }
-  })*/
    ;
 
   // if none of the above states are matched, use this as the fallback
