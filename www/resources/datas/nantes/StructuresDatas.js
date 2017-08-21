@@ -2813,6 +2813,7 @@ var _structuresDatas = [{
 		"url": "http://epicerie-leptitpoids.fr/",
 		"email": "contact@epicerie-leptitpoids.fr",
 		"tel": "06 59 83 64 55",
+		"logo": "resources/images/nantes/logo_le_petit_poids.png",
 		"src": "MieuxTrierANantes 06/17",
 		"plagesHoraires": "0101-3112_ma+me+je+ve_09h30-12h30+15h00-19h30,0101-3112_sa_09h30-12h30+15h00-20h00",
 		"sous_zone": "COUERON",
@@ -2820,11 +2821,12 @@ var _structuresDatas = [{
 		"produits": "céréales,légumineuse,pate,riz,biscuit,café,thé,sucre,farine,huile,vinaigre,fruit sec,shampooing",
 		"mots_cles_en": "sale,bulk,le,p,tit,poids,cereals,legume,dough,rice,biscuit,coffee,tea,sugar,flour,oil,vinegar,dry,fruit,shampoo",
 		"produits_en": "Cereals, legume, dough, rice, biscuit, coffee, tea, sugar, flour, oil, vinegar, dry fruit, shampoo",
-		"image": "paperbag.png",
+		"image": "nantes/logo_le_petit_poids.png",
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/VenteEnVrac/LePtitPoids/LePtitPoids_01.jpg,www.mieuxtrieranantes.fr/docs/medias/VenteEnVrac/LePtitPoids/LePtitPoids_02.jpg,www.mieuxtrieranantes.fr/docs/medias/VenteEnVrac/LePtitPoids/LePtitPoids_04.jpg",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Vente au vrac<br/>Le P'tit Poids",
-		"cartePopuptext_en": "Bulk sale<br/>Le P'tit Poids"
+		"cartePopuptext_en": "Bulk sale<br/>Le P'tit Poids",
+		"logo": "resources/images/nantes/logo_le_petit_poids.png"
 	}, {
 		"code": "3143",
 		"zone": "hnnl",
