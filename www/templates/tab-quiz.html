@@ -1,83 +1,42 @@
-<ion-view view-title="{{'quiz'|translate}}"> <ion-content class="padding">
+<ion-view view-title="{{'quiz'|translate}}">
+	<ion-content class="padding">
 
-<form id='quizviewform'>
+		<span ng-show="descr_visible=='true'">{{quiz.descr}}</span>
+		<div ng-show="question.indication" style='color:green'>{{quiz.indication}}</div>
 
-	{{::quiz.descr}} <input type='hidden' name='ok' value='{{::quiz.ok}}' />
-
-	<div class='qheader'>
-		<img src={{::quiz.q1i1}} height='80px' /><br />1) {{::quiz.q1}}
-	</div>
-
-	<div class='qselections'>
-		<input type='checkbox' value='a' name='q1r1'> <span id='q1r1'>{{::quiz.q1r1}}</span><br />
-		<input type='checkbox' value='b' name='q1r2'> <span id='q1r2'>{{::quiz.q1r2}}</span><br />
-		<input type='checkbox' value='c' name='q1r3'> <span id='q1r3'>{{::quiz.q1r3}}</span><br />
-		<span id='q1e1'> </span> <span id='q1r1' style='font-weight: bold;'>{{::quiz.q1e1}}</span>
-	</div>
-
-	<div class='qheader'>
-		<img src={{::quiz.q2i1}} height='80px' /><br /> 2) {{::quiz.q2}}
-	</div>
-
-	<div class='qselections'>
-		<input type='checkbox' value='a' name='q2r1'> <span id='q2r1'>{{::quiz.q2r1}}</span><br />
-		<input type='checkbox' value='b' name='q2r2'> <span id='q2r2'>{{::quiz.q2r2}}</span><br />
-		<input type='checkbox' value='c' name='q2r3'> <span id='q2r3'>{{::quiz.q2r3}}</span><br />
-		<span id='q2e1'> </span> <span id='q1r1' style='font-weight: bold;'>{{::quiz.q2e1}}</span>
-	</div>
-
-	<div class='qheader'>
-		<img src={{::quiz.q3i1}} height='80px' /><br />3) {{::quiz.q3}}
-	</div>
-
-	<div class='qselections'>
-		<input type='checkbox' value='a' name='q3r1'> <span id='q3r1'>{{::quiz.q3r1}}</span><br />
-		<input type='checkbox' value='b' name='q3r2'> <span id='q3r2'>{{::quiz.q3r2}}</span><br />
-		<input type='checkbox' value='c' name='q3r3'> <span id='q3r3'>{{::quiz.q3r3}}</span><br />
-		<span id='q3e1'> </span> <span id='q1r1' style='font-weight: bold;'>{{::quiz.q3e1}}</span>
-	</div>
-
-	<div class='qheader'>
-		<img src={{::quiz.q4i1}} height='80px' /><br />4) {{::quiz.q4}}
-	</div>
-
-	<div class='qselections'>
-		<input type='checkbox' value='a' name='q4r1'> <span id='q4r1'>{{::quiz.q4r1}}</span><br />
-		<input type='checkbox' value='b' name='q4r2'> <span id='q4r2'>{{::quiz.q4r2}}</span><br />
-		<input type='checkbox' value='c' name='q4r3'> <span id='q4r3'>{{::quiz.q4r3}}</span><br />
-		<span id='q4e1'> </span><span id='q1r1' style='font-weight: bold;'>{{::quiz.q4e1}}</span>
-	</div>
-
-
-	<div class='qheader'>
-		<img src={{::quiz.q5i1}} height='80px' /><br />5) {{::quiz.q5}}
-	</div>
-
-	<div class='qselections'>
-		<input type='checkbox' value='a' name='q5r1'> <span id='q5r1'>{{::quiz.q5r1}}</span><br />
-		<input type='checkbox' value='b' name='q5r2'> <span id='q5r2'>{{::quiz.q5r2}}</span><br />
-		<input type='checkbox' value='c' name='q5r3'> <span id='q5r3'>{{::quiz.q5r3}}</span><br />
-		<span id='q5e1'> </span><span id='q1r1' style='font-weight: bold;'>{{::quiz.q5e1}}</span>
-	</div>
-</form>
-<br />
-<span id='resultat' style='font-weight: bold;'>&nbsp;</span>
-<div id='qres1'>
-	<img src='resources/images/quiz/1.png' height='80px' />
-</div>
-<div id='qres2'>
-	<img src='resources/images/quiz/2.png' height='80px' />
-</div>
-<div id='qres3'>
-	<img src='resources/images/quiz/3.png' height='80px' />
-</div>
-<div id='qres4'>
-	<img src='resources/images/quiz/4.png' height='80px' />
-</div>
-<div id='qres5'>
-	<img src='resources/images/quiz/5.png' height='80px' />
-</div>
-
-<button onClick='calculer()'>Vérifier</button>
-
-</ion-content> </ion-view>
+		<span ng-show="toggleObject[[$index]]>0" ng-repeat="question in quiz.questions" class="item mtn-nowrap">
+			<div class='qheader' align="center">
+				<img ng-src="resources/images/{{question.image}}" height='80px' />
+				<br/>
+				<div>{{question.descr}}</div>
+				<div ng-show="question.indication" style='color:green'>{{question.indication}}</div>
+			</div>
+			<br/>
+			
+			<div class='qselections'>
+				<span ng-repeat="reponse in question.reponses">
+					<input type='checkbox' value='a'>
+					<span id='q1r1'>{{reponse.descr}}</span>
+					<br/>
+				</span>
+				<button class="button button-block button-positive icon-right ion-chevron-right" ng-click="onSearchSubmit($index)">Question suivante.</button>
+			</div>
+		</span>
+		
+		<span ng-show="resultats_visible=='true'">
+			<div>Résultats<div/>
+			<span ng-repeat="question in quiz.questions" class="item mtn-nowrap">
+				<div ng-repeat="reponse in question.reponses">
+					<span ng-show="reponse.points>0" style="color:green">{{reponse.descr}}</span>
+					<span ng-show="reponse.points=0" style="color:black">{{reponse.descr}}</span>
+				</div>
+				<div>{{question.descr}}</div>
+				<div style='font-weight: bold;' ng-show="resultats_visible=='true'">{{question.explication}}</div>
+			</span>
+			<div id='qres1'>
+				<img src='resources/images/quiz/1.png' height='80px' />
+			</div>
+		</span>
+	</ion-content>
+</ion-view>
+		

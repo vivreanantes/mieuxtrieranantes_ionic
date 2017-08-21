@@ -1,9 +1,43 @@
 /* QUIZZ */
 
 angular.module('starter.controllers')
-.controller('QuizCtrl', function($scope, $stateParams) {
+.controller('QuizCtrl', function($scope, $stateParams, $filter) {
 
-	var indexElement = 1;
+	//GLOBAL DATA SOURCE
+	$scope.quizs = _quizsDatas;
+	
+	var item_code = 'quiz_janvier';
+	//On récupère l'élément correspondant au code 
+	items = $filter('filter')(_quizsDatas, {
+		code : item_code
+	});
+	
+	var quiz = items[0];
+
+	//SCOPE
+	$scope.quiz = quiz;
+	
+	$scope.descr_visible = "true";
+	$scope.resultats_visible = "false";
+	$scope.toggleObject = new Array(20); // 20 questions
+    for (var i = 0; i < 20; i++) {
+        $scope.toggleObject[i] = -1;
+    }
+	// On commence par la première question
+	$scope.toggleObject[0] = 1;
+	
+	$scope.onSearchSubmit = function (index) {
+		// index vaut 0,1,2,3,4
+		var temp = index;
+		$scope.toggleObject[index] = -1;
+		if ($scope.quiz.questions[index+1] != undefined) {
+		  // Il existe une question suivante
+		  $scope.toggleObject[index+1] = 1;
+		} else {
+          $scope.resultats_visible = "true";
+		}
+	}
+	/*var indexElement = 1;
 	$scope.quiz = {}
 	$scope.quiz.nom = getRecordValue(_quizsDatas[indexElement], "nom");
 	$scope.quiz.descr = getRecordValue(_quizsDatas[indexElement], "descr");
@@ -40,8 +74,10 @@ angular.module('starter.controllers')
 	$scope.quiz.q5e1 = getRecordValue(_quizsDatas[indexElement], "q5e1");
 
 	cacherMontrerReponses(true);
+	*/
 });
 
+/*
 function cacherMontrerReponses(montrer) {
 	var display = 'block';
 	if (montrer == true) {
@@ -129,7 +165,7 @@ function calculer() {
 	}
 	var titre = _translate("label_results");
 	alert(message);
-	/*Ext.Msg.show({
+	Ext.Msg.show({
 				title : titre,
 				message : message + "<br/><img src='resources/images/quiz/"
 						+ nbOk + ".png' height='80px' />",
@@ -140,5 +176,6 @@ function calculer() {
 				buttons : Ext.Msg.OK,
 				icon : Ext.Msg.INFO
 			});
-	 */
+	 
 };
+*/
