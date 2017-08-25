@@ -4,11 +4,15 @@ angular.module('starter.controllers').controller('HomeCtrl',
 
 	function ($scope, $ionicPopup, $ionicSideMenuDelegate, $translate, ParamService, RechercheService, $rootScope, $http, $timeout) {
 
+	// RM-PA_LANGUE_01 : On peut sauver la langue de l'utilisateur
+	// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
+	// RM-LA_LANGUE_01 : L’application fonctionne au démarrage en français.
 	// Récupère la langue courant. Initialise l'application avec cette langue.
 	var temp = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
 	$rootScope.currentlanguage = temp;
 	$translate.use(temp);
-
+	
+	// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
 	$rootScope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
 
 	$scope.openMenu = function () {
@@ -93,6 +97,7 @@ angular.module('starter.controllers').controller('HomeCtrl',
 	// handle search
 	$scope.onSearchSubmit = function () {
 		$searchkey = $scope.formParam.searchkey;
+		// RM-RE_CENTR-RECH_01 : Sur la première page, l’utilisateur a possibilité de trouver directement ce qu'il cherche concernant le tri : une association, un déchet… 
 		$scope.resultsPlaces = RechercheService.searchStructure('.*', $searchkey);
 		$scope.resultsGarbages = RechercheService.searchDechet($searchkey);
 		$scope.resultsDocs = RechercheService.searchFiche($searchkey);

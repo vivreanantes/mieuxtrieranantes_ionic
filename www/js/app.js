@@ -50,6 +50,7 @@ myApp.run(function($ionicPlatform, $ionicPopup,$state,$translate) {
     }
   });
 
+  // RM-TR_NAVIG_05 : Le bouton 'retour' du téléphone permet de quitter l’application si il est appelé depuis la page d’accueil. Il demande cependant une confirmation.
   // Ouvre une fenêtre avant de quitter l'application
   $ionicPlatform.registerBackButtonAction(function(event) {
    var stLabelTitre = $translate.instant("quitter_titre");
