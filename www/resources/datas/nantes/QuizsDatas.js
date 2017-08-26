@@ -14,14 +14,14 @@ var _quizsDatas = [
 				"image": "quiz/issiontrix-quiz-1.png",
 				"explication": "Tout le carton/papier se recycle, sauf s'il est souillé (sali)",
 				"reponses": [{
-						"descr": "je la laisse sur ma tête",
+						"descr": "je la laisse sur ma tête 1",
 						"points": "0"
 					}, {
-						"descr": "le carton/papier ne se recycle pas",
-						"points": "0"
+						"descr": "le carton/papier ne se recycle pas 2",
+						"points": "2"
 					}, {
-						"descr": "je la recycle (bac jaune ou sac jaune)",
-						"points": "1"
+						"descr": "je la recycle (bac jaune ou sac jaune) 3",
+						"points": "3"
 					}
 				]
 			}, {
@@ -54,19 +54,19 @@ var _quizsDatas = [
 				"indication": "1 réponse",
 				"reponses": [{
 						"descr": "les vêtements en bon état",
-						"points": "0"
+						"points": "1"
 					}, {
 						"descr": "Les vêtements en mauvais état mais propres",
-						"points": "0"
+						"points": "2"
 					}, {
 						"descr": "Les vêtements en bon état, sales, mais secs",
-						"points": "0"
+						"points": "3"
 					}, {
 						"descr": "Les vêtements en bon état, sales, mouillés.",
-						"points": "0"
+						"points": "7"
 					}, {
 						"descr": "Les chaussures en bon état",
-						"points": "0"
+						"points": "8"
 					}, {
 						"descr": "Les chaussures en mauvais",
 						"points": "1"

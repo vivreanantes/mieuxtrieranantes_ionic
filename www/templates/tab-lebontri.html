@@ -1,0 +1,33 @@
+<ion-view view-title="Le bon tri">
+<br/><br/><br/><br/><br/>
+    <div ng-drop="true" style="width:200px;  height: 40px; float:left">
+      <ul class="draggable-objects">
+        <li ng-repeat="obj in listItems" style="float: left;  display: block;  width: 120px;  height: 100px;">
+          <div ng-drop-success="onDropComplete($data,$event)" style="width: 100px;  height: 60px;  background: rgba(255, 0, 0, 0.5);  color: white;  text-align: center;  padding-top: 5%;  display: inline-block;  margin: 0 10px;"> {{obj.title}} </div>
+        </li>
+	  </ul>
+	</div>
+	<!--
+	<div ng-drop="true" style="width:200px;height: 40px;float:right;">
+	   <ul class="draggable-objects">
+		<li ng-repeat="obj in listItems2" style="float: right;  display: block;  width: 120px;  height: 100px;">
+          <div ng-drag="true" ng-drag-data="obj" data-allow-transform="true" class="item_drag"> {{obj.title}} </div>
+        </li>
+      </ul>
+    </div>
+	-->
+    <div ng-drop="true" class="drop-container" style="background: rgba(0, 255, 0, 0.5);  text-align: center;  width: 200px;  height: 200px;  padding-top: 100px; padding-left :0px; display: block;  margin: 20px auto;  position: relative;">
+	<span 
+		class="title" style=" display: block;  position: absolute;  top: 10%;  left: 50%;  width: 200px;  height: 20px;  margin-left: -180px;  margin-top: -10px">
+			<span ng-drag-data="obj" data-allow-transform="true" class="item_drag" ng-drag="true">Drop area</span>
+		</span>
+	    <!--div ng-drop="true" ng-drop-success="onDropComplete($data,$event)" class="drop-container" style="background: rgba(0, 255, 0, 0.5);  text-align: center;  width: 200px;  height: 200px;  padding-top: 100px; padding-left : 200px; display: block;  margin: 20px auto;  position: relative;"
+		
+      <span class="title" style=" display: block;  position: absolute;  top: 10%;  left: 50%;  width: 200px;  height: 20px;  margin-left: -100px;  margin-top: -10px">Drop area</span-->
+    </div>
+	<div style="text-align: center;  width: 200px;  height: 200px;  padding-top: 320px; padding-left : 200px; display: block;  margin: 20px auto;  position: relative;">
+<span ng-show="result>0">Bravo !<br/>{{result}} points</span>
+<span ng-show="result<0">Et non...</span>
+</div>
+</ion-view>
+		

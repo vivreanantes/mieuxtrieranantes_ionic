@@ -36,6 +36,11 @@
    				<ion-nav-view name="tab-fiches"></ion-nav-view>
    			</ion-tab>
 			
+			<ion-tab ng-show="isNavigator" title="{{'jeux'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/jeux">
+			    <ion-nav-view name="tab-jeux"></ion-nav-view>
+			</ion-tab>
+
+			
 			<!-- Pour navigateur uniquement -->
 			<!--
 			  <ion-tab ng-show="isNavigator" title="{{'collete_a_domicile'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/domicile">

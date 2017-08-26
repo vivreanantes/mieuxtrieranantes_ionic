@@ -1,8 +1,29 @@
 <ion-view view-title="{{'fiches'|translate}}" hide-back-button="true">
  <ion-content class="has-footer">
 
-  <!-- one time binding sur fiches -->
-  <!-- Cf http://blog.thoughtram.io/angularjs/2014/10/14/exploring-angular-1.3-one-time-bindings.html -->
+<div class="card">
+
+  <div class="item item-divider item-calm">{{'recherche'|translate}}</div>
+
+     <div class="button-bar padding">
+		<ion-radio ng-model="choice" ng-value="'nantesmet'" ng-click="selectAdress('modco_bacbleu,modco_bacjaune')">Nantes Métropole</ion-radio>
+		&nbsp;&nbsp;&nbsp;
+		<ion-radio ng-model="choice" ng-value="'all'">Partout</ion-radio>
+    </div>
+	
+  <div class="item item-input">
+  
+  <span class="input-label">{{'objet'|translate}} / {{'nom'|translate}}</span>
+    <label class="item-input-wrapper">
+      <input ng-model="formParam.searchkey"  type="text" placeholder="{{'lieux_placeholder'|translate}}" ng-keyup="$event.keyCode == 13 && onSearchSubmit()">
+    </label>
+    <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
+  </div>
+
+	<div ng-show="onlyOneResult!=null" style='color:red'>{{'only_one_world'|translate}}</div>
+  
+</div>
+
   <div class="card fiches">
 
     <div class="list">         

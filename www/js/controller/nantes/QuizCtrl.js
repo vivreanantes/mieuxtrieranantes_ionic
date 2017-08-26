@@ -6,7 +6,8 @@ angular.module('starter.controllers')
 	//GLOBAL DATA SOURCE
 	$scope.quizs = _quizsDatas;
 	
-	var item_code = 'quiz_janvier';
+	// var item_code = 'quiz_janvier';
+	var item_code = $stateParams.code;
 	//On récupère l'élément correspondant au code 
 	items = $filter('filter')(_quizsDatas, {
 		code : item_code
@@ -17,15 +18,34 @@ angular.module('starter.controllers')
 	//SCOPE
 	$scope.quiz = quiz;
 	
+	var NB_MAX_QUESTION = 20;
+	var NB_MAX_REP_PAR_QUESTION = 5;
+	
 	$scope.descr_visible = "true";
 	$scope.resultats_visible = "false";
-	$scope.toggleObject = new Array(20); // 20 questions
-    for (var i = 0; i < 20; i++) {
-        $scope.toggleObject[i] = -1;
+	$scope.toggleObject = new Array(NB_MAX_QUESTION); // 20 questions
+	$scope.reponses = new Array(NB_MAX_QUESTION); // 20 questions
+    for (var i = 0; i < NB_MAX_QUESTION; i++) {
+		$scope.toggleObject[i] = -1;
+		$scope.reponses[i] = new Array(NB_MAX_REP_PAR_QUESTION);
+		for (var j = 0; j < NB_MAX_REP_PAR_QUESTION; j++) {
+			$scope.reponses[i][j] = -1;
+		}
     }
 	// On commence par la première question
 	$scope.toggleObject[0] = 1;
 	
+	$scope.getPoints = function() {
+		var total = 0;
+		for (var i = 0; i < NB_MAX_QUESTION; i++) {
+			for (var j = 0; j < NB_MAX_REP_PAR_QUESTION; j++) {
+				if ($scope.reponses[i][j]==true) {
+					total += $scope.quiz.questions[i].reponses[j].points;
+				}
+			}
+		}
+		return total;
+	}
 	$scope.onSearchSubmit = function (index) {
 		// index vaut 0,1,2,3,4
 		var temp = index;
@@ -35,6 +55,8 @@ angular.module('starter.controllers')
 		  $scope.toggleObject[index+1] = 1;
 		} else {
           $scope.resultats_visible = "true";
+		  $scope.resultats_points = this.getPoints();
+
 		}
 	}
 	/*var indexElement = 1;

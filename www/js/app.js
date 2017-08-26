@@ -33,7 +33,7 @@ function _isNavigator() {
 }
 
 
-var myApp =angular.module('starter', ['ionic', 'leaflet-directive', 'starter.controllers', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage']);
+var myApp =angular.module('starter', ['ionic', 'leaflet-directive', 'starter.controllers', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage', 'ngDraggable']);
 
 myApp.run(function($ionicPlatform, $ionicPopup,$state,$translate) {
   $ionicPlatform.ready(function() {
@@ -310,8 +310,18 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
   })
   
+   .state('tab.lebontri', {
+    url: '/lebontri',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/tab-lebontri.html',
+        controller: 'LeBonTriCtrl'
+      }
+    }
+   })
+
    .state('tab.quiz', {
-    url: '/quiz',
+    url: '/quiz/:code',
     views: {
       'menuContent': {
         templateUrl: 'templates/tab-quiz.html',
@@ -319,7 +329,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
    })
-
+   
   .state('tab.zerodechetnantes', {
     url: '/zerodechetnantes',
     views: {

@@ -14,9 +14,10 @@
 			<br/>
 			
 			<div class='qselections'>
+			<!--<input ng-repeat="reponse in question.reponses" ng-model="" type="checkbox" text="{{reponse.descr}}" /> -->
+			
 				<span ng-repeat="reponse in question.reponses">
-					<input type='checkbox' value='a'>
-					<span id='q1r1'>{{reponse.descr}}</span>
+					<input type='checkbox' value='{{reponse.points}}' ng-model="reponses[$parent.$index][$index]"> {{reponse.descr}}
 					<br/>
 				</span>
 				<button class="button button-block button-positive icon-right ion-chevron-right" ng-click="onSearchSubmit($index)">Question suivante.</button>
@@ -24,7 +25,8 @@
 		</span>
 		
 		<span ng-show="resultats_visible=='true'">
-			<div>Résultats<div/>
+			<div>Résultats : <div/>
+			<span>{{resultats_points}}</span>
 			<span ng-repeat="question in quiz.questions" class="item mtn-nowrap">
 				<div ng-repeat="reponse in question.reponses">
 					<span ng-show="reponse.points>0" style="color:green">{{reponse.descr}}</span>

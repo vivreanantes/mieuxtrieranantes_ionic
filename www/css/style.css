@@ -238,3 +238,84 @@ p.zero_dechet {
 img.zero_dechet {
    vertical-align:middle;
 }
+
+// Le bon tri
+.home-container {
+     display: -webkit-flex;
+     -webkit-flex-direction: column;
+     height: 100%;
+}
+.home-container > .row {
+     -webkit-flex: 1;
+}
+.header {
+     -webkit-flex: 1.5 !important;
+     -webkit-align-items: center;
+     background-color: #1abc9c;
+}
+ 
+.icon-row {
+     -webkit-align-items: center;
+}
+
+
+
+
+
+[ng-drag] {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.item_drag {
+  width: 100px;
+  height: 60px;
+  background: rgba(255, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: move;
+}
+
+ul.draggable-objects:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.draggable-objects li {
+  
+}
+
+[ng-drag].drag-over {
+  
+}
+
+[ng-drag].dragging {
+  opacity: 0.5;
+}
+
+.drop-container {
+  
+}
+
+.drop-input {
+  
+}
+
+.drag-enter {
+  border: solid 5px red;
+}
+
+.drop-container span.title {
+ ;
+}
+
+.drop-container div {
+ 
+}

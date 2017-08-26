@@ -6,6 +6,8 @@ angular.module('starter.controllers')
 	//GLOBAL DATA SOURCE
 	$scope.fiches = _infosDatas;
 
+	// Default filter
+	$scope.choice = 'all';
 })
 .controller('FichesDetailCtrl', function($scope, $stateParams, $filter) {
 
@@ -17,7 +19,7 @@ angular.module('starter.controllers')
 
 	//Le filter renvoie necessairement un Array donc on extrait le premier élément trouvé
 	var fiche = fiches[0];
-
+	
 	//SCOPE
 	$scope.fiche = fiche;
 
