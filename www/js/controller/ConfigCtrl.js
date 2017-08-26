@@ -3,6 +3,7 @@ angular.module('starter.controllers').controller(
 		function($scope, ParamService, RechercheService,
 				$translate, $ionicModal, $rootScope) {
 			$scope.lang = ParamService.getParam("available_language", "fr");
+			// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
 			$rootScope.collectmodsfilter = ParamService
 					.getValueInLocalStorage("collectmodsfilter");
 
@@ -10,12 +11,14 @@ angular.module('starter.controllers').controller(
 
 				var currentlanguage = $translate.proposedLanguage();
 				if (currentlanguage === "fr") {
+					// RM-LA_LANGUE_02 : L’application peut être utilisée dans d’autres langues, définies au départ : anglais actuellement.
 					currentlanguage = "en";
 				} else {
 					currentlanguage = "fr";
 				}
 					$translate.use(currentlanguage);
 				// RM-PA_LANGUE_01 On peut sauver la langue de l'utilisateur
+				// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
 				ParamService.setValueInLocalStorage("currentlanguage", currentlanguage);
 				$rootScope.currentlanguage=currentlanguage;
 			}
@@ -43,6 +46,8 @@ angular.module('starter.controllers').controller(
 			},
 
 			$scope.selectAdress = function(mco) {
+				// RM-PA_ADRESSE_02 : On peut sauver l’adresse du domicile dans le paramétrage, pour donner des résultats plus précis.
+				// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
 				ParamService.setValueInLocalStorage("collectmodsfilter", mco);
 				var mco_filter_not = "";
 				if (mco === "modco_bacbleu,modco_bacjaunnantes") {

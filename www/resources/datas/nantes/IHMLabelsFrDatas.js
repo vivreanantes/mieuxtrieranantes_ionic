@@ -184,6 +184,7 @@ var _ihmLabelsFrDatas = {
 	"affiner_recherche": "Vous pouvez utiliser la recherche par mot-clé pour affiner votre recherche.",
 	"jhabite_nantes": "Ville de Nantes",
 	"jhabite_hors_nantes": "Autre ville de Nantes Métropole",
+	// RM-LA_LANGUE_03 : Si sa traduction n’existe pas, on affiche le mot en français.
 	"nom_translated": "{{nom}}",
 	"descr_translated": "{{descr}}",
 	"resume_translated": "{{resume}}",

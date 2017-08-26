@@ -49,6 +49,8 @@ angular.module('mtn.common',['angular.filter'])
   .filter('searchTextClean', function($filter) {
     return function (texte) {
      
+	 // RM-RE_RECH_INT_03 Pour une recherche, les accents ne sont pas pris en compte.
+	 
      		//SUPPRESSION ACCENTS via la LIB angular-filter qui est déja fait pour ça
     		var result = $filter('latinize')(texte);
 

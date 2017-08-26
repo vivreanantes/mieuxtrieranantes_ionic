@@ -22,9 +22,12 @@ angular.module('starter.controllers')
 	 * Renvoie le nom complet d'un paramètre.
 	 * Exemples : "descr_en", "descr"
 	 */
+	 // RM-LA_LANGUE_07 : Les données présentées sont celles de la langue courante.
 	var _getKeyWord = function (key) {
 		var result = key;
+		// RM-LA_LANGUE_06 : Les recherches s’effectuent sur les mots clés dans la langue courante.
 		var currentlanguage = $translate.proposedLanguage();
+		// RM-LA_LANGUE_08 : Si la langue courante n'est pas définie, on prend le français.
 		var defaultlanguage = ParamService.getParam("defaultlanguage", "fr");
 		if (currentlanguage !== defaultlanguage) {
 			result = key + "_" + currentlanguage;
@@ -66,6 +69,8 @@ angular.module('starter.controllers')
 				return result;
 			});
 
+		// RM-RE_RESULT_REC_01 : Pour les lieux, on présente par les lieux présentés en fonction de la distance vis à vis de la localisation actuelle.
+		
 		// fonctionne mais trop lent
 		var lat2 = ParamService.getValueInLocalStorageWithDefault("latitude", "geo.defaultLat");
 		var lng2 = ParamService.getValueInLocalStorageWithDefault("longitude", "geo.defaultLong");

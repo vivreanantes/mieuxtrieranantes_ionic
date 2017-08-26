@@ -67,38 +67,5 @@
     	<div>Cette ressource est parrainée par le donateur KissKissBankBank : <i><b>{{dechet.sponsor}}</b></i></div>
     </div>
 		
-<!--
-  <div>    
-      <a class="item item-thumbnail-left" href="#">
-      <img ng-src="resources/images/{{ dechet.image }}">
-      <h2><b>{{'nom_translated'|translate:dechet}}</b></h2><br/>
-      Recyclable : <font color='{{dechet.recyc_color}}'><b>{{dechet.recyc}}</b></font>
-      </a>
-
-      <p><b>{{'modes_de_collecte'|translate}}</b></p>     
-      <div class="mode-collecte" ng-repeat="modeCollecte in modesCollecte" ng-click="toggleObject.item = $index">
-          <img style="width:1.5em" ng-src="resources/images/{{ modeCollecte.image }}"/> {{ modeCollecte.nom }}<br/>
-          <div class="description" ng-show="toggleObject.item == $index" class="mode-collecte-info">            
-              <p ng-bind-html="modeCollecte.descr"></p>
-          </div>
-      </div>
-        
-	<p><b>Conseils </b></p>
-    <div class="conseil" ng-repeat="conseil in conseils" ng-click="toggleObject2.item2 = $index">
-    	{{ conseil.nom }}<br/>
-          <div class="description" class="conseil-info">
-              <p ng-bind-html="conseil.descr"></p>
-          </div>
-          <a ng-if="conseil.fiche" ng-href="#/tab/fiches/detail/{{::conseil.fiche}}" class="selectable style_bouton">Plus d'infos</a>
-      </div>
-      
-    
-       
-      <p><b>Source :</b> {{dechet.src}}</p>
-        
-  </div>
-
-  -->
-      
   </ion-content>
 </ion-view>
