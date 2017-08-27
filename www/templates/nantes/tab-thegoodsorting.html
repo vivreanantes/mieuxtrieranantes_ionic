@@ -2,20 +2,20 @@
 
 <br/><br/><br/>
 
-<div ng-repeat="obj in draggableObjects" >
+<div ng-repeat="obj in questions" >
 	<span ng-drag="true" ng-drag-data="obj" data-allow-transform="true" style="text-align:center">
 	{{obj.descr}}<br/><img ng-src="resources/images/thegoodsorting/{{obj.image}}" height='80px' /></span>
 </div>
-
 <hr/>
 
-<div ng-repeat="reponse in reponseObjects"	>
-   <div ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
-		{{reponse.descr}}<br/><img ng-src="resources/images/thegoodsorting/{{reponse.image}}" height='80px' />
-   </div>
-   <br/>
- </div>
 <span ng-show="resultat_text" style="font-weight:bold;color:red">{{resultat_text}}</span>
+
+<div ng-repeat="reponse in reponses">
+   <span ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
+		{{reponse.descr}}<br/><img ng-src="resources/images/thegoodsorting/{{reponse.image}}" height='80px' />
+   </span> 
+</div>
+
 
 
 </ion-view>
