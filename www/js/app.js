@@ -315,8 +315,8 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     url: '/lebontri',
     views: {
       'menuContent': {
-        templateUrl: 'templates/tab-lebontri.html',
-        controller: 'LeBonTriCtrl'
+        templateUrl: 'templates/nantes/tab-thegoodsorting.html',
+        controller: 'TheGoodSortingCtrl'
       }
     }
    })

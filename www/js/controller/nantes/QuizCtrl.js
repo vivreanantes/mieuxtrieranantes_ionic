@@ -37,15 +37,42 @@ angular.module('starter.controllers')
 	
 	$scope.getPoints = function() {
 		var total = 0;
+		// $scope.resultats.resultats = new Array(NB_MAX_QUESTION); // 20 questions
 		for (var i = 0; i < NB_MAX_QUESTION; i++) {
 			for (var j = 0; j < NB_MAX_REP_PAR_QUESTION; j++) {
 				if ($scope.reponses[i][j]==true) {
-					total += $scope.quiz.questions[i].reponses[j].points;
+					res = parseInt($scope.quiz.questions[i].reponses[j].result);
+					$scope.quiz.questions[i].reponses[j].selected=true;
+					if (res==0) { $scope.quiz.questions[i].color="red";}
+					else if (res==1) { $scope.quiz.questions[i].color="orange";}
+					else if (res==2) { $scope.quiz.questions[i].color="green";}
+					total += res;
 				}
 			}
 		}
 		return total;
 	}
+	
+	$scope.updateResultat = function() {
+
+		if ($scope.resultats_points < $scope.quiz.seuils.s1) {
+			$scope.resultats_image="quiz/1.png";
+			$scope.resultats.descr="Peut mieux faire...";
+		} else if ($scope.resultats_points < $scope.quiz.seuils.s2) {
+			$scope.resultats_image="quiz/2.png";
+			$scope.resultats.descr="Encore un effort.";
+		} else if ($scope.resultats_points < $scope.quiz.seuils.s3) {
+			$scope.resultats_image="quiz/3.png";
+			$scope.resultats.descr="Pas mal";
+		} else if ($scope.resultats_points < $scope.quiz.seuils.s4) {
+			$scope.resultats_image="quiz/4.png";
+			$scope.resultats.descr="Bravo";
+		} else {
+			$scope.resultats_image="quiz/5.png";
+			$scope.resultats.descr="Super champion !";
+		}
+	}
+	
 	$scope.onSearchSubmit = function (index) {
 		// index vaut 0,1,2,3,4
 		var temp = index;
@@ -54,9 +81,11 @@ angular.module('starter.controllers')
 		  // Il existe une question suivante
 		  $scope.toggleObject[index+1] = 1;
 		} else {
-          $scope.resultats_visible = "true";
-		  $scope.resultats_points = this.getPoints();
-
+			  
+			  $scope.resultats = new Object();
+				$scope.resultats_visible = "true";
+			$scope.resultats_points = this.getPoints();
+				this.updateResultat();
 		}
 	}
 	/*var indexElement = 1;

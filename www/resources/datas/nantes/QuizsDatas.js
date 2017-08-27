@@ -9,34 +9,35 @@ var _quizsDatas = [
 		"image": "quiz/issiontrix-quiz-1.png",
 		"mots_cles": "quiz",
 		"mots_cles_en": "quiz",
+		"seuils":{"s1":"2","s2":"4","s3":"6","s4":"8"},
 		"questions": [{
 				"descr": "Que faire de la couronne que j'ai gagné ? Elle est propre.",
 				"image": "quiz/issiontrix-quiz-1.png",
 				"explication": "Tout le carton/papier se recycle, sauf s'il est souillé (sali)",
 				"reponses": [{
 						"descr": "je la laisse sur ma tête 1",
-						"points": "0"
+						"result":"1","points": "10"
 					}, {
 						"descr": "le carton/papier ne se recycle pas 2",
-						"points": "2"
+						"result":"0","points": "12"
 					}, {
 						"descr": "je la recycle (bac jaune ou sac jaune) 3",
-						"points": "3"
+						"result":"2","points": "13"
 					}
 				]
 			}, {
 				"descr": "La fève de la galette...",
 				"image": "quiz/issiontrix-feve-1.png",
-				"explication": "Les fèves sont en porcelaine. Donc elle se jette (c'est uniquement le verre ménager qui se recycle).",
+				"explication": "Les fèves sont en porcelaine. Donc elle se jette (c'est uniquement le verre ménager qui se recycle). Et c'est trop dangereux de les avaler.",
 				"reponses": [{
 						"descr": "j'avale",
-						"points": "0"
+						"result":"0","points": "0"
 					}, {
 						"descr": "je jette ! (sac bleu ou bac bleu)",
-						"points": "1"
+						"result":"2","points": "1"
 					}, {
 						"descr": "je recycle !",
-						"points": "0"
+						"result":"0","points": "0"
 					}
 				]
 			}
@@ -54,22 +55,22 @@ var _quizsDatas = [
 				"indication": "1 réponse",
 				"reponses": [{
 						"descr": "les vêtements en bon état",
-						"points": "1"
+						"result":"aaa","points": "1"
 					}, {
 						"descr": "Les vêtements en mauvais état mais propres",
-						"points": "2"
+						"result":"aaa","points": "2"
 					}, {
 						"descr": "Les vêtements en bon état, sales, mais secs",
-						"points": "3"
+						"result":"aaa","points": "3"
 					}, {
 						"descr": "Les vêtements en bon état, sales, mouillés.",
-						"points": "7"
+						"result":"aaa","points": "7"
 					}, {
 						"descr": "Les chaussures en bon état",
-						"points": "8"
+						"result":"aaa","points": "8"
 					}, {
 						"descr": "Les chaussures en mauvais",
-						"points": "1"
+						"result":"aaa","points": "1"
 					}
 				]
 			}

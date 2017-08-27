@@ -3,7 +3,7 @@
 
 		<span ng-show="descr_visible=='true'">{{quiz.descr}}</span>
 		<div ng-show="question.indication" style='color:green'>{{quiz.indication}}</div>
-
+		<br/><br/>
 		<span ng-show="toggleObject[[$index]]>0" ng-repeat="question in quiz.questions" class="item mtn-nowrap">
 			<div class='qheader' align="center">
 				<img ng-src="resources/images/{{question.image}}" height='80px' />
@@ -25,19 +25,15 @@
 		</span>
 		
 		<span ng-show="resultats_visible=='true'">
-			<div>Résultats : <div/>
-			<span>{{resultats_points}}</span>
+			<img ng-src="resources/images/{{resultats_image}}" height='100px' /><br/><span>{{resultats.descr}}</span>
+			<div>Résultats : {{resultats_points}}<div/>
 			<span ng-repeat="question in quiz.questions" class="item mtn-nowrap">
-				<div ng-repeat="reponse in question.reponses">
-					<span ng-show="reponse.points>0" style="color:green">{{reponse.descr}}</span>
-					<span ng-show="reponse.points=0" style="color:black">{{reponse.descr}}</span>
-				</div>
-				<div>{{question.descr}}</div>
-				<div style='font-weight: bold;' ng-show="resultats_visible=='true'">{{question.explication}}</div>
+				{{question.descr}}<br/>
+				<span ng-repeat="reponse in question.reponses">
+					<div ng-show="reponse.selected" style="color:{{question.color}}">{{reponse.descr}}</div>
+				</span>
+				<div style='font-weight: bold;'">{{question.explication}}</div>
 			</span>
-			<div id='qres1'>
-				<img src='resources/images/quiz/1.png' height='80px' />
-			</div>
 		</span>
 	</ion-content>
 </ion-view>
