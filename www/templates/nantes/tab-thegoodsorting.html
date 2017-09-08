@@ -1,22 +1,40 @@
-<ion-view view-title="Le bon tri">
+<ion-view view-title="Le bon tri" class="game">
 
-<br/><br/><br/>
+<!-- GAME -->
 
-<div ng-repeat="obj in questions" >
-	<span ng-drag="true" ng-drag-data="obj" data-allow-transform="true" style="text-align:center">
-	{{obj.descr}}<br/><img ng-src="resources/images/thegoodsorting/{{obj.image}}" height='80px' /></span>
-</div>
-<hr/>
-
-<span ng-show="resultat_text" style="font-weight:bold;color:red">{{resultat_text}}</span>
-
-<div ng-repeat="reponse in reponses">
-   <span ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
-		{{reponse.descr}}<br/><img ng-src="resources/images/thegoodsorting/{{reponse.image}}" height='80px' />
-   </span> 
+<ng-show ng-show="!gameplay.gameEnd">
+<div class="row">
+	<div class="col" style="text-align:center">
+        <h3>Question : {{ gameplay.currentQuestionIndex + 1 }} / {{  questions.length }}</h3>
+    </div>
 </div>
 
+<div class="centered">	
+	<div ng-hide="temporaryHide" class="drag-object" ng-drag="true" ng-drag-data="gameplay.currentQuestion" allowTransform="false">
+        <img ng-src="resources/images/thegoodsorting/{{gameplay.currentQuestion.image}}"/>
+	</div>
+</div>
 
+<div class="row bottom">
+  <div class="col" ng-repeat="reponse in reponses">
+   <div class="reponse {{reponse.answerClass}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
+		<img ng-src="resources/images/thegoodsorting/{{reponse.image}}"/>
+   </div> 
+  </div>
+</div>
+
+</ng-show>
+
+<!-- GAME END -->
+
+<ng-show ng-show="gameplay.gameEnd">
+    <div class="absolute-center">
+    <h2>Votre score</h2>
+    <jk-rating-stars max-rating="4" rating="numstars" read-only="true" ></jk-rating-stars>
+    </div>
+</ng-show>
 
 </ion-view>
+
+
 		

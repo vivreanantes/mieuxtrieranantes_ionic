@@ -33,7 +33,7 @@ function _isNavigator() {
 }
 
 
-var myApp =angular.module('starter', ['ionic', 'leaflet-directive', 'starter.controllers', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage', 'ngDraggable']);
+var myApp =angular.module('starter', ['ionic', 'leaflet-directive', 'starter.controllers', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage', 'ngDraggable', 'jkAngularRatingStars']);
 
 myApp.run(function($ionicPlatform, $ionicPopup,$state,$translate) {
   $ionicPlatform.ready(function() {

@@ -1,0 +1,136 @@
+ /*
+ 
+ CSS JEUX
+ 
+ */
+
+
+    .game {
+        background: url('../img/bg_game.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .game [ng-drag], [ng-drag-clone] {
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .drag-object, [ng-drag-clone], [ng-drop] [ng-drag] {
+
+        width: 9em;
+        height: 9em;
+        background: #fff;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        margin: 0px;
+        cursor: move;
+        position: relative;
+        border-radius: 30%;
+        overflow: hidden;
+        padding: 1em;
+        padding-top : 0.5em;
+        border: 1px solid #9fbca5;
+
+    }
+
+    .drag-object [ng-drag]{
+        position: absolute;
+        top:0; left:0;
+    }
+
+    [ng-drag].drag-over{
+        
+    }
+
+    [ng-drag].dragging{
+        opacity: 0.9;
+    }
+
+
+	.reponse {
+        color:white;
+        text-align: center;
+        display: inline-block;
+        margin:0px;
+        padding: 1em;
+        border-radius: 2em;
+        border-color: transparent;
+        border-width: 3px;
+        border-style: solid;
+	}
+
+    .reponse img {
+ 		max-width: 100%;
+  		max-height: 100px;
+	}
+
+    .reponse.drag-enter {
+        border: 3px solid #ccc;
+    }
+
+    .reponse.good {
+        background: #7ecf76;
+    }
+
+    .reponse.bad {
+        background: #ff8787;
+    }
+
+	.row.bottom {    
+		position: absolute;
+		bottom : 5em;
+	}
+
+	.row.top {
+		
+		margin-top : 10%;
+	}
+
+    .centered {
+        margin-left: auto;
+        margin-right: auto;
+        width: 11em;
+        margin-top: 1em;
+    }
+
+	.pane {
+        
+		padding-top: 2em;
+	}
+
+	.drag-object img {
+ 		max-width: 100%;
+  		height: auto;
+	}
+
+    .absolute-center {
+        margin: auto;
+        position: absolute;
+        top: -100px; 
+        left: 0; 
+        bottom: 0; 
+        right: 0;
+        height: 100px;
+        text-align: center;
+    }
+
+    a.star-button {
+
+        background: none;
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        padding: 0 12px;
+        border: none;
+        vertical-align: top;
+        text-align: center;;
+        font-size: 16px;
+        line-height: 42px;
+        cursor: none;
+
+    }
