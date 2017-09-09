@@ -75,6 +75,26 @@ var _quizsDatas = [
 				]
 			}
 		]
+	},
+	{
+		"code": "quiz_base",
+		"nom": "Les bases du tri (5 questions)",
+		"image": "quiz/issiontrix-quiz-1.png",
+		"mots_cles": "quiz",
+		"mots_cles_en": "quiz",
+		"questions": [{
+				"descr": "Si j'ai un doute",
+				"indication": "1 réponse",
+				"reponses": [{
+						"descr": "je mets à la poubelle",
+						"result":"aaa","points": "4"
+					}, {
+						"descr": "je mets au recyclage",
+						"result":"aaa","points": "0"
+					}
+				]
+			}
+		]
 	}
 ];
 /*

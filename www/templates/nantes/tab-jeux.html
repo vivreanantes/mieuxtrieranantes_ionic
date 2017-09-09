@@ -1,17 +1,56 @@
-<ion-view view-title="{{'jeux'|translate}}">
- <ion-content class="has-footer">
+<ion-view view-title="Le bon tri" class="game">
 
-<div ng-show="collectmodsfilter">
- Jeux dépendant de l'adresse que vous avez configurée) : <br/>
-  <a href="/#/tab/quiz/quiz_janvier" class="button" disable="true">{{'quiz'|translate}}</a>
-</div>
-<div ng-show="collectmodsfilter==null">
-  Vous devez configurer votre adresse pour accéder aux jeux suivant : <br/>
-  {{'quiz'|translate}}
+<!-- GAME -->
+
+<div ng-show="gameplay.gameEnd=='false'">
+
+<div class="row">
+	<div class="col" style="text-align:center">
+        <span>Question : {{ gameplay.currentQuestionIndex + 1 }} / {{  questions.length }}</span>
+		<h3>{{gameplay.currentQuestion.descr}} ?</h3>
+    </div>
 </div>
 
+<div class="centered">
+	<div ng-hide="temporaryHide" class="drag-object" ng-drag="true" ng-drag-data="gameplay.currentQuestion" allowTransform="false">
+        <img ng-src="resources/images/thegoodsorting/{{gameplay.currentQuestion.image}}"/>
+	</div>
+</div>
+<div style="text-align:center">
+  <span ng-show="result=='good'" style="color:green;font-size:20px">Bravo !</span>
+  <span ng-show="result=='bad'" style="color:red;font-size:20px">Dommage</span>
+  <div  ng-show="advice!=''>Explication : {advice}</div>
+<div>
+<!-- /*middle;word-wrap:*/ -->
+<div class="row bottom" style="max-width:100%;vertical-align:  break-word;overflow: visible;">
+   <div class="col" ng-repeat="reponse in reponses" style="display:inline">
+   <div class="reponse {{reponse.answerClass}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
+		<div style="color:black">{{reponse.descr}}</div>
+		<img ng-src="resources/images/thegoodsorting/{{reponse.image}}"/>
+   </div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- GAME END -->
+
+<div ng-show="gameplay.gameEnd=='true'">
+    <div class="absolute-center">
+    <h2>Votre score</h2>
+    <jk-rating-stars max-rating="4" rating="numstars" read-only="true" ></jk-rating-stars>
 <br/><br/><br/>
-<a href="/#/tab/lebontri" class="button" disable="true">Le bon tri</a>
-      
-  </ion-content>
+	<div class="card">
+		<div class="item"><a class="button button-calm icon-left ion-play" ng-click="startANewAGame()">Rejouer</a></div>
+	</div>
+    </div>
+	
+	
+</div>
+
 </ion-view>
+
+
+		

@@ -1,0 +1,17 @@
+<ion-view view-title="{{'jeux'|translate}}">
+ <ion-content class="has-footer">
+
+<div ng-show="collectmodsfilter">
+ Jeux dépendant de l'adresse que vous avez configurée) : <br/>
+  <a href="/#/tab/quiz/quiz_janvier" class="button" disable="true">{{'quiz'|translate}}</a>
+</div>
+<div ng-show="collectmodsfilter==null">
+  Vous devez configurer votre adresse pour accéder aux jeux suivant : <br/>
+  {{'quiz'|translate}}
+</div>
+
+<br/><br/><br/>
+<a href="/#/tab/lebontri" class="button" disable="true">Le bon tri</a>
+      
+  </ion-content>
+</ion-view>

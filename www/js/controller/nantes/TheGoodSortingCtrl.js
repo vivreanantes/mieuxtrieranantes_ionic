@@ -4,6 +4,21 @@ angular.module('starter.controllers')
 .controller('TheGoodSortingCtrl',
 	function ($scope, $stateParams,  $timeout /*, $ionicSideMenuDelegate*/) {
 
+	$scope.suffle = function(array, returnSize) {
+		for (var i = array.length - 1; i > 0; i--) {
+			var j = Math.floor(Math.random() * (i + 1));
+			var temp = array[i];
+			array[i] = array[j];
+			array[j] = temp;
+		}
+		var result = [];
+		for(var i = 0; i < array.length && i<returnSize; ++i){
+			result[i]=array[i];
+		}
+		return result;
+	}
+	
+	
 	//$ionicSideMenuDelegate.canDragContent(false);
 
 	/* DATA MODEL */
@@ -26,16 +41,30 @@ angular.module('starter.controllers')
 			{name:'peau_banane',descr:"peau de banane",image:"banane.png",reponses:["composteur"]}
 		],
 		reponses : [
-			{id:"decheterie",descr:'Déchèterie',image:"decheterie.jpg"},
-			{id:"composteur",descr:'Composteur',image:"composteur.jpg"},
-			{id:"jaune",descr:'Poubelle jaune / sac jaune, conteneur emaballage, métal, verre, papier-carton',image:"bac_sac_jaune.jpg"},
-			{id:"retour",descr:'Retour au point de vente',image:"composteur.jpg"},
-			{id:"réemploi",descr:'Réemploi, conteneur vêtement, collecteur bouchons',image:"reemploi.png"},
-			{id:"poubelle",descr:'Poubelle',image:"bac_sac_bleu.jpg"}
+			{id:"decheterie",descr:'Déchèterie',image:"decheterie.png"},
+			{id:"composteur",descr:'Composteur',image:"composteur.png"},
+			{id:"jaune",descr:'Poubelle jaune / sac jaune, conteneur emaballage, métal, verre, papier-carton',image:"recyclage.png"},
+			{id:"retour",descr:'Retour au point de vente',image:"retour.png"},
+			{id:"reemploi",descr:'Réemploi, conteneur vêtement, collecteur bouchons',image:"reemploi.png"},
+			{id:"poubelle",descr:'Poubelle',image:"bac_sac_bleu.png"}
 		]
     });
 
-
+	$scope.result = "";
+/*
+	$scope.resultat_text="";
+	$scope.result = 0;
+    $scope.droppedObjects = [];
+	$scope.questions = $scope.suffle(_theGoodSortingData,4);
+	$scope.reponses = [
+		{id:"decheterie",descr:'Déchèterie'image:"decheterie.png"},
+		{id:"composteur",descr:'Composteur',image:"composteur.png"},
+		{id:"jaune",descr:'Recyclage',descr_comp:'Poubelle jaune / sac jaune, conteneur emaballage, métal, verre, papier-carton',image:"recyclage.png"},
+		{id:"retour",descr:'Retour point de vente',descr_comp:"Pharmacie,Magasin bricolage, Supermarché",image:"retour.png"},
+		{id:"réemploi",descr:"Réemploi",descr_comp:"Association réemploi, conteneur vêtement, collecteur bouchons...',image:"reemploi.png"},
+		{id:"poubelle",descr:'Poubelle',descr_comp:"Bac ou sac bleu",image:"bac_sac_bleu.png"}];
+	
+*/
     $scope.onDragComplete = function(data, evt) {
 	  console.log("drag success, data:", data);
     }
@@ -49,9 +78,11 @@ angular.module('starter.controllers')
 
       if (index > -1) {
 		reponseObject.answerClass = 'good';
+		$scope.result = 'good';
 		$scope.gameplay.goodAnswers = $scope.gameplay.goodAnswers + 1;
       } else {
 		reponseObject.answerClass = 'bad';
+		$scope.result = 'bad';
       }
 
 	  $scope.gameplay.firstInit = false;
@@ -124,7 +155,7 @@ angular.module('starter.controllers')
 	}
 
 	var resetReponsesState = function() {
-
+		$scope.result="";
 		$scope.reponses.forEach(function(item) {
 			
 			item.answerClass = '';
