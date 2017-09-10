@@ -21,9 +21,10 @@ angular.module('starter.controllers')
 	$scope.startANewAGame = function () {
 		$scope.result = "";
 		$scope.advice = "";
+		$scope.result_end = [];
 		// = true après réponse à toutes les questions
 		$scope.gameplay.gameEnd = "false";
-		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 4);
+		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 2);
 		$scope.gameplay.goodAnswers = 0;
 		$scope.gameplay.currentQuestionIndex = 0;
 		//Question courante
@@ -59,6 +60,7 @@ angular.module('starter.controllers')
 			reponseObject.answerClass = 'bad';
 			$scope.result = 'bad';
 			$scope.advice = data.advice;
+			$scope.result_end.push(data.descr+" : "+data.advice);
 			timeNexQuestion = 3000;
 		}
 

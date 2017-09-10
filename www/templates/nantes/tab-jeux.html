@@ -38,7 +38,7 @@
    <div class="col" ng-repeat="reponse in reponses" style="display:inline">
    <div class="reponse {{reponse.answerClass}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
 		<div style="color:black">{{reponse.descr}}</div>
-		<img ng-src="resources/images/thegoodsorting/{{reponse.image}}"/>
+		<img ng-src="resources/images/thegoodsorting/{{reponse.image}}" width="75px"/>
    </div>
   </div>
 </div>
@@ -53,13 +53,12 @@
     <div class="absolute-center">
     <h2>Votre score</h2>
     <jk-rating-stars max-rating="4" rating="numstars" read-only="true" ></jk-rating-stars>
-<br/><br/><br/>
+	<div ng-repeat="item in result_end">{{item}}</div>
+	<br/><br/><br/>
 	<div class="card">
 		<div class="item"><a class="button button-calm icon-left ion-play" ng-click="startANewAGame()">Rejouer</a></div>
 	</div>
     </div>
-	
-	
 </div>
 
 </ion-view>

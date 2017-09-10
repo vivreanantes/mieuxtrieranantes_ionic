@@ -6,6 +6,12 @@ var _theGoodSortingData = {
 			image: "ampoule_basse_conso.png",
 			reponses: ["retour", "decheterie"]
 		}, {
+			name: "appareil_photo",
+			descr: "Appareil photo",
+			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
+			image: "appareil_photo.png",
+			reponses: ["decheterie","retour"]
+		}, {
 			name: "arrosoir",
 			descr: "Arrosoir",
 			advice : "Seuls les  bouteilles et flacons sont récupérés (sauf si vous êtes en extension de tri). Les déchèteries les accepteront aussi.",
@@ -22,9 +28,22 @@ var _theGoodSortingData = {
 		}, {
 			name: "batterie",
 			descr: "Batterie de voiture",
-			advice: "Ils sont considérés comme des produits toxiques.",
+			advice: "Ils sont considérés comme des produits toxiques : a amener en déchèterie",
 			image: "batterie.png",
 			reponses: ["decheterie"]
+		}, {
+			name: "boite_a_oeufs",
+			descr_comp: "(propre)",
+			descr: "Boite à œufs",
+			advice: "Le carton propre est recyclable. On peut aussi le mettre au compostage.",
+			image: "boite_a_oeufs.png",
+			reponses: ["composteur","jaune"]
+		}, {
+			name: "boule_petanque.png",
+			descr: "Boule de pétanque",
+			advice : "L'acier se recycle : conteneur emballage (métal) ou déchèterie.",
+			image: "boule_petanque.png",
+			reponses: ["jaune", "decheterie"]
 		}, {
 			name: "bouteille_huile",
 			descr: "Bouteille d'huile",
@@ -46,7 +65,7 @@ var _theGoodSortingData = {
 			reponses: ["jaune"]
 		}, {
 			name: "dentifrice",
-			descr: "dentifrice",
+			descr: "Dentifrice",
 			advice: "Il n'y a que les bouteilles et flacons plastiques qui se recyclent (sauf si on est en extension de tri)",
 			image: "dentifrice.png",
 			reponses: ["poubelle"],
@@ -62,7 +81,7 @@ var _theGoodSortingData = {
 			descr: "Fer à repasser",
 			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "fer_a_repasser.png",
-			reponses: ["decheterie"]
+			reponses: ["decheterie","retour"]
 		}, {
 			name: "flacon_shampoing",
 			descr: "Flacon de shampoing",
@@ -81,7 +100,7 @@ var _theGoodSortingData = {
 			descr: "Lampe",
 			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "lampe.png",
-			reponses: ["retour", "decheterie"]
+			reponses: ["decheterie","retour"]
 		}, {
 			name: "medicaments",
 			descr: "Médicaments",
@@ -111,7 +130,7 @@ var _theGoodSortingData = {
 			descr: "Ordinateur portable",
 			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "ordinateur_portable.jpg",
-			reponses: ["decheterie"]
+			reponses: ["retour","decheterie"]
 		}, {
 			name: "paille",
 			descr: "Paille",
@@ -134,7 +153,7 @@ var _theGoodSortingData = {
 		}, {
 			name: "pot_peinture",
 			descr: "Pot de peinture",
-			descr_comp: "Peinture murale",
+			descr_comp: "( peinture murale )",
 			advice: "Ils sont considérés comme des produits toxiques.",
 			image: "pot_peinture.png",
 			reponses: ["decheterie"]
