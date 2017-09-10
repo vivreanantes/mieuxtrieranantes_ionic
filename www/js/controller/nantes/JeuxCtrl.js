@@ -2,7 +2,7 @@
 
 angular.module('starter.controllers')
 .controller('JeuxCtrl',
-	function ($scope, $stateParams, $timeout /*, $ionicSideMenuDelegate*/) {
+	function ($scope, $stateParams, $timeout, $rootScope) {
 
 	$scope.suffle = function (array, returnSize) {
 		for (var i = array.length - 1; i > 0; i--) {
@@ -20,6 +20,7 @@ angular.module('starter.controllers')
 
 	$scope.startANewAGame = function () {
 		$scope.result = "";
+		$scope.advice = "";
 		// = true après réponse à toutes les questions
 		$scope.gameplay.gameEnd = "false";
 		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 4);
@@ -49,21 +50,22 @@ angular.module('starter.controllers')
 
 		var index = data.reponses.indexOf(reponse_id);
 		var reponseObject = findReponseById($scope.reponses, reponse_id);
-		$scope.advice = reponseObject.advice;
+		var timeNexQuestion = 1000;
 		if (index > -1) {
 			reponseObject.answerClass = 'good';
 			$scope.result = 'good';
-
 			$scope.gameplay.goodAnswers = $scope.gameplay.goodAnswers + 1;
 		} else {
 			reponseObject.answerClass = 'bad';
 			$scope.result = 'bad';
+			$scope.advice = data.advice;
+			timeNexQuestion = 3000;
 		}
 
 		$scope.gameplay.firstInit = false;
 		// TEMPORARY HIDE Drag object avant prochaine question
 		$scope.temporaryHide = true;
-		$timeout(nextQuestion, 800);
+		$timeout(nextQuestion, timeNexQuestion);
 
 	}
 
@@ -110,6 +112,7 @@ angular.module('starter.controllers')
 
 	var resetReponsesState = function () {
 		$scope.result = "";
+		$scope.advice = "";
 		$scope.reponses.forEach(function (item) {
 			item.answerClass = '';
 		});

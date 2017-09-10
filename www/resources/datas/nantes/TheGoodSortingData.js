@@ -1,162 +1,154 @@
 var _theGoodSortingData = {
 	questions: [{
 			name: "ampoule_basse_conso",
-			descr: "ampoule_basse_conso",
-			advice: "",
+			descr: "Ampoule basse consommation",
+			advice: "On peut les ramener aux bornes des magasin bricolage et supermarché. Les déchèteries les acceptent aussi.",
 			image: "ampoule_basse_conso.png",
 			reponses: ["retour", "decheterie"]
 		}, {
 			name: "arrosoir",
-			descr: "arrosoir",
-			advice: "",
+			descr: "Arrosoir",
+			advice : "Seuls les  bouteilles et flacons sont récupérés (sauf si vous êtes en extension de tri). Les déchèteries les accepteront aussi.",
 			image: "arrosoir.png",
-			reponses: ["poubelle", "decheterie"]
+			reponses: ["poubelle", "decheterie"],
+			reponses_extension: ["jaune", "decheterie"]
 		}, {
 			name: "ballon",
-			descr: "ballon",
-			advice: "",
-			advice: "",
+			descr: "Ballon",
+			advice : "Seuls les  bouteilles et flacons sont récupérés (sauf si vous êtes en extension de tri). Les déchèteries les accepteront aussi.",
 			image: "ballon.png",
-			reponses: ["poubelle", "decheterie"]
+			reponses: ["poubelle", "decheterie"],
+			reponses_extension: ["jaune", "decheterie"]
 		}, {
 			name: "batterie",
-			descr: "batterie de voiture",
-			advice: "",
+			descr: "Batterie de voiture",
+			advice: "Ils sont considérés comme des produits toxiques.",
 			image: "batterie.png",
-			reponses: ["poubelle", "decheterie"]
+			reponses: ["decheterie"]
 		}, {
 			name: "bouteille_huile",
-			descr: "bouteille d'huile",
-			advice: "",
+			descr: "Bouteille d'huile",
+			advice: "Les bouteilles et flacons plastiques se recyclent (sauf s'ils contenaient des produits toxiques).",
 			image: "bouteille_huile.png",
 			reponses: ["jaune"]
 		}, {
 			name: "brosse_a_dent",
-			descr: "brosse à dent",
-			advice: "",
-			advice: "",
+			descr: "Brosse à dent",
+			advice: "Il n'y a que les bouteilles et flacons plastiques qui se recyclent (sauf si on est en extension de tri)",
 			image: "brosse_a_dent.png",
-			reponses_classique: "",
 			reponses: ["poubelle"],
 			reponses_extension: ["jaune"]
 		}, {
 			name: "cannette",
-			descr: "cannette de soda",
-			advice: "",
+			descr: "Cannette de soda",
+			advice: "L'aluminium se recycle (sauf s'il est trop petit).",
 			image: "cannette.png",
-			reponses: ["poubelle", "decheterie"]
+			reponses: ["jaune"]
 		}, {
 			name: "dentifrice",
 			descr: "dentifrice",
-			advice: "",
+			advice: "Il n'y a que les bouteilles et flacons plastiques qui se recyclent (sauf si on est en extension de tri)",
 			image: "dentifrice.png",
-			reponses_classique: "",
 			reponses: ["poubelle"],
 			reponses_extension: ["jaune"]
 		}, {
 			name: "epeluchure_legumes",
-			descr: "épluchure de légumes",
-			advice: "",
+			descr: "Épluchure de légumes",
+			advice: "Direction composteur. Si vous en avez pas :( , ce sera poubelle.",
 			image: "epeluchure_legumes.png",
-			reponses: ["poubelle", "decheterie"]
+			reponses: ["poubelle","composteur"]
 		}, {
 			name: "fer_a_repasser",
-			descr: "fer à repasser",
-			advice: "",
-			advice: "",
+			descr: "Fer à repasser",
+			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "fer_a_repasser.png",
 			reponses: ["decheterie"]
 		}, {
 			name: "flacon_shampoing",
-			descr: "flacon de shampoing",
-			advice: "",
+			descr: "Flacon de shampoing",
+			advice: "Les bouteilles et flacons plastiques se recyclent (sauf s'ils contenaient des produits toxiques).",
 			image: "flacon_shampoing.png",
-			reponses_classique: "",
-			reponses: ["poubelle"],
+			reponses: ["jaune"],
 			reponses_extension: ["jaune"]
 		}, {
 			name: "journal",
-			descr: "journal",
-			advice: "",
-			advice: "",
+			descr: "Journal",
+			advice: "Le papier se recycle. On peut aussi le mettre au composteur.",
 			image: "journal.png",
-			reponses: ["jaune"]
+			reponses: ["composteur","jaune"]
 		}, {
 			name: "lampe",
-			descr: "lampe",
-			advice: "",
+			descr: "Lampe",
+			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "lampe.png",
 			reponses: ["retour", "decheterie"]
 		}, {
 			name: "medicaments",
-			descr: "médicaments",
+			descr: "Médicaments",
 			advice: "Les pharmacies ont l'obligation de récupérer les anciens médicaments. Ils seront incinérés. Vous pouvez mettre au recyclage notice et emballage.",
 			image: "medicaments.png",
 			reponses: ["retour"]
 		}, {
 			name: "megot",
-			descr: "megot",
-			advice: "",
-			advice: "",
+			descr: "Mégot",
+			advice: "Poubelle, tout simplement !",
 			image: "megot.png",
 			reponses: ["poubelle"]
 		}, {
 			name: "mouchoir_papier",
-			descr: "mouchoir en papier",
-			advice: "",
+			descr: "Mouchoir en papier",
+			advice: "Le papier souillé ne se recycle pas.",
 			image: "mouchoir_papier.png",
-			reponses: ["poubelle", "decheterie"]
+			reponses: ["poubelle"]
 		}, {
 			name: "nounours",
-			descr: "nounours",
-			advice: "",
+			descr: "Nounours",
+			advice: "Direction poubelle ou conteneurs vêtements. S'il est en bon état, vous pouvez le donner à une association",
 			image: "nounours.png",
 			reponses: ["poubelle", "reemploi"]
 		}, {
 			name: "ordinateur_portable",
-			descr: "ordinateur portable",
-			advice: "",
+			descr: "Ordinateur portable",
+			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "ordinateur_portable.jpg",
-			reponses: ["poubelle", "decheterie"]
+			reponses: ["decheterie"]
 		}, {
 			name: "paille",
-			descr: "paille",
-			advice: "",
+			descr: "Paille",
+			advice: "Il n'y a que les bouteilles et flacons plastiques qui se recyclent (sauf si on est en extension de tri)",
 			image: "paille.png",
-			reponses_classique: "",
 			reponses: ["poubelle"],
 			reponses_extension: ["jaune"]
 		}, {
 			name: "peau_banane",
-			descr: "peau de banane",
-			advice: "",
+			descr: "Peau de banane",
+			advice: "Direction composteur. Si vous en avez pas :( , ce sera poubelle.",
 			image: "peau_banane.png",
 			reponses: ["composteur"]
 		}, {
 			name: "pneu",
-			descr: "pneu",
-			advice: "",
+			descr: "Pneu",
+			advice: "Direction déchèterie.",
 			image: "pneu.png",
 			reponses: ["decheterie"]
 		}, {
 			name: "pot_peinture",
-			descr: "pot de peinture",
-			advice: "",
+			descr: "Pot de peinture",
+			descr_comp: "Peinture murale",
+			advice: "Ils sont considérés comme des produits toxiques.",
 			image: "pot_peinture.png",
 			reponses: ["decheterie"]
 		}, {
 			name: "rouge_a_levre",
-			descr: "rouge_a_levre",
-			advice: "",
-			advice: "",
+			descr: "Rouge à lèvre",
+			advice: "Direction poubelle",
 			image: "rouge_a_levre.png",
 			reponses: ["poubelle"]
 		}, {
 			name: "yaourt",
-			descr: "yaourt",
-			advice: "",
+			descr: "Yaourt",
+			advice: "Il n'y a que les bouteilles et flacons plastiques qui se recyclent (sauf si on est en extension de tri)",
 			image: "yaourt.png",
-			reponses_classique: "",
 			reponses: ["poubelle"],
 			reponses_extension: ["jaune"]
 		}
@@ -172,12 +164,12 @@ var _theGoodSortingData = {
 		},  {
 			id: "jaune",
 			descr: 'Recyclage',
-			descr_comp: 'Poubelle jaune / sac jaune, conteneur emaballage, métal, verre, papier-carton',
+			descr_comp: 'Bac-sac  jaune, conteneurs',
 			image: "recyclage.png"
 		}, {
 			id: "reemploi",
 			descr: 'Réemploi',
-			descr_comp: 'Conteneur vêtement, collecteur bouchons',
+			descr_comp: 'Associations, Conteneur vêtement, Collecteur bouchons',
 			image: "reemploi.png"
 		}, {
 			id: "poubelle",
@@ -185,8 +177,8 @@ var _theGoodSortingData = {
 			image: "bac_sac_bleu.png"
 		}, {
 			id: "retour",
-			descr: 'Retour en magasin',
-			descr_comp: 'Pharmacie, Magasin de bricolage, Supermarché',
+			descr: 'Retour magasin',
+			descr_comp: 'Pharmacie, Magasin bricolage, Supermarché',
 			image: "retour.png"
 		}
 	]
