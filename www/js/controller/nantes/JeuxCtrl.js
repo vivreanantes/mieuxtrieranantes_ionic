@@ -4,6 +4,7 @@ angular.module('starter.controllers')
 .controller('JeuxCtrl',
 	function ($scope, $stateParams, $timeout, $rootScope) {
 
+
 	$scope.suffle = function (array, returnSize) {
 		for (var i = array.length - 1; i > 0; i--) {
 			var j = Math.floor(Math.random() * (i + 1));
@@ -18,20 +19,24 @@ angular.module('starter.controllers')
 		return result;
 	}
 
+	$scope.changeType = function (type) {
+		var i = type;
+	}
+	
 	$scope.startANewAGame = function () {
 		$scope.result = "";
 		$scope.advice = "";
 		$scope.result_end = [];
 		// = true après réponse à toutes les questions
 		$scope.gameplay.gameEnd = "false";
-		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 2);
+		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 30);
 		$scope.gameplay.goodAnswers = 0;
 		$scope.gameplay.currentQuestionIndex = 0;
 		//Question courante
 		$scope.gameplay.currentQuestion = $scope.questions[0];
 		// = false après la réponse à la première question
 		$scope.gameplay.firstInit = true;
-		$scope.temporaryHide = false;;
+		$scope.temporaryHide = false; ;
 	}
 
 	/* DATA MODEL */
@@ -43,6 +48,8 @@ angular.module('starter.controllers')
 	});
 	$scope.questions = _theGoodSortingData.questions;
 	$scope.reponses = _theGoodSortingData.reponses;
+	$scope.types_questions = _theGoodSortingData.types_questions;
+
 	$scope.startANewAGame();
 
 	$scope.onDropComplete = function (data, evt, reponse_id) {
@@ -60,7 +67,7 @@ angular.module('starter.controllers')
 			reponseObject.answerClass = 'bad';
 			$scope.result = 'bad';
 			$scope.advice = data.advice;
-			$scope.result_end.push(data.descr+" : "+data.advice);
+			$scope.result_end.push(data.descr + " : " + data.advice);
 			timeNexQuestion = 3000;
 		}
 

@@ -4,15 +4,14 @@
 
 <div ng-show="gameplay.gameEnd=='false'">
 
-<!--
-<div style="font-size:14px;align:center">
-	<span>Glisser pour répondre.</span>
-	<span ng-show="collectmodsfilter==null">
-		<a class="custom-btn-color" ng-href="#/tab/config">Votre adresse n'est pas configurée.</a>
+<div style="font-size:14px;align:center;font-style:italic">
+	<span style="font-weight:bold">Glisser pour répondre.</span>
+	<span>Options : </span>
+	<span class="col" ng-repeat="type in types_questions" style="display:inline">
+		<a ng-click="changeType(type.default)">{{type.default}}</a>
 	</span>
-	<span ng-show="collectmodsfilter==null">{{ collectmodsfilter | translate }}</span>
 </div>
--->
+
 <div class="row">
 	<div class="col" style="text-align:center">
         <span>Question : {{ gameplay.currentQuestionIndex + 1 }} / {{  questions.length }}</span>

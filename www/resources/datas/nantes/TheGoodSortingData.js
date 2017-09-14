@@ -10,18 +10,18 @@ var _theGoodSortingData = {
 			descr: "Appareil photo",
 			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "appareil_photo.png",
-			reponses: ["decheterie","retour"]
+			reponses: ["decheterie", "retour"]
 		}, {
 			name: "arrosoir",
 			descr: "Arrosoir",
-			advice : "Seuls les  bouteilles et flacons sont récupérés (sauf si vous êtes en extension de tri). Les déchèteries les accepteront aussi.",
+			advice: "Seuls les  bouteilles et flacons sont récupérés (sauf si vous êtes en extension de tri). Les déchèteries les accepteront aussi.",
 			image: "arrosoir.png",
 			reponses: ["poubelle", "decheterie"],
 			reponses_extension: ["jaune", "decheterie"]
 		}, {
 			name: "ballon",
 			descr: "Ballon",
-			advice : "Seuls les  bouteilles et flacons sont récupérés (sauf si vous êtes en extension de tri). Les déchèteries les accepteront aussi.",
+			advice: "Seuls les  bouteilles et flacons sont récupérés (sauf si vous êtes en extension de tri). Les déchèteries les accepteront aussi.",
 			image: "ballon.png",
 			reponses: ["poubelle", "decheterie"],
 			reponses_extension: ["jaune", "decheterie"]
@@ -37,11 +37,11 @@ var _theGoodSortingData = {
 			descr: "Boite à œufs",
 			advice: "Le carton propre est recyclable. On peut aussi le mettre au compostage.",
 			image: "boite_a_oeufs.png",
-			reponses: ["composteur","jaune"]
+			reponses: ["composteur", "jaune"]
 		}, {
 			name: "boule_petanque.png",
 			descr: "Boule de pétanque",
-			advice : "L'acier se recycle : conteneur emballage (métal) ou déchèterie.",
+			advice: "L'acier se recycle : conteneur emballage (métal) ou déchèterie.",
 			image: "boule_petanque.png",
 			reponses: ["jaune", "decheterie"]
 		}, {
@@ -64,6 +64,12 @@ var _theGoodSortingData = {
 			image: "cannette.png",
 			reponses: ["jaune"]
 		}, {
+			name: "ciseaux_enfants",
+			descr: "Ciseaux enfant",
+			advice: "Direction poubelle : il n'y a que les bouteilles et flacons plastiques qui se recyclent (et en extension de tri, il faut uniquement des objets en plastique)",
+			image: "ciseaux_enfants.png",
+			reponses: ["poubelle"]
+		}, {
 			name: "dentifrice",
 			descr: "Dentifrice",
 			advice: "Il n'y a que les bouteilles et flacons plastiques qui se recyclent (sauf si on est en extension de tri)",
@@ -75,13 +81,13 @@ var _theGoodSortingData = {
 			descr: "Épluchure de légumes",
 			advice: "Direction composteur. Si vous en avez pas :( , ce sera poubelle.",
 			image: "epeluchure_legumes.png",
-			reponses: ["poubelle","composteur"]
+			reponses: ["poubelle", "composteur"]
 		}, {
 			name: "fer_a_repasser",
 			descr: "Fer à repasser",
 			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "fer_a_repasser.png",
-			reponses: ["decheterie","retour"]
+			reponses: ["decheterie", "retour"]
 		}, {
 			name: "flacon_shampoing",
 			descr: "Flacon de shampoing",
@@ -94,13 +100,13 @@ var _theGoodSortingData = {
 			descr: "Journal",
 			advice: "Le papier se recycle. On peut aussi le mettre au composteur.",
 			image: "journal.png",
-			reponses: ["composteur","jaune"]
+			reponses: ["composteur", "jaune"]
 		}, {
 			name: "lampe",
 			descr: "Lampe",
 			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "lampe.png",
-			reponses: ["decheterie","retour"]
+			reponses: ["decheterie", "retour"]
 		}, {
 			name: "medicaments",
 			descr: "Médicaments",
@@ -130,7 +136,7 @@ var _theGoodSortingData = {
 			descr: "Ordinateur portable",
 			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
 			image: "ordinateur_portable.jpg",
-			reponses: ["retour","decheterie"]
+			reponses: ["retour", "decheterie"]
 		}, {
 			name: "paille",
 			descr: "Paille",
@@ -138,6 +144,12 @@ var _theGoodSortingData = {
 			image: "paille.png",
 			reponses: ["poubelle"],
 			reponses_extension: ["jaune"]
+		}, {
+			name: "palette_bois",
+			descr: "Palette en bois",
+			advice: "C'était déchèterie.",
+			image: "palette_bois.png",
+			reponses: ["decheterie"]
 		}, {
 			name: "peau_banane",
 			descr: "Peau de banane",
@@ -157,6 +169,12 @@ var _theGoodSortingData = {
 			advice: "Ils sont considérés comme des produits toxiques.",
 			image: "pot_peinture.png",
 			reponses: ["decheterie"]
+		}, {
+			name: "rasoir_jetable",
+			descr: "Rasoir jetable",
+			advice: "Direction poubelle : il n'y a que les bouteilles et flacons plastiques qui se recyclent (et en extension de tri, il faut uniquement des objets en plastique)",
+			image: "rasoir_jetable.png",
+			reponses: ["poubelle"]
 		}, {
 			name: "rouge_a_levre",
 			descr: "Rouge à lèvre",
@@ -180,7 +198,7 @@ var _theGoodSortingData = {
 			id: "decheterie",
 			descr: 'Déchèterie',
 			image: "decheterie.png"
-		},  {
+		}, {
 			id: "jaune",
 			descr: 'Recyclage',
 			descr_comp: 'Bac-sac  jaune, conteneurs',
@@ -199,6 +217,16 @@ var _theGoodSortingData = {
 			descr: 'Retour magasin',
 			descr_comp: 'Pharmacie, Magasin bricolage, Supermarché',
 			image: "retour.png"
+		}
+	],
+	types_questions: [{
+			"default": "tri_normal",
+			"other": ["tri_extension"],
+			"descr": "si vous habitez la ville de Nantes et que vous avec un bac, choisissez 'tri_extension' sinon 'tri_normal'"
+		}, {
+			"default": "niveau_enfant",
+			"other": ["niveau_normal", "niveau_expert"],
+			"descr": "niveau_enfant ou niveau_expert"
 		}
 	]
 };
