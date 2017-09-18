@@ -8,7 +8,7 @@
 	<span style="font-weight:bold">Glisser pour répondre.</span>
 	<span>Options : </span>
 	<span class="col" ng-repeat="type in types_questions" style="display:inline">
-		<a ng-click="changeType(type.default)">{{type.default}}</a>
+		<a ng-click="changeType(type.default)" style="cursor: pointer;text-decoration:underline;">{{type.default}}</a>
 	</span>
 </div>
 

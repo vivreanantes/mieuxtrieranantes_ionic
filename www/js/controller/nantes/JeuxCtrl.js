@@ -2,10 +2,30 @@
 
 angular.module('starter.controllers')
 .controller('JeuxCtrl',
-	function ($scope, $stateParams, $timeout, $rootScope) {
+	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter) {
 
-
-	$scope.suffle = function (array, returnSize) {
+	$scope.types_questions = ["tri_normal","niveau_enfant"];
+	
+	$scope.suffle = function (array, type_question, returnSize) {
+		
+		// type_question KO
+		var results = $filter('filter')(array,
+			//CUSTOM FILTER
+			function (item, index) {
+			/*	filterResult=true;
+				for (var k=0; k<type_question.length;k++) {
+					var temp3 = type_question[k];
+					for (var l=0; l<item.filter.length;l++) {
+						temp2 = item.filter[l];
+						if (temp2==temp3) {
+							filterResult=false;
+						}
+					}
+				}
+				return filterResult;
+				*/
+		});
+		
 		for (var i = array.length - 1; i > 0; i--) {
 			var j = Math.floor(Math.random() * (i + 1));
 			var temp = array[i];
@@ -18,10 +38,38 @@ angular.module('starter.controllers')
 		}
 		return result;
 	}
-
+	
+	$scope.onSearchSubmit = function () {
+		// $scope.fiches = RechercheService.searchFiche($scope.formParam.type.code, '');
+	};
+	
+	// Choix du type
 	$scope.changeType = function (type) {
 		var i = type;
-	}
+		if (type=='niveau_enfant') {
+			$scope.temp = [{nom:"Enfant"},{nom:"Normal"},{nom:"Expert"}];
+			$scope.desc = $scope.types_questions[0].descr;
+		} else if (type=='tri_normal') {
+			$scope.temp = [{nom:"Tri normal"},{nom:"Tri extension (bac jaune, Nantes)"}];
+			var desc = $scope.types_questions[1].descr;
+		}
+		
+		$ionicPopup.show({
+			template: '<div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.nom}}</ion-radio> </div>',
+			cssClass: 'popup-lieu',
+			title: 'Option du quiz',
+			scope: $scope,
+			buttons: [{
+					text: 'OK',
+					type: 'button-positive',
+					onTap: function (e) {
+						$scope.onSearchSubmit();
+					}
+				}
+			]
+		});
+
+	};
 	
 	$scope.startANewAGame = function () {
 		$scope.result = "";
@@ -29,7 +77,7 @@ angular.module('starter.controllers')
 		$scope.result_end = [];
 		// = true après réponse à toutes les questions
 		$scope.gameplay.gameEnd = "false";
-		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 10);
+		$scope.questions = $scope.suffle(_theGoodSortingData.questions, $scope.types_questions, 10);
 		$scope.gameplay.goodAnswers = 0;
 		$scope.gameplay.currentQuestionIndex = 0;
 		//Question courante
@@ -49,6 +97,12 @@ angular.module('starter.controllers')
 	$scope.questions = _theGoodSortingData.questions;
 	$scope.reponses = _theGoodSortingData.reponses;
 	$scope.types_questions = _theGoodSortingData.types_questions;
+	
+	//FORM MODEL : DEFAULTS
+	$scope.formParam = {
+		type: $scope.types_questions[0],
+		searchkey: ''
+	};
 
 	$scope.startANewAGame();
 

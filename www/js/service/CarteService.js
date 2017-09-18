@@ -129,9 +129,12 @@ angular.module('starter.controllers')
 				};
 			}
 
-			// Ajout d'un lien hypertext dans le message des structures
-			if(structureID.indexOf(container.carteMarqueur)> -1||container.linkInPopup===true){
-				leafletContainer.message += "<br><a href='#/tab/lieu/detail/"+container.code+"'>Voir la fiche</a>";
+			// TODO temp
+			if(container.type.indexOf(" Commerce acceptant les bocaux")< 0){
+				// Ajout d'un lien hypertext dans le message des structures
+				if(structureID.indexOf(container.carteMarqueur)> -1||container.linkInPopup===true){
+					leafletContainer.message += "<br><a href='#/tab/lieu/detail/"+container.code+"'>Voir la fiche</a>";
+				}
 			}
 			leafletContainers[container.code] = leafletContainer;
 

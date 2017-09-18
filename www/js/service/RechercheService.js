@@ -106,8 +106,7 @@ angular.module('starter.controllers')
 				//CUSTOM FILTER
 				function (item, index) {
 
-				// var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
-				result = stTypeRegexp.test(item.categorie);
+				var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
 				var result = "";
 				var currentlanguage = $translate.proposedLanguage();
 				result = textTest.test(item[motsClesComplet]);

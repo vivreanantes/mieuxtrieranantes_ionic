@@ -1,50 +1,24 @@
 <ion-view view-title="{{'fiches'|translate}}" hide-back-button="true">
- <ion-content class="has-footer">
- 
-<div class="card">
+	<ion-content class="has-footer">
 
-  <div class="item item-divider item-calm">{{'recherche_solutions'|translate}}</div>
+		<div class="card">
 
-  <div class="typelieu item item-icon-right item-input" ng-click="selectType()">
-      <label class="item-input-wrapper">{{ formParam.type.nom }}</label>
-      <a class="button positive button-icon icon ion-arrow-down-b" ng-click=""></a>
-  </div>
-  
-</div>
- <!--
-<div class="card">
+			<div class="typelieu item item-icon-right item-input" ng-click="selectType()">
+				<label class="item-input-wrapper">{{ formParam.type.nom }}</label>
+				<a class="button positive button-icon icon ion-arrow-down-b" ng-click=""></a>
+			</div>
 
-  <div class="item item-divider item-calm">{{'recherche'|translate}}</div>
+		</div>
+		<div class="card fiches">
 
-     <div class="button-bar padding">
-		<ion-radio ng-model="choice" ng-value="'nantesmet'" ng-click="selectAdress('modco_bacbleu,modco_bacjaune')">Nantes Métropole</ion-radio>
-		&nbsp;&nbsp;&nbsp;
-		<ion-radio ng-model="choice" ng-value="'all'">Partout</ion-radio>
-    </div>
-	
-  <div class="item item-input">
-  
-  <span class="input-label">{{'objet'|translate}} / {{'nom'|translate}}</span>
-    <label class="item-input-wrapper">
-      <input ng-model="formParam.searchkey"  type="text" placeholder="{{'lieux_placeholder'|translate}}" ng-keyup="$event.keyCode == 13 && onSearchSubmit()">
-    </label>
-    <a class="button positive button-icon icon ion-search" ng-click="onSearchSubmit()"></a>
-  </div>
-
-	<div ng-show="onlyOneResult!=null" style='color:red'>{{'only_one_world'|translate}}</div>
-  
-</div>
--->
-  <div class="card fiches">
-
-    <div class="list">         
-        <a class="item item-thumbnail-left" ng-href="#/tab/fiches/detail/{{::fiche.code}}" ng-repeat="fiche in ::fiches" ng-if="fiche.code">           
-            <img ng-src="resources/images/{{::fiche.image}}"/>
+			<div class="list">         
+				<a class="item item-thumbnail-left" ng-href="#/tab/fiches/detail/{{::fiche.code}}" ng-repeat="fiche in ::fiches" ng-if="fiche.code">           
+					<img ng-src="resources/images/{{::fiche.image}}"/>
             {{'nom_translated'|translate:fiche}}
-        </a>    
-    </div>
+				</a>    
+			</div>
 
-  </div>
-      
-  </ion-content>
+		</div>
+
+	</ion-content>
 </ion-view>

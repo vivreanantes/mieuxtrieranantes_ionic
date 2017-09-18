@@ -4,14 +4,12 @@ angular.module('starter.controllers')
 .controller('FichesCtrl', function ($scope, $stateParams, $ionicPopup, RechercheService) {
 
 	//GLOBAL DATA SOURCE
-	$scope.fiches = _infosDatas;
-
-	// Default filter
-	$scope.choice = 'all';
+	// $scope.fiches = _infosDatas;
             
-            //SELECT Type de structures                 
-            $scope.typeFiches = RechercheService.getAFilter("filter_fiches_types");
+    // SELECT Type de structures
+    $scope.typeFiches = RechercheService.getAFilter("filter_fiches_types");
 
+	$scope.fiches = RechercheService.searchFiche($scope.typeFiches[0].code, '');
 			
 	//FORM MODEL : DEFAULTS
 	$scope.formParam = {
@@ -21,11 +19,11 @@ angular.module('starter.controllers')
 
 	$scope.onSearchSubmit = function () {
 		$scope.fiches = RechercheService.searchFiche($scope.formParam.type.code, '');
-		if ($scope.formParam.searchkey.indexOf(" ") > -1) {
+		/*if ($scope.formParam.searchkey.indexOf(" ") > -1) {
 			$scope.onlyOneResult = "1";
 		} else {
 			$scope.onlyOneResult = null;
-		}
+		}*/
 	};
 	
 	// Choix du type
