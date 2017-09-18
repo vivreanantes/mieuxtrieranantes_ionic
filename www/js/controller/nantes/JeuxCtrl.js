@@ -29,7 +29,7 @@ angular.module('starter.controllers')
 		$scope.result_end = [];
 		// = true après réponse à toutes les questions
 		$scope.gameplay.gameEnd = "false";
-		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 30);
+		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 10);
 		$scope.gameplay.goodAnswers = 0;
 		$scope.gameplay.currentQuestionIndex = 0;
 		//Question courante

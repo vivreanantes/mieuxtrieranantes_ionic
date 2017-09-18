@@ -77,14 +77,14 @@ var _theGoodSortingData = {
 			image: "brosse_a_dent.png",
 			reponses: ["poubelle"],
 			filters: ["tri_extension","niveau_enfant"]
-		}, , {
+		}, {
 			name: "brosse_a_dent_2",
 			descr: "Brosse à dent",
 			advice: "Tout le plastique se recycle en extension de tri.",
 			image: "brosse_a_dent.png",
 			reponses: ["jaune"],
 			filters: ["tri_normal","niveau_enfant"]
-		} {
+		}, {
 			name: "cannette",
 			descr: "Cannette de soda",
 			advice: "L'aluminium se recycle (sauf s'il est trop petit).",
@@ -252,7 +252,7 @@ var _theGoodSortingData = {
 		}, {
 			id: "jaune",
 			descr: 'Recyclage',
-			descr_comp: 'Bac-sac  jaune, conteneurs',
+			descr_comp: 'Bac sac jaune, conteneurs',
 			image: "recyclage.png"
 		}, {
 			id: "reemploi",

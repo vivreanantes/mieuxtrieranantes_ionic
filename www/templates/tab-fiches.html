@@ -1,6 +1,16 @@
 <ion-view view-title="{{'fiches'|translate}}" hide-back-button="true">
  <ion-content class="has-footer">
+ 
+<div class="card">
 
+  <div class="item item-divider item-calm">{{'recherche_solutions'|translate}}</div>
+
+  <div class="typelieu item item-icon-right item-input" ng-click="selectType()">
+      <label class="item-input-wrapper">{{ formParam.type.nom }}</label>
+      <a class="button positive button-icon icon ion-arrow-down-b" ng-click=""></a>
+  </div>
+  
+</div>
  <!--
 <div class="card">
 

@@ -37,7 +37,9 @@
    <div class="col" ng-repeat="reponse in reponses" style="display:inline">
    <div class="reponse {{reponse.answerClass}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
 		<div style="color:black">{{reponse.descr}}</div>
+		<div style="color:grey;font-size:10px;line-height:10px;width:100px">{{reponse.descr_comp}}</div>
 		<img ng-src="resources/images/thegoodsorting/{{reponse.image}}" width="75px"/>
+
    </div>
   </div>
 </div>

@@ -12,7 +12,8 @@ angular.module('starter.controllers')
 	var zeroDechetNantesDatas = _zeroDechetNantesDatas;
 	var compagniesAdvicesDatas = _compagniesAdvicesDatas;
 	var infosDatas = _infosDatas;
-  var filterTypeLieux = _paramFilterTypePlacesDatas;
+	var filterTypeLieux = _paramFilterTypePlacesDatas;
+	var filterTypeFiches = _paramFilterTypeFiches;
 	var filterTypeCarte = _paramFilterTypeMapDatas;
 	var _escapeRegExp = function (str) {
 		return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
@@ -105,7 +106,8 @@ angular.module('starter.controllers')
 				//CUSTOM FILTER
 				function (item, index) {
 
-				var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
+				// var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
+				result = stTypeRegexp.test(item.categorie);
 				var result = "";
 				var currentlanguage = $translate.proposedLanguage();
 				result = textTest.test(item[motsClesComplet]);
@@ -121,20 +123,30 @@ angular.module('starter.controllers')
 	 *  @example RechercheService.searchStructure('modco_decheterie|modco_ecopoint','vélo')
 	 *
 	 */
-	var _searchFiche = function (searchKeyword) {
+	var _searchFiche = function (structureType, searchKeyword) {
 
 		var searchKeyWordCleaned = $filter('searchTextClean')(searchKeyword);
+		var stTypeRegexp = new RegExp(structureType);
 		var my = this;
-
 		var motsClesComplet = _getKeyWord("mots_cles");
 		var results = $filter('filter')(infosDatas,
+
 				//CUSTOM FILTER
 				function (item, index) {
 
 				var textTest = new RegExp(_escapeRegExp(searchKeyWordCleaned), 'ig');
 				var result = "";
-				var currentlanguage = $translate.proposedLanguage();
-				result = textTest.test(item[motsClesComplet]);
+
+				//Analyse du type uniquement
+				if (searchKeyWordCleaned == '') {
+					result = stTypeRegexp.test(item.categorie);
+				}
+				//Analyse type et mot-clé
+				else {
+					var currentlanguage = $translate.proposedLanguage();
+					result = (stTypeRegexp.test(item.categorie) && textTest.test(item[motsClesComplet]));
+
+				}
 				return result;
 			});
 
@@ -325,6 +337,8 @@ angular.module('starter.controllers')
 		var result = [];
 		if (filterName === "filter_collect_types") {
 			result = filterTypeLieux;
+		} else if (filterName === "filter_fiches_types") {
+			result = filterTypeFiches;
 		} else if (filterName === "filter_map") {
 			result = filterTypeCarte;
 		}
