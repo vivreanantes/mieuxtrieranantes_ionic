@@ -2720,6 +2720,8 @@ var _structuresDatas = [
       "logo":"resources/images/nantes/logo_le_petit_poids.png"
    },
       {"code":"jaimetesbocaux_oudaia",
+      "latitude":"47.228603",
+      "longitude":"-1.541358",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2728,9 +2730,11 @@ var _structuresDatas = [
       "adresseTemp":"118 rue du Général Buat",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Oudaîa",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Oudaîa"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Oudaîa<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Oudaîa<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_le_porc_bonheur",
+      "latitude":"47.22726",
+      "longitude":"-1.542722",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2739,9 +2743,11 @@ var _structuresDatas = [
       "adresseTemp":"144 rue du Général Buat",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le Porc Bonheur",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Le Porc Bonheur"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le Porc Bonheur<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Le Porc Bonheur<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_cremerie_st-do",
+      "latitude":"47.228289",
+      "longitude":"-1.541606",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2750,9 +2756,11 @@ var _structuresDatas = [
       "adresseTemp":"120 rue du Général Buat",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Crèmerie St-Do",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Crèmerie St-Do"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Crèmerie St-Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Crèmerie St-Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_le_verger_de_st_do",
+      "latitude":"47.227932",
+      "longitude":"-1.542021",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2761,9 +2769,11 @@ var _structuresDatas = [
       "adresseTemp":"130-132 rue du Général Buat",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>le Verger de St Do",
-      "cartePopuptext_en":"Commerce accepting jars<br/>le Verger de St Do"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>le Verger de St Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>le Verger de St Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_couleur_chocolat",
+      "latitude":"47.228013",
+      "longitude":"-1.541877",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2773,9 +2783,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/Couleur-Chocolat-1148043698569739/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Couleur Chocolat",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Couleur Chocolat"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Couleur Chocolat<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Couleur Chocolat<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_boucherie_lusson",
+      "latitude":"47.226942",
+      "longitude":"-1.542621",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2784,9 +2796,11 @@ var _structuresDatas = [
       "adresseTemp":"101 bd du Gal Buat.",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Boucherie Lusson,",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Boucherie Lusson,"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Boucherie Lusson,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Boucherie Lusson,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_boulangerie_rullier_patrice",
+      "latitude":"47.228534",
+      "longitude":"-1.541326",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2795,9 +2809,11 @@ var _structuresDatas = [
       "adresseTemp":"118 rue du Gal Buat",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>boulangerie Rullier Patrice,",
-      "cartePopuptext_en":"Commerce accepting jars<br/>boulangerie Rullier Patrice,"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>boulangerie Rullier Patrice,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>boulangerie Rullier Patrice,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_boulangerie_lacroix_mathieu",
+      "latitude":"47.226919",
+      "longitude":"-1.542932",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2806,9 +2822,11 @@ var _structuresDatas = [
       "adresseTemp":"150 bd du Gal Buat",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Boulangerie Lacroix Mathieu,",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Boulangerie Lacroix Mathieu,"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Boulangerie Lacroix Mathieu,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Boulangerie Lacroix Mathieu,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_la_boule_carree",
+      "latitude":"47.239384",
+      "longitude":"-1.513737",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2818,9 +2836,11 @@ var _structuresDatas = [
       "url":"La boule carrée",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>La boule Carrée",
-      "cartePopuptext_en":"Commerce accepting jars<br/>La boule Carrée"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>La boule Carrée<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>La boule Carrée<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_du_vert_en_ville",
+      "latitude":"47.214237",
+      "longitude":"-1.565259",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2830,9 +2850,11 @@ var _structuresDatas = [
       "url":"Du vert en ville",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Du vert en ville",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Du vert en ville"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Du vert en ville<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Du vert en ville<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_cafe_clavreul",
+      "latitude":"47.216631",
+      "longitude":"-1.555553",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2842,9 +2864,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/pg/au.bon.cafe.clavreul/about/?ref=page_internal",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Café clavreul",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Café clavreul"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Café clavreul<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Café clavreul<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_bio_nant",
+      "latitude":"47.21757",
+      "longitude":"-1.552032",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2853,9 +2877,11 @@ var _structuresDatas = [
       "adresseTemp":"1, rue St Denis et 18 rue Racine",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Bio Nant'",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Bio Nant'"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_domoro",
+      "latitude":"47.219617",
+      "longitude":"-1.534136",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2865,9 +2891,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/DomoroNantes/?fref=ts",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>DOMORO",
-      "cartePopuptext_en":"Commerce accepting jars<br/>DOMORO"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>DOMORO<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>DOMORO<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_sophie_bakery",
+      "latitude":"47.215135",
+      "longitude":"-1.553144",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2877,9 +2905,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/Sophie-Bakery-453082698170945/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Sophie Bakery",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Sophie Bakery"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Sophie Bakery<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Sophie Bakery<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_jargus",
+      "latitude":"47.214904",
+      "longitude":"-1.55519",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2889,9 +2919,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/Jargus/?hc_ref=PAGES_TIMELINE",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Jargus",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Jargus"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Jargus<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Jargus<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_la_source",
+      "latitude":"47.216481",
+      "longitude":"-1.555274",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2901,9 +2933,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/epiceriesources/?hc_ref=PAGES_TIMELINE",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>La source",
-      "cartePopuptext_en":"Commerce accepting jars<br/>La source"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>La source<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>La source<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_theine",
+      "latitude":"47.215288",
+      "longitude":"-1.558258",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2913,9 +2947,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/theinemaisondethe/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Theine",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Theine"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Theine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Theine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_la_cremerie_des_carmelites",
+      "latitude":"47.217447",
+      "longitude":"-1.551861",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2925,9 +2961,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/La-Cr%C3%A8merie-des-Carm%C3%A9lites-888514631171927/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>La crèmerie des carmélites",
-      "cartePopuptext_en":"Commerce accepting jars<br/>La crèmerie des carmélites"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>La crèmerie des carmélites<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>La crèmerie des carmélites<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_la_boucherie_du_bouffay",
+      "latitude":"47.214857",
+      "longitude":"-1.554087",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2937,9 +2975,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/boucheriedubouffay.leducange",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>La boucherie du bouffay",
-      "cartePopuptext_en":"Commerce accepting jars<br/>La boucherie du bouffay"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>La boucherie du bouffay<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>La boucherie du bouffay<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_lenonidas",
+      "latitude":"47.215862",
+      "longitude":"-1.554985",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2949,9 +2989,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/leonidas.nantes.centreville/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Lenonidas",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Lenonidas"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Lenonidas<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Lenonidas<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_la_tartinerie",
+      "latitude":"47.216045",
+      "longitude":"-1.553036",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2960,9 +3002,11 @@ var _structuresDatas = [
       "adresseTemp":"12 place du pilori",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>La tartinerie",
-      "cartePopuptext_en":"Commerce accepting jars<br/>La tartinerie"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>La tartinerie<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>La tartinerie<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_le_you_!",
+      "latitude":"47.212626",
+      "longitude":"-1.559287",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2972,9 +3016,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/youbiofoodrink/?hc_ref=PAGES_TIMELINE",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>le YOU !",
-      "cartePopuptext_en":"Commerce accepting jars<br/>le YOU !"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>le YOU !<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>le YOU !<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_albert_&_leontine",
+      "latitude":"47.217541",
+      "longitude":"-1.55165",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2984,9 +3030,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/confiseriegourmande/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Albert & Léontine",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Albert & Léontine"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Albert & Léontine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Albert & Léontine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_day_by_day",
+      "latitude":"47.216773",
+      "longitude":"-1.559293",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -2996,9 +3044,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/amandedaybydaynantes/?fref=ts",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Day by Day",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Day by Day"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Day by Day<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Day by Day<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_le_comptoir_nanthe_du_cafe",
+      "latitude":"47.216423",
+      "longitude":"-1.558782",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3008,9 +3058,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/ComptoirNanThesDesCafes/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le Comptoir NanTHE du CAFE",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Le Comptoir NanTHE du CAFE"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le Comptoir NanTHE du CAFE<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Le Comptoir NanTHE du CAFE<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_olibaba",
+      "latitude":"47.217367",
+      "longitude":"-1.55197",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3020,9 +3072,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/olibabanantes/?fref=ts",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Olibaba",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Olibaba"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Olibaba<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Olibaba<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_epicure_vous_salue",
+      "latitude":"47.219965",
+      "longitude":"-1.549606",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3032,9 +3086,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/epicurevoussalue/?fref=ts",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Epicure vous salue",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Epicure vous salue"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Epicure vous salue<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Epicure vous salue<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_bio_nant_1",
+      "latitude":"47.214208",
+      "longitude":"-1.56425",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3044,9 +3100,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/Bionant/?hc_ref=SEARCH&fref=nf",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Bio Nant'",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Bio Nant'"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_bio_nant_2",
+      "latitude":"47.217528",
+      "longitude":"-1.552081",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3056,9 +3114,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/Bionant/?hc_ref=SEARCH&fref=nf",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Bio Nant'",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Bio Nant'"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_theophil",
+      "latitude":"47.214899",
+      "longitude":"-1.563574",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3068,9 +3128,11 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/Jaime-tes-bocaux-1147296918725687/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>ThéÔphil",
-      "cartePopuptext_en":"Commerce accepting jars<br/>ThéÔphil"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>ThéÔphil<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>ThéÔphil<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_la_boutique_raviolis",
+      "latitude":"47.240223",
+      "longitude":"-1.512831",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3079,9 +3141,11 @@ var _structuresDatas = [
       "adresseTemp":"Place Commandant Cousteau mercredi soir",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>La boutique raviolis",
-      "cartePopuptext_en":"Commerce accepting jars<br/>La boutique raviolis"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>La boutique raviolis<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>La boutique raviolis<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_les_saveurs_du_fromage",
+      "latitude":"47.240223",
+      "longitude":"-1.512831",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3090,9 +3154,11 @@ var _structuresDatas = [
       "adresseTemp":"Place Commandant Cousteau mercredi soir",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Les saveurs du fromage",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Les saveurs du fromage"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Les saveurs du fromage<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Les saveurs du fromage<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_lepi_dange",
+      "latitude":"47.211948",
+      "longitude":"-1.653033",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3101,9 +3167,11 @@ var _structuresDatas = [
       "adresseTemp":"24 rue Pierre Blard",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>l'épi d'ange",
-      "cartePopuptext_en":"Commerce accepting jars<br/>l'épi d'ange"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>l'épi d'ange<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>l'épi d'ange<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_poissonerie_des_arcades",
+      "latitude":"47.211321",
+      "longitude":"-1.653266",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3112,9 +3180,11 @@ var _structuresDatas = [
       "adresseTemp":"21 place de la paix",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>poissonerie des arcades",
-      "cartePopuptext_en":"Commerce accepting jars<br/>poissonerie des arcades"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>poissonerie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>poissonerie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_boucherie_des_arcades",
+      "latitude":"47.211253",
+      "longitude":"-1.653139",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3123,9 +3193,11 @@ var _structuresDatas = [
       "adresseTemp":"13 place de la paix",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>boucherie des arcades",
-      "cartePopuptext_en":"Commerce accepting jars<br/>boucherie des arcades"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>boucherie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>boucherie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_le_ver_luisant",
+      "latitude":"47.199227",
+      "longitude":"-1.670963",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
       "type_en":" Commerce accepting jars",
@@ -3135,8 +3207,8 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/verluisant/?ref=br_rs",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le ver luisant",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Le ver luisant"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le ver luisant<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Le ver luisant<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_la_seve_et_la_pulple",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
@@ -3147,8 +3219,8 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/Laseveetlapulpe/?fref=nf",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>La seve et la pulple",
-      "cartePopuptext_en":"Commerce accepting jars<br/>La seve et la pulple"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>La seve et la pulple<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>La seve et la pulple<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_le_ptit_poids",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
@@ -3159,8 +3231,8 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/epicerie.leptitpoids/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le P'tit Poids",
-      "cartePopuptext_en":"Commerce accepting jars<br/>Le P'tit Poids"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le P'tit Poids<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Le P'tit Poids<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },      {"code":"jaimetesbocaux_obocal",
       "modesCollecte":"ventevrac",
       "type":" Commerce acceptant les bocaux",
@@ -3171,8 +3243,35 @@ var _structuresDatas = [
       "url":"https://www.facebook.com/OBocal/",
       "src":"Collectif << J'aime tes bocaux >>",
       "carteMarqueur":"6",
-      "cartePopuptext":"Commerce acceptant les bocaux<br/>O'Bocal",
-      "cartePopuptext_en":"Commerce accepting jars<br/>O'Bocal"
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>O'Bocal<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>O'Bocal<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+   },      {"code":"jaimetesbocaux_carol_et_fils",
+      "latitude":"47.22133",
+      "longitude":"-1.557834",
+      "modesCollecte":"ventevrac",
+      "type":" Commerce acceptant les bocaux",
+      "type_en":" Commerce accepting jars",
+      "nom":"Carol & Fils",
+      "nom_en":"Carol & Fils",
+      "adresseTemp":"Marché de Talensac",
+      "url":"www.carol-fils.com",
+      "src":"Collectif << J'aime tes bocaux >>",
+      "carteMarqueur":"6",
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Carol & Fils<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Carol & Fils<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+   },      {"code":"jaimestesbocaux_bouffay_spanol",
+      "latitude":"47.215183",
+      "longitude":"-1.552672",
+      "modesCollecte":"ventevrac",
+      "type":" Commerce acceptant les bocaux",
+      "type_en":" Commerce accepting jars",
+      "nom":"Le Bouffay'Spañol",
+      "nom_en":"Le Bouffay'Spañol",
+      "adresseTemp":"6 rue des échevins",
+      "src":"Collectif << J'aime tes bocaux >>",
+      "carteMarqueur":"6",
+      "cartePopuptext":"Commerce acceptant les bocaux<br/>Le Bouffay'Spañol<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
+      "cartePopuptext_en":"Commerce accepting jars<br/>Le Bouffay'Spañol<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
    },
       {"code":"3143",
       "zone":"hnnl",
@@ -5294,4 +5393,3 @@ var _structuresDatas = [
    },
    {"code":"no","latitude":"47.0","longitude":"-1.6","modesCollecte":"no","type":"no","type_en":"no"}
 ]
-
