@@ -21,10 +21,10 @@
 
   <div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
 
-  <a class="item" ng-repeat="fiche in results" ng-href="#/tab/fiches/detail/{{::fiche.code}}">
+  <a class="item item-thumbnail-left" ng-repeat="fiche in results" ng-href="#/tab/fiches/detail/{{::fiche.code}}">
 		<img ng-src="resources/images/{{::fiche.image}}"/>
-        {{'nom_translated'|translate:fiche}}
-		<div ng-show="fiche.type" style="color:#666">{{fiche.type}}</div>
+    <h2>{{'nom_translated'|translate:fiche}}</h2>
+		<p ng-show="fiche.type" style="color:#666">{{fiche.type}}</p>
   </a>
 </div>
 </ion-view>

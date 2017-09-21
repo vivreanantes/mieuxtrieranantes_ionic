@@ -22,9 +22,20 @@
         padding-top:44px;
     }
 
+    .top-pane .choice-bar {
+        padding : 1em;
+        padding-bottom: 0em;
+    }
+
+    .top-pane .choice-bar button {
+        margin-right: 1em;
+        padding: 3px 15px 5px 15px;
+        font-size: 14px;
+    }
+
     .bottom-pane {
         height:60vh;
-        padding-bottom:50px;
+        padding-bottom:55px;
         display: -webkit-flex;
         display: flex;
         flex-wrap: wrap;
@@ -108,6 +119,7 @@
         text-align:center;
         width:80%;
         margin:0 auto;
+        margin-top:2em;
         font-style:italic;
         background:#F5D0D0;
         padding:0.5em;
