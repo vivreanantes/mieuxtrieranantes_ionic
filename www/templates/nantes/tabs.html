@@ -12,6 +12,7 @@
    		</ion-nav-bar>
 
    		<!-- TABS -->
+		<!-- RM-TR_PAGE_01 : La barre de boutons permet d'accéder aux pages principales : accueil, trier, carte, lieux, infos. -->
    		<ion-tabs class="tabs-icon-top tabs-stable">
 
    			<!-- Dashboard Tab -->
@@ -20,55 +21,58 @@
    				<ion-nav-view name="tab-home"></ion-nav-view>
    			</ion-tab>
 
-   			<ion-tab title="{{'trier'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/dechet/cat">
+   			<ion-tab title="{{'trier'|translate}}" icon-off="ion-loop" icon-on="ion-loop" href="#/tab/dechet/cat">
    				<ion-nav-view name="tab-dechet"></ion-nav-view>
    			</ion-tab>
 
-   			<ion-tab title="{{'carte'|translate}}" icon-off="ion-ios-flag-outline" icon-on="ion-ios-flag" href="#/tab/carte">
+   			<ion-tab title="{{'carte'|translate}}" icon-off="ion-map" icon-on="ion-map" href="#/tab/carte">
    				<ion-nav-view name="tab-carte"></ion-nav-view>
    			</ion-tab>
 
-   			<ion-tab title="{{'lieux'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/lieu">
+   			<ion-tab title="{{'lieux'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home-outline" href="#/tab/lieu">
    				<ion-nav-view name="tab-lieu"></ion-nav-view>
    			</ion-tab>
 
-   			<ion-tab title="{{'fiches'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/fiches">
+   			<ion-tab title="{{'fiches'|translate}}" icon-off="ion-university" icon-on="ion-university" href="#/tab/fiches">
    				<ion-nav-view name="tab-fiches"></ion-nav-view>
    			</ion-tab>
-			  <!--
-			  <ion-tab title="{{'collete_a_domicile'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/domicile" hidden="true">
+			
+			<ion-tab ng-show="isNavigator" title="{{'jeux'|translate}}" icon-off="ion-happy-outline" icon-on="ion-happy-outline" href="#/tab/jeux">
+			    <ion-nav-view name="tab-jeux"></ion-nav-view>
+			</ion-tab>
+
+			
+			<!-- Pour navigateur uniquement -->
+			<!--
+			  <ion-tab ng-show="isNavigator" title="{{'collete_a_domicile'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/domicile">
 				<ion-nav-view name="tab-domicile"></ion-nav-view>
 			  </ion-tab>
-			
-			  <ion-tab  icon-off="ion-folder" icon-on="ion-folder" href="#/tab/trisac" hidden="true">
+
+			  <ion-tab ng-show="isNavigator" title="{{'trisac'|translate}}" icon-off="ion-folder" icon-on="ion-folder" href="#/tab/trisac">
 			    <ion-nav-view name="tab-trisac"></ion-nav-view>
 			  </ion-tab>
-			  
-			  <ion-tab icon-off="ion-flag" icon-on="ion-flag" href="#/tab/quiz" hidden="true">
-			    <ion-nav-view name="tab-quiz"></ion-nav-view>
-			  </ion-tab>
 			
-			  <ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/docs" hidden="true">
+			  <ion-tab ng-show="isNavigator" title="{{'home_docs_imprimables'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/docs">
 			    <ion-nav-view name="tab-docs"></ion-nav-view>
 			  </ion-tab>
-			-->
-			  <!--<ion-tab icon-off="ion-ios-trash-outline" icon-on="ion-ios-trash" href="#/tab/jeux" hidden="true">
+			  
+			  <ion-tab ng-show="isNavigator" title="{{'jeux'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/jeux">
 			    <ion-nav-view name="tab-jeux"></ion-nav-view>
-			</ion-tab>-->
-			
-			  <!--<ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/zerodechetnantes" hidden="true">
+			  </ion-tab>
+			  
+			  <ion-tab ng-show="isNavigator" title="{{'zerodechetnantes'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/zerodechetnantes" hidden="true">
 			    <ion-nav-view name="tab-zerodechetnantes"></ion-nav-view>
-			</ion-tab>-->
-<!--
-			  <ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/companiesadvices" hidden="true">
+			  </ion-tab>
+
+			  <ion-tab ng-show="isNavigator" title="{{'companiesadvices'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/companiesadvices" hidden="true">
 			    <ion-nav-view name="tab-companiesadvices"></ion-nav-view>
 			  </ion-tab>
 			  
-			  <ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/apropos" hidden="true">
+			  <ion-tab ng-show="isNavigator" title="{{'config'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/apropos" hidden="true">
 			    <ion-nav-view name="tab-apropos"></ion-nav-view>
 			  </ion-tab>
 			  
-			  <ion-tab icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/config" hidden="true">
+			  <ion-tab ng-show="isNavigator" title="{{'apropos'|translate}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/config" hidden="true">
 			    <ion-nav-view name="tab-config"></ion-nav-view>
 			  </ion-tab>
 			-->
@@ -79,6 +83,7 @@
 	</ion-side-menu-content>
 
 	<!-- Side Menu (right) -->
+	<!-- RM-TR_PAGE_02 : Le bouton de menu permet d'accéder aux pages secondaires, qui changent selon la version du logiciel. -->
 	<ion-side-menu side="right">
 		<ion-header-bar class="bar bar-header bar-stable">
 			<div class="title">{{'menu'|translate}}</div>
@@ -88,9 +93,9 @@
 				<ion-item nav-clear menu-close href="#/tab/domicile">{{'collete_a_domicile'|translate}}</ion-item>
 				<ion-item nav-clear menu-close href="#/tab/trisac">{{'trisac'|translate}}</ion-item>
 				<ion-item nav-clear  menu-close href="#/tab/docs">{{'home_docs_imprimables'|translate}}</ion-item>
-				<!--<ion-item nav-clear  menu-close href="#/tab/jeux">{{'jeux'|translate}}</ion-item>-->
 				<ion-item nav-clear  menu-close href="#/tab/zerodechetnantes">{{'zerodechetnantes'|translate}}</ion-item>
 				<ion-item nav-clear menu-close href="#/tab/companiesadvices">{{'companiesadvices'|translate}}</ion-item>
+				<!-- RM-PA_BOUTON_01 : Un bouton permet d'accéder à la page de paramétrage. -->
 				<ion-item nav-clear menu-close href="#/tab/config">{{'config'|translate}}</ion-item>
 				<ion-item nav-clear menu-close href="#/tab/apropos">{{'apropos'|translate}}</ion-item>
 			</ion-list>

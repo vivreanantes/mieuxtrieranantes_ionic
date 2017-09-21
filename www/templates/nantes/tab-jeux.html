@@ -1,7 +1,58 @@
-<ion-view view-title="{{'jeux'|translate}}">
- <ion-content class="has-footer">
+<ion-view view-title="Le bon tri" class="game">
 
-<a href="/#/tab/quiz" class="button" disable="true">{{'quiz'|translate}}</a>
-      
-  </ion-content>
+<!-- GAME -->
+
+<div ng-show="gameplay.gameEnd=='false'">
+
+<div class="top-pane">
+
+	<div class="choice-bar">
+		<button class="button button-small button-dark" ng-repeat="type in active_filters" ng-click="changeType(type)">
+		{{type}}
+		</button>
+	</div>
+	<div>
+		<div class="col" style="text-align:center">
+			<div style="font-size:1.3em;margin-bottom:1em">Question : {{ gameplay.currentQuestionIndex + 1 }} / {{  questions.length }}</div>
+			<div style="font-size:1.5em">{{gameplay.currentQuestion.descr}} ?</div>
+			<div style="color:grey" ng-show="gameplay.currentQuestion.descr_comp" style="font-size:1.5em">{{gameplay.currentQuestion.descr_comp}}</div>
+		</div>
+	</div>
+	<div class="question-image">
+		<div ng-hide="temporaryHide" class="drag-object" ng-drag="true" ng-drag-data="gameplay.currentQuestion" allowTransform="false">
+			<img ng-src="resources/images/thegoodsorting/{{gameplay.currentQuestion.image}}"/>
+		</div>
+	</div>
+	<div ng-show="advice!=''" class="advice">
+	Explication : {{advice}}
+	</div>
+
+</div>
+<div class="bottom-pane">
+	<div class="bottom_reponses" style="overflow: visible;">
+	<div ng-repeat="reponse in reponses" class="reponse {{reponse.answerClass}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >			
+			<img ng-src="resources/images/thegoodsorting/{{reponse.image}}"/>
+			<div style="color:black">{{reponse.descr}}</div>
+	</div>
+	</div>
+</div>
+
+</div>
+
+<!-- GAME END -->
+
+<div ng-show="gameplay.gameEnd=='true'">
+    <div class="absolute-center">
+    <h2>Votre score</h2>
+    <jk-rating-stars max-rating="4" rating="numstars" read-only="true" ></jk-rating-stars>
+	<!-- <div ng-repeat="item in result_end">{{item}}</div> -->
+	<div>
+		<a class="button button-calm icon-left ion-play" ng-click="startANewAGame()">Rejouer</a>
+	</div>
+    </div>
+</div>
+
 </ion-view>
+
+
+		

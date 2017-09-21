@@ -1,5 +1,18 @@
 var _infosDatas = [
-
+   {
+      "code":"fiche_aremacs",
+      "nom":"Aremacs",
+      "nom_en":"Aremacs",
+      "descr":"<src img='resources/images/nantes/aremacs_mini.png' width='150px' /><br/>Aremacs est une association qui intervient lors des grands évènements pour le tri des déchets. <br/>Ils posent notamment des poubelles de tri pour les grands événements nantais, et veillent lors de toute la soirée à la bonne utilisation (et à vider) ces poubelles. <br/><br/>Son antenne sur Nantes est très active et de nombreux évènements sont couverts : le feu d'artifice, les rendez-vous de l'Erdre...<br/><br/>Adresse : 27 rue de Strasbourg, 44000 NANTES<br/>Tél : 02 51 82 37 23<br/>nantes@aremacs.com<br/><br/>Plus d'infos sur <a target=_blank href='http://www.aremacs.com/' >http://www.aremacs.com/</a>",
+      "descr_en":"<img src='resources/images/nantes/aremacs_mini.png' width='150px' /><BR/>Aremacs is an organization active at major events for sorting waste. They pose particular sorting bins for large events Nantes, and ensure during the whole evening to good use (and empty) these bins.<BR/>Nantes Its antenna is very active and many events are covered: the fireworks, the appointment of Erdre ...<BR/>Address: 27 rue de Strasbourg, 44000 NANTES<BR/>Tel: 02 51 82 37 23<BR/>nantes@aremacs.com<BR/>More information <a target='_blank' href='http://www.aremacs.com/ '> http://www.aremacs.com/ </a>",
+      "bouton":"fiche",
+      "image":"nantes/aremacs_mini.png",
+      "mots_cles":"aremacs,fete,evenement",
+      "mots_cles_en":"aremacs,fest,event",
+      "categorie":"initiative_locale",
+      "source":"Mieux trier à Nantes",
+      "urls":"http://www.aremacs.com"
+   },
    {
       "code":"fiche_bacjaune",
       "nom":"Bacs jaunes et bleus",
@@ -9,7 +22,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/bacs_jaune_et_bleu.png",
       "mots_cles":"bacs,jaunes,bleus",
-      "mots_cles_en":"bins,yellow,blue"
+      "mots_cles_en":"bins,yellow,blue",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_bouchon_amour",
@@ -21,6 +36,8 @@ var _infosDatas = [
       "image":"bouchon_plastique_mini.png",
       "mots_cles":"bouchons,amour",
       "mots_cles_en":"caps,love",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes",
       "urls":"http://www.bouchonsdamour.com/les-bons-bouchons"
    },
    {
@@ -32,30 +49,36 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/encombrant_mini.png",
       "mots_cles":"collecte,encombrant",
-      "mots_cles_en":"collection,bulky"
+      "mots_cles_en":"collection,bulky",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_compostage",
       "nom":"Compostage",
       "nom_en":"Composting",
-      "descr":"<IMG SRC='resources/images/composteur_mini.png' ALIGN='left' />Le compostage est un processus de décomposition. En première phase, la température peut atteindre jusqu'à 70°, et une bonne aération est nécessaire (pour les bactéries 'aérobies'). En seconde phase, champignons, lombrics et autres petits animaux sont à l'œuvre Il faut 6 mois-1 an pour un bon compost.<BR/><BR/><B>Le compost peut contenir</B> :<BR/> - les restes de la cuisine : céréales, épluchures, fruits, légumes, marc de café, sachets de thé,<BR/> - les restes du jardin : fleurs fanées, feuilles mortes, foin, gazon séché, mauvaises herbes, paille, plantes de jardin, sciure de bois en petite quantité,<BR/> - les restes de la maison : cendres (en petite quantité), cheveux, essuie-tout, filtres à café, mouchoirs en papier, papier, poussière.<BR/><BR/><IMG SRC='resources/images/epeluchure_mini.png' ALIGN='right' /><B>De préférence, éviter</B> :<BR/> - le pain en grosse quantité,<BR/> - les coquilles d'œufs (non biodégradable),<BR/> - les écorces d'agrumes non traités.<BR/><BR/><B>Ne surtout pas mettre</B><BR/> :  - branches en grosse quantité,<BR/> - coquilles de noix et noisettes,<BR/> - écorces d'agrumes traités,<BR/> - feuilles de noyer ou rhubarbe,<BR/> - fromage (attire rats, souris...),<BR/> - graisses,<BR/> - herbes traitées,<BR/> - laits et produits laitiers,<BR/> - litières animaux,<BR/> - plantes malades, <BR/> - reste de taille de jardinage en grosse quantité,<BR/> - viandes (odeur forte, attire rats, chiens...).<BR/><BR/><B>Quelques conseils</B> :<BR/> - équilibrer entre déchets secs et humides,<BR/> - aérer : ne pas tasser, mais retourner de temps en temps,<BR/> - mouiller un peu.<BR/><BR/><FONT COLOR=red>Source principale : <A HREF='http://fr.ekopedia.org/Compost' TARGET='_new'>article Compost sur Ékopédia</A></FONT>",
-      "descr_en":"<IMG src='resources/images/composteur_mini.png' align='left' /> Composting is the decomposition process. In first phase, the temperature can reach up to 70 °, and good ventilation is required (for the bacteria 'aerobic'). In second phase, fungi, earthworms and other small animals are at work It takes 6 months-1 year for good compost<BR/><BR/><B> Compost can contain </B>. <BR /> - the kitchen scraps cereals, vegetable peelings, fruit, vegetables, coffee grounds, tea bags,<BR/>- the remains of the garden: faded flowers, leaves, hay, dried grass, weeds, straw , garden plants, sawdust sparingly,<BR/>- the remains of the house: ash (in small quantities), hair, paper towels, coffee filters, paper towels, paper, dust<BR/><BR/><IMG src='resources/images/epeluchure_mini.png' align='right' /> <B> Preferably avoid </B>:<BR/>- the bread in large quantities, < BR /> - egg shells (non-biodegradable)<BR/>. - untreated citrus peel<BR/><BR/><B> Please do not put </B><BR/>- branches in large quantities,<BR/>- hazelnut and walnut shells,<BR/>- treated citrus peel,<BR/>- walnut leaves or rhubarb,<BR/>- cheese (attracts rats, mouse ...),<BR/>- fats,<BR/>- processed herbs,<BR/>- milk and dairy products,<BR/>- pet beds,<BR/>- diseased plants,<BR/>- rest of gardening in bulk size,<BR/>- meats (strong smell attracts rats, dogs ...)<BR/><BR/><B> Tips </B>:<BR/>- balance between dry and wet waste<BR/>- airing: do not pack, but return occasionally,<BR/>- a little wet<BR/><BR/><FONT COLOR=red> Main source: <A HREF='http://fr.ekopedia.org/Compost' TARGET='_new'> Article Compost on Ekopedia </A> </font>",
+      "descr":"<IMG SRC='resources/images/composteur_mini.png' ALIGN='left' />Le compostage est un processus de décomposition. En première phase, la température peut atteindre jusqu'à 70°, et une bonne aération est nécessaire (pour les bactéries 'aérobies'). En seconde phase, champignons, lombrics et autres petits animaux sont à l'œuvre Il faut 6 mois-1 an pour un bon compost.<BR/><BR/><B>Le compost peut contenir</B> :<BR/> - les restes de la cuisine : céréales, épluchures, fruits, légumes, marc de café, sachets de thé,<BR/> - les restes du jardin : fleurs fanées, feuilles mortes, foin, gazon séché, mauvaises herbes, paille, plantes de jardin, sciure de bois en petite quantité,<BR/> - les restes de la maison : cendres (en petite quantité), cheveux, essuie-tout, filtres à café, mouchoirs en papier, papier, poussière.<BR/><BR/><IMG SRC='resources/images/epeluchure_mini.png' ALIGN='right' /><B>De préférence, éviter</B> :<BR/> - le pain en grosse quantité,<BR/> - les coquilles d'œufs (non biodégradable),<BR/> - les écorces d'agrumes non traités.<BR/><BR/><B>Ne surtout pas mettre</B><BR/> :  - branches en grosse quantité,<BR/> - coquilles de noix et noisettes,<BR/> - écorces d'agrumes traités,<BR/> - feuilles de noyer ou rhubarbe,<BR/> - fromage (attire rats, souris...),<BR/> - graisses,<BR/> - herbes traitées,<BR/> - laits et produits laitiers,<BR/> - litières animaux,<BR/> - plantes malades, <BR/> - reste de taille de jardinage en grosse quantité,<BR/> - viandes (odeur forte, attire rats, chiens...).<BR/><BR/><B>Quelques conseils</B> :<BR/> - équilibrer entre déchets secs et humides,<BR/> - aérer : ne pas tasser, mais retourner de temps en temps,<BR/> - mouiller un peu.<BR/><BR/><FONT COLOR=red>Source principale : article Compost sur Ékopédia</FONT>",
+      "descr_en":"<IMG src='resources/images/composteur_mini.png' align='left' /> Composting is the decomposition process. In first phase, the temperature can reach up to 70 °, and good ventilation is required (for the bacteria 'aerobic'). In second phase, fungi, earthworms and other small animals are at work It takes 6 months-1 year for good compost<BR/><BR/><B> Compost can contain </B>. <BR /> - the kitchen scraps cereals, vegetable peelings, fruit, vegetables, coffee grounds, tea bags,<BR/>- the remains of the garden: faded flowers, leaves, hay, dried grass, weeds, straw , garden plants, sawdust sparingly,<BR/>- the remains of the house: ash (in small quantities), hair, paper towels, coffee filters, paper towels, paper, dust<BR/><BR/><IMG src='resources/images/epeluchure_mini.png' align='right' /> <B> Preferably avoid </B>:<BR/>- the bread in large quantities, < BR /> - egg shells (non-biodegradable)<BR/>. - untreated citrus peel<BR/><BR/><B> Please do not put </B><BR/>- branches in large quantities,<BR/>- hazelnut and walnut shells,<BR/>- treated citrus peel,<BR/>- walnut leaves or rhubarb,<BR/>- cheese (attracts rats, mouse ...),<BR/>- fats,<BR/>- processed herbs,<BR/>- milk and dairy products,<BR/>- pet beds,<BR/>- diseased plants,<BR/>- rest of gardening in bulk size,<BR/>- meats (strong smell attracts rats, dogs ...)<BR/><BR/><B> Tips </B>:<BR/>- balance between dry and wet waste<BR/>- airing: do not pack, but return occasionally,<BR/>- a little wet<BR/><BR/><FONT COLOR=red> Main source : Article Compost on Ekopedia</font>",
       "bouton":"fiche",
       "image":"composteur_mini.png",
       "mots_cles":"compostage",
       "mots_cles_en":"compostri",
-      "urls":"http://fr.ekopedia.org/Compost"
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes",
+      "urls":"https://www.ekopedia.fr/wiki/Compost"
    },
    {
       "code":"fiche_compostri",
       "nom":"Compostri",
       "nom_en":"Compostri",
       "descr":"<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><br/><br/>C'est une association nantais qui aide à la constructions de composteurs collectifs, en accompagnant les particuliers à la création et l'alimentation du composteur.<b>Compostri favorise la mise en place de projets de compostage partagé</b> et accompagne les habitants dans cette démarche à l'échelle d'un quartier, immeuble, groupe d'immeubles, écoles maternelles et primaires ... <b>sur le territoire de Nantes Métropole</b> et avec le soutien de cette collectivité.<br/><br/>Aujourd'hui 120 sites de compostage partagé sont en fonctionnement sur le territoire nantais. Ces pavillons sont mis en place grâce au soutien de Nantes Métropole.<br/>Compostri et ses 3 guides composteurs accompagnent les citoyens porteurs de projets : aide à l'installation de pavillons de compostage, formation, suivi technique.<br/><br/>Cette association accompagne également les groupes scolaires: restaurants associatifs, foyers de jeunes, EHPAD et dernièrement une moyenne surface (30 tonnes de bio-déchets /an).<br/><br/>Adresse : 18, quai du Président Wilson, 44200 Nantes<br/><br/>Tél : 09 82 45 22 21<br/><br/>courriel : contact@compostri.fr<br/><br/><a href='http://www.compostri.fr/' target=_blank>http://www.compostri.fr/</a>",
-      "descr_en":"<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><BR/>Nantes This is a combination that helps the construction of collective composters, accompanying individuals to the creation and supply of compost. <b> Compostri promotes the establishment of shared composting projects </b> and accompanies the people in this process at the neighborhood level, building, group of buildings, kindergartens and schools ... <b> in the territory of Nantes Métropole </b> and with the support of this community. Today<BR/>120 shared composting sites are operating on the territory Nantes. These pavilions are set up with the support of Nantes Métropole<BR/>Compostri and three composters guides accompany project promoters citizens. Installation help composting pavilions, training, technical monitoring<BR/><. br /> This association also accompanied school groups. associative restaurants, hostels for young, retirement homes and lately an average size (30 tonnes of bio-waste / year)<BR/>Address: 18, President of the dock Wilson, 44200 Nantes<BR/>Tel: 09 82 45 22 21<BR/>email: contact@compostri.fr<BR/><a href='http://www.compostri.fr/ 'target='_blank'> http://www.compostri.fr/ </a>",
+      "descr_en":"<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><BR/>Nantes This is a combination that helps the construction of collective composters, accompanying individuals to the creation and supply of compost. <b> Compostri promotes the establishment of shared composting projects </b> and accompanies the people in this process at the neighborhood level, building, group of buildings, kindergartens and schools ... <b> in the territory of Nantes Métropole </b> and with the support of this community. Today<BR/>120 shared composting sites are operating on the territory Nantes. These pavilions are set up with the support of Nantes Métropole<BR/>Compostri and three composters guides accompany project promoters citizens. Installation help composting pavilions, training, technical monitoring<BR/><. br /> This association also accompanied school groups. associative restaurants, hostels for young, retirement homes and lately an average size (30 tonnes of bio-waste / year)<BR/>Address: 18, President of the dock Wilson, 44200 Nantes<BR/>Tel: 09 82 45 22 21<BR/>email: contact@compostri.fr",
       "bouton":"fiche",
       "image":"nantes/logo_compostri_mini.png",
       "mots_cles":"compostri",
       "mots_cles_en":"container,packaging,newspaper,magazine",
+      "categorie":"initiative_locale",
+      "source":"Mieux trier à Nantes",
       "urls":"http://www.compostri.fr"
    },
    {
@@ -67,30 +90,36 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_emballages_journaux_magazines_mini.png",
       "mots_cles":"conteneur,emballage,journal,magasine",
-      "mots_cles_en":"containers,clothing"
+      "mots_cles_en":"containers,clothing",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_contvet",
       "nom":"Conteneurs vêtements",
       "nom_en":"Containers clothing",
-      "descr":"<IMG SRC='resources/images/conteneur_le_relais_instructions.jpg' WIDTH='250px' /><br/><b>Des sociétés récupèrent les vêtements pour les revendre</b>. En 2013 une dizaine de société (aucune association) possèdent 28 000 conteneurs en France et récupèrent environ 200 000 tonnes de vêtements. <i>D'un côté la tonne de textile usagé est passée de 80 € la tonne en 2007 à 400 € en 2013. De l'autre l'éco-contribution textile, mise en place en 2008 (perçu 0,005 € pour chaque vêtement vendu) est reversée vers les sociétés européennes qui traite le textile recyclé (56 euros la tonne) soit au global 13 millions d'euros)</i>.<br/><br/><b>Ce système a des défauts.</b> L'éco-contribution textile est reversée sans que des contrôles sérieux n'ait lieu (<b>le tri n'est pas toujours réalisé</b>) et cela produit <b>beaucoup de transport</b>. Les vêtements ne sont <b>pas redistribués aux personnes dans le besoin mais revendus</b> (les autocollants des associations sur les conteneurs - comme 'Emmaüs' - signifie que la société qui gère le conteneur reverse de l'argent à une association).<br/><br/><b>Le Relais</b> est une SCOP (société coopérative ouvrière de production), créés en 1984, numéro un (55 %) de la collecte en France. L'objectif était de ramener vers l'emploi des personnes que Emmaüs avait accueillies. Elle fait donc de la réinsertion sociale (actuellement 2500 employés dans le monde, dont 2000 en France) avec un chiffre d'Affaire en 2013 de 180 millions euros. Elle a 19000 conteneurs, 600 camions et traite 100 000 tonnes de vêtements usagés.<br/>Le vêtements ne sont pas redistribués : les vêtements de marque sont revendus dans les boutiques Le Relais, les autres sont exportés (notamment vers l'Afrique où la plupart est revendue, certains se retrouvent dans des dépotoirs) et ceux qui sont usagés (30 %) sont transformés en isolant et revendus pour l'industrie.",
+      "descr":"<IMG SRC='resources/images/conteneur_le_relais_instructions.jpg' WIDTH='250px' /><br/><b>Des sociétés récupèrent les vêtements pour les revendre</b>. En 2013 une dizaine de société (aucune association) possèdent 28 000 conteneurs en France et récupèrent environ 200 000 tonnes de vêtements. <i>D'un côté la tonne de textile usagé est passée de 80 € la tonne en 2007 à 400 € en 2013. De l'autre l'éco-contribution textile, mise en place en 2008 (perçu 0,005 € pour chaque vêtement vendu) est reversée vers les sociétés européennes qui traite le textile recyclé (56 euros la tonne) soit au global 13 millions d'euros)</i>.<br/><br/><b>Ce système a des défauts.</b> L'éco-contribution textile est reversée sans que des contrôles sérieux n'ait lieu (<b>le tri n'est pas toujours réalisé</b>) et cela produit <b>beaucoup de transport</b>. Les vêtements ne sont <b>pas redistribués aux personnes dans le besoin mais revendus</b> (les autocollants des associations sur les conteneurs - comme 'Emmaüs' - signifie que la société qui gère le conteneur reverse de l'argent à une association).<br/><br/><b>Le Relais</b> est une SCOP (société coopérative ouvrière de production), créés en 1984, numéro un (55 %) de la collecte en France. L'objectif était de ramener vers l'emploi des personnes que Emmaüs avait accueillies. Elle fait donc de la réinsertion sociale (actuellement 2500 employés dans le monde, dont 2000 en France) avec un chiffre d'Affaire en 2013 de 180 millions euros. Elle a 19000 conteneurs, 600 camions et traite 100 000 tonnes de vêtements usagés.<br/>Les vêtements ne sont pas redistribués : les vêtements de marque sont revendus dans les boutiques Dng-Fring, les autres sont exportés (notamment vers l'Afrique où la plupart est revendue, certains se retrouvent dans des dépotoirs) et ceux qui sont usagés (30 %) sont transformés en isolant et revendus pour l'industrie.",
       "descr_en":"<IMG src='resources/images/conteneur_le_relais_instructions.jpg' WIDTH='250px' /><BR/><b> Companies retrieve clothes for resale </b>. In 2013 ten Company (no association) have 28,000 containers in France and recover about 200 000 tonnes of clothes. <i> On one side tonne of used textiles rose from € 80 per tonne in 2007 to € 400 in 2013. On the other textile eco-contribution, established in 2008 (received € 0.005 for each garment sold) is paid to European companies that processes the recycled textiles (56 per tonne) at € 13 million overall) </ i>.<BR/><b> This system has flaws. </b> The textile eco-contribution is paid without serious control takes place (<b> sorting is not always realized </b>) and this produces <b> many transportation </b>. Clothes are <b> not distributed to those in need but resold </b> (stickers on the containers associations - such as Emmaus' - means that the company that manages the container pays money to an association ).<BR/><b> Le Relais </b> is a SCOP (workers' production cooperative), created in 1984, a number (55%) of the collection in France. The goal was to bring people into employment that Emmaus had welcomed. It therefore made social reintegration (currently 2,500 employees worldwide, including 2,000 in France) with annual Business in 2013 of 180 million euros. She containers 19000, 600 trucks and treats 100,000 tons of used clothing<BR/>The clothes are not redistributed. Designer clothes are sold in boutiques Le Relais, others are exported (especially to Africa where most is sold, some end up in dumps) and those used (30%) were processed by isolating and sold to the industry.",
       "bouton":"fiche",
       "image":"conteneur_lerelais_mini.png",
       "mots_cles":"conteneurs,vetements",
-      "mots_cles_en":""
+      "mots_cles_en":"",
+      "categorie":"general",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_coucheslavables",
       "nom":"Couches lavables",
       "nom_en":"Cloth diapers",
-      "descr":"Pourquoi ne pas tester les couches lavables ? Une couche de bonne qualité coûte entre 15 et 20 euros, et se revend 7 euros d'occasion. Il en faut environ 25 (il est recommandé de changer le bébé 8-9 fois par jour pour ce type de couche). Certaines couches sont moins épaisses, et ne donnent pas cet effet 'gros popotin'. Voir 'vente en vrac' sur la page Lieux.<br/><br/><img src='resources/images/nantes/logo_arbalange.png' /><br/><b>Arbalange</B><br/>En 2009, des Nantais ont créés Arbalange. Cette SARL alimentait des crèches en couches lavables. Elle s'est diversifiée (confection/vente de couches), mais a fermé en 2011. Retour sur cette expérience.<br/><a href='http://www.atelier-idf.org/ressources/breves/2012-01-27,arbalange-explications-faillite.htm' target='_blank'>Article 'Arbalange : pourquoi ça a fermé'</a>",
-      "descr_en":"Why not test cloth diapers? A layer of good quality costs between 15 and 20 euros, and resells used 7 euros. It takes about 25 (it is recommended to change the baby 8-9 times per day for this type of layer). Some layers are thinner, and do not give this effect 'big butt'. See 'loose sales' on the page 'Lieux'.<BR/><img src='resources/images/nantes/logo_arbalange.png'/><br/><b>Arbalange</B><br/>In 2009, they created Arbalange Nantais. This fueled SARL nurseries in cloth diapers. . It expanded (manufacture / sale of layers), but closed in 2011. Back on this experience<BR/><a href='http://www.atelier-idf.org/ressources/breves/2012-01to27,arbalange-explanations-faillite.htm' target='_ blank'>Article 'Arbalange : why it closed'</a>",
+      "descr":"Pourquoi ne pas tester les couches lavables ? Une couche de bonne qualité coûte entre 15 et 20 euros, et se revend 7 euros d'occasion. Il en faut environ 25 (il est recommandé de changer le bébé 8-9 fois par jour pour ce type de couche). Certaines couches sont moins épaisses, et ne donnent pas cet effet 'gros popotin'. Voir 'vente en vrac' sur la page Lieux.<br/><br/><img src='resources/images/nantes/logo_arbalange.png' /><br/><b>Arbalange</B><br/>En 2009, des Nantais ont créés Arbalange. Cette SARL alimentait des crèches en couches lavables. Elle s'est diversifiée (confection/vente de couches), mais a fermé en 2011. Retour sur cette expérience.",
+      "descr_en":"Why not test cloth diapers? A layer of good quality costs between 15 and 20 euros, and resells used 7 euros. It takes about 25 (it is recommended to change the baby 8-9 times per day for this type of layer). Some layers are thinner, and do not give this effect 'big butt'. See 'loose sales' on the page 'Lieux'.<BR/><img src='resources/images/nantes/logo_arbalange.png'/><br/><b>Arbalange</B><br/>In 2009, they created Arbalange Nantais. This fueled SARL nurseries in cloth diapers. . It expanded (manufacture / sale of layers), but closed in 2011. Back on this experience.",
       "bouton":"fiche",
       "image":"couches_lavables_1.png",
       "mots_cles":"couche,lavable,arbalange",
       "mots_cles_en":"cloth,diaper,arbalange",
-      "urls":"http://www.atelier-idf.org/ressources/breves/2012-01-27,arbalange-explications-faillite.htm"
+      "categorie":"general",
+      "source":"Mieux trier à Nantes",
+      "urls":"https://mieuxtrieranantes.wordpress.com/2014/12/22/arbalange-service-couches-lavables/"
    },
    {
       "code":"fiche_contpapiercarton",
@@ -101,7 +130,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_carton_mini.png",
       "mots_cles":"conteneur,papier,carton",
-      "mots_cles_en":"container,paper,cardboard"
+      "mots_cles_en":"container,paper,cardboard",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_contmpb",
@@ -112,7 +143,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_plastique_mini.png",
       "mots_cles":"conteneur,plastique",
-      "mots_cles_en":"container,plastic"
+      "mots_cles_en":"container,plastic",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_contverre",
@@ -123,7 +156,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"conteneur_verre_mini.png",
       "mots_cles":"conteneur,verre",
-      "mots_cles_en":"container,glass"
+      "mots_cles_en":"container,glass",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_ecopoint",
@@ -134,7 +169,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/ecopoint_viarme_mini.png",
       "mots_cles":"decheteries,ecopoint",
-      "mots_cles_en":"decheteries,ecopoint"
+      "mots_cles_en":"decheteries,ecopoint",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_ecoparticipation",
@@ -145,7 +182,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"ticket_caisse_ecoparticipation_mini.png",
       "mots_cles":"eco,participation,taxe",
-      "mots_cles_en":"greentax"
+      "mots_cles_en":"greentax",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_poubelle",
@@ -157,6 +196,8 @@ var _infosDatas = [
       "image":"images_externes_libres/portrait_eugene_poubelle_mini.png",
       "mots_cles":"eugene,poubelle",
       "mots_cles_en":"eugene,poubelle",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes",
       "urls":"http://fr.wikipedia.org/wiki/Eug%C3%A8ne_Poubelle"
    },
    {
@@ -164,11 +205,13 @@ var _infosDatas = [
       "nom":"Logos utilisés",
       "nom_en":"Logos used",
       "descr":"<IMG SRC='resources/images/images_non_libres/logo_contribution_petit.png' width='50px' /> Le fabriquant verse une contribution à l'une de ces trois sociétés : Eco-Emballage, Adelphe ou Cyclamed. <B>Ceci ne signifie pas que le produit est recyclable</B>.<BR/><IMG SRC='resources/images/images_non_libres/logo_triman.png' width='50px' />Il existe une consigne de tri.</B>.<BR/><IMG SRC='resources/images/images_non_libres/moebius_sans_mini.png' width='50px' /> Ce produit ou cet emballage est <B>recyclable</B>.<BR/><IMG SRC='resources/images/images_non_libres/moebius_mini.png' width='50px' /> Ce produit ou cet emballage contient <B>65 % de matières recyclées</B>.<BR/><BR/><IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pete_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-hdpe_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pvc_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ldpe_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pp_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ps_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-autres_mini.png' width='50px' /><BR/>Les logos sur les plastiques (listes des produits non exhaustives) : <LI>1 : PET (Polyéthylène Teraphtalate) : bouteilles de soda <B>recyclable</B></LI><LI>2 : PEHD (Polyéthylène haute densité) : bouteille de lait, jus de fruit, javel, détergent, de shampoing, <B>recyclable</B></LI><LI>3 : PVC (PolyChlorure de Vinyle) : bouteilles détergent, shampoing, tuyau gris, gaine électrique... <B>recyclable</B> (rarement recyclé)</LI><LI>4 : PELD (Polyéthylène basse densité) : bouteilles compressibles, sacs cabas, moquettes : <B>pas recyclable</B> (ou difficilement)</LI><LI>5 : PP (Polypropylène) : pots de yaourt, bouteilles de ketchup, bouchons de boisson gazeuses... <B>pas recyclable</B> (ou difficilement, comme Les Bouchons d'Amour)</LI><LI>6 : PSE (Polystyrène Expansé) : assiettes jetables, boitiers CDs, barquette alimentaire <B>pas recyclable</B> (ou difficilement)</LI><LI>7 : autres plastiques <B>pas recyclable</B> (ou difficilement)</LI><B>Privilégiez les produits avec les logos 1 et 2</B>.",
-      "descr_en":"<IMG src='resources/images/images_non_libres/logo_contribution_petit.png' width='50px' /> The manufacturer is contributing to one of these three companies: Eco-Emballage, Adelphe or Cyclamed. <B> This does not mean that the product is recyclable </B>.<BR/><IMG SRC='resources/images/images_non_libres/logo_triman.png' width='50px' />There is a sorting instruction.</B>.<BR/><IMG src='resources/images/images_non_libres/moebius_sans_mini.png' width='50px' /> This product or the packaging is <b>recycled </B>.<BR/><IMG src='resources/images/images_non_libres/moebius_mini.png' width='50px' /> This product and the packaging contains <B> 65% recycled materials </B>.<BR/><BR/><IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pete_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-hdpe_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pvc_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ldpe_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pp_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ps_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-autres_mini.png' width='50px' /><BR/>logos on plastic (non-exhaustive list of products): <LI> 1: PET (Polyethylene terephthalate) bottles of soda <B> recycled </B> </LI><LI> 2: HDPE (high density polyethylene) bottle of milk, fruit, bleach juice, detergent, shampoo, <B> recycled </B> </LI><LI> 3: PVC (polyvinyl chloride) : detergent bottles, shampoo, gray pipe, electrical conduit ... <B> recycled </B> (rarely recycled) </LI><LI> 4: LDPE (Low Density Polyethylene): squeeze bottles, shopping bags, carpet: <B> not recyclable </B> (or difficult) </LI><LI> 5: PP (Polypropylene): yogurt cups, ketchup bottles, soft drink caps ... <B> not recyclable </b> (or difficult, as the plugs Love) </LI><LI> 6: EPS (Expanded Polystyrene): disposable plates, housings CDs, food tray <B> not recyclable </B> (or difficult) </LI><LI> 7: other plastics <B> not recyclable </B> (or difficult) </LI><B> Favour products with the logos 1 and 2 </B><BR/>More. Info: <A HREF='http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/' target='_blank'>http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques/</A>",
+      "descr_en":"<IMG src='resources/images/images_non_libres/logo_contribution_petit.png' width='50px' /> The manufacturer is contributing to one of these three companies: Eco-Emballage, Adelphe or Cyclamed. <B> This does not mean that the product is recyclable </B>.<BR/><IMG SRC='resources/images/images_non_libres/logo_triman.png' width='50px' />There is a sorting instruction.</B>.<BR/><IMG src='resources/images/images_non_libres/moebius_sans_mini.png' width='50px' /> This product or the packaging is <b>recycled </B>.<BR/><IMG src='resources/images/images_non_libres/moebius_mini.png' width='50px' /> This product and the packaging contains <B> 65% recycled materials </B>.<BR/><BR/><IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pete_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-hdpe_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pvc_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ldpe_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-pp_mini.png' width='50px' />  <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-ps_mini.png' width='50px' /> <IMG SRC='resources/images/images_non_libres/logo-emballage-plastique-autres_mini.png' width='50px' /><BR/>logos on plastic (non-exhaustive list of products): <LI> 1: PET (Polyethylene terephthalate) bottles of soda <B> recycled </B> </LI><LI> 2: HDPE (high density polyethylene) bottle of milk, fruit, bleach juice, detergent, shampoo, <B> recycled </B> </LI><LI> 3: PVC (polyvinyl chloride) : detergent bottles, shampoo, gray pipe, electrical conduit ... <B> recycled </B> (rarely recycled) </LI><LI> 4: LDPE (Low Density Polyethylene): squeeze bottles, shopping bags, carpet: <B> not recyclable </B> (or difficult) </LI><LI> 5: PP (Polypropylene): yogurt cups, ketchup bottles, soft drink caps ... <B> not recyclable </b> (or difficult, as the plugs Love) </LI><LI> 6: EPS (Expanded Polystyrene): disposable plates, housings CDs, food tray <B> not recyclable </B> (or difficult) </LI><LI> 7: other plastics <B> not recyclable </B> (or difficult) </LI><B> Favour products with the logos 1 and 2 </B>",
       "bouton":"fiche",
       "image":"images_non_libres/logo_contribution_mini.png",
       "mots_cles":"logo,eco,emballage,adelphe,cyclamed,pet,pehd,peld,pp,pse,triman",
       "mots_cles_en":"logo,eco,emballage,adelphe,cyclamed,pet,pehd,peld,pp,pse,triman",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes",
       "urls":"http://www.lemballageecologique.com/actualites/symboles-logos-recyclage-emballages-plastiques"
    },
    {
@@ -181,6 +224,8 @@ var _infosDatas = [
       "image":"compost_mini.png",
       "mots_cles":"lombricompost",
       "mots_cles_en":"vermicompost",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes",
       "urls":"http://fr.ekopedia.org/Lombricompostage"
    },
    {
@@ -192,18 +237,23 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/logo_mieuxtrieranantes.png",
       "mots_cles":"mieux,trier,nantes",
-      "mots_cles_en":"mieux,trier,nantes"
+      "mots_cles_en":"mieux,trier,nantes",
+      "categorie":"initiative_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_plastik",
       "nom":"PP Plastic Pickup",
       "nom_en":"PP Plastic Pickup",
-      "descr":"Cette association est née d'une réflexion pour les membres fondateurs : je ramasse naturellement le plastique que je trouve. Deuxième constat : je ne suis pas isolé dans ce geste.<br/>Sous l’impulsion de la mairie de Rezé, l’association a été créée en 2012.<br/>L'objectif est de valoriser cet acte de ramassage, d'en faire un geste naturel et adopté par tous, de changer le regard sur ce déchet banalisé et dangereux pour l'environnement.<br/>Les 60 membres environ participent à des opérations nationales de <b>ramassage de déchets</b>comme les initiatives Océanes et le World Clean Up.<br/>RCette association ralise également des actions de sensibilisation du public comme le Plastic Flashmob et le Plastic Mobile.<br/>Voir la page <a href='www.plastiques.eu/' target=_new>www.plastiques.eu/</a>",
+      "descr":"Cette association est née d'une réflexion pour les membres fondateurs : je ramasse naturellement le plastique que je trouve. Deuxième constat : je ne suis pas isolé dans ce geste.<br/>Sous l’impulsion de la mairie de Rezé, l’association a été créée en 2012.<br/>L'objectif est de valoriser cet acte de ramassage, d'en faire un geste naturel et adopté par tous, de changer le regard sur ce déchet banalisé et dangereux pour l'environnement.<br/>Les 60 membres environ participent à des opérations nationales de <b>ramassage de déchets</b>comme les initiatives Océanes et le World Clean Up.<br/>RCette association ralise également des actions de sensibilisation du public comme le Plastic Flashmob et le Plastic Mobile.",
       "descr_en":"Originally a reflection to the founding members, I naturally picks up the plastic I find. Second observation: I am not alone in this gesture. Under the leadership of the municipality of Rezé, the association was created in 2012.<BR/>The objective is to enhance this act of collecting, to make it a natural gesture and adopted by all, to change the look trivialized this waste and dangerous for the environment.<BR/>about 60 members involved in domestic operations like the Ocean initiatives and World Clean Up.<BR/>also Conducts public awareness actions like Plastic Flashmob Plastic and mobile.",
       "bouton":"fiche",
       "image":"nantes/logo_plasticpickup.png",
       "mots_cles":"plastique,pp,plastic,pickup,oceane,reze",
-      "mots_cles_en":"pp,plastic,pickup,oceane,reze"
+      "mots_cles_en":"pp,plastic,pickup,oceane,reze",
+      "categorie":"initiative_locale",
+      "source":"Mieux trier à Nantes",
+      "urls":"http://www.plastiques.eu"
    },
    {
       "code":"fiche_plus2vers",
@@ -215,6 +265,8 @@ var _infosDatas = [
       "image":"nantes/logo_plus2vers.png",
       "mots_cles":"plus2vers,echange,lombrics",
       "mots_cles_en":"plus2vers,exchange,earthworms",
+      "categorie":"initiative_locale",
+      "source":"Mieux trier à Nantes",
       "urls":"http://plus2vers.fr"
    },
    {
@@ -226,7 +278,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"medicaments_mini.png",
       "mots_cles":"recuperation,medicaments",
-      "mots_cles_en":"recovery,medicine"
+      "mots_cles_en":"recovery,medicine",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_plusieurstrisac",
@@ -237,7 +291,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"distributeur_trisac_mini.png",
       "mots_cles":"recuperer,sacs,jaunes,bleus",
-      "mots_cles_en":"getbags,yellow,andblue"
+      "mots_cles_en":"getbags,yellow,andblue",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_acier",
@@ -248,19 +304,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"aerosol_mini.png",
       "mots_cles":"recyclage,acier",
-      "mots_cles_en":"recycling,steel"
-   },
-   {
-      "code":"fiche_recyclage_entreprse",
-      "nom":"Recyclage en entreprise",
-      "nom_en":"Recycling company",
-      "descr":"Nous détaillons ici uniquement les solutions nantaises dédiées aux entreprises : <B>ARBRES</B>L'association nantaise <b>A.R.B.R.E.S.</b> a 2 objectifs : récupérer certains déchets (surtout le papier et le carton, mais aussi cartouches d'encre et matériel electronique) et accompagner les bénéficiaires du RMI qui travaillent pour l'association. Elle dispose des récipients dans les entreprises, et s'occupe complètement .<br/><img src='images/images_non_libres/association_arbres.png' /><br/><br/><B>Solution Recyclage</B>Propose des solutions pour les entreprises : récupère plus de quarante déchets différents. Le papier, le carton, les bouteilles, la moquette, mais aussi les gobelets.<br/>Adresse : 181 Quai Emile Cormerais, 44800 Saint-Herblain<br/>Téléphone : 02 53 55 07 17<img src='images/nantes/logo_solutionrecyclage.png' /><br/><br/><B>Paprec</B>Paprec Group (parfois appelée Paprec Recyclage) est une société française de collecte et recyclage de déchets industriels et ménagers. Son site nantais est très actif. Ils récupèrent dans les entreprises tous les déchets, et gèrent la chaîne de bout en bout.",
-      "descr_en":"The association Nantes <b> TREES </b> has two objectives: to recover certain waste (Surtour paper and cardboard, but also ink cartridges and electronic equipment) and support RMI recipients who work for the association. It has containers in businesses, and handles completely. More information <a href='http://arbres44.org'> http://arbres44.org </a>.<BR/><img src='images/nantes/association_arbres.png' /><BR/>",
-      "bouton":"fiche",
-      "image":"nantes/association_arbres_mini.png",
-      "mots_cles":"recyclage,en,entreprise",
-      "mots_cles_en":"recyclingincompany",
-      "urls":"http://arbres44.org,"
+      "mots_cles_en":"recycling,steel",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_pet",
@@ -271,7 +317,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"bouteille_transparente_mini.png",
       "mots_cles":"recyclage,plastique",
-      "mots_cles_en":"recyclingplastic"
+      "mots_cles_en":"recyclingplastic",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_tetrapak",
@@ -282,7 +330,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"brique_lait_mini.png",
       "mots_cles":"recyclage,tetrapak,brique",
-      "mots_cles_en":"recycling,tetrapak"
+      "mots_cles_en":"recycling,tetrapak",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_verre",
@@ -293,7 +343,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"bocal_verre_mini.png",
       "mots_cles":"recyclage,verre",
-      "mots_cles_en":"recyclingglass"
+      "mots_cles_en":"recyclingglass",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_velo",
@@ -304,7 +356,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"veloenfant_mini.png",
       "mots_cles":"reemploi,velo,transformeurs,atao,place,autour",
-      "mots_cles_en":"reuse,bike,transformeurs,atao,place,autour"
+      "mots_cles_en":"reuse,bike,transformeurs,atao,place,autour",
+      "categorie":"initiative_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_reprise",
@@ -315,7 +369,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"telephone_mini.png",
       "mots_cles":"reprise,magasins",
-      "mots_cles_en":"recovery,stores"
+      "mots_cles_en":"recovery,stores",
+      "categorie":"general_tri",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_sacjaune",
@@ -326,18 +382,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/sacs_jaune_et_bleu.png",
       "mots_cles":"sacs,jaunes,bleus",
-      "mots_cles_en":"bags,yellow,blue"
-   },
-   {
-      "code":"fiche_solutionrecyclage",
-      "nom":"Solution recyclage",
-      "nom_en":"Solution recyclage",
-      "descr":"Propose des solutions pour les entreprises : récupère plus de quarante déchets différents. Le papier, le carton, les bouteilles, la moquette, mais aussi les gobelets.<br/>Adresse : 181 Quai Emile Cormerais, 44800 Saint-Herblain<br/>Téléphone : 02 53 55 07 17",
-      "descr_en":"Offers solutions for companies: recovers over forty different wastes. Paper, cardboard, bottles, carpets, but also cups<BR/>. Address: 181 Quai Emile Cormerais, 44800 Saint-Herblain<BR/>Phone 02 53 55 July 17",
-      "bouton":"fiche",
-      "image":"nantes/logo_solutionrecyclage.png",
-      "mots_cles":"solution,recyclage,entreprise",
-      "mots_cles_en":"solution,recyclage,company"
+      "mots_cles_en":"bags,yellow,blue",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_telephone",
@@ -348,7 +395,9 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"phone_black.png",
       "mots_cles":"allo,allonantes,proximite,telephone,tel,appeler,doute,question",
-      "mots_cles_en":"allo,allonantes,proximity,telephone,phone,call,doubt,question"
+      "mots_cles_en":"allo,allonantes,proximity,telephone,phone,call,doubt,question",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_arcenciel",
@@ -359,18 +408,173 @@ var _infosDatas = [
       "bouton":"fiche",
       "image":"nantes/usine_arcenciel_mini.png",
       "mots_cles":"usine,arc,ciel,arc,ciel,coueron",
-      "mots_cles_en":"factory,arc,ciel,coueron"
+      "mots_cles_en":"factory,arc,ciel,coueron",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes"
    },
    {
       "code":"fiche_valorena",
       "nom":"Usine Valorena",
       "nom_en":"Valorena factory ",
-      "descr":"<IMG SRC='resources/images/nantes/usine_valorena.jpg' ALIGN='left' /><br/>Cette usine d'incinération d'ordures ménagères  a été mise en service en octobre 1987, elle alimente un réseau de chauffage urbain grâce à l'énergie récupérée lors de la combustion des déchets.<BR/><BR/>Elle est situé à proximité de la route Nantes, Angers (au bord de la voie SNCF)<BR/><BR/>Consultez le site Internet : <A HREF='http://www.novergie.fr/page/groupe/usines/usine.php?id=34' TARGET='NEW' >valorena</A><br/><A HREF='http://www.youtube.com/watch?v=H69lhVN7QXE' target='_blank'>Vidéo de présentation (3 minutes)</A><br/>Des visites de l'usine sont proposées toutes l'année.",
-      "descr_en":"<IMG src='resources/images/nantes/usine_valorena.jpg' align='left' /><BR/>This incinerator household waste was commissioned in October 1987, it feeds a heating network Urban thanks to the energy recovered during waste combustion.<BR/><BR/>It is located near the road Nantes, Angers (along the train route)<BR/><BR/>Check Website: <A HREF='http://www.novergie.fr/page/groupe/usines/usine.php?id=34' TARGET='NEW'> valorena </A><BR/><A HREF='http://www.youtube.com/watch?v=H69lhVN7QXE' target='_blank'> Overview Video (3 minutes) </A><BR/>Tours of the factory are offered all the year.",
+      "descr":"<IMG SRC='resources/images/nantes/usine_valorena.jpg' ALIGN='left' /><br/>Cette usine d'incinération d'ordures ménagères  a été mise en service en octobre 1987, elle alimente un réseau de chauffage urbain grâce à l'énergie récupérée lors de la combustion des déchets.<BR/><BR/>Elle est situé à proximité de la route Nantes, Angers (au bord de la voie SNCF)<BR/><BR/>Consultez le site Internet : <A HREF='http://www.novergie.fr/page/groupe/usines/usine.php?id=34' TARGET='NEW' >valorena</A><br/>Voir la vidéo de présentation (3 minutes)<br/>Des visites de l'usine sont proposées toutes l'année.",
+      "descr_en":"<IMG src='resources/images/nantes/usine_valorena.jpg' align='left' /><BR/>This incinerator household waste was commissioned in October 1987, it feeds a heating network Urban thanks to the energy recovered during waste combustion.<BR/><BR/>It is located near the road Nantes, Angers (along the train route)<BR/><BR/>Check Website: <A HREF='http://www.novergie.fr/page/groupe/usines/usine.php?id=34' TARGET='NEW'> valorena </A><BR/>See overview Video (3 minutes)<BR/>Tours of the factory are offered all the year.",
       "bouton":"fiche",
       "image":"nantes/usine_valorena.png",
       "mots_cles":"usine,valorena",
       "mots_cles_en":"factory,valorena",
+      "categorie":"consigne_locale",
+      "source":"Mieux trier à Nantes",
       "urls":"http://www.youtube.com/watch?v=H69lhVN7QXE"
-   }
-,{} ];
+   },
+   {
+      "code":"Oasis Environnement",
+      "nom":"Oasis Environnement",
+      "nom_en":"Oasis Environnement",
+      "type":"Association accompagnant les entreprises souhaitant recycler",
+      "type_en":"Association accompanying companies wishing to recycle",
+      "descr":"L'objectif : construire une démarche verte 'zéro déchet' avec les salariés des entreprises (sous forme de coaching d'équipes) dans le but de réduire les déchets et accroître l'activité des associations existantes de valorisation des déchets.<br/><br/>Actions principales<br/>- Organiser des réunions de sensibilisation auprès des salariés d'entreprises<br/>- Auditer les entreprises partenaires<br/>- Stimuler les salariés dans le projet d'une démarche verte 'zéro déchet'<br/>- Initier un circuit logistique court de récupération des déchets valorisables<br/>- Suivre l'impact de nos actions dans l'entreprise à long terme et innover pour atteindre un zéro déchet",
+      "descr_en":"The objective is to build a 'zero-waste' green approach with company employees (in the form of team coaching) with the aim of reducing waste and increasing the activity of existing waste recycling associations. <br/> Main actions <br/> - Organize sensitization meetings with company employees <br/> - Audit partner companies <br/> - Stimulate employees in the project of a green approach 'zero waste - Initiate a short logistics circuit to recover recoverable waste <br/> - Track the impact of our actions in the company in the long term and innovate to achieve a zero waste",
+      "bouton":"fiche",
+      "image":"nantes/logo_oasis_environnement_mini.jpg",
+      "mots_cles":"entreprise,accompagnement",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Oasis Environnement, l2/2016"
+   },
+   {
+      "code":"soluent_solutionrecyclage",
+      "nom":"Solution recyclage",
+      "nom_en":"Solution recyclage",
+      "type":"Entreprise fournissant des solutions complètes de recyclage",
+      "type_en":"Company providing complete recycling solutions",
+      "descr":"Propose des solutions pour les entreprises : récupère plus de quarante déchets différents. Le papier, le carton, les bouteilles, la moquette, mais aussi les gobelets.<br/>Adresse : 181 Quai Emile Cormerais, 44800 Saint-Herblain<br/>Téléphone : 02 53 55 07 17",
+      "descr_en":"Offers solutions for companies: recovers more than forty different wastes. Paper, cardboard, bottles, carpeting, but also cups. <br/> Address: 181 Quai Emile Cormerais, 44800 Saint-Herblain <br/> Telephone: 02 53 55 07 17",
+      "bouton":"fiche",
+      "image":"nantes/logo_solutionrecyclage_mini.png",
+      "mots_cles":"entreprise,carton,bouteille,moquette ,gobelet",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Oasis Environnement, l2/2016"
+   },
+   {
+      "code":"soluent_paprec",
+      "nom":"Paprec",
+      "nom_en":"Paprec",
+      "type":"Entreprise fournissant des solutions complètes de recyclage",
+      "type_en":"Company providing complete recycling solutions",
+      "descr":"Paprec Group (parfois appelée Paprec Recyclage) est une société française de collecte et recyclage de déchets industriels et ménagers. Son site nantais est très actif. Ils récupèrent dans les entreprises tous les déchets, et gèrent la chaîne de bout en bout.",
+      "descr_en":"Paprec Group (sometimes called Paprec Recyclage) is a French company for the collection and recycling of industrial and household waste. Its Nantes site is very active. They recover all waste in companies, and manage the chain from end to end.",
+      "bouton":"fiche",
+      "image":"nantes/logo_paprec_group_mini.png",
+      "mots_cles":"entreprise",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Oasis Environnement, l2/2016"
+   },
+   {
+      "code":"soluent_arbres",
+      "nom":"ARBRES",
+      "nom_en":"ARBRES",
+      "type":"Association spécialisée dans récupération de papier",
+      "type_en":"Association specialized in paper recovery",
+      "descr":"L'association nantaise A.R.B.R.E.S. a 2 objectifs : récupérer certains déchets (surtout le papier et le carton, mais aussi cartouches d'encre et matériel electronique) et accompagner les bénéficiaires du RMI qui travaillent pour l'association. Elle dispose des récipients dans les entreprises, et s'occupe complètement . Plus d'infos sur <a href='http://arbres44.org'>http://arbres44.org</a>.",
+      "descr_en":"The association from Nantes A.R.B.R.E.S. has two objectives: to recover certain waste (Surtour paper and cardboard, but also ink cartridges and electronic equipment) and support RMI recipients who work for the association. It has containers in businesses, and handles completely. More information <a href='http://arbres44.org'> http://arbres44.org </a>.",
+      "bouton":"fiche",
+      "image":"nantes/association_arbres_mini.png",
+      "mots_cles":"entreprise,papier,carton",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Oasis Environnement, l2/2016"
+   },
+   {
+      "code":"soluent_papiersdelespoir",
+      "nom":"Les Papiers de l'espoir",
+      "nom_en":"Les Papiers de l'espoir",
+      "type":"Association spécialisée dans récupération de papier",
+      "type_en":"Association specialized in paper recovery",
+      "descr":"L'association Papiers de l'Espoir, c'est avant tout une idée simple et généreuse : collecter auprès des SOCIETES, ORGANISMES, COLLECTIVITES, le papier usagé devenu inutile et encombrant.<br/>Ce papier collecté est revendu à des entreprises spécialisées dans son recyclage. Les fonds ainsi dégagés financent des projets humanitaires et éducatifs en France et dans les pays en développement.<br/>Une tonne de papiers permet de financer, par exemple, 20 livres scolaires. L'activité de Papiers de l'Espoir (70 kms environ autour de Nantes) a permis en 2010 de participer et d'aider à la scolarisation de 7 000 enfants.",
+      "descr_en":"The association Papiers de l'Espoir, it is first and foremost a simple and generous idea: to collect from the SOCIETES, ORGANIZATIONS, COLLECTIVITIES, the used paper become useless and cumbersome. <br/> This collected paper is sold to companies specialized in its recycling. The funds thus earmarked finance humanitarian and educational projects in France and in developing countries. <br/> A ton of papers can finance, for example, 20 school books. The activity of Papers of Hope (about 70 km around Nantes) enabled in 2010 to participate and help the schooling of 7 000 children.",
+      "bouton":"fiche",
+      "image":"nantes/logo_papierdelespoir_mini.png",
+      "mots_cles":"entreprise,papier,carton",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Oasis Environnement, l2/2016"
+   },
+   {
+      "code":"soluent_stationsservices",
+      "nom":"Stations services",
+      "nom_en":"Stations services",
+      "type":"Association spécialisée dans récupération de matériaux",
+      "type_en":"Association specialized in materials recovery",
+      "descr":"Nous récupérons des matières premières propres qui puissent ensuite être revendues à très bas prix aux créatifs pour être réemployer.<br/>Ouvert aux particuliers et aux entreprises.",
+      "descr_en":"We recover the own raw materials that could then be resold at very low prices to be creative reuse.<br/>Open to individuals and companies.",
+      "bouton":"fiche",
+      "image":"nantes/logo_stationsservices_mini.png",
+      "mots_cles":"entreprise,materiaux",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Oasis Environnement, l2/2016"
+   },
+   {
+      "code":"soluent_recyclivre",
+      "nom":"RecycLivre",
+      "nom_en":"RecycLivre",
+      "type":"Entreprise spécialisée dans récupération de livre",
+      "type_en":"Company specialized in books recovery",
+      "descr":"nous donnons une seconde vie aux livres en les réemployant afin d'accompagner des emplois en insertion et soutenir financièrement des programmes autour de la culture et de la préservation de l'environnement !<br/>Nous ne pouvons donc pas collecter les livres très abîmés ou aux contenus obsolètes (ex : manuels scolaires), les dictionnaires et encyclopédies, les livres clubs (ex : France Loisirs, Grand Livre du Mois, Sélection du Livre...) tout comme les revues et journaux et les guides de voyage.<br/> nous faisons de la collecte à domicile sur toutes les communes de Nantes Métopole à partir de 50 livres.",
+      "descr_en":"we give a second life to books by re-employing them to accompany insertion jobs and financially support programs around culture and preservation of the environment !<br/> We can not collect very damaged books or obsolete contents (eg textbooks), dictionaries and encyclopaedias, books clubs (eg France Loisirs, Grand Livre du Mois, Sélection du Livre...) as well as Magazines and newspapers and travel guides.<br/>We do collection at home in all municipalities of Nantes Metopole from 50 books.",
+      "bouton":"fiche",
+      "image":"nantes/logo_recyclivre_mini.png",
+      "mots_cles":"entreprise,recyclivre,livre",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Oasis Environnement, l2/2016"
+   },
+   {
+      "code":"soluent_consultri",
+      "nom":"Consultri",
+      "nom_en":"Consultri",
+      "type":"Entreprise spécialisée dans accompagnement entreprise",
+      "type_en":"Company specialized in company support",
+      "descr":"Consultri est une entreprise de consultants en gestion de déchets, notre but est de réduire la facture de déchets de nos clients grâce à une maitrise globale des coûts.<br/><br/>Adresse : 99 bis rue de la libération, 44230 Saint-Sébastien-sur-Loire<br/>Téléphone : 06 68 97 11 32",
+      "descr_en":"Consultri is a waste management consulting company, our goal is to reduce the waste bills of our customers thanks to an overall cost control.",
+      "bouton":"fiche",
+      "image": "nantes/logo_consultri_mini.png",
+      "mots_cles":"entreprise,accompagnement",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Mieux trier à Nantes"
+   },
+   {
+      "code":"solution_tricyclerie",
+      "nom":"Tricyclerie",
+      "nom_en":"Tricyclerie",
+      "type":"Association spécialisée dans récupération déchets organiques",
+      "type_en":"Association specialized in organic waste recovery",
+      "descr":"La Tricyclerie propose de collecter les biodéchets en vélo-remorque pour les composter à proximité !<br/>Nous agissons sur plusieurs quartiers de la ville de Nantes auprès des professionnels (bureaux et restaurants) qui souhaitent être acteurs pour une alimentation durable et pour la réduction de leurs poubelles !<br/>L'ambition de La Tricyclerie est de favoriser les petits réseaux de collectes de quartiers des déchets organiques afin de faciliter le compostage local.<br/><br/>La collecte :<br/>Chaque collecte se fait à 2 pour faciliter le parcours et se repartir le poids. Il y a 2 collectes par semaine : une le mercredi et une le vendredi. La collecte dure environ 3h.",
+      "descr_en":"La Tricyclerie proposes to collect bio-waste by bike-trailer to compost them near!<br/>We act in several districts of the city of Nantes with professionals (offices and restaurants) who wish to be actors for a sustainable food and for the reduction of their garbage!<br/>The ambition of La Tricyclerie is to promote small networks of collections of neighborhoods of organic waste in order to facilitate local composting.<br/><br/>Collection :<br/>Each collection is done at 2 to facilitate the course and to distribute the weight. There are 2 collections per week: one on Wednesday and one on Friday. The collection lasts about 3 hours.",
+      "bouton":"fiche",
+      "image":"nantes/logo_tricyclerie_mini.jpg",
+      "mots_cles":"entreprise,organique",
+      "mots_cles_en":"",
+      "categorie":"solutions_entreprises_nantes",
+      "source":"Mieux trier à Nantes"
+   },
+   {
+      "code":"zero_dechet",
+      "nom":"Conseil zéro déchet",
+      "nom_en":"Conseil zéro déchet",
+      "type":"Conseil pour basculer en mode de vie zéro déchet",
+      "type_en":"Advice to switch to zero-waste lifestyle",
+      "descr":"<div class='item item-divider mtn-nowrap'>{{'zerodechetnantes_intro'|translate}}</div> <div> <p><strong>ZERO DECHET : GUIDE RAPIDE DES GESTES DE BASE</strong></p> <br/> <p class='zero_dechet'>Le z&eacute;ro d&eacute;chet, pourquoi ?</p> <ul> <li class='zero_dechet'> - Gain de temps : une poubelle remplie moins vite &eacute;gale moins de manutention et de tri ;</li> <li class='zero_dechet'> - Gain d'espace : on ne s'encombre plus d'objets inutiles ;</li> <li class='zero_dechet'> - Gain mat&eacute;riel : la gestion plus avis&eacute;e de nos d&eacute;chets offre de nombreuses possibilit&eacute;s d'&eacute;conomies, aussi bien sur un plan individuel que collectif : moins d'argent mal d&eacute;pens&eacute;, moins de gaspillage alimentaire...</li> <li class='zero_dechet'> - Gain social : acheter au sein de structures ayant des pratiques vertueuses (vrac...) encourage lesdites pratiques ;</li> <li class='zero_dechet'> - Gain &eacute;cologique : le recyclage va dans la bonne voie mais reste insuffisant pour la r&eacute;duction de notre impact sur notre environnement ; agir &agrave; la source du probl&egrave;me, en &eacute;vitant l'existence m&ecirc;me du d&eacute;chet, offre un b&eacute;n&eacute;fice sur tous les plans : extraction et consommation des mat&eacute;riaux, qualit&eacute; de l'air, des sols, propret&eacute; etc. ;</li> <li class='zero_dechet'> - Gain m&eacute;dical : le z&eacute;ro d&eacute;chet implique l'usage de produits naturels, meilleurs pour notre sant&eacute;.</li> </ul> <br/> <p class='zero_dechet'>Coller un STOP PUB sur sa bo&icirc;te aux lettres</p> <p>Il est g&eacute;n&eacute;ralement respect&eacute;. En cas de prospectus ind&eacute;sirable fourni avec une enveloppe pr&eacute;-affranchie, il peut &ecirc;tre amusant d'utiliser cette derni&egrave;re pour renvoyer l'&eacute;l&eacute;ment importun &agrave; son envoyeur !</p> <br/> <p class='zero_dechet'>&Eacute;conomiser le papier</p> <p>&Eacute;viter d'imprimer ce qui n'est pas n&eacute;cessaire, et dans si c'est le cas, imprimer recto-verso, ou utiliser le verso d'une feuille d&eacute;j&agrave; imprim&eacute;e. Cette derni&egrave;re &eacute;tant &eacute;galement utilisable comme brouillon en &eacute;criture manuscrite, pour dessiner... Ces bons r&eacute;flexes entra&icirc;nent une consommation de papier modeste, &agrave; l'usage et &agrave; l'achat.</p> <br/> <p class='zero_dechet'>Acheter en vrac</p> <img src='resources/images/nantes/images_zero_dechet/bocaux.jpg' class='zero_dechet' width='70%' /><br/> <p>Les emballages des produits courants (p&acirc;tes, riz, biscuits, &oelig;ufs, chocolat en poudre...) repr&eacute;sentent environ 20 % du prix d'achat, et en outre, il faut ensuite s'emb&ecirc;ter &agrave; les trier et &agrave; les jeter... Passer &agrave; l'achat en vrac, avec des contenants r&eacute;utilisables (sac &agrave; pain, sacs en tissu, bocaux en verre, tupperwares, bo&icirc;te &agrave; &oelig;ufs r&eacute;employ&eacute;e...) nous &eacute;pargne cette corv&eacute;e, permet de d&eacute;penser au plus juste, et &eacute;videmment r&eacute;duit gaspillage et dommages sur notre environnement.</p> <br/> <p class='zero_dechet'>Composter ses d&eacute;chets organiques</p> <img src='resources/images/nantes/images_zero_dechet/composter.jpg' class='zero_dechet' width='70%' /><br/> <p>&Eacute;pluchures de fruits et l&eacute;gumes, coquilles d&rsquo;&oelig;ufs, ongles et cheveux constituent &agrave; eux seuls environ un tiers du contenu de notre poubelle. Leur incin&eacute;ration est co&ucirc;teuse et dommageable, l&agrave; o&ugrave; le compostage est un processus naturel produisant un amendement de qualit&eacute; pour enrichir nos sols agricoles. Cela passe par l'utilisation d'un composteur ; suivant l'importance du public (personne seule / famille / population de quartier) et de l'habitat concern&eacute; (appartement de petite taille et sans espace vert / maison &agrave; la campagne...), diff&eacute;rentes options peuvent &ecirc;tre envisag&eacute;es : simple seau &agrave; compost qu'on ira vider r&eacute;guli&egrave;rement au composteur de quartier, lombricomposteur, composteur priv&eacute; dans le jardin... Un &eacute;quipement collectif demandera &eacute;ventuellement une modeste cotisation annuelle pour assurer sa maintenance.</p> <br/> <p class='zero_dechet'>Refuser les sacs propos&eacute;s en magasin</p> <p>Utiliser son sac &agrave; dos, son cabas, son sac &agrave; main, ou encore garder &agrave; la main le DVD qu'on vient d'acheter, au lieu d'accepter le sac en plastique ou en papier qu'on nous ajoute encore trop souvent d'office &agrave; la caisse, supprime tout un tas de choses en amont et en aval de votre achat : il ne faut pas oublier que ce sac a d&ucirc; &ecirc;tre fabriqu&eacute;, transport&eacute; et stock&eacute; avant d'arriver jusqu'&agrave; nous ; et qu'apr&egrave;s, en supposant que nous ne l'abandonnions pas dans la nature, il devra encore &ecirc;tre d&eacute;pos&eacute; dans une poubelle, collect&eacute; et transport&eacute;, et &eacute;ventuellement plus ou moins bien trait&eacute; : au mieux recycl&eacute;, au pire incin&eacute;r&eacute;, mis en d&eacute;charge, ou perdu dans l'environnement en cours de route, avec toutes les pollutions que cela induit.</p> <p>Cette habitude est aussi avantageuse car elle est &agrave; la port&eacute;e des personnes moins enclines &agrave; s'occuper attentivement de leurs d&eacute;chets, que ce soit par manque de temps, d'int&eacute;r&ecirc;t... Vous risquez moins de jeter quelque chose dans la nature si en d&eacute;but de cha&icirc;ne, on vous en retire tout simplement l'opportunit&eacute; !</p> <br/> <p class='zero_dechet'>Soutenir le retour aux bouteilles consign&eacute;es</p> <p>Bien que le recyclage du verre constitue un progr&egrave;s, il est encore inf&eacute;rieur au syst&egrave;me de la consigne qui consiste &agrave; faire payer l'emballage &agrave; l'achat et &agrave; le rembourser quand il est rapport&eacute; en boutique ; ce contenant sera ensuite lav&eacute; et r&eacute;utilis&eacute; &agrave; nouveau, des dizaines de fois. Cette fa&ccedil;on de faire n'est pas nouvelle puisque elle a exist&eacute; jusque dans les ann&eacute;es 1960, et existe encore dans certaines r&eacute;gions comme l'Alsace. Des associations se sont constitu&eacute;es pour remettre en vigueur cette solution sur l'ensemble du territoire : Bout' &agrave; Bout' en&nbsp; Pays de la Loire, distro.bzh en Bretagne...</p> <p>Certaines boutiques comme &Ocirc; Bocal proposent ainsi ce type de prestation &agrave; leur client&egrave;le.</p> <br/> <p class='zero_dechet'>Remplacer ses mouchoirs jetables par un mouchoir en tissu</p> <img src='resources/images/nantes/images_zero_dechet/mouchoirs_papiers.jpg' class='zero_dechet' width='30%' /><img src='resources/images/nantes/images_zero_dechet/fleche.jpg' class='zero_dechet' width='20%' /><img src='resources/images/nantes/images_zero_dechet/mouchoirs.jpg' class='zero_dechet' width='30%' /> <p>Avec &eacute;ventuellement un ou deux mouchoirs de rechange. Bien pli&eacute; et stock&eacute;, le mouchoir en tissu n'est gu&egrave;re salissant, et il se nettoie rapidement et simplement au savon de Marseille et &agrave; l'eau chaude. Un peu plus cher &agrave; l'achat (environ 5 &euro;), mais vite rentable et moins encombrant que d'innombrables paquets de mouchoirs jetables.</p> <br/> <p class='zero_dechet'>Remplacer son savon, son shampoing et son dentifrice par leurs &eacute;quivalents solides</p> <img src='resources/images/nantes/images_zero_dechet/flacon_savon.jpg' class='zero_dechet' width='30%' /><img src='resources/images/nantes/images_zero_dechet/fleche.jpg' class='zero_dechet' width='20%' /><img src='resources/images/nantes/images_zero_dechet/savon.jpg' class='zero_dechet' width='30%' /><br/> <img src='resources/images/nantes/images_zero_dechet/shampoing.jpg' class='zero_dechet' width='30%' /><img src='resources/images/nantes/images_zero_dechet/fleche.jpg' class='zero_dechet' width='20%' /><img src='resources/images/nantes/images_zero_dechet/shampoing_2.jpg' class='zero_dechet' width='30%' /><br/> <img src='resources/images/nantes/images_zero_dechet/creme.jpg' class='zero_dechet' width='30%' /><img src='resources/images/nantes/images_zero_dechet/fleche.jpg' class='zero_dechet' width='20%' /><img src='resources/images/nantes/images_zero_dechet/creme_maison.jpg' class='zero_dechet' width='30%' /> <p>Un bon gros vieux savon de Marseille ne vous laisse pas un flacon en plastique sur les bras chaque fois que vous en usez un, de m&ecirc;me que le shampoing et le dentifrice solides qui s'utilisent de la m&ecirc;me fa&ccedil;on : mouillez et frottez ! Ils peuvent co&ucirc;ter un peu plus cher &agrave; l'achat (12,40 &euro; pour le shampoing chez &Ocirc; Bocal) mais se r&eacute;v&egrave;lent plus &eacute;conomiques sur le long terme, pouvant durer de nombreux mois (environ six pour un shampoing utilis&eacute; deux fois par semaine par une personne avec une chevelure courte). Le savon solide a &eacute;galement l'avantage de la polyvalence, outre&nbsp; les mains et le reste du corps, il peut s'employer pour le m&eacute;nage.</p> <br/> <p class='zero_dechet'>Remplacer ses cotons tiges par un oriculi</p> <img src='resources/images/nantes/images_zero_dechet/coton_tige.jpg' class='zero_dechet' width='30%' /><img src='resources/images/nantes/images_zero_dechet/fleche.jpg' class='zero_dechet' width='20%' /><img src='resources/images/nantes/images_zero_dechet/coton_tige_bois.jpg' class='zero_dechet' width='30%' /> <p>La partie plastique desdits cotons tiges finit trop souvent dans la nature, avec des effets tr&egrave;s n&eacute;gatifs sur cette derni&egrave;re ; m&ecirc;me si la l&eacute;gislation pr&eacute;voit des les interdire dans quelques ann&eacute;es, les rempla&ccedil;ant par un mod&egrave;le enti&egrave;rement biod&eacute;gradable (tige en papier), la meilleure solution consiste &agrave; utiliser &agrave; la place un outil unique, r&eacute;utilisable quasiment &agrave; l'infini.</p> <p>L'oriculi, ou cure-oreille, provient d'Asie o&ugrave; il est employ&eacute; avec succ&egrave;s depuis fort longtemps. Il co&ucirc;te un peu plus cher &agrave; l'achat (exemple : 4,50 &euro; chez &Ocirc; Bocal), mais est vite amorti, pouvant durer sans probl&egrave;me des ann&eacute;es, voire toute votre vie. Et si d'aventure le v&ocirc;tre devient hors d'usage, sa fabrication le rend parfaitement compostable (mod&egrave;le en bambou) ou recyclable (mod&egrave;le en m&eacute;tal).</p> <img src='resources/images/nantes/images_zero_dechet/brosse_a_dent.jpg' class='zero_dechet' width='30%' /><img src='resources/images/nantes/images_zero_dechet/fleche.jpg' class='zero_dechet' width='20%' /><img src='resources/images/nantes/images_zero_dechet/brosse_a_dent_bois.jpg' class='zero_dechet' width='30%' /> <br/> <p class='zero_dechet'>Remplacer sa brosse &agrave; dents en plastique par son &eacute;quivalent compostable</p> <p>Comme les cotons tiges, la brosse &agrave; dents est un objet &agrave; usure rapide dont l'impact environnemental pose probl&egrave;me, particuli&egrave;rement en fin de vie puisque le mod&egrave;le en plastique est rarement recycl&eacute;. Pour rem&eacute;dier &agrave; ce probl&egrave;me, des mod&egrave;les en bambou ont r&eacute;cemment vu le jour, ce qui repr&eacute;sente un net progr&egrave;s vu que l'objet devient majoritairement compostable (il faut h&eacute;las s&eacute;parer les poils lorsque ils sont en nylon). En outre leur prix est encore &eacute;lev&eacute; par rapport aux produits classiques (environ 5 &euro;), et il n'existe pas encore de fabrication nationale, la production (labellis&eacute;e) s'effectuant actuellement en Chine. La production fran&ccedil;aise fournit actuellement des brosses en plastique &agrave; manche r&eacute;utilisable (seule la t&ecirc;te se change).</p> <br/> <p class='zero_dechet'>Remplacer ses bouteilles d'eau en plastique par une gourde</p> <img src='resources/images/nantes/images_zero_dechet/bouteille_plastique.jpg' class='zero_dechet' width='30%' /><img src='resources/images/nantes/images_zero_dechet/fleche.jpg' class='zero_dechet' width='20%' /><img src='resources/images/nantes/images_zero_dechet/thermos.jpg' class='zero_dechet' width='30%' /> <p>Nul besoin de pr&eacute;senter le d&eacute;sastre &eacute;cologique de la bouteille en plastique jetable. Une gourde m&eacute;tallique remplie d'eau du robinet est tout &agrave; fait apte &agrave; la remplacer. Diff&eacute;rents formats existent, notamment des petits mod&egrave;les pouvant tenir dans un sac &agrave; main, pour les personnes souhaitant un encombrement r&eacute;duit.</p> <br/> <p class='zero_dechet'>R&eacute;parer ou faire r&eacute;parer, r&eacute;cup&eacute;rer, donner, &eacute;changer, acheter et revendre d'occasion</p> <p>Les possibilit&eacute;s en la mati&egrave;re se sont fortement accrues ces derni&egrave;res ann&eacute;es, avec tout un tas d'alternatives (anciennes ou nouvelles) au syst&egrave;me destructeur qu'est la soci&eacute;t&eacute; de consommation ; la liste ci-dessous ne pr&eacute;tend pas &ecirc;tre exhaustive !</p> <p>Sur le net :</p> <ul> <li class='zero_dechet'> - www.donnons.org (dons)</li> <li class='zero_dechet'> - www.recup.net (dons)</li> <li class='zero_dechet'> - www.leboncoin.fr (achat / vente)</li> <li class='zero_dechet'> - www.priceminister.com (achat / vente)</li> <li class='zero_dechet'> - Groupe FaceBook// Parall&egrave;le // Nantes (dons)</li> <li class='zero_dechet'> - Groupe FaceBook Ventes entre nantais (achat / vente)</li> </ul> <br/> <p>Hors du net :</p> <ul> <li class='zero_dechet'> - Entre ami-e-s</li> <li class='zero_dechet'> - Dans la rue (mobiliers, cartons r&eacute;utilisables pour un d&eacute;m&eacute;nagement, un envoi postal...) !</li> <li class='zero_dechet'> - Vide greniers, brocantes, trocantes, march&eacute;s aux puces</li> <li class='zero_dechet'> - Bo&icirc;tes utiles ou give box</li> <li class='zero_dechet'> - Ateliers de r&eacute;paration de v&eacute;lo (voir heureux-cyclage.org)</li> <li class='zero_dechet'> - Repair Caf&eacute;s</li> <li class='zero_dechet'> - Ressourceries</li> </ul> <br/> <br/> <p class='zero_dechet'>Produits d'entretien</p> <p>Des produits simples, efficaces, sains pour la sant&eacute; et l'environnement peuvent se trouver en vrac : vinaigre blanc, bicarbonate de soude, savon de Marseille, savon noir, citron...</p> <br/> <p class='zero_dechet'>Quelques adresses locales</p> <ul> <li class='zero_dechet'> - Compostri, 8 rue Saint Domingue - Le Solilab 44200 Nantes</li> <li class='zero_dechet'> - V&eacute;locampus, 3 chemin de la Censive du Tertre 44300 Nantes</li> <li class='zero_dechet'> - &Ocirc; Bocal, 3 rue de l'h&ocirc;tel de ville 44000 Nantes</li> <li class='zero_dechet'> - Biocoop, 188 route de Rennes 44300 Nantes / 8 rue du Commandant Charcot 44700 Orvault / 332 boulevard Marcel Paul 44800 Saint Herblain / 17 boulevard Gustave Roch 44200 Nantes / rue Louis Blanc 44230 Saint S&eacute;bastien sur Loire</li> <li class='zero_dechet'> - Cash Express, 6 rue de la Barillerie 44000 Nantes</li> <li class='zero_dechet'> - N&acirc;ga, 17 chemin Fontaine Launay 44400 Rez&eacute;</li> <li class='zero_dechet'> - PiNG, 38 Rue du Breil 44100 Nantes</li> <li class='zero_dechet'> - La Ressourcerie de l'&icirc;le, 90 rue de la Basse &icirc;le 44400 Rez&eacute;</li> <li class='zero_dechet'> - L'Atelier du Retz emploi, rue Saint Domingue 44200 Nantes</li> <li class='zero_dechet'> - Plan&egrave;te occasion, La Jalousie route de Paris 44470 Carquefou</li> <li class='zero_dechet'> - Envie44, 18 rue Bobby Sands 44800 Saint Herblain</li> <li class='zero_dechet'> - Frip'in Shop, 52 &amp; 60 rue mar&eacute;chal Joffre 44000 Nantes</li> <li class='zero_dechet'> - Stations Services, 9 rue de la Bauche Thiraud 44400 Rez&eacute;</li> <li class='zero_dechet'> - www.mieuxtrieranantes.fr</li> </ul> </div> ",
+      "bouton":"fiche",
+      "image":"image_defaut_mini.png",
+      "mots_cles":"zero,dechet",
+      "mots_cles_en":"",
+      "categorie":"zero_dechet_nantes",
+      "source":"Auteur charles.duvergey@laposte.net"
+   },
+
+
+{}]

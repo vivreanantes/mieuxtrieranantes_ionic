@@ -23,7 +23,7 @@
 	  	<div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
 
 	  	<div class="item item-button-right item-text-wrap" ng-repeat="collecte in results | limitTo:maxDisplayResults">
-	        {{::collecte.dcv}}<br>
+	        {{::collecte.dcv}}<span ng-show="collecte.ci"> {{::collecte.ci}}</span><br>
 				<span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
 				<span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='en'"></span>
 

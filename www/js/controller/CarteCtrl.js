@@ -48,33 +48,7 @@ angular.module('starter.controllers')
 
 		labelsModeCollecte = labelsModeCollecte.substring(0, labelsModeCollecte.length - 2);
 
-		var local_icons = {
-			default_icon: {},
-			reemploi: {
-				iconUrl: "resources/icons/marker-icon-blue.png"
-			},
-			conteneurs: {
-				iconUrl: "resources/icons/marker-icon-brown.png"
-			},
-			decheterie: {
-				iconUrl: "resources/icons/marker-icon-green.png"
-			},
-			composteurs: {
-				iconUrl: "resources/icons/marker-icon-yellow.png"
-			},
-			conteneurlerelais: {
-				iconUrl: "resources/icons/marker-icon-pink.png"
-			},
-			ventevrac: {
-				iconUrl: "resources/icons/marker-icon-red.png"
-			},
-			trisac: {
-				iconUrl: "resources/icons/marker-icon-purple.png"
-			},
-			collectors: {
-				iconUrl: "resources/icons/marker-icon-grey.png"
-			}
-		};
+		var local_icons = paramIconsMap;
 		angular.extend($scope, {
 			icons: local_icons
 		});

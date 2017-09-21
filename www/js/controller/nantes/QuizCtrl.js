@@ -1,9 +1,94 @@
 /* QUIZZ */
 
 angular.module('starter.controllers')
-.controller('QuizCtrl', function($scope, $stateParams) {
+.controller('QuizCtrl', function($scope, $stateParams, $filter) {
 
-	var indexElement = 1;
+	//GLOBAL DATA SOURCE
+	$scope.quizs = _quizsDatas;
+	
+	// var item_code = 'quiz_janvier';
+	var item_code = $stateParams.code;
+	//On récupère l'élément correspondant au code 
+	items = $filter('filter')(_quizsDatas, {
+		code : item_code
+	});
+	
+	var quiz = items[0];
+
+	//SCOPE
+	$scope.quiz = quiz;
+	
+	var NB_MAX_QUESTION = 20;
+	var NB_MAX_REP_PAR_QUESTION = 5;
+	
+	$scope.descr_visible = "true";
+	$scope.resultats_visible = "false";
+	$scope.toggleObject = new Array(NB_MAX_QUESTION); // 20 questions
+	$scope.reponses = new Array(NB_MAX_QUESTION); // 20 questions
+    for (var i = 0; i < NB_MAX_QUESTION; i++) {
+		$scope.toggleObject[i] = -1;
+		$scope.reponses[i] = new Array(NB_MAX_REP_PAR_QUESTION);
+		for (var j = 0; j < NB_MAX_REP_PAR_QUESTION; j++) {
+			$scope.reponses[i][j] = -1;
+		}
+    }
+	// On commence par la première question
+	$scope.toggleObject[0] = 1;
+	
+	$scope.getPoints = function() {
+		var total = 0;
+		// $scope.resultats.resultats = new Array(NB_MAX_QUESTION); // 20 questions
+		for (var i = 0; i < NB_MAX_QUESTION; i++) {
+			for (var j = 0; j < NB_MAX_REP_PAR_QUESTION; j++) {
+				if ($scope.reponses[i][j]==true) {
+					res = parseInt($scope.quiz.questions[i].reponses[j].result);
+					$scope.quiz.questions[i].reponses[j].selected=true;
+					if (res==0) { $scope.quiz.questions[i].color="red";}
+					else if (res==1) { $scope.quiz.questions[i].color="orange";}
+					else if (res==2) { $scope.quiz.questions[i].color="green";}
+					total += res;
+				}
+			}
+		}
+		return total;
+	}
+	
+	$scope.updateResultat = function() {
+
+		if ($scope.resultats_points < $scope.quiz.seuils.s1) {
+			$scope.resultats_image="quiz/1.png";
+			$scope.resultats.descr="Peut mieux faire...";
+		} else if ($scope.resultats_points < $scope.quiz.seuils.s2) {
+			$scope.resultats_image="quiz/2.png";
+			$scope.resultats.descr="Encore un effort.";
+		} else if ($scope.resultats_points < $scope.quiz.seuils.s3) {
+			$scope.resultats_image="quiz/3.png";
+			$scope.resultats.descr="Pas mal";
+		} else if ($scope.resultats_points < $scope.quiz.seuils.s4) {
+			$scope.resultats_image="quiz/4.png";
+			$scope.resultats.descr="Bravo";
+		} else {
+			$scope.resultats_image="quiz/5.png";
+			$scope.resultats.descr="Super champion !";
+		}
+	}
+	
+	$scope.onSearchSubmit = function (index) {
+		// index vaut 0,1,2,3,4
+		var temp = index;
+		$scope.toggleObject[index] = -1;
+		if ($scope.quiz.questions[index+1] != undefined) {
+		  // Il existe une question suivante
+		  $scope.toggleObject[index+1] = 1;
+		} else {
+			  
+			  $scope.resultats = new Object();
+				$scope.resultats_visible = "true";
+			$scope.resultats_points = this.getPoints();
+				this.updateResultat();
+		}
+	}
+	/*var indexElement = 1;
 	$scope.quiz = {}
 	$scope.quiz.nom = getRecordValue(_quizsDatas[indexElement], "nom");
 	$scope.quiz.descr = getRecordValue(_quizsDatas[indexElement], "descr");
@@ -40,8 +125,10 @@ angular.module('starter.controllers')
 	$scope.quiz.q5e1 = getRecordValue(_quizsDatas[indexElement], "q5e1");
 
 	cacherMontrerReponses(true);
+	*/
 });
 
+/*
 function cacherMontrerReponses(montrer) {
 	var display = 'block';
 	if (montrer == true) {
@@ -129,7 +216,7 @@ function calculer() {
 	}
 	var titre = _translate("label_results");
 	alert(message);
-	/*Ext.Msg.show({
+	Ext.Msg.show({
 				title : titre,
 				message : message + "<br/><img src='resources/images/quiz/"
 						+ nbOk + ".png' height='80px' />",
@@ -140,5 +227,6 @@ function calculer() {
 				buttons : Ext.Msg.OK,
 				icon : Ext.Msg.INFO
 			});
-	 */
+	 
 };
+*/

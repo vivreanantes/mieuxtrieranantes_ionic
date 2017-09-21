@@ -16,6 +16,7 @@ angular.module('starter.controllers').factory('ParamService',
 			 * Renvoie la valeur d'un paramètre stocké dans le stockage local.
 			 * S'il est absent, prend celui du paramètre.
 			 */
+			// RM-PA_LANGUE_02 : Si un paramètre est n'est pas sauvé, on prend celui défini dans le fichier de paramétrage.
 			var _getValueInLocalStorageWithDefault = function(key, defaultParam) {
 				var result = _getValueInLocalStorage(key);
 				if (typeof result === 'undefined') {

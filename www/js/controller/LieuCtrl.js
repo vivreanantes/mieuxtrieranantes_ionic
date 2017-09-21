@@ -19,7 +19,7 @@ angular.module('starter.controllers')
 
 
             //INIT RESULTS
-            $scope.results = RechercheService.searchStructure('smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevrac', '');
+            $scope.results = RechercheService.searchStructure(paramAllPlaces, '');
 
 
             $scope.onSearchSubmit = function() {          
@@ -81,6 +81,7 @@ angular.module('starter.controllers')
             }
             
             // Open Geo
+			// RM-TR_NAVIG_01 : Le bouton “y aller” permet de lancer l’application associée aux itinéraires, ou sur un PC d’ouvrir le site google maps.
             $scope.openMapLink = function(latitude, longitude) {
               var geoString = '';
               if(ionic.Platform.isIOS()) {
@@ -95,12 +96,14 @@ angular.module('starter.controllers')
             }
             
             // Open Phone
+			// RM-TR_NAVIG_02 : Le bouton “appeler” permet de lancer l’application associée aux itinéraires, ou sur un PC d’ouvrir le site google maps.
             $scope.openPhoneLink = function(tel) {
               var telString = 'tel:'+tel+'';
               window.open(telString, '_system');
             }
             
             // Open Link
+			// RM-TR_NAVIG_03 : Le bouton “écrire” permet de lancer l'application associée aux emails, ou sur un PC est un mailto.
             $scope.openHrefLink = function(url) {
               window.open(url, '_system', 'location=yes');
               return false;

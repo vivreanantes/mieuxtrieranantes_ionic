@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
   <title></title>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com *.ionic.io *.openstreetmap.org http://192.168.1.28 https://www.plastiques.eu http://www.mieuxtrieranantes.fr http://localhost:35729 ws://localhost:35729; style-src 'self' 'unsafe-inline' http://localhost:35729; media-src *; img-src *; script-src 'self' 'unsafe-inline' http://192.168.1.28  'unsafe-eval' http://localhost:35729">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com *.ionic.io *.openstreetmap.org http://192.168.1.17 https://www.plastiques.eu http://www.mieuxtrieranantes.fr http://localhost:35729 ws://localhost:35729; style-src 'self' 'unsafe-inline' http://localhost:35729; media-src *; img-src *; script-src 'self' 'unsafe-inline' http://192.168.1.28  'unsafe-eval' http://localhost:35729">
   <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; media-src *; img-src *; script-src * 'unsafe-inline' 'unsafe-eval'"> -->
 
   <!-- BASE -->
@@ -27,6 +27,8 @@
   <script src="lib/angular-translate/angular-translate.min.js"></script>
   <script src="lib/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
   <script src="lib/angular-ui-select/dist/select.min.js"></script>
+  <script src="lib/ngDraggable/ngDraggable.js"></script>
+  <script src="lib/angular-jk-rating-stars/dist/jk-rating-stars.js"></script>
   <script src="js/directive/MtnCommon.js"></script>
   <script src="js/directive/MtnDate.js"></script>
   <!-- script src="lib/mieuxtrieranantes/common.js" / script -->
@@ -36,11 +38,14 @@
   <!-- build:css css/app.css -->
   <link rel="stylesheet" href="css/ionic.app.css" >
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/game.css" />
   <link rel="stylesheet" href="lib/angular-ui-select/dist/select.min.css" />
   <link rel="stylesheet" href="lib/selectize/dist/css/selectize.default.css" />
   <link rel="stylesheet" href="lib/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="lib/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="lib/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="lib/angular-jk-rating-stars/dist/jk-rating-stars.css" type="text/css" />
   <!-- endbuild -->
 
   <!-- MAIN -->
@@ -53,24 +58,27 @@
   <script src="js/controller/CarteCtrl.js"></script>
   <script src="js/controller/FichesCtrl.js"></script>
   <script src="js/controller/LieuCtrl.js"></script>
-  <script src="js/controller/HomeCtrl.js"></script>
   <script src="js/controller/ConfigCtrl.js"></script>
   <script src="js/controller/AProposCtrl.js"></script>
+  <script src="js/service/RechercheService.js"></script>
+  <script src="js/service/CarteService.js"></script>
+  <script src="js/service/ParamService.js"></script>
+  <!-- RM-PA-ADAP_01 : On peut basculer le code source de l'application (passer de la version 'Nantes' à la version 'Montpellier') en modifiant quelques chaînes de caractère. -->
+  <script src="js/controller/nantes/HomeCtrl.js"></script>
   <script src="js/controller/nantes/DomicileCtrl.js"></script>
   <script src="js/controller/nantes/TrisacCtrl.js"></script>
   <script src="js/controller/nantes/QuizCtrl.js"></script>
   <script src="js/controller/nantes/JeuxCtrl.js"></script>
+  <script src="js/controller/nantes/TheGoodSortingCtrl.js"></script>
   <script src="js/controller/nantes/ZeroDechetCtrl.js"></script>
   <script src="js/controller/nantes/CompaniesAdvicesCtrl.js"></script>
-  <script src="js/service/RechercheService.js"></script>
-  <script src="js/service/CarteService.js"></script>
   <script src="js/service/nantes/TrisacService.js"></script>
-  <script src="js/service/ParamService.js"></script>
   <!-- endbuild -->
 
   <!-- DATA -->
 
   <!-- build:js js/data.min.js -->
+ <!-- RM-PA-ADAP_01 : On peut basculer le code source de l'application (passer de la version 'Nantes' à la version 'Montpellier') en modifiant quelques chaînes de caractère. -->
   <script type='application/javascript' src="resources/datas/nantes/ParamsDatas.js"></script>
   <script type='application/javascript' src='resources/datas/nantes/AdvicesDatas.js'></script>
   <script type='application/javascript' src='resources/datas/nantes/UsualCategoriesDatas.js'></script>
@@ -81,6 +89,7 @@
   <script type='application/javascript' src='resources/datas/nantes/StructuresDatas.js'></script>
   <script type='application/javascript' src='resources/datas/nantes/ContainersDatas.js'></script>
   <script type='application/javascript' src='resources/datas/nantes/QuizsDatas.js'></script>
+  <script type='application/javascript' src='resources/datas/nantes/TheGoodSortingData.js'></script>
   <script type='application/javascript' src='resources/datas/nantes/DocsDatas.js'></script>
   <script type='application/javascript' src='resources/datas/nantes/NewsDatas.js'></script>
   <script type='application/javascript' src='resources/datas/nantes/ZeroDechetNantesDatas.js'></script>
@@ -91,6 +100,9 @@
 
 </head>
 <body ng-app="starter">
-  <ion-nav-view animation="slide-left-right"></ion-nav-view>
+  <div id="mainContainer">
+		<ion-nav-view animation="slide-left-right"></ion-nav-view>
+	</div>
+  
 </body>
 </html>

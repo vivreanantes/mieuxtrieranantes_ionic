@@ -33,7 +33,7 @@ function _isNavigator() {
 }
 
 
-var myApp =angular.module('starter', ['ionic', 'leaflet-directive', 'starter.controllers', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage']);
+var myApp =angular.module('starter', ['ionic', 'leaflet-directive', 'starter.controllers', 'angular.filter', 'ui.select', 'ngSanitize', 'mtn.date', 'mtn.common', 'pascalprecht.translate', 'ngStorage', 'ngDraggable', 'jkAngularRatingStars']);
 
 myApp.run(function($ionicPlatform, $ionicPopup,$state,$translate) {
   $ionicPlatform.ready(function() {
@@ -50,6 +50,7 @@ myApp.run(function($ionicPlatform, $ionicPopup,$state,$translate) {
     }
   });
 
+  // RM-TR_NAVIG_05 : Le bouton 'retour' du téléphone permet de quitter l’application si il est appelé depuis la page d’accueil. Il demande cependant une confirmation.
   // Ouvre une fenêtre avant de quitter l'application
   $ionicPlatform.registerBackButtonAction(function(event) {
    var stLabelTitre = $translate.instant("quitter_titre");
@@ -104,7 +105,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     .state('tab', {
     url: '/tab',
     abstract: true,
-    templateUrl: 'templates/tabs.html'
+    templateUrl: 'templates/nantes/tabs.html'
   })
 
   // Each tab has its own nav history stack:
@@ -270,16 +271,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
   })
 
-   .state('tab.quiz', {
-    url: '/jeux/quiz',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/tab-quiz.html',
-        controller: 'QuizCtrl'
-      }
-    }
-   })
-
    .state('tab.docs', {
     url: '/docs',
     views: {
@@ -310,7 +301,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
     }
    })
    
-   
   .state('tab.jeux', {
     url: '/jeux',
     views: {
@@ -320,7 +310,27 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   })
+  
+   .state('tab.lebontri', {
+    url: '/lebontri',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/nantes/tab-thegoodsorting.html',
+        controller: 'TheGoodSortingCtrl'
+      }
+    }
+   })
 
+   .state('tab.quiz', {
+    url: '/quiz/:code',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/tab-quiz.html',
+        controller: 'QuizCtrl'
+      }
+    }
+   })
+   
   .state('tab.zerodechetnantes', {
     url: '/zerodechetnantes',
     views: {
@@ -348,8 +358,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   
-  })
-  
+  })  
   .state('tab.config', {
     url: '/config',
     views: {
@@ -359,16 +368,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
       }
     }
   })
-  /*
-  .state('tab.modale.domicile', {
-    url: '/modale-domicile',
-    views: {
-      'tab-config': {
-        templateUrl: 'templates/nantes/modale-domicile.html',
-        controller: 'ConfigCtrl'
-      }
-    }
-  })*/
    ;
 
   // if none of the above states are matched, use this as the fallback

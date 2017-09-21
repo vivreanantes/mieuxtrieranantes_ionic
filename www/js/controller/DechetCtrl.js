@@ -42,7 +42,6 @@ var myCtrl = angular.module('starter.controllers');
 			$scope.dechets = $filter('filter')(_garbagesDatas, {
 						cat_usuel : categorie_usuelle.code
 					});
-
 		}
 	);
 
@@ -78,22 +77,6 @@ var myCtrl = angular.module('starter.controllers');
 			}
 		}
 
-			//Array modes collectes (split de la chaine)
-			/*var modesCollectes = dechet.modco.split(",");
-
-			//RE-FILTER sur les modes de collecte
-			var modesCollectesFilter = $filter('filter')(_collectModsDatas,
-			//CUSTOM INLINE FILTER
-			function(value, index, fullarray) {
-			            //Modes de collecte déchet           
-			            myindex = modesCollectes.indexOf(value.code);
-			            if (myindex >= 0)
-			                    return true;
-			            else
-			                    return false;
-			});*/
-
-		// CRN
 		// Tableau des conseils (découpage de la chaine)
 		if (dechet.cons != null) {
 				var conseils = dechet.cons.split(",");
