@@ -1,4 +1,4 @@
-/* Empty. Add your own CSS if you like */
+﻿/* Empty. Add your own CSS if you like */
 
 #mainContainer {
 	position: absolute;
@@ -220,9 +220,11 @@ ion-content.home .news .item {
 }
 
 .popup-lieu .popup {
-
    width:270px; 
+}
 
+.popup-fiches .popup {
+   width:320px; 
 }
 
 .checkbox input:checked::before, .checkbox input:checked + .checkbox-icon::before {

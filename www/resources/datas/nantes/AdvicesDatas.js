@@ -327,8 +327,8 @@ var _advicesDatas = [{
 		"code": "cons_trop_petit",
 		"nom": "Trop petit pour être trié",
 		"nom_en": "Too small to be sorted",
-		"descr": "Ce matériau pourrait être récyclé, mais étant trop petit (ou ne représentant pas assez de métières) il doit être mis avec les ordures ménagères.",
-		"descr_en": "This material could be recycled, but is too small (or not representative enough métières) it must be put in household waste."
+		"descr": "Ce matériau pourrait être récyclé, mais étant trop petit (ou ne représentant pas assez de matières) il doit être mis avec les ordures ménagères.",
+		"descr_en": "This material could be recycled, but is too small (or not representative enough materials) it must be put in household waste."
 	}, {
 		"code": "cons_plus2vers",
 		"nom": "Asso Plus2vers : partage de lombrics et conseils sur le lombricompostage",

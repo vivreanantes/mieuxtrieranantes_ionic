@@ -44,6 +44,28 @@ var _paramFilterTypePlacesDatas = [{
 		"nom_en": "No packaging shops"
 	}
 ];
+var _paramFilterTypeFiches = [{
+		"id": "1",
+		"code": "solutions_entreprises_nantes|initiative_locale|zero_dechet_nantes|consigne_locale|general_tri",
+		"nom": "Tout"
+	}, {
+		"id": "2",
+		"code": "solutions_entreprises_nantes",
+		"nom": "Solution pour les entreprises"
+	}, {
+		"id": "3",
+		"code": "initiative_locale",
+		"nom": "Solu. locales réduction déchets"
+	}, {
+		"id": "4",
+		"code": "zero_dechet_nantes",
+		"nom": "Mode de vie zéro déchets"
+	}, {
+		"id": "5",
+		"code": "consigne_locale|general_tri",
+		"nom": "Collecte des déchets"
+	}
+];
 
 var _paramFilterTypeMapDatas = [{
 		"id": "1",
@@ -78,8 +100,8 @@ var _paramFilterTypeMapDatas = [{
 	}, {
 		"id": "6",
 		"code": "ventevrac",
-		"nom": "Vente vrac (17)",
-		"nom_en": "No packaging shops (17)",
+		"nom": "Vente vrac (62)",
+		"nom_en": "No packaging shops (62)",
 		"image": "resources/icons/marker-icon-red.png"
 	}, {
 		"id": "7",

@@ -32,15 +32,12 @@
 	</div>
 </div>
 
-<!--
-<div style="font-size:14px;align:center">
-	<span>Glisser pour répondre.</span>
-	<span ng-show="collectmodsfilter==null">
-		<a class="custom-btn-color" ng-href="#/tab/config">Votre adresse n'est pas configurée.</a>
+<div style="font-size:14px;align:center;font-style:italic">
+	<span style="font-weight:bold">Glisser pour répondre.</span>
+	<span class="col" ng-repeat="type in active_filters" style="display:inline">
+		<a ng-click="changeType(type)" style="cursor: pointer;text-decoration:underline;">{{type}}</a>
 	</span>
-	<span ng-show="collectmodsfilter==null">{{ collectmodsfilter | translate }}</span>
 </div>
--->
 
 </div>
 

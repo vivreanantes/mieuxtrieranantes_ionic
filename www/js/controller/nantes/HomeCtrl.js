@@ -100,7 +100,7 @@ angular.module('starter.controllers').controller('HomeCtrl',
 		// RM-RE_CENTR-RECH_01 : Sur la première page, l’utilisateur a possibilité de trouver directement ce qu'il cherche concernant le tri : une association, un déchet… 
 		$scope.resultsPlaces = RechercheService.searchStructure('.*', $searchkey);
 		$scope.resultsGarbages = RechercheService.searchDechet($searchkey);
-		$scope.resultsDocs = RechercheService.searchFiche($searchkey);
+		$scope.resultsDocs = RechercheService.searchFiche('.*', $searchkey);
 		// $scope.resultsHomeCollects = RechercheService.searchCollecteDomicile($searchkey);
 		$scope.resultsLength = $scope.resultsPlaces.length + $scope.resultsGarbages.length + $scope.resultsDocs.length + $scope.resultsHomeCollects.length;
 		if ($searchkey.indexOf(" ") > -1) {

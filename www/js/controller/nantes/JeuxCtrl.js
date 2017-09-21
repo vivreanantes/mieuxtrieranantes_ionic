@@ -2,36 +2,99 @@
 
 angular.module('starter.controllers')
 .controller('JeuxCtrl',
-	function ($scope, $stateParams, $timeout, $rootScope) {
+	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter) {
 
-	$scope.suffle = function (array, returnSize) {
-		for (var i = array.length - 1; i > 0; i--) {
+	$scope.types_questions = ["tri_normal","niveau_enfant"];
+	
+	$scope.suffle = function (array, active_filters, returnSize) {
+		
+		var array_temp = [];
+		// Pour toutes les questions
+		for (var j=0; j<array.length; j++) {
+			var question = array[j];
+			var questionFilters = question.filters;
+			// On ne doit pas prendre la question si active_filters correspond à un des éléments du filtre de la question
+			var questionIsOk = true;
+			for (var k=0; k<questionFilters.length; k++) {
+				var questionFilter = questionFilters[k];
+				indexEl = active_filters.indexOf(questionFilter);		
+				if (indexEl>-1) {
+					questionIsOk = false;
+				}
+			}
+			if (questionIsOk) {
+				array_temp.push(question);
+			}
+		}
+		
+		for (var i = array_temp.length - 1; i > 0; i--) {
 			var j = Math.floor(Math.random() * (i + 1));
-			var temp = array[i];
-			array[i] = array[j];
-			array[j] = temp;
+			var temp = array_temp[i];
+			array_temp[i] = array_temp[j];
+			array_temp[j] = temp;
 		}
 		var result = [];
-		for (var i = 0; i < array.length && i < returnSize; ++i) {
-			result[i] = array[i];
+		for (var i = 0; i < array_temp.length && i < returnSize; ++i) {
+			result[i] = array_temp[i];
 		}
 		return result;
 	}
+	
+	$scope.onSearchSubmit = function () {
+		var selectedCode = $scope.formParam.type.code;
+		// on modifie $scope.active_filters
+		for (var i=0; i<$scope.active_filters.length; i++) {
+			if (selectedCode=="niveau_enfant" && ($scope.active_filters[i]=="niveau_normal" || $scope.active_filters[i]=="niveau_expert") ) { $scope.active_filters[i]="niveau_enfant"; }
+			else if (selectedCode=="niveau_normal" && ($scope.active_filters[i]=="niveau_enfant" || $scope.active_filters[i]=="niveau_expert") ) { $scope.active_filters[i]="niveau_normal"; }
+			else if (selectedCode=="niveau_expert" && ($scope.active_filters[i]=="niveau_enfant" || $scope.active_filters[i]=="niveau_normal") ) { $scope.active_filters[i]="niveau_expert"; }
+			else if (selectedCode=="tri_normal" && $scope.active_filters[i]=="tri_extension") { $scope.active_filters[i]="tri_normal"; }
+			else if (selectedCode=="tri_extension" && $scope.active_filters[i]=="tri_normal") { $scope.active_filters[i]="tri_extension"; }
+		}
+		$scope.startANewAGame();
+	};
+	
+	// Choix du type
+	$scope.changeType = function (type) {
+		var i = type;
+		if (type=='niveau_enfant') {
+			$scope.temp = [{code:"niveau_enfant",nom:"Enfant"},{code:"niveau_normal",nom:"Normal"},{code:"niveau_expert",nom:"Expert"}];
+			$scope.desc = $scope.types_questions[0].descr;
+		} else if (type=='tri_normal') {
+			$scope.temp = [{code:"tri_normal",nom:"Tri normal"},{code:"tri_extension",nom:"Tri extension (bac jaune, Nantes)"}];
+			var desc = $scope.types_questions[1].descr;
+		}
+		
+		$ionicPopup.show({
+			template: '<div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.nom}}</ion-radio> </div>',
+			cssClass: 'popup-lieu',
+			title: 'Option du quiz',
+			scope: $scope,
+			buttons: [{
+					text: 'OK',
+					type: 'button-positive',
+					onTap: function (e) {
+						$scope.onSearchSubmit();
+					}
+				}
+			]
+		});
 
+	};
+	
 	$scope.startANewAGame = function () {
 		$scope.result = "";
 		$scope.advice = "";
 		$scope.result_end = [];
 		// = true après réponse à toutes les questions
 		$scope.gameplay.gameEnd = "false";
-		$scope.questions = $scope.suffle(_theGoodSortingData.questions, 2);
+		$scope.questions = $scope.suffle(_theGoodSortingData.questions, $scope.active_filters, 5);
 		$scope.gameplay.goodAnswers = 0;
 		$scope.gameplay.currentQuestionIndex = 0;
 		//Question courante
 		$scope.gameplay.currentQuestion = $scope.questions[0];
 		// = false après la réponse à la première question
 		$scope.gameplay.firstInit = true;
-		$scope.temporaryHide = false;;
+		$scope.temporaryHide = false; ;
 	}
 
 	/* DATA MODEL */
@@ -43,6 +106,15 @@ angular.module('starter.controllers')
 	});
 	$scope.questions = _theGoodSortingData.questions;
 	$scope.reponses = _theGoodSortingData.reponses;
+	$scope.types_questions = _theGoodSortingData.types_questions;
+	$scope.active_filters = ["niveau_enfant","tri_normal"];
+	
+	//FORM MODEL : DEFAULTS
+	$scope.formParam = {
+		type: $scope.types_questions[0],
+		searchkey: ''
+	};
+
 	$scope.startANewAGame();
 
 	$scope.onDropComplete = function (data, evt, reponse_id) {
@@ -60,7 +132,7 @@ angular.module('starter.controllers')
 			reponseObject.answerClass = 'bad';
 			$scope.result = 'bad';
 			$scope.advice = data.advice;
-			$scope.result_end.push(data.descr+" : "+data.advice);
+			$scope.result_end.push(data.descr + " : " + data.advice);
 			timeNexQuestion = 3000;
 		}
 
