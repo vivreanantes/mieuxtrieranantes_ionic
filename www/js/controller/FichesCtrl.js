@@ -3,27 +3,67 @@
 angular.module('starter.controllers')
 .controller('FichesCtrl', function ($scope, $stateParams, $ionicPopup, RechercheService) {
 
-	//GLOBAL DATA SOURCE
-	// $scope.fiches = _infosDatas;
+     	    $scope.debug = false;
             
+            //SELECT Type de structures                 
+            $scope.typeFiches = RechercheService.getAFilter("filter_fiches_types");
+           
+            //FORM MODEL : DEFAULTS
+            $scope.formParam = {
+                type : $scope.typeFiches[0],
+                searchkey : ''
+            };
+
+
+            //INIT RESULTS
+            $scope.results = RechercheService.searchFiche($scope.typeFiches[0].code, '');
+
+
+            $scope.onSearchSubmit = function() {          
+                $scope.results = RechercheService.searchFiche($scope.formParam.type.code, $scope.formParam.searchkey);
+            };
+
+
+            //Choix du type de lieu (popup)
+            $scope.selectType = function () {
+              
+              $ionicPopup.show({
+              template: '<div ng-repeat="obj in typeFiches"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.nom}}</ion-radio> </div>',
+              cssClass: 'popup-fiches',
+              title: 'Type de solutions',
+              scope: $scope,
+              buttons: [
+                {
+                  text: 'OK',
+                  type: 'button-positive',
+                  onTap: function(e) {
+
+                    $scope.onSearchSubmit();
+                    
+                  }
+                }
+              ]
+            });
+
+          };
+
+
+
+/*            
     // SELECT Type de structures
     $scope.typeFiches = RechercheService.getAFilter("filter_fiches_types");
 
-	$scope.fiches = RechercheService.searchFiche($scope.typeFiches[0].code, '');
-			
 	//FORM MODEL : DEFAULTS
 	$scope.formParam = {
 		type: $scope.typeFiches[0],
 		searchkey: ''
 	};
 
+	$scope.fiches = RechercheService.searchFiche($scope.typeFiches[0].code, '');
+
 	$scope.onSearchSubmit = function () {
 		$scope.fiches = RechercheService.searchFiche($scope.formParam.type.code, '');
-		/*if ($scope.formParam.searchkey.indexOf(" ") > -1) {
-			$scope.onlyOneResult = "1";
-		} else {
-			$scope.onlyOneResult = null;
-		}*/
+		$scope.onlyOneResult = null;
 	};
 	
 	// Choix du type
@@ -47,6 +87,7 @@ angular.module('starter.controllers')
 		});
 
 	};
+	*/
 })
 .controller('FichesDetailCtrl', function ($scope, $stateParams, $filter) {
 

@@ -1969,7 +1969,7 @@ var _structuresDatas = [{
 		"email": " laboitearecup@hotmail.com",
 		"facebook": "https://m.facebook.com/La-boite-%C3%A0-r%C3%A9cup-227192727681238/",
 		"tel": "06 99 62 12 45",
-		"logo": "resources/images/nantes/logo_laboitearecup.png",
+		"logo": "resources/images/nantes/logo_laboitearecup.jpg",
 		"src": "Visite de la Boîte à Récup shop 03/2017",
 		"plagesHoraires": "0101-3112_me+ve_10h00-12h30+14h30-18h00,0101-3112_sa_10h30-12h30+13h30-15h00",
 		"mots_cles": "la,boite,recup,saint,herblain,,livre,bd,cd,dvd,vinyle,jouet,jeu,bibelot,0",

@@ -1,24 +1,30 @@
 <ion-view view-title="{{'fiches'|translate}}" hide-back-button="true">
-	<ion-content class="has-footer">
 
-		<div class="card">
+  <ion-content class="has-footer">
+  
 
-			<div class="typelieu item item-icon-right item-input" ng-click="selectType()">
-				<label class="item-input-wrapper">{{ formParam.type.nom }}</label>
-				<a class="button positive button-icon icon ion-arrow-down-b" ng-click=""></a>
-			</div>
+<div class="card">
 
-		</div>
-		<div class="card fiches">
+  <div class="item item-divider item-calm">{{'recherche'|translate}}</div>
+    
+  <div class="typelieu item item-icon-right item-input" ng-click="selectType()">
+      <span class="input-label">{{'types_de_fiche'|translate}}</span> 
+      <label class="item-input-wrapper">{{ formParam.type.nom }}</label>
+      <a class="button positive button-icon icon ion-arrow-down-b" ng-click=""></a>
+  </div>
+  
+</div>
 
-			<div class="list">         
-				<a class="item item-thumbnail-left" ng-href="#/tab/fiches/detail/{{::fiche.code}}" ng-repeat="fiche in ::fiches" ng-if="fiche.code">           
-					<img ng-src="resources/images/{{::fiche.image}}"/>
-            {{'nom_translated'|translate:fiche}}
-				</a>    
-			</div>
+<div class="card">
 
-		</div>
+  <div class="item item-divider item-calm">{{'results'|translate}} <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span></div>
 
-	</ion-content>
+  <div class="item" ng-show="results.length == 0">{{'no_result'|translate}}</div>
+
+  <a class="item" ng-repeat="fiche in results" ng-href="#/tab/fiches/detail/{{::fiche.code}}">
+		<img ng-src="resources/images/{{::fiche.image}}"/>
+        {{'nom_translated'|translate:fiche}}
+		<div ng-show="fiche.type" style="color:#666">{{fiche.type}}</div>
+  </a>
+</div>
 </ion-view>
