@@ -1,7 +1,5 @@
  /*
- 
- CSS JEUX
- 
+    CSS JEUX
  */
 
 
@@ -19,10 +17,29 @@
         user-select: none;
     }
 
+    .top-pane {
+        height:40vh;
+        padding-top:44px;
+    }
+
+    .bottom-pane {
+        height:60vh;
+        padding-bottom:50px;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items:flex-end;
+    }
+
+    .question-image {
+        margin: 0 auto;
+        width:6em;
+        margin-top:1em;
+    }
+
     .drag-object, [ng-drag-clone], [ng-drop] [ng-drag] {
 
-        width: 9em;
-        height: 9em;
         background: #fff;
         color: white;
         text-align: center;
@@ -51,6 +68,12 @@
         opacity: 0.9;
     }
 
+	.bottom_reponses {
+		display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;     
+	}
 
 	.reponse {
         color:white;
@@ -66,7 +89,7 @@
 
     .reponse img {
  		max-width: 100%;
-  		max-height: 100px;
+  		max-height: 80px;
 	}
 
     .reponse.drag-enter {
@@ -81,15 +104,15 @@
         background: #ff8787;
     }
 
-	.row.bottom {    
-		position: absolute;
-		bottom : 5em;
-	}
-
-	.row.top {
-		
-		margin-top : 10%;
-	}
+    .advice {
+        text-align:center;
+        width:80%;
+        margin:0 auto;
+        font-style:italic;
+        background:#F5D0D0;
+        padding:0.5em;
+        border-radius: 10px;
+    }
 
     .centered {
         margin-left: auto;
@@ -97,11 +120,6 @@
         width: 11em;
         margin-top: 1em;
     }
-
-	.pane {
-        
-		padding-top: 2em;
-	}
 
 	.drag-object img {
  		max-width: 100%;
@@ -132,5 +150,31 @@
         font-size: 16px;
         line-height: 42px;
         cursor: none;
+
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 480px) {
+
+        .reponse img {
+ 		    max-width: 100%;
+  		    max-height: 80px;
+	    }
+
+    }
+
+    @media (min-width: 481px) {
+
+        .reponse img {
+ 		    max-width: 100%;
+  		    max-height: 100px;
+	    }
+
+        .question-image {
+            margin: 0 auto;
+            width:7em;
+            margin-top:1em;
+        }
 
     }

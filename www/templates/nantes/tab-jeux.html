@@ -4,6 +4,34 @@
 
 <div ng-show="gameplay.gameEnd=='false'">
 
+<div class="top-pane">
+
+	<div>
+		<div class="col" style="text-align:center">
+			<div style="font-size:1.3em;margin-bottom:1em">Question : {{ gameplay.currentQuestionIndex + 1 }} / {{  questions.length }}</div>
+			<div style="font-size:1.5em">{{gameplay.currentQuestion.descr}} ?</div>
+			<div style="color:grey" ng-show="gameplay.currentQuestion.descr_comp" style="font-size:1.5em">{{gameplay.currentQuestion.descr_comp}}</div>
+		</div>
+	</div>
+	<div class="question-image">
+		<div ng-hide="temporaryHide" class="drag-object" ng-drag="true" ng-drag-data="gameplay.currentQuestion" allowTransform="false">
+			<img ng-src="resources/images/thegoodsorting/{{gameplay.currentQuestion.image}}"/>
+		</div>
+	</div>
+	<div ng-show="advice!=''" class="advice">
+	Explication : {{advice}}
+	</div>
+
+</div>
+<div class="bottom-pane">
+	<div class="bottom_reponses" style="overflow: visible;">
+	<div ng-repeat="reponse in reponses" class="reponse {{reponse.answerClass}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
+			<div style="color:black">{{reponse.descr}}</div>
+			<img ng-src="resources/images/thegoodsorting/{{reponse.image}}"/>
+	</div>
+	</div>
+</div>
+
 <!--
 <div style="font-size:14px;align:center">
 	<span>Glisser pour répondre.</span>
@@ -13,38 +41,7 @@
 	<span ng-show="collectmodsfilter==null">{{ collectmodsfilter | translate }}</span>
 </div>
 -->
-<div class="row">
-	<div class="col" style="text-align:center">
-        <span>Question : {{ gameplay.currentQuestionIndex + 1 }} / {{  questions.length }}</span>
-		<div style="font-size:18px">{{gameplay.currentQuestion.descr}} ?</div>
-		<div style="color:grey" ng-show="gameplay.currentQuestion.descr_comp" style="font-size:10px">{{gameplay.currentQuestion.descr_comp}}</div>
-    </div>
-</div>
 
-<div class="centered">
-	<div ng-hide="temporaryHide" class="drag-object" ng-drag="true" ng-drag-data="gameplay.currentQuestion" allowTransform="false">
-        <img ng-src="resources/images/thegoodsorting/{{gameplay.currentQuestion.image}}"/>
-	</div>
-</div>
-<div style="text-align:center">
-  <span ng-show="result=='good'" style="color:green;font-size:20px">Bravo !</span>
-  <span ng-show="result=='bad'" style="color:red;font-size:20px">Dommage</span>
-  <!-- bug mis exprès ! -->
-  <div  ng-show="advice!=''>Explication : </div>
-<div>
-
-<!-- /*middle;word-wrap:*/ -->
-<div class="row bottom" style="max-width:100%;vertical-align:  break-word;overflow: visible;">
-   <div class="col" ng-repeat="reponse in reponses" style="display:inline">
-   <div class="reponse {{reponse.answerClass}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event,reponse.id)" >
-		<div style="color:black">{{reponse.descr}}</div>
-		<img ng-src="resources/images/thegoodsorting/{{reponse.image}}" width="75px"/>
-   </div>
-  </div>
-</div>
-<div ng-show="advice" style="font-weight:bold"><br/><br/>{{advice}}</div>
-</div>
-</div>
 </div>
 
 <!-- GAME END -->
@@ -53,10 +50,9 @@
     <div class="absolute-center">
     <h2>Votre score</h2>
     <jk-rating-stars max-rating="4" rating="numstars" read-only="true" ></jk-rating-stars>
-	<div ng-repeat="item in result_end">{{item}}</div>
-	<br/><br/><br/>
-	<div class="card">
-		<div class="item"><a class="button button-calm icon-left ion-play" ng-click="startANewAGame()">Rejouer</a></div>
+	<!-- <div ng-repeat="item in result_end">{{item}}</div> -->
+	<div>
+		<a class="button button-calm icon-left ion-play" ng-click="startANewAGame()">Rejouer</a>
 	</div>
     </div>
 </div>

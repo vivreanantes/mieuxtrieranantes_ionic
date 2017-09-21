@@ -38,7 +38,7 @@ angular.module('starter.controllers')
 	angular.extend($scope, {
 		gameplay: {
 			//Délai avant affichage de la prochaine question suite à une réponse
-			nextQuestionDelay: 800
+			nextQuestionDelay: 1000
 		}
 	});
 	$scope.questions = _theGoodSortingData.questions;
