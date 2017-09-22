@@ -181,7 +181,7 @@ var _ihmLabelsFrDatas = {
 	"no_result": "Aucun résultats",
 	"les_xx_premiers_results_affiches": "Les {{nb}} {{maxDisplayResults}} premiers résultats ont été affichés...",
 	"recherche": "Recherche",
-	"recherche_solutions": "Recherche solutions",
+	"recherche_solutions": "Recherche de solutions",
 	"affiner_recherche": "Vous pouvez utiliser la recherche par mot-clé pour affiner votre recherche.",
 	"jhabite_nantes": "Ville de Nantes",
 	"jhabite_hors_nantes": "Autre ville de Nantes Métropole",
