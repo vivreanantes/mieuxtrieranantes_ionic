@@ -14,6 +14,7 @@
     "selectize": "~0.12.1",
     "angular-translate-loader-static-files": "^2.12.0",
     "ng-storage": "^0.4.2",
-	  "angular-jk-rating-stars" : "1.0.x"
+    "angular-jk-rating-stars" : "1.0.x",
+    "ngDraggable": "0.1.10"
   }
 }

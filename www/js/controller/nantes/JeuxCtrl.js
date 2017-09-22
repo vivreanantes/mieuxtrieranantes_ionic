@@ -4,7 +4,7 @@ angular.module('starter.controllers')
 .controller('JeuxCtrl',
 	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter) {
 
-	$scope.types_questions = ["tri_normal","niveau_enfant"];
+	$scope.types_questions = ["tri normal","niveau enfant"];
 	
 	$scope.suffle = function (array, active_filters, returnSize) {
 		
@@ -12,7 +12,7 @@ angular.module('starter.controllers')
 		// Pour toutes les questions
 		for (var j=0; j<array.length; j++) {
 			var question = array[j];
-			var questionFilters = question.filters;
+			var questionFilters = question.exclude_filters;
 			// On ne doit pas prendre la question si active_filters correspond à un des éléments du filtre de la question
 			var questionIsOk = true;
 			for (var k=0; k<questionFilters.length; k++) {
@@ -44,11 +44,11 @@ angular.module('starter.controllers')
 		var selectedCode = $scope.formParam.type.code;
 		// on modifie $scope.active_filters
 		for (var i=0; i<$scope.active_filters.length; i++) {
-			if (selectedCode=="niveau_enfant" && ($scope.active_filters[i]=="niveau_normal" || $scope.active_filters[i]=="niveau_expert") ) { $scope.active_filters[i]="niveau_enfant"; }
-			else if (selectedCode=="niveau_normal" && ($scope.active_filters[i]=="niveau_enfant" || $scope.active_filters[i]=="niveau_expert") ) { $scope.active_filters[i]="niveau_normal"; }
-			else if (selectedCode=="niveau_expert" && ($scope.active_filters[i]=="niveau_enfant" || $scope.active_filters[i]=="niveau_normal") ) { $scope.active_filters[i]="niveau_expert"; }
-			else if (selectedCode=="tri_normal" && $scope.active_filters[i]=="tri_extension") { $scope.active_filters[i]="tri_normal"; }
-			else if (selectedCode=="tri_extension" && $scope.active_filters[i]=="tri_normal") { $scope.active_filters[i]="tri_extension"; }
+			if (selectedCode=="niveau enfant" && ($scope.active_filters[i]=="niveau normal" || $scope.active_filters[i]=="niveau expert") ) { $scope.active_filters[i]="niveau enfant"; }
+			else if (selectedCode=="niveau normal" && ($scope.active_filters[i]=="niveau enfant" || $scope.active_filters[i]=="niveau expert") ) { $scope.active_filters[i]="niveau normal"; }
+			else if (selectedCode=="niveau expert" && ($scope.active_filters[i]=="niveau enfant" || $scope.active_filters[i]=="niveau normal") ) { $scope.active_filters[i]="niveau expert"; }
+			else if (selectedCode=="tri normal" && $scope.active_filters[i]=="tri extension") { $scope.active_filters[i]="tri normal"; }
+			else if (selectedCode=="tri extension" && $scope.active_filters[i]=="tri normal") { $scope.active_filters[i]="tri extension"; }
 		}
 		$scope.startANewAGame();
 	};
@@ -56,17 +56,17 @@ angular.module('starter.controllers')
 	// Choix du type
 	$scope.changeType = function (type) {
 		var i = type;
-		if (type=='niveau_enfant') {
-			$scope.temp = [{code:"niveau_enfant",nom:"Enfant"},{code:"niveau_normal",nom:"Normal"},{code:"niveau_expert",nom:"Expert"}];
-			$scope.desc = $scope.types_questions[0].descr;
-		} else if (type=='tri_normal') {
-			$scope.temp = [{code:"tri_normal",nom:"Tri normal"},{code:"tri_extension",nom:"Tri extension (bac jaune, Nantes)"}];
-			var desc = $scope.types_questions[1].descr;
+		if (type=='niveau enfant') {
+			$scope.temp = [{code:"niveau enfant",nom:"Enfant"},{code:"niveau normal",nom:"Normal"},{code:"niveau expert",nom:"Expert"}];
+			$scope.descr = $scope.types_questions[1].descr;
+		} else if (type=='tri normal') {
+			$scope.temp = [{code:"tri normal",nom:"Tri normal"},{code:"tri extension",nom:"Tri extension (bac jaune, Nantes)"}];
+			$scope.descr = $scope.types_questions[0].descr;
 		}
 		
 		$ionicPopup.show({
-			template: '<div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.nom}}</ion-radio> </div>',
-			cssClass: 'popup-lieu',
+			template: '<div ng-show="descr">{{descr}}</div><div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.nom}}</ion-radio> </div>',
+			cssClass: 'popup-fiches',
 			title: 'Option du quiz',
 			scope: $scope,
 			buttons: [{
@@ -107,7 +107,7 @@ angular.module('starter.controllers')
 	$scope.questions = _theGoodSortingData.questions;
 	$scope.reponses = _theGoodSortingData.reponses;
 	$scope.types_questions = _theGoodSortingData.types_questions;
-	$scope.active_filters = ["niveau_enfant","tri_normal"];
+	$scope.active_filters = ["niveau enfant","tri normal"];
 	
 	//FORM MODEL : DEFAULTS
 	$scope.formParam = {
@@ -133,7 +133,7 @@ angular.module('starter.controllers')
 			$scope.result = 'bad';
 			$scope.advice = data.advice;
 			$scope.result_end.push(data.descr + " : " + data.advice);
-			timeNexQuestion = 3000;
+			timeNexQuestion = 4000;
 		}
 
 		$scope.gameplay.firstInit = false;
