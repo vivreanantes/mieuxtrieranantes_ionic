@@ -4,7 +4,10 @@ angular.module('starter.controllers')
 .controller('JeuxCtrl',
 	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter) {
 
-	$scope.types_questions = ["tri normal","niveau enfant"];
+	$scope.num_questions = 2;
+	$scope.max_stars = 4;
+	// $scope.types_questions = [{code:"tri_normal",descr:"tri normal"},{code:"tri_extension",descr:"niveau enfant"}];
+	
 	
 	$scope.suffle = function (array, active_filters, returnSize) {
 		
@@ -17,9 +20,10 @@ angular.module('starter.controllers')
 			var questionIsOk = true;
 			for (var k=0; k<questionFilters.length; k++) {
 				var questionFilter = questionFilters[k];
-				indexEl = active_filters.indexOf(questionFilter);		
-				if (indexEl>-1) {
-					questionIsOk = false;
+				for (var l=0; l<active_filters.length; l++) {
+					if (active_filters[l].value==questionFilter) {
+						questionIsOk = false;
+					}
 				}
 			}
 			if (questionIsOk) {
@@ -41,14 +45,12 @@ angular.module('starter.controllers')
 	}
 	
 	$scope.onSearchSubmit = function () {
-		var selectedCode = $scope.formParam.type.code;
-		// on modifie $scope.active_filters
-		for (var i=0; i<$scope.active_filters.length; i++) {
-			if (selectedCode=="niveau enfant" && ($scope.active_filters[i]=="niveau normal" || $scope.active_filters[i]=="niveau expert") ) { $scope.active_filters[i]="niveau enfant"; }
-			else if (selectedCode=="niveau normal" && ($scope.active_filters[i]=="niveau enfant" || $scope.active_filters[i]=="niveau expert") ) { $scope.active_filters[i]="niveau normal"; }
-			else if (selectedCode=="niveau expert" && ($scope.active_filters[i]=="niveau enfant" || $scope.active_filters[i]=="niveau normal") ) { $scope.active_filters[i]="niveau expert"; }
-			else if (selectedCode=="tri normal" && $scope.active_filters[i]=="tri extension") { $scope.active_filters[i]="tri normal"; }
-			else if (selectedCode=="tri extension" && $scope.active_filters[i]=="tri normal") { $scope.active_filters[i]="tri extension"; }
+		var selectedCode = $scope.formParam.type.value;
+		var selectedType = $scope.formParam.code; // "tri" ou "niveau"
+		// on modifie $scope.types_questions
+		for (var i=0; i<$scope.types_options.length; i++) {
+			if (selectedType=="tri") { $scope.active_filters[0]=$scope.formParam.type; }
+			else if (selectedType=="niveau") { $scope.active_filters[1]=$scope.formParam.type; }
 		}
 		$scope.startANewAGame();
 	};
@@ -56,16 +58,16 @@ angular.module('starter.controllers')
 	// Choix du type
 	$scope.changeType = function (type) {
 		var i = type;
-		if (type=='niveau enfant') {
-			$scope.temp = [{code:"niveau enfant",nom:"Enfant"},{code:"niveau normal",nom:"Normal"},{code:"niveau expert",nom:"Expert"}];
-			$scope.descr = $scope.types_questions[1].descr;
-		} else if (type=='tri normal') {
-			$scope.temp = [{code:"tri normal",nom:"Tri normal"},{code:"tri extension",nom:"Tri extension (bac jaune, Nantes)"}];
-			$scope.descr = $scope.types_questions[0].descr;
+		$scope.formParam.code=type.code;
+		if (type.code=='niveau') {
+			$scope.temp = [{value:"niveau_enfant",descr:"niveau enfant",code:"niveau"},{value:"niveau_normal",descr:"niveau normal",code:"niveau"},{value:"niveau_expert",descr:"niveau expert",code:"niveau"}];
+			$scope.descr = $scope.types_options[1].descr;
+		} else if (type.code=='tri') {
+			$scope.temp = [{value:"tri_normal",descr:"tri normal",code:"tri"},{value:"tri extension",descr:"tri extension",code:"tri"}];
+			$scope.descr = $scope.types_options[0].descr;
 		}
-		
 		$ionicPopup.show({
-			template: '<div ng-show="descr">{{descr}}</div><div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.nom}}</ion-radio> </div>',
+			template: '<div ng-show="descr">{{descr}}</div><div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.descr}}</ion-radio></div>',
 			cssClass: 'popup-fiches',
 			title: 'Option du quiz',
 			scope: $scope,
@@ -87,7 +89,8 @@ angular.module('starter.controllers')
 		$scope.result_end = [];
 		// = true après réponse à toutes les questions
 		$scope.gameplay.gameEnd = "false";
-		$scope.questions = $scope.suffle(_theGoodSortingData.questions, $scope.active_filters, 5);
+		$scope.types_options = _theGoodSortingData.types_options,
+		$scope.questions = $scope.suffle(_theGoodSortingData.questions, $scope.active_filters, $scope.num_questions);
 		$scope.gameplay.goodAnswers = 0;
 		$scope.gameplay.currentQuestionIndex = 0;
 		//Question courante
@@ -106,12 +109,14 @@ angular.module('starter.controllers')
 	});
 	$scope.questions = _theGoodSortingData.questions;
 	$scope.reponses = _theGoodSortingData.reponses;
-	$scope.types_questions = _theGoodSortingData.types_questions;
-	$scope.active_filters = ["niveau enfant","tri normal"];
+	$scope.types_options = _theGoodSortingData.types_options;
+	// TODO Prendre _theGoodSortingData.types_options et filtrer selon default
+	$scope.active_filters = [{code:"tri",value:"tri_normal",descr:"tri normal"},{code:"niveau",value:"niveau_enfant",descr:"niveau enfant"}];
 	
 	//FORM MODEL : DEFAULTS
 	$scope.formParam = {
-		type: $scope.types_questions[0],
+		type: $scope.types_options[0],
+		code:'ff',
 		searchkey: ''
 	};
 
@@ -132,9 +137,9 @@ angular.module('starter.controllers')
 			reponseObject.answerClass = 'bad';
 			$scope.result = 'bad';
 			$scope.advice = data.advice;
-			$scope.result_end.push(data.descr + " : " + data.advice);
 			timeNexQuestion = 4000;
 		}
+		$scope.result_end.push({answerClass:$scope.result, descr:data.descr, descr_en:data.descr_en, advice_en:data.advice_en, advice:data.advice});
 
 		$scope.gameplay.firstInit = false;
 		// TEMPORARY HIDE Drag object avant prochaine question
@@ -169,9 +174,11 @@ angular.module('starter.controllers')
 
 	var endGame = function () {
 		$scope.gameplay.gameEnd = "true";
+		$scope.numstars = parseInt($scope.gameplay.goodAnswers * $scope.max_stars / $scope.questions.length, 10);
 		//Affichage STARS SCORE
-		var ratio = $scope.gameplay.goodAnswers / $scope.questions.length;
+		/*var ratio = $scope.gameplay.goodAnswers / $scope.questions.length;
 		var numstars = 0;
+		$scope.num_questions
 		if (ratio >= 0.3 && ratio < 0.5) {
 			numstars = 1;
 		} else if (ratio >= 0.5 && ratio < 0.7) {
@@ -181,7 +188,8 @@ angular.module('starter.controllers')
 		} else if (ratio >= 0.8) {
 			numstars = 4;
 		}
-		$scope.numstars = numstars;
+		$scope.numstars = numstars; */
+		
 	}
 
 	var resetReponsesState = function () {
@@ -192,4 +200,23 @@ angular.module('starter.controllers')
 		});
 	}
 
+	// Choix du type
+	$scope.showAnswer = function (item) {
+		var text = '<div ng-show="item.resume">'+item.resume+'</div><div>'+item.advice+'</div>'
+		$ionicPopup.show({
+			template: text,
+			cssClass: 'popup-fiches',
+			title: item.descr,
+			scope: $scope,
+			buttons: [{
+					text: 'OK',
+					type: 'button-positive',
+					onTap: function (e) {
+						return true;
+					}
+				}
+			]
+		});
+
+	};
 });
