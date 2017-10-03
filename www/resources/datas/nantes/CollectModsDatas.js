@@ -63,7 +63,7 @@ var _collectModsDatas = [{
 		"mots_cles": "conteneur,emballages,journaux,magazines",
 		"mots_cles_en": "container,packaging,newspapers,magazines",
 	}, {
-		"code": "modco_bacblehorsnantes",
+		"code": "modco_bacbleuhorsnantes",
 		"nom": "Bacs bleus (hors Nantes)",
 		"nom_en": "Blue bins (excluding Nantes)",
 		"libelleBouton": "Bacs bleus (hors Nantes)",
@@ -77,7 +77,7 @@ var _collectModsDatas = [{
 		"mots_cles": "bacs,bleus",
 		"mots_cles_en": "bins,blue",
 	}, {
-		"code": "modco_bacbleu",
+		"code": "modco_bacbleunantes",
 		"nom": "Bacs bleus",
 		"nom_en": "Blue bins",
 		"libelleBouton": "Bacs bleus",
@@ -91,7 +91,7 @@ var _collectModsDatas = [{
 		"mots_cles": "bacs,bleus",
 		"mots_cles_en": "bins,blue",
 	}, {
-		"code": "modco_bacjaunnantes",
+		"code": "modco_bacjaunenantes",
 		"nom": "Bacs jaunes (Nantes)",
 		"nom_en": "Yellow Bacs (Nantes)",
 		"libelleBouton": "Bacs jaunes (Nantes)",
@@ -106,7 +106,7 @@ var _collectModsDatas = [{
 		"mots_cles": "bacs,jaunes",
 		"mots_cles_en": "bins,yellow",
 	}, {
-		"code": "modco_bacjaune",
+		"code": "modco_bacjaunehorsnantes",
 		"nom": "Bacs jaunes",
 		"nom_en": "Yellow Bacs",
 		"libelleBouton": "Bacs jaunes",

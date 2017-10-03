@@ -61,7 +61,8 @@ var myCtrl = angular.module('starter.controllers');
 
 		// On récupère les modes de collecte
 		if (dechet.hasOwnProperty('modco')) {
-			$scope.modesDeCollecte = RechercheService.getModeDeCollectes(dechet.modco);
+			var arrayModco = dechet.modco.split(",");
+			$scope.modesDeCollecte = RechercheService.getModeDeCollectes(arrayModco);
 
 			  for (var k = 0; k < $scope.modesDeCollecte.length; k++) {
 				if (typeof $scope.modesDeCollecte[k].colFiches !== 'undefined') {

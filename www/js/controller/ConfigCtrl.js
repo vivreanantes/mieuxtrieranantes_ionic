@@ -47,11 +47,6 @@ angular.module('starter.controllers').controller(
 
 	$scope.selectAdress = function (mco, adresse, dcv, ci) {
 		
-		var codes = ["abc","bcd"];
-		var test1 = codes.indexOf("cd");
-		var test2 = codes.indexOf("abc");
-		var test3 = codes.indexOf("bc");
-		
 		// RM-PA_ADRESSE_02 : On peut sauver l’adresse du domicile dans le paramétrage, pour donner des résultats plus précis.
 		// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
 		ParamService.setValueInLocalStorage("collectmodsfilter", mco);
@@ -60,15 +55,15 @@ angular.module('starter.controllers').controller(
 		ParamService.setValueInLocalStorage("adressstored", adresse);
 
 		var mco_filter_not = "";
-		if (mco === "modco_bacbleuhorsnantes,modco_bacjaunehorsnantesnantes") {
+		if (mco === "modco_bacbleunantes,modco_bacjaunenantes") {
 			// bac nantes : retire sacs, bac jaune, bacs bleus hors nantes
-			mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaune,modco_bacbleu"
+			mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaunehorsnantes,modco_bacbleuhorsnantes"
 		} else if (mco === "modco_bacbleuhorsnantes,modco_bacjaunehorsnantes") {
 			// bac hors nantes : retire sacs, bacs jaunes hors nantes, bacs bleus
-			mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaunenantes,modco_bacblehorsnantes"
+			mco_filter_not = "modco_sacjaune,modco_sacbleu,modco_bacjaunenantes,modco_bacbleunantes"
 		} else if (mco === "modco_sacjaune,modco_sacbleu") {
 			// trisac : retire bacs bleus, bacs jaunes nantes, bacs jaunes hors nantes, bacs bleus hors nantes
-			mco_filter_not = "modco_bacbleuhorsnantes,modco_bacjaunehorsnantesnantes,modco_bacjaune,modco_bacblehorsnantes"
+			mco_filter_not = "modco_bacbleuhorsnantes,modco_bacjaunehorsnantes,modco_bacjaunenantes,modco_bacbleunantes"
 		}
 		ParamService.setValueInLocalStorage("mco_filter_not", mco_filter_not);
 		$rootScope.collectmodsfilter = mco;

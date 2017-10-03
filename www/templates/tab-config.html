@@ -11,7 +11,10 @@
 	
 	<div class="card padding">
 	  <div class="item item-divider item-calm">{{"modes_de_collecte" | translate}}</div>
-	  <div class="item">{{ collectmodsfilter | translate }}</div>
+	  <div class="item"> 
+		<div ng-show="collectmodsfilter">{{'votre_mode_de_tri' | translate}} : {{ collectmodsfilter | translate }}</div>
+		<div ng-show="adressstored" style="font-style:italic">{{'adresse_configuree' | translate}} : {{ adressstored | translate }}</div>
+	  </div>
 	  <div class="item"><button class="button button-calm  icon-left ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
          <script id="nantes/modal-domicile.html" type="text/ng-template">
 		      <ion-modal-view>
@@ -23,7 +26,7 @@
 		        
 		        <ion-content class="padding">
 
-		      <ion-radio ng-model="choice" ng-value="'B'" ng-click="selectAdress('modco_bacbleu,modco_bacjaune')">{{'jhabite_hors_nantes'|translate}}</ion-radio>
+		      <ion-radio ng-model="choice" ng-value="'B'" ng-click="selectAdress('modco_bacbleuhorsnantes,modco_bacjaunehorsnantes','jhabite_hors_nantes')">{{'jhabite_hors_nantes'|translate}}</ion-radio>
 		      <ion-radio ng-model="choice" ng-value="'A'">{{'jhabite_nantes'|translate}}</ion-radio>
 	
 		      <div class="card" ng-show="choice=='A'">
@@ -46,11 +49,11 @@
 			
 				  	<div class="item" ng-show="results.length == 0"> : {{'no_result'|translate}}</div>
 			
-				  	<div class="item item-button-right" ng-repeat="collecte in results | limitTo:maxDisplayResults">
-				        {{::collecte.dcv}}<span ng-show="collecte.ci"> {{::collecte.ci}}<br></span>
+				  	<div class="item item-button-right item-text-wrap" ng-repeat="collecte in results | limitTo:maxDisplayResults">
+				       {{::collecte.dcv}}<br/><span ng-show="collecte.ci"> {{::collecte.ci}}<br/></span>
  				       <span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
  				       <span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='en'"></span>
-				        <button class="button button-stable" ng-click="selectAdress(collecte.mco)">
+				        <button class="button button-small button-dark" ng-click="selectAdress(collecte.mco,collecte.dcv,collecte.ci,collecte.jcbj)">
 			      			<i class="ico ion-arrow-right-c"> {{'select'|translate}}</i>
 			    		</button>
 				  	</div>
