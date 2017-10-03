@@ -4,7 +4,7 @@ angular.module('starter.controllers')
 .controller('JeuxCtrl',
 	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter) {
 
-	$scope.num_questions = 2;
+	$scope.num_questions = 5;
 	$scope.max_stars = 4;
 	// $scope.types_questions = [{code:"tri_normal",descr:"tri normal"},{code:"tri_extension",descr:"niveau enfant"}];
 	
@@ -60,7 +60,7 @@ angular.module('starter.controllers')
 		var i = type;
 		$scope.formParam.code=type.code;
 		if (type.code=='niveau') {
-			$scope.temp = [{value:"niveau_enfant",descr:"niveau enfant",code:"niveau"},{value:"niveau_normal",descr:"niveau normal",code:"niveau"},{value:"niveau_expert",descr:"niveau expert",code:"niveau"}];
+			$scope.temp = [{value:"niveau_enfant",descr:"enfant",code:"niveau"},{value:"niveau_normal",descr:"normal",code:"niveau"},{value:"niveau_expert",descr:"expert",code:"niveau"}];
 			$scope.descr = $scope.types_options[1].descr;
 		} else if (type.code=='tri') {
 			$scope.temp = [{value:"tri_normal",descr:"tri normal",code:"tri"},{value:"tri extension",descr:"tri extension",code:"tri"}];
@@ -111,7 +111,7 @@ angular.module('starter.controllers')
 	$scope.reponses = _theGoodSortingData.reponses;
 	$scope.types_options = _theGoodSortingData.types_options;
 	// TODO Prendre _theGoodSortingData.types_options et filtrer selon default
-	$scope.active_filters = [{code:"tri",value:"tri_normal",descr:"tri normal"},{code:"niveau",value:"niveau_enfant",descr:"niveau enfant"}];
+	$scope.active_filters = [{code:"tri",value:"tri_normal",descr:"tri normal"},{code:"niveau",value:"niveau_enfant",descr:"enfant"}];
 	
 	//FORM MODEL : DEFAULTS
 	$scope.formParam = {

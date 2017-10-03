@@ -451,7 +451,7 @@ var _theGoodSortingData = {
 		}, {
 			"code":"niveau",
 			"default": "niveau_enfant",
-			"options": [{code:"niveau_enfant",descr:"niveau enfant"},{code:"niveau_normal",descr:"niveau normal"},{code:"niveau_expert",descr:"niveau expert"}],
+			"options": [{code:"niveau_enfant",descr:"enfant"},{code:"niveau_normal",descr:"niveau normal"},{code:"niveau_expert",descr:"niveau expert"}],
 			"descr": "Choisissez le niveau de difficulté.",
 			"descr_en": "Choose the level."
 		}

@@ -7,7 +7,8 @@
 <div class="top-pane">
 
 	<div class="choice-bar">
-		{{'drap_to_answer'|translate}} <button class="button button-small button-dark" ng-repeat="type in active_filters" ng-click="changeType(type)">
+		{{'drap_to_answer'|translate}}
+		<button class="button button-small button-dark" ng-repeat="type in active_filters" ng-click="changeType(type)" style="padding:2px" >
 		{{type.descr}}
 		</button>
 	</div>
