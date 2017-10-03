@@ -357,7 +357,17 @@ myApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, 
         controller: 'AProposCtrl'
       }
     }
-  
+ 
+  })
+  .state('tab.erreur', {
+    url: '/erreur',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/tab-error.html',
+        controller: 'ErrorCtrl'
+      }
+    }
+ 
   })  
   .state('tab.config', {
     url: '/config',

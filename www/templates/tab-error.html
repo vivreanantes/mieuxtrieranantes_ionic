@@ -1,0 +1,29 @@
+<ion-view view-title="{{'signaleruneerreur'|translate}}">
+ <ion-content class="has-footer">
+ 
+ <div class="card">
+    <div class="item item-divider item-calm">{{"erreur_de_lapplication_title" | translate}}</div>
+	  <div class="item mtn-nowrap">
+	  <div>
+		{{"erreur_de_lapplication_descr" | translate}}
+		<a ng-click="openHrefLink('mailto:mieuxtrieranantes@gmail.com:?subject=Je signale une erreur&body=J ai trouvé l erreur suivante :')" style="cursor:pointer;cursor:hand;">{{'ecrire_nous'|translate}}</a>
+	  </div>
+	</div>
+</div>
+
+ <div class="card">
+    <div class="item item-divider item-calm">{{"erreur_filieretri_title" | translate}}</div>
+	<div class="item mtn-nowrap">
+		<div>
+			{{"erreur_filieretri_descr" | translate}}<br/>
+			<a ng-click="openHrefLink('https://play.google.com/store/apps/details?id=com.data4people.fixMaVille')" style="cursor:pointer;cursor:hand;">Android</a>
+			-
+			<a ng-click="openHrefLink('https://itunes.apple.com/fr/app/fixmaville/id881573731?mt=8')" style="cursor:pointer;cursor:hand;">IPhone</a>
+			</div>
+		<div style="font-style:italic">{{"fixmaville_descr" | translate}}</div>
+	  </div>
+	</div>
+</div>
+  
+ </ion-content>
+</ion-view>
