@@ -5,6 +5,7 @@ angular.module('starter.controllers').controller(
 	$scope.lang = ParamService.getParam("available_language", "fr");
 	// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
 	$rootScope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
+	$rootScope.collectmodsfiltercomp = ParamService.getValueInLocalStorage("collectmodsfiltercomp");
 	$rootScope.adressstored = ParamService.getValueInLocalStorage("adressstored");
 
 	$scope.switchLanguage = function () {
@@ -50,7 +51,10 @@ angular.module('starter.controllers').controller(
 		// RM-PA_ADRESSE_02 : On peut sauver l’adresse du domicile dans le paramétrage, pour donner des résultats plus précis.
 		// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
 		ParamService.setValueInLocalStorage("collectmodsfilter", mco);
-		var temp = dcv+ci;
+		var temp = "";
+		if (typeof dcv !== 'undefined') { temp = temp + dcv; }
+		if (typeof ci !== 'undefined') { temp = temp + ci; }
+		// temp = temp.replace(/<B>/g, "").replace(/<\/B>/g, "");
 		ParamService.setValueInLocalStorage("collectmodsfiltercomp", temp);
 		ParamService.setValueInLocalStorage("adressstored", adresse);
 
