@@ -73,6 +73,7 @@ angular.module('starter.controllers').controller(
 		$rootScope.collectmodsfilter = mco;
 		$rootScope.collectmodsfiltercomp = temp;
 		$rootScope.adressstored = adresse;
+		$rootScope.collectmodsfilter_change = null;
 		$scope.modal.hide();
 	}
 
