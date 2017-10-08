@@ -2,8 +2,8 @@ var _infosDatas = [{
 		"code": "fiche_aremacs",
 		"nom": "Aremacs",
 		"nom_en": "Aremacs",
-		"descr": "<src img='resources/images/nantes/aremacs_mini.png' width='150px' /><br/>Aremacs est une association qui intervient lors des grands évènements pour le tri des déchets. <br/>Ils posent notamment des poubelles de tri pour les grands événements nantais, et veillent lors de toute la soirée à la bonne utilisation (et à vider) ces poubelles. <br/><br/>Son antenne sur Nantes est très active et de nombreux évènements sont couverts : le feu d'artifice, les rendez-vous de l'Erdre...<br/><br/>Adresse : 27 rue de Strasbourg, 44000 NANTES<br/>Tél : 02 51 82 37 23<br/>nantes@aremacs.com<br/><br/>Plus d'infos sur <a target=_blank href='http://www.aremacs.com/' >http://www.aremacs.com/</a>",
-		"descr_en": "<img src='resources/images/nantes/aremacs_mini.png' width='150px' /><BR/>Aremacs is an organization active at major events for sorting waste. They pose particular sorting bins for large events Nantes, and ensure during the whole evening to good use (and empty) these bins.<BR/>Nantes Its antenna is very active and many events are covered: the fireworks, the appointment of Erdre ...<BR/>Address: 27 rue de Strasbourg, 44000 NANTES<BR/>Tel: 02 51 82 37 23<BR/>nantes@aremacs.com<BR/>More information <a target='_blank' href='http://www.aremacs.com/ '> http://www.aremacs.com/ </a>",
+		"descr": "<src img='resources/images/nantes/aremacs_mini.png' width='150px' /><br/>Aremacs est une association qui intervient lors des grands évènements pour le tri des déchets. <br/>Ils posent notamment des poubelles de tri pour les grands événements nantais, et veillent lors de toute la soirée à la bonne utilisation (et à vider) ces poubelles. <br/><br/>Son antenne sur Nantes est très active et de nombreux évènements sont couverts : le feu d'artifice, les rendez-vous de l'Erdre...<br/><br/>Adresse : 27 rue de Strasbourg, 44000 NANTES<br/>Tél : 02 51 82 37 23<br/>nantes@aremacs.com",
+		"descr_en": "<img src='resources/images/nantes/aremacs_mini.png' width='150px' /><BR/>Aremacs is an organization active at major events for sorting waste. They pose particular sorting bins for large events Nantes, and ensure during the whole evening to good use (and empty) these bins.<BR/>Nantes Its antenna is very active and many events are covered: the fireworks, the appointment of Erdre ...<BR/>Address: 27 rue de Strasbourg, 44000 NANTES<BR/>Tel: 02 51 82 37 23<BR/>nantes@aremacs.com",
 		"bouton": "fiche",
 		"image": "nantes/aremacs_mini.png",
 		"mots_cles": "aremacs,fete,evenement",
@@ -65,7 +65,7 @@ var _infosDatas = [{
 		"code": "fiche_compostri",
 		"nom": "Compostri",
 		"nom_en": "Compostri",
-		"descr": "<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><br/><br/>C'est une association nantais qui aide à la constructions de composteurs collectifs, en accompagnant les particuliers à la création et l'alimentation du composteur.<b>Compostri favorise la mise en place de projets de compostage partagé</b> et accompagne les habitants dans cette démarche à l'échelle d'un quartier, immeuble, groupe d'immeubles, écoles maternelles et primaires ... <b>sur le territoire de Nantes Métropole</b> et avec le soutien de cette collectivité.<br/><br/>Aujourd'hui 120 sites de compostage partagé sont en fonctionnement sur le territoire nantais. Ces pavillons sont mis en place grâce au soutien de Nantes Métropole.<br/>Compostri et ses 3 guides composteurs accompagnent les citoyens porteurs de projets : aide à l'installation de pavillons de compostage, formation, suivi technique.<br/><br/>Cette association accompagne également les groupes scolaires: restaurants associatifs, foyers de jeunes, EHPAD et dernièrement une moyenne surface (30 tonnes de bio-déchets /an).<br/><br/>Adresse : 18, quai du Président Wilson, 44200 Nantes<br/><br/>Tél : 09 82 45 22 21<br/><br/>courriel : contact@compostri.fr<br/><br/><a href='http://www.compostri.fr/' target=_blank>http://www.compostri.fr/</a>",
+		"descr": "<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><br/><br/>C'est une association nantais qui aide à la constructions de composteurs collectifs, en accompagnant les particuliers à la création et l'alimentation du composteur.<b>Compostri favorise la mise en place de projets de compostage partagé</b> et accompagne les habitants dans cette démarche à l'échelle d'un quartier, immeuble, groupe d'immeubles, écoles maternelles et primaires ... <b>sur le territoire de Nantes Métropole</b> et avec le soutien de cette collectivité.<br/><br/>Aujourd'hui 120 sites de compostage partagé sont en fonctionnement sur le territoire nantais. Ces pavillons sont mis en place grâce au soutien de Nantes Métropole.<br/>Compostri et ses 3 guides composteurs accompagnent les citoyens porteurs de projets : aide à l'installation de pavillons de compostage, formation, suivi technique.<br/><br/>Cette association accompagne également les groupes scolaires: restaurants associatifs, foyers de jeunes, EHPAD et dernièrement une moyenne surface (30 tonnes de bio-déchets /an).<br/><br/>Adresse : 18, quai du Président Wilson, 44200 Nantes<br/><br/>Tél : 09 82 45 22 21<br/><br/>courriel : contact@compostri.fr<br/>",
 		"descr_en": "<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><BR/>Nantes This is a combination that helps the construction of collective composters, accompanying individuals to the creation and supply of compost. <b> Compostri promotes the establishment of shared composting projects </b> and accompanies the people in this process at the neighborhood level, building, group of buildings, kindergartens and schools ... <b> in the territory of Nantes Métropole </b> and with the support of this community. Today<BR/>120 shared composting sites are operating on the territory Nantes. These pavilions are set up with the support of Nantes Métropole<BR/>Compostri and three composters guides accompany project promoters citizens. Installation help composting pavilions, training, technical monitoring<BR/><. br /> This association also accompanied school groups. associative restaurants, hostels for young, retirement homes and lately an average size (30 tonnes of bio-waste / year)<BR/>Address: 18, President of the dock Wilson, 44200 Nantes<BR/>Tel: 09 82 45 22 21<BR/>email: contact@compostri.fr",
 		"bouton": "fiche",
 		"image": "nantes/logo_compostri_mini.png",
@@ -391,8 +391,9 @@ var _infosDatas = [{
 		"mots_cles": "consigne,bouteille,verre,boutabout,bout",
 		"mots_cles_en": "setpoint,bottle,glass,boutabout,bout",
 		"categorie": "initiative_locale",
-		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/BoutABout/BoutABout01.jpg",
-		"source": "Mail envoyé par la structure le 10/2017,"
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/BoutABout/BoutABout01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/BoutABout/BoutABout02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/BoutABout/BoutABout03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/BoutABout/BoutABout04.jpg",
+		"source": "Mail envoyé par la structure le 10/2017,",
+		"urls": "http://www.boutabout.org/"
 	}, {
 		"code": "fiche_valorena",
 		"nom": "Usine Valorena",
@@ -419,6 +420,7 @@ var _infosDatas = [{
 		"mots_cles": "entreprise,accompagnement",
 		"mots_cles_en": "",
 		"categorie": "solutions_entreprises_nantes",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/OasisEnvironnement/OasisEnvironnement01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/OasisEnvironnement/OasisEnvironnement02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/OasisEnvironnement/OasisEnvironnement03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/OasisEnvironnement/OasisEnvironnement04.jpg",
 		"source": "Oasis Environnement, l2/2016"
 	}, {
 		"code": "soluent_solutionrecyclage",
@@ -426,14 +428,16 @@ var _infosDatas = [{
 		"nom_en": "Solution recyclage",
 		"type": "Entreprise fournissant des solutions complètes de recyclage",
 		"type_en": "Company providing complete recycling solutions",
-		"descr": "Propose des solutions pour les entreprises : récupère plus de quarante déchets différents. Le papier, le carton, les bouteilles, la moquette, mais aussi les gobelets.<br/>Adresse : 181 Quai Emile Cormerais, 44800 Saint-Herblain<br/>Téléphone : 02 53 55 07 17",
-		"descr_en": "Offers solutions for companies: recovers more than forty different wastes. Paper, cardboard, bottles, carpeting, but also cups. <br/> Address: 181 Quai Emile Cormerais, 44800 Saint-Herblain <br/> Telephone: 02 53 55 07 17",
+		"descr": "Solution Recyclage propose aux entreprises des services innovants leur permettant de recycler une très grande variété de déchets. A travers ses services de collecte sur mesure et son réseau de revalorisation, Solution Recyclage permet de valoriser 100% des déchets collectés avec une garantie de traçabilité totale.<br/><br/>181 quai Emile Cormerais,44 800 Saint-Herblain<br/>02 53 550 717<br/>www.solution-recyclage.fr<br/>commercial44@solution-recyclage.fr<br/><br/>Objets récupérés : Carton,Papier,Cartouche,toner, Téléphone,Pile,Lampe,Cd/DVd,électronique,Polystyrène,Gobelets en plastique,Canettes,Capsules Nespresso,Verres,Bouteilles plastique,Métal,bidons,déchets alimentaires,Marc de café,plastique alimentaire,plastiques souple, Palette,feuillard,forex, akylux, pmma,Mousse, Vêtement à usage unique,Moquette,Textile,Cintre.<br/><br/>Ouverture : du lundi au vendredi de 9H à 17H",
+		"descr_en": "Solution Recyclage offers companies innovative services enabling them to recycle a very wide variety of waste. Through its customized collection services and its recycling network, Solution Recyclage makes it possible to upgrade 100% of the collected waste with a guarantee of total traceability. <br/> <br/> 181 quai Emile Cormerais, 44 800 Saint-Herblain < 02 53 550 717 <br/> www.solution-recyclage.fr <br/> commercial44@solution-recyclage.fr <br/> <br/> Recovered Objects: Cardboard, Paper, Cartridge, Toner, Phone, Battery, Lamp, Cd / DVd, Electronic, Polystyrene, Plastic Cups, Cans, Nespresso Capsules, Glasses, Plastic Bottles, Metal, , food scraps, coffee marks, food plastic, soft plastics, pallet, strap, forex, akylux, pmma, foam, one time clothing, carpet, textile, hanger<br/> <br/> Opening hours: Monday to Friday from 9 am to 5 pm",
 		"bouton": "fiche",
 		"image": "nantes/logo_solutionrecyclage_mini.png",
 		"mots_cles": "entreprise,carton,bouteille,moquette ,gobelet",
 		"mots_cles_en": "",
 		"categorie": "solutions_entreprises_nantes",
-		"source": "Oasis Environnement, l2/2016"
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/SolutionRecyclage/SolutionRecyclage01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/SolutionRecyclage/SolutionRecyclage02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/SolutionRecyclage/SolutionRecyclage03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/SolutionRecyclage/SolutionRecyclage04.jpg",
+		"source": "Oasis Environnement, l2/2016",
+		"urls": "http://www.solution-recyclage.fr,http://www.youtube.com/watch?v=mmBruXXhBWA"
 	}, {
 		"code": "soluent_paprec",
 		"nom": "Paprec",
@@ -545,5 +549,6 @@ var _infosDatas = [{
 		"mots_cles_en": "",
 		"categorie": "zero_dechet_nantes",
 		"source": "Auteur charles.duvergey@laposte.net"
-	}, {}
+	},
+	{}
 ]

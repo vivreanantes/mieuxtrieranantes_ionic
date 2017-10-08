@@ -47,12 +47,14 @@ angular.module('starter.controllers')
 	$scope.onSearchSubmit = function () {
 		var selectedCode = $scope.formParam.type.value;
 		var selectedType = $scope.formParam.code; // "tri" ou "niveau"
-		// on modifie $scope.types_questions
-		for (var i=0; i<$scope.types_options.length; i++) {
-			if (selectedType=="tri") { $scope.active_filters[0]=$scope.formParam.type; }
-			else if (selectedType=="niveau") { $scope.active_filters[1]=$scope.formParam.type; }
+		if (typeof selectedCode !== 'undefined')  {
+			// on modifie $scope.types_questions
+			for (var i=0; i<$scope.types_options.length; i++) {
+				if (selectedType=="tri") { $scope.active_filters[0]=$scope.formParam.type; }
+				else if (selectedType=="niveau") { $scope.active_filters[1]=$scope.formParam.type; }
+			}
+			$scope.startANewAGame();
 		}
-		$scope.startANewAGame();
 	};
 	
 	// Choix du type
@@ -137,9 +139,14 @@ angular.module('starter.controllers')
 			reponseObject.answerClass = 'bad';
 			$scope.result = 'bad';
 			$scope.advice = data.advice;
-			timeNexQuestion = 4000;
+			// Le  temps d'affichage de la réponse dépend du nombre de mots
+			var nbSpace = data.advice.split(' ').length - 1;
+			if (nbSpace<=10) {  timeNexQuestion = 4000;  }
+			else if (nbSpace<=20) {  timeNexQuestion = 6000;  }
+			else if (nbSpace<=30) {  timeNexQuestion = 8000;  }
+			else { timeNexQuestion = 10000;  }
 		}
-		$scope.result_end.push({answerClass:$scope.result, descr:data.descr, descr_en:data.descr_en, advice_en:data.advice_en, advice:data.advice});
+		$scope.result_end.push({answerClass:$scope.result, descr:data.descr, descr_en:data.descr_en, advice_en:data.advice_en, advice:data.advice, resume_en:data.resume_en, resume:data.resume});
 
 		$scope.gameplay.firstInit = false;
 		// TEMPORARY HIDE Drag object avant prochaine question
@@ -202,7 +209,9 @@ angular.module('starter.controllers')
 
 	// Choix du type
 	$scope.showAnswer = function (item) {
-		var text = '<div ng-show="item.resume">'+item.resume+'</div><div>'+item.advice+'</div>'
+		// On affiche le libelle, son complément, et l'explication.
+		if (typeof item.resume !== 'undefined') { var text = '<div>'+item.resume+'</div><div>'+item.advice+'</div>'; }
+		else { var text = '<div>'+item.advice+'</div>'; }
 		$ionicPopup.show({
 			template: text,
 			cssClass: 'popup-fiches',
