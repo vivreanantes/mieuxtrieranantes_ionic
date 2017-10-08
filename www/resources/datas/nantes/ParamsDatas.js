@@ -100,8 +100,8 @@ var _paramFilterTypeMapDatas = [{
 	}, {
 		"id": "6",
 		"code": "ventevrac",
-		"nom": "Vente vrac (62)",
-		"nom_en": "No packaging shops (62)",
+		"nom": "Vente vrac (83)",
+		"nom_en": "No packaging shops (83)",
 		"image": "resources/icons/marker-icon-red.png"
 	}, {
 		"id": "7",
