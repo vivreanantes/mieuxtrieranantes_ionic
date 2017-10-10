@@ -65,13 +65,14 @@ var _infosDatas = [{
 		"code": "fiche_compostri",
 		"nom": "Compostri",
 		"nom_en": "Compostri",
-		"descr": "<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><br/><br/>C'est une association nantais qui aide à la constructions de composteurs collectifs, en accompagnant les particuliers à la création et l'alimentation du composteur.<b>Compostri favorise la mise en place de projets de compostage partagé</b> et accompagne les habitants dans cette démarche à l'échelle d'un quartier, immeuble, groupe d'immeubles, écoles maternelles et primaires ... <b>sur le territoire de Nantes Métropole</b> et avec le soutien de cette collectivité.<br/><br/>Aujourd'hui 120 sites de compostage partagé sont en fonctionnement sur le territoire nantais. Ces pavillons sont mis en place grâce au soutien de Nantes Métropole.<br/>Compostri et ses 3 guides composteurs accompagnent les citoyens porteurs de projets : aide à l'installation de pavillons de compostage, formation, suivi technique.<br/><br/>Cette association accompagne également les groupes scolaires: restaurants associatifs, foyers de jeunes, EHPAD et dernièrement une moyenne surface (30 tonnes de bio-déchets /an).<br/><br/>Adresse : 18, quai du Président Wilson, 44200 Nantes<br/><br/>Tél : 09 82 45 22 21<br/><br/>courriel : contact@compostri.fr<br/>",
-		"descr_en": "<img src='resources/images/nantes/logo_compostri_mini.png' width='250px' /><BR/>Nantes This is a combination that helps the construction of collective composters, accompanying individuals to the creation and supply of compost. <b> Compostri promotes the establishment of shared composting projects </b> and accompanies the people in this process at the neighborhood level, building, group of buildings, kindergartens and schools ... <b> in the territory of Nantes Métropole </b> and with the support of this community. Today<BR/>120 shared composting sites are operating on the territory Nantes. These pavilions are set up with the support of Nantes Métropole<BR/>Compostri and three composters guides accompany project promoters citizens. Installation help composting pavilions, training, technical monitoring<BR/><. br /> This association also accompanied school groups. associative restaurants, hostels for young, retirement homes and lately an average size (30 tonnes of bio-waste / year)<BR/>Address: 18, President of the dock Wilson, 44200 Nantes<BR/>Tel: 09 82 45 22 21<BR/>email: contact@compostri.fr",
+		"descr": "C'est une association nantaise qui aide à la constructions de composteurs collectifs, en accompagnant les particuliers à la création et l'alimentation du composteur.<b>Compostri favorise la mise en place de projets de compostage partagé</b> et accompagne les habitants dans cette démarche à l'échelle d'un quartier, immeuble, groupe d'immeubles, écoles maternelles et primaires ... <b>sur le territoire de Nantes Métropole</b> et avec le soutien de cette collectivité.<br/><br/>Aujourd'hui 120 sites de compostage partagé sont en fonctionnement sur le territoire nantais. Ces pavillons sont mis en place grâce au soutien de Nantes Métropole.<br/>Compostri et ses 3 guides composteurs accompagnent les citoyens porteurs de projets : aide à l'installation de pavillons de compostage, formation, suivi technique.<br/><br/>Cette association accompagne également les groupes scolaires: restaurants associatifs, foyers de jeunes, EHPAD et dernièrement une moyenne surface (30 tonnes de bio-déchets /an).<br/><br/>Adresse : 18, quai du Président Wilson, 44200 Nantes<br/><br/>Tél : 09 82 45 22 21<br/><br/>courriel : contact@compostri.fr<br/>",
+		"descr_en": "This is a combination that helps the construction of collective composters, accompanying individuals to the creation and supply of compost. <b> Compostri promotes the establishment of shared composting projects </b> and accompanies the people in this process at the neighborhood level, building, group of buildings, kindergartens and schools ... <b> in the territory of Nantes Métropole </b> and with the support of this community. Today<BR/>120 shared composting sites are operating on the territory Nantes. These pavilions are set up with the support of Nantes Métropole<BR/>Compostri and three composters guides accompany project promoters citizens. Installation help composting pavilions, training, technical monitoring<BR/><. br /> This association also accompanied school groups. associative restaurants, hostels for young, retirement homes and lately an average size (30 tonnes of bio-waste / year)<BR/>Address: 18, President of the dock Wilson, 44200 Nantes<BR/>Tel: 09 82 45 22 21<BR/>email: contact@compostri.fr",
 		"bouton": "fiche",
 		"image": "nantes/logo_compostri_mini.png",
 		"mots_cles": "compostri",
 		"mots_cles_en": "container,packaging,newspaper,magazine",
 		"categorie": "initiative_locale",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Compostri/Compostri01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Compostri/Compostri02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Compostri/Compostri03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Compostri/Compostri04.jpg",
 		"source": "Mieux trier à Nantes",
 		"urls": "http://www.compostri.fr"
 	}, {
@@ -369,6 +370,20 @@ var _infosDatas = [{
 		"categorie": "consigne_locale",
 		"source": "Mieux trier à Nantes"
 	}, {
+		"code": "fiche_jaimetesbocaux",
+		"nom": "Collectif J’Aime Tes Bocaux",
+		"nom_en": "Collectif J'Aime Tes Jocaux",
+		"descr": "Nous sommes un collectif de citoyens de Nantes et ses environs. Motivés pour réduire nos déchets du quotidien, nous avons créé « J'aime tes Bocaux et tes sacs aussi ».<br/>Cette démarche, grâce à son sticker affiché sur les vitrines de nos partenaires permet d'identifier et de promouvoir les commerçants, restaurateurs, magasins, … qui acceptent les clients proposant leurs propres contenants.<br/><br/>Pour les contacter, envoyer un message privé sur la page Facebook.<br/><br/>Pour clarifier l’engagement, une charte a été mise en place avec les commerçants partenaires :<br/>- Je ne distribue pas automatiquement de sacs, couverts ou serviettes.<br/>- J’informe ma clientèle pour la sensibiliser.<br/>- Je propose des sacs ou des cabas réutilisables.<br/>- J’accepte les contenants personnels.<br/>- Je pratique la vente directe au cabas.<br/>- J’incite à la réutilisation des sachets de vente en vrac.<br/>- Je mets à disposition des clients les cageots, cartons, etc.<br/>- Je mets en place une consigne pour les boites ou bouteille",
+		"descr_en": "We are a collective of citizens of Nantes and its surroundings. Motivated to reduce our everyday waste, we created 'I love your jars and your bags too.' <br/> This approach, thanks to its sticker displayed on the windows of our partners makes it possible to identify and promote the traders , restaurateurs, stores, ... who accept customers offering their own containers <br/> <br/> To contact them, send a private message on the Facebook page.",
+		"bouton": "fiche",
+		"image": "nantes/jaimetesbocaux.png",
+		"mots_cles": "",
+		"mots_cles_en": "",
+		"categorie": "consigne_locale",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/JAimeTesBocaux/JAimeTesBocaux01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/JAimeTesBocaux/JAimeTesBocaux02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/JAimeTesBocaux/JAimeTesBocaux03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/JAimeTesBocaux/JAimeTesBocaux04.jpg",
+		"source": "Mieux trier à Nantes",
+		"urls": "https://www.facebook.com/Jaime-tes-bocaux-1147296918725687/"
+	}, {
 		"code": "fiche_arcenciel",
 		"nom": "Usine Arc-en-ciel",
 		"nom_en": "Arc-en-ciel Factory",
@@ -417,11 +432,12 @@ var _infosDatas = [{
 		"descr_en": "The aim of the OASIS Environnement association is to sensitize and support companies and traders in reducing and recycling waste. <br/> Our approach is specialized by sector of activity and allows you to: <br /> - Change your practices <br/> - Reduce your costs <br/> - Strengthen the cohesion of your teams <br/> - Develop a responsible approach <br/> You can contact us <br/> mail contact@oasis-environnement.org <br/> internet: www.oasis-environnement.org <br/> mobile 07 69 49 90 17 ",
 		"bouton": "fiche",
 		"image": "nantes/logo_oasis_environnement_mini.jpg",
-		"mots_cles": "entreprise,accompagnement",
-		"mots_cles_en": "",
+		"mots_cles": "oasis,environnement,entreprise,accompagnement",
+		"mots_cles_en": "oasis,environnement,business,support",
 		"categorie": "solutions_entreprises_nantes",
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/OasisEnvironnement/OasisEnvironnement01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/OasisEnvironnement/OasisEnvironnement02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/OasisEnvironnement/OasisEnvironnement03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/OasisEnvironnement/OasisEnvironnement04.jpg",
-		"source": "Oasis Environnement, l2/2016"
+		"source": "Oasis Environnement, l2/2016",
+		"urls": "http://www.oasis-environnement.org/"
 	}, {
 		"code": "soluent_solutionrecyclage",
 		"nom": "Solution recyclage",
@@ -435,7 +451,7 @@ var _infosDatas = [{
 		"mots_cles": "entreprise,carton,bouteille,moquette ,gobelet",
 		"mots_cles_en": "",
 		"categorie": "solutions_entreprises_nantes",
-		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/SolutionRecyclage/SolutionRecyclage01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/SolutionRecyclage/SolutionRecyclage02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/SolutionRecyclage/SolutionRecyclage03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/SolutionRecyclage/SolutionRecyclage04.jpg",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/SolutionEntreprises/SolutionRecyclage/SolutionRecyclage01.jpg,www.mieuxtrieranantes.fr/docs/medias/SolutionEntreprises/SolutionRecyclage/SolutionRecyclage02.jpg,www.mieuxtrieranantes.fr/docs/medias/SolutionEntreprises/SolutionRecyclage/SolutionRecyclage03.jpg,www.mieuxtrieranantes.fr/docs/medias/SolutionEntreprises/SolutionRecyclage/SolutionRecyclage04.jpg",
 		"source": "Oasis Environnement, l2/2016",
 		"urls": "http://www.solution-recyclage.fr,http://www.youtube.com/watch?v=mmBruXXhBWA"
 	}, {
