@@ -12,8 +12,11 @@
 				<span ng-bind-html="fiche.descr_en" ng-show="currentlanguage=='en'"></span>
       </p>
 
-		<div ng-show="lstUrls.length>0" class="item" >
-    {{'plus_d_infos'|translate}} : <a ng-repeat="url in lstUrls" ng-click="openHrefLink('{{::url}}')">{{url}}</a>
+		<div ng-show="lstUrls.length>0">
+			<div class="item" ng-repeat="url in lstUrls">
+				{{'plus_d_infos'|translate}} : 
+					<a ng-click="openHrefLink('{{::url}}')">{{url}}</a>
+			</div>
 		</div>
 		
 		<div ng-show="lstPhotos.length>0">
