@@ -4,7 +4,6 @@
   <div class="card">
     Applications Android, Iphone et site mieuxtrieranantes.fr pour aider les habitants de Nantes Métropole à trier.<br/>
     C'est un logiciel libre (code, photos, données) réalisé par l'association 'Mieux trier à Nantes'. Les membres de l'association sont Christian Renoulin, Romain Debernardi, Matthieu Weber, Robin Caroff, Vanessa Viavant, Catherine Le Lan.<br/>
-	<b>Version {{version}}</b><br/>
     Le blog pour toutes les infos : <a href="javascript:void(0);" onclick="window.open('https://mieuxtrieranantes.wordpress.com', '_system', 'location=yes');">mieuxtrieranantes.wordpress.com</a><br/><br/>
     Les données sont toutes Open Data : retrouvez-les sur <A HREF="javascript:void(0);" onclick="window.open('https://www.mieuxtrieranantes.fr/opendata', '_system', 'location=yes');">www.mieuxtrieranantes.fr/opendata</A>
     <br/><br/>
@@ -19,6 +18,9 @@
     <br/><br/>
     Amis (ils nous connaissent bien et nous soutiennent) : Oasis Environnement, Stations Services, Plus2Vers, Le Ressort (boutique solidaire des Dervallières), PP Plastic Pickup, Bout' à Bout', Collectif J'aime tes bocaux
   </div>
-  
+  <div class="card">
+	<b>Nouveautés de la version {{version}}</b> : <br/>
+    <span ng-bind-html="new_in_the_version" ng-show="new_in_the_version"></span>
+  </div>
  </ion-content>
 </ion-view>
