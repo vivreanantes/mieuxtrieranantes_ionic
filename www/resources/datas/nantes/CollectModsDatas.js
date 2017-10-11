@@ -175,8 +175,19 @@ var _collectModsDatas = [{
 		"image": "conteneur_enterre.png",
 		"mots_cles": "conteneur,dechet,menager",
 		"mots_cles_en": "container,waste,household",
-	},
-	Err: 522{
+	}, {
+		"code": "modco_dechetssecs",
+		"nom": "Conteneurs déchets secs",
+		"nom_en": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
+		"libelleBouton": "Conteneurs déchets secs",
+		"libelleBouton_en": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
+		"modesCollecte": "false",
+		"descr": "On met les <B>déchets ménagers non recyclés</B>.",
+		"descr_en": "It puts the <B> non-recycled household waste </b>.",
+		"image": "conteneur_ordure_menageres_petit.png",
+		"mots_cles": "conteneurs,dechets,secs",
+		"mots_cles_en": "containers,waste,dry",
+	}, {
 		"code": "modco_reemploi",
 		"nom": "Entreprises et assos spécialisées",
 		"nom_en": "Specialized companies and assos",
