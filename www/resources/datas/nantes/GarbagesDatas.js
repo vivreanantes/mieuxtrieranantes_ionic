@@ -146,7 +146,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "electronic,equipment,tools,powered,by,electricite,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "images_non_libres_temp/outillage_electrique_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015",
 		"sponsor": "Vns"
@@ -164,7 +164,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "heating,devices,heating,equipment,heating,cooking,appliance,oven,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "chauffage_soufflant_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -902,7 +902,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "freezers,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "congelateur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1157,7 +1157,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "audio,and,video,equipment,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "chaine_hifi_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "www"
 	}, {
@@ -1583,7 +1583,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "lamp,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "lampe_chevet_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1916,7 +1916,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "laptop,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "ordi_portable_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2410,7 +2410,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "refrigerator,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "refrigerateur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2563,7 +2563,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "telephony,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "telephone_fixe_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2580,7 +2580,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "tv,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "televiseur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
