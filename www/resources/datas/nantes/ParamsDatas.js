@@ -51,11 +51,11 @@ var _paramFilterTypeFiches = [{
 	}, {
 		"id": "2",
 		"code": "solutions_entreprises_nantes",
-		"nom": "Solution pour les entreprises"
+		"nom": "Solutions pour les entreprises"
 	}, {
 		"id": "3",
 		"code": "initiative_locale",
-		"nom": "Solu. locales réduction déchets"
+		"nom": "Initiatives locales réduc. déchets"
 	}, {
 		"id": "4",
 		"code": "zero_dechet_nantes",

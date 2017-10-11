@@ -371,17 +371,17 @@ var _infosDatas = [{
 		"source": "Mieux trier à Nantes"
 	}, {
 		"code": "fiche_jaimetesbocaux",
-		"nom": "Collectif J’Aime Tes Bocaux",
-		"nom_en": "Collectif J'Aime Tes Jocaux",
-		"descr": "Nous sommes un collectif de citoyens de Nantes et ses environs. Motivés pour réduire nos déchets du quotidien, nous avons créé « J'aime tes Bocaux et tes sacs aussi ».<br/>Cette démarche, grâce à son sticker affiché sur les vitrines de nos partenaires permet d'identifier et de promouvoir les commerçants, restaurateurs, magasins, … qui acceptent les clients proposant leurs propres contenants.<br/><br/>Pour les contacter, envoyer un message privé sur la page Facebook.<br/><br/>Pour clarifier l’engagement, une charte a été mise en place avec les commerçants partenaires :<br/>- Je ne distribue pas automatiquement de sacs, couverts ou serviettes.<br/>- J’informe ma clientèle pour la sensibiliser.<br/>- Je propose des sacs ou des cabas réutilisables.<br/>- J’accepte les contenants personnels.<br/>- Je pratique la vente directe au cabas.<br/>- J’incite à la réutilisation des sachets de vente en vrac.<br/>- Je mets à disposition des clients les cageots, cartons, etc.<br/>- Je mets en place une consigne pour les boites ou bouteille",
+		"nom": "Collectif J’aime tes Bocaux et tes sacs aussi",
+		"nom_en": "Collectif J’aime tes Bocaux et tes sacs aussi",
+		"descr": "Il s’agit d’un collectif de citoyens de Nantes et ses environs. Motivés pour réduire nos déchets du quotidien, ils ont créés « J'aime tes Bocaux et tes sacs aussi ».<br/>Cette démarche, grâce à son sticker affiché sur les vitrines de nos partenaires permet d'identifier et de promouvoir les commerçants, restaurateurs, magasins, … qui acceptent les clients proposant leurs propres contenants.<br/><br/>Pour les contacter, envoyer un message privé sur la page Facebook.<br/><br/>Pour clarifier l’engagement, une charte a été mise en place avec les commerçants partenaires :<br/>- Je ne distribue pas automatiquement de sacs, couverts ou serviettes.<br/>- J’informe ma clientèle pour la sensibiliser.<br/>- Je propose des sacs ou des cabas réutilisables.<br/>- J’accepte les contenants personnels.<br/>- Je pratique la vente directe au cabas.<br/>- J’incite à la réutilisation des sachets de vente en vrac.<br/>- Je mets à disposition des clients les cageots, cartons, etc.<br/>- Je mets en place une consigne pour les boites ou bouteille",
 		"descr_en": "We are a collective of citizens of Nantes and its surroundings. Motivated to reduce our everyday waste, we created 'I love your jars and your bags too.' <br/> This approach, thanks to its sticker displayed on the windows of our partners makes it possible to identify and promote the traders , restaurateurs, stores, ... who accept customers offering their own containers <br/> <br/> To contact them, send a private message on the Facebook page.",
 		"bouton": "fiche",
 		"image": "nantes/jaimetesbocaux.png",
-		"mots_cles": "",
-		"mots_cles_en": "",
+		"mots_cles": "aime,bocal,bocaux,sac",
+		"mots_cles_en": "aime,bocal,bocaux,sac",
 		"categorie": "consigne_locale",
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/JAimeTesBocaux/JAimeTesBocaux01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/JAimeTesBocaux/JAimeTesBocaux02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/JAimeTesBocaux/JAimeTesBocaux03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/JAimeTesBocaux/JAimeTesBocaux04.jpg",
-		"source": "Mieux trier à Nantes",
+		"source": "Mieux trier à Nantes 10/2017",
 		"urls": "https://www.facebook.com/Jaime-tes-bocaux-1147296918725687/"
 	}, {
 		"code": "fiche_arcenciel",

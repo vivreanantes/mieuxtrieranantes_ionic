@@ -632,7 +632,7 @@ var _structuresDatas = [{
 		"adresseTemp": "4 rue des Châtaigniers  44190 CLISSON",
 		"url": "http://larecuperette.jimdo.com/",
 		"email": "larecuperette@gmail.com",
-		"facebook": "https://www.facebook.com/pages/La-R%C3%A9cup%C3%A9rette/1545686572345192?fref=ts",
+		"facebook": "https://www.facebook.com/pages/La-R%C3%A9cup%C3%A9rette/1545686572345192",
 		"tel": "07 81 95 54 13",
 		"logo": "resources/images/nantes/logo_larecuperette.png",
 		"src": "MieuxTrierANantes 01/2015",
@@ -662,7 +662,8 @@ var _structuresDatas = [{
 		"url": "http://www.arbres44.org",
 		"email": "arbresnord@wanadoo.fr",
 		"tel": "02 40 40 35 55",
-		"src": "MieuxTrierANantes 01/15",
+		"logo": "resources/images/nantes/association_arbres_mini.png",
+		"src": "Informations fournies par Arbres le 10/2017",
 		"horaires": "La boutique est ouverte : - - tous les mercredis 9h à 13h et de 14h à 17h, - - tous les vendredis matins 9h à 13h, - - tous les 2èmes samedis du mois 10h à 17h",
 		"plagesHoraires": "0101-3112_lu+ma+me+je_08h30-10h30+13h30-15h30",
 		"zone": "Nantes",
@@ -739,15 +740,16 @@ var _structuresDatas = [{
 		"type_en": "Re-use : meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
 		"statut": "Association",
 		"categorie": "meuble, livres/bd/cd/dvd, jouet, vêtements, divers",
-		"descr": "(Ancien nom : Ecorev)<br/>Réemploi d'objets de la vie courante : collecte en déchèterie et à domicile sur Nantes Métropole, et en apport volontaire à Rezé, puis revente à bas prix (mobilier, vaisselle, jouets, livres, vêtements, articles de loisirs, outillage...)<br/><br/>Quels objets peut-on donner/acheter ? Mobilier, jouet, puériculture, vaisselle, bibelot, cadre, livre, vêtement, linge de maison, outillage, jardinerie, vélo, luminaire, CD-DVD, jeux vidéos, literie, article de sport …. Ces objets du quotidien doivent être en état d'utilisation, propres, même s'ils présentent des dommages d'usure.<br/>Depuis janvier 2015 il est possible de déposer les petits appareils ménager (qui seront revendus en boutique) ou le gros électroménager (qui sera transmis à Envie44)<br/><br/>Dépôt d'objets : lundi-samedi de 9h30 à 17h (il n'y a plus de coupures le midi)<br/>Boutique solidaire : les mercredis et samedis de 9h30 à 17h30 (hors jours fériés)<br/>Util'o'Bus : 2ème mercredi du mois au Dervallières (9h-12h), 3ème mercredi du mois à La Bottière (14h-17h)",
+		"descr": "(Ancien nom : Ecorev)<br/>Réemploi d'objets de la vie courante : collecte en déchèterie et à domicile sur Nantes Métropole, et en apport volontaire à Rezé, puis revente à bas prix (mobilier, vaisselle, jouets, livres, vêtements, articles de loisirs, outillage...)<br/><br/>Quels objets peut-on donner/acheter ? Mobilier, jouet, puériculture, vaisselle, bibelot, cadre, livre, vêtement, linge de maison, outillage, jardinerie, vélo, luminaire, CD-DVD, jeux vidéos, literie, article de sport …. Ces objets du quotidien doivent être en état d'utilisation, propres, même s'ils présentent des dommages d'usure.<br/>Depuis janvier 2015 il est possible de déposer les petits appareils ménager (qui seront revendus en boutique) ou le gros électroménager (qui sera transmis à Envie44)<br/><br/>Dépôt d'objets : lundi-samedi de 9h30 à 17h30<br/>Boutique solidaire : mercredi et vendredi de 9h30 à 12h30 et de 13h30 à 17h30, les samedi de 9h30 à 17h30 (hors jours fériés)<br/>Util'o'Bus : 2ème mercredi du mois au Dervallières (9h-12h), 3ème mercredi du mois à La Bottière (14h-17h)",
 		"descr_en": "(Former name: Ecorev) <br/> Reuse of objects of everyday life collection and recycling center at home on Nantes Métropole, and voluntary contributions to Rezé then resell cheap (furniture, dishes, toys, books, clothing, leisure items, tools ...) <br/> What objects can we give / buy? Furniture, toy, baby, crockery, trinket, frame, book, clothing, linens, tools, gardening, cycling, lighting, CD-DVD, video games, bedding, sports equipment .... These everyday items must be in working order, clean, even if they have wear damage. <br/> Since January 2015 it is possible to deposit small household appliances (which will be sold in stores) or large appliances (which will be sent to Envie44) <br/> deposit of objects: Monday-Saturday from 9:30 am to 17h (there are more cuts noon) <br/> Boutique solidarity: Wednesdays and Saturdays from 9:30 to 17:30 (excluding holidays) <br/> Util'o'Bus: 2nd Wednesday of the month Dervallières (9h-12h), 3rd Wednesday of the month at La Bottière (14h-17h)",
 		"nom": "La Ressourcerie de l'ïle",
 		"adresseTemp": "90 rue de la basse île  44400 REZE",
 		"url": "http://www.laressourceriedelile.com",
 		"email": "contact@laressourceriedelile.com",
 		"tel": "02 28 23 64 47",
-		"src": "MieuxTrierANantes 03/15",
-		"plagesHoraires": "0101-3112_lu+ma+me+je+ve+sa_09h30-17h00,sauf_ferie",
+		"src": "MieuxTrierANantes 10/17",
+		"horaires": "Ouverture boutique : mercredi et vendredi de 9h30 à 12h30 et de 13h30 à 17h30 / samedi de 9h30 à 17h30 (sauf jours fériés)",
+		"plagesHoraires": "0101-3112_lu+ma+me+je+ve+sa_09h30-17h30,sauf_ferie",
 		"zone": "hnnl",
 		"mots_cles": "la,ressourcerie,l,ile,mobilier,meuble,jouet,puericulture,vaisselle,bibelot,cadre,livre,vetement,linge,maison,outillage,jardinerie,velo,luminaire,cd,dvd,jeux,videos,literie,article,sport,electromenager,pull,pantalon,veste,,",
 		"mots_cles_en": "la,ressourcerie,l,ile,la,ressourcerie,l,ile,,",
@@ -845,14 +847,15 @@ var _structuresDatas = [{
 		"type_en": "Re-use : divers",
 		"statut": "Association",
 		"categorie": "divers",
-		"descr": "Cette association de 16 personnes environ, créée en 1982, est située au sud de Nantes (Rezé). Elle se donne pour objectif premier l'insertion des personnes en difficulté.<br/>Elle récupère cartouches d'encre, d3e, film plastique étirable, bouteille eau, palette bois, livre, cd.<br/>Elle couvre essentiellement les entreprises situées en Sud-Loire (plutôt les 'grosses entreprises').<br/><br/>Elle réalise une collaboration avec 'atelier du bocage' ce qui permet de récupérer également : piles, d3e, néon, cartouches.",
+		"descr": "Cette association de 16 personnes environ, créée en 1982, est située au sud de Nantes (Rezé). Elle se donne pour objectif premier l'insertion des personnes en difficulté.<br/>Elle récupère film plastique étirable, bouteille eau, palette bois, livre, cd.<br/>Elle couvre essentiellement les entreprises situées en Sud-Loire (plutôt les 'grosses entreprises').<br/><br/>Elle réalise une collaboration avec 'atelier du bocage' ce qui permet de récupérer également : piles, déchets électriques et électroniques, néon, cartouches.",
 		"descr_en": "This association of 16 people, created in 1982, is located south of Nantes (Rezé). It has as its primary objective the insertion of people in difficulty. <br/> It recovers ink cartridges, d3e, stretch plastic film, water bottle, pallet wood, book, cd. <br/> It mainly covers companies located in the South-Loire region (rather the 'big companies'). It realizes a collaboration with 'workshop of the bocage' which makes it possible to recover also: batteries, d3e, neon, cartouches.",
 		"nom": "Oser forêt vivante",
 		"adresseTemp": "12 rue Jean-Baptiste Vigier BP 60073  44402 REZE",
 		"url": "http://www.oser-foret-vivante.com",
 		"email": "contact@oser-foret-vivante.com",
 		"tel": "02 51 72 71 00 ",
-		"src": "MieuxTrierANantes 01/17 – Accord Fany Grenier",
+		"logo": "resources/images/nantes/logo_oserforetvivante.png",
+		"src": "Informations fournies par Oser Forêt Vivante le 10/2017",
 		"plagesHoraires": "0101-3112_lu+ma+me+ve_08h00-12h00+13h00-17h30,0101-3112_je_08h00-12h00",
 		"zone": "hnnl",
 		"mots_cles": "oser,foret,vivante,papier,carton,housse,plastique,pile,d3e,electricite,neon,cartouche,,",
@@ -2862,6 +2865,7 @@ var _structuresDatas = [{
 		"adresseTemp": "13 Place Viarme-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/Paganelli.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Traiteur Paganelli<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Traiteur Paganelli<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2877,6 +2881,7 @@ var _structuresDatas = [{
 		"adresseTemp": "6 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/traiteur-ht-pavés.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Les Hauts pavés<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Les Hauts pavés<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2892,6 +2897,7 @@ var _structuresDatas = [{
 		"adresseTemp": "22 Place Viarme-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/clémentalice.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>La Clémentalice<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>La Clémentalice<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2907,6 +2913,7 @@ var _structuresDatas = [{
 		"adresseTemp": "12 Place Viarme-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/laubette.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>L'Aubette<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>L'Aubette<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2922,6 +2929,7 @@ var _structuresDatas = [{
 		"adresseTemp": "13 Place Viarme-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/Epi-Viarme.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Epi Viarme<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Epi Viarme<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2937,6 +2945,7 @@ var _structuresDatas = [{
 		"adresseTemp": "2 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/debotté.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Debotté<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Debotté<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2952,6 +2961,7 @@ var _structuresDatas = [{
 		"adresseTemp": "15 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/le-grand-méchant-nous.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Le grand méchant nous<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Le grand méchant nous<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2967,6 +2977,7 @@ var _structuresDatas = [{
 		"adresseTemp": "39 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/re-act.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Re-act<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Re-act<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2981,6 +2992,7 @@ var _structuresDatas = [{
 		"nom_en": "L'Aquoiboniste",
 		"adresseTemp": "2 rue menou-Nantes",
 		"src": "Association 'Oasis Environnement'",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>L'Aquoiboniste<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>L'Aquoiboniste<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -2996,6 +3008,7 @@ var _structuresDatas = [{
 		"adresseTemp": "32 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/la-pizza.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>La pizza<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>La pizza<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3011,6 +3024,7 @@ var _structuresDatas = [{
 		"adresseTemp": "4 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/A-la-Chandeleur.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>A la chandeleur<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>A la chandeleur<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3026,6 +3040,7 @@ var _structuresDatas = [{
 		"adresseTemp": "20 Place Viarme-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/lilas-rose.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Lilas Rose<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Lilas Rose<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3041,6 +3056,7 @@ var _structuresDatas = [{
 		"adresseTemp": "34 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/l-arvigate.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>L'Arvigate<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>L'Arvigate<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3056,6 +3072,7 @@ var _structuresDatas = [{
 		"adresseTemp": "2 rue menou-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/bibimbox.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Bibimbox<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Bibimbox<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3071,6 +3088,7 @@ var _structuresDatas = [{
 		"adresseTemp": "20 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/lima.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>De Lima <br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>De Lima <br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3086,6 +3104,7 @@ var _structuresDatas = [{
 		"adresseTemp": "19 Place Viarme-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/1001-vins.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>1001 vins<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>1001 vins<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3101,6 +3120,7 @@ var _structuresDatas = [{
 		"adresseTemp": "3 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/part-des-anges.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>La part des anges<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>La part des anges<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3116,6 +3136,7 @@ var _structuresDatas = [{
 		"adresseTemp": "10 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/les-domaines-qui-montent.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>les domaines qui montent<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>les domaines qui montent<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3131,6 +3152,7 @@ var _structuresDatas = [{
 		"adresseTemp": "14 Place Viarme-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/charlotte-co.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Charlotte & co<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Charlotte & co<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3146,6 +3168,7 @@ var _structuresDatas = [{
 		"adresseTemp": "2 rue des Hauts pavés-Nantes",
 		"src": "Association 'Oasis Environnement'",
 		"photos": "http://www.oasis-environnement.org/wp-content/uploads/2017/09/nuits-blanches.jpg",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Les nuits blanches<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Les nuits blanches<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3160,6 +3183,7 @@ var _structuresDatas = [{
 		"nom_en": "Viarme 18",
 		"adresseTemp": "18 Place Viarme-Nantes",
 		"src": "Association 'Oasis Environnement'",
+		"descr": "La structure a signé une <<Charte d’engagement des commercants 'Agir pour une ville sans déchet'>> avec le soutien de l’association OASIS Environnement.",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Commerce 'Agir pour une ville sans déchet'<br/>Viarme 18<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>",
 		"cartePopuptext_en": "Commerce 'Agir pour une ville sans déchet'<br/>Viarme 18<br/><i><font color=green>Source : Association 'Oasis Environnement'</font></i>"
@@ -3175,8 +3199,8 @@ var _structuresDatas = [{
 		"adresseTemp": "118 rue du Général Buat",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Oudaîa<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Oudaîa<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Oudaîa<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Oudaîa<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_le_porc_bonheur",
 		"latitude": "47.22726",
@@ -3189,8 +3213,8 @@ var _structuresDatas = [{
 		"adresseTemp": "144 rue du Général Buat",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le Porc Bonheur<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Le Porc Bonheur<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le Porc Bonheur<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Le Porc Bonheur<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_cremerie_st-do",
 		"latitude": "47.228289",
@@ -3203,8 +3227,8 @@ var _structuresDatas = [{
 		"adresseTemp": "120 rue du Général Buat",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Crèmerie St-Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Crèmerie St-Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Crèmerie St-Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Crèmerie St-Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_le_verger_de_st_do",
 		"latitude": "47.227932",
@@ -3217,8 +3241,8 @@ var _structuresDatas = [{
 		"adresseTemp": "130-132 rue du Général Buat",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>le Verger de St Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>le Verger de St Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>le Verger de St Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>le Verger de St Do<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_couleur_chocolat",
 		"latitude": "47.228013",
@@ -3232,8 +3256,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/Couleur-Chocolat-1148043698569739/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Couleur Chocolat<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Couleur Chocolat<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Couleur Chocolat<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Couleur Chocolat<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_boucherie_lusson",
 		"latitude": "47.226942",
@@ -3246,8 +3270,8 @@ var _structuresDatas = [{
 		"adresseTemp": "101 bd du Gal Buat.",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Boucherie Lusson,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Boucherie Lusson,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Boucherie Lusson,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Boucherie Lusson,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_boulangerie_rullier_patrice",
 		"latitude": "47.228534",
@@ -3260,8 +3284,8 @@ var _structuresDatas = [{
 		"adresseTemp": "118 rue du Gal Buat",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>boulangerie Rullier Patrice,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>boulangerie Rullier Patrice,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>boulangerie Rullier Patrice,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>boulangerie Rullier Patrice,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_boulangerie_lacroix_mathieu",
 		"latitude": "47.226919",
@@ -3274,8 +3298,8 @@ var _structuresDatas = [{
 		"adresseTemp": "150 bd du Gal Buat",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Boulangerie Lacroix Mathieu,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Boulangerie Lacroix Mathieu,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Boulangerie Lacroix Mathieu,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Boulangerie Lacroix Mathieu,<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_la_boule_carree",
 		"latitude": "47.239384",
@@ -3289,8 +3313,8 @@ var _structuresDatas = [{
 		"url": "La boule carrée",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>La boule Carrée<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>La boule Carrée<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>La boule Carrée<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>La boule Carrée<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_du_vert_en_ville",
 		"latitude": "47.214237",
@@ -3304,8 +3328,8 @@ var _structuresDatas = [{
 		"url": "Du vert en ville",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Du vert en ville<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Du vert en ville<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Du vert en ville<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Du vert en ville<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_cafe_clavreul",
 		"latitude": "47.216631",
@@ -3319,8 +3343,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/pg/au.bon.cafe.clavreul/about/?ref=page_internal",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Café clavreul<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Café clavreul<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Café clavreul<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Café clavreul<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_bio_nant",
 		"latitude": "47.21757",
@@ -3333,8 +3357,8 @@ var _structuresDatas = [{
 		"adresseTemp": "1, rue St Denis et 18 rue Racine",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_domoro",
 		"latitude": "47.219617",
@@ -3348,8 +3372,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/DomoroNantes/?fref=ts",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>DOMORO<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>DOMORO<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>DOMORO<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>DOMORO<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_sophie_bakery",
 		"latitude": "47.215135",
@@ -3363,8 +3387,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/Sophie-Bakery-453082698170945/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Sophie Bakery<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Sophie Bakery<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Sophie Bakery<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Sophie Bakery<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_jargus",
 		"latitude": "47.214904",
@@ -3378,8 +3402,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/Jargus/?hc_ref=PAGES_TIMELINE",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Jargus<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Jargus<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Jargus<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Jargus<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_la_source",
 		"latitude": "47.216481",
@@ -3393,8 +3417,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/epiceriesources/?hc_ref=PAGES_TIMELINE",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>La source<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>La source<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>La source<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>La source<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_theine",
 		"latitude": "47.215288",
@@ -3408,8 +3432,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/theinemaisondethe/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Theine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Theine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Theine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Theine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_la_cremerie_des_carmelites",
 		"latitude": "47.217447",
@@ -3423,8 +3447,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/La-Cr%C3%A8merie-des-Carm%C3%A9lites-888514631171927/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>La crèmerie des carmélites<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>La crèmerie des carmélites<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>La crèmerie des carmélites<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>La crèmerie des carmélites<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_la_boucherie_du_bouffay",
 		"latitude": "47.214857",
@@ -3438,8 +3462,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/boucheriedubouffay.leducange",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>La boucherie du bouffay<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>La boucherie du bouffay<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>La boucherie du bouffay<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>La boucherie du bouffay<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_lenonidas",
 		"latitude": "47.215862",
@@ -3453,8 +3477,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/leonidas.nantes.centreville/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Lenonidas<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Lenonidas<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Lenonidas<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Lenonidas<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_la_tartinerie",
 		"latitude": "47.216045",
@@ -3467,8 +3491,8 @@ var _structuresDatas = [{
 		"adresseTemp": "12 place du pilori",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>La tartinerie<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>La tartinerie<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>La tartinerie<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>La tartinerie<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_le_you_!",
 		"latitude": "47.212626",
@@ -3482,8 +3506,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/youbiofoodrink/?hc_ref=PAGES_TIMELINE",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>le YOU !<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>le YOU !<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>le YOU !<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>le YOU !<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_albert_&_leontine",
 		"latitude": "47.217541",
@@ -3497,8 +3521,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/confiseriegourmande/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Albert & Léontine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Albert & Léontine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Albert & Léontine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Albert & Léontine<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_day_by_day",
 		"latitude": "47.216773",
@@ -3512,8 +3536,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/amandedaybydaynantes/?fref=ts",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Day by Day<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Day by Day<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Day by Day<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Day by Day<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_le_comptoir_nanthe_du_cafe",
 		"latitude": "47.216423",
@@ -3527,8 +3551,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/ComptoirNanThesDesCafes/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le Comptoir NanTHE du CAFE<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Le Comptoir NanTHE du CAFE<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le Comptoir NanTHE du CAFE<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Le Comptoir NanTHE du CAFE<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_olibaba",
 		"latitude": "47.217367",
@@ -3542,8 +3566,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/olibabanantes/?fref=ts",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Olibaba<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Olibaba<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Olibaba<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Olibaba<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_epicure_vous_salue",
 		"latitude": "47.219965",
@@ -3557,8 +3581,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/epicurevoussalue/?fref=ts",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Epicure vous salue<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Epicure vous salue<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Epicure vous salue<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Epicure vous salue<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_bio_nant_1",
 		"latitude": "47.214208",
@@ -3572,8 +3596,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/Bionant/?hc_ref=SEARCH&fref=nf",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_bio_nant_2",
 		"latitude": "47.217528",
@@ -3587,8 +3611,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/Bionant/?hc_ref=SEARCH&fref=nf",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Bio Nant'<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_theophil",
 		"latitude": "47.214899",
@@ -3602,8 +3626,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/Jaime-tes-bocaux-1147296918725687/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>ThéÔphil<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>ThéÔphil<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>ThéÔphil<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>ThéÔphil<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_la_boutique_raviolis",
 		"latitude": "47.240223",
@@ -3616,8 +3640,8 @@ var _structuresDatas = [{
 		"adresseTemp": "Place Commandant Cousteau mercredi soir",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>La boutique raviolis<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>La boutique raviolis<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>La boutique raviolis<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>La boutique raviolis<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_les_saveurs_du_fromage",
 		"latitude": "47.240223",
@@ -3630,8 +3654,8 @@ var _structuresDatas = [{
 		"adresseTemp": "Place Commandant Cousteau mercredi soir",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Les saveurs du fromage<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Les saveurs du fromage<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Les saveurs du fromage<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Les saveurs du fromage<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_lepi_dange",
 		"latitude": "47.211948",
@@ -3644,8 +3668,8 @@ var _structuresDatas = [{
 		"adresseTemp": "24 rue Pierre Blard",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>l'épi d'ange<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>l'épi d'ange<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>l'épi d'ange<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>l'épi d'ange<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_poissonerie_des_arcades",
 		"latitude": "47.211321",
@@ -3658,8 +3682,8 @@ var _structuresDatas = [{
 		"adresseTemp": "21 place de la paix",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>poissonerie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>poissonerie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>poissonerie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>poissonerie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_boucherie_des_arcades",
 		"latitude": "47.211253",
@@ -3672,8 +3696,8 @@ var _structuresDatas = [{
 		"adresseTemp": "13 place de la paix",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>boucherie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>boucherie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>boucherie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>boucherie des arcades<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_le_ver_luisant",
 		"latitude": "47.199227",
@@ -3687,8 +3711,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/verluisant/?ref=br_rs",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le ver luisant<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Le ver luisant<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le ver luisant<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Le ver luisant<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_la_seve_et_la_pulple",
 		"modesCollecte": "ventevrac",
@@ -3700,8 +3724,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/Laseveetlapulpe/?fref=nf",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>La seve et la pulple<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>La seve et la pulple<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>La seve et la pulple<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>La seve et la pulple<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_le_ptit_poids",
 		"modesCollecte": "ventevrac",
@@ -3713,8 +3737,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/epicerie.leptitpoids/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le P'tit Poids<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Le P'tit Poids<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le P'tit Poids<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Le P'tit Poids<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_obocal",
 		"modesCollecte": "ventevrac",
@@ -3726,8 +3750,8 @@ var _structuresDatas = [{
 		"url": "https://www.facebook.com/OBocal/",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>O'Bocal<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>O'Bocal<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>O'Bocal<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>O'Bocal<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : En attente de validation</font></i>"
 	}, {
 		"code": "jaimetesbocaux_carol_et_fils",
 		"latitude": "47.22133",
@@ -3741,8 +3765,8 @@ var _structuresDatas = [{
 		"url": "www.carol-fils.com",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Carol & Fils<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Carol & Fils<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Carol & Fils<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : à demander</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Carol & Fils<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : à demander</font></i>"
 	}, {
 		"code": "jaimestesbocaux_bouffay_spanol",
 		"latitude": "47.215183",
@@ -3755,8 +3779,8 @@ var _structuresDatas = [{
 		"adresseTemp": "6 rue des échevins",
 		"src": "Collectif << J'aime tes bocaux >>",
 		"carteMarqueur": "6",
-		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le Bouffay'Spañol<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>",
-		"cartePopuptext_en": "Commerce accepting jars<br/>Le Bouffay'Spañol<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >></font></i>"
+		"cartePopuptext": "Commerce acceptant les bocaux<br/>Le Bouffay'Spañol<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : à demander</font></i>",
+		"cartePopuptext_en": "Commerce accepting jars<br/>Le Bouffay'Spañol<br/><i><font color=green>Source : Collectif << J'aime tes bocaux >>, accord publication : à demander</font></i>"
 	}, {
 		"code": "3143",
 		"zone": "hnnl",
