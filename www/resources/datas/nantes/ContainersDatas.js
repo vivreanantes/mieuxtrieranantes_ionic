@@ -3136,7 +3136,6 @@ var _containersDatas = [{
 		"latitude": "47.1823863449441",
 		"longitude": "-1.51530819250837",
 		"src": "OpenDataNantes 04/2017",
-		"type": "Conteneur verre : <br/><i>bouteilles, pots, bocaux</i>",
 		"modesCollecte": ",modco_contverre",
 		"carteMarqueur": "2",
 		"carteIcon": "resources/icons/marker-icon-blue.png",
@@ -17986,7 +17985,7 @@ var _containersDatas = [{
 		"carteIcon": "resources/icons/marker-icon-brown.png",
 		"cartePopuptext": "Conteneur ordures : <br/><i>ordures</i><br/><i><font color=green>Source : OpenDataNantes 04/2017</font></i>",
 		"cartePopuptext_en": "Conteneur ordures : <br/><i>ordures</i><br/><i><font color=green>Source : OpenDataNantes 04/2017</font></i>"
-	}, 0000000000000000000000{
+	}, {
 		"code": "sco_bouchonamour1",
 		"nom": "Collecteur bouchon – Super U Ancenis",
 		"modesCollecte": "modco_bouchons",

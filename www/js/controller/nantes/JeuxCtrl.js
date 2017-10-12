@@ -146,7 +146,7 @@ angular.module('starter.controllers')
 			else if (nbSpace<=30) {  timeNexQuestion = 8000;  }
 			else { timeNexQuestion = 10000;  }
 		}
-		$scope.result_end.push({answerClass:$scope.result, descr:data.descr, descr_en:data.descr_en, advice_en:data.advice_en, advice:data.advice, resume_en:data.resume_en, resume:data.resume});
+		$scope.result_end.push({answerClass:$scope.result, descr:data.descr, descr_en:data.descr_en, advice_en:data.advice_en, advice:data.advice, resume_en:data.resume_en, resume:data.resume, image:data.image});
 
 		$scope.gameplay.firstInit = false;
 		// TEMPORARY HIDE Drag object avant prochaine question
@@ -210,12 +210,14 @@ angular.module('starter.controllers')
 	// Choix du type
 	$scope.showAnswer = function (item) {
 		// On affiche le libelle, son complément, et l'explication.
-		if (typeof item.resume !== 'undefined') { var text = '<div>'+item.resume+'</div><div>'+item.advice+'</div>'; }
-		else { var text = '<div>'+item.advice+'</div>'; }
+		if (typeof item.resume !== 'undefined') { var mytitle = item.descr+' ('+item.resume+')'; }
+		else { var mytitle = item.descr; }
+		var text = '<center><img ng-src="resources/images/thegoodsorting/'+item.image+'" height="100px"/></center><div>'+item.advice+'</div>';
+		// var text = '<div>'+item.advice+'</div>';
 		$ionicPopup.show({
 			template: text,
 			cssClass: 'popup-fiches',
-			title: item.descr,
+			title: mytitle,
 			scope: $scope,
 			buttons: [{
 					text: 'OK',
