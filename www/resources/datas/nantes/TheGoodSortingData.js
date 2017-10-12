@@ -12,7 +12,7 @@ var _theGoodSortingData = {
 			name: "appareil_photo",
 			descr: "Appareil photo",
 			descr_en: "aaa",
-			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
+			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. Les petits appareils électriques (25 cm max) peuvent être ramener aux magasins (de plus de 400m²) qui vendent des appareils électriquesans obligation d'achat.",
 			advice_en: "bbbb",
 			image: "appareil_photo.png",
 			reponses: ["decheterie", "retour"],
@@ -176,7 +176,7 @@ var _theGoodSortingData = {
 			name: "cle_usb",
 			descr: "Clé USB",
 			descr_en: "aaa",
-			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
+			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. Les petits appareils électriques (25 cm max) peuvent être ramener aux magasins (de plus de 400m²) qui vendent des appareils électriquesans obligation d'achat.",
 			advice_en: "bbbb",
 			image: "cle_usb.png",
 			reponses: ["decheterie", "retour"],
@@ -223,7 +223,7 @@ var _theGoodSortingData = {
 			name: "fer_a_repasser",
 			descr: "Fer à repasser",
 			descr_en: "aaa",
-			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. On peut les redonner au magasin si on achète un appareil neuf équivalent.",
+			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. Les petits appareils électriques (25 cm max) peuvent être ramener aux magasins (de plus de 400m²) qui vendent des appareils électriquesans obligation d'achat.",
 			advice_en: "bbbb",
 			image: "fer_a_repasser.png",
 			reponses: ["decheterie", "retour"],
@@ -335,7 +335,7 @@ var _theGoodSortingData = {
 			advice: "Direction déchèterie.",
 			advice_en: "bbbb",
 			image: "pneu.png",
-			reponses: ["decheterie"],
+			reponses: ["decheterie", "reemploi"],
 			exclude_filters: ["niveau_enfant"]
 		}, {
 			name: "pot_peinture",
@@ -407,51 +407,74 @@ var _theGoodSortingData = {
 			id: "composteur",
 			descr: 'Composteur',
 			advice_en: "bbbb",
-			image: "composteur.png"
+			image: "composteur.png",
+			exclude_filters: []
 		}, {
 			id: "decheterie",
 			descr: 'Déchèterie',
 			advice_en: "bbbb",
-			image: "decheterie.png"
+			image: "decheterie.png",
+			exclude_filters: ["niveau_petits"]
 		}, {
 			id: "jaune",
 			descr: 'Recyclage',
 			resume: 'bac/sac jaune, conten.',
 			resume_en: "yellow bag, conten.",
 			advice_en: "bbbb",
-			image: "recyclage.png"
+			image: "recyclage.png",
+			exclude_filters: []
 		}, {
 			id: "reemploi",
 			descr: 'Réemploi',
 			resume: 'assos, conten. vêtement...',
 			resume_en: "assos, clothes cont.",
 			advice_en: "bbbb",
-			image: "reemploi.png"
+			image: "reemploi.png",
+			exclude_filters: ["niveau_petits"]
 		}, {
 			id: "poubelle",
 			descr: 'Poubelle',
 			advice_en: "bbbb",
-			image: "bac_sac_bleu.png"
+			image: "bac_sac_bleu.png",
+			exclude_filters: []
 		}, {
 			id: "retour",
 			descr: 'Retour magasin',
 			resume: 'pharmacie, brico...',
 			resume_en: "pharmacy, supermarket...",
 			advice_en: "bbbb",
-			image: "retour.png"
+			image: "retour.png",
+			exclude_filters: ["niveau_petits"]
 		}
 	],
 	types_options: [{
-			"code":"tri",
+			"code": "tri",
 			"default": "tri_normal",
-			"options": [{code:"tri_normal",descr:"tri normal"},{code:"tri_extension",descr:"tri extension"}],
+			"options": [{
+					code: "tri_normal",
+					descr: "tri normal"
+				}, {
+					code: "tri_extension",
+					descr: "tri extension"
+				}
+			],
 			"descr": "Si vous habitez la ville de Nantes et que vous avec un bac, choisissez 'tri extension' sinon 'tri normal'.",
 			"descr_en": "If you live in the city of Nantes and you have a tray, choose 'extension sorting' in the other case 'normal sorting'."
-			
+
 		}, {
-			"code":"niveau",
+			"code": "niveau",
 			"default": "niveau_enfant",
-			"options": [{code:"niveau_enfant",descr:"enfant"},{code:"niveau_normal",descr:"niveau normal"},{code:"niveau_expert",descr:"niveau expert"}],
+			"options": [{
+					code: "niveau_enfant",
+					descr: "enfant"
+				}, {
+					code: "niveau_normal",
+					descr: "niveau normal"
+				}, {
+					code: "niveau_expert",
+					descr: "niveau expert"
+				}
+			],
 			"descr": "Choisissez le niveau de difficulté.",
 			"descr_en": "Choose the level."
 		}

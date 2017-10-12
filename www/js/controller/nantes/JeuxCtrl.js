@@ -210,7 +210,7 @@ angular.module('starter.controllers')
 	// Choix du type
 	$scope.showAnswer = function (item) {
 		// On affiche le libelle, son complément, et l'explication.
-		if (typeof item.resume !== 'undefined') { var mytitle = item.descr+' ('+item.resume+')'; }
+		if (typeof item.resume !== 'undefined') { var mytitle = item.descr+' '+item.resume+''; }
 		else { var mytitle = item.descr; }
 		var text = '<center><img ng-src="resources/images/thegoodsorting/'+item.image+'" height="100px"/></center><div>'+item.advice+'</div>';
 		// var text = '<div>'+item.advice+'</div>';
