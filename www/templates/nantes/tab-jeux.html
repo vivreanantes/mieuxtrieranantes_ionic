@@ -43,6 +43,8 @@
 
 <div ng-show="gameplay.gameEnd=='true'">
     <div class="absolute-center">
+	<span class="button button-small button-dark" ng-repeat="type in active_filters" style="padding:2px;border:2px;margin:2px;cursor:default" >{{type.descr}}&nbsp;</span>
+	<br/><br/>
     <h2>Votre score</h2>
     <jk-rating-stars max-rating="4" rating="numstars" read-only="true" ></jk-rating-stars>
 	<div>
