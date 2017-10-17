@@ -4,7 +4,7 @@ angular.module('starter.controllers')
 .controller('JeuxCtrl',
 	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter) {
 
-	$scope.num_questions = 5;
+	$scope.num_questions = 10;
 	$scope.max_stars = 4;
 	// $scope.types_questions = [{code:"tri_normal",descr:"tri normal"},{code:"tri_extension",descr:"niveau enfant"}];
 	

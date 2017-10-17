@@ -2,7 +2,7 @@
 
 angular.module('starter.controllers')
 .controller('CarteCtrl',
-	function ($scope, $state, RechercheService, ParamService) {
+	function ($scope, $state, RechercheService, ParamService/*, $rootScope*/) {
 
 		$scope.tousModesDeCollecte = RechercheService.getAFilter("filter_map");
 
@@ -18,19 +18,21 @@ angular.module('starter.controllers')
 				temp = temp.substring(0, temp.length - 1);
 			}
 			ParamService.setValueInLocalStorage("filter_map_checked", temp);
+			// $rootScope.filter_map_checked = temp;
 			$state.go('tab.carte-detail');
 		};
 
 	})
 .controller('CarteDetailCtrl',
-	function ($scope, $stateParams, leafletData, leafletMarkerEvents, CarteService, ParamService, RechercheService, $timeout) {
+	function ($scope, $stateParams, leafletData, leafletMarkerEvents, CarteService, ParamService, RechercheService, $timeout/*, $rootScope*/) {
 		$scope.isDrag = false;
 		var lastPosition = null,
-		filterMap = ParamService.getValueInLocalStorage("filter_map_checked"),
-		tousModesDeCollecte = RechercheService.getAFilter("filter_map"),
-		listFilterMap = filterMap.split(","),
-		idsModeCollecte = "",
-		labelsModeCollecte = "",
+		filterMap = ParamService.getValueInLocalStorage("filter_map_checked");
+		// filterMap = $rootScope.filter_map_checked;
+		tousModesDeCollecte = RechercheService.getAFilter("filter_map");
+		listFilterMap = filterMap.split(",");
+		idsModeCollecte = "";
+		labelsModeCollecte = "";
 		activeWatch = undefined;
 
 		for (var i = 0; i < tousModesDeCollecte.length; i++) {
@@ -44,6 +46,7 @@ angular.module('starter.controllers')
 				idsModeCollecte += tousModesDeCollecte[i].id + ",";
 				labelsModeCollecte += tousModesDeCollecte[i].nom + ", ";
 			}
+		
 		}
 
 		labelsModeCollecte = labelsModeCollecte.substring(0, labelsModeCollecte.length - 2);

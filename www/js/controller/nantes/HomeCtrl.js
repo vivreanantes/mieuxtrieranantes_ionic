@@ -35,7 +35,7 @@ angular.module('starter.controllers').controller('HomeCtrl',
 
 	// News from web
 	$scope.news = RechercheService.getNews();
-	$http.get('http://www.mieuxtrieranantes.fr/scripts_php/news_json.php').
+	$http.get('https://www.mieuxtrieranantes.fr/scripts_php/news_json.php').
 	then(function (response) {
 		$scope.news2 = response.data;
 	});
