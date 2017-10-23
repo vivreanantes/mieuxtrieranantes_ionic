@@ -161,7 +161,7 @@ var _theGoodSortingData = {
 			advice: "Elles peuvent être mis dans les conteneurs vêtement.",
 			advice_en: "bbbb",
 			image: "chaussures_propres.png",
-			reponses: ["reeemploi"],
+			reponses: ["reemploi"],
 			exclude_filters: []
 		}, {
 			name: "chaussures_usees",
@@ -176,7 +176,7 @@ var _theGoodSortingData = {
 			name: "cle_usb",
 			descr: "Clé USB",
 			descr_en: "aaa",
-			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. Les petits appareils électriques (25 cm max) peuvent être ramener aux magasins (de plus de 400m²) qui vendent des appareils électriquesans obligation d'achat.",
+			advice: "Les appareils avec électricité doivent être ramenés en déchèteries. Les petits appareils électriques (25 cm max) peuvent être ramener aux magasins (de plus de 400m²) qui vendent des appareils électrique sans obligation d'achat.",
 			advice_en: "bbbb",
 			image: "cle_usb.png",
 			reponses: ["decheterie", "retour"],
