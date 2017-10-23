@@ -185,9 +185,9 @@ var _advicesDatas = [{
 		"descr_en": "Mustard Pots and Nutella (which can be turned into drinking glass) can be recycled (board AlloPropreté 05/2014)."
 	}, {
 		"code": "cons_recuppdv1",
-		"nom": "Les magasins récupèrent l'ancien appareil pour l'achat d'un nouveau",
+		"nom": "Les magasins récupèrent l'ancien pour l'achat d'un nouveau",
 		"nom_en": "The stores recover the old device for the purchase of a new",
-		"descr": "Vous achetez un appareil neuf, le distributeur est désormais tenu de reprendre  l'ancien à l'achat ou la livraison. C'est le principe de la reprise 'un pour un'.",
+		"descr": "Pour certains biens (électroménager, meuble, matelas, pneu...), le distributeur est désormais tenu de reprendre  l'ancien à l'achat ou la livraison. C'est le principe de la reprise 'un pour un'.",
 		"descr_en": "You buy a new appliance, the distributor is now required to take the former for the purchase or delivery. This is the principle of the recovery 'one for one'.",
 		"fiche": "fiche_reprise"
 	}, {

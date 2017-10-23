@@ -146,7 +146,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "electronic,equipment,tools,powered,by,electricite,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "images_non_libres_temp/outillage_electrique_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015",
 		"sponsor": "Vns"
@@ -164,7 +164,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "heating,devices,heating,equipment,heating,cooking,appliance,oven,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "chauffage_soufflant_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -902,7 +902,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "freezers,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "congelateur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1058,6 +1058,22 @@ var _garbagesDatas = [{
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
+		"code": "dec_diamant",
+		"type": "Ressource / objet usagé",
+		"type_en": "Resource / Used object",
+		"nom": "Diamant",
+		"nom_en": "Diamond ",
+		"cat_usuel": "cu_divers",
+		"cat_trait": "cat_humour",
+		"descr": "pierre précieuse",
+		"descr_en": "precious stone",
+		"mots_cles": "diamant,pierre,precieuse,",
+		"mots_cles_en": "diamond,precious,stone,",
+		"image": "images_externes_libres/diamant.png",
+		"modco": "modco_humour",
+		"recyc": "PAS_POUBELLE",
+		"src": "MieuxTrierANantes 10/2017"
+	}, {
 		"code": "dec_eauJavel",
 		"type": "Ressource / objet usagé",
 		"type_en": "Resource / Used object",
@@ -1082,9 +1098,9 @@ var _garbagesDatas = [{
 		"nom_en": "Boxboard packaging",
 		"cat_usuel": "cu_papierscartons",
 		"cat_trait": "cat_papiercarton",
-		"descr": "emballage en carton plat, Suremballage carton, cartonnette, boîte de céréales, boîte à pizza",
+		"descr": "emballage en carton plat, Suremballage carton, cartonnette, céréale, pizza",
 		"descr_en": "boxboard packaging, Overwrapping cardboard, cardboard, cereal box, pizza box",
-		"mots_cles": "emballage,carton,plat,suremballage,carton,cartonnette,boite,cereales,boite,pizza,",
+		"mots_cles": "emballage,carton,plat,suremballage,carton,cartonnette,cereale,pizza,",
 		"mots_cles_en": "boxboard,packaging,overwrapping,cardboard,cardboard,cereal,box,pizza,box,",
 		"cons": "cons_souille,",
 		"image": "cartonette_mini.png",
@@ -1157,7 +1173,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "audio,and,video,equipment,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "chaine_hifi_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "www"
 	}, {
@@ -1583,7 +1599,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "lamp,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "lampe_chevet_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1707,14 +1723,14 @@ var _garbagesDatas = [{
 		"nom": "Matelas",
 		"nom_en": "Mattress",
 		"cat_usuel": "cu_vetementtissu",
-		"cat_trait": "cat_encombrant",
+		"cat_trait": "cat_meuble",
 		"descr": "matelas",
 		"descr_en": "mattress",
 		"mots_cles": "matelas,",
 		"mots_cles_en": "mattress,",
-		"cons": "cons_numerosencombrants,cons_encombrants",
+		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "matelas_mini.png",
-		"modco": "modco_encombrant,modco_decheterie",
+		"modco": "modco_encombrant,modco_decheterie,smco_reprise",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1741,14 +1757,14 @@ var _garbagesDatas = [{
 		"nom": "Meuble",
 		"nom_en": "Furniture",
 		"cat_usuel": "cu_divers",
-		"cat_trait": "cat_encombrant",
-		"descr": "meuble",
+		"cat_trait": "cat_meuble",
+		"descr": "meuble,canapé,fauteuil,armoire",
 		"descr_en": "furniture",
-		"mots_cles": "meuble,",
+		"mots_cles": "meuble,canape,fauteuil,armoire,",
 		"mots_cles_en": "furniture,",
-		"cons": "cons_numerosencombrants,cons_encombrants",
+		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "canape_mini.png",
-		"modco": "modco_encombrant,modco_decheterie",
+		"modco": "modco_encombrant,modco_decheterie,smco_reprise",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1916,7 +1932,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "laptop,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "ordi_portable_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2155,7 +2171,7 @@ var _garbagesDatas = [{
 		"image": "pneu_mini.png",
 		"modco": "modco_encombrant,modco_decheterie",
 		"recyc": "PAS_POUBELLE",
-		"src": "MieuxTrierANantes 02/2015"
+		"src": "MieuxTrierANantes 02/2017"
 	}, {
 		"code": "dec_polystyrene",
 		"type": "Ressource / objet usagé",
@@ -2410,7 +2426,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "refrigerator,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "refrigerateur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2563,7 +2579,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "telephony,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "telephone_fixe_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2580,7 +2596,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "tv,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "televiseur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_0pour1",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
