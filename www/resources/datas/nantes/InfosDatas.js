@@ -240,15 +240,16 @@ var _infosDatas = [{
 		"code": "fiche_plus2vers",
 		"nom": "Plus2vers - échange de lombrics",
 		"nom_en": "Plus2vers - exchange of earthworms",
-		"descr": "Bourse aux lombrics et conseils sur le lombricompostage, essentiellement sur la région nantaise.<br/>(les lombrics sont utiliisés pour le lombricompostage)<br/><br/><img src='resources/images/nantes/logo_plus2vers.png' /><br/>Site internet qui permet de mettre en lien (gratuitement) des personnes qui veulent échanger des lombrics :<br/>Localiser sur une carte les donateurs de lombrics et contacter-les simplement en leur envoyant un mail.<br/>Vous trouverez ici des conseils très utiles pour réussir avec son lombricomposteur.<br/>300 donateurs sur la carte fin 2014.<br/><br/>Voir le site <a href='http://plus2vers.fr/' target=_blank >http://plus2vers.fr/</a>",
-		"descr_en": "Exchange earthworms and advice on vermicomposting, mainly in the Nantes region.<BR/>(Earthworms for vermicomposting are utiliisés)<BR/><img src='resources/images/nantes/logo_plus2vers.png' /><BR/>website that allows to link (free) for people who want to exchange earthworms.<BR/>Locate on a map earthworms donors and contact them by simply sending them an email < br /> Here you will find useful tips for success with his Vermicomposter<BR/>300 donors on the map<BR/>end of 2014. See the website <a href='http:. // plus2vers. fr / 'target='_blank'> http://plus2vers.fr/ </a>",
+		"descr": "Plus2vers est un site d'entre-aide pour démarrer facilement le lombricompostage.<br/><br/>Trouvez des vers et des conseils gratuitement , à côté de chez vous et partout dans le monde !<br/><br/><b>Plus 2 vers est un réseau de donateur de vers et de conseils</b> :<br/>Avec la carte des donateurs, cherchez un donateur de vers près de chez vous et contactez la en remplissant le formulaire.<br/><br/><b>Plus2vers est un site ressource</b> :<br/>Le fonctionnement, le menu des vers, les différents modèles vendu ou à fabriquer soi-même, un forum d’entraide, expo...<br/><br/>Plus2vers apporte toutes les informations pour bien démarrer avec un lombricomposteur.<br/>Plus2vers est géré par l'association Les Boîtes Vertes.",
+		"descr_en": "Plus2vers is a help-site to easily start vermicomposting. Find worms and tips for free, near your home and around the world! <br/> <br/> <b> Plus 2 vers is a network of donor worms and tips </ b>: <br/> With the donor card, look for a donor of worms near you and contact them by completing the form. <br> /> <br/> <b> Plus2vers is a resource site </ b>: <br/> The operation, the menu of the worms, the different models sold or to be manufactured oneself, a forum of mutual aid, expo. .. <br/> <br/> Plus2vers provides all the information you need to get started with a vermicomposter. <br/> Plus2vers is managed by Les Boîtes Vertes. ",
 		"bouton": "fiche",
 		"image": "nantes/logo_plus2vers.png",
 		"mots_cles": "plus2vers,echange,lombrics",
 		"mots_cles_en": "plus2vers,exchange,earthworms",
 		"categorie": "initiative_locale",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers03.jpg",
 		"source": "Mieux trier à Nantes",
-		"urls": "http://plus2vers.fr"
+		"urls": "https://plus2vers.fr,https://lesboitesvertes.fr"
 	}, {
 		"code": "fiche_medicament",
 		"nom": "Récupération médicaments",
