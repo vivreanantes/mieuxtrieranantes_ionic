@@ -247,7 +247,7 @@ var _infosDatas = [{
 		"mots_cles": "plus2vers,echange,lombrics",
 		"mots_cles_en": "plus2vers,exchange,earthworms",
 		"categorie": "initiative_locale",
-		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers03.jpg",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Plus2Vers/Plus2Vers04.jpg",
 		"source": "Mieux trier à Nantes",
 		"urls": "https://plus2vers.fr,https://lesboitesvertes.fr"
 	}, {
@@ -395,7 +395,9 @@ var _infosDatas = [{
 		"mots_cles": "usine,arc,ciel,arc,ciel,coueron",
 		"mots_cles_en": "factory,arc,ciel,coueron",
 		"categorie": "consigne_locale",
-		"source": "Mieux trier à Nantes"
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel01.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel02.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel03.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel04.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel05.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel06.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel07.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel08.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel09.jpg",
+		"source": "Mieux trier à Nantes",
+		"urls": "http://www.youtube.com/watch?v=H69lhVN7QXE"
 	}, {
 		"code": "fiche_boutabout",
 		"nom": "Bout' à Bout' - consigne de verre",
