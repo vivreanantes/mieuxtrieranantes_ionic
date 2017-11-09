@@ -21,7 +21,7 @@ var _paramsDatas = {
 };
 var _paramFilterTypePlacesDatas = [{
 		"id": "1",
-		"code": "smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevrac",
+		"code": "smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevracstruct",
 		"nom": "Tous les lieux"
 	}, {
 		"id": "2",
@@ -39,7 +39,7 @@ var _paramFilterTypePlacesDatas = [{
 		"nom_en": "Containers"
 	}, {
 		"id": "5",
-		"code": "ventevrac",
+		"code": "ventevracstruct",
 		"nom": "Vente vrac",
 		"nom_en": "No packaging shops"
 	}
@@ -99,8 +99,8 @@ var _paramFilterTypeMapDatas = [{
 		"image": "resources/icons/marker-icon-pink.png"
 	}, {
 		"id": "6",
-		"code": "ventevrac",
-		"nom": "Vente vrac (83)",
+		"code": "ventevracstruct,ventevracpoints",
+		"nom": "Vente vrac (105)",
 		"nom_en": "No packaging shops (83)",
 		"image": "resources/icons/marker-icon-red.png"
 	}, {
@@ -118,7 +118,7 @@ var _paramFilterTypeMapDatas = [{
 	}
 ];
 
-var paramAllPlaces = 'smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevrac';
+var paramAllPlaces = 'smco_reemp|modco_decheterie|modco_ecopoint|modco_encombrants_resume|ventevracstruct';
 
 var paramIconsMap = {
 			default_icon: {},
