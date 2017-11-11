@@ -56,7 +56,7 @@ angular.module('starter.controllers').controller(
 		if (typeof ci !== 'undefined') { temp = temp + ci; }
 		// temp = temp.replace(/<B>/g, "").replace(/<\/B>/g, "");
 		ParamService.setValueInLocalStorage("collectmodsfiltercomp", temp);
-		if (adresse !== 'jhabite_nantes') {
+		if (adresse !== 'jhabite_nantes' && adresse !== 'jhabite_hors_nantes') {
 			adresse = adresse + " (Nantes)";
 		}
 		ParamService.setValueInLocalStorage("adressstored", adresse);

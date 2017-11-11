@@ -398,7 +398,8 @@ var _infosDatas = [{
 		"mots_cles_en": "factory,arc,ciel,coueron",
 		"categorie": "consigne_locale",
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel01.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel02.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel03.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel04.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel05.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel06.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel07.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel08.jpg,www.mieuxtrieranantes.fr/docs/medias/FiliereTri/ArcEnCiel/ArcEnCiel09.jpg",
-		"source": "Mieux trier à Nantes"
+		"source": "Mieux trier à Nantes",
+		"urls": "http://www.youtube.com/watch?v=H69lhVN7QXE"
 	}, {
 		"code": "fiche_boutabout",
 		"nom": "Bout' à Bout' - consigne de verre",
