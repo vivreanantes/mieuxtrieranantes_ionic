@@ -190,6 +190,7 @@ var _ihmLabelsEnDatas = {
 	"descr_translated": "{{descr_en}}",
 	"resume_translated": "{{resume_en}}",
 	"type_translated": "{{type_en}}",
+	"advice_translated": "{{advice_en}}",
 	"categorie": "Category",
 	"modco_bacbleunantes,modco_bacjaunenantes": "Extension (blue and yellow boxes)",
 	"modco_bacbleuhorsnantes,modco_bacjaunehorsnantes": "Normal (blue and yellow boxes)",
@@ -250,5 +251,7 @@ var _ihmLabelsEnDatas = {
 	"ecrire_nous": "send-us a message",
 	"drap_to_answer":"Drag to answer",
 	"adresse_configuree":"Adress configured",
-	"votre_mode_de_tri":"Your sorting mod"
+	"votre_mode_de_tri":"Your sorting mod",
+	"votre_score":"Your score",
+	"rejouer":"Replay"
 };

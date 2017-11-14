@@ -190,6 +190,7 @@ var _ihmLabelsFrDatas = {
 	"descr_translated": "{{descr}}",
 	"resume_translated": "{{resume}}",
 	"type_translated": "{{type}}",
+	"advice_translated": "{{advice}}",
 	"categorie": "Catégorie",
 	"modco_bacbleunantes,modco_bacjaunenantes": "Extension de tri (bacs bleus et jaunes)",
 	"modco_bacbleuhorsnantes,modco_bacjaunehorsnantes": "Normal (bacs bleus et jaunes)",
@@ -249,5 +250,7 @@ var _ihmLabelsFrDatas = {
 	"ecrire_nous": "envoyez-nous un message",
 	"drap_to_answer":"Glisser pour répondre.",
 	"adresse_configuree":"Adresse configurée",
-	"votre_mode_de_tri":"Votre mode de tri"
+	"votre_mode_de_tri":"Votre mode de tri",
+	"votre_score":"Votre score",
+	"rejouer":"Rejouer"
 }

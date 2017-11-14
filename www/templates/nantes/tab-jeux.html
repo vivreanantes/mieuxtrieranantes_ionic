@@ -9,7 +9,7 @@
 	<div class="choice-bar" style="vertical-align: middle;">
 		{{'drap_to_answer'|translate}}
 		<button class="button button-small button-dark" ng-repeat="type in active_filters" ng-click="changeType(type)" style="padding:2px;border:2px" >
-		{{type.descr}}
+		{{'descr_translated'|translate:type}}
 		</button>
 	</div>
 	<div>
@@ -24,7 +24,10 @@
 			<img ng-src="resources/images/thegoodsorting/{{gameplay.currentQuestion.image}}"/>
 		</div>
 	</div>
-	<div ng-show="advice!=''" class="advice">{{advice}}	</div>
+	<div ng-show="advice!=''" class="advice">
+	  <span ng-show="currentlanguage=='fr'||!currentlanguage">{{advice}}</span>
+	  <span ng-show="currentlanguage=='en'">{{advice_en}}</span>
+	</div>
 
 </div>
 <div class="bottom-pane">
@@ -43,19 +46,16 @@
 
 <div ng-show="gameplay.gameEnd=='true'">
     <div class="absolute-center">
-	<span class="button button-small button-dark" ng-repeat="type in active_filters" style="padding:2px;border:2px;margin:2px;cursor:default" >{{type.descr}}&nbsp;</span>
-    <h2>Votre score</h2>
+	<span class="button button-small button-dark" ng-repeat="type in active_filters" style="padding:2px;border:2px;margin:2px;cursor:default" >{{'descr_translated'|translate:type}}&nbsp;</span>
+    <h2>{{'votre_score'|translate}}</h2>
     <jk-rating-stars max-rating="4" rating="numstars" read-only="true" ></jk-rating-stars>
 	<div>
-		<a class="button button-calm icon-left ion-play" ng-click="startANewAGame()">Rejouer</a>
+		<a class="button button-calm icon-left ion-play" ng-click="startANewAGame()">{{'rejouer'|translate}}</a>
 	</div>
 	<button class="button button-small reponse {{item.answerClass}}" style="margin:2px" ng-click="showAnswer(item)"  ng-repeat="item in result_end">
-		{{item.descr}}
+		{{'descr_translated'|translate:item}}
 	</button>
     </div>
 </div>
 
 </ion-view>
-
-
-		

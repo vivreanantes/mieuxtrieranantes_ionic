@@ -2,9 +2,9 @@
 
 angular.module('starter.controllers')
 .controller('JeuxCtrl',
-	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter) {
+	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter, ParamService) {
 
-	$scope.num_questions = 10;
+	$scope.num_questions = 2;
 	$scope.max_stars = 4;
 	// $scope.types_questions = [{code:"tri_normal",descr:"tri normal"},{code:"tri_extension",descr:"niveau enfant"}];
 	
@@ -60,13 +60,26 @@ angular.module('starter.controllers')
 	// Choix du type
 	$scope.changeType = function (type) {
 		var i = type;
+		
+		var currentlanguage = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
+		
 		$scope.formParam.code=type.code;
 		if (type.code=='niveau') {
-			$scope.temp = [{value:"niveau_enfant",descr:"enfant",code:"niveau"},{value:"niveau_normal",descr:"normal",code:"niveau"},{value:"niveau_expert",descr:"expert",code:"niveau"}];
-			$scope.descr = $scope.types_options[1].descr;
+			if (currentlanguage=='en') {
+				$scope.temp = [{value:"niveau_enfant",descr:"enfant",code:"niveau"},{value:"niveau_normal",descr:"normal",code:"niveau"},{value:"niveau_expert",descr:"expert",code:"niveau"}];
+				$scope.descr = $scope.types_options[1].descr;
+			} else {
+				$scope.temp = [{value:"niveau_enfant",descr:"enfant",code:"niveau"},{value:"niveau_normal",descr:"normal",code:"niveau"},{value:"niveau_expert",descr:"expert",code:"niveau"}];
+				$scope.descr = $scope.types_options[1].descr;
+			}
 		} else if (type.code=='tri') {
-			$scope.temp = [{value:"tri_normal",descr:"tri normal",code:"tri"},{value:"tri extension",descr:"tri extension",code:"tri"}];
-			$scope.descr = $scope.types_options[0].descr;
+			if (currentlanguage=='en') {
+				$scope.temp = [{value:"tri_normal",descr:"tri normal",code:"tri"},{value:"tri extension",descr:"tri extension",code:"tri"}];
+				$scope.descr = $scope.types_options[0].descr;
+			} else {
+				$scope.temp = [{value:"tri_normal",descr:"normal",code:"tri"},{value:"extension",descr:"tri extension",code:"tri"}];
+				$scope.descr = $scope.types_options[0].descr;
+			}
 		}
 		$ionicPopup.show({
 			template: '<div ng-show="descr">{{descr}}</div><div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.descr}}</ion-radio></div>',
@@ -139,6 +152,7 @@ angular.module('starter.controllers')
 			reponseObject.answerClass = 'bad';
 			$scope.result = 'bad';
 			$scope.advice = data.advice;
+			$scope.advice_en = data.advice_en;
 			// Le  temps d'affichage de la réponse dépend du nombre de mots
 			var nbSpace = data.advice.split(' ').length - 1;
 			if (nbSpace<=10) {  timeNexQuestion = 4000;  }
@@ -209,6 +223,9 @@ angular.module('starter.controllers')
 
 	// Choix du type
 	$scope.showAnswer = function (item) {
+	
+		var currentlanguage = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
+	
 		// On affiche le libelle, son complément, et l'explication.
 		if (typeof item.resume !== 'undefined') { var mytitle = item.descr+' '+item.resume+''; }
 		else { var mytitle = item.descr; }

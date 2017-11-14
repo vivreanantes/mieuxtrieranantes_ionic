@@ -12,6 +12,8 @@
 				<span ng-bind-html="fiche.descr_en" ng-show="currentlanguage=='en'"></span>
       </p>
 
+	  <div ng-show="fiche.source">Source : <i>{{::fiche.source}}</i></div>
+
 		<div ng-show="lstUrls.length>0">
 			<div class="item" ng-repeat="url in lstUrls">
 				{{'plus_d_infos'|translate}} : 
