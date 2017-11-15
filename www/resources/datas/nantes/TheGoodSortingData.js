@@ -472,10 +472,14 @@ var _theGoodSortingData = {
 			"default": "tri_normal",
 			"options": [{
 					"code": "tri_normal",
-					"descr": "tri normal"
+					"descr": "tri normal",
+					"descr_en": "normal sorting"
+					
 				}, {
 					"code": "tri_extension",
-					"descr": "tri extension"
+					"descr": "tri extension",
+					"descr_en": "extension sorting"
+					
 				}
 			],
 			"descr": "Si vous habitez la ville de Nantes et que vous avec un bac, choisissez 'tri extension' sinon 'tri normal'.",
@@ -486,13 +490,16 @@ var _theGoodSortingData = {
 			"default": "niveau_enfant",
 			"options": [{
 					"code": "niveau_enfant",
-					"descr": "enfant"
+					"descr": "enfant",
+					"descr_en": "children"
 				}, {
 					"code": "niveau_normal",
-					"descr": "niveau normal"
+					"descr": "niveau normal",
+					"descr_en": "normal"
 				}, {
 					"code": "niveau_expert",
-					"descr": "niveau expert"
+					"descr": "niveau expert",
+					"descr_en": "expert"
 				}
 			],
 			"descr": "Choisissez le niveau de difficulté.",

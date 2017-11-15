@@ -1,10 +1,10 @@
 var _newsDatas = [{
 		// Miscellaneous Symbols and Pictographs : https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode/U1F300
 		"code": "Actu_01",
-		"nom": "&#x263a; Envie 44 propose des réparations",
-		"nom_en": "Envie 44 offers to repair",
-		"descr": "Cettte grande structure nantaise récupère depuis des années les produits électriques usagés. Désormais il propose aux particuliers de réparer les appareils (et de les rendre avec garantie). Voir <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.envie-44.org', '_system', 'location=yes');\">www.envie-44.org</a>",
-		"descr_en": "This large structure recovers Nantes for years used electrical products. It now offers individuals to repair appliances (and make with guarantee).. See <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.envie-44.org', '_system', 'location=yes');\">www.envie-44.org</a>"
+		"nom": "&#x263a; Site internet VracANantes",
+		"nom_en": "Web site VracANantes",
+		"descr": "Sortie du site internet qui recense les lieux de vrac sur Nantes Métropole. Voir <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.vracanantes.fr', '_system', 'location=yes');\">www.vracanantes.fr</a>",
+		"descr_en": "Sortie du site internet qui recense les lieux de vrac sur Nantes Métropole. See <a href=\"javascript:void(0);\" onclick=\"window.open('http://www.vracanantes.fr', '_system', 'location=yes');\">www.vracanantes.fr</a>"
 	}, {
 		"code": "Actu_03",
 		"nom": "&#x1f4b2; Le retour de la consigne sur les bouteilles.",

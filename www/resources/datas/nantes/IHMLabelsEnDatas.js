@@ -242,16 +242,17 @@ var _ihmLabelsEnDatas = {
 	"only_one_world" : "For research, put only ONE world.",
 	"quitter_titre" : "Quit application",
 	"quitter_description" : "Do you really want to quit the application ?",
-	"signaleruneerreur" : "signal a bug",
+	"signaleruneerreur" : "Signal a bug",
 	"fixmaville_descr" : "FixMaVille is a participatory and citizen application to inform a community of degradations, incidents or suggestions. It is available on Nantes Métropole.",
 	"erreur_de_lapplication_title" : "Error in the application",
 	"erreur_de_lapplication_descr" : "So inform us of an error in the application, ",
 	"erreur_filieretri_title" : "Advice sorting prosess",
 	"erreur_filieretri_descr" : "To make the community improve on sorting, use the FixMaVille application.",
-	"ecrire_nous": "send-us a message",
+	"ecrire_nous": "send a message to mieuxtrieranantes@gmail.com",
 	"drap_to_answer":"Drag to answer",
 	"adresse_configuree":"Adress configured",
 	"votre_mode_de_tri":"Your sorting mod",
 	"votre_score":"Your score",
-	"rejouer":"Replay"
+	"rejouer":"Replay",
+	"option_du_quiz":"Option of the quiz"
 };

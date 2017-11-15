@@ -2,12 +2,10 @@
 
 angular.module('starter.controllers')
 .controller('JeuxCtrl',
-	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter, ParamService) {
+	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter, ParamService, $translate) {
 
-	$scope.num_questions = 2;
+	$scope.num_questions = 10;
 	$scope.max_stars = 4;
-	// $scope.types_questions = [{code:"tri_normal",descr:"tri normal"},{code:"tri_extension",descr:"niveau enfant"}];
-	
 	
 	$scope.suffle = function (array, active_filters, returnSize) {
 		
@@ -65,26 +63,24 @@ angular.module('starter.controllers')
 		
 		$scope.formParam.code=type.code;
 		if (type.code=='niveau') {
+			$scope.temp = [{"value":"niveau_enfant","descr":"enfant","descr_en":"children","code":"niveau"},{"value":"niveau_normal","descr":"normal","descr_en":"normal","code":"niveau"},{"value":"niveau_expert","descr_en":"expert","descr":"expert","code":"niveau"}];
 			if (currentlanguage=='en') {
-				$scope.temp = [{value:"niveau_enfant",descr:"enfant",code:"niveau"},{value:"niveau_normal",descr:"normal",code:"niveau"},{value:"niveau_expert",descr:"expert",code:"niveau"}];
-				$scope.descr = $scope.types_options[1].descr;
+				$scope.descr = $scope.types_options[1].descr_en;
 			} else {
-				$scope.temp = [{value:"niveau_enfant",descr:"enfant",code:"niveau"},{value:"niveau_normal",descr:"normal",code:"niveau"},{value:"niveau_expert",descr:"expert",code:"niveau"}];
 				$scope.descr = $scope.types_options[1].descr;
 			}
 		} else if (type.code=='tri') {
+			$scope.temp = [{"value":"tri_normal","descr":"tri normal","descr_en": "normal sorting", "code":"tri"},{"value":"tri extension","descr":"tri extension","descr_en": "extension sorting", "code":"tri"}];
 			if (currentlanguage=='en') {
-				$scope.temp = [{value:"tri_normal",descr:"tri normal",code:"tri"},{value:"tri extension",descr:"tri extension",code:"tri"}];
-				$scope.descr = $scope.types_options[0].descr;
+				$scope.descr = $scope.types_options[0].descr_en;
 			} else {
-				$scope.temp = [{value:"tri_normal",descr:"normal",code:"tri"},{value:"extension",descr:"tri extension",code:"tri"}];
 				$scope.descr = $scope.types_options[0].descr;
 			}
 		}
 		$ionicPopup.show({
-			template: '<div ng-show="descr">{{descr}}</div><div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.descr}}</ion-radio></div>',
+			template: "<div ng-show='descr'>{{descr}}</div><div ng-repeat='obj in temp'> <ion-radio ng-model='formParam.type' ng-value='obj'>{{'descr_translated'|translate:obj}}</ion-radio></div>",
 			cssClass: 'popup-fiches',
-			title: 'Option du quiz',
+			title: "Option (quiz)",
 			scope: $scope,
 			buttons: [{
 					text: 'OK',
@@ -126,7 +122,7 @@ angular.module('starter.controllers')
 	$scope.reponses = _theGoodSortingData.reponses;
 	$scope.types_options = _theGoodSortingData.types_options;
 	// TODO Prendre _theGoodSortingData.types_options et filtrer selon default
-	$scope.active_filters = [{code:"tri",value:"tri_normal",descr:"tri normal"},{code:"niveau",value:"niveau_enfant",descr:"enfant"}];
+	$scope.active_filters = [{"code":"tri","value":"tri_normal","descr":"tri normal","descr_en": "normal sorting"},{"code":"niveau","value":"niveau_enfant","descr":"enfant","descr_en": "children"}];
 	
 	//FORM MODEL : DEFAULTS
 	$scope.formParam = {
@@ -160,7 +156,7 @@ angular.module('starter.controllers')
 			else if (nbSpace<=30) {  timeNexQuestion = 8000;  }
 			else { timeNexQuestion = 10000;  }
 		}
-		$scope.result_end.push({answerClass:$scope.result, descr:data.descr, descr_en:data.descr_en, advice_en:data.advice_en, advice:data.advice, resume_en:data.resume_en, resume:data.resume, image:data.image});
+		$scope.result_end.push({answerClass:$scope.result, descr:data.descr, descr_en:data.descr_en, advice_en:data.advice_en, advice:data.advice, advice_en:data.advice_en, resume_en:data.resume_en, resume:data.resume, image:data.image});
 
 		$scope.gameplay.firstInit = false;
 		// TEMPORARY HIDE Drag object avant prochaine question
@@ -227,10 +223,26 @@ angular.module('starter.controllers')
 		var currentlanguage = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
 	
 		// On affiche le libelle, son complément, et l'explication.
-		if (typeof item.resume !== 'undefined') { var mytitle = item.descr+' '+item.resume+''; }
-		else { var mytitle = item.descr; }
-		var text = '<center><img ng-src="resources/images/thegoodsorting/'+item.image+'" height="100px"/></center><div>'+item.advice+'</div>';
-		// var text = '<div>'+item.advice+'</div>';
+		if (typeof item.resume !== 'undefined') {
+			if (currentlanguage=="en") {
+				var mytitle = item.descr_en+' '+item.resume_en+'';
+			} else {
+				var mytitle = item.descr+' '+item.resume+'';
+			}
+		}
+		else {
+			if (currentlanguage=="en") {
+				var mytitle = item.descr_en;
+			} else {
+				var mytitle = item.descr;
+			}
+		}
+		if (currentlanguage=="en") {
+			var advice_temp = item.advice_en;
+		} else {
+			var advice_temp = item.advice;
+		}
+		var text = '<center><img ng-src="resources/images/thegoodsorting/'+item.image+'" height="100px"/></center><div>'+advice_temp+'</div>';
 		$ionicPopup.show({
 			template: text,
 			cssClass: 'popup-fiches',
