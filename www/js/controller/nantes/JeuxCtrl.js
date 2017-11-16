@@ -2,9 +2,10 @@
 
 angular.module('starter.controllers')
 .controller('JeuxCtrl',
-	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter) {
+	function ($scope, $stateParams, $timeout, $rootScope, $ionicPopup, $filter, ParamService, $translate) {
 
-	$scope.types_questions = ["tri normal","niveau enfant"];
+	$scope.num_questions = 10;
+	$scope.max_stars = 4;
 	
 	$scope.suffle = function (array, active_filters, returnSize) {
 		
@@ -17,9 +18,10 @@ angular.module('starter.controllers')
 			var questionIsOk = true;
 			for (var k=0; k<questionFilters.length; k++) {
 				var questionFilter = questionFilters[k];
-				indexEl = active_filters.indexOf(questionFilter);		
-				if (indexEl>-1) {
-					questionIsOk = false;
+				for (var l=0; l<active_filters.length; l++) {
+					if (active_filters[l].value==questionFilter) {
+						questionIsOk = false;
+					}
 				}
 			}
 			if (questionIsOk) {
@@ -41,33 +43,44 @@ angular.module('starter.controllers')
 	}
 	
 	$scope.onSearchSubmit = function () {
-		var selectedCode = $scope.formParam.type.code;
-		// on modifie $scope.active_filters
-		for (var i=0; i<$scope.active_filters.length; i++) {
-			if (selectedCode=="niveau enfant" && ($scope.active_filters[i]=="niveau normal" || $scope.active_filters[i]=="niveau expert") ) { $scope.active_filters[i]="niveau enfant"; }
-			else if (selectedCode=="niveau normal" && ($scope.active_filters[i]=="niveau enfant" || $scope.active_filters[i]=="niveau expert") ) { $scope.active_filters[i]="niveau normal"; }
-			else if (selectedCode=="niveau expert" && ($scope.active_filters[i]=="niveau enfant" || $scope.active_filters[i]=="niveau normal") ) { $scope.active_filters[i]="niveau expert"; }
-			else if (selectedCode=="tri normal" && $scope.active_filters[i]=="tri extension") { $scope.active_filters[i]="tri normal"; }
-			else if (selectedCode=="tri extension" && $scope.active_filters[i]=="tri normal") { $scope.active_filters[i]="tri extension"; }
+		var selectedCode = $scope.formParam.type.value;
+		var selectedType = $scope.formParam.code; // "tri" ou "niveau"
+		if (typeof selectedCode !== 'undefined')  {
+			// on modifie $scope.types_questions
+			for (var i=0; i<$scope.types_options.length; i++) {
+				if (selectedType=="tri") { $scope.active_filters[0]=$scope.formParam.type; }
+				else if (selectedType=="niveau") { $scope.active_filters[1]=$scope.formParam.type; }
+			}
+			$scope.startANewAGame();
 		}
-		$scope.startANewAGame();
 	};
 	
 	// Choix du type
 	$scope.changeType = function (type) {
 		var i = type;
-		if (type=='niveau enfant') {
-			$scope.temp = [{code:"niveau enfant",nom:"Enfant"},{code:"niveau normal",nom:"Normal"},{code:"niveau expert",nom:"Expert"}];
-			$scope.descr = $scope.types_questions[1].descr;
-		} else if (type=='tri normal') {
-			$scope.temp = [{code:"tri normal",nom:"Tri normal"},{code:"tri extension",nom:"Tri extension (bac jaune, Nantes)"}];
-			$scope.descr = $scope.types_questions[0].descr;
-		}
 		
+		var currentlanguage = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
+		
+		$scope.formParam.code=type.code;
+		if (type.code=='niveau') {
+			$scope.temp = [{"value":"niveau_enfant","descr":"enfant","descr_en":"children","code":"niveau"},{"value":"niveau_normal","descr":"normal","descr_en":"normal","code":"niveau"},{"value":"niveau_expert","descr_en":"expert","descr":"expert","code":"niveau"}];
+			if (currentlanguage=='en') {
+				$scope.descr = $scope.types_options[1].descr_en;
+			} else {
+				$scope.descr = $scope.types_options[1].descr;
+			}
+		} else if (type.code=='tri') {
+			$scope.temp = [{"value":"tri_normal","descr":"tri normal","descr_en": "normal sorting", "code":"tri"},{"value":"tri extension","descr":"tri extension","descr_en": "extension sorting", "code":"tri"}];
+			if (currentlanguage=='en') {
+				$scope.descr = $scope.types_options[0].descr_en;
+			} else {
+				$scope.descr = $scope.types_options[0].descr;
+			}
+		}
 		$ionicPopup.show({
-			template: '<div ng-show="descr">{{descr}}</div><div ng-repeat="obj in temp"> <ion-radio ng-model="formParam.type" ng-value="obj">{{obj.nom}}</ion-radio> </div>',
+			template: "<div ng-show='descr'>{{descr}}</div><div ng-repeat='obj in temp'> <ion-radio ng-model='formParam.type' ng-value='obj'>{{'descr_translated'|translate:obj}}</ion-radio></div>",
 			cssClass: 'popup-fiches',
-			title: 'Option du quiz',
+			title: "Option (quiz)",
 			scope: $scope,
 			buttons: [{
 					text: 'OK',
@@ -87,7 +100,8 @@ angular.module('starter.controllers')
 		$scope.result_end = [];
 		// = true après réponse à toutes les questions
 		$scope.gameplay.gameEnd = "false";
-		$scope.questions = $scope.suffle(_theGoodSortingData.questions, $scope.active_filters, 5);
+		$scope.types_options = _theGoodSortingData.types_options,
+		$scope.questions = $scope.suffle(_theGoodSortingData.questions, $scope.active_filters, $scope.num_questions);
 		$scope.gameplay.goodAnswers = 0;
 		$scope.gameplay.currentQuestionIndex = 0;
 		//Question courante
@@ -106,12 +120,14 @@ angular.module('starter.controllers')
 	});
 	$scope.questions = _theGoodSortingData.questions;
 	$scope.reponses = _theGoodSortingData.reponses;
-	$scope.types_questions = _theGoodSortingData.types_questions;
-	$scope.active_filters = ["niveau enfant","tri normal"];
+	$scope.types_options = _theGoodSortingData.types_options;
+	// TODO Prendre _theGoodSortingData.types_options et filtrer selon default
+	$scope.active_filters = [{"code":"tri","value":"tri_normal","descr":"tri normal","descr_en": "normal sorting"},{"code":"niveau","value":"niveau_enfant","descr":"enfant","descr_en": "children"}];
 	
 	//FORM MODEL : DEFAULTS
 	$scope.formParam = {
-		type: $scope.types_questions[0],
+		type: $scope.types_options[0],
+		code:'ff',
 		searchkey: ''
 	};
 
@@ -132,9 +148,15 @@ angular.module('starter.controllers')
 			reponseObject.answerClass = 'bad';
 			$scope.result = 'bad';
 			$scope.advice = data.advice;
-			$scope.result_end.push(data.descr + " : " + data.advice);
-			timeNexQuestion = 4000;
+			$scope.advice_en = data.advice_en;
+			// Le  temps d'affichage de la réponse dépend du nombre de mots
+			var nbSpace = data.advice.split(' ').length - 1;
+			if (nbSpace<=10) {  timeNexQuestion = 4000;  }
+			else if (nbSpace<=20) {  timeNexQuestion = 6000;  }
+			else if (nbSpace<=30) {  timeNexQuestion = 8000;  }
+			else { timeNexQuestion = 10000;  }
 		}
+		$scope.result_end.push({answerClass:$scope.result, descr:data.descr, descr_en:data.descr_en, advice_en:data.advice_en, advice:data.advice, advice_en:data.advice_en, resume_en:data.resume_en, resume:data.resume, image:data.image});
 
 		$scope.gameplay.firstInit = false;
 		// TEMPORARY HIDE Drag object avant prochaine question
@@ -169,9 +191,11 @@ angular.module('starter.controllers')
 
 	var endGame = function () {
 		$scope.gameplay.gameEnd = "true";
+		$scope.numstars = parseInt($scope.gameplay.goodAnswers * $scope.max_stars / $scope.questions.length, 10);
 		//Affichage STARS SCORE
-		var ratio = $scope.gameplay.goodAnswers / $scope.questions.length;
+		/*var ratio = $scope.gameplay.goodAnswers / $scope.questions.length;
 		var numstars = 0;
+		$scope.num_questions
 		if (ratio >= 0.3 && ratio < 0.5) {
 			numstars = 1;
 		} else if (ratio >= 0.5 && ratio < 0.7) {
@@ -181,7 +205,8 @@ angular.module('starter.controllers')
 		} else if (ratio >= 0.8) {
 			numstars = 4;
 		}
-		$scope.numstars = numstars;
+		$scope.numstars = numstars; */
+		
 	}
 
 	var resetReponsesState = function () {
@@ -192,4 +217,46 @@ angular.module('starter.controllers')
 		});
 	}
 
+	// Choix du type
+	$scope.showAnswer = function (item) {
+	
+		var currentlanguage = ParamService.getValueInLocalStorageWithDefault("currentlanguage", "defaultlanguage");
+	
+		// On affiche le libelle, son complément, et l'explication.
+		if (typeof item.resume !== 'undefined') {
+			if (currentlanguage=="en") {
+				var mytitle = item.descr_en+' '+item.resume_en+'';
+			} else {
+				var mytitle = item.descr+' '+item.resume+'';
+			}
+		}
+		else {
+			if (currentlanguage=="en") {
+				var mytitle = item.descr_en;
+			} else {
+				var mytitle = item.descr;
+			}
+		}
+		if (currentlanguage=="en") {
+			var advice_temp = item.advice_en;
+		} else {
+			var advice_temp = item.advice;
+		}
+		var text = '<center><img ng-src="resources/images/thegoodsorting/'+item.image+'" height="100px"/></center><div>'+advice_temp+'</div>';
+		$ionicPopup.show({
+			template: text,
+			cssClass: 'popup-fiches',
+			title: mytitle,
+			scope: $scope,
+			buttons: [{
+					text: 'OK',
+					type: 'button-positive',
+					onTap: function (e) {
+						return true;
+					}
+				}
+			]
+		});
+
+	};
 });

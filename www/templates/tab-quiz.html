@@ -14,8 +14,7 @@
 			<br/>
 			
 			<div class='qselections'>
-			<!--<input ng-repeat="reponse in question.reponses" ng-model="" type="checkbox" text="{{reponse.descr}}" /> -->
-			
+		
 				<span ng-repeat="reponse in question.reponses">
 					<input type='checkbox' value='{{reponse.points}}' ng-model="reponses[$parent.$index][$index]"> {{reponse.descr}}
 					<br/>

@@ -14,6 +14,13 @@ angular.module('starter.controllers').controller('HomeCtrl',
 	
 	// RM-PA_SAUVE_01 : Le paramétrage de l'application est conservé si on quitte l'application et que l'on relance.
 	$rootScope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
+	
+	if ($rootScope.collectmodsfilter != "" &&
+		$rootScope.collectmodsfilter != "modco_bacbleunantes,modco_bacjaunenantes" &&
+		$rootScope.collectmodsfilter != "modco_bacbleuhorsnantes,modco_bacjaunehorsnantes" &&
+		$rootScope.collectmodsfilter != "modco_sacjaune,modco_sacbleu") {
+		$rootScope.collectmodsfilter_change = "collectmodsfilter_change";
+	}
 
 	$scope.openMenu = function () {
 		// $ionicSideMenuDelegate.toggleLeft();
@@ -28,7 +35,7 @@ angular.module('starter.controllers').controller('HomeCtrl',
 
 	// News from web
 	$scope.news = RechercheService.getNews();
-	$http.get('http://www.mieuxtrieranantes.fr/scripts_php/news_json.php').
+	$http.get('https://www.mieuxtrieranantes.fr/scripts_php/news_json.php').
 	then(function (response) {
 		$scope.news2 = response.data;
 	});

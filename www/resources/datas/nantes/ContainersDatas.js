@@ -1,15 +1,4 @@
 var _containersDatas = [{
-		"code": "stco_conteneur_ID_COLONNE",
-		"adresseTemp": "VOIE CODE_POSTAL COMMUNE",
-		"latitude": "47.20",
-		"longitude": "location",
-		"src": "OpenDataNantes 04/2017",
-		"type": "Conteneur  : </i>",
-		"carteMarqueur": "2",
-		"carteIcon": "resources/icons/marker-icon-blue.png",
-		"cartePopuptext": "Conteneur  : </i><br/><i><font color=green>Source : OpenDataNantes 04/2017</font></i>",
-		"cartePopuptext_en": "Conteneur  : </i><br/><i><font color=green>Source : OpenDataNantes 04/2017</font></i>"
-	}, {
 		"code": "stco_conteneur_VE0297",
 		"adresseTemp": "Place Puvis De Chavannes 44100 Nantes",
 		"latitude": "47.2243145173923",

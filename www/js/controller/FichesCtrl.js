@@ -117,5 +117,11 @@ angular.module('starter.controllers')
 		window.open(url, '_system', 'location=yes');
 		return false;
 	}
-
+    
+	if ($scope.fiche.photos) {
+		$scope.lstPhotos = $scope.fiche.photos.split(",");
+	} else {
+		$scope.lstPhotos = [];
+}
+            
 });

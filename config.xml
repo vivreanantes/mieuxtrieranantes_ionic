@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="32" id="com.MieuxVivreANantes.MieuxTrierANantes" ios-CFBundleVersion="4" version="2.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="34" id="com.MieuxVivreANantes.MieuxTrierANantes" ios-CFBundleVersion="5" version="2.12" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Mieux trier à Nantes</name>
     <description>
         Application libre (et gratuite) pour aider les habitants
 		de Nantes Métropole à trier.
     </description>
-    <author email="supprimeravantlepoint.mieuxtrieranantes@gmail.com" href="http://mieuxtrieranantes.fr">
-		Bénévoles
+    <author email="supprimeravantlepoint.mieuxtrieranantes@gmail.com" href="http://mieuxtrieranantes.fr">
+
+		Bénévoles
+
 	</author>
     <content src="index.html" />
     <icon src="resources\android\icon\drawable-xhdpi-icon.png" />

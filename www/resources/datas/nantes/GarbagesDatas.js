@@ -29,7 +29,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "spray,aerosol,spray,deodorant,hairspray,",
 		"cons": "cons_sansbouchon,cons_bouchonamour,cons_ferraille,cons_acier",
 		"image": "aerosol_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015",
 		"sponsor": "dam_sense"
@@ -46,7 +46,7 @@ var _garbagesDatas = [{
 		"mots_cles": "acide,agenda,",
 		"mots_cles_en": "acid,agenda,",
 		"image": "agenda_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -79,7 +79,7 @@ var _garbagesDatas = [{
 		"mots_cles": "ampoule,classique,ampoule,incandescence,ampoule,filament,",
 		"mots_cles_en": "conventional,bulb,incandescent,bulb,filament,bulb,",
 		"image": "ampoule_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -95,7 +95,7 @@ var _garbagesDatas = [{
 		"mots_cles": "annuaire,",
 		"mots_cles_en": "directory,",
 		"image": "annuaire_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -146,7 +146,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "electronic,equipment,tools,powered,by,electricite,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "images_non_libres_temp/outillage_electrique_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015",
 		"sponsor": "Vns"
@@ -164,7 +164,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "heating,devices,heating,equipment,heating,cooking,appliance,oven,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "chauffage_soufflant_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -197,7 +197,7 @@ var _garbagesDatas = [{
 		"mots_cles": "baril,lessive,paquet,lessives,baril,carton,",
 		"mots_cles_en": "barrel,of,laundry,detergents,packets,cardboard,barrels,",
 		"image": "baril_lessive_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -208,13 +208,13 @@ var _garbagesDatas = [{
 		"nom_en": "Aluminum tray",
 		"cat_usuel": "cu_metal",
 		"cat_trait": "cat_allu",
-		"descr": "barquette aluminium, barquette pizza, barquette quiche",
+		"descr": "barquette aluminium, barquette quiche",
 		"descr_en": "aluminum tray, tray pizza, quiche tray",
-		"mots_cles": "barquette,aluminium,barquette,pizza,barquette,quiche,",
+		"mots_cles": "barquette,aluminium,barquette,quiche,",
 		"mots_cles_en": "aluminum,tray,tray,pizza,quiche,tray,",
 		"cons": "cons_allu",
 		"image": "barquette_aluminium_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -231,7 +231,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "polystyrene,plastic,tray,tray,",
 		"cons": "cons_pasuniquementbouteilleflacon",
 		"image": "barquette_polystyrene_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -264,7 +264,7 @@ var _garbagesDatas = [{
 		"mots_cles": "bidon,huile,moteur,vide,",
 		"mots_cles_en": "empty,can,of,engine,oil,",
 		"image": "huile_moteur.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -281,7 +281,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "empty,metal,container,",
 		"cons": "cons_ferraille,cons_acier",
 		"image": "bidon_metal_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -315,7 +315,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "plastic,egg,carton,",
 		"cons": "cons_pasuniquementbouteilleflacon",
 		"image": "boite_a_oeufs_plastique_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -331,7 +331,7 @@ var _garbagesDatas = [{
 		"mots_cles": "boite,camembert,bois,",
 		"mots_cles_en": "box,wooden,camembert,",
 		"image": "boite_camembert_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -348,7 +348,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "tin,canned,",
 		"cons": "cons_ferraille,cons_acier",
 		"image": "conserve_ratatouille_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -365,7 +365,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "metal,box,",
 		"cons": "cons_ferraille,cons_acier",
 		"image": "boite_metal_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -381,7 +381,7 @@ var _garbagesDatas = [{
 		"mots_cles": "boite,œuf,carton,",
 		"mots_cles_en": "egg,carton,",
 		"image": "boite_a_oeufs_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -398,7 +398,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "shaving,foam,bomb,",
 		"cons": "cons_sansbouchon,cons_ferraille,cons_acier",
 		"image": "mousse_a_raser_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -432,7 +432,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "cork,",
 		"cons": "cons_bouchonliege,",
 		"image": "bouchon_liege_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -449,7 +449,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "plastic,cap,",
 		"cons": "cons_bouchonamour,",
 		"image": "bouchon_plastique_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -465,7 +465,7 @@ var _garbagesDatas = [{
 		"mots_cles": "bougie,",
 		"mots_cles_en": "candle,",
 		"image": "images_non_libres_temp/bougie_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "07/2015"
 	}, {
@@ -482,7 +482,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "oil,bottle,water,bottle,",
 		"cons": "cons_bouchon,cons_bouchonamour,",
 		"image": "grande_bouteille_huile_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -533,7 +533,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "bottle,of,milk,",
 		"cons": "cons_bouchon,cons_bouchonamour,cons_capsulelait,cons_bouteillepaspet,",
 		"image": "bouteille_lait_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -551,7 +551,7 @@ var _garbagesDatas = [{
 		"cons": "cons_bouchon,cons_bouchonamour,",
 		"image": "bouteille_transparente_mini.png",
 		"image_secondaire": "ketchup_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -568,7 +568,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "household,product,bottles,not,empty,",
 		"cons": "cons_bouchon,cons_bouchonamour,cons_pasuniquementbouteilleflacon",
 		"image": "images_non_libres_temp/bouteille_produit_menager_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -585,7 +585,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "bottle,empty,household,product,",
 		"cons": "cons_bouchon,cons_bouchonamour,",
 		"image": "images_non_libres_temp/bouteille_produit_menager_vide_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -602,7 +602,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "syrup,bottles,metal,",
 		"cons": "cons_bouchon,cons_bouchonamour,cons_ferraille,cons_acier",
 		"image": "bouteille_sirop_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -654,7 +654,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "food,brick,milk,carton,tetra,pack,",
 		"cons": "bouchon_brique,cons_tetrapak,cons_bouchon,cons_bouchonamour,",
 		"image": "brique_alimentaire_mini.png",
-		"modco": "modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -670,7 +670,7 @@ var _garbagesDatas = [{
 		"mots_cles": "cagette,bois,cageot,",
 		"mots_cles_en": "crate,wood,crate,",
 		"image": "cagette_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -688,7 +688,7 @@ var _garbagesDatas = [{
 		"cons": "cons_spirale,",
 		"image": "bloc_note_mini.png",
 		"image_secondaire": "cahier_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -704,7 +704,7 @@ var _garbagesDatas = [{
 		"mots_cles": "calendrier,",
 		"mots_cles_en": "calendar,",
 		"image": "calendrier_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -721,7 +721,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "can,of,soda,",
 		"cons": "cons_ferraille,cons_acier",
 		"image": "cannette_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -738,7 +738,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "coffee,capsule,metal,or,plastic,capsule,coffee,pod,nespresso",
 		"cons": "cons_nespresso,cons_trop_petit,",
 		"image": "dosette_cafe_plastique_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -754,7 +754,7 @@ var _garbagesDatas = [{
 		"mots_cles": "carte,postale,",
 		"mots_cles_en": "post,card,",
 		"image": "carte_postale_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -770,7 +770,7 @@ var _garbagesDatas = [{
 		"mots_cles": "carton,petit,ou,grands,",
 		"mots_cles_en": "cardboard,small,or,large,",
 		"image": "carton_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -797,13 +797,13 @@ var _garbagesDatas = [{
 		"nom_en": "CD / DVD / K7",
 		"cat_usuel": "cu_divers",
 		"cat_trait": "cat_omr",
-		"descr": "CD/DVD/K7, cassette audio, cassette vidéo",
+		"descr": "CD/DVD/K7, cassette audio, cassette vidéo, appareil photo, caméra",
 		"descr_en": "CD / DVD / K7, audio cassettes, video cassettes",
-		"mots_cles": "cd/dvd/k7,cassette,audio,cassette,video,",
+		"mots_cles": "cd/dvd/k7,cassette,audio,cassette,video,appareil,photo,camera,",
 		"mots_cles_en": "cd,/,dvd,/,k7,audio,cassettes,video,cassettes,",
 		"image": "cd_sansemballage_mini.png",
 		"image_secondaire": "pochette_cd_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -836,7 +836,7 @@ var _garbagesDatas = [{
 		"mots_cles": "chaussure,usagees,bote,usagee,chaussure,mauvais,etat,",
 		"mots_cles_en": "used,shoes,used,bote,worn,footwear,",
 		"image": "images_non_libres_temp/chaussures_usagees_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -852,7 +852,7 @@ var _garbagesDatas = [{
 		"mots_cles": "cigarette,megot,cigare,",
 		"mots_cles_en": "cigarette,cigarette,cigar,",
 		"image": "megot_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -868,7 +868,7 @@ var _garbagesDatas = [{
 		"mots_cles": "classeur,",
 		"mots_cles_en": "binder,",
 		"image": "classeur_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -902,7 +902,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "freezers,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "congelateur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -918,7 +918,7 @@ var _garbagesDatas = [{
 		"mots_cles": "coton,tige,",
 		"mots_cles_en": "q,tip,",
 		"image": "cotons_tiges_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015",
 		"sponsor": "Cre"
@@ -936,7 +936,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "baby,s,diaper,",
 		"cons": "cons_dec_coucheBebe,",
 		"image": "couche_bebe_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -953,7 +953,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "glass,jar,cover,metal,cover,beer,capsule,cap,",
 		"cons": "cons_trop_petit,",
 		"image": "couvercle_bocal_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -970,7 +970,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "cutlery,knife,spoon,fork,",
 		"image": "fourchette_mini.png",
 		"image_secondaire": "couteau_mini.png, cuillere_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -986,7 +986,7 @@ var _garbagesDatas = [{
 		"mots_cles": "creme,tube,",
 		"mots_cles_en": "cream,tube,",
 		"image": "creme_main_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1004,7 +1004,7 @@ var _garbagesDatas = [{
 		"cons": "cons_bouchonamour,",
 		"image": "dentifrice_mini.png",
 		"image_secondaire": "creme_main_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1037,7 +1037,7 @@ var _garbagesDatas = [{
 		"mots_cles": "deodorant,stick,deodorant,bille,",
 		"mots_cles_en": "deodorant,stick,deodorant,ball,",
 		"image": "stick_deodorant.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 01/2015"
 	}, {
@@ -1057,6 +1057,22 @@ var _garbagesDatas = [{
 		"modco": "modco_decheterie,modco_ecopoint",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
+	}, {
+		"code": "dec_diamant",
+		"type": "Ressource / objet usagé",
+		"type_en": "Resource / Used object",
+		"nom": "Diamant",
+		"nom_en": "Diamond ",
+		"cat_usuel": "cu_divers",
+		"cat_trait": "cat_humour",
+		"descr": "diamant,pierre précieuse",
+		"descr_en": "diamond,precious stone",
+		"mots_cles": "diamant,pierre,precieuse,",
+		"mots_cles_en": "diamond,precious,stone,",
+		"image": "images_externes_libres/diamant.png",
+		"modco": "modco_humour",
+		"recyc": "PAS_POUBELLE",
+		"src": "MieuxTrierANantes 10/2017"
 	}, {
 		"code": "dec_eauJavel",
 		"type": "Ressource / objet usagé",
@@ -1082,13 +1098,13 @@ var _garbagesDatas = [{
 		"nom_en": "Boxboard packaging",
 		"cat_usuel": "cu_papierscartons",
 		"cat_trait": "cat_papiercarton",
-		"descr": "emballage en carton plat, Suremballage carton, cartonnette, boîte de céréales, boîte à pizza",
+		"descr": "emballage en carton plat, Suremballage carton, cartonnette, céréale, pizza",
 		"descr_en": "boxboard packaging, Overwrapping cardboard, cardboard, cereal box, pizza box",
-		"mots_cles": "emballage,carton,plat,suremballage,carton,cartonnette,boite,cereales,boite,pizza,",
+		"mots_cles": "emballage,carton,plat,suremballage,carton,cartonnette,cereale,pizza,",
 		"mots_cles_en": "boxboard,packaging,overwrapping,cardboard,cardboard,cereal,box,pizza,box,",
 		"cons": "cons_souille,",
 		"image": "cartonette_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1122,7 +1138,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "envelope,",
 		"cons": "cons_fenetre_enveloppe,",
 		"image": "enveloppes_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1139,7 +1155,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "peeling,food,scraps,food,apricot,almond,pineapple,avocado,banana,currant,cherry,chestnut,lemon,clementine,tangerine,quince,date,fig,strawberry,raspberry,passion,guava,pomegranate,gooseberry,kiwi,lychee,mango,melon,plum,blackberry,blueberry,hazelnut,walnut,orange,papaya,watermelon,peach,nectarine,pear,apple,plum,grapes,rhubarb,garlic,artichoke,asparagus,eggplant,beets,chard,broccoli,carrot,celery,mushroom,mushroom,paris,chicory,cabbage,cucumber,zucchini,watercress,shallots,endive,spinach,fennel,beans,lettuce,lentils,lamb,morel,turnip,onion,sorrel,potato,parsley,leeks,peas,peppers,pumpkin,radish,tomato",
 		"cons": "cons_compostage",
 		"image": "epeluchure_mini.png",
-		"modco": "modco_bacbleu,modco_sacbleu,modco_decheterie,modco_compostage",
+		"modco": "modco_bacbleunantes,modco_sacbleu,modco_decheterie,modco_compostage",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015",
 		"sponsor": "Gwendal Meillarec"
@@ -1157,7 +1173,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "audio,and,video,equipment,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "chaine_hifi_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "www"
 	}, {
@@ -1190,7 +1206,7 @@ var _garbagesDatas = [{
 		"mots_cles": "essuie,tout,rouleau,carton,rouleau,carton,papier,toilette,",
 		"mots_cles_en": "towels,roll,cardboard,cardboard,toilet,paper,roll,",
 		"image": "rouleau_carton_essui_tout_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1207,7 +1223,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "towels,except,cardboard,roll,paper,towels,paper,towels,toilet,paper,",
 		"cons": "cons_souille,",
 		"image": "essui_tout_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1224,7 +1240,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "plastic,film,",
 		"cons": "cons_pasuniquementbouteilleflacon",
 		"image": "film_plastique_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1276,7 +1292,7 @@ var _garbagesDatas = [{
 		"cons": "cons_bouchon,cons_bouchonamour,",
 		"image": "bouteille_white_spirit_mini.png",
 		"image_secondaire": "bouteille_pec_citron_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1294,7 +1310,7 @@ var _garbagesDatas = [{
 		"cons": "cons_bouchon,cons_bouchonamour,",
 		"image": "flacon_savon_mini.png",
 		"image_secondaire": "bouteille_savon_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_decheterie,modco_ecopoint,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1327,7 +1343,7 @@ var _garbagesDatas = [{
 		"mots_cles": "fourniture,hor,papier,fourniture,bureau,crayon,stylo,feutre,gomme,agrafeuse,regle,compas,pochette,plastique,classeur,trombone,taille,crayon,ciseaux,",
 		"mots_cles_en": "supplies,except,paper,office,supplies,pencil,pen,marker,eraser,stapler,ruler,compass,plastic,bag,binder,paper,clip,pencil,sharpener,scissors,",
 		"image": "crayon_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1428,7 +1444,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "edible,oil,cooking,oil,",
 		"cons": "cons_huileAlimentaire,",
 		"image": "images_non_libres_temp/huile_vegetale_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "09/2015"
 	}, {
@@ -1513,7 +1529,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "non,electronic,toy,game,toy,doll,toy,car,",
 		"image": "petite_voiture_mini.png",
 		"image_secondaire": "jouet_enfant_mini.png",
-		"modco": "smco_reempjouet,modco_bacbleu,modco_sacbleu",
+		"modco": "smco_reempjouet,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1529,7 +1545,7 @@ var _garbagesDatas = [{
 		"mots_cles": "journal,revue,",
 		"mots_cles_en": "newspaper,magazine,",
 		"image": "journal_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1583,7 +1599,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "lamp,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "lampe_chevet_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1599,7 +1615,7 @@ var _garbagesDatas = [{
 		"mots_cles": "lingette,",
 		"mots_cles_en": "wipe,",
 		"image": "lingette_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1632,7 +1648,7 @@ var _garbagesDatas = [{
 		"mots_cles": "litiere,animaux,",
 		"mots_cles_en": "animal,litter,",
 		"image": "images_non_libres_temp/litiere_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1648,7 +1664,7 @@ var _garbagesDatas = [{
 		"mots_cles": "livre,bd,bande,dessinee,",
 		"mots_cles_en": "book,comics,comic,",
 		"image": "livre_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1664,7 +1680,7 @@ var _garbagesDatas = [{
 		"mots_cles": "lunette,",
 		"mots_cles_en": "glasses,",
 		"image": "lunette_mini.png",
-		"modco": "modco_bacbleu,modco_sacbleu,smco_vendeurlunette",
+		"modco": "modco_bacbleunantes,modco_sacbleu,smco_vendeurlunette",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1680,7 +1696,7 @@ var _garbagesDatas = [{
 		"mots_cles": "magazine,revue,",
 		"mots_cles_en": "magazine,journal,",
 		"image": "magazines_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1707,14 +1723,14 @@ var _garbagesDatas = [{
 		"nom": "Matelas",
 		"nom_en": "Mattress",
 		"cat_usuel": "cu_vetementtissu",
-		"cat_trait": "cat_encombrant",
+		"cat_trait": "cat_meuble",
 		"descr": "matelas",
 		"descr_en": "mattress",
 		"mots_cles": "matelas,",
 		"mots_cles_en": "mattress,",
-		"cons": "cons_numerosencombrants,cons_encombrants",
+		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "matelas_mini.png",
-		"modco": "modco_encombrant,modco_decheterie",
+		"modco": "modco_encombrant,modco_decheterie,smco_reprise",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1741,14 +1757,14 @@ var _garbagesDatas = [{
 		"nom": "Meuble",
 		"nom_en": "Furniture",
 		"cat_usuel": "cu_divers",
-		"cat_trait": "cat_encombrant",
-		"descr": "meuble",
+		"cat_trait": "cat_meuble",
+		"descr": "meuble,canapé,fauteuil,armoire",
 		"descr_en": "furniture",
-		"mots_cles": "meuble,",
+		"mots_cles": "meuble,canape,fauteuil,armoire,",
 		"mots_cles_en": "furniture,",
-		"cons": "cons_numerosencombrants,cons_encombrants",
+		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "canape_mini.png",
-		"modco": "modco_encombrant,modco_decheterie",
+		"modco": "modco_encombrant,modco_decheterie,smco_reprise",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1765,7 +1781,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "mirror,",
 		"cons": "cons_verre",
 		"image": "miroir_mini.png",
-		"modco": "modco_bacbleu,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
+		"modco": "modco_bacbleunantes,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1781,7 +1797,7 @@ var _garbagesDatas = [{
 		"mots_cles": "moquette,",
 		"mots_cles_en": "carpet,",
 		"image": "moquette_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1815,7 +1831,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "tissue,",
 		"cons": "cons_souille,",
 		"image": "mouchoirs_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1899,7 +1915,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "terracotta,object,",
 		"cons": "cons_verre",
 		"image": "terre_cuite_mini.png",
-		"modco": "modco_bacbleu,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
+		"modco": "modco_bacbleunantes,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1916,7 +1932,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "laptop,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "ordi_portable_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1933,7 +1949,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "diy,or,gardening,tools,hammer,screwdrivers,shears,saw,rake,ax,",
 		"image": "tournevis_mini.png",
 		"image_secondaire": "marteau_2_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1949,7 +1965,7 @@ var _garbagesDatas = [{
 		"mots_cles": "papier,prospectus,publicite,feuille,imprimee,ou,non,",
 		"mots_cles_en": "paper,prospectuses,advertising,film,printed,or,not,",
 		"image": "feuilles_petit_2.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1966,7 +1982,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "aluminum,foil,",
 		"cons": "cons_papieralu,",
 		"image": "papier_alu_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1982,7 +1998,7 @@ var _garbagesDatas = [{
 		"mots_cles": "papier,cadeau,",
 		"mots_cles_en": "gift,wrap,",
 		"image": "papier_cadeau_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -1998,7 +2014,7 @@ var _garbagesDatas = [{
 		"mots_cles": "papier,peint,crepon,",
 		"mots_cles_en": "wallpaper,crepe,",
 		"image": "papier_peint_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2155,7 +2171,7 @@ var _garbagesDatas = [{
 		"image": "pneu_mini.png",
 		"modco": "modco_encombrant,modco_decheterie",
 		"recyc": "PAS_POUBELLE",
-		"src": "MieuxTrierANantes 02/2015"
+		"src": "MieuxTrierANantes 02/2017"
 	}, {
 		"code": "dec_polystyrene",
 		"type": "Ressource / objet usagé",
@@ -2170,7 +2186,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "polystyrene,polystyrene,tray,",
 		"cons": "cons_pasuniquementbouteilleflacon",
 		"image": "polystyrene_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2188,7 +2204,7 @@ var _garbagesDatas = [{
 		"cons": "cons_verre",
 		"image": "vase_mini.png",
 		"image_secondaire": "theiere_mini.png",
-		"modco": "modco_bacbleu,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
+		"modco": "modco_bacbleunantes,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2205,7 +2221,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "cream,pot,",
 		"cons": "cons_bouchonamour,cons_pasuniquementbouteilleflacon",
 		"image": "pot_creme_fraiche_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2222,7 +2238,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "pottery,",
 		"cons": "cons_verre",
 		"image": "pot_en_terre_mini.png",
-		"modco": "modco_bacbleu,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
+		"modco": "modco_bacbleunantes,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2257,7 +2273,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "yoghurt,pot,",
 		"cons": "cons_pasuniquementbouteilleflacon",
 		"image": "yaourt_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015",
 		"sponsor": "remigs"
@@ -2291,7 +2307,7 @@ var _garbagesDatas = [{
 		"mots_cles": "produit,beaute,cosmetique,rouge,levres,maquillage,vernis,",
 		"mots_cles_en": "beauty,products,cosmetics,lipstick,makeup,polish,",
 		"image": "rouge_a_levre_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2359,7 +2375,7 @@ var _garbagesDatas = [{
 		"mots_cles": "rasoir,jetable,",
 		"mots_cles_en": "disposable,razor,",
 		"image": "rasoir_jetable_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2410,7 +2426,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "refrigerator,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "refrigerateur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2461,7 +2477,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "paper,bag,",
 		"cons": "cons_souille,",
 		"image": "sac_papier_mini.png",
-		"modco": "modco_contpapiercarton,modco_bacjaune,modco_sacjaune,modco_contembjournmag",
+		"modco": "modco_contpapiercarton,modco_bacjaunehorsnantes,modco_sacjaune,modco_contembjournmag",
 		"recyc": "OUI",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2478,7 +2494,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "plastic,bag,",
 		"cons": "cons_pasuniquementbouteilleflacon",
 		"image": "sac_plastique_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2529,7 +2545,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "pen,pencil,",
 		"cons": "cons_pasuniquementbouteilleflacon",
 		"image": "crayon_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2563,7 +2579,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "telephony,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "telephone_fixe_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2580,7 +2596,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "tv,",
 		"cons": "cons_recuppdv1,cons_ecoparticipation",
 		"image": "televiseur_mini.png",
-		"modco": "modco_decheterie,modco_ecopoint,smco_reprise",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2663,7 +2679,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "garden,hose,",
 		"cons": "cons_pasuniquementbouteilleflacon",
 		"image": "tuyau_arrosage_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2679,7 +2695,7 @@ var _garbagesDatas = [{
 		"mots_cles": "ustensile,cuisine,casserole,marmite,cocotte,poele,wok,spatule,",
 		"mots_cles_en": "kitchen,utensil,pot,pot,casserole,frying,pan,wok,spatula,",
 		"image": "spatule_cuisine_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2695,7 +2711,7 @@ var _garbagesDatas = [{
 		"mots_cles": "vaisselle,carton,assiette,carton,gobelet,carton,",
 		"mots_cles_en": "cardboard,tableware,cardboard,plate,paper,cup,",
 		"image": "assiette_carton_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2712,7 +2728,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "plastic,tableware,plastic,cup,plastic,cover,plastic,knife,plastic,fork,plastic,spoon,",
 		"cons": "cons_remplacergobelet,cons_vaissellebiodegradable,cons_pasuniquementbouteilleflacon",
 		"image": "gobelet_plastique_mini.png",
-		"modco": "modco_bacjaunnantes,modco_bacblehorsnantes,modco_sacbleu",
+		"modco": "modco_bacjaunenantes,modco_bacbleuhorsnantes,modco_sacbleu",
 		"recyc": "OUI_ET_NON",
 		"src": "MieuxTrierANantes 14/2014"
 	}, {
@@ -2730,7 +2746,7 @@ var _garbagesDatas = [{
 		"cons": "cons_verre",
 		"image": "assiette_mini.png",
 		"image_secondaire": "bol_mini.png, tasse_mini.png, plat_en_faience_mini.png",
-		"modco": "modco_bacbleu,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
+		"modco": "modco_bacbleunantes,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2782,7 +2798,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "clothing,pants,shirt,sweater,jacket,skirt,dress,",
 		"cons": "cons_lerelais,",
 		"image": "jean_usage_mini.png",
-		"modco": "modco_bacblehorsnantes,modco_bacbleu,modco_sacbleu",
+		"modco": "modco_bacbleuhorsnantes,modco_bacbleunantes,modco_sacbleu",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
@@ -2799,7 +2815,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "drinking,glass,",
 		"cons": "cons_verre",
 		"image": "verre_a_boire_petit.png",
-		"modco": "modco_bacbleu,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
+		"modco": "modco_bacbleunantes,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 12/2013"
 	}, {
@@ -2816,7 +2832,7 @@ var _garbagesDatas = [{
 		"mots_cles_en": "window,",
 		"cons": "cons_verre",
 		"image": "images_non_libres_temp/vitre_mini.png",
-		"modco": "modco_bacbleu,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
+		"modco": "modco_bacbleunantes,modco_sacbleu,modco_decheterie,modco_ecopoint,smco_vaisselle",
 		"recyc": "NON",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
