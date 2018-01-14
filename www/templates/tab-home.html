@@ -7,11 +7,8 @@
   <ion-content class="padding home has-footer"">
 
   <!-- RM-PA_BOUTON_02 : Un bandeau clignotant est visible si le paramétrage n'a pas été réalisé. -->
-  <div class="card" ng-show="collectmodsfilter==null">
+  <div class="card" ng-show="collectmodsfilter==null || collectmodsfilter_change">
   	<a class="button button-icon button-stable ion-alert-circled custom-btn-color" ng-href="#/tab/config"> {{'alert_collectmodsfilter'|translate}}</a>
-  </div>
-  <div class="card" ng-show="collectmodsfilter_change">
-  	<a class="button button-icon button-stable ion-alert-circled custom-btn-color" ng-href="#/tab/config"> Le paramétrage a été modifié (avec la version 2.11). Veuillez aller dans 'Paramètres' pour reconfigurer.</a>
   </div>
   
   <div class="card">
