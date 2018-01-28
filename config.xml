@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- RM-PA-VERSAPPLI_01 : On modifie la version de l'application en modifiant certains fichiers de configuration. -->
-<widget id="com.MieuxVivreANantes.MieuxTrierANantes" version="2.12" android-versionCode="34" ios-CFBundleVersion="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.MieuxVivreANantes.MieuxTrierANantes" version="2.13" android-versionCode="34" ios-CFBundleVersion="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Mieux trier à Nantes</name>
   <description>&#xD;&#xD;&#xD;&#xD;
         Application libre (et gratuite) pour aider les habitants&#xD;&#xD;
