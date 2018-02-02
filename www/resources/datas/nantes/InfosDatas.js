@@ -656,7 +656,7 @@ var _infosDatas = [{
 		"categorie": "initiative_locale",
 		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Mego/Mego01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Mego/Mego02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Mego/Mego03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/Mego/Mego04.jpg",
 		"source": "Mieux trier à Nantes",
-		"urls": "http://www.me-go.fr,https://facebook.com/megotsrecyclage.fr,https://m.youtube.com/watch?v=XOrFtsrgbx8"
+		"urls": "http://www.me-go.fr,https://facebook.com/megotsrecyclage.fr,https://www.facebook.com/M%C3%A9GO-Nantes-323774988079340/,https://m.youtube.com/watch?v=XOrFtsrgbx8"
 	}, {
 		"code": "zero_dechet",
 		"nom": "Conseil zéro déchet",

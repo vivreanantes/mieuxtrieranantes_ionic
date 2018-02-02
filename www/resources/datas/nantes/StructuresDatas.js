@@ -2785,26 +2785,33 @@ var _structuresDatas = [{
 		"image": "paperbag.png"
 	}, {
 		"code": "stco_ventevrac17",
+		"latitude": "47.236340",
+		"longitude": "-1.366882",
 		"modesCollecte": "ventevracstruct",
 		"type": " Vente au vrac",
 		"type_en": " Bulk sale",
-		"statut": "Association",
-		"descr": "Petites Ailes confectionne depuis 2008 tout ce qui se lave, se réutilise, couches lavables, lingettes, oreillers naturels et des quantiés d&#39;autres articles, toujours lavables et d&#39;une très très longue durée de vie. <br/><br/>Produits disponibles : couches,lavables,puériculture",
-		"descr_en": "Small Wings manufactures since 2008 all that lava is reused, cloth diapers, wipes, natural pillows and other items quantiés always washable and a very long service life<br/><br/>Products available : diapers,washable,childcare",
+		"statut": "Entreprise",
+		"descr": "Plusieurs mamans ont fondé une association en 2008 qui s'est transformé en entreprise.<br/><br/>Les petites ailes fabrique de nombreux produits allant vers un mode de vie zéro déchet (en général à partir de coton bio ou certifiés öko-tex).<br/><br/On trouve sur le site internet qui vend les produits tout ce qui se lave, se réutilise, couches lavables, lingettes, oreillers naturels et des quantiés d&#39;autres articles, toujours lavables et d&#39;une très très longue durée de vie.<br/><br/>Produits disponibles : protège-slip,pochette,serviette hygiénique,couche lavable,bavoir,serviette,oreiller,taie oreiller,lingette,disque à demaquiller,coussin relaxant,mouchoir,coussinet allaitement,coussin grossesse,éponge,sac à pain,manique,sachet thé,torchon,serpillière",
+		"descr_en": "Several mothers founded an association in 2008 which has become a business. <br/> <br/> The small wings produces many products leading to a zero waste lifestyle (generally from organic cotton or certified öko -tex). <br/> We find on the website that sells products all that is washes, reused, washable diapers, wipes, natural pillows and other quantities of items, always washable and clean. a very very long life.<br/><br/>Products available : diapers,washable,childcare",
 		"nom": "Les Petites Ailes",
 		"nom_en": "Les Petites Ailes",
-		"adresseTemp": "   ",
+		"adresseTemp": "35 Allée des Merisiers  44430 LE LOROUX-BOTTEREAU",
 		"url": "http://www.petitesailes.fr",
+		"email": "infos@petitesailes.fr",
 		"tel": "07 81 38 00 62",
 		"src": "MieuxTrierANantes 07/15",
-		"mots_cles": "vente,vrac,les,petites,ailes,couches,lavables,puericulture",
-		"produits": "couches,lavables,puériculture",
+		"horaires": "24/24 7/7 (internet)",
+		"sous_zone": "LE LOROUX-BOTTEREAU",
+		"mots_cles": "vente,vrac,les,petites,ailes,protege,slip,pochette,serviette,hygienique,couche,lavable,bavoir,serviette,oreiller,taie,oreiller,lingette,disque,demaquiller,coussin,relaxant,mouchoir,coussinet,allaitement,coussin,grossesse,eponge,sac,pain,manique,sachet,the,torchon,serpilliere",
+		"produits": "protège-slip,pochette,serviette hygiénique,couche lavable,bavoir,serviette,oreiller,taie oreiller,lingette,disque à demaquiller,coussin relaxant,mouchoir,coussinet allaitement,coussin grossesse,éponge,sac à pain,manique,sachet thé,torchon,serpillière",
 		"mots_cles_en": "sale,bulk,les,petites,ailes,diapers,washable,childcare",
 		"produits_en": "diapers,washable,childcare",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/VenteEnVrac/LesPetitesAiles/LesPetitesAiles_01.jpg,www.mieuxtrieranantes.fr/docs/medias/VenteEnVrac/LesPetitesAiles/LesPetitesAiles_02.jpg,www.mieuxtrieranantes.fr/docs/medias/VenteEnVrac/LesPetitesAiles/LesPetitesAiles_03.jpg,www.mieuxtrieranantes.fr/docs/medias/VenteEnVrac/LesPetitesAiles/LesPetitesAiles_04.jpg,www.mieuxtrieranantes.fr/docs/medias/VenteEnVrac/LesPetitesAiles/LesPetitesAiles_05.jpg",
 		"carteMarqueur": "6",
 		"cartePopuptext": "Vente au vrac<br/>Les Petites Ailes",
 		"cartePopuptext_en": "Bulk sale<br/>Les Petites Ailes",
-		"image": "paperbag.png"
+		"logo": "resources/images/nantes/logo_lespetitesailes.jpg",
+		"image": "nantes/logo_lespetitesailes.jpg"
 	}, {
 		"code": "stco_ventevrac18",
 		"latitude": "47.217632",
@@ -2931,7 +2938,8 @@ var _structuresDatas = [{
 		"carteMarqueur": "6",
 		"cartePopuptext": "Vente au vrac<br/>Green Shopper",
 		"cartePopuptext_en": "Bulk sale<br/>Green Shopper",
-		"logo": "resources/images/nantes/logo_green_shopper.png"
+		"logo": "resources/images/nantes/logo_green_shopper.png",
+		"image": "nantes/logo_green_shopper.png"
 	}, {
 		"code": "stco_ventevrac22",
 		"latitude": "47.209990",
@@ -2959,7 +2967,8 @@ var _structuresDatas = [{
 		"carteMarqueur": "6",
 		"cartePopuptext": "Vente au vrac<br/>Le P'tit Poids",
 		"cartePopuptext_en": "Bulk sale<br/>Le P'tit Poids",
-		"logo": "resources/images/nantes/logo_le_petit_poids.png"
+		"logo": "resources/images/nantes/logo_le_petit_poids.png",
+		"image": " paperbag.png"
 	}, {
 		"code": "oasis_environnement_traiteur_paganelli",
 		"latitude": "47.221129",
