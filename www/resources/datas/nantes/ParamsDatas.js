@@ -123,27 +123,35 @@ var paramAllPlaces = 'smco_reemp|modco_decheterie|modco_ecopoint|modco_encombran
 var paramIconsMap = {
 			default_icon: {},
 			reemploi: {
-				iconUrl: "resources/icons/marker-icon-blue.png"
+				iconUrl: "resources/icons/marker-icon-blue.png",
+				iconAnchor: [12, 41], // changed marker icon position icon is 25*41 so 12*41
 			},
 			conteneurs: {
-				iconUrl: "resources/icons/marker-icon-brown.png"
+				iconUrl: "resources/icons/marker-icon-brown.png",
+				iconAnchor: [12, 41], // changed marker icon position icon is 25*41 so 12*41
 			},
 			decheterie: {
-				iconUrl: "resources/icons/marker-icon-green.png"
+				iconUrl: "resources/icons/marker-icon-green.png",
+				iconAnchor: [12, 41],// changed marker icon position icon is 25*41 so 12*41
 			},
 			composteurs: {
-				iconUrl: "resources/icons/marker-icon-yellow.png"
+				iconUrl: "resources/icons/marker-icon-yellow.png",
+				iconAnchor: [12, 41], // changed marker icon position icon is 25*41 so 12*41
 			},
 			conteneurlerelais: {
-				iconUrl: "resources/icons/marker-icon-pink.png"
+				iconUrl: "resources/icons/marker-icon-pink.png",
+				iconAnchor: [12, 41], // changed marker icon position icon is 25*41 so 12*41
 			},
 			ventevrac: {
-				iconUrl: "resources/icons/marker-icon-red.png"
+				iconUrl: "resources/icons/marker-icon-red.png",
+				iconAnchor: [12, 41], // changed marker icon position icon is 25*41 so 12*41
 			},
 			trisac: {
-				iconUrl: "resources/icons/marker-icon-purple.png"
+				iconUrl: "resources/icons/marker-icon-purple.png",
+				iconAnchor: [12, 41], // changed marker icon position icon is 25*41 so 12*41
 			},
 			collectors: {
-				iconUrl: "resources/icons/marker-icon-grey.png"
+				iconUrl: "resources/icons/marker-icon-grey.png",
+				iconAnchor: [12, 41], // changed marker icon position icon is 25*41 so 12*41
 			}
 		};
