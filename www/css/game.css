@@ -26,11 +26,22 @@
         padding : 1em;
         padding-bottom: 0em;
     }
+    
+     .top-pane .choice-bar div {
+        margin:0.2em 0em;
+        display: inline-block;
+     }
+     
+    .top-pane .choice-bar .progress {
+        font-size: 1.2em;
+        float: right;
+     }
 
     .top-pane .choice-bar button {
         margin-right: 1em;
-        padding: 3px 15px 5px 15px;
+        padding: 2px 7px 3px 7px !important;
         font-size: 14px;
+        background: #21690a;
     }
 
     .bottom-pane {
@@ -171,8 +182,13 @@
 
         .reponse img {
  		    max-width: 100%;
-  		    max-height: 80px;
+  		    max-height: 60px;
 	    }
+        
+        .question-image {
+            width: 5em;
+            margin-top: 0.5em;
+        }
 
     }
 

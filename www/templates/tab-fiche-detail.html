@@ -1,32 +1,32 @@
 <ion-view view-title="{{::fiche.nom}}">
   <ion-content class="has-footer">
    
-  <div>    
+ <div class="list card">
       <a class="item item-thumbnail-left" href="#">
       <img ng-src="resources/images/{{ fiche.image }}">
       <h2><b>{{'nom_translated'|translate:fiche}}</b></h2>
       </a>
 
-      <p>
+      <div class="item item-text-wrap">
 				<span ng-bind-html="fiche.descr" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
 				<span ng-bind-html="fiche.descr_en" ng-show="currentlanguage=='en'"></span>
-      </p>
+      </div>
 
-	  <div ng-show="fiche.source">Source : <i>{{::fiche.source}}</i></div>
+	    
+	    <div class="clearfix item item-text-wrap" ng-show="fiche.source">Source : <i>{{::fiche.source}}</i></div>
 
 		<div ng-show="lstUrls.length>0">
 			<div class="item" ng-repeat="url in lstUrls">
 				{{'plus_d_infos'|translate}} : 
 					<a ng-click="openHrefLink('{{::url}}')">{{url}}</a>
 			</div>
-		</div>
+	  </div>
 		
 		<div ng-show="lstPhotos.length>0">
 		  <a class="item" ng-repeat="photo in lstPhotos" href="http://{{photo}}" target=_new>
 			  <img src="http://{{photo}}" style="max-width:80%" />
 		  </a>
 		</div>
-  </div>
       
   </ion-content>
 </ion-view>

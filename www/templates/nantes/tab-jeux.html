@@ -7,11 +7,11 @@
 <div class="top-pane">
 
 	<div class="choice-bar" style="vertical-align: middle;">
-		{{'drap_to_answer'|translate}}
+		<div>{{'drap_to_answer'|translate}}</div>
 		<button class="button button-small button-dark" ng-repeat="type in active_filters" ng-click="changeType(type)" style="padding:2px;border:2px" >
 		{{'descr_translated'|translate:type}}
 		</button>
-		{{gameplay.currentQuestionIndex+1}}/{{questions.length}}
+		<div class="progress">{{gameplay.currentQuestionIndex+1}}/{{questions.length}}</div>
 	</div>
 	<div>
 		<div class="col" style="text-align:center">
