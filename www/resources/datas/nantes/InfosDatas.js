@@ -670,6 +670,22 @@ var _infosDatas = [{
 		"mots_cles_en": "",
 		"categorie": "zero_dechet_nantes",
 		"source": "Auteur charles.duvergey@laposte.net"
+	}, {
+		"code": "appli_too_good_to_go",
+		"nom": "Application Too Good To Go",
+		"nom_en": "Application Too Good To Go",
+		"type": "Application utile sur Nantes",
+		"type_en": "Usefull application in Nantes",
+		"descr": "Les invendus des restaurants, boulangeries et épiceries alimentaires font partis du gaspillage alimentaire.<br/><br/>L'application Too Good To Go (Android et IPhone) permet de ne pas gaspiller ces invendus : les commerçants les signalent et les utilisateurs de l'application peuvent les acheter (prix très réduit).<br/><br/><< A Nantes Métropole, ce sont plus d'une centaine de commerçants partenaires qui ont permis de sauver plus de 25 000 repas de la poubelle grâce à une communauté de 5 000 utilisateurs actifs. Too Good To Go est un outil qui permet à chacun de lutter contre le gaspillage alimentaire à son échelle mais aussi recrée du lien entre habitants et commerçants de quartier en favorisant ce commerce de proximité. ”",
+		"descr_en": "Unsold foods from restaurants, bakeries and food stores are part of food waste. <br/> <br/> The Too Good To Go application (Android and IPhone) makes it possible not to waste these unsold products: the traders report them and the users the app can buy them (very low price). <br/> <br/> << In Nantes Métropole, more than a hundred partner merchants have saved more than 25,000 meals in the trash thanks to a community of 5,000 active users. Too Good To Go is a tool that allows everyone to fight against food waste on their own scale but also recreates the link between residents and neighborhood traders by promoting this local business. ”",
+		"bouton": "fiche",
+		"image": "nantes/logo_too_good_to_go.png",
+		"mots_cles": "gapillage,aliment,alimentaire,nourriture,restaurant,too,good,to,go,application",
+		"mots_cles_en": "food,restaurant,too,good,to,go,application",
+		"categorie": "initiative_locale",
+		"photos": "www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/TooGoodToGo/TooGoodToGo01.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/TooGoodToGo/TooGoodToGo02.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/TooGoodToGo/TooGoodToGo03.jpg,www.mieuxtrieranantes.fr/docs/medias/InitiativesLocales/TooGoodToGo/TooGoodToGo04.jpg",
+		"source": "Envoyé par TooGoodToGo 02/2018",
+		"urls": "https://toogoodtogo.fr/"
 	},
 	{}
 ]
