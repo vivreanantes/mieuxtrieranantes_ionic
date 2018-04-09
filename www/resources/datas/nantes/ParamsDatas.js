@@ -94,8 +94,8 @@ var _paramFilterTypeMapDatas = [{
 	}, {
 		"id": "5",
 		"code": "smco_conteneurlerelais",
-		"nom": "Conteneurs vêtements (53)",
-		"nom_en": "Containers clothes (53)",
+		"nom": "Conteneurs vêtements (94)",
+		"nom_en": "Containers clothes (94)",
 		"image": "resources/icons/marker-icon-pink.png"
 	}, {
 		"id": "6",
