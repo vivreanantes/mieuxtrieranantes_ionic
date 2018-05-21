@@ -60,4 +60,4 @@ $ sudo npm -g install ios-deploy --unsafe-perm=true
 ```
 
 ## License ##
-** #TODO **
+Ce programme est publié sous les termes de la GNU GPL v3, consultez le fichier LICENSE.
