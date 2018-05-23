@@ -2583,6 +2583,23 @@ var _garbagesDatas = [{
 		"recyc": "PAS_POUBELLE",
 		"src": "MieuxTrierANantes 02/2015"
 	}, {
+		"code": "dec_telephone_portable",
+		"type": "Ressource / objet usagé",
+		"type_en": "Resource / Used object",
+		"nom": "Téléphone portable",
+		"nom_en": "Mobile phone",
+		"cat_usuel": "cu_encombrantelectronique",
+		"cat_trait": "cat_d3e",
+		"descr": "téléphone mobile,smartphone",
+		"descr_en": "smartphone",
+		"mots_cles": "telephone,mobile,smartphone,",
+		"mots_cles_en": "smartphone,",
+		"cons": "cons_modular_phone,cons_recuppdv1,cons_ecoparticipation",
+		"image": "telephone_mini.png",
+		"modco": "modco_decheterie,modco_ecopoint,smco_reprise,smco_reprise_1pour0",
+		"recyc": "PAS_POUBELLE",
+		"src": "MieuxTrierANantes 03/2018"
+	}, {
 		"code": "dec_televiseurs",
 		"type": "Ressource / objet usagé",
 		"type_en": "Resource / Used object",
