@@ -1,4 +1,4 @@
-Mieux Trier à Nantes
+Mieux trier à Nantes
 =====================
 
 Logiciel libre pour aider les habitants de Nantes Métropole à trier.
@@ -6,7 +6,7 @@ Logiciel libre pour aider les habitants de Nantes Métropole à trier.
 ----------
 
 ## **Description**
-Application développée par l'association [Mieux Trier à Nantes](https://mieuxtrieranantes.wordpress.com/).
+Application développée par l'association [Mieux trier à Nantes](https://mieuxtrieranantes.wordpress.com/).
 
 ## **Dépendances**
 1. **Node.js**
