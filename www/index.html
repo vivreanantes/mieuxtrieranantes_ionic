@@ -8,6 +8,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com *.ionic.io *.openstreetmap.org http://192.168.1.17 https://www.plastiques.eu http://www.mieuxtrieranantes.fr http://localhost:35729 ws://localhost:35729; style-src 'self' 'unsafe-inline' http://localhost:35729; media-src *; img-src *; script-src 'self' 'unsafe-inline' http://192.168.1.28  'unsafe-eval' http://localhost:35729">
   <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; media-src *; img-src *; script-src * 'unsafe-inline' 'unsafe-eval'"> -->
 
+  <meta property="og:title" content="Pour aider les habitants de Nantes Métropôle à trier" />
+  <meta property="og:site_name" content="Mieux trier à Nantes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.mieuxtrieranantes.fr" />
+  <meta property="og:image" content="bandeau.png" />
+  <meta property="og:description" content="'Mieux trier à Nantes' est une application Android / IPhone et un site www.mieuxtrieranantes.fr pour aider les habitants de Nantes Métropole à trier." />
+  <meta property="og:locale" content="fr_FR" />
+
+  <link rel="icon" type="image/png" href="logo.png" />
+
+
   <!-- BASE -->
   <!-- build:js js/core.js -->
   <script src="lib/ionic/js/ionic.bundle.min.js"></script>
@@ -19,7 +30,7 @@
 
   <!-- build:js js/lib.js -->
   <script src="lib/ng-storage/ngStorage.min.js"></script>
-  <script src="lib/angular-filter/dist/angular-filter.min.js"></script>  
+  <script src="lib/angular-filter/dist/angular-filter.min.js"></script>
   <script src="lib/leaflet/dist/leaflet.js"></script>
   <script src="lib/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   <script src="lib/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
@@ -104,6 +115,6 @@
   <div id="mainContainer">
 		<ion-nav-view animation="slide-left-right"></ion-nav-view>
 	</div>
-  
+
 </body>
 </html>
