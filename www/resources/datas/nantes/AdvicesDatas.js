@@ -371,9 +371,15 @@ var _advicesDatas = [{
 		"descr_en": "According to the instructions of Nantes Métropole (04/2017) the new plastics (those which are brilliant, which are not in PET) can be recycled."
 	}, {
 		"code": "cons_modular_phone",
-		"nom": "70 kilos de matières rares.. pourquoi ne pas essayer le smartphone modulaire...",
-		"nom_en": "70 kilos of rare materials .. why not try the modular smartphone ... ",
+		"nom": "70 kilos de matières rares.. pourquoi ne pas essayer le smartphone modulaire…",
+		"nom_en": "70 kilos of rare materials .. why not try the modular smartphone…",
 		"descr": "Un téléphone portable est remplacé en moyenne tous les 20 mois et correspond à 70 kilos de matières premières rares <b>non récupérables</b>. Les téléphones FairPhone sont plus propres : pas de travail d'enfants dans les mines, moins de matières rares et ils sont repérables par parties. Ce qu'ils font bien et ce qu'ils ne parviennent pas à résoudre est expliqué en toute transparence sur leur site internet www.fairphone.com/fr/ . Il y a de nombreux revendeurs.",
-		"descr_en": "A mobile phone is replaced on average every 20 months and corresponds to 70 kilos of rare raw materials <b> not recoverable </ b> .The FairPhone phones are cleaner: no child labor in the mines, fewer rare materials and they are spotted in parts. What they do well and what they can not solve is explained transparently on their website www.fairphone.com. There are many resellers."
+		"descr_en": "'A mobile phone is replaced on average every 20 months and corresponds to 70 kilos of rare raw materials <b> not recoverable </ b> .The FairPhone phones are cleaner: no child labor in the mines, fewer rare materials and they are spotted in parts. What they do well and what they can not solve is explained transparently on their website www.fairphone.com. There are many resellers."
+	}, {
+		"code": "cons_batterievoiture",
+		"nom": "Rapportez votre vieille batterie à un vendeur",
+		"nom_en": "Return your old battery to a seller ",
+		"descr": "Depuis 2001, les garagistes, revendeurs de pièces automobiles et grandes surfaces (si elles vendent des batteries) ont l'obligation d'organiser le recyclage des batteries, en reprenant votre batterie usagée, sans obligation d'achat de votre part.",
+		"descr_en": "Since 2001, garages, dealers of auto parts and supermarkets (if they sell batteries) have the obligation to organize the recycling of batteries, by taking your used battery, without obligation of purchase on your part."
 	}, {}
 ];
