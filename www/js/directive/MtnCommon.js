@@ -48,9 +48,9 @@ function _utilMettreNomAuSingulier(mots) {
 angular.module('mtn.common',['angular.filter'])
   .filter('searchTextClean', function($filter) {
     return function (texte) {
-     
+
 	 // RM-RE_RECH_INT_03 Pour une recherche, les accents ne sont pas pris en compte.
-	 
+
      		//SUPPRESSION ACCENTS via la LIB angular-filter qui est déja fait pour ça
     		var result = $filter('latinize')(texte);
 
@@ -70,7 +70,7 @@ angular.module('mtn.common',['angular.filter'])
   })
   .filter('searchTextCleanAdresse', function($filter) {
     return function (texte) {
-     
+
      		//SUPPRESSION ACCENTS via la LIB angular-filter qui est déja fait pour ça
     		var result = $filter('latinize')(texte);
 
@@ -85,7 +85,7 @@ angular.module('mtn.common',['angular.filter'])
  	/* DIRECTIVE DEFINITION */
 	/* -------------------- */
   .directive('mtnEtatRecyclable', function($translate) {
-   
+
 
     return {
 
@@ -106,14 +106,14 @@ angular.module('mtn.common',['angular.filter'])
 
         	var labelKey = scope.etat;
         	//TODO : Ajout translate
-        	var labels = { 
+        	var labels = {
 
         		OUI : 'recyclable',
         		NON : 'non_recyclable',
         		PAS_POUBELLE : 'recyclable_pas_poubelle',
-        		OUI_ET_NON : 'recyclable_nantes'
- 
-        	}; 
+        		OUI_ET_NON : 'recyclable_oui_et_non'
+
+        	};
 
         	if (labels.hasOwnProperty(labelKey)) {
 
@@ -138,10 +138,3 @@ angular.module('mtn.common',['angular.filter'])
 
 
 })( window, window.angular );
-
-
-
-
-
-
-

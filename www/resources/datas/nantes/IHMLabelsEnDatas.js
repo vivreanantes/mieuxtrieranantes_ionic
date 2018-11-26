@@ -217,7 +217,7 @@ var _ihmLabelsEnDatas = {
 	"recyclable": "Recyclable",
 	"non_recyclable": "Not Recyclable",
 	"recyclable_pas_poubelle": "Not Recyclable (don't put in trash)",
-	"recyclable_nantes": "Recycable (yellow boxes for Nantes only)",
+	"recyclable_oui_et_non": "Recycable (yellow boxes for Nantes only)",
 	"zerodechetnantes": "No waste Nantes",
 	"zerodechetnantes_intro": "Pour toute question ou remarque, écrire à l'auteur à charles.duvergey@laposte.net",
 	"zerodechetnantes_type1": "Objets remplaçant",

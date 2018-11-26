@@ -1,21 +1,21 @@
 /* DECHETS */
 
 var myCtrl = angular.module('starter.controllers');
-	
+
 	myCtrl.$inject = ['$scope', '$stateParams'];
-	
+
 	myCtrl.controller('DechetCatCtrl', function($scope, $state, RechercheService, ParamService, $rootScope) {
-		
+
 		//GLOBAL DATA SOURCE
 		$scope.categories = _usualCategoriesDatas;
 		$scope.itemPerRow = 3;
 
 		$rootScope.collectmodsfilter = ParamService.getValueInLocalStorage("collectmodsfilter");
-		
+
 		//FORM MODEL : DEFAULTS
         $scope.formParam = {
 			searchkey : ''
-        };	
+        };
         //INIT RESULTS
         // $scope.results = RechercheService.searchDechet('');
         $scope.onChangeType = function() {
@@ -35,7 +35,7 @@ var myCtrl = angular.module('starter.controllers');
 		$scope.results = RechercheService.searchDechet($scope.searchString);
 
 	});
-	
+
 	myCtrl.controller('DechetCatSubCtrl', function($scope, $stateParams, $filter, RechercheService) {
 			var categorie_usuelle = RechercheService.getCategorieDechet($stateParams.code);
 			$scope.categorie = categorie_usuelle;
@@ -47,7 +47,7 @@ var myCtrl = angular.module('starter.controllers');
 
 	myCtrl.controller('DechetDetailCtrl', function($scope, $stateParams, $filter, RechercheService, $translate, $rootScope) {
 
-		// On récupère le déchet qui correspondant au code 
+		// On récupère le déchet qui correspondant au code
 		var dechet = RechercheService.getDechet($stateParams.code);
 
 	  $scope.toggleObject = new Array(20);
@@ -86,7 +86,7 @@ var myCtrl = angular.module('starter.controllers');
 				var conseilsFilter = $filter('filter')(_advicesDatas,
 				// CUSTOM INLINE FILTER
 				function(value, index, fullarray) {
-						// Conseils déchet           
+						// Conseils déchet
 						myindex = conseils.indexOf(value.code);
 						if (myindex >= 0) {
 								return true;
@@ -95,10 +95,13 @@ var myCtrl = angular.module('starter.controllers');
 						}
 				});
 		}
-		
+
 		if (dechet.recyc === "PAS_POUBELLE") {
 				dechet.recyc_color = "orange";
 				dechet.recyc2 = "recyclable_pas_poubelle";
+		} else if (dechet.recyc === "OUI_ET_NON") {
+				dechet.recyc_color = "orange";
+				dechet.recyc2 = "recyclable_oui_et_non";
 		} else if (dechet.recyc === "NON") {
 				dechet.recyc_color = "red";
 				dechet.recyc2 = "recyclable_non";
@@ -106,7 +109,7 @@ var myCtrl = angular.module('starter.controllers');
 				dechet.recyc_color = "green";
 				dechet.recyc2 = "recyclable_oui";
 		}
-	
+
 		//SCOPE
 		$scope.dechet = dechet;
 
