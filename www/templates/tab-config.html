@@ -8,10 +8,10 @@
 	     <!-- RM-LA_LANGUE_05 : On bascule dans une autre langue en cliquant sur un bouton. -->
 		 <div class="item"><a class="button button-calm icon-left ion-settings" ng-click="switchLanguage()">{{'change_language'|translate}}</a></div>
 	</div>
-	
+
 	<div class="card padding">
 	  <div class="item item-divider item-calm">{{"modes_de_collecte" | translate}}</div>
-	  <div class="item"> 
+	  <div class="item">
 		<div ng-show="collectmodsfilter" class="mtn-nowrap">{{'votre_mode_de_tri' | translate}} : {{ collectmodsfilter | translate }}</div>
 		<div ng-bind-html="collectmodsfiltercomp" ng-show="collectmodsfiltercomp" class="mtn-nowrap" ></div>
 		<div ng-show="adressstored" style="font-style:italic" class="mtn-nowrap">{{'adresse_configuree' | translate}} : {{ adressstored | translate }}</div>
@@ -19,21 +19,26 @@
 	  <div class="item"><button class="button button-calm  icon-left ion-settings" ng-click="modal.show()">{{'configurez_selon_votre_adresse'|translate}}</button>
          <script id="nantes/modal-domicile.html" type="text/ng-template">
 		      <ion-modal-view>
-		        
+
 		        <ion-header-bar class="bar bar-header bar-stable">
 		          <h1 class="title">{{'configurez_selon_votre_adresse'|translate}}</h1>
 		          <button class="button button-clear button-primary" ng-click="modal.hide()">{{'cancel'|translate}}</button>
 		        </ion-header-bar>
-		        
+
 		        <ion-content class="padding">
 
 		      <ion-radio ng-model="choice" ng-value="'B'" ng-click="selectAdress('modco_bacbleuhorsnantes,modco_bacjaunehorsnantes','jhabite_hors_nantes')">{{'jhabite_hors_nantes'|translate}}</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'C'" ng-click="selectAdress('modco_bacbleuhorsnantes,modco_bacjaunehorsnantes','jhabite_carquefou')">{{'jhabite_carquefou'|translate}}</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'D'" ng-click="selectAdress('modco_bacbleuhorsnantes,modco_bacjaunehorsnantes','jhabite_orvault')">{{'jhabite_orvault'|translate}}</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'E'" ng-click="selectAdress('modco_bacbleuhorsnantes,modco_bacjaunehorsnantes','jhabite_lamontagne')">{{'jhabite_lamontagne'|translate}}</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'F'" ng-click="selectAdress('modco_bacbleuhorsnantes,modco_bacjaunehorsnantes','jhabite_saintjeandeboiseau')">{{'jhabite_saintjeandeboiseau'|translate}}</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'G'" ng-click="selectAdress('modco_bacbleuhorsnantes,modco_bacjaunehorsnantes','jhabite_hors_nantes')">{{'jhabite_hors_nantes'|translate}}</ion-radio>
 		      <ion-radio ng-model="choice" ng-value="'A'">{{'jhabite_nantes'|translate}}</ion-radio>
-	
+
 		      <div class="card" ng-show="choice=='A'">
-			
+
 				  	<div class="item item-divider item-calm">{{'donnez_votre_rue'|translate}}</div>
-			
+
 				  	<div class="item item-input">
 				    	<label class="item-input-wrapper">
 				     		<input ng-model="searchKey"  type="text" placeholder="{{'donnez_votre_rue_placeholder'|translate}}" ng-keyup="$event.keyCode == 13 && onSearchSubmit(searchKey)">
@@ -42,14 +47,14 @@
 				  	</div>
 				  	<div ng-show="onlyOneResult!=null" style='color:red'>{{'only_one_world'|translate}}</div>
 				</div>
-			
+
 				<div class="card" ng-show="results.length > 0 && choice=='A'">
-			
+
 				  	<div class="item item-divider item-calm">{{'results'|translate}} <span ng-show="results.length > 0" ng-bind="'(' + (results.length) + ')'"></span>
 				  	</div>
-			
+
 				  	<div class="item" ng-show="results.length == 0"> : {{'no_result'|translate}}</div>
-			
+
 				  	<div class="item item-button-right item-text-wrap" ng-repeat="collecte in results | limitTo:maxDisplayResults">
 				       {{::collecte.dcv}}<br/><span ng-show="collecte.ci"> {{::collecte.ci}}<br/></span>
  				       <span ng-bind-html="collecte.jcbj" ng-show="currentlanguage=='fr'||!currentlanguage"></span>
@@ -58,19 +63,19 @@
 			      			<i class="ico ion-arrow-right-c"> {{'select'|translate}}</i>
 			    		</button>
 				  	</div>
-			
+
 				  	<div class="item item-assertive" ng-show="results.length > maxDisplayResults">
 				  		{{'les_xx_premiers_results_affiches'|translate:translatevalues}}<br/>{{'affiner_recherche'|translate}}
 			  		</div>
-			
+
 				</div>
-		      
+
 		        </ion-content>
 		      </ion-modal-view>
 		    </script>
    </div>
 
 	</div>
-	
+
    </ion-content>
 </ion-view>

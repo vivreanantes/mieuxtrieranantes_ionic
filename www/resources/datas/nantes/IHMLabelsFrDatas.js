@@ -184,6 +184,11 @@ var _ihmLabelsFrDatas = {
 	"recherche_solutions": "Recherche de solutions",
 	"affiner_recherche": "Vous pouvez utiliser la recherche par mot-clé pour affiner votre recherche.",
 	"jhabite_nantes": "Ville de Nantes",
+	"jhabite_carquefou": "Ville de Carquefou (Est de la commune, la Savaudière, la Fleuriaye et le Souchais, rue Thomas Edison, 2 allée de Green et 1 boulevard de l’Epinay)",
+	"jhabite_orvault": "Ville de Orvault.",
+	"jhabite_lamontagne":"Après novembre 2019 : Ville de La Montagne",
+	"jhabite_lepellerin":"Après novembre 2019 : Ville de Le Pellerin",
+	"jhabite_saintjeandeboiseau":"Après novembre 2019 : Ville de Saint Jean de Boiseau",
 	"jhabite_hors_nantes": "Autre ville de Nantes Métropole",
 	// RM-LA_LANGUE_03 : Si sa traduction n’existe pas, on affiche le mot en français.
 	"nom_translated": "{{nom}}",
